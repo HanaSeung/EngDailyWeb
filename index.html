@@ -28,16 +28,33 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 /* ── Day 선택 화면 ── */
 .day-select-screen{display:none}
 .day-select-title{font-size:1rem;font-weight:700;margin-bottom:14px;color:var(--text)}
-.day-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(72px, 1fr));gap:8px}
-.day-grid-btn{padding:14px 4px;border:1px solid rgba(0,0,0,.08);border-radius:14px;background:var(--surface);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .25s;box-shadow:var(--shadow);text-align:center}
+.day-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(80px, 1fr));gap:8px}
+.day-grid-btn{padding:10px 4px;border:1px solid rgba(0,0,0,.08);border-radius:14px;background:var(--surface);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .25s;box-shadow:var(--shadow);text-align:center}
 .day-grid-btn:hover{border-color:var(--accent);color:var(--accent);background:#f0f2ff}
 .day-grid-btn:active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.day-grid-btn.done{border-color:rgba(46,170,127,.3);background:rgba(46,170,127,.04)}
+.day-grid-btn.done .day-num{color:var(--green)}
+.day-bar-wrap{display:flex;align-items:center;gap:4px;margin:6px 6px 0;justify-content:center}
+.day-bar{flex:1;height:4px;background:var(--surface2);border-radius:2px;overflow:hidden}
+.day-bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--green))}
+.day-pct{font-size:.55rem;color:var(--text-dim);font-weight:600;min-width:24px;text-align:right}
 
 /* ── 학습 화면 ── */
 .study-screen{display:none}
 
-.btn-back{position:fixed;top:16px;left:16px;z-index:100;padding:8px 14px;border:1px solid rgba(0,0,0,.06);border-radius:12px;background:var(--surface);color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;transition:all .2s;box-shadow:var(--shadow);white-space:nowrap;display:none}
-.btn-back:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn-back{display:none}
+.header-day-link{cursor:pointer;color:var(--green);transition:opacity .2s}
+.header-day-link:active{opacity:.6}
+
+/* 확인 다이얼로그 */
+.confirm-overlay{display:none;position:fixed;inset:0;z-index:300;background:rgba(0,0,0,.3);backdrop-filter:blur(8px);align-items:center;justify-content:center}
+.confirm-overlay.open{display:flex}
+.confirm-box{background:var(--surface);border-radius:var(--card-radius);padding:28px 24px;width:90%;max-width:320px;text-align:center;box-shadow:0 8px 40px rgba(0,0,0,.12)}
+.confirm-msg{font-size:.95rem;margin-bottom:20px;line-height:1.5}
+.confirm-btns{display:flex;gap:10px}
+.confirm-btns button{flex:1;padding:12px;border:none;border-radius:12px;font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer}
+.confirm-yes{background:var(--accent);color:#fff}
+.confirm-no{background:var(--surface2);color:var(--text)}
 
 .day-title{text-align:left;font-size:.84rem;color:var(--accent);font-weight:500;margin-bottom:16px;padding:10px 16px;background:rgba(91,106,191,.06);border-radius:10px;line-height:1.5}
 .day-title-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
@@ -91,7 +108,15 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
 </head>
 <body>
 
-<button class="btn-back" id="btnBack" onclick="goBackToSelect()">← 돌아가기</button>
+<div class="confirm-overlay" id="confirmOverlay">
+  <div class="confirm-box">
+    <div class="confirm-msg">Day 선택 화면으로 돌아가시겠습니까?<br><span style="font-size:.8rem;color:var(--text-dim)">학습 위치는 저장됩니다.</span></div>
+    <div class="confirm-btns">
+      <button class="confirm-yes" onclick="confirmGoBack()">예</button>
+      <button class="confirm-no" onclick="closeConfirm()">아니오</button>
+    </div>
+  </div>
+</div>
 
 <button class="settings-toggle" onclick="toggleSettings()">
   <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15a3 3 0 100-6 3 3 0 000 6z"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
@@ -132,7 +157,7 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
 
 <div class="app">
   <div class="header fade-up">
-    <h1>EngVoca<span id="headerDayLabel"></span></h1>
+    <h1>EngVoca<span id="headerDayLabel" class="header-day-link" onclick="askGoBack()"></span></h1>
     <p>영어단어 학습 프로그램</p>
   </div>
 
@@ -356,10 +381,16 @@ function showDaySelectScreen() {
   document.getElementById('studyScreen').style.display = 'none';
   const grid = document.getElementById('dayGrid');
   grid.innerHTML = '';
+  const positions = getSavedPositions();
   dayData.forEach((d, i) => {
-    const btn = document.createElement('button');
-    btn.className = 'day-grid-btn';
-    btn.textContent = `Day ${d.day}`;
+    const btn = document.createElement('div');
+    const savedPos = positions['day' + d.day] || 0;
+    const total = d.words.length;
+    const hasStarted = positions.hasOwnProperty('day' + d.day);
+    const pct = (!hasStarted || total === 0) ? 0 : Math.round(((savedPos + 1) / total) * 100);
+    const isDone = pct >= 100;
+    btn.className = 'day-grid-btn' + (isDone ? ' done' : '');
+    btn.innerHTML = `<div class="day-num">Day ${d.day}${isDone ? ' ✓' : ''}</div><div class="day-bar-wrap"><div class="day-bar"><div class="day-bar-fill" style="width:${pct}%"></div></div><div class="day-pct">${pct}%</div></div>`;
     btn.onclick = () => enterStudy(i);
     grid.appendChild(btn);
   });
@@ -370,17 +401,31 @@ function enterStudy(index) {
   currentDayIndex = index;
   document.getElementById('daySelectScreen').style.display = 'none';
   document.getElementById('studyScreen').style.display = 'block';
-  document.getElementById('btnBack').style.display = 'block';
   const dayNum = String(dayData[index].day).padStart(2, '0');
-  document.getElementById('headerDayLabel').textContent = ` : Day ${dayNum}`;
+  document.getElementById('headerDayLabel').innerHTML = ` : Day ${dayNum} <span style="font-size:.7em;color:#2c2c3a;-webkit-text-fill-color:#2c2c3a">▼</span>`;
   updateDayTitle();
   startStudy();
 }
 
 // 돌아가기
-function goBackToSelect() {
+function askGoBack() {
+  if (document.getElementById('studyScreen').style.display === 'none') return;
+  document.getElementById('confirmOverlay').classList.add('open');
+}
+function closeConfirm() {
+  document.getElementById('confirmOverlay').classList.remove('open');
+}
+function confirmGoBack() {
+  closeConfirm();
+  savePosition();
   window.speechSynthesis.cancel();
-  document.getElementById('btnBack').style.display = 'none';
+  document.getElementById('headerDayLabel').textContent = '';
+  showDaySelectScreen();
+}
+
+function goBackToSelect() {
+  savePosition();
+  window.speechSynthesis.cancel();
   document.getElementById('headerDayLabel').textContent = '';
   showDaySelectScreen();
 }
@@ -409,8 +454,29 @@ function startStudy() {
   let pool = [...dayData[currentDayIndex].words];
   if (order === 'random') pool = shuffle(pool);
   studyWords = pool;
-  currentIndex = 0;
+  // 저장된 학습 위치 복원
+  const savedPos = getSavedPosition(dayData[currentDayIndex].day);
+  if (savedPos >= 0 && savedPos < studyWords.length) {
+    currentIndex = savedPos;
+  } else {
+    currentIndex = 0;
+  }
   showCard();
+}
+
+// 학습 위치 저장/복원
+function getSavedPositions() {
+  try { return JSON.parse(localStorage.getItem('engvoca_positions') || '{}'); } catch { return {}; }
+}
+function getSavedPosition(dayNum) {
+  const positions = getSavedPositions();
+  return positions['day' + dayNum] !== undefined ? positions['day' + dayNum] : 0;
+}
+function savePosition() {
+  const positions = getSavedPositions();
+  const dayNum = dayData[currentDayIndex].day;
+  positions['day' + dayNum] = currentIndex;
+  localStorage.setItem('engvoca_positions', JSON.stringify(positions));
 }
 
 function shuffle(arr) {
@@ -436,7 +502,11 @@ function showCard() {
   document.getElementById('btnFirst').disabled = currentIndex === 0;
   document.getElementById('btnPrev').disabled = currentIndex === 0;
   document.getElementById('btnNext').disabled = currentIndex >= studyWords.length - 1;
-  document.getElementById('btnLast').disabled = currentIndex >= studyWords.length - 1;
+  const dayNum = dayData[currentDayIndex].day;
+  const positions = getSavedPositions();
+  const savedPos = positions['day' + dayNum];
+  const wasCompleted = (savedPos !== undefined && savedPos >= studyWords.length - 1);
+  document.getElementById('btnLast').disabled = !wasCompleted;
 }
 
 function goFirst() { currentIndex = 0; showCard(); }
@@ -475,7 +545,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Home') goFirst();
   if (e.key === 'End') goLast();
   if (e.key === ' ') { e.preventDefault(); speakWord(null); }
-  if (e.key === 'Escape' || e.key === 'Backspace') goBackToSelect();
+  if (e.key === 'Escape' || e.key === 'Backspace') askGoBack();
 });
 
 loadAllDays();
