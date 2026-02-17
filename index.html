@@ -174,13 +174,16 @@ function isStarred(word) { return getStarredWords().includes(word); }
 
 // TTS 음성
 let voices = [];
+let voiceLoadAttempts = 0;
 function loadVoices() {
-  voices = speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
+  const allVoices = speechSynthesis.getVoices();
+  voices = allVoices.filter(v => /^en[-_]/i.test(v.lang));
   const sel = document.getElementById('voiceSelect');
   sel.innerHTML = '';
-  if (voices.length === 0) {
-    const opt = document.createElement('option'); opt.textContent = '기본 음성'; sel.appendChild(opt); return;
-  }
+  const defaultOpt = document.createElement('option');
+  defaultOpt.value = '-1';
+  defaultOpt.textContent = '📱 기기 기본 음성';
+  sel.appendChild(defaultOpt);
   voices.forEach((v, i) => {
     const opt = document.createElement('option');
     const female = /Female|female|Samantha|Victoria|Zira|Hazel|Susan|Karen|Moira|Fiona/i.test(v.name);
@@ -189,24 +192,38 @@ function loadVoices() {
     opt.textContent = `${female ? '👩 ' : male ? '👨 ' : ''}${v.name} (${v.lang})`;
     sel.appendChild(opt);
   });
+  // 모바일에서 음성 로드가 늦을 수 있으므로 재시도
+  if (voices.length === 0 && voiceLoadAttempts < 10) {
+    voiceLoadAttempts++;
+    setTimeout(loadVoices, 300);
+  }
 }
-speechSynthesis.onvoiceschanged = loadVoices;
-loadVoices();
-function getSelectedVoice() { const idx = parseInt(document.getElementById('voiceSelect').value); return voices[idx] || null; }
+if (typeof speechSynthesis !== 'undefined') {
+  speechSynthesis.onvoiceschanged = loadVoices;
+  loadVoices();
+}
+function getSelectedVoice() {
+  const idx = parseInt(document.getElementById('voiceSelect').value);
+  if (idx < 0 || isNaN(idx)) return null;
+  return voices[idx] || null;
+}
 
 function speakWord(e) {
-  if (e) e.stopPropagation();
+  if (e) { e.stopPropagation(); e.preventDefault(); }
   const word = studyWords[currentIndex]; if (!word) return;
   const btn = document.getElementById('btnSpeak');
-  const synth = window.speechSynthesis; synth.cancel();
+  const synth = window.speechSynthesis;
+  synth.cancel();
   const utter = new SpeechSynthesisUtterance(word.en);
   utter.lang = 'en-US';
-  const voice = getSelectedVoice(); if (voice) utter.voice = voice;
+  const voice = getSelectedVoice();
+  if (voice) utter.voice = voice;
   if (speakCount === 0) { utter.rate = 1.0; speakCount = 1; }
   else { utter.rate = parseFloat(document.getElementById('slowSpeed').value) || 0.5; speakCount = 0; }
   btn.classList.add('speaking');
   utter.onend = () => btn.classList.remove('speaking');
   utter.onerror = () => btn.classList.remove('speaking');
+  setTimeout(() => btn.classList.remove('speaking'), 3000);
   synth.speak(utter);
 }
 
