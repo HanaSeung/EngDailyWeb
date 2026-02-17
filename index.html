@@ -18,9 +18,12 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .header h1 span{font-family:'DM Serif Display',serif;font-size:1.4rem}
 .header p{color:var(--text-dim);font-size:.85rem;margin-top:4px}
 
-.loading{text-align:center;padding:60px 20px;color:var(--text-dim)}
-.loading-spinner{width:40px;height:40px;border:3px solid var(--surface2);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px}
-@keyframes spin{to{transform:rotate(360deg)}}
+.loading{position:fixed;inset:0;z-index:300;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+.loading-logo{font-family:'DM Serif Display',serif;font-size:3rem;letter-spacing:3px;background:linear-gradient(135deg,var(--accent),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.loading-sub{color:var(--text-dim);font-size:.9rem}
+.loading-status{color:var(--accent);font-size:.82rem;margin-top:16px;min-height:1.2em}
+.loading-bar{width:200px;height:4px;background:var(--surface2);border-radius:2px;overflow:hidden;margin-top:6px}
+.loading-bar-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--green));border-radius:2px;transition:width .3s ease;width:0%}
 
 /* ── Day 선택 화면 ── */
 .day-select-screen{display:none}
@@ -133,9 +136,11 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
     <p>영어단어 학습 프로그램</p>
   </div>
 
-  <div class="loading" id="loadingScreen">
-    <div class="loading-spinner"></div>
-    <div>Day 파일을 불러오는 중...</div>
+  <div class="loading" id="loadingScreen" style="display:none">
+    <div class="loading-logo">EngVoca</div>
+    <div class="loading-sub">영어단어 학습 프로그램</div>
+    <div class="loading-status" id="loadingStatus">데이터 확인 중...</div>
+    <div class="loading-bar"><div class="loading-bar-fill" id="loadingBarFill"></div></div>
   </div>
 
   <!-- Day 선택 화면 -->
@@ -259,29 +264,91 @@ const embeddedDays = [
   {"day":1,"title":"pro-/pre-, in-, out-/ut-/il-","words":[{"en":"progress","ipa":"/ˈprɑːɡres/","meanings":[{"pos":"명","defs":["진보, 발전"]},{"pos":"동","defs":["전진하다, 발달하다"]}]},{"en":"propose","ipa":"/prəˈpoʊz/","meanings":[{"pos":"동","defs":["제안하다","(결혼을) 신청하다"]}]}]}
 ];
 
-// Day 로드
+// Day 로드 (버전 체크 + 캐시)
+function setLoadingStatus(text, pct) {
+  document.getElementById('loadingStatus').textContent = text;
+  document.getElementById('loadingBarFill').style.width = pct + '%';
+}
+
 async function loadAllDays() {
-  document.getElementById('loadingScreen').style.display = 'block';
+  document.getElementById('loadingScreen').style.display = 'flex';
   document.getElementById('daySelectScreen').style.display = 'none';
   document.getElementById('studyScreen').style.display = 'none';
   dayData = []; allWords = [];
-  let dayNum = 1;
-  while (true) {
-    try {
-      const res = await fetch(`day/day${dayNum}.json`);
-      if (!res.ok) break;
-      const data = await res.json();
-      dayData.push({ day: dayNum, title: data.title || '', words: data.words || [] });
-      dayNum++;
-    } catch (e) { break; }
+
+  setLoadingStatus('버전 확인 중...', 10);
+
+  let needFetch = true;
+  try {
+    const vRes = await fetch('version.json?t=' + Date.now());
+    if (vRes.ok) {
+      const vData = await vRes.json();
+      const remoteKey = vData.version + '-' + vData.count;
+      const localKey = localStorage.getItem('engvoca_version') || '';
+      const cached = localStorage.getItem('engvoca_daydata');
+      if (remoteKey === localKey && cached) {
+        setLoadingStatus('저장된 데이터 로드 중...', 80);
+        dayData = JSON.parse(cached);
+        needFetch = false;
+      } else {
+        setLoadingStatus('새 데이터 다운로드 중...', 20);
+        let dayNum = 1;
+        while (true) {
+          try {
+            const res = await fetch('day/day' + dayNum + '.json?t=' + Date.now());
+            if (!res.ok) break;
+            const data = await res.json();
+            dayData.push({ day: dayNum, title: data.title || '', words: data.words || [] });
+            setLoadingStatus('다운로드 중... Day ' + dayNum, 20 + Math.min(dayNum * 2, 60));
+            dayNum++;
+          } catch (e) { break; }
+        }
+        if (dayData.length > 0) {
+          setLoadingStatus('데이터 저장 중...', 90);
+          localStorage.setItem('engvoca_daydata', JSON.stringify(dayData));
+          localStorage.setItem('engvoca_version', remoteKey);
+        }
+        needFetch = false;
+      }
+    }
+  } catch (e) {
+    const cached = localStorage.getItem('engvoca_daydata');
+    if (cached) {
+      setLoadingStatus('오프라인 모드 — 저장된 데이터 사용', 80);
+      dayData = JSON.parse(cached);
+      needFetch = false;
+    }
   }
+
+  if (needFetch) {
+    setLoadingStatus('Day 파일 불러오는 중...', 20);
+    let dayNum = 1;
+    while (true) {
+      try {
+        const res = await fetch('day/day' + dayNum + '.json');
+        if (!res.ok) break;
+        const data = await res.json();
+        dayData.push({ day: dayNum, title: data.title || '', words: data.words || [] });
+        setLoadingStatus('불러오는 중... Day ' + dayNum, 20 + Math.min(dayNum * 2, 60));
+        dayNum++;
+      } catch (e) { break; }
+    }
+  }
+
   if (dayData.length === 0) dayData = embeddedDays;
   allWords = []; dayData.forEach(d => { allWords = allWords.concat(d.words); });
+  setLoadingStatus('완료!', 100);
+  await new Promise(r => setTimeout(r, 400));
   document.getElementById('loadingScreen').style.display = 'none';
   showDaySelectScreen();
 }
 
-async function reloadDays() { toggleSettings(); await loadAllDays(); }
+async function reloadDays() {
+  toggleSettings();
+  localStorage.removeItem('engvoca_version');
+  localStorage.removeItem('engvoca_daydata');
+  await loadAllDays();
+}
 
 // Day 선택 화면
 function showDaySelectScreen() {
