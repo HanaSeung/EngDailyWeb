@@ -1005,6 +1005,16 @@ let quizAnswered = false;
 let quizTimer = null;
 let isWrongNoteMode = false;
 
+// ── 오답 Day 순환 카운터 ──
+function getWrongDayIndex() {
+  try { return parseInt(localStorage.getItem('engvoca_wrongDayIdx') || '0', 10); } catch { return 0; }
+}
+function advanceWrongDayIndex() {
+  let idx = getWrongDayIndex() + 1;
+  if (idx >= dayData.length) idx = 0;
+  localStorage.setItem('engvoca_wrongDayIdx', String(idx));
+}
+
 function startQuiz() {
   playSound('daySelect');
   document.getElementById('studyScreen').style.display = 'none';
@@ -1101,8 +1111,8 @@ function getTotalWrongCount() {
 
 // 오답 추출: 같은 Day 우선, 부족하면 다른 Day에서 보충
 function getWrongChoices(correctWord, count) {
-  const currentDayWords = dayData[currentDayIndex].words.filter(w => w.en !== correctWord.en);
-  const otherWords = allWords.filter(w => w.en !== correctWord.en && !currentDayWords.some(cw => cw.en === w.en));
+  const wrongDayIdx = getWrongDayIndex();
+  const wrongDayWords = dayData[wrongDayIdx] ? dayData[wrongDayIdx].words.filter(w => w.en !== correctWord.en) : [];
 
   // 같은 품사 우선 정렬
   const correctPos = getPosList(correctWord);
@@ -1112,8 +1122,11 @@ function getWrongChoices(correctWord, count) {
     return aMatch - bMatch;
   };
 
-  let pool = shuffle([...currentDayWords]).sort(sortByPos);
+  let pool = shuffle([...wrongDayWords]).sort(sortByPos);
+
+  // 오답 Day에서 부족하면 전체에서 보충
   if (pool.length < count) {
+    const otherWords = allWords.filter(w => w.en !== correctWord.en && !wrongDayWords.some(wd => wd.en === w.en));
     pool = pool.concat(shuffle([...otherWords]).sort(sortByPos));
   }
   return pool.slice(0, count);
@@ -1364,6 +1377,7 @@ function autoAdvance() {
 }
 
 function showQuizResult() {
+  advanceWrongDayIndex();
   document.getElementById('quizScreen').style.display = 'none';
   document.getElementById('quizResultScreen').style.display = 'block';
 
