@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EngVoca - 영어단어 학습</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;600&family=Noto+Sans:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f5f7fb;--surface:#ffffff;--surface2:#eef1f6;--accent:#5b6abf;--accent-light:#7c8ad9;--green:#2eaa7f;--red:#d9534f;--text:#2c2c3a;--text-dim:#7a8194;--card-radius:20px;--shadow:0 2px 12px rgba(0,0,0,.06)}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -21,17 +21,26 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .loading-spinner{width:40px;height:40px;border:3px solid var(--surface2);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-.day-selector{margin-bottom:16px}
-.day-tabs{display:flex;gap:6px;overflow-x:auto;padding:4px 0;scrollbar-width:none}
-.day-tabs::-webkit-scrollbar{display:none}
-.day-tab{flex-shrink:0;padding:10px 18px;border:1px solid rgba(0,0,0,.08);border-radius:12px;background:var(--surface);color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;transition:all .25s;white-space:nowrap;box-shadow:var(--shadow)}
-.day-tab:hover{border-color:var(--accent);color:var(--text)}
-.day-tab.active{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 3px 12px rgba(91,106,191,.3)}
-.day-title{text-align:left;font-size:.84rem;color:var(--accent);font-weight:500;margin-top:10px;padding:10px 16px;background:rgba(91,106,191,.06);border-radius:10px;line-height:1.5}
+/* ── Day 선택 화면 ── */
+.day-select-screen{display:none}
+.day-select-title{font-size:1rem;font-weight:700;margin-bottom:14px;color:var(--text)}
+.day-grid{display:grid;grid-template-columns:repeat(auto-fill, minmax(72px, 1fr));gap:8px}
+.day-grid-btn{padding:14px 4px;border:1px solid rgba(0,0,0,.08);border-radius:14px;background:var(--surface);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .25s;box-shadow:var(--shadow);text-align:center}
+.day-grid-btn:hover{border-color:var(--accent);color:var(--accent);background:#f0f2ff}
+.day-grid-btn:active{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+/* ── 학습 화면 ── */
+.study-screen{display:none}
+
+.study-header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.btn-back{padding:8px 14px;border:1px solid rgba(0,0,0,.08);border-radius:10px;background:var(--surface);color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;transition:all .2s;box-shadow:var(--shadow);white-space:nowrap}
+.btn-back:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.study-day-label{font-size:1rem;font-weight:700;color:var(--accent)}
+
+.day-title{text-align:left;font-size:.84rem;color:var(--accent);font-weight:500;margin-bottom:16px;padding:10px 16px;background:rgba(91,106,191,.06);border-radius:10px;line-height:1.5}
 .day-title-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
 .day-title-item{display:flex;gap:4px}
 .day-title-item strong{color:var(--text);min-width:60px;display:inline-block;font-weight:700}
-.day-count{text-align:center;font-size:.72rem;color:var(--text-dim);margin-top:4px}
 
 /* Card */
 .card-area{margin-bottom:16px}
@@ -42,7 +51,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-btn.speaking{color:var(--accent);border-color:var(--accent);background:rgba(91,106,191,.08)}
 .card-btn.starred{color:#f0a500;border-color:#f0a500;background:rgba(240,165,0,.08)}
 .card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;text-align:center;margin-bottom:6px}
-.card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:'JetBrains Mono',monospace}
+.card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:'Noto Sans',sans-serif}
 .card-meanings{width:100%}
 .meaning-group{width:100%;margin-bottom:14px}.meaning-group:last-child{margin-bottom:0}
 .pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:6px}
@@ -76,7 +85,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .fade-up{animation:fadeUp .4s ease both}
 
-@media(max-width:400px){.card-word{font-size:2rem}.day-tab{padding:8px 14px;font-size:.78rem}.card-nav button{font-size:.78rem;padding:11px 2px}}
+@media(max-width:400px){.card-word{font-size:2rem}.card-nav button{font-size:.78rem;padding:11px 2px}.day-grid{grid-template-columns:repeat(auto-fill, minmax(64px, 1fr));gap:6px}.day-grid-btn{padding:12px 2px;font-size:.8rem}}
 </style>
 </head>
 <body>
@@ -127,12 +136,20 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
     <div>Day 파일을 불러오는 중...</div>
   </div>
 
-  <div id="mainContent" style="display:none">
-    <div class="day-selector fade-up" style="animation-delay:.05s">
-      <div class="day-tabs" id="dayTabs"></div>
-      <div class="day-title" id="dayTitle"></div>
-      <div class="day-count" id="dayCount"></div>
+  <!-- Day 선택 화면 -->
+  <div class="day-select-screen" id="daySelectScreen">
+    <div class="day-select-title fade-up">📚 학습할 Day를 선택하세요</div>
+    <div class="day-grid fade-up" style="animation-delay:.1s" id="dayGrid"></div>
+  </div>
+
+  <!-- 학습 화면 -->
+  <div class="study-screen" id="studyScreen">
+    <div class="study-header fade-up">
+      <button class="btn-back" onclick="goBackToSelect()">← 돌아가기</button>
+      <div class="study-day-label" id="studyDayLabel">Day 1</div>
     </div>
+
+    <div class="day-title" id="dayTitle" style="display:none"></div>
 
     <div class="card-area fade-up" style="animation-delay:.1s">
       <div class="card" id="card">
@@ -192,7 +209,6 @@ function loadVoices() {
     opt.textContent = `${female ? '👩 ' : male ? '👨 ' : ''}${v.name} (${v.lang})`;
     sel.appendChild(opt);
   });
-  // 모바일에서 음성 로드가 늦을 수 있으므로 재시도
   if (voices.length === 0 && voiceLoadAttempts < 10) {
     voiceLoadAttempts++;
     setTimeout(loadVoices, 300);
@@ -212,8 +228,7 @@ function speakWord(e) {
   if (e) { e.stopPropagation(); e.preventDefault(); }
   const word = studyWords[currentIndex]; if (!word) return;
   const btn = document.getElementById('btnSpeak');
-  const synth = window.speechSynthesis;
-  synth.cancel();
+  const synth = window.speechSynthesis; synth.cancel();
   const utter = new SpeechSynthesisUtterance(word.en);
   utter.lang = 'en-US';
   const voice = getSelectedVoice();
@@ -228,7 +243,7 @@ function speakWord(e) {
 }
 
 function toggleStar(e) {
-  if (e) e.stopPropagation();
+  if (e) { e.stopPropagation(); e.preventDefault(); }
   const word = studyWords[currentIndex]; if (!word) return;
   let starred = getStarredWords();
   const btn = document.getElementById('btnStar');
@@ -250,7 +265,8 @@ const embeddedDays = [
 // Day 로드
 async function loadAllDays() {
   document.getElementById('loadingScreen').style.display = 'block';
-  document.getElementById('mainContent').style.display = 'none';
+  document.getElementById('daySelectScreen').style.display = 'none';
+  document.getElementById('studyScreen').style.display = 'none';
   dayData = []; allWords = [];
   let dayNum = 1;
   while (true) {
@@ -265,34 +281,40 @@ async function loadAllDays() {
   if (dayData.length === 0) dayData = embeddedDays;
   allWords = []; dayData.forEach(d => { allWords = allWords.concat(d.words); });
   document.getElementById('loadingScreen').style.display = 'none';
-  document.getElementById('mainContent').style.display = 'block';
-  currentDayIndex = 0;
-  buildDayUI();
-  startStudy();
+  showDaySelectScreen();
 }
 
 async function reloadDays() { toggleSettings(); await loadAllDays(); }
 
-function buildDayUI() {
-  const tabsEl = document.getElementById('dayTabs');
-  tabsEl.innerHTML = '';
+// Day 선택 화면
+function showDaySelectScreen() {
+  document.getElementById('daySelectScreen').style.display = 'block';
+  document.getElementById('studyScreen').style.display = 'none';
+  const grid = document.getElementById('dayGrid');
+  grid.innerHTML = '';
   dayData.forEach((d, i) => {
     const btn = document.createElement('button');
-    btn.className = 'day-tab' + (i === currentDayIndex ? ' active' : '');
+    btn.className = 'day-grid-btn';
     btn.textContent = `Day ${d.day}`;
-    btn.onclick = () => selectDay(i);
-    tabsEl.appendChild(btn);
+    btn.onclick = () => enterStudy(i);
+    grid.appendChild(btn);
   });
-  updateDayTitle();
 }
 
-function selectDay(index) {
+// 학습 화면 진입
+function enterStudy(index) {
   currentDayIndex = index;
-  document.querySelectorAll('.day-tab').forEach((t, i) => t.classList.toggle('active', i === index));
-  const activeTab = document.querySelectorAll('.day-tab')[index];
-  if (activeTab) activeTab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+  document.getElementById('daySelectScreen').style.display = 'none';
+  document.getElementById('studyScreen').style.display = 'block';
+  document.getElementById('studyDayLabel').textContent = `Day ${dayData[index].day}`;
   updateDayTitle();
   startStudy();
+}
+
+// 돌아가기
+function goBackToSelect() {
+  window.speechSynthesis.cancel();
+  showDaySelectScreen();
 }
 
 function updateDayTitle() {
@@ -312,7 +334,6 @@ function updateDayTitle() {
     el.innerHTML = '';
     el.style.display = 'none';
   }
-  document.getElementById('dayCount').textContent = `${d.words.length}단어`;
 }
 
 function startStudy() {
@@ -335,11 +356,9 @@ function showCard() {
   speakCount = 0;
   document.getElementById('cardWord').textContent = word.en;
   document.getElementById('cardIpa').textContent = word.ipa || '';
-
   const btnStar = document.getElementById('btnStar');
   if (isStarred(word.en)) { btnStar.textContent = '★'; btnStar.classList.add('starred'); }
   else { btnStar.textContent = '☆'; btnStar.classList.remove('starred'); }
-
   let html = '';
   word.meanings.forEach(m => {
     html += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><ul class="def-list">`;
@@ -348,7 +367,6 @@ function showCard() {
   });
   document.getElementById('cardMeanings').innerHTML = html;
   document.getElementById('cardCounter').textContent = `${currentIndex + 1} / ${studyWords.length}`;
-
   document.getElementById('btnFirst').disabled = currentIndex === 0;
   document.getElementById('btnPrev').disabled = currentIndex === 0;
   document.getElementById('btnNext').disabled = currentIndex >= studyWords.length - 1;
@@ -365,11 +383,13 @@ document.getElementById('settingsPanel').addEventListener('click', function(e) {
 
 document.addEventListener('keydown', function(e) {
   if (document.getElementById('settingsPanel').classList.contains('open')) return;
+  if (document.getElementById('studyScreen').style.display === 'none') return;
   if (e.key === 'ArrowLeft') goPrev();
   if (e.key === 'ArrowRight') goNext();
   if (e.key === 'Home') goFirst();
   if (e.key === 'End') goLast();
   if (e.key === ' ') { e.preventDefault(); speakWord(null); }
+  if (e.key === 'Escape' || e.key === 'Backspace') goBackToSelect();
 });
 
 loadAllDays();
