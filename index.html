@@ -29,7 +29,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .day-tab{flex-shrink:0;padding:10px 18px;border:1px solid rgba(0,0,0,.08);border-radius:12px;background:var(--surface);color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;transition:all .25s;white-space:nowrap;box-shadow:var(--shadow)}
 .day-tab:hover{border-color:var(--accent);color:var(--text)}
 .day-tab.active{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 3px 12px rgba(91,106,191,.3)}
-.day-title{text-align:center;font-size:.8rem;color:var(--text-dim);margin-top:8px;min-height:1.2em}
+.day-title{text-align:center;font-size:.88rem;color:var(--accent);font-weight:500;margin-top:10px;min-height:1.4em;padding:8px 16px;background:rgba(91,106,191,.06);border-radius:10px;line-height:1.4}
 .day-count{text-align:center;font-size:.72rem;color:var(--text-dim);margin-top:4px}
 
 .stats-bar{display:flex;gap:8px;margin-bottom:16px}
@@ -451,7 +451,14 @@ function selectDayFromDropdown() { selectDay(parseInt(document.getElementById('d
 
 function updateDayTitle() {
   const d = dayData[currentDayIndex];
-  document.getElementById('dayTitle').textContent = d.title ? `📌 ${d.title}` : '';
+  const el = document.getElementById('dayTitle');
+  if (d.title) {
+    el.textContent = `📌 ${d.title}`;
+    el.style.display = 'block';
+  } else {
+    el.textContent = '';
+    el.style.display = 'none';
+  }
   document.getElementById('dayCount').textContent = `${d.words.length}단어`;
 }
 
