@@ -150,9 +150,9 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
         <option value="sequential">순서대로</option>
       </select>
     </div>
-    <div class="setting-row">
-      <div class="setting-label">발음 목소리<span>TTS 음성 선택</span></div>
-      <select class="setting-select" id="voiceSelect"></select>
+    <div class="setting-row" style="flex-direction:column;align-items:stretch">
+      <div class="setting-label" style="margin-bottom:8px">발음 목소리 (TTS 음성 선택)</div>
+      <select class="setting-select" id="voiceSelect" style="width:100%"></select>
     </div>
     <div class="setting-row">
       <div class="setting-label">느린 발음 속도<span>두 번째 탭 시 재생 속도</span></div>
@@ -424,16 +424,6 @@ function buildDayUI() {
     btn.onclick = () => selectDay(i);
     tabsEl.appendChild(btn);
   });
-
-  const sel = document.getElementById('daySelect');
-  sel.innerHTML = '';
-  dayData.forEach((d, i) => {
-    const opt = document.createElement('option');
-    opt.value = i;
-    opt.textContent = `Day ${d.day} — ${d.title || ''}`;
-    if (i === currentDayIndex) opt.selected = true;
-    sel.appendChild(opt);
-  });
   updateDayTitle();
 }
 
@@ -442,12 +432,11 @@ function selectDay(index) {
   document.querySelectorAll('.day-tab').forEach((t, i) => t.classList.toggle('active', i === index));
   const activeTab = document.querySelectorAll('.day-tab')[index];
   if (activeTab) activeTab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-  document.getElementById('daySelect').value = index;
   updateDayTitle();
   startStudy();
 }
 
-function selectDayFromDropdown() { selectDay(parseInt(document.getElementById('daySelect').value)); }
+function selectDayFromDropdown() { }
 
 function updateDayTitle() {
   const d = dayData[currentDayIndex];

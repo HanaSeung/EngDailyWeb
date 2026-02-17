@@ -1,0 +1,28 @@
+{
+  "title": "fore- ~앞에,전에 / over- 넘어,~너머,위에,과도하게 / extra- ~을 넘어서,~밖의 / under- 아래에",
+  "words": [
+    {"en":"forehead","ipa":"/ˈfɔːrhed/","meanings":[{"pos":"명","defs":["이마"]}]},
+    {"en":"forefather","ipa":"/ˈfɔːrfɑːðər/","meanings":[{"pos":"명","defs":["조상, 선조"]}]},
+    {"en":"foresee","ipa":"/fɔːrˈsiː/","meanings":[{"pos":"동","defs":["예견하다, 내다보다"]}]},
+    {"en":"foremost","ipa":"/ˈfɔːrmoʊst/","meanings":[{"pos":"형","defs":["가장 중요한, 맨 앞의"]}]},
+    {"en":"former","ipa":"/ˈfɔːrmər/","meanings":[{"pos":"형","defs":["이전의, 예전의","(둘 중) 전자의"]}]},
+    {"en":"overcome","ipa":"/ˌoʊvərˈkʌm/","meanings":[{"pos":"동","defs":["극복하다, 이겨내다"]}]},
+    {"en":"overlook","ipa":"/ˌoʊvərˈlʊk/","meanings":[{"pos":"동","defs":["간과하다, 못 본 체하다","내려다보다"]}]},
+    {"en":"overseas","ipa":"/ˌoʊvərˈsiːz/","meanings":[{"pos":"부","defs":["해외로"]},{"pos":"형","defs":["해외의, 외국의"]}]},
+    {"en":"overwhelm","ipa":"/ˌoʊvərˈwelm/","meanings":[{"pos":"동","defs":["압도하다","당황하게 하다"]}]},
+    {"en":"overall","ipa":"/ˌoʊvərˈɔːl/","meanings":[{"pos":"형","defs":["전체의, 전반적인"]},{"pos":"부","defs":["전반적으로"]}]},
+    {"en":"overhead","ipa":"/ˌoʊvərˈhed/","meanings":[{"pos":"부","defs":["머리 위에"]},{"pos":"형","defs":["머리 위의"]}]},
+    {"en":"overtake","ipa":"/ˌoʊvərˈteɪk/","meanings":[{"pos":"동","defs":["추월하다","(재난 등이) 닥치다, 엄습하다"]}]},
+    {"en":"overlap","ipa":"/ˌoʊvərˈlæp/","meanings":[{"pos":"동","defs":["겹치다, 중복되다"]},{"pos":"명","defs":["중복, 공통 부분"]}]},
+    {"en":"overflow","ipa":"/ˌoʊvərˈfloʊ/","meanings":[{"pos":"동","defs":["넘쳐흐르다, 범람하다"]},{"pos":"명","defs":["넘침, 범람"]}]},
+    {"en":"extraordinary","ipa":"/ɪkˈstrɔːrdəneri/","meanings":[{"pos":"형","defs":["비범한, 특별한","기이한"]}]},
+    {"en":"extracurricular","ipa":"/ˌekstrəkəˈrɪkjələr/","meanings":[{"pos":"형","defs":["정규 교과 과정 이외의, 과외의"]}]},
+    {"en":"extraterrestrial","ipa":"/ˌekstrətəˈrestriəl/","meanings":[{"pos":"형","defs":["지구 밖의, 외계의"]},{"pos":"명","defs":["외계인"]}]},
+    {"en":"extrovert","ipa":"/ˈekstrəvɜːrt/","meanings":[{"pos":"명","defs":["외향적인 사람"]}]},
+    {"en":"external","ipa":"/ɪkˈstɜːrnl/","meanings":[{"pos":"형","defs":["외부의, 밖의"]}]},
+    {"en":"undergo","ipa":"/ˌʌndərˈɡoʊ/","meanings":[{"pos":"동","defs":["(변화·시련 등을) 겪다, 받다"]}]},
+    {"en":"undertake","ipa":"/ˌʌndərˈteɪk/","meanings":[{"pos":"동","defs":["(책임·일을) 맡다","약속하다, 동의하다"]}]},
+    {"en":"undergraduate","ipa":"/ˌʌndərˈɡrædʒuət/","meanings":[{"pos":"명","defs":["대학생, 학부생"]}]},
+    {"en":"underlying","ipa":"/ˌʌndərˈlaɪɪŋ/","meanings":[{"pos":"형","defs":["근본적인","밑에 있는"]}]}
+  ]
+}
