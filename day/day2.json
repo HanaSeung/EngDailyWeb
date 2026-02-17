@@ -1,0 +1,29 @@
+{
+  "title": "re- (다시, 뒤에) / de- (아래로, 떨어죠, '반대', '강조')",
+  "words": [
+    {"en":"recall","ipa":"/rɪˈkɔːl/","meanings":[{"pos":"동","defs":["기억해 내다","소환하다","(결함 제품을) 회수하다"]},{"pos":"명","defs":["기억","소환","리콜"]}]},
+    {"en":"record","ipa":"/rɪˈkɔːrd/ · /ˈrekərd/","meanings":[{"pos":"동","defs":["기록하다, 녹음(녹화)하다"]},{"pos":"명","defs":["기록, 증언, 음반"]}]},
+    {"en":"recover","ipa":"/rɪˈkʌvər/","meanings":[{"pos":"동","defs":["(건강 등을) 회복하다","되찾다, 만회하다"]}]},
+    {"en":"recycle","ipa":"/ˌriːˈsaɪkl/","meanings":[{"pos":"동","defs":["재활용하다, 재생하다"]}]},
+    {"en":"research","ipa":"/rɪˈsɜːrtʃ/","meanings":[{"pos":"동","defs":["연구하다, 조사하다"]},{"pos":"명","defs":["연구, 조사"]}]},
+    {"en":"replace","ipa":"/rɪˈpleɪs/","meanings":[{"pos":"동","defs":["대신하다, 대체하다","(원래 자리에) 되돌려 놓다"]}]},
+    {"en":"reproduce","ipa":"/ˌriːprəˈduːs/","meanings":[{"pos":"동","defs":["복제(복사)하다","번식하다","재현하다"]}]},
+    {"en":"reveal","ipa":"/rɪˈviːl/","meanings":[{"pos":"동","defs":["드러내다, 폭로하다"]}]},
+    {"en":"revenue","ipa":"/ˈrevənuː/","meanings":[{"pos":"명","defs":["(국가·기관의) 수익, 세입, 매출"]}]},
+    {"en":"revive","ipa":"/rɪˈvaɪv/","meanings":[{"pos":"동","defs":["활기를 되찾다, 소생시키다","재상연하다"]}]},
+    {"en":"remove","ipa":"/rɪˈmuːv/","meanings":[{"pos":"동","defs":["제거하다, 없애다","이사하다","해고하다"]}]},
+    {"en":"retire","ipa":"/rɪˈtaɪər/","meanings":[{"pos":"동","defs":["은퇴하다, 퇴직하다","물러나다"]}]},
+    {"en":"remain","ipa":"/rɪˈmeɪn/","meanings":[{"pos":"동","defs":["여전히 ~인 채로 남다","머무르다"]},{"pos":"명","defs":["(남은) 것, 유적, 유해"]}]},
+    {"en":"represent","ipa":"/ˌreprɪˈzent/","meanings":[{"pos":"동","defs":["대표하다, 대변하다","나타내다, 상징하다"]}]},
+    {"en":"depress","ipa":"/dɪˈpres/","meanings":[{"pos":"동","defs":["낙담시키다, 우울하게 하다","침체시키다","누르다"]}]},
+    {"en":"depart","ipa":"/dɪˈpɑːrt/","meanings":[{"pos":"동","defs":["떠나다, 출발하다"]}]},
+    {"en":"derive","ipa":"/dɪˈraɪv/","meanings":[{"pos":"동","defs":["(~에서) 끌어내다, 얻다","유래하다"]}]},
+    {"en":"detect","ipa":"/dɪˈtekt/","meanings":[{"pos":"동","defs":["발견하다, 탐지하다, 찾아내다"]}]},
+    {"en":"detach","ipa":"/dɪˈtætʃ/","meanings":[{"pos":"동","defs":["떼어내다, 분리하다"]}]},
+    {"en":"develop","ipa":"/dɪˈveləp/","meanings":[{"pos":"동","defs":["발달(발전)하다","현상하다","(병이) 생기다"]}]},
+    {"en":"declare","ipa":"/dɪˈkler/","meanings":[{"pos":"동","defs":["선언하다, 공포하다","(세관에) 신고하다"]}]},
+    {"en":"debate","ipa":"/dɪˈbeɪt/","meanings":[{"pos":"동","defs":["토론(논쟁)하다, 숙고하다"]},{"pos":"명","defs":["토론, 논쟁"]}]},
+    {"en":"demonstrate","ipa":"/ˈdemənstreɪt/","meanings":[{"pos":"동","defs":["증명하다, 입증하다","설명하다","시위하다"]}]},
+    {"en":"depict","ipa":"/dɪˈpɪkt/","meanings":[{"pos":"동","defs":["(그림·말 등으로) 그리다, 묘사하다"]}]}
+  ]
+}

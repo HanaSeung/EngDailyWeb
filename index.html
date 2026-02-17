@@ -55,9 +55,17 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:var(--card-radius);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 28px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow)}
 .card-front{background:linear-gradient(145deg,#ffffff,#f0f3f8)}
 .card-back{background:linear-gradient(145deg,#f8f9fd,#eef1f8);transform:rotateY(180deg)}
-.card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;margin-bottom:16px}
+.card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;margin-bottom:6px}
+.card-ipa{font-size:.95rem;color:var(--text-dim);margin-bottom:16px;font-family:'JetBrains Mono',monospace}
 .card-hint{font-size:.8rem;color:var(--text-dim);display:flex;align-items:center;gap:6px}
 .card-hint svg{width:16px;height:16px}
+
+/* Card top buttons */
+.card-top-bar{position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;z-index:5}
+.card-btn{width:40px;height:40px;border-radius:12px;border:1px solid rgba(0,0,0,.08);background:var(--surface);color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:1.1rem;box-shadow:var(--shadow)}
+.card-btn:hover{background:var(--surface2);color:var(--text)}
+.card-btn.speaking{color:var(--accent);border-color:var(--accent);background:rgba(91,106,191,.08)}
+.card-btn.starred{color:#f0a500;border-color:#f0a500;background:rgba(240,165,0,.08)}
 .meaning-group{width:100%;margin-bottom:12px}.meaning-group:last-child{margin-bottom:0}
 .pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:8px}
 .def-list{list-style:none}
@@ -136,14 +144,26 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
   <div class="settings-content">
     <div class="settings-title">⚙️ 설정</div>
     <div class="setting-row">
-      <div class="setting-label">Day 선택<span>설정에서도 Day를 바꿀 수 있습니다</span></div>
-      <select class="setting-select" id="daySelect" onchange="selectDayFromDropdown()"></select>
-    </div>
-    <div class="setting-row">
       <div class="setting-label">단어 순서<span>학습 순서 설정</span></div>
       <select class="setting-select" id="wordOrder">
         <option value="random" selected>랜덤</option>
         <option value="sequential">순서대로</option>
+      </select>
+    </div>
+    <div class="setting-row">
+      <div class="setting-label">발음 목소리<span>TTS 음성 선택</span></div>
+      <select class="setting-select" id="voiceSelect"></select>
+    </div>
+    <div class="setting-row">
+      <div class="setting-label">느린 발음 속도<span>두 번째 탭 시 재생 속도</span></div>
+      <select class="setting-select" id="slowSpeed">
+        <option value="0.1">0.1x</option>
+        <option value="0.2">0.2x</option>
+        <option value="0.3">0.3x</option>
+        <option value="0.4">0.4x</option>
+        <option value="0.5" selected>0.5x</option>
+        <option value="0.6">0.6x</option>
+        <option value="0.7">0.7x</option>
       </select>
     </div>
     <button class="btn-reload" onclick="reloadDays()">🔄 Day 파일 다시 불러오기</button>
@@ -188,9 +208,14 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
     </div>
 
     <div class="flashcard-area fade-up" style="animation-delay:.25s" id="flashArea">
-      <div class="flashcard" id="flashcard" onclick="flipCard()">
+      <div class="flashcard" id="flashcard" onclick="handleCardClick(event)">
         <div class="card-face card-front">
+          <div class="card-top-bar">
+            <button class="card-btn" id="btnSpeak" onclick="speakWord(event)" title="발음 듣기">🔊</button>
+            <button class="card-btn" id="btnStar" onclick="toggleStar(event)" title="중요 단어">☆</button>
+          </div>
           <div class="card-word" id="cardWord">-</div>
+          <div class="card-ipa" id="cardIpa"></div>
           <div class="card-hint">
             <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12h16M12 4l8 8-8 8"/></svg>
             카드를 클릭하여 뜻 확인
@@ -240,6 +265,104 @@ let correct = 0;
 let wrong = 0;
 let mode = 'flash';
 let isFlipped = false;
+let speakCount = 0; // 0: 안 들음, 1: 정상속도 들음, 2: 느린속도 들음
+
+// 중요 단어 localStorage
+function getStarredWords() {
+  try { return JSON.parse(localStorage.getItem('engvoca_starred') || '[]'); }
+  catch { return []; }
+}
+function saveStarredWords(arr) {
+  localStorage.setItem('engvoca_starred', JSON.stringify(arr));
+}
+function isStarred(word) {
+  return getStarredWords().includes(word);
+}
+
+// TTS 음성 목록 로드
+let voices = [];
+function loadVoices() {
+  voices = speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
+  const sel = document.getElementById('voiceSelect');
+  sel.innerHTML = '';
+  if (voices.length === 0) {
+    const opt = document.createElement('option');
+    opt.textContent = '기본 음성';
+    sel.appendChild(opt);
+    return;
+  }
+  voices.forEach((v, i) => {
+    const opt = document.createElement('option');
+    const label = v.name.includes('Female') || v.name.includes('female') || v.name.includes('Samantha') || v.name.includes('Victoria') || v.name.includes('Zira') || v.name.includes('Hazel') || v.name.includes('Susan') || v.name.includes('Karen') || v.name.includes('Moira') || v.name.includes('Fiona') ? '👩 ' : v.name.includes('Male') || v.name.includes('male') || v.name.includes('Daniel') || v.name.includes('David') || v.name.includes('Mark') || v.name.includes('Alex') || v.name.includes('Fred') || v.name.includes('Tom') || v.name.includes('James') ? '👨 ' : '';
+    opt.value = i;
+    opt.textContent = `${label}${v.name} (${v.lang})`;
+    sel.appendChild(opt);
+  });
+}
+speechSynthesis.onvoiceschanged = loadVoices;
+loadVoices();
+
+function getSelectedVoice() {
+  const idx = parseInt(document.getElementById('voiceSelect').value);
+  return voices[idx] || null;
+}
+
+// TTS 발음
+function speakWord(e) {
+  e.stopPropagation();
+  const word = studyWords[currentIndex];
+  if (!word) return;
+
+  const btn = document.getElementById('btnSpeak');
+  const synth = window.speechSynthesis;
+  synth.cancel();
+
+  const utter = new SpeechSynthesisUtterance(word.en);
+  utter.lang = 'en-US';
+
+  const voice = getSelectedVoice();
+  if (voice) utter.voice = voice;
+
+  if (speakCount === 0) {
+    utter.rate = 1.0;
+    speakCount = 1;
+  } else {
+    utter.rate = parseFloat(document.getElementById('slowSpeed').value) || 0.5;
+    speakCount = 0;
+  }
+
+  btn.classList.add('speaking');
+  utter.onend = () => btn.classList.remove('speaking');
+  utter.onerror = () => btn.classList.remove('speaking');
+  synth.speak(utter);
+}
+
+// 중요 단어 토글
+function toggleStar(e) {
+  e.stopPropagation();
+  const word = studyWords[currentIndex];
+  if (!word) return;
+
+  let starred = getStarredWords();
+  const btn = document.getElementById('btnStar');
+
+  if (starred.includes(word.en)) {
+    starred = starred.filter(w => w !== word.en);
+    btn.textContent = '☆';
+    btn.classList.remove('starred');
+  } else {
+    starred.push(word.en);
+    btn.textContent = '★';
+    btn.classList.add('starred');
+  }
+  saveStarredWords(starred);
+}
+
+// 카드 클릭 (버튼 외 영역)
+function handleCardClick(e) {
+  if (e.target.closest('.card-btn')) return;
+  flipCard();
+}
 
 // ── 내장 기본 데이터 (day 폴더 접근 불가 시 fallback) ──
 const embeddedDays = [
@@ -377,9 +500,23 @@ function showCurrentMode() {
 function showFlashcard() {
   const word = studyWords[currentIndex]; if (!word) return;
   isFlipped = false;
+  speakCount = 0;
   document.getElementById('flashcard').classList.remove('flipped');
   document.getElementById('cardWord').textContent = word.en;
-  let html = `<div class="card-word" style="font-size:1.8rem;margin-bottom:20px">${word.en}</div>`;
+  document.getElementById('cardIpa').textContent = word.ipa || '';
+
+  // 별 상태 업데이트
+  const btnStar = document.getElementById('btnStar');
+  if (isStarred(word.en)) {
+    btnStar.textContent = '★';
+    btnStar.classList.add('starred');
+  } else {
+    btnStar.textContent = '☆';
+    btnStar.classList.remove('starred');
+  }
+
+  let html = `<div class="card-word" style="font-size:1.8rem;margin-bottom:6px">${word.en}</div>`;
+  if (word.ipa) html += `<div class="card-ipa">${word.ipa}</div>`;
   word.meanings.forEach(m => {
     html += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><ol class="def-list">`;
     m.defs.forEach(d => { html += `<li>${d}</li>`; });
