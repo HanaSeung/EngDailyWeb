@@ -17,96 +17,45 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .header h1{font-family:'DM Serif Display',serif;font-size:2rem;letter-spacing:2px;background:linear-gradient(135deg,var(--accent),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .header p{color:var(--text-dim);font-size:.85rem;margin-top:4px}
 
-/* Loading */
 .loading{text-align:center;padding:60px 20px;color:var(--text-dim)}
 .loading-spinner{width:40px;height:40px;border:3px solid var(--surface2);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px}
 @keyframes spin{to{transform:rotate(360deg)}}
 
-/* Day Tabs */
 .day-selector{margin-bottom:16px}
 .day-tabs{display:flex;gap:6px;overflow-x:auto;padding:4px 0;scrollbar-width:none}
 .day-tabs::-webkit-scrollbar{display:none}
 .day-tab{flex-shrink:0;padding:10px 18px;border:1px solid rgba(0,0,0,.08);border-radius:12px;background:var(--surface);color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;transition:all .25s;white-space:nowrap;box-shadow:var(--shadow)}
 .day-tab:hover{border-color:var(--accent);color:var(--text)}
 .day-tab.active{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 3px 12px rgba(91,106,191,.3)}
-.day-title{text-align:center;font-size:.88rem;color:var(--accent);font-weight:500;margin-top:10px;min-height:1.4em;padding:8px 16px;background:rgba(91,106,191,.06);border-radius:10px;line-height:1.4}
+.day-title{text-align:left;font-size:.84rem;color:var(--accent);font-weight:500;margin-top:10px;padding:10px 16px;background:rgba(91,106,191,.06);border-radius:10px;line-height:1.5}
+.day-title-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
+.day-title-item{display:flex;gap:4px}
+.day-title-item strong{color:var(--text);min-width:60px;display:inline-block;font-weight:700}
 .day-count{text-align:center;font-size:.72rem;color:var(--text-dim);margin-top:4px}
 
-.stats-bar{display:flex;gap:8px;margin-bottom:16px}
-.stat-item{flex:1;background:var(--surface);border-radius:14px;padding:14px 10px;text-align:center;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow)}
-.stat-value{font-family:'JetBrains Mono',monospace;font-size:1.4rem;font-weight:600}
-.stat-value.green{color:var(--green)}.stat-value.red{color:var(--red)}.stat-value.accent{color:var(--accent-light)}
-.stat-label{font-size:.7rem;color:var(--text-dim);margin-top:2px}
-
-.mode-tabs{display:flex;gap:6px;margin-bottom:16px;background:var(--surface2);border-radius:14px;padding:5px}
-.mode-tab{flex:1;padding:12px;border:none;border-radius:10px;background:transparent;color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .3s}
-.mode-tab.active{background:var(--accent);color:#fff;box-shadow:0 4px 15px rgba(91,106,191,.3)}
-.mode-tab:hover:not(.active){color:var(--text)}
-
-.progress-wrap{margin-bottom:20px}
-.progress-info{display:flex;justify-content:space-between;font-size:.75rem;color:var(--text-dim);margin-bottom:6px}
-.progress-track{height:6px;background:var(--surface2);border-radius:3px;overflow:hidden}
-.progress-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--green));border-radius:3px;transition:width .5s ease;width:0%}
-
-/* Flashcard */
-.flashcard-area{perspective:1000px;margin-bottom:20px}
-.flashcard{position:relative;width:100%;min-height:280px;cursor:pointer;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,0,.2,1)}
-.flashcard.flipped{transform:rotateY(180deg)}
-.card-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:var(--card-radius);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 28px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow)}
-.card-front{background:linear-gradient(145deg,#ffffff,#f0f3f8)}
-.card-back{background:linear-gradient(145deg,#f8f9fd,#eef1f8);transform:rotateY(180deg)}
-.card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;margin-bottom:6px}
-.card-ipa{font-size:.95rem;color:var(--text-dim);margin-bottom:16px;font-family:'JetBrains Mono',monospace}
-.card-hint{font-size:.8rem;color:var(--text-dim);display:flex;align-items:center;gap:6px}
-.card-hint svg{width:16px;height:16px}
-
-/* Card top buttons */
+/* Card */
+.card-area{margin-bottom:16px}
+.card{position:relative;width:100%;min-height:340px;border-radius:var(--card-radius);padding:60px 28px 32px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow);background:linear-gradient(145deg,#ffffff,#f0f3f8);display:flex;flex-direction:column;align-items:center;justify-content:flex-start}
 .card-top-bar{position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;z-index:5}
 .card-btn{width:40px;height:40px;border-radius:12px;border:1px solid rgba(0,0,0,.08);background:var(--surface);color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:1.1rem;box-shadow:var(--shadow)}
 .card-btn:hover{background:var(--surface2);color:var(--text)}
 .card-btn.speaking{color:var(--accent);border-color:var(--accent);background:rgba(91,106,191,.08)}
 .card-btn.starred{color:#f0a500;border-color:#f0a500;background:rgba(240,165,0,.08)}
-.meaning-group{width:100%;margin-bottom:12px}.meaning-group:last-child{margin-bottom:0}
-.pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:8px}
+.card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;text-align:center;margin-bottom:6px}
+.card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:'JetBrains Mono',monospace}
+.card-meanings{width:100%}
+.meaning-group{width:100%;margin-bottom:14px}.meaning-group:last-child{margin-bottom:0}
+.pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:6px}
 .def-list{list-style:none}
-.def-list li{font-size:1.05rem;line-height:1.6;color:var(--text);padding-left:16px;position:relative}
+.def-list li{font-size:1rem;line-height:1.6;color:var(--text);padding-left:16px;position:relative}
 .def-list li::before{content:'';position:absolute;left:0;top:10px;width:6px;height:6px;border-radius:50%;background:var(--accent-light)}
 
-.card-nav{display:flex;gap:10px;margin-bottom:20px}
-.card-nav button{flex:1;padding:14px;border:none;border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .2s}
-.btn-know{background:rgba(46,170,127,.1);color:var(--green);border:1px solid rgba(46,170,127,.3)!important}
-.btn-know:hover{background:rgba(46,170,127,.2)}
-.btn-dont{background:rgba(217,83,79,.1);color:var(--red);border:1px solid rgba(217,83,79,.3)!important}
-.btn-dont:hover{background:rgba(217,83,79,.2)}
-.btn-next{background:var(--surface2);color:var(--text);border:1px solid rgba(0,0,0,.06)!important}
-.btn-next:hover{background:#e4e8f0}
-
-/* Quiz */
-.quiz-area{display:none}
-.quiz-question{background:linear-gradient(145deg,#ffffff,#f0f3f8);border-radius:var(--card-radius);padding:40px 28px;text-align:center;margin-bottom:16px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow)}
-.quiz-word{font-family:'DM Serif Display',serif;font-size:2.4rem;margin-bottom:8px}
-.quiz-pos{color:var(--accent-light);font-size:.85rem}
-.quiz-options{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
-.quiz-option{padding:16px 20px;background:var(--surface);border:2px solid rgba(0,0,0,.06);border-radius:14px;color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.95rem;text-align:left;cursor:pointer;transition:all .2s;box-shadow:var(--shadow)}
-.quiz-option:hover:not(.disabled){border-color:var(--accent);background:#f0f2ff}
-.quiz-option.correct{border-color:var(--green)!important;background:rgba(46,170,127,.1)!important;color:var(--green)}
-.quiz-option.wrong{border-color:var(--red)!important;background:rgba(217,83,79,.1)!important;color:var(--red)}
-.quiz-option.disabled{pointer-events:none}
-.quiz-next-wrap{text-align:center;display:none}
-.quiz-next-btn{padding:14px 40px;background:var(--accent);color:#fff;border:none;border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:.95rem;font-weight:500;cursor:pointer;transition:all .2s}
-.quiz-next-btn:hover{box-shadow:0 4px 20px rgba(91,106,191,.3)}
-
-/* Result */
-.result-screen{display:none;text-align:center;padding:40px 20px}
-.result-icon{font-size:4rem;margin-bottom:16px}
-.result-title{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:8px}
-.result-desc{color:var(--text-dim);margin-bottom:24px;font-size:.95rem}
-.result-stats{display:flex;gap:16px;justify-content:center;margin-bottom:32px}
-.result-stat-box{background:var(--surface);border-radius:16px;padding:20px 28px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow)}
-.result-stat-num{font-family:'JetBrains Mono',monospace;font-size:2rem;font-weight:600}
-.result-stat-label{font-size:.75rem;color:var(--text-dim);margin-top:4px}
-.btn-restart{padding:14px 48px;background:var(--accent);color:#fff;border:none;border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:1rem;font-weight:500;cursor:pointer;transition:all .2s}
-.btn-restart:hover{box-shadow:0 4px 20px rgba(91,106,191,.3)}
+/* Navigation */
+.card-nav{display:flex;gap:8px;margin-bottom:12px}
+.card-nav button{flex:1;padding:13px 4px;border:1px solid rgba(0,0,0,.06);border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:.85rem;font-weight:500;cursor:pointer;transition:all .2s;background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
+.card-nav button:hover:not(:disabled){background:var(--accent);color:#fff;border-color:var(--accent)}
+.card-nav button:disabled{opacity:.35;cursor:default;background:var(--surface2);color:var(--text-dim);border-color:rgba(0,0,0,.04);box-shadow:none}
+.card-counter{text-align:center;font-size:.82rem;color:var(--text-dim);font-family:'JetBrains Mono',monospace}
 
 /* Settings */
 .settings-toggle{position:fixed;top:16px;right:16px;z-index:100;width:40px;height:40px;border-radius:12px;background:var(--surface);border:1px solid rgba(0,0,0,.06);color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;box-shadow:var(--shadow)}
@@ -126,12 +75,8 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .fade-up{animation:fadeUp .4s ease both}
-@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
-.shake{animation:shake .4s ease}
-@keyframes pop{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
-.pop{animation:pop .3s ease}
 
-@media(max-width:400px){.card-word,.quiz-word{font-size:2rem}.stat-value{font-size:1.1rem}.day-tab{padding:8px 14px;font-size:.78rem}}
+@media(max-width:400px){.card-word{font-size:2rem}.day-tab{padding:8px 14px;font-size:.78rem}.card-nav button{font-size:.78rem;padding:11px 2px}}
 </style>
 </head>
 <body>
@@ -146,8 +91,8 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
     <div class="setting-row">
       <div class="setting-label">단어 순서<span>학습 순서 설정</span></div>
       <select class="setting-select" id="wordOrder">
-        <option value="random" selected>랜덤</option>
-        <option value="sequential">순서대로</option>
+        <option value="sequential" selected>순서대로</option>
+        <option value="random">랜덤</option>
       </select>
     </div>
     <div class="setting-row" style="flex-direction:column;align-items:stretch">
@@ -177,13 +122,11 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
     <p>영어단어 학습 프로그램</p>
   </div>
 
-  <!-- Loading -->
   <div class="loading" id="loadingScreen">
     <div class="loading-spinner"></div>
     <div>Day 파일을 불러오는 중...</div>
   </div>
 
-  <!-- Main Content (hidden until loaded) -->
   <div id="mainContent" style="display:none">
     <div class="day-selector fade-up" style="animation-delay:.05s">
       <div class="day-tabs" id="dayTabs"></div>
@@ -191,67 +134,26 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
       <div class="day-count" id="dayCount"></div>
     </div>
 
-    <div class="stats-bar fade-up" style="animation-delay:.1s">
-      <div class="stat-item"><div class="stat-value green" id="statCorrect">0</div><div class="stat-label">맞음</div></div>
-      <div class="stat-item"><div class="stat-value red" id="statWrong">0</div><div class="stat-label">틀림</div></div>
-      <div class="stat-item"><div class="stat-value accent" id="statRemain">0</div><div class="stat-label">남음</div></div>
-    </div>
-
-    <div class="mode-tabs fade-up" style="animation-delay:.15s">
-      <button class="mode-tab active" onclick="switchMode('flash')">📇 플래시카드</button>
-      <button class="mode-tab" onclick="switchMode('quiz')">📝 퀴즈</button>
-    </div>
-
-    <div class="progress-wrap fade-up" style="animation-delay:.2s">
-      <div class="progress-info"><span id="progressText">0 / 0</span><span id="progressPercent">0%</span></div>
-      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
-    </div>
-
-    <div class="flashcard-area fade-up" style="animation-delay:.25s" id="flashArea">
-      <div class="flashcard" id="flashcard" onclick="handleCardClick(event)">
-        <div class="card-face card-front">
-          <div class="card-top-bar">
-            <button class="card-btn" id="btnSpeak" onclick="speakWord(event)" title="발음 듣기">🔊</button>
-            <button class="card-btn" id="btnStar" onclick="toggleStar(event)" title="중요 단어">☆</button>
-          </div>
-          <div class="card-word" id="cardWord">-</div>
-          <div class="card-ipa" id="cardIpa"></div>
-          <div class="card-hint">
-            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12h16M12 4l8 8-8 8"/></svg>
-            카드를 클릭하여 뜻 확인
-          </div>
+    <div class="card-area fade-up" style="animation-delay:.1s">
+      <div class="card" id="card">
+        <div class="card-top-bar">
+          <button class="card-btn" id="btnSpeak" onclick="speakWord(event)" title="발음 듣기">🔊</button>
+          <button class="card-btn" id="btnStar" onclick="toggleStar(event)" title="중요 단어">☆</button>
         </div>
-        <div class="card-face card-back" id="cardBack"></div>
+        <div class="card-word" id="cardWord">-</div>
+        <div class="card-ipa" id="cardIpa"></div>
+        <div class="card-meanings" id="cardMeanings"></div>
       </div>
     </div>
 
-    <div class="card-nav" id="cardNav">
-      <button class="card-nav button btn-know" onclick="markWord(true)">✓ 알고 있음</button>
-      <button class="card-nav button btn-dont" onclick="markWord(false)">✕ 모름</button>
-      <button class="card-nav button btn-next" onclick="nextCard()">다음 →</button>
+    <div class="card-nav fade-up" style="animation-delay:.15s">
+      <button onclick="goFirst()" id="btnFirst">◀◀ 처음</button>
+      <button onclick="goPrev()" id="btnPrev">◀ 이전</button>
+      <button onclick="goNext()" id="btnNext">다음 ▶</button>
+      <button onclick="goLast()" id="btnLast">끝 ▶▶</button>
     </div>
 
-    <div class="quiz-area" id="quizArea">
-      <div class="quiz-question">
-        <div class="quiz-word" id="quizWord">-</div>
-        <div class="quiz-pos" id="quizPos"></div>
-      </div>
-      <div class="quiz-options" id="quizOptions"></div>
-      <div class="quiz-next-wrap" id="quizNextWrap">
-        <button class="quiz-next-btn" onclick="nextQuiz()">다음 문제 →</button>
-      </div>
-    </div>
-
-    <div class="result-screen" id="resultScreen">
-      <div class="result-icon">🎉</div>
-      <div class="result-title">학습 완료!</div>
-      <div class="result-desc" id="resultDesc"></div>
-      <div class="result-stats">
-        <div class="result-stat-box"><div class="result-stat-num green" id="resultCorrect">0</div><div class="result-stat-label">맞음</div></div>
-        <div class="result-stat-box"><div class="result-stat-num red" id="resultWrong">0</div><div class="result-stat-label">틀림</div></div>
-      </div>
-      <button class="btn-restart" onclick="restart()">다시 학습하기</button>
-    </div>
+    <div class="card-counter fade-up" style="animation-delay:.2s" id="cardCounter">1 / 25</div>
   </div>
 </div>
 
@@ -261,158 +163,98 @@ let allWords = [];
 let studyWords = [];
 let currentDayIndex = 0;
 let currentIndex = 0;
-let correct = 0;
-let wrong = 0;
-let mode = 'flash';
-let isFlipped = false;
-let speakCount = 0; // 0: 안 들음, 1: 정상속도 들음, 2: 느린속도 들음
+let speakCount = 0;
 
-// 중요 단어 localStorage
+// 중요 단어
 function getStarredWords() {
-  try { return JSON.parse(localStorage.getItem('engvoca_starred') || '[]'); }
-  catch { return []; }
+  try { return JSON.parse(localStorage.getItem('engvoca_starred') || '[]'); } catch { return []; }
 }
-function saveStarredWords(arr) {
-  localStorage.setItem('engvoca_starred', JSON.stringify(arr));
-}
-function isStarred(word) {
-  return getStarredWords().includes(word);
-}
+function saveStarredWords(arr) { localStorage.setItem('engvoca_starred', JSON.stringify(arr)); }
+function isStarred(word) { return getStarredWords().includes(word); }
 
-// TTS 음성 목록 로드
+// TTS 음성
 let voices = [];
 function loadVoices() {
   voices = speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
   const sel = document.getElementById('voiceSelect');
   sel.innerHTML = '';
   if (voices.length === 0) {
-    const opt = document.createElement('option');
-    opt.textContent = '기본 음성';
-    sel.appendChild(opt);
-    return;
+    const opt = document.createElement('option'); opt.textContent = '기본 음성'; sel.appendChild(opt); return;
   }
   voices.forEach((v, i) => {
     const opt = document.createElement('option');
-    const label = v.name.includes('Female') || v.name.includes('female') || v.name.includes('Samantha') || v.name.includes('Victoria') || v.name.includes('Zira') || v.name.includes('Hazel') || v.name.includes('Susan') || v.name.includes('Karen') || v.name.includes('Moira') || v.name.includes('Fiona') ? '👩 ' : v.name.includes('Male') || v.name.includes('male') || v.name.includes('Daniel') || v.name.includes('David') || v.name.includes('Mark') || v.name.includes('Alex') || v.name.includes('Fred') || v.name.includes('Tom') || v.name.includes('James') ? '👨 ' : '';
+    const female = /Female|female|Samantha|Victoria|Zira|Hazel|Susan|Karen|Moira|Fiona/i.test(v.name);
+    const male = /Male|male|Daniel|David|Mark|Alex|Fred|Tom|James/i.test(v.name);
     opt.value = i;
-    opt.textContent = `${label}${v.name} (${v.lang})`;
+    opt.textContent = `${female ? '👩 ' : male ? '👨 ' : ''}${v.name} (${v.lang})`;
     sel.appendChild(opt);
   });
 }
 speechSynthesis.onvoiceschanged = loadVoices;
 loadVoices();
+function getSelectedVoice() { const idx = parseInt(document.getElementById('voiceSelect').value); return voices[idx] || null; }
 
-function getSelectedVoice() {
-  const idx = parseInt(document.getElementById('voiceSelect').value);
-  return voices[idx] || null;
-}
-
-// TTS 발음
 function speakWord(e) {
-  e.stopPropagation();
-  const word = studyWords[currentIndex];
-  if (!word) return;
-
+  if (e) e.stopPropagation();
+  const word = studyWords[currentIndex]; if (!word) return;
   const btn = document.getElementById('btnSpeak');
-  const synth = window.speechSynthesis;
-  synth.cancel();
-
+  const synth = window.speechSynthesis; synth.cancel();
   const utter = new SpeechSynthesisUtterance(word.en);
   utter.lang = 'en-US';
-
-  const voice = getSelectedVoice();
-  if (voice) utter.voice = voice;
-
-  if (speakCount === 0) {
-    utter.rate = 1.0;
-    speakCount = 1;
-  } else {
-    utter.rate = parseFloat(document.getElementById('slowSpeed').value) || 0.5;
-    speakCount = 0;
-  }
-
+  const voice = getSelectedVoice(); if (voice) utter.voice = voice;
+  if (speakCount === 0) { utter.rate = 1.0; speakCount = 1; }
+  else { utter.rate = parseFloat(document.getElementById('slowSpeed').value) || 0.5; speakCount = 0; }
   btn.classList.add('speaking');
   utter.onend = () => btn.classList.remove('speaking');
   utter.onerror = () => btn.classList.remove('speaking');
   synth.speak(utter);
 }
 
-// 중요 단어 토글
 function toggleStar(e) {
-  e.stopPropagation();
-  const word = studyWords[currentIndex];
-  if (!word) return;
-
+  if (e) e.stopPropagation();
+  const word = studyWords[currentIndex]; if (!word) return;
   let starred = getStarredWords();
   const btn = document.getElementById('btnStar');
-
   if (starred.includes(word.en)) {
     starred = starred.filter(w => w !== word.en);
-    btn.textContent = '☆';
-    btn.classList.remove('starred');
+    btn.textContent = '☆'; btn.classList.remove('starred');
   } else {
     starred.push(word.en);
-    btn.textContent = '★';
-    btn.classList.add('starred');
+    btn.textContent = '★'; btn.classList.add('starred');
   }
   saveStarredWords(starred);
 }
 
-// 카드 클릭 (버튼 외 영역)
-function handleCardClick(e) {
-  if (e.target.closest('.card-btn')) return;
-  flipCard();
-}
-
-// ── 내장 기본 데이터 (day 폴더 접근 불가 시 fallback) ──
+// 내장 기본 데이터
 const embeddedDays = [
-  {"day":1,"title":"pro-/pre-, in-, out-/ut-/il-","words":[{"en":"progress","meanings":[{"pos":"명","defs":["진보, 발전"]},{"pos":"동","defs":["전진하다, 발달하다"]}]},{"en":"propose","meanings":[{"pos":"동","defs":["제안하다","(결혼을) 신청하다"]}]},{"en":"produce","meanings":[{"pos":"동","defs":["생산하다"]},{"pos":"명","defs":["농산물"]}]},{"en":"protect","meanings":[{"pos":"동","defs":["보호하다, 지키다"]}]},{"en":"profile","meanings":[{"pos":"명","defs":["옆얼굴, 개요, 인물 소개(프로필)"]}]},{"en":"purchase","meanings":[{"pos":"동","defs":["구매하다"]},{"pos":"명","defs":["구매품, 구입"]}]},{"en":"predict","meanings":[{"pos":"동","defs":["예측하다, 예언하다"]}]},{"en":"precaution","meanings":[{"pos":"명","defs":["예방 조치, 조심, 경계"]}]},{"en":"premature","meanings":[{"pos":"형","defs":["시기상조의, 조숙한, 조산의"]}]},{"en":"preview","meanings":[{"pos":"명","defs":["시사(회), 미리 보기"]},{"pos":"동","defs":["(영화 등을) 미리 보다"]}]},{"en":"income","meanings":[{"pos":"명","defs":["수입, 소득"]}]},{"en":"intake","meanings":[{"pos":"명","defs":["섭취(량), 흡입"]}]},{"en":"infection","meanings":[{"pos":"명","defs":["감염, 전염, 전염병"]}]},{"en":"insight","meanings":[{"pos":"명","defs":["통찰력, 식견"]}]},{"en":"inherent","meanings":[{"pos":"형","defs":["타고난, 내재된, 고유의"]}]},{"en":"investment","meanings":[{"pos":"명","defs":["투자, 투자금"]}]},{"en":"investigate","meanings":[{"pos":"동","defs":["조사하다, 수사하다"]}]},{"en":"illustrate","meanings":[{"pos":"동","defs":["(실례·그림으로) 설명하다, 삽화를 넣다"]}]},{"en":"outcome","meanings":[{"pos":"명","defs":["결과, 성과"]}]},{"en":"outline","meanings":[{"pos":"명","defs":["개요, 윤곽"]},{"pos":"동","defs":["개요를 서술하다, 윤곽을 그리다"]}]},{"en":"outstanding","meanings":[{"pos":"형","defs":["뛰어난, 아주 훌륭한","(부채 등이) 미지불된"]}]},{"en":"outbreak","meanings":[{"pos":"명","defs":["(전쟁·질병 등의) 발생, 발발"]}]},{"en":"outlet","meanings":[{"pos":"명","defs":["배출구, (가전) 콘센트, 할인점(아울렛)"]}]},{"en":"utter","meanings":[{"pos":"형","defs":["완전한, 순전한"]},{"pos":"동","defs":["(말을) 내뱉다, 발언하다"]}]},{"en":"utmost","meanings":[{"pos":"형","defs":["최고의, 극도의"]},{"pos":"명","defs":["최대한도"]}]}]}
+  {"day":1,"title":"pro-/pre-, in-, out-/ut-/il-","words":[{"en":"progress","ipa":"/ˈprɑːɡres/","meanings":[{"pos":"명","defs":["진보, 발전"]},{"pos":"동","defs":["전진하다, 발달하다"]}]},{"en":"propose","ipa":"/prəˈpoʊz/","meanings":[{"pos":"동","defs":["제안하다","(결혼을) 신청하다"]}]}]}
 ];
 
-// ── Day 파일 자동 로드 ──
+// Day 로드
 async function loadAllDays() {
   document.getElementById('loadingScreen').style.display = 'block';
   document.getElementById('mainContent').style.display = 'none';
-  dayData = [];
-  allWords = [];
-
+  dayData = []; allWords = [];
   let dayNum = 1;
   while (true) {
     try {
       const res = await fetch(`day/day${dayNum}.json`);
       if (!res.ok) break;
       const data = await res.json();
-      dayData.push({
-        day: dayNum,
-        title: data.title || '',
-        words: data.words || []
-      });
+      dayData.push({ day: dayNum, title: data.title || '', words: data.words || [] });
       dayNum++;
-    } catch (e) {
-      break;
-    }
+    } catch (e) { break; }
   }
-
-  // fetch 실패 시 내장 데이터 사용
-  if (dayData.length === 0) {
-    dayData = embeddedDays;
-  }
-
-  allWords = [];
-  dayData.forEach(d => { allWords = allWords.concat(d.words); });
-
+  if (dayData.length === 0) dayData = embeddedDays;
+  allWords = []; dayData.forEach(d => { allWords = allWords.concat(d.words); });
   document.getElementById('loadingScreen').style.display = 'none';
   document.getElementById('mainContent').style.display = 'block';
-
   currentDayIndex = 0;
   buildDayUI();
   startStudy();
 }
 
-async function reloadDays() {
-  toggleSettings();
-  await loadAllDays();
-}
+async function reloadDays() { toggleSettings(); await loadAllDays(); }
 
 function buildDayUI() {
   const tabsEl = document.getElementById('dayTabs');
@@ -436,16 +278,21 @@ function selectDay(index) {
   startStudy();
 }
 
-function selectDayFromDropdown() { }
-
 function updateDayTitle() {
   const d = dayData[currentDayIndex];
   const el = document.getElementById('dayTitle');
   if (d.title) {
-    el.textContent = `📌 ${d.title}`;
+    const parts = d.title.split('/').map(s => s.trim()).filter(s => s);
+    let html = '<div class="day-title-grid">';
+    parts.forEach(part => {
+      const highlighted = part.replace(/[a-zA-Z][-a-zA-Z]*(,\s*[a-zA-Z][-a-zA-Z]*)*/g, '<strong>$&</strong>');
+      html += `<div class="day-title-item">${highlighted}</div>`;
+    });
+    html += '</div>';
+    el.innerHTML = html;
     el.style.display = 'block';
   } else {
-    el.textContent = '';
+    el.innerHTML = '';
     el.style.display = 'none';
   }
   document.getElementById('dayCount').textContent = `${d.words.length}단어`;
@@ -456,188 +303,58 @@ function startStudy() {
   let pool = [...dayData[currentDayIndex].words];
   if (order === 'random') pool = shuffle(pool);
   studyWords = pool;
-  currentIndex = 0; correct = 0; wrong = 0; isFlipped = false;
-  updateStats(); updateProgress();
-  document.getElementById('resultScreen').style.display = 'none';
-  showCurrentMode();
+  currentIndex = 0;
+  showCard();
 }
 
 function shuffle(arr) {
   const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
   return a;
 }
 
-function switchMode(m) {
-  mode = m;
-  document.querySelectorAll('.mode-tab').forEach((t, i) =>
-    t.classList.toggle('active', (i === 0 && m === 'flash') || (i === 1 && m === 'quiz'))
-  );
-  showCurrentMode();
-}
-
-function showCurrentMode() {
-  const flashArea = document.getElementById('flashArea');
-  const cardNav = document.getElementById('cardNav');
-  const quizArea = document.getElementById('quizArea');
-  if (currentIndex >= studyWords.length) { showResult(); return; }
-  if (mode === 'flash') {
-    flashArea.style.display = 'block'; cardNav.style.display = 'flex'; quizArea.style.display = 'none';
-    showFlashcard();
-  } else {
-    flashArea.style.display = 'none'; cardNav.style.display = 'none'; quizArea.style.display = 'block';
-    showQuiz();
-  }
-}
-
-function showFlashcard() {
+function showCard() {
   const word = studyWords[currentIndex]; if (!word) return;
-  isFlipped = false;
   speakCount = 0;
-  document.getElementById('flashcard').classList.remove('flipped');
   document.getElementById('cardWord').textContent = word.en;
   document.getElementById('cardIpa').textContent = word.ipa || '';
 
-  // 별 상태 업데이트
   const btnStar = document.getElementById('btnStar');
-  if (isStarred(word.en)) {
-    btnStar.textContent = '★';
-    btnStar.classList.add('starred');
-  } else {
-    btnStar.textContent = '☆';
-    btnStar.classList.remove('starred');
-  }
+  if (isStarred(word.en)) { btnStar.textContent = '★'; btnStar.classList.add('starred'); }
+  else { btnStar.textContent = '☆'; btnStar.classList.remove('starred'); }
 
-  let html = `<div class="card-word" style="font-size:1.8rem;margin-bottom:6px">${word.en}</div>`;
-  if (word.ipa) html += `<div class="card-ipa">${word.ipa}</div>`;
+  let html = '';
   word.meanings.forEach(m => {
-    html += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><ol class="def-list">`;
+    html += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><ul class="def-list">`;
     m.defs.forEach(d => { html += `<li>${d}</li>`; });
-    html += `</ol></div>`;
+    html += `</ul></div>`;
   });
-  document.getElementById('cardBack').innerHTML = html;
+  document.getElementById('cardMeanings').innerHTML = html;
+  document.getElementById('cardCounter').textContent = `${currentIndex + 1} / ${studyWords.length}`;
+
+  document.getElementById('btnFirst').disabled = currentIndex === 0;
+  document.getElementById('btnPrev').disabled = currentIndex === 0;
+  document.getElementById('btnNext').disabled = currentIndex >= studyWords.length - 1;
+  document.getElementById('btnLast').disabled = currentIndex >= studyWords.length - 1;
 }
 
-function flipCard() {
-  isFlipped = !isFlipped;
-  document.getElementById('flashcard').classList.toggle('flipped', isFlipped);
-}
-
-function markWord(known) {
-  if (known) { correct++; animateStat('statCorrect'); }
-  else { wrong++; animateStat('statWrong'); }
-  currentIndex++; updateStats(); updateProgress(); showCurrentMode();
-}
-function nextCard() { currentIndex++; updateStats(); updateProgress(); showCurrentMode(); }
-
-function showQuiz() {
-  const word = studyWords[currentIndex]; if (!word) return;
-  const mg = word.meanings[Math.floor(Math.random() * word.meanings.length)];
-  const correctAnswer = mg.defs[0];
-  document.getElementById('quizWord').textContent = word.en;
-  document.getElementById('quizPos').textContent = `( ${mg.pos} )`;
-
-  let wrongAnswers = [];
-  const others = shuffle(allWords.filter(w => w.en !== word.en));
-  for (let w of others) {
-    if (wrongAnswers.length >= 3) break;
-    const samePosM = w.meanings.find(m => m.pos === mg.pos);
-    const def = samePosM ? samePosM.defs[0] : w.meanings[0].defs[0];
-    if (def !== correctAnswer && !wrongAnswers.includes(def)) wrongAnswers.push(def);
-  }
-  while (wrongAnswers.length < 3) wrongAnswers.push('—');
-
-  let options = shuffle([correctAnswer, ...wrongAnswers.slice(0, 3)]);
-  const container = document.getElementById('quizOptions');
-  container.innerHTML = '';
-  options.forEach((opt, i) => {
-    const btn = document.createElement('button');
-    btn.className = 'quiz-option';
-    btn.innerHTML = `<span style="color:var(--accent-light);font-family:'JetBrains Mono';margin-right:10px">${i+1}</span>${opt}`;
-    btn.dataset.value = opt;
-    btn.onclick = () => selectQuizOption(btn, opt, correctAnswer);
-    container.appendChild(btn);
-  });
-  document.getElementById('quizNextWrap').style.display = 'none';
-}
-
-function selectQuizOption(btn, selected, correctAnswer) {
-  document.querySelectorAll('.quiz-option').forEach(o => {
-    o.classList.add('disabled');
-    if (o.dataset.value === correctAnswer) o.classList.add('correct');
-  });
-  if (selected === correctAnswer) { correct++; btn.classList.add('correct'); animateStat('statCorrect'); }
-  else {
-    wrong++; btn.classList.add('wrong'); animateStat('statWrong');
-    document.querySelector('.quiz-question').classList.add('shake');
-    setTimeout(() => document.querySelector('.quiz-question').classList.remove('shake'), 400);
-  }
-  updateStats();
-  document.getElementById('quizNextWrap').style.display = 'block';
-}
-
-function nextQuiz() { currentIndex++; updateProgress(); showCurrentMode(); }
-
-function animateStat(id) {
-  const el = document.getElementById(id).parentElement;
-  el.classList.add('pop'); setTimeout(() => el.classList.remove('pop'), 300);
-}
-function updateStats() {
-  document.getElementById('statCorrect').textContent = correct;
-  document.getElementById('statWrong').textContent = wrong;
-  document.getElementById('statRemain').textContent = Math.max(0, studyWords.length - currentIndex);
-}
-function updateProgress() {
-  const total = studyWords.length;
-  const pct = total === 0 ? 0 : Math.round((currentIndex / total) * 100);
-  document.getElementById('progressText').textContent = `${currentIndex} / ${total}`;
-  document.getElementById('progressPercent').textContent = `${pct}%`;
-  document.getElementById('progressFill').style.width = `${pct}%`;
-}
-function showResult() {
-  document.getElementById('flashArea').style.display = 'none';
-  document.getElementById('cardNav').style.display = 'none';
-  document.getElementById('quizArea').style.display = 'none';
-  const screen = document.getElementById('resultScreen');
-  screen.style.display = 'block'; screen.classList.add('fade-up');
-  document.getElementById('resultCorrect').textContent = correct;
-  document.getElementById('resultWrong').textContent = wrong;
-  const total = correct + wrong;
-  const pct = total === 0 ? 0 : Math.round((correct / total) * 100);
-  let msg = pct >= 90 ? '완벽에 가까운 실력입니다! 🌟'
-    : pct >= 70 ? '잘 하고 있어요! 조금만 더 복습하세요 💪'
-    : pct >= 50 ? '절반 이상 맞혔어요. 반복 학습이 필요합니다 📖'
-    : '틀린 단어를 집중 복습해 보세요 🔁';
-  document.getElementById('resultDesc').textContent = `정답률 ${pct}% — ${msg}`;
-}
-function restart() { startStudy(); }
+function goFirst() { currentIndex = 0; showCard(); }
+function goPrev() { if (currentIndex > 0) { currentIndex--; showCard(); } }
+function goNext() { if (currentIndex < studyWords.length - 1) { currentIndex++; showCard(); } }
+function goLast() { currentIndex = studyWords.length - 1; showCard(); }
 
 function toggleSettings() { document.getElementById('settingsPanel').classList.toggle('open'); }
 document.getElementById('settingsPanel').addEventListener('click', function(e) { if (e.target === this) toggleSettings(); });
 
 document.addEventListener('keydown', function(e) {
   if (document.getElementById('settingsPanel').classList.contains('open')) return;
-  if (mode === 'flash' && currentIndex < studyWords.length) {
-    if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipCard(); }
-    if (e.key === 'ArrowRight' || e.key === 'n') nextCard();
-    if (e.key === 'o' || e.key === '1') markWord(true);
-    if (e.key === 'x' || e.key === '2') markWord(false);
-  }
-  if (mode === 'quiz') {
-    if (e.key >= '1' && e.key <= '4') {
-      const opts = document.querySelectorAll('.quiz-option:not(.disabled)');
-      if (opts[parseInt(e.key)-1]) opts[parseInt(e.key)-1].click();
-    }
-    if (e.key === 'Enter' || e.key === 'ArrowRight') {
-      if (document.getElementById('quizNextWrap').style.display === 'block') nextQuiz();
-    }
-  }
+  if (e.key === 'ArrowLeft') goPrev();
+  if (e.key === 'ArrowRight') goNext();
+  if (e.key === 'Home') goFirst();
+  if (e.key === 'End') goLast();
+  if (e.key === ' ') { e.preventDefault(); speakWord(null); }
 });
 
-// Start
 loadAllDays();
 </script>
 </body>
