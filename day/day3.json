@@ -1,28 +1,96 @@
 {
   "title": "fore- ~앞에,전에/ over- 넘어,~너머,위에,과도하게/ extra- ~을 넘어서,~밖의/ under- 아래에",
   "words": [
-    {"en":"forehead","ipa":"/ˈfɔːrhed/","meanings":[{"pos":"명","defs":["이마"]}]},
-    {"en":"forefather","ipa":"/ˈfɔːrfɑːðər/","meanings":[{"pos":"명","defs":["조상, 선조"]}]},
-    {"en":"foresee","ipa":"/fɔːrˈsiː/","meanings":[{"pos":"동","defs":["예견하다, 내다보다"]}]},
-    {"en":"foremost","ipa":"/ˈfɔːrmoʊst/","meanings":[{"pos":"형","defs":["가장 중요한, 맨 앞의"]}]},
-    {"en":"former","ipa":"/ˈfɔːrmər/","meanings":[{"pos":"형","defs":["이전의, 예전의","(둘 중) 전자의"]}]},
-    {"en":"overcome","ipa":"/ˌoʊvərˈkʌm/","meanings":[{"pos":"동","defs":["극복하다, 이겨내다"]}]},
-    {"en":"overlook","ipa":"/ˌoʊvərˈlʊk/","meanings":[{"pos":"동","defs":["간과하다, 못 본 체하다","내려다보다"]}]},
-    {"en":"overseas","ipa":"/ˌoʊvərˈsiːz/","meanings":[{"pos":"부","defs":["해외로"]},{"pos":"형","defs":["해외의, 외국의"]}]},
-    {"en":"overwhelm","ipa":"/ˌoʊvərˈwelm/","meanings":[{"pos":"동","defs":["압도하다","당황하게 하다"]}]},
-    {"en":"overall","ipa":"/ˌoʊvərˈɔːl/","meanings":[{"pos":"형","defs":["전체의, 전반적인"]},{"pos":"부","defs":["전반적으로"]}]},
-    {"en":"overhead","ipa":"/ˌoʊvərˈhed/","meanings":[{"pos":"부","defs":["머리 위에"]},{"pos":"형","defs":["머리 위의"]}]},
-    {"en":"overtake","ipa":"/ˌoʊvərˈteɪk/","meanings":[{"pos":"동","defs":["추월하다","(재난 등이) 닥치다, 엄습하다"]}]},
-    {"en":"overlap","ipa":"/ˌoʊvərˈlæp/","meanings":[{"pos":"동","defs":["겹치다, 중복되다"]},{"pos":"명","defs":["중복, 공통 부분"]}]},
-    {"en":"overflow","ipa":"/ˌoʊvərˈfloʊ/","meanings":[{"pos":"동","defs":["넘쳐흐르다, 범람하다"]},{"pos":"명","defs":["넘침, 범람"]}]},
-    {"en":"extraordinary","ipa":"/ɪkˈstrɔːrdəneri/","meanings":[{"pos":"형","defs":["비범한, 특별한","기이한"]}]},
-    {"en":"extracurricular","ipa":"/ˌekstrəkəˈrɪkjələr/","meanings":[{"pos":"형","defs":["정규 교과 과정 이외의, 과외의"]}]},
-    {"en":"extraterrestrial","ipa":"/ˌekstrətəˈrestriəl/","meanings":[{"pos":"형","defs":["지구 밖의, 외계의"]},{"pos":"명","defs":["외계인"]}]},
-    {"en":"extrovert","ipa":"/ˈekstrəvɜːrt/","meanings":[{"pos":"명","defs":["외향적인 사람"]}]},
-    {"en":"external","ipa":"/ɪkˈstɜːrnl/","meanings":[{"pos":"형","defs":["외부의, 밖의"]}]},
-    {"en":"undergo","ipa":"/ˌʌndərˈɡoʊ/","meanings":[{"pos":"동","defs":["(변화·시련 등을) 겪다, 받다"]}]},
-    {"en":"undertake","ipa":"/ˌʌndərˈteɪk/","meanings":[{"pos":"동","defs":["(책임·일을) 맡다","약속하다, 동의하다"]}]},
-    {"en":"undergraduate","ipa":"/ˌʌndərˈɡrædʒuət/","meanings":[{"pos":"명","defs":["대학생, 학부생"]}]},
-    {"en":"underlying","ipa":"/ˌʌndərˈlaɪɪŋ/","meanings":[{"pos":"형","defs":["근본적인","밑에 있는"]}]}
+    {"en":"forehead","ipa":"/ˈfɔːrhed/","meanings":[{"pos":"명","defs":["이마"]}],
+      "parts":[{"part":"fore-","mean":"앞의 (front, before)"},{"part":"head","mean":"머리 (head)"}],
+      "origin":"머리의 앞부분 → 이마"},
+
+    {"en":"forefather","ipa":"/ˈfɔːrfɑːðər/","meanings":[{"pos":"명","defs":["조상, 선조"]}],
+      "parts":[{"part":"fore-","mean":"이전의 (before)"},{"part":"father","mean":"아버지 (father)"}],
+      "origin":"이전의 아버지들 → 조상, 선조"},
+
+    {"en":"foresee","ipa":"/fɔːrˈsiː/","meanings":[{"pos":"동","defs":["예견하다, 내다보다"]}],
+      "parts":[{"part":"fore-","mean":"미리, 전에 (before)"},{"part":"see","mean":"보다 (see)"}],
+      "origin":"미리 보다 → 예견하다"},
+
+    {"en":"foremost","ipa":"/ˈfɔːrmoʊst/","meanings":[{"pos":"형","defs":["가장 중요한, 맨 앞의"]}],
+      "parts":[{"part":"fore-","mean":"앞의 (front)"},{"part":"most","mean":"가장 (most)"}],
+      "origin":"가장 앞에 있는 → 가장 중요한"},
+
+    {"en":"former","ipa":"/ˈfɔːrmər/","meanings":[{"pos":"형","defs":["이전의, 예전의","(둘 중) 전자의"]}],
+      "parts":[{"part":"form-","mean":"앞의 (fore-, before)"},{"part":"-er","mean":"비교급 접미사"}],
+      "origin":"더 앞에 있던 → 이전의, 예전의"},
+
+    {"en":"overcome","ipa":"/ˌoʊvərˈkʌm/","meanings":[{"pos":"동","defs":["극복하다, 이겨내다"]}],
+      "parts":[{"part":"over-","mean":"넘어, 위에 (over)"},{"part":"come","mean":"오다 (come)"}],
+      "origin":"넘어서 오다 → 극복하다"},
+
+    {"en":"overlook","ipa":"/ˌoʊvərˈlʊk/","meanings":[{"pos":"동","defs":["간과하다, 못 본 체하다","내려다보다"]}],
+      "parts":[{"part":"over-","mean":"위에서, 너머 (over, beyond)"},{"part":"look","mean":"보다 (look)"}],
+      "origin":"위에서 넘겨 보다 → 간과하다 / 내려다보다"},
+
+    {"en":"overseas","ipa":"/ˌoʊvərˈsiːz/","meanings":[{"pos":"부","defs":["해외로"]},{"pos":"형","defs":["해외의, 외국의"]}],
+      "parts":[{"part":"over-","mean":"너머 (across, beyond)"},{"part":"seas","mean":"바다 (seas)"}],
+      "origin":"바다 너머 → 해외의"},
+
+    {"en":"overwhelm","ipa":"/ˌoʊvərˈwelm/","meanings":[{"pos":"동","defs":["압도하다","당황하게 하다"]}],
+      "parts":[{"part":"over-","mean":"위에서, 과도하게 (over)"},{"part":"whelm","mean":"뒤집다, 덮치다 (engulf, overturn)"}],
+      "origin":"위에서 완전히 덮치다 → 압도하다"},
+
+    {"en":"overall","ipa":"/ˌoʊvərˈɔːl/","meanings":[{"pos":"형","defs":["전체의, 전반적인"]},{"pos":"부","defs":["전반적으로"]}],
+      "parts":[{"part":"over-","mean":"위에, 전체에 (over)"},{"part":"all","mean":"모든 (all)"}],
+      "origin":"모든 것 위에 걸쳐 → 전반적인"},
+
+    {"en":"overhead","ipa":"/ˌoʊvərˈhed/","meanings":[{"pos":"부","defs":["머리 위에"]},{"pos":"형","defs":["머리 위의"]}],
+      "parts":[{"part":"over-","mean":"위에 (above)"},{"part":"head","mean":"머리 (head)"}],
+      "origin":"머리 위에 → 머리 위의"},
+
+    {"en":"overtake","ipa":"/ˌoʊvərˈteɪk/","meanings":[{"pos":"동","defs":["추월하다","(재난 등이) 닥치다, 엄습하다"]}],
+      "parts":[{"part":"over-","mean":"넘어서 (beyond, past)"},{"part":"take","mean":"잡다 (take, catch)"}],
+      "origin":"넘어서 잡다 → 추월하다"},
+
+    {"en":"overlap","ipa":"/ˌoʊvərˈlæp/","meanings":[{"pos":"동","defs":["겹치다, 중복되다"]},{"pos":"명","defs":["중복, 공통 부분"]}],
+      "parts":[{"part":"over-","mean":"위에 (over, on top)"},{"part":"lap","mean":"겹치다, 접다 (fold, lay over)"}],
+      "origin":"위에 겹쳐 놓다 → 겹치다, 중복되다"},
+
+    {"en":"overflow","ipa":"/ˌoʊvərˈfloʊ/","meanings":[{"pos":"동","defs":["넘쳐흐르다, 범람하다"]},{"pos":"명","defs":["넘침, 범람"]}],
+      "parts":[{"part":"over-","mean":"넘어서 (over, beyond)"},{"part":"flow","mean":"흐르다 (flow)"}],
+      "origin":"넘어서 흐르다 → 넘쳐흐르다, 범람하다"},
+
+    {"en":"extraordinary","ipa":"/ɪkˈstrɔːrdəneri/","meanings":[{"pos":"형","defs":["비범한, 특별한","기이한"]}],
+      "parts":[{"part":"extra-","mean":"~을 넘어서 (beyond)"},{"part":"ordinary","mean":"보통의 (ordinary)"}],
+      "origin":"보통을 넘어서는 → 비범한, 특별한"},
+
+    {"en":"extracurricular","ipa":"/ˌekstrəkəˈrɪkjələr/","meanings":[{"pos":"형","defs":["정규 교과 과정 이외의, 과외의"]}],
+      "parts":[{"part":"extra-","mean":"~밖의 (outside)"},{"part":"curricular","mean":"교과 과정의 (of curriculum)"}],
+      "origin":"교과 과정 밖의 → 과외의"},
+
+    {"en":"extraterrestrial","ipa":"/ˌekstrətəˈrestriəl/","meanings":[{"pos":"형","defs":["지구 밖의, 외계의"]},{"pos":"명","defs":["외계인"]}],
+      "parts":[{"part":"extra-","mean":"~밖의 (outside, beyond)"},{"part":"terrestr","mean":"지구, 땅 (earth, land)"},{"part":"-ial","mean":"형용사형 접미사"}],
+      "origin":"지구 밖의 → 외계의"},
+
+    {"en":"extrovert","ipa":"/ˈekstrəvɜːrt/","meanings":[{"pos":"명","defs":["외향적인 사람"]}],
+      "parts":[{"part":"extro-","mean":"밖으로 (outward, extra-)"},{"part":"vert","mean":"돌리다 (turn)"}],
+      "origin":"관심을 밖으로 돌리는 사람 → 외향적인 사람"},
+
+    {"en":"external","ipa":"/ɪkˈstɜːrnl/","meanings":[{"pos":"형","defs":["외부의, 밖의"]}],
+      "parts":[{"part":"extern-","mean":"밖의 (outer, extra-)"},{"part":"-al","mean":"형용사형 접미사"}],
+      "origin":"밖에 있는 → 외부의"},
+
+    {"en":"undergo","ipa":"/ˌʌndərˈɡoʊ/","meanings":[{"pos":"동","defs":["(변화·시련 등을) 겪다, 받다"]}],
+      "parts":[{"part":"under-","mean":"아래에서 (under, beneath)"},{"part":"go","mean":"가다, 겪다 (go)"}],
+      "origin":"아래에서 겪어 나가다 → (시련을) 겪다"},
+
+    {"en":"undertake","ipa":"/ˌʌndərˈteɪk/","meanings":[{"pos":"동","defs":["(책임·일을) 맡다","약속하다, 동의하다"]}],
+      "parts":[{"part":"under-","mean":"아래에서 (under)"},{"part":"take","mean":"잡다, 맡다 (take)"}],
+      "origin":"아래에서 떠받쳐 맡다 → (일을) 맡다"},
+
+    {"en":"undergraduate","ipa":"/ˌʌndərˈɡrædʒuət/","meanings":[{"pos":"명","defs":["대학생, 학부생"]}],
+      "parts":[{"part":"under-","mean":"아래의 (below)"},{"part":"graduate","mean":"졸업생 (graduate)"}],
+      "origin":"졸업 아래 단계 → 학부생"},
+
+    {"en":"underlying","ipa":"/ˌʌndərˈlaɪɪŋ/","meanings":[{"pos":"형","defs":["근본적인","밑에 있는"]}],
+      "parts":[{"part":"under-","mean":"아래에 (under, beneath)"},{"part":"lying","mean":"놓여 있는 (lying)"}],
+      "origin":"아래에 놓여 있는 → 근본적인"}
   ]
 }

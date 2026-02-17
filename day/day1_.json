@@ -2,103 +2,103 @@
   "title": "pro- 앞으로/ pre- 미리,먼저/ in-,il 안에,위에/ out-,ut ~밖으로,~을 능가하는",
   "words": [
     {"en":"progress","ipa":"/ˈprɑːɡres/","meanings":[{"pos":"명","defs":["진보, 발전"]},{"pos":"동","defs":["전진하다, 발달하다"]}],
-      "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"gress","mean":"걷다 (walk, step)"}],
+      "parts":[{"part":"pro-","mean":"앞으로(forward)"},{"part":"gress","mean":"걷다, 나아가다(go)"}],
       "origin":"앞으로 나아가다 → 진보, 발전"},
 
     {"en":"propose","ipa":"/prəˈpoʊz/","meanings":[{"pos":"동","defs":["제안하다","(결혼을) 신청하다"]}],
-      "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"pose","mean":"놓다, 두다 (put, place)"}],
+      "parts":[{"part":"pro-","mean":"앞으로(forward)"},{"part":"pose","mean":"놓다, 두다(place)"}],
       "origin":"앞에 내놓다 → 제안하다"},
 
     {"en":"produce","ipa":"/prəˈduːs/ · /ˈprɑːduːs/","meanings":[{"pos":"동","defs":["생산하다"]},{"pos":"명","defs":["농산물"]}],
-      "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"duce","mean":"이끌다 (lead)"}],
+      "parts":[{"part":"pro-","mean":"앞으로(forward)"},{"part":"duce","mean":"이끌다(lead)"}],
       "origin":"앞으로 이끌어 내다 → 생산하다"},
 
     {"en":"protect","ipa":"/prəˈtekt/","meanings":[{"pos":"동","defs":["보호하다, 지키다"]}],
-      "parts":[{"part":"pro-","mean":"앞에서 (in front)"},{"part":"tect","mean":"덮다 (cover)"}],
+      "parts":[{"part":"pro-","mean":"앞에서(forward)"},{"part":"tect","mean":"덮다(cover)"}],
       "origin":"앞에서 덮어주다 → 보호하다"},
 
     {"en":"profile","ipa":"/ˈproʊfaɪl/","meanings":[{"pos":"명","defs":["옆얼굴, 개요, 인물 소개(프로필)"]}],
-      "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"file","mean":"윤곽선 (line, thread)"}],
+      "parts":[{"part":"pro-","mean":"앞으로(forward)"},{"part":"file","mean":"실, 윤곽선(filare)"}],
       "origin":"앞에서 본 윤곽선 → 옆얼굴, 프로필"},
 
     {"en":"purchase","ipa":"/ˈpɜːrtʃəs/","meanings":[{"pos":"동","defs":["구매하다"]},{"pos":"명","defs":["구매품, 구입"]}],
-      "parts":[{"part":"pur-","mean":"앞으로 (forward, pro-)"},{"part":"chase","mean":"쫓다 (chase, pursue)"}],
+      "parts":[{"part":"pur-","mean":"앞으로(forward)"},{"part":"chase","mean":"쫓다, 추구하다"}],
       "origin":"앞으로 쫓아가 얻다 → 구매하다"},
 
     {"en":"predict","ipa":"/prɪˈdɪkt/","meanings":[{"pos":"동","defs":["예측하다, 예언하다"]}],
-      "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"dict","mean":"말하다 (say, speak)"}],
+      "parts":[{"part":"pre-","mean":"미리, 먼저(before)"},{"part":"dict","mean":"말하다(tell)"}],
       "origin":"미리 말하다 → 예측하다"},
 
     {"en":"precaution","ipa":"/prɪˈkɔːʃən/","meanings":[{"pos":"명","defs":["예방 조치, 조심, 경계"]}],
-      "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"caut","mean":"조심하다 (be careful)"},{"part":"-ion","mean":"명사형 접미사"}],
+      "parts":[{"part":"pre-","mean":"미리, 먼저(before)"},{"part":"caut","mean":"조심하다"},{"part":"-ion","mean":"명사형 접미사"}],
       "origin":"미리 조심하는 것 → 예방 조치"},
 
     {"en":"premature","ipa":"/ˌpriːməˈtʃʊr/","meanings":[{"pos":"형","defs":["시기상조의, 조숙한, 조산의"]}],
-      "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"mature","mean":"익은, 성숙한 (ripe, mature)"}],
+      "parts":[{"part":"pre-","mean":"미리, 먼저(before)"},{"part":"mature","mean":"익은, 성숙한"}],
       "origin":"때가 되기 전에 익은 → 시기상조의"},
 
     {"en":"preview","ipa":"/ˈpriːvjuː/","meanings":[{"pos":"명","defs":["시사(회), 미리 보기"]},{"pos":"동","defs":["(영화 등을) 미리 보다"]}],
-      "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"view","mean":"보다 (see, look)"}],
+      "parts":[{"part":"pre-","mean":"미리, 먼저(before)"},{"part":"view","mean":"보다"}],
       "origin":"미리 보다 → 시사회, 미리 보기"},
 
     {"en":"income","ipa":"/ˈɪnkʌm/","meanings":[{"pos":"명","defs":["수입, 소득"]}],
-      "parts":[{"part":"in-","mean":"안으로 (in, into)"},{"part":"come","mean":"오다 (come)"}],
+      "parts":[{"part":"in-","mean":"안으로(in)"},{"part":"come","mean":"오다"}],
       "origin":"안으로 들어오는 것 → 수입, 소득"},
 
     {"en":"intake","ipa":"/ˈɪnteɪk/","meanings":[{"pos":"명","defs":["섭취(량), 흡입"]}],
-      "parts":[{"part":"in-","mean":"안으로 (in, into)"},{"part":"take","mean":"취하다 (take)"}],
+      "parts":[{"part":"in-","mean":"안으로(in)"},{"part":"take","mean":"가져가다, 취하다"}],
       "origin":"안으로 가져오다 → 섭취, 흡입"},
 
     {"en":"infection","ipa":"/ɪnˈfekʃən/","meanings":[{"pos":"명","defs":["감염, 전염, 전염병"]}],
-      "parts":[{"part":"in-","mean":"안에 (in, on)"},{"part":"fect","mean":"만들다 (make, do)"},{"part":"-ion","mean":"명사형 접미사"}],
-      "origin":"안에 (병이) 만들어진 것 → 감염"},
+      "parts":[{"part":"in-","mean":"안으로(in)"},{"part":"fect","mean":"만들다, 놓다(fac:put)"},{"part":"-ion","mean":"명사형 접미사"}],
+      "origin":"(병균을) 안에 넣는 것 → 감염"},
 
     {"en":"insight","ipa":"/ˈɪnsaɪt/","meanings":[{"pos":"명","defs":["통찰력, 식견"]}],
-      "parts":[{"part":"in-","mean":"안을 (into)"},{"part":"sight","mean":"보다, 시야 (see, sight)"}],
+      "parts":[{"part":"in-","mean":"안으로(in)"},{"part":"sight","mean":"보다, 시야"}],
       "origin":"안을 들여다보다 → 통찰력"},
 
     {"en":"inherent","ipa":"/ɪnˈhɪrənt/","meanings":[{"pos":"형","defs":["타고난, 내재된, 고유의"]}],
-      "parts":[{"part":"in-","mean":"안에 (in)"},{"part":"her","mean":"달라붙다 (stick, cling)"},{"part":"-ent","mean":"형용사형 접미사"}],
+      "parts":[{"part":"in-","mean":"안에(in)"},{"part":"her","mean":"달라붙다(adhere)"},{"part":"-ent","mean":"형용사형 접미사"}],
       "origin":"안에 달라붙어 있는 → 내재된, 타고난"},
 
     {"en":"investment","ipa":"/ɪnˈvestmənt/","meanings":[{"pos":"명","defs":["투자, 투자금"]}],
-      "parts":[{"part":"in-","mean":"안에 (on)"},{"part":"vest","mean":"옷을 입히다 (clothe)"},{"part":"-ment","mean":"명사형 접미사"}],
+      "parts":[{"part":"in-","mean":"안에(on)"},{"part":"vest","mean":"옷을 입히다(clothe)"},{"part":"-ment","mean":"명사형 접미사"}],
       "origin":"(돈에) 옷을 입혀 넣다 → 투자"},
 
     {"en":"investigate","ipa":"/ɪnˈvestɪɡeɪt/","meanings":[{"pos":"동","defs":["조사하다, 수사하다"]}],
-      "parts":[{"part":"in-","mean":"안으로 (into)"},{"part":"vestig","mean":"발자국, 흔적 (track, footprint)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"안으로 발자국을 쫓다 → 조사하다"},
+      "parts":[{"part":"in-","mean":"안으로(into)"},{"part":"vestigate","mean":"추적하다(track)"}],
+      "origin":"안으로 발자국을 추적하다 → 조사하다"},
 
     {"en":"illustrate","ipa":"/ˈɪləstreɪt/","meanings":[{"pos":"동","defs":["(실례·그림으로) 설명하다, 삽화를 넣다"]}],
-      "parts":[{"part":"il-","mean":"위에 (on, in-)"},{"part":"lustr","mean":"빛나다 (light, shine)"},{"part":"-ate","mean":"동사형 접미사"}],
+      "parts":[{"part":"il-","mean":"위에(in)"},{"part":"lustr","mean":"빛나다, 밝히다(lustrare)"},{"part":"-ate","mean":"동사형 접미사"}],
       "origin":"위에 빛을 비추다 → 밝혀 설명하다"},
 
     {"en":"outcome","ipa":"/ˈaʊtkʌm/","meanings":[{"pos":"명","defs":["결과, 성과"]}],
-      "parts":[{"part":"out-","mean":"밖으로 (out)"},{"part":"come","mean":"나오다 (come)"}],
+      "parts":[{"part":"out-","mean":"밖으로(outside)"},{"part":"come","mean":"오다, 나오다"}],
       "origin":"밖으로 나온 것 → 결과"},
 
     {"en":"outline","ipa":"/ˈaʊtlaɪn/","meanings":[{"pos":"명","defs":["개요, 윤곽"]},{"pos":"동","defs":["개요를 서술하다, 윤곽을 그리다"]}],
-      "parts":[{"part":"out-","mean":"바깥의 (outer)"},{"part":"line","mean":"선 (line)"}],
+      "parts":[{"part":"out-","mean":"밖의, 바깥(outside)"},{"part":"line","mean":"선"}],
       "origin":"바깥 선 → 윤곽, 개요"},
 
     {"en":"outstanding","ipa":"/aʊtˈstændɪŋ/","meanings":[{"pos":"형","defs":["뛰어난, 아주 훌륭한","(부채 등이) 미지불된"]}],
-      "parts":[{"part":"out-","mean":"능가하는 (surpassing)"},{"part":"stand","mean":"서다 (stand)"},{"part":"-ing","mean":"형용사형 접미사"}],
+      "parts":[{"part":"out-","mean":"~을 능가하는, 밖으로(outside)"},{"part":"stand","mean":"서다"},{"part":"-ing","mean":"형용사형 접미사"}],
       "origin":"밖으로 우뚝 서 있는 → 뛰어난"},
 
     {"en":"outbreak","ipa":"/ˈaʊtbreɪk/","meanings":[{"pos":"명","defs":["(전쟁·질병 등의) 발생, 발발"]}],
-      "parts":[{"part":"out-","mean":"밖으로 (out)"},{"part":"break","mean":"터지다 (break, burst)"}],
+      "parts":[{"part":"out-","mean":"밖으로(outside)"},{"part":"break","mean":"깨지다, 터지다"}],
       "origin":"밖으로 터져 나오다 → 발생, 발발"},
 
     {"en":"outlet","ipa":"/ˈaʊtlet/","meanings":[{"pos":"명","defs":["배출구, (가전) 콘센트, 할인점(아울렛)"]}],
-      "parts":[{"part":"out-","mean":"밖으로 (out)"},{"part":"let","mean":"내보내다 (let go, release)"}],
+      "parts":[{"part":"out-","mean":"밖으로"},{"part":"let","mean":"보내다, 내보내다"}],
       "origin":"밖으로 내보내는 곳 → 배출구"},
 
     {"en":"utter","ipa":"/ˈʌtər/","meanings":[{"pos":"형","defs":["완전한, 순전한"]},{"pos":"동","defs":["(말을) 내뱉다, 발언하다"]}],
-      "parts":[{"part":"ut-","mean":"밖으로 (out)"},{"part":"-er","mean":"비교급/동작 접미사"}],
+      "parts":[{"part":"ut-","mean":"밖으로(outside)"},{"part":"-er","mean":"비교급/동작 접미사"}],
       "origin":"밖으로 내보내다 → 말을 내뱉다 / 완전히 밖의 → 완전한"},
 
     {"en":"utmost","ipa":"/ˈʌtmoʊst/","meanings":[{"pos":"형","defs":["최고의, 극도의"]},{"pos":"명","defs":["최대한도"]}],
-      "parts":[{"part":"ut-","mean":"극단, 밖으로 (outermost)"},{"part":"most","mean":"가장 (most)"}],
-      "origin":"가장 바깥의, 극단의 → 최고의, 극도의"}
+      "parts":[{"part":"ut-","mean":"밖으로, 극단(more than)"},{"part":"most","mean":"가장 많은"}],
+      "origin":"가장 많은 것보다 더 많은 → 최고의, 극도의"}
   ]
 }

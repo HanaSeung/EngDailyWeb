@@ -77,6 +77,13 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-front,.card-back{width:100%;min-height:340px;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:var(--card-radius);padding:60px 28px 32px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow);background:linear-gradient(145deg,#ffffff,#f0f3f8);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;position:relative}
 .card-back{position:absolute;top:0;left:0;transform:rotateY(180deg);background:linear-gradient(145deg,#f0f3f8,#ffffff)}
 .card-mode-hint{position:absolute;bottom:12px;font-size:.7rem;color:var(--text-dim);opacity:.5}
+.card-etymology{width:100%;margin-top:16px;text-align:center}
+.card-etymology .ety-parts{display:flex;justify-content:center;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.card-etymology .ety-part{display:flex;flex-direction:column;align-items:center;padding:8px 12px;border-radius:10px;background:rgba(91,106,191,.06);border:1px solid rgba(91,106,191,.15)}
+.card-etymology .ety-part .part-text{font-family:'DM Serif Display',serif;font-size:1.1rem;font-weight:600;color:var(--accent);letter-spacing:.5px}
+.card-etymology .ety-part .part-mean{font-size:.7rem;color:var(--text-dim);margin-top:2px}
+.card-etymology .ety-plus{display:flex;align-items:center;color:var(--text-dim);font-size:1rem;font-weight:700;padding:0 2px}
+.card-etymology .ety-origin{font-size:.82rem;color:var(--text);line-height:1.5;padding:10px 14px;border-radius:10px;background:rgba(46,170,127,.05);border:1px solid rgba(46,170,127,.12)}
 .card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;text-align:center;margin-bottom:6px}
 .card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:'Noto Sans',sans-serif}
 .card-meanings{width:100%}
@@ -280,6 +287,7 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
             <div class="card-word" id="cardWordBack">-</div>
             <div class="card-ipa" id="cardIpaBack"></div>
             <div class="card-meanings" id="cardMeaningsBack"></div>
+            <div class="card-etymology" id="cardEtymology"></div>
             <div class="card-mode-hint" id="backHint"></div>
           </div>
         </div>
@@ -538,9 +546,13 @@ function updateModeButtons() {
 }
 
 function flipCard(e) {
-  if (viewMode === 'all') return;
   // 버튼 클릭 시 뒤집기 방지
   if (e && e.target.closest('.card-btn')) return;
+  // 전체 모드에서 parts 데이터 없으면 뒤집기 안 함
+  if (viewMode === 'all') {
+    const word = studyWords[currentIndex];
+    if (!word || !word.parts || word.parts.length === 0) return;
+  }
   playSound('flip');
   isFlipped = !isFlipped;
   document.getElementById('cardFlipInner').classList.toggle('flipped', isFlipped);
@@ -901,17 +913,37 @@ function showCard() {
   });
 
   if (viewMode === 'all') {
-    // 전체보기: 앞면에 모두 표시, 뒷면 불필요
+    // 전체보기: 앞면=영어+IPA+뜻, 뒷면=단어 구조 분석
     document.getElementById('cardWord').textContent = word.en;
     document.getElementById('cardIpa').textContent = word.ipa || '';
     document.getElementById('cardMeanings').innerHTML = meaningsHtml;
-    document.getElementById('frontHint').textContent = '';
-    document.getElementById('cardWordBack').textContent = '';
+    document.getElementById('cardWordBack').textContent = word.en;
     document.getElementById('cardIpaBack').textContent = '';
     document.getElementById('cardMeaningsBack').innerHTML = '';
-    document.getElementById('backHint').textContent = '';
-    document.getElementById('cardFlipWrapper').style.cursor = 'default';
     document.getElementById('btnSpeak').style.visibility = 'visible';
+
+    // 어원 분석 렌더링
+    const etyEl = document.getElementById('cardEtymology');
+    if (word.parts && word.parts.length > 0) {
+      let partsHtml = '<div class="ety-parts">';
+      word.parts.forEach((p, i) => {
+        if (i > 0) partsHtml += '<div class="ety-plus">+</div>';
+        partsHtml += `<div class="ety-part"><span class="part-text">${p.part}</span><span class="part-mean">${p.mean}</span></div>`;
+      });
+      partsHtml += '</div>';
+      if (word.origin) {
+        partsHtml += `<div class="ety-origin">💡 ${word.origin}</div>`;
+      }
+      etyEl.innerHTML = partsHtml;
+      document.getElementById('frontHint').textContent = '탭하여 어원 보기';
+      document.getElementById('backHint').textContent = '탭하여 돌아가기';
+      document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
+    } else {
+      etyEl.innerHTML = '';
+      document.getElementById('frontHint').textContent = '';
+      document.getElementById('backHint').textContent = '';
+      document.getElementById('cardFlipWrapper').style.cursor = 'default';
+    }
   } else if (viewMode === 'en') {
     // 영어보기: 앞면=영어+IPA, 뒷면=뜻
     document.getElementById('cardWord').textContent = word.en;
@@ -921,6 +953,7 @@ function showCard() {
     document.getElementById('cardWordBack').textContent = '';
     document.getElementById('cardIpaBack').textContent = '';
     document.getElementById('cardMeaningsBack').innerHTML = meaningsHtml;
+    document.getElementById('cardEtymology').innerHTML = '';
     document.getElementById('backHint').textContent = '탭하여 돌아가기';
     document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
     document.getElementById('btnSpeak').style.visibility = 'visible';
@@ -933,6 +966,7 @@ function showCard() {
     document.getElementById('cardWordBack').textContent = word.en;
     document.getElementById('cardIpaBack').textContent = word.ipa || '';
     document.getElementById('cardMeaningsBack').innerHTML = '';
+    document.getElementById('cardEtymology').innerHTML = '';
     document.getElementById('backHint').textContent = '탭하여 돌아가기';
     document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
     document.getElementById('btnSpeak').style.visibility = 'hidden';
