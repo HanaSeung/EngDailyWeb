@@ -328,21 +328,21 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
   <div class="quiz-select-screen" id="wrongNoteSelectScreen">
     <div class="quiz-select-title fade-up">📋 오답노트 — 퀴즈 모드를 선택하세요</div>
     <div class="quiz-mode-list fade-up" style="animation-delay:.1s">
-      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('en2kr_mc')">
+      <div class="quiz-mode-btn" id="wnBtn_en2kr_mc" onclick="beginWrongNoteQuiz('en2kr_mc')">
         <div class="quiz-mode-icon mc">🔤</div>
-        <div class="quiz-mode-info">영어 → 한글 (4지선다)<span>영어 단어를 보고 뜻 맞추기</span></div>
+        <div class="quiz-mode-info">영어 → 한글 (4지선다)<span>오답 <strong id="wnCount_en2kr_mc">0개</strong></span></div>
       </div>
-      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('kr2en_mc')">
+      <div class="quiz-mode-btn" id="wnBtn_kr2en_mc" onclick="beginWrongNoteQuiz('kr2en_mc')">
         <div class="quiz-mode-icon mc">🇰🇷</div>
-        <div class="quiz-mode-info">한글 → 영어 (4지선다)<span>한국어 뜻을 보고 단어 맞추기</span></div>
+        <div class="quiz-mode-info">한글 → 영어 (4지선다)<span>오답 <strong id="wnCount_kr2en_mc">0개</strong></span></div>
       </div>
-      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('en2kr_write')">
+      <div class="quiz-mode-btn" id="wnBtn_en2kr_write" onclick="beginWrongNoteQuiz('en2kr_write')">
         <div class="quiz-mode-icon write">✏️</div>
-        <div class="quiz-mode-info">영어 → 한글 (주관식)<span>영어 단어를 보고 뜻 직접 쓰기</span></div>
+        <div class="quiz-mode-info">영어 → 한글 (주관식)<span>오답 <strong id="wnCount_en2kr_write">0개</strong></span></div>
       </div>
-      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('kr2en_write')">
+      <div class="quiz-mode-btn" id="wnBtn_kr2en_write" onclick="beginWrongNoteQuiz('kr2en_write')">
         <div class="quiz-mode-icon write">✍️</div>
-        <div class="quiz-mode-info">한글 → 영어 (주관식)<span>한국어 뜻을 보고 단어 직접 쓰기</span></div>
+        <div class="quiz-mode-info">한글 → 영어 (주관식)<span>오답 <strong id="wnCount_kr2en_write">0개</strong></span></div>
       </div>
     </div>
     <button class="quiz-back-btn" onclick="closeWrongNoteSelect()">← 퀴즈 모드 선택으로</button>
@@ -979,7 +979,7 @@ function startQuiz() {
   document.getElementById('quizResultScreen').style.display = 'none';
   document.getElementById('wrongNoteSelectScreen').style.display = 'none';
   // 오답노트 개수 표시
-  const noteCount = getWrongNotes().length;
+  const noteCount = getTotalWrongCount();
   document.getElementById('wrongNoteCount').textContent = noteCount > 0 ? `틀린 단어 ${noteCount}개 저장됨` : '틀린 단어가 없습니다';
 }
 
@@ -1033,24 +1033,36 @@ function getPosList(word) {
   return word.meanings.map(m => m.pos);
 }
 
-// ── 오답노트 저장/관리 ──
-function getWrongNotes() {
-  try { return JSON.parse(localStorage.getItem('engvoca_wrong_notes') || '[]'); } catch { return []; }
+// ── 오답노트 저장/관리 (모드별) ──
+function getWrongNotesAll() {
+  try { return JSON.parse(localStorage.getItem('engvoca_wrong_notes') || '{}'); } catch { return {}; }
 }
-function saveWrongNotes(notes) {
-  localStorage.setItem('engvoca_wrong_notes', JSON.stringify(notes));
+function saveWrongNotesAll(data) {
+  localStorage.setItem('engvoca_wrong_notes', JSON.stringify(data));
 }
-function addToWrongNotes(word) {
-  let notes = getWrongNotes();
-  if (!notes.some(w => w.en === word.en)) {
-    notes.push(word);
-    saveWrongNotes(notes);
+function getWrongNotes(mode) {
+  const data = getWrongNotesAll();
+  return data[mode] || [];
+}
+function addToWrongNotes(word, mode) {
+  const data = getWrongNotesAll();
+  if (!data[mode]) data[mode] = [];
+  if (!data[mode].some(w => w.en === word.en)) {
+    data[mode].push(word);
+    saveWrongNotesAll(data);
   }
 }
-function removeFromWrongNotes(word) {
-  let notes = getWrongNotes();
-  notes = notes.filter(w => w.en !== word.en);
-  saveWrongNotes(notes);
+function removeFromWrongNotes(word, mode) {
+  const data = getWrongNotesAll();
+  if (!data[mode]) return;
+  data[mode] = data[mode].filter(w => w.en !== word.en);
+  saveWrongNotesAll(data);
+}
+function getTotalWrongCount() {
+  const data = getWrongNotesAll();
+  const seen = new Set();
+  Object.values(data).forEach(arr => arr.forEach(w => seen.add(w.en)));
+  return seen.size;
 }
 
 // 오답 추출: 같은 Day 우선, 부족하면 다른 Day에서 보충
@@ -1075,14 +1087,29 @@ function getWrongChoices(correctWord, count) {
 
 // 오답노트 열기
 function openWrongNoteQuiz() {
-  const notes = getWrongNotes();
-  if (notes.length === 0) {
+  const total = getTotalWrongCount();
+  if (total === 0) {
     alert('오답노트에 저장된 단어가 없습니다.');
     return;
   }
   playSound('daySelect');
+  updateWrongNoteModeCounts();
   document.getElementById('quizSelectScreen').style.display = 'none';
   document.getElementById('wrongNoteSelectScreen').style.display = 'block';
+}
+
+function updateWrongNoteModeCounts() {
+  const modes = ['en2kr_mc', 'kr2en_mc', 'en2kr_write', 'kr2en_write'];
+  modes.forEach(mode => {
+    const count = getWrongNotes(mode).length;
+    const el = document.getElementById('wnCount_' + mode);
+    if (el) el.textContent = count > 0 ? `${count}개` : '0개';
+    const btn = document.getElementById('wnBtn_' + mode);
+    if (btn) {
+      btn.style.opacity = count > 0 ? '1' : '.4';
+      btn.style.pointerEvents = count > 0 ? 'auto' : 'none';
+    }
+  });
 }
 
 function closeWrongNoteSelect() {
@@ -1114,6 +1141,8 @@ function beginQuiz(mode) {
 
 // 오답노트 퀴즈 시작
 function beginWrongNoteQuiz(mode) {
+  const notes = getWrongNotes(mode);
+  if (notes.length === 0) return;
   playSound('daySelect');
   quizMode = mode;
   quizIndex = 0;
@@ -1122,7 +1151,7 @@ function beginWrongNoteQuiz(mode) {
   quizAnswered = false;
   isWrongNoteMode = true;
 
-  quizQuestions = shuffle([...getWrongNotes()]);
+  quizQuestions = shuffle([...notes]);
 
   document.getElementById('wrongNoteSelectScreen').style.display = 'none';
   document.getElementById('quizResultScreen').style.display = 'none';
@@ -1229,11 +1258,11 @@ function selectChoice(el, isCorrect, correctWord) {
     quizCorrect++;
     document.getElementById('quizFeedback').textContent = '✅ 정답입니다!';
     document.getElementById('quizFeedback').className = 'quiz-feedback correct';
-    if (isWrongNoteMode) removeFromWrongNotes(correctWord);
+    if (isWrongNoteMode) removeFromWrongNotes(correctWord, quizMode);
     quizTimer = setTimeout(autoAdvance, 800);
   } else {
     quizWrongList.push(correctWord);
-    addToWrongNotes(correctWord);
+    addToWrongNotes(correctWord, quizMode);
     document.getElementById('quizFeedback').textContent = '❌ 틀렸습니다';
     document.getElementById('quizFeedback').className = 'quiz-feedback wrong';
     quizTimer = setTimeout(autoAdvance, 2000);
@@ -1270,11 +1299,11 @@ function submitWriteAnswer() {
     input.classList.add('correct');
     document.getElementById('quizFeedback').textContent = '✅ 정답입니다!';
     document.getElementById('quizFeedback').className = 'quiz-feedback correct';
-    if (isWrongNoteMode) removeFromWrongNotes(q);
+    if (isWrongNoteMode) removeFromWrongNotes(q, quizMode);
     quizTimer = setTimeout(autoAdvance, 800);
   } else {
     quizWrongList.push(q);
-    addToWrongNotes(q);
+    addToWrongNotes(q, quizMode);
     input.classList.add('wrong');
     document.getElementById('quizFeedback').textContent = '❌ 틀렸습니다';
     document.getElementById('quizFeedback').className = 'quiz-feedback wrong';
