@@ -159,7 +159,7 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
     <button class="btn-reload" onclick="toggleFullscreen()" id="btnFullscreen">🖥️ 전체화면 모드</button>
     <div style="font-size:.7rem;color:var(--text-dim);text-align:center;margin-top:4px">※ iOS(아이폰/아이패드)에서는 지원되지 않습니다</div>
     <button class="btn-reload" onclick="reloadDays()">🔄 Day 파일 다시 불러오기</button>
-    <button class="btn-close-settings" onclick="toggleSettings()">닫기</button>
+    <button class="btn-close-settings" onclick="closeSettings()">닫기</button>
   </div>
 </div>
 
@@ -241,8 +241,128 @@ let isFlipped = false;
 const VIEW_MODES = ['all', 'en', 'kr'];
 const VIEW_LABELS = { all: '📖 전체', en: '🔤 영어', kr: '🇰🇷 한글' };
 
+// ── 효과음 시스템 ──
+let audioCtx;
+function getAudioCtx() {
+  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  if (audioCtx.state === 'suspended') audioCtx.resume();
+  return audioCtx;
+}
+
+function playSound(type) {
+  try {
+    const ctx = getAudioCtx();
+    const t = ctx.currentTime;
+
+    if (type === 'daySelect') {
+      // 4. 버블 — Day 선택
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(900, t);
+      osc.frequency.exponentialRampToValueAtTime(300, t + 0.06);
+      gain.gain.setValueAtTime(0.3, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.06);
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.start(t); osc.stop(t + 0.06);
+    }
+
+    if (type === 'flip') {
+      // 7. 카드 뒤집기
+      const bufSize = ctx.sampleRate * 0.08;
+      const buf = ctx.createBuffer(1, bufSize, ctx.sampleRate);
+      const data = buf.getChannelData(0);
+      for (let i = 0; i < bufSize; i++) {
+        const progress = i / bufSize;
+        const envelope = Math.sin(progress * Math.PI);
+        data[i] = (Math.random() * 2 - 1) * envelope * 0.15;
+      }
+      const src = ctx.createBufferSource();
+      const gain = ctx.createGain();
+      const filter = ctx.createBiquadFilter();
+      filter.type = 'highpass';
+      filter.frequency.setValueAtTime(2000, t);
+      filter.frequency.linearRampToValueAtTime(6000, t + 0.08);
+      src.buffer = buf;
+      gain.gain.setValueAtTime(0.3, t);
+      src.connect(filter); filter.connect(gain); gain.connect(ctx.destination);
+      src.start(t);
+    }
+
+    if (type === 'nav') {
+      // 1. 가벼운 클릭 — 네비게이션
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = 800;
+      gain.gain.setValueAtTime(0.3, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.03);
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.start(t); osc.stop(t + 0.03);
+    }
+
+    if (type === 'speak') {
+      // 3. 높은 틱 — 스피커 버튼
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = 1200;
+      gain.gain.setValueAtTime(0.2, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.02);
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.start(t); osc.stop(t + 0.02);
+    }
+
+    if (type === 'star') {
+      // 6. 소프트 벨 — 중요단어 체크
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.15, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.1);
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.start(t); osc.stop(t + 0.1);
+    }
+
+    if (type === 'settings') {
+      // 5. 탭 — 옵션 버튼
+      const bufSize = ctx.sampleRate * 0.025;
+      const buf = ctx.createBuffer(1, bufSize, ctx.sampleRate);
+      const data = buf.getChannelData(0);
+      for (let i = 0; i < bufSize; i++) {
+        data[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / bufSize, 8);
+      }
+      const src = ctx.createBufferSource();
+      const gain = ctx.createGain();
+      const filter = ctx.createBiquadFilter();
+      filter.type = 'bandpass';
+      filter.frequency.value = 3000;
+      filter.Q.value = 0.8;
+      src.buffer = buf;
+      gain.gain.setValueAtTime(0.25, t);
+      src.connect(filter); filter.connect(gain); gain.connect(ctx.destination);
+      src.start(t);
+    }
+
+    if (type === 'mode') {
+      // 2. 부드러운 팝 — 모드 전환
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(600, t);
+      osc.frequency.exponentialRampToValueAtTime(400, t + 0.05);
+      gain.gain.setValueAtTime(0.25, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.05);
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.start(t); osc.stop(t + 0.05);
+    }
+  } catch(e) {}
+}
+
 function cycleMode(e) {
   if (e) { e.stopPropagation(); }
+  playSound('mode');
   const idx = VIEW_MODES.indexOf(viewMode);
   viewMode = VIEW_MODES[(idx + 1) % VIEW_MODES.length];
   document.getElementById('btnMode').textContent = VIEW_LABELS[viewMode];
@@ -256,6 +376,7 @@ function flipCard(e) {
   if (viewMode === 'all') return;
   // 버튼 클릭 시 뒤집기 방지
   if (e && e.target.closest('.card-btn')) return;
+  playSound('flip');
   isFlipped = !isFlipped;
   document.getElementById('cardFlipInner').classList.toggle('flipped', isFlipped);
 }
@@ -292,6 +413,12 @@ function loadVoices() {
     opt.textContent = `${female ? '👩 ' : male ? '👨 ' : ''}${v.name} (${v.lang})`;
     sel.appendChild(opt);
   });
+  // 저장된 음성 복원
+  const savedVoiceName = localStorage.getItem('engvoca_voice');
+  if (savedVoiceName) {
+    const idx = voices.findIndex(v => v.name === savedVoiceName);
+    if (idx >= 0) sel.value = idx;
+  }
   if (voices.length === 0 && voiceLoadAttempts < 10) {
     voiceLoadAttempts++;
     setTimeout(loadVoices, 300);
@@ -301,6 +428,26 @@ if (typeof speechSynthesis !== 'undefined') {
   speechSynthesis.onvoiceschanged = loadVoices;
   loadVoices();
 }
+
+// 설정 저장/복원
+function saveSettings() {
+  localStorage.setItem('engvoca_wordOrder', document.getElementById('wordOrder').value);
+  localStorage.setItem('engvoca_slowSpeed', document.getElementById('slowSpeed').value);
+  const vIdx = parseInt(document.getElementById('voiceSelect').value);
+  if (vIdx >= 0 && voices[vIdx]) {
+    localStorage.setItem('engvoca_voice', voices[vIdx].name);
+  } else {
+    localStorage.removeItem('engvoca_voice');
+  }
+}
+function restoreSettings() {
+  const savedOrder = localStorage.getItem('engvoca_wordOrder');
+  if (savedOrder) document.getElementById('wordOrder').value = savedOrder;
+  const savedSpeed = localStorage.getItem('engvoca_slowSpeed');
+  if (savedSpeed) document.getElementById('slowSpeed').value = savedSpeed;
+  // 음성은 loadVoices에서 복원
+}
+restoreSettings();
 function getSelectedVoice() {
   const idx = parseInt(document.getElementById('voiceSelect').value);
   if (idx < 0 || isNaN(idx)) return null;
@@ -309,6 +456,7 @@ function getSelectedVoice() {
 
 function speakWord(e) {
   if (e) { e.stopPropagation(); }
+  playSound('speak');
   const word = studyWords[currentIndex]; if (!word) return;
   const btn = document.getElementById('btnSpeak');
   const synth = window.speechSynthesis; synth.cancel();
@@ -327,6 +475,7 @@ function speakWord(e) {
 
 function toggleStar(e) {
   if (e) { e.stopPropagation(); }
+  playSound('star');
   const word = studyWords[currentIndex]; if (!word) return;
   let starred = getStarredWords();
   const btn = document.getElementById('btnStar');
@@ -425,6 +574,7 @@ async function loadAllDays() {
 }
 
 async function reloadDays() {
+  playSound('settings');
   toggleSettings();
   localStorage.removeItem('engvoca_version');
   localStorage.removeItem('engvoca_daydata');
@@ -455,6 +605,7 @@ function showDaySelectScreen() {
 
 // 학습 화면 진입
 function enterStudy(index) {
+  playSound('daySelect');
   currentDayIndex = index;
   document.getElementById('daySelectScreen').style.display = 'none';
   document.getElementById('studyScreen').style.display = 'block';
@@ -467,12 +618,15 @@ function enterStudy(index) {
 // 돌아가기
 function askGoBack() {
   if (document.getElementById('studyScreen').style.display === 'none') return;
+  playSound('settings');
   document.getElementById('confirmOverlay').classList.add('open');
 }
 function closeConfirm() {
+  playSound('nav');
   document.getElementById('confirmOverlay').classList.remove('open');
 }
 function confirmGoBack() {
+  playSound('daySelect');
   closeConfirm();
   savePosition();
   window.speechSynthesis.cancel();
@@ -624,18 +778,20 @@ function showCard() {
   document.getElementById('btnLast').disabled = !wasCompleted || currentIndex >= studyWords.length - 1;
 }
 
-function goFirst() { currentIndex = 0; showCard(); }
-function goPrev() { if (currentIndex > 0) { currentIndex--; showCard(); } }
+function goFirst() { playSound('nav'); currentIndex = 0; showCard(); }
+function goPrev() { if (currentIndex > 0) { playSound('nav'); currentIndex--; showCard(); } }
 function goNext() {
   if (currentIndex < studyWords.length - 1) {
+    playSound('nav');
     currentIndex++;
     if (currentIndex >= studyWords.length - 1) savePosition();
     showCard();
   }
 }
-function goLast() { currentIndex = studyWords.length - 1; savePosition(); showCard(); }
+function goLast() { playSound('nav'); currentIndex = studyWords.length - 1; savePosition(); showCard(); }
 
 function toggleFullscreen() {
+  playSound('settings');
   if (!document.fullscreenElement) {
     document.documentElement.requestFullscreen().then(() => {
       document.body.classList.add('fullscreen-mode');
@@ -655,8 +811,14 @@ document.addEventListener('fullscreenchange', function() {
   }
 });
 
-function toggleSettings() { document.getElementById('settingsPanel').classList.toggle('open'); }
-document.getElementById('settingsPanel').addEventListener('click', function(e) { if (e.target === this) toggleSettings(); });
+function toggleSettings() { playSound('settings'); document.getElementById('settingsPanel').classList.toggle('open'); }
+function closeSettings() { playSound('nav'); document.getElementById('settingsPanel').classList.remove('open'); }
+document.getElementById('settingsPanel').addEventListener('click', function(e) { if (e.target === this) closeSettings(); });
+
+// 드롭다운 변경 시 소리
+document.getElementById('wordOrder').addEventListener('change', function() { playSound('mode'); saveSettings(); });
+document.getElementById('voiceSelect').addEventListener('change', function() { playSound('mode'); saveSettings(); });
+document.getElementById('slowSpeed').addEventListener('change', function() { playSound('mode'); saveSettings(); });
 
 document.addEventListener('keydown', function(e) {
   if (document.getElementById('settingsPanel').classList.contains('open')) return;
