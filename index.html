@@ -387,8 +387,9 @@ function showDaySelectScreen() {
     const savedPos = positions['day' + d.day] || 0;
     const total = d.words.length;
     const hasStarted = positions.hasOwnProperty('day' + d.day);
-    const pct = (!hasStarted || total === 0) ? 0 : Math.round(((savedPos + 1) / total) * 100);
-    const isDone = pct >= 100;
+    const completed = isDayCompleted(d.day);
+    const pct = completed ? 100 : (!hasStarted || total === 0) ? 0 : Math.round(((savedPos + 1) / total) * 100);
+    const isDone = completed;
     btn.className = 'day-grid-btn' + (isDone ? ' done' : '');
     btn.innerHTML = `<div class="day-num">Day ${d.day}${isDone ? ' ✓' : ''}</div><div class="day-bar-wrap"><div class="day-bar"><div class="day-bar-fill" style="width:${pct}%"></div></div><div class="day-pct">${pct}%</div></div>`;
     btn.onclick = () => enterStudy(i);
@@ -454,9 +455,11 @@ function startStudy() {
   let pool = [...dayData[currentDayIndex].words];
   if (order === 'random') pool = shuffle(pool);
   studyWords = pool;
-  // 저장된 학습 위치 복원
+  // 저장된 학습 위치 복원 (100% 완료면 처음부터)
   const savedPos = getSavedPosition(dayData[currentDayIndex].day);
-  if (savedPos >= 0 && savedPos < studyWords.length) {
+  if (savedPos >= studyWords.length - 1) {
+    currentIndex = 0;
+  } else if (savedPos >= 0) {
     currentIndex = savedPos;
   } else {
     currentIndex = 0;
@@ -476,7 +479,20 @@ function savePosition() {
   const positions = getSavedPositions();
   const dayNum = dayData[currentDayIndex].day;
   positions['day' + dayNum] = currentIndex;
+  // 마지막 단어에 도달하면 완료 플래그 저장
+  if (currentIndex >= studyWords.length - 1) {
+    const completed = getCompletedDays();
+    completed['day' + dayNum] = true;
+    localStorage.setItem('engvoca_completed', JSON.stringify(completed));
+  }
   localStorage.setItem('engvoca_positions', JSON.stringify(positions));
+}
+
+function getCompletedDays() {
+  try { return JSON.parse(localStorage.getItem('engvoca_completed') || '{}'); } catch { return {}; }
+}
+function isDayCompleted(dayNum) {
+  return getCompletedDays()['day' + dayNum] === true;
 }
 
 function shuffle(arr) {
@@ -503,16 +519,20 @@ function showCard() {
   document.getElementById('btnPrev').disabled = currentIndex === 0;
   document.getElementById('btnNext').disabled = currentIndex >= studyWords.length - 1;
   const dayNum = dayData[currentDayIndex].day;
-  const positions = getSavedPositions();
-  const savedPos = positions['day' + dayNum];
-  const wasCompleted = (savedPos !== undefined && savedPos >= studyWords.length - 1);
-  document.getElementById('btnLast').disabled = !wasCompleted;
+  const wasCompleted = isDayCompleted(dayNum);
+  document.getElementById('btnLast').disabled = !wasCompleted || currentIndex >= studyWords.length - 1;
 }
 
 function goFirst() { currentIndex = 0; showCard(); }
 function goPrev() { if (currentIndex > 0) { currentIndex--; showCard(); } }
-function goNext() { if (currentIndex < studyWords.length - 1) { currentIndex++; showCard(); } }
-function goLast() { currentIndex = studyWords.length - 1; showCard(); }
+function goNext() {
+  if (currentIndex < studyWords.length - 1) {
+    currentIndex++;
+    if (currentIndex >= studyWords.length - 1) savePosition();
+    showCard();
+  }
+}
+function goLast() { currentIndex = studyWords.length - 1; savePosition(); showCard(); }
 
 function toggleFullscreen() {
   if (!document.fullscreenElement) {
