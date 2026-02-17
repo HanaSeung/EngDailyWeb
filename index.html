@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EngVoca - 영어단어 학습</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=DM+Serif+Display&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1117;--surface:#1a1d27;--surface2:#232736;--accent:#6c5ce7;--accent-light:#a29bfe;--green:#00b894;--red:#e17055;--text:#f0f0f0;--text-dim:#8892a4;--card-radius:20px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}
+body::before{content:'';position:fixed;top:-30%;left:-10%;width:60vw;height:60vw;background:radial-gradient(circle,rgba(108,92,231,.08) 0%,transparent 70%);pointer-events:none;z-index:0}
+body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:50vw;background:radial-gradient(circle,rgba(0,184,148,.06) 0%,transparent 70%);pointer-events:none;z-index:0}
+.app{position:relative;z-index:1;max-width:520px;margin:0 auto;padding:20px 16px 40px}
+
+.header{text-align:center;padding:24px 0 20px}
+.header h1{font-family:'DM Serif Display',serif;font-size:2rem;letter-spacing:2px;background:linear-gradient(135deg,var(--accent-light),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.header p{color:var(--text-dim);font-size:.85rem;margin-top:4px}
+
+/* Loading */
+.loading{text-align:center;padding:60px 20px;color:var(--text-dim)}
+.loading-spinner{width:40px;height:40px;border:3px solid var(--surface2);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 16px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Day Tabs */
+.day-selector{margin-bottom:16px}
+.day-tabs{display:flex;gap:6px;overflow-x:auto;padding:4px 0;scrollbar-width:none}
+.day-tabs::-webkit-scrollbar{display:none}
+.day-tab{flex-shrink:0;padding:10px 18px;border:1px solid rgba(255,255,255,.08);border-radius:12px;background:var(--surface);color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.82rem;font-weight:500;cursor:pointer;transition:all .25s;white-space:nowrap}
+.day-tab:hover{border-color:var(--accent);color:var(--text)}
+.day-tab.active{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 3px 12px rgba(108,92,231,.35)}
+.day-title{text-align:center;font-size:.8rem;color:var(--text-dim);margin-top:8px;min-height:1.2em}
+.day-count{text-align:center;font-size:.72rem;color:var(--text-dim);margin-top:4px}
+
+.stats-bar{display:flex;gap:8px;margin-bottom:16px}
+.stat-item{flex:1;background:var(--surface);border-radius:14px;padding:14px 10px;text-align:center;border:1px solid rgba(255,255,255,.04)}
+.stat-value{font-family:'JetBrains Mono',monospace;font-size:1.4rem;font-weight:600}
+.stat-value.green{color:var(--green)}.stat-value.red{color:var(--red)}.stat-value.accent{color:var(--accent-light)}
+.stat-label{font-size:.7rem;color:var(--text-dim);margin-top:2px}
+
+.mode-tabs{display:flex;gap:6px;margin-bottom:16px;background:var(--surface);border-radius:14px;padding:5px}
+.mode-tab{flex:1;padding:12px;border:none;border-radius:10px;background:transparent;color:var(--text-dim);font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .3s}
+.mode-tab.active{background:var(--accent);color:#fff;box-shadow:0 4px 15px rgba(108,92,231,.4)}
+.mode-tab:hover:not(.active){color:var(--text)}
+
+.progress-wrap{margin-bottom:20px}
+.progress-info{display:flex;justify-content:space-between;font-size:.75rem;color:var(--text-dim);margin-bottom:6px}
+.progress-track{height:6px;background:var(--surface2);border-radius:3px;overflow:hidden}
+.progress-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--green));border-radius:3px;transition:width .5s ease;width:0%}
+
+/* Flashcard */
+.flashcard-area{perspective:1000px;margin-bottom:20px}
+.flashcard{position:relative;width:100%;min-height:280px;cursor:pointer;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,0,.2,1)}
+.flashcard.flipped{transform:rotateY(180deg)}
+.card-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:var(--card-radius);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 28px;border:1px solid rgba(255,255,255,.06)}
+.card-front{background:linear-gradient(145deg,var(--surface),var(--surface2))}
+.card-back{background:linear-gradient(145deg,#1e2235,#252a40);transform:rotateY(180deg)}
+.card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;margin-bottom:16px}
+.card-hint{font-size:.8rem;color:var(--text-dim);display:flex;align-items:center;gap:6px}
+.card-hint svg{width:16px;height:16px}
+.meaning-group{width:100%;margin-bottom:12px}.meaning-group:last-child{margin-bottom:0}
+.pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:8px}
+.def-list{list-style:none}
+.def-list li{font-size:1.05rem;line-height:1.6;color:var(--text);padding-left:16px;position:relative}
+.def-list li::before{content:'';position:absolute;left:0;top:10px;width:6px;height:6px;border-radius:50%;background:var(--accent-light)}
+
+.card-nav{display:flex;gap:10px;margin-bottom:20px}
+.card-nav button{flex:1;padding:14px;border:none;border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .2s}
+.btn-know{background:rgba(0,184,148,.15);color:var(--green);border:1px solid rgba(0,184,148,.3)!important}
+.btn-know:hover{background:rgba(0,184,148,.25)}
+.btn-dont{background:rgba(225,112,85,.15);color:var(--red);border:1px solid rgba(225,112,85,.3)!important}
+.btn-dont:hover{background:rgba(225,112,85,.25)}
+.btn-next{background:var(--surface2);color:var(--text);border:1px solid rgba(255,255,255,.06)!important}
+.btn-next:hover{background:var(--surface)}
+
+/* Quiz */
+.quiz-area{display:none}
+.quiz-question{background:linear-gradient(145deg,var(--surface),var(--surface2));border-radius:var(--card-radius);padding:40px 28px;text-align:center;margin-bottom:16px;border:1px solid rgba(255,255,255,.06)}
+.quiz-word{font-family:'DM Serif Display',serif;font-size:2.4rem;margin-bottom:8px}
+.quiz-pos{color:var(--accent-light);font-size:.85rem}
+.quiz-options{display:flex;flex-direction:column;gap:10px;margin-bottom:20px}
+.quiz-option{padding:16px 20px;background:var(--surface);border:2px solid rgba(255,255,255,.06);border-radius:14px;color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.95rem;text-align:left;cursor:pointer;transition:all .2s}
+.quiz-option:hover:not(.disabled){border-color:var(--accent);background:var(--surface2)}
+.quiz-option.correct{border-color:var(--green)!important;background:rgba(0,184,148,.12)!important;color:var(--green)}
+.quiz-option.wrong{border-color:var(--red)!important;background:rgba(225,112,85,.12)!important;color:var(--red)}
+.quiz-option.disabled{pointer-events:none}
+.quiz-next-wrap{text-align:center;display:none}
+.quiz-next-btn{padding:14px 40px;background:var(--accent);color:#fff;border:none;border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:.95rem;font-weight:500;cursor:pointer;transition:all .2s}
+.quiz-next-btn:hover{box-shadow:0 4px 20px rgba(108,92,231,.5)}
+
+/* Result */
+.result-screen{display:none;text-align:center;padding:40px 20px}
+.result-icon{font-size:4rem;margin-bottom:16px}
+.result-title{font-family:'DM Serif Display',serif;font-size:1.8rem;margin-bottom:8px}
+.result-desc{color:var(--text-dim);margin-bottom:24px;font-size:.95rem}
+.result-stats{display:flex;gap:16px;justify-content:center;margin-bottom:32px}
+.result-stat-box{background:var(--surface);border-radius:16px;padding:20px 28px;border:1px solid rgba(255,255,255,.04)}
+.result-stat-num{font-family:'JetBrains Mono',monospace;font-size:2rem;font-weight:600}
+.result-stat-label{font-size:.75rem;color:var(--text-dim);margin-top:4px}
+.btn-restart{padding:14px 48px;background:var(--accent);color:#fff;border:none;border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:1rem;font-weight:500;cursor:pointer;transition:all .2s}
+.btn-restart:hover{box-shadow:0 4px 20px rgba(108,92,231,.5)}
+
+/* Settings */
+.settings-toggle{position:fixed;top:16px;right:16px;z-index:100;width:40px;height:40px;border-radius:12px;background:var(--surface);border:1px solid rgba(255,255,255,.06);color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s}
+.settings-toggle:hover{color:var(--text);background:var(--surface2)}
+.settings-toggle svg{width:20px;height:20px}
+.settings-panel{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.6);backdrop-filter:blur(8px);padding:20px;overflow-y:auto}
+.settings-panel.open{display:flex;align-items:center;justify-content:center}
+.settings-content{background:var(--surface);border-radius:var(--card-radius);padding:32px 24px;width:100%;max-width:460px;border:1px solid rgba(255,255,255,.08)}
+.settings-title{font-size:1.2rem;font-weight:700;margin-bottom:20px}
+.setting-row{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.04)}
+.setting-label{font-size:.9rem}
+.setting-label span{display:block;font-size:.75rem;color:var(--text-dim);margin-top:2px}
+.setting-select{background:var(--surface2);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:8px 14px;color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.85rem}
+.btn-close-settings{margin-top:20px;width:100%;padding:12px;background:var(--accent);color:#fff;border:none;border-radius:12px;font-family:'Noto Sans KR',sans-serif;font-size:.9rem;cursor:pointer}
+.btn-reload{margin-top:10px;width:100%;padding:12px;background:var(--surface2);color:var(--text);border:1px solid rgba(255,255,255,.08);border-radius:12px;font-family:'Noto Sans KR',sans-serif;font-size:.85rem;cursor:pointer;transition:all .2s}
+.btn-reload:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.fade-up{animation:fadeUp .4s ease both}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.shake{animation:shake .4s ease}
+@keyframes pop{0%{transform:scale(1)}50%{transform:scale(1.05)}100%{transform:scale(1)}}
+.pop{animation:pop .3s ease}
+
+@media(max-width:400px){.card-word,.quiz-word{font-size:2rem}.stat-value{font-size:1.1rem}.day-tab{padding:8px 14px;font-size:.78rem}}
+</style>
+</head>
+<body>
+
+<button class="settings-toggle" onclick="toggleSettings()">
+  <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 15a3 3 0 100-6 3 3 0 000 6z"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+</button>
+
+<div class="settings-panel" id="settingsPanel">
+  <div class="settings-content">
+    <div class="settings-title">⚙️ 설정</div>
+    <div class="setting-row">
+      <div class="setting-label">Day 선택<span>설정에서도 Day를 바꿀 수 있습니다</span></div>
+      <select class="setting-select" id="daySelect" onchange="selectDayFromDropdown()"></select>
+    </div>
+    <div class="setting-row">
+      <div class="setting-label">단어 순서<span>학습 순서 설정</span></div>
+      <select class="setting-select" id="wordOrder">
+        <option value="random" selected>랜덤</option>
+        <option value="sequential">순서대로</option>
+      </select>
+    </div>
+    <button class="btn-reload" onclick="reloadDays()">🔄 Day 파일 다시 불러오기</button>
+    <button class="btn-close-settings" onclick="toggleSettings()">닫기</button>
+  </div>
+</div>
+
+<div class="app">
+  <div class="header fade-up">
+    <h1>EngVoca</h1>
+    <p>영어단어 학습 프로그램</p>
+  </div>
+
+  <!-- Loading -->
+  <div class="loading" id="loadingScreen">
+    <div class="loading-spinner"></div>
+    <div>Day 파일을 불러오는 중...</div>
+  </div>
+
+  <!-- Main Content (hidden until loaded) -->
+  <div id="mainContent" style="display:none">
+    <div class="day-selector fade-up" style="animation-delay:.05s">
+      <div class="day-tabs" id="dayTabs"></div>
+      <div class="day-title" id="dayTitle"></div>
+      <div class="day-count" id="dayCount"></div>
+    </div>
+
+    <div class="stats-bar fade-up" style="animation-delay:.1s">
+      <div class="stat-item"><div class="stat-value green" id="statCorrect">0</div><div class="stat-label">맞음</div></div>
+      <div class="stat-item"><div class="stat-value red" id="statWrong">0</div><div class="stat-label">틀림</div></div>
+      <div class="stat-item"><div class="stat-value accent" id="statRemain">0</div><div class="stat-label">남음</div></div>
+    </div>
+
+    <div class="mode-tabs fade-up" style="animation-delay:.15s">
+      <button class="mode-tab active" onclick="switchMode('flash')">📇 플래시카드</button>
+      <button class="mode-tab" onclick="switchMode('quiz')">📝 퀴즈</button>
+    </div>
+
+    <div class="progress-wrap fade-up" style="animation-delay:.2s">
+      <div class="progress-info"><span id="progressText">0 / 0</span><span id="progressPercent">0%</span></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+
+    <div class="flashcard-area fade-up" style="animation-delay:.25s" id="flashArea">
+      <div class="flashcard" id="flashcard" onclick="flipCard()">
+        <div class="card-face card-front">
+          <div class="card-word" id="cardWord">-</div>
+          <div class="card-hint">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 12h16M12 4l8 8-8 8"/></svg>
+            카드를 클릭하여 뜻 확인
+          </div>
+        </div>
+        <div class="card-face card-back" id="cardBack"></div>
+      </div>
+    </div>
+
+    <div class="card-nav" id="cardNav">
+      <button class="card-nav button btn-know" onclick="markWord(true)">✓ 알고 있음</button>
+      <button class="card-nav button btn-dont" onclick="markWord(false)">✕ 모름</button>
+      <button class="card-nav button btn-next" onclick="nextCard()">다음 →</button>
+    </div>
+
+    <div class="quiz-area" id="quizArea">
+      <div class="quiz-question">
+        <div class="quiz-word" id="quizWord">-</div>
+        <div class="quiz-pos" id="quizPos"></div>
+      </div>
+      <div class="quiz-options" id="quizOptions"></div>
+      <div class="quiz-next-wrap" id="quizNextWrap">
+        <button class="quiz-next-btn" onclick="nextQuiz()">다음 문제 →</button>
+      </div>
+    </div>
+
+    <div class="result-screen" id="resultScreen">
+      <div class="result-icon">🎉</div>
+      <div class="result-title">학습 완료!</div>
+      <div class="result-desc" id="resultDesc"></div>
+      <div class="result-stats">
+        <div class="result-stat-box"><div class="result-stat-num green" id="resultCorrect">0</div><div class="result-stat-label">맞음</div></div>
+        <div class="result-stat-box"><div class="result-stat-num red" id="resultWrong">0</div><div class="result-stat-label">틀림</div></div>
+      </div>
+      <button class="btn-restart" onclick="restart()">다시 학습하기</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let dayData = [];
+let allWords = [];
+let studyWords = [];
+let currentDayIndex = 0;
+let currentIndex = 0;
+let correct = 0;
+let wrong = 0;
+let mode = 'flash';
+let isFlipped = false;
+
+// ── Day 파일 자동 로드 ──
+async function loadAllDays() {
+  document.getElementById('loadingScreen').style.display = 'block';
+  document.getElementById('mainContent').style.display = 'none';
+  dayData = [];
+  allWords = [];
+
+  let dayNum = 1;
+  while (true) {
+    try {
+      const res = await fetch(`day/day${dayNum}.json`);
+      if (!res.ok) break;
+      const data = await res.json();
+      dayData.push({
+        day: dayNum,
+        title: data.title || '',
+        words: data.words || []
+      });
+      dayNum++;
+    } catch (e) {
+      break;
+    }
+  }
+
+  if (dayData.length === 0) {
+    document.getElementById('loadingScreen').innerHTML =
+      '<div style="color:var(--red);font-size:1rem">❌ day/day1.json 파일을 찾을 수 없습니다.<br><br><span style="font-size:.85rem;color:var(--text-dim)">day/ 폴더에 day1.json 파일이 있는지 확인하세요.</span></div>';
+    return;
+  }
+
+  allWords = [];
+  dayData.forEach(d => { allWords = allWords.concat(d.words); });
+
+  document.getElementById('loadingScreen').style.display = 'none';
+  document.getElementById('mainContent').style.display = 'block';
+
+  currentDayIndex = 0;
+  buildDayUI();
+  startStudy();
+}
+
+async function reloadDays() {
+  toggleSettings();
+  await loadAllDays();
+}
+
+function buildDayUI() {
+  const tabsEl = document.getElementById('dayTabs');
+  tabsEl.innerHTML = '';
+  dayData.forEach((d, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'day-tab' + (i === currentDayIndex ? ' active' : '');
+    btn.textContent = `Day ${d.day}`;
+    btn.onclick = () => selectDay(i);
+    tabsEl.appendChild(btn);
+  });
+
+  const sel = document.getElementById('daySelect');
+  sel.innerHTML = '';
+  dayData.forEach((d, i) => {
+    const opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = `Day ${d.day} — ${d.title || ''}`;
+    if (i === currentDayIndex) opt.selected = true;
+    sel.appendChild(opt);
+  });
+  updateDayTitle();
+}
+
+function selectDay(index) {
+  currentDayIndex = index;
+  document.querySelectorAll('.day-tab').forEach((t, i) => t.classList.toggle('active', i === index));
+  const activeTab = document.querySelectorAll('.day-tab')[index];
+  if (activeTab) activeTab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+  document.getElementById('daySelect').value = index;
+  updateDayTitle();
+  startStudy();
+}
+
+function selectDayFromDropdown() { selectDay(parseInt(document.getElementById('daySelect').value)); }
+
+function updateDayTitle() {
+  const d = dayData[currentDayIndex];
+  document.getElementById('dayTitle').textContent = d.title ? `📌 ${d.title}` : '';
+  document.getElementById('dayCount').textContent = `${d.words.length}단어`;
+}
+
+function startStudy() {
+  const order = document.getElementById('wordOrder').value;
+  let pool = [...dayData[currentDayIndex].words];
+  if (order === 'random') pool = shuffle(pool);
+  studyWords = pool;
+  currentIndex = 0; correct = 0; wrong = 0; isFlipped = false;
+  updateStats(); updateProgress();
+  document.getElementById('resultScreen').style.display = 'none';
+  showCurrentMode();
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function switchMode(m) {
+  mode = m;
+  document.querySelectorAll('.mode-tab').forEach((t, i) =>
+    t.classList.toggle('active', (i === 0 && m === 'flash') || (i === 1 && m === 'quiz'))
+  );
+  showCurrentMode();
+}
+
+function showCurrentMode() {
+  const flashArea = document.getElementById('flashArea');
+  const cardNav = document.getElementById('cardNav');
+  const quizArea = document.getElementById('quizArea');
+  if (currentIndex >= studyWords.length) { showResult(); return; }
+  if (mode === 'flash') {
+    flashArea.style.display = 'block'; cardNav.style.display = 'flex'; quizArea.style.display = 'none';
+    showFlashcard();
+  } else {
+    flashArea.style.display = 'none'; cardNav.style.display = 'none'; quizArea.style.display = 'block';
+    showQuiz();
+  }
+}
+
+function showFlashcard() {
+  const word = studyWords[currentIndex]; if (!word) return;
+  isFlipped = false;
+  document.getElementById('flashcard').classList.remove('flipped');
+  document.getElementById('cardWord').textContent = word.en;
+  let html = `<div class="card-word" style="font-size:1.8rem;margin-bottom:20px">${word.en}</div>`;
+  word.meanings.forEach(m => {
+    html += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><ol class="def-list">`;
+    m.defs.forEach(d => { html += `<li>${d}</li>`; });
+    html += `</ol></div>`;
+  });
+  document.getElementById('cardBack').innerHTML = html;
+}
+
+function flipCard() {
+  isFlipped = !isFlipped;
+  document.getElementById('flashcard').classList.toggle('flipped', isFlipped);
+}
+
+function markWord(known) {
+  if (known) { correct++; animateStat('statCorrect'); }
+  else { wrong++; animateStat('statWrong'); }
+  currentIndex++; updateStats(); updateProgress(); showCurrentMode();
+}
+function nextCard() { currentIndex++; updateStats(); updateProgress(); showCurrentMode(); }
+
+function showQuiz() {
+  const word = studyWords[currentIndex]; if (!word) return;
+  const mg = word.meanings[Math.floor(Math.random() * word.meanings.length)];
+  const correctAnswer = mg.defs[0];
+  document.getElementById('quizWord').textContent = word.en;
+  document.getElementById('quizPos').textContent = `( ${mg.pos} )`;
+
+  let wrongAnswers = [];
+  const others = shuffle(allWords.filter(w => w.en !== word.en));
+  for (let w of others) {
+    if (wrongAnswers.length >= 3) break;
+    const samePosM = w.meanings.find(m => m.pos === mg.pos);
+    const def = samePosM ? samePosM.defs[0] : w.meanings[0].defs[0];
+    if (def !== correctAnswer && !wrongAnswers.includes(def)) wrongAnswers.push(def);
+  }
+  while (wrongAnswers.length < 3) wrongAnswers.push('—');
+
+  let options = shuffle([correctAnswer, ...wrongAnswers.slice(0, 3)]);
+  const container = document.getElementById('quizOptions');
+  container.innerHTML = '';
+  options.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'quiz-option';
+    btn.innerHTML = `<span style="color:var(--accent-light);font-family:'JetBrains Mono';margin-right:10px">${i+1}</span>${opt}`;
+    btn.dataset.value = opt;
+    btn.onclick = () => selectQuizOption(btn, opt, correctAnswer);
+    container.appendChild(btn);
+  });
+  document.getElementById('quizNextWrap').style.display = 'none';
+}
+
+function selectQuizOption(btn, selected, correctAnswer) {
+  document.querySelectorAll('.quiz-option').forEach(o => {
+    o.classList.add('disabled');
+    if (o.dataset.value === correctAnswer) o.classList.add('correct');
+  });
+  if (selected === correctAnswer) { correct++; btn.classList.add('correct'); animateStat('statCorrect'); }
+  else {
+    wrong++; btn.classList.add('wrong'); animateStat('statWrong');
+    document.querySelector('.quiz-question').classList.add('shake');
+    setTimeout(() => document.querySelector('.quiz-question').classList.remove('shake'), 400);
+  }
+  updateStats();
+  document.getElementById('quizNextWrap').style.display = 'block';
+}
+
+function nextQuiz() { currentIndex++; updateProgress(); showCurrentMode(); }
+
+function animateStat(id) {
+  const el = document.getElementById(id).parentElement;
+  el.classList.add('pop'); setTimeout(() => el.classList.remove('pop'), 300);
+}
+function updateStats() {
+  document.getElementById('statCorrect').textContent = correct;
+  document.getElementById('statWrong').textContent = wrong;
+  document.getElementById('statRemain').textContent = Math.max(0, studyWords.length - currentIndex);
+}
+function updateProgress() {
+  const total = studyWords.length;
+  const pct = total === 0 ? 0 : Math.round((currentIndex / total) * 100);
+  document.getElementById('progressText').textContent = `${currentIndex} / ${total}`;
+  document.getElementById('progressPercent').textContent = `${pct}%`;
+  document.getElementById('progressFill').style.width = `${pct}%`;
+}
+function showResult() {
+  document.getElementById('flashArea').style.display = 'none';
+  document.getElementById('cardNav').style.display = 'none';
+  document.getElementById('quizArea').style.display = 'none';
+  const screen = document.getElementById('resultScreen');
+  screen.style.display = 'block'; screen.classList.add('fade-up');
+  document.getElementById('resultCorrect').textContent = correct;
+  document.getElementById('resultWrong').textContent = wrong;
+  const total = correct + wrong;
+  const pct = total === 0 ? 0 : Math.round((correct / total) * 100);
+  let msg = pct >= 90 ? '완벽에 가까운 실력입니다! 🌟'
+    : pct >= 70 ? '잘 하고 있어요! 조금만 더 복습하세요 💪'
+    : pct >= 50 ? '절반 이상 맞혔어요. 반복 학습이 필요합니다 📖'
+    : '틀린 단어를 집중 복습해 보세요 🔁';
+  document.getElementById('resultDesc').textContent = `정답률 ${pct}% — ${msg}`;
+}
+function restart() { startStudy(); }
+
+function toggleSettings() { document.getElementById('settingsPanel').classList.toggle('open'); }
+document.getElementById('settingsPanel').addEventListener('click', function(e) { if (e.target === this) toggleSettings(); });
+
+document.addEventListener('keydown', function(e) {
+  if (document.getElementById('settingsPanel').classList.contains('open')) return;
+  if (mode === 'flash' && currentIndex < studyWords.length) {
+    if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); flipCard(); }
+    if (e.key === 'ArrowRight' || e.key === 'n') nextCard();
+    if (e.key === 'o' || e.key === '1') markWord(true);
+    if (e.key === 'x' || e.key === '2') markWord(false);
+  }
+  if (mode === 'quiz') {
+    if (e.key >= '1' && e.key <= '4') {
+      const opts = document.querySelectorAll('.quiz-option:not(.disabled)');
+      if (opts[parseInt(e.key)-1]) opts[parseInt(e.key)-1].click();
+    }
+    if (e.key === 'Enter' || e.key === 'ArrowRight') {
+      if (document.getElementById('quizNextWrap').style.display === 'block') nextQuiz();
+    }
+  }
+});
+
+// Start
+loadAllDays();
+</script>
+</body>
+</html>
