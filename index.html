@@ -79,6 +79,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .btn-reload{margin-top:10px;width:100%;padding:12px;background:var(--surface2);color:var(--text);border:1px solid rgba(0,0,0,.08);border-radius:12px;font-family:'Noto Sans KR',sans-serif;font-size:.85rem;cursor:pointer;transition:all .2s}
 .btn-reload:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
 
+body.fullscreen-mode{overscroll-behavior-y:contain}
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 .fade-up{animation:fadeUp .4s ease both}
 
@@ -119,6 +120,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
         <option value="0.7">0.7x</option>
       </select>
     </div>
+    <button class="btn-reload" onclick="toggleFullscreen()" id="btnFullscreen">🖥️ 전체화면 모드</button>
     <button class="btn-reload" onclick="reloadDays()">🔄 Day 파일 다시 불러오기</button>
     <button class="btn-close-settings" onclick="toggleSettings()">닫기</button>
   </div>
@@ -373,6 +375,26 @@ function goFirst() { currentIndex = 0; showCard(); }
 function goPrev() { if (currentIndex > 0) { currentIndex--; showCard(); } }
 function goNext() { if (currentIndex < studyWords.length - 1) { currentIndex++; showCard(); } }
 function goLast() { currentIndex = studyWords.length - 1; showCard(); }
+
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().then(() => {
+      document.body.classList.add('fullscreen-mode');
+      document.getElementById('btnFullscreen').textContent = '🖥️ 전체화면 해제';
+    }).catch(() => {});
+  } else {
+    document.exitFullscreen().then(() => {
+      document.body.classList.remove('fullscreen-mode');
+      document.getElementById('btnFullscreen').textContent = '🖥️ 전체화면 모드';
+    }).catch(() => {});
+  }
+}
+document.addEventListener('fullscreenchange', function() {
+  if (!document.fullscreenElement) {
+    document.body.classList.remove('fullscreen-mode');
+    document.getElementById('btnFullscreen').textContent = '🖥️ 전체화면 모드';
+  }
+});
 
 function toggleSettings() { document.getElementById('settingsPanel').classList.toggle('open'); }
 document.getElementById('settingsPanel').addEventListener('click', function(e) { if (e.target === this) toggleSettings(); });
