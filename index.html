@@ -63,12 +63,20 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 
 /* Card */
 .card-area{margin-bottom:16px}
-.card{position:relative;width:100%;min-height:340px;border-radius:var(--card-radius);padding:60px 28px 32px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow);background:linear-gradient(145deg,#ffffff,#f0f3f8);display:flex;flex-direction:column;align-items:center;justify-content:flex-start}
-.card-top-bar{position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;z-index:5}
+.card-top-bar{position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;align-items:center;z-index:5}
 .card-btn{width:40px;height:40px;border-radius:12px;border:1px solid rgba(0,0,0,.08);background:var(--surface);color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:1.1rem;box-shadow:var(--shadow)}
 .card-btn:hover{background:var(--surface2);color:var(--text)}
 .card-btn.speaking{color:var(--accent);border-color:var(--accent);background:rgba(91,106,191,.08)}
 .card-btn.starred{color:#f0a500;border-color:#f0a500;background:rgba(240,165,0,.08)}
+.card-btn.mode-btn{width:auto;padding:0 12px;font-size:.75rem;font-weight:600;gap:4px;white-space:nowrap}
+.card-flip-wrapper{perspective:1000px;width:100%}
+.card-flip-inner{position:relative;width:100%;transition:transform .5s ease;transform-style:preserve-3d}
+.card-flip-inner.flipped{transform:rotateY(180deg)}
+.card-flip-inner.flipped .card-front{pointer-events:none}
+.card-flip-inner.flipped .card-back{pointer-events:auto}
+.card-front,.card-back{width:100%;min-height:340px;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:var(--card-radius);padding:60px 28px 32px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow);background:linear-gradient(145deg,#ffffff,#f0f3f8);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;position:relative}
+.card-back{position:absolute;top:0;left:0;transform:rotateY(180deg);background:linear-gradient(145deg,#f0f3f8,#ffffff)}
+.card-mode-hint{position:absolute;bottom:12px;font-size:.7rem;color:var(--text-dim);opacity:.5}
 .card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;text-align:center;margin-bottom:6px}
 .card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:'Noto Sans',sans-serif}
 .card-meanings{width:100%}
@@ -179,14 +187,33 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
     <div class="day-title" id="dayTitle" style="display:none"></div>
 
     <div class="card-area fade-up" style="animation-delay:.1s">
-      <div class="card" id="card">
-        <div class="card-top-bar">
-          <button class="card-btn" id="btnSpeak" onclick="speakWord(event)" title="발음 듣기">🔊</button>
-          <button class="card-btn" id="btnStar" onclick="toggleStar(event)" title="중요 단어">☆</button>
+      <div class="card-flip-wrapper" id="cardFlipWrapper" onclick="flipCard(event)">
+        <div class="card-flip-inner" id="cardFlipInner">
+          <!-- 앞면 -->
+          <div class="card-front" id="cardFront">
+            <div class="card-top-bar">
+              <button class="card-btn" id="btnSpeak" onclick="speakWord(event)" title="발음 듣기">🔊</button>
+              <button class="card-btn mode-btn" id="btnMode" onclick="cycleMode(event)" title="보기 모드 변경">📖 전체</button>
+              <button class="card-btn" id="btnStar" onclick="toggleStar(event)" title="중요 단어">☆</button>
+            </div>
+            <div class="card-word" id="cardWord">-</div>
+            <div class="card-ipa" id="cardIpa"></div>
+            <div class="card-meanings" id="cardMeanings"></div>
+            <div class="card-mode-hint" id="frontHint"></div>
+          </div>
+          <!-- 뒷면 -->
+          <div class="card-back" id="cardBack">
+            <div class="card-top-bar">
+              <button class="card-btn" onclick="speakWord(event)" title="발음 듣기">🔊</button>
+              <button class="card-btn mode-btn" onclick="cycleMode(event)" title="보기 모드 변경" id="btnModeBack">📖 전체</button>
+              <button class="card-btn" onclick="toggleStar(event)" title="중요 단어" id="btnStarBack">☆</button>
+            </div>
+            <div class="card-word" id="cardWordBack">-</div>
+            <div class="card-ipa" id="cardIpaBack"></div>
+            <div class="card-meanings" id="cardMeaningsBack"></div>
+            <div class="card-mode-hint" id="backHint"></div>
+          </div>
         </div>
-        <div class="card-word" id="cardWord">-</div>
-        <div class="card-ipa" id="cardIpa"></div>
-        <div class="card-meanings" id="cardMeanings"></div>
       </div>
     </div>
 
@@ -208,6 +235,35 @@ let studyWords = [];
 let currentDayIndex = 0;
 let currentIndex = 0;
 let speakCount = 0;
+let viewMode = 'all'; // 'all', 'en', 'kr'
+let isFlipped = false;
+
+const VIEW_MODES = ['all', 'en', 'kr'];
+const VIEW_LABELS = { all: '📖 전체', en: '🔤 영어', kr: '🇰🇷 한글' };
+
+function cycleMode(e) {
+  if (e) { e.stopPropagation(); }
+  const idx = VIEW_MODES.indexOf(viewMode);
+  viewMode = VIEW_MODES[(idx + 1) % VIEW_MODES.length];
+  document.getElementById('btnMode').textContent = VIEW_LABELS[viewMode];
+  document.getElementById('btnModeBack').textContent = VIEW_LABELS[viewMode];
+  isFlipped = false;
+  document.getElementById('cardFlipInner').classList.remove('flipped');
+  showCard();
+}
+
+function flipCard(e) {
+  if (viewMode === 'all') return;
+  // 버튼 클릭 시 뒤집기 방지
+  if (e && e.target.closest('.card-btn')) return;
+  isFlipped = !isFlipped;
+  document.getElementById('cardFlipInner').classList.toggle('flipped', isFlipped);
+}
+
+function resetFlip() {
+  isFlipped = false;
+  document.getElementById('cardFlipInner').classList.remove('flipped');
+}
 
 // 중요 단어
 function getStarredWords() {
@@ -252,7 +308,7 @@ function getSelectedVoice() {
 }
 
 function speakWord(e) {
-  if (e) { e.stopPropagation(); e.preventDefault(); }
+  if (e) { e.stopPropagation(); }
   const word = studyWords[currentIndex]; if (!word) return;
   const btn = document.getElementById('btnSpeak');
   const synth = window.speechSynthesis; synth.cancel();
@@ -270,7 +326,7 @@ function speakWord(e) {
 }
 
 function toggleStar(e) {
-  if (e) { e.stopPropagation(); e.preventDefault(); }
+  if (e) { e.stopPropagation(); }
   const word = studyWords[currentIndex]; if (!word) return;
   let starred = getStarredWords();
   const btn = document.getElementById('btnStar');
@@ -504,16 +560,61 @@ function shuffle(arr) {
 function showCard() {
   const word = studyWords[currentIndex]; if (!word) return;
   speakCount = 0;
-  document.getElementById('cardWord').textContent = word.en;
-  document.getElementById('cardIpa').textContent = word.ipa || '';
-  const btnStar = document.getElementById('btnStar');
-  if (isStarred(word.en)) { btnStar.textContent = '★'; btnStar.classList.add('starred'); }
-  else { btnStar.textContent = '☆'; btnStar.classList.remove('starred'); }
-  let html = '';
+  resetFlip();
+
+  // 별표 상태
+  const starred = isStarred(word.en);
+  const starText = starred ? '★' : '☆';
+  const starClass = starred ? 'starred' : '';
+  document.getElementById('btnStar').textContent = starText;
+  document.getElementById('btnStar').className = 'card-btn' + (starClass ? ' ' + starClass : '');
+  document.getElementById('btnStarBack').textContent = starText;
+  document.getElementById('btnStarBack').className = 'card-btn' + (starClass ? ' ' + starClass : '');
+
+  // 뜻 HTML 생성
+  let meaningsHtml = '';
   word.meanings.forEach(m => {
-    html += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> <span class="def-inline">${m.defs.join(', ')}</span></div>`;
+    meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> <span class="def-inline">${m.defs.join(', ')}</span></div>`;
   });
-  document.getElementById('cardMeanings').innerHTML = html;
+
+  if (viewMode === 'all') {
+    // 전체보기: 앞면에 모두 표시, 뒷면 불필요
+    document.getElementById('cardWord').textContent = word.en;
+    document.getElementById('cardIpa').textContent = word.ipa || '';
+    document.getElementById('cardMeanings').innerHTML = meaningsHtml;
+    document.getElementById('frontHint').textContent = '';
+    document.getElementById('cardWordBack').textContent = '';
+    document.getElementById('cardIpaBack').textContent = '';
+    document.getElementById('cardMeaningsBack').innerHTML = '';
+    document.getElementById('backHint').textContent = '';
+    document.getElementById('cardFlipWrapper').style.cursor = 'default';
+    document.getElementById('btnSpeak').style.visibility = 'visible';
+  } else if (viewMode === 'en') {
+    // 영어보기: 앞면=영어+IPA, 뒷면=뜻
+    document.getElementById('cardWord').textContent = word.en;
+    document.getElementById('cardIpa').textContent = word.ipa || '';
+    document.getElementById('cardMeanings').innerHTML = '';
+    document.getElementById('frontHint').textContent = '탭하여 뜻 보기';
+    document.getElementById('cardWordBack').textContent = '';
+    document.getElementById('cardIpaBack').textContent = '';
+    document.getElementById('cardMeaningsBack').innerHTML = meaningsHtml;
+    document.getElementById('backHint').textContent = '탭하여 돌아가기';
+    document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
+    document.getElementById('btnSpeak').style.visibility = 'visible';
+  } else if (viewMode === 'kr') {
+    // 뜻보기: 앞면=뜻, 뒷면=영어+IPA
+    document.getElementById('cardWord').textContent = '';
+    document.getElementById('cardIpa').textContent = '';
+    document.getElementById('cardMeanings').innerHTML = meaningsHtml;
+    document.getElementById('frontHint').textContent = '탭하여 단어 보기';
+    document.getElementById('cardWordBack').textContent = word.en;
+    document.getElementById('cardIpaBack').textContent = word.ipa || '';
+    document.getElementById('cardMeaningsBack').innerHTML = '';
+    document.getElementById('backHint').textContent = '탭하여 돌아가기';
+    document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
+    document.getElementById('btnSpeak').style.visibility = 'hidden';
+  }
+
   document.getElementById('cardCounter').textContent = `${currentIndex + 1} / ${studyWords.length}`;
   document.getElementById('btnFirst').disabled = currentIndex === 0;
   document.getElementById('btnPrev').disabled = currentIndex === 0;
