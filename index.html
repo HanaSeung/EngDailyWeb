@@ -90,6 +90,75 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-nav button:hover:not(:disabled){background:var(--accent);color:#fff;border-color:var(--accent)}
 .card-nav button:disabled{opacity:.35;cursor:default;background:var(--surface2);color:var(--text-dim);border-color:rgba(0,0,0,.04);box-shadow:none}
 .card-counter{text-align:center;font-size:.82rem;color:var(--text-dim);font-family:'JetBrains Mono',monospace}
+.btn-quiz{width:100%;padding:14px;margin-top:8px;border:1px solid rgba(46,170,127,.3);border-radius:14px;background:rgba(46,170,127,.06);color:var(--green);font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:600;cursor:pointer;transition:all .2s;box-shadow:var(--shadow)}
+.btn-quiz:hover{background:var(--green);color:#fff;border-color:var(--green)}
+
+/* Quiz */
+.quiz-select-screen{display:none}
+.quiz-select-title{font-size:1rem;font-weight:700;margin-bottom:14px;color:var(--text)}
+.quiz-mode-list{display:flex;flex-direction:column;gap:10px}
+.quiz-mode-btn{padding:16px 20px;border:1px solid rgba(0,0,0,.08);border-radius:14px;background:var(--surface);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .25s;box-shadow:var(--shadow);text-align:left;display:flex;align-items:center;gap:12px}
+.quiz-mode-btn:hover{border-color:var(--accent);background:#f0f2ff}
+.quiz-mode-btn:active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.quiz-mode-icon{font-size:1.3rem;width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.quiz-mode-icon.mc{background:rgba(91,106,191,.1)}
+.quiz-mode-icon.write{background:rgba(46,170,127,.1)}
+.quiz-mode-info{display:flex;flex-direction:column}
+.quiz-mode-info span{font-size:.75rem;color:var(--text-dim);margin-top:2px}
+.quiz-back-btn{margin-top:16px;width:100%;padding:12px;border:1px solid rgba(0,0,0,.08);border-radius:12px;background:var(--surface2);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.85rem;cursor:pointer;transition:all .2s}
+.quiz-back-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+.quiz-screen{display:none}
+.quiz-progress{display:flex;align-items:center;gap:8px;margin-bottom:16px}
+.quiz-progress-bar{flex:1;height:6px;background:var(--surface2);border-radius:3px;overflow:hidden}
+.quiz-progress-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--green));border-radius:3px;transition:width .3s ease}
+.quiz-progress-text{font-size:.8rem;color:var(--text-dim);font-family:'JetBrains Mono',monospace;min-width:50px;text-align:right}
+
+.quiz-card{width:100%;border-radius:var(--card-radius);padding:32px 24px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow);background:linear-gradient(145deg,#ffffff,#f0f3f8);text-align:center;margin-bottom:16px}
+.quiz-label{font-size:.75rem;color:var(--text-dim);margin-bottom:8px;font-weight:500}
+.quiz-question{font-size:1.8rem;font-weight:700;margin-bottom:4px}
+.quiz-question.en{font-family:'DM Serif Display',serif;letter-spacing:1px}
+.quiz-question.kr{font-size:1.2rem;line-height:1.6}
+.quiz-ipa{font-size:.9rem;color:var(--text-dim);font-family:'Noto Sans',sans-serif}
+
+.quiz-choices{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+.quiz-choice{padding:14px 18px;border:1.5px solid rgba(0,0,0,.08);border-radius:14px;background:var(--surface);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.92rem;cursor:pointer;transition:all .2s;box-shadow:var(--shadow);text-align:left}
+.quiz-choice:hover{border-color:var(--accent);background:#f0f2ff}
+.quiz-choice.correct{border-color:var(--green);background:rgba(46,170,127,.08);color:var(--green);font-weight:600}
+.quiz-choice.wrong{border-color:var(--red);background:rgba(217,83,79,.08);color:var(--red)}
+.quiz-choice.reveal{border-color:var(--green);background:rgba(46,170,127,.08);color:var(--green)}
+.quiz-choice.disabled{pointer-events:none;opacity:.5}
+
+.quiz-input-wrap{margin-bottom:12px}
+.quiz-input{width:100%;padding:14px 18px;border:1.5px solid rgba(0,0,0,.12);border-radius:14px;font-family:'Noto Sans KR',sans-serif;font-size:1rem;color:var(--text);background:var(--surface);outline:none;transition:border-color .2s}
+.quiz-input:focus{border-color:var(--accent)}
+.quiz-input.correct{border-color:var(--green);background:rgba(46,170,127,.06)}
+.quiz-input.wrong{border-color:var(--red);background:rgba(217,83,79,.06)}
+.quiz-submit-btn{width:100%;padding:13px;border:none;border-radius:14px;background:var(--accent);color:#fff;font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:600;cursor:pointer;transition:all .2s;margin-bottom:12px}
+.quiz-submit-btn:hover{background:var(--accent-light)}
+.quiz-submit-btn:disabled{background:var(--surface2);color:var(--text-dim);cursor:default}
+
+.quiz-feedback{font-size:.85rem;min-height:1.4em;margin-bottom:8px;font-weight:500;text-align:center}
+.quiz-feedback.correct{color:var(--green)}
+.quiz-feedback.wrong{color:var(--red)}
+.quiz-answer-reveal{font-size:.85rem;color:var(--text-dim);text-align:center;margin-bottom:8px}
+
+.quiz-result-screen{display:none}
+.quiz-result-card{width:100%;border-radius:var(--card-radius);padding:36px 24px;border:1px solid rgba(0,0,0,.06);box-shadow:var(--shadow);background:linear-gradient(145deg,#ffffff,#f0f3f8);text-align:center;margin-bottom:16px}
+.quiz-result-emoji{font-size:3rem;margin-bottom:12px}
+.quiz-result-title{font-size:1.3rem;font-weight:700;margin-bottom:6px}
+.quiz-result-score{font-size:2.4rem;font-weight:900;background:linear-gradient(135deg,var(--accent),var(--green));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:4px}
+.quiz-result-sub{font-size:.85rem;color:var(--text-dim)}
+.quiz-result-wrong{text-align:left;margin-top:16px;padding-top:16px;border-top:1px solid rgba(0,0,0,.06)}
+.quiz-result-wrong-title{font-size:.85rem;font-weight:600;color:var(--red);margin-bottom:10px}
+.quiz-wrong-item{display:flex;justify-content:space-between;align-items:baseline;padding:8px 0;border-bottom:1px solid rgba(0,0,0,.04);font-size:.88rem}
+.quiz-wrong-item .en{font-family:'DM Serif Display',serif;font-weight:600}
+.quiz-wrong-item .kr{color:var(--text-dim)}
+.quiz-result-btns{display:flex;flex-direction:column;gap:8px}
+.quiz-result-btn{padding:14px;border:1px solid rgba(0,0,0,.08);border-radius:14px;background:var(--surface);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.9rem;font-weight:500;cursor:pointer;transition:all .2s;box-shadow:var(--shadow)}
+.quiz-result-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.quiz-result-btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.quiz-result-btn.primary:hover{background:var(--accent-light)}
 
 /* Settings */
 .settings-toggle{position:fixed;top:16px;right:16px;z-index:100;width:40px;height:40px;border-radius:12px;background:var(--surface);border:1px solid rgba(0,0,0,.06);color:var(--text-dim);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;box-shadow:var(--shadow)}
@@ -224,7 +293,98 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
       <button onclick="goLast()" id="btnLast">끝 ▶▶</button>
     </div>
 
-    <div class="card-counter fade-up" style="animation-delay:.2s" id="cardCounter">1 / 25</div>
+    <button class="btn-quiz" id="btnQuiz" onclick="startQuiz()" style="display:none">📝 퀴즈 풀기</button>
+  </div>
+
+  <!-- 퀴즈 모드 선택 -->
+  <div class="quiz-select-screen" id="quizSelectScreen">
+    <div class="quiz-select-title fade-up">📝 퀴즈 모드를 선택하세요</div>
+    <div class="quiz-mode-list fade-up" style="animation-delay:.1s">
+      <div class="quiz-mode-btn" onclick="beginQuiz('en2kr_mc')">
+        <div class="quiz-mode-icon mc">🔤</div>
+        <div class="quiz-mode-info">영어 → 한글 (4지선다)<span>영어 단어를 보고 뜻 맞추기</span></div>
+      </div>
+      <div class="quiz-mode-btn" onclick="beginQuiz('kr2en_mc')">
+        <div class="quiz-mode-icon mc">🇰🇷</div>
+        <div class="quiz-mode-info">한글 → 영어 (4지선다)<span>한국어 뜻을 보고 단어 맞추기</span></div>
+      </div>
+      <div class="quiz-mode-btn" onclick="beginQuiz('en2kr_write')">
+        <div class="quiz-mode-icon write">✏️</div>
+        <div class="quiz-mode-info">영어 → 한글 (주관식)<span>영어 단어를 보고 뜻 직접 쓰기</span></div>
+      </div>
+      <div class="quiz-mode-btn" onclick="beginQuiz('kr2en_write')">
+        <div class="quiz-mode-icon write">✍️</div>
+        <div class="quiz-mode-info">한글 → 영어 (주관식)<span>한국어 뜻을 보고 단어 직접 쓰기</span></div>
+      </div>
+      <div class="quiz-mode-btn" onclick="openWrongNoteQuiz()" id="btnWrongNote" style="border-color:rgba(217,83,79,.2);background:rgba(217,83,79,.03)">
+        <div class="quiz-mode-icon" style="background:rgba(217,83,79,.1)">📋</div>
+        <div class="quiz-mode-info">오답노트<span id="wrongNoteCount">틀린 단어 모아서 다시 풀기</span></div>
+      </div>
+    </div>
+    <button class="quiz-back-btn" onclick="exitQuiz()">← 학습으로 돌아가기</button>
+  </div>
+
+  <!-- 오답노트 모드 선택 -->
+  <div class="quiz-select-screen" id="wrongNoteSelectScreen">
+    <div class="quiz-select-title fade-up">📋 오답노트 — 퀴즈 모드를 선택하세요</div>
+    <div class="quiz-mode-list fade-up" style="animation-delay:.1s">
+      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('en2kr_mc')">
+        <div class="quiz-mode-icon mc">🔤</div>
+        <div class="quiz-mode-info">영어 → 한글 (4지선다)<span>영어 단어를 보고 뜻 맞추기</span></div>
+      </div>
+      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('kr2en_mc')">
+        <div class="quiz-mode-icon mc">🇰🇷</div>
+        <div class="quiz-mode-info">한글 → 영어 (4지선다)<span>한국어 뜻을 보고 단어 맞추기</span></div>
+      </div>
+      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('en2kr_write')">
+        <div class="quiz-mode-icon write">✏️</div>
+        <div class="quiz-mode-info">영어 → 한글 (주관식)<span>영어 단어를 보고 뜻 직접 쓰기</span></div>
+      </div>
+      <div class="quiz-mode-btn" onclick="beginWrongNoteQuiz('kr2en_write')">
+        <div class="quiz-mode-icon write">✍️</div>
+        <div class="quiz-mode-info">한글 → 영어 (주관식)<span>한국어 뜻을 보고 단어 직접 쓰기</span></div>
+      </div>
+    </div>
+    <button class="quiz-back-btn" onclick="closeWrongNoteSelect()">← 퀴즈 모드 선택으로</button>
+  </div>
+
+  <!-- 퀴즈 진행 -->
+  <div class="quiz-screen" id="quizScreen">
+    <div class="quiz-progress">
+      <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="quizProgressFill"></div></div>
+      <div class="quiz-progress-text" id="quizProgressText">1 / 25</div>
+    </div>
+    <div class="quiz-card">
+      <div class="quiz-label" id="quizLabel"></div>
+      <div class="quiz-question" id="quizQuestion"></div>
+      <div class="quiz-ipa" id="quizIpa"></div>
+    </div>
+    <div class="quiz-feedback" id="quizFeedback"></div>
+    <div class="quiz-answer-reveal" id="quizAnswerReveal"></div>
+    <div class="quiz-choices" id="quizChoices"></div>
+    <div class="quiz-input-wrap" id="quizInputWrap" style="display:none">
+      <input class="quiz-input" id="quizInput" type="text" placeholder="">
+    </div>
+    <button class="quiz-submit-btn" id="quizSubmitBtn" onclick="submitWriteAnswer()" style="display:none">확인</button>
+  </div>
+
+  <!-- 퀴즈 결과 -->
+  <div class="quiz-result-screen" id="quizResultScreen">
+    <div class="quiz-result-card">
+      <div class="quiz-result-emoji" id="quizResultEmoji">🎉</div>
+      <div class="quiz-result-title" id="quizResultTitle"></div>
+      <div class="quiz-result-score" id="quizResultScore"></div>
+      <div class="quiz-result-sub" id="quizResultSub"></div>
+      <div class="quiz-result-wrong" id="quizResultWrong" style="display:none">
+        <div class="quiz-result-wrong-title" id="quizResultWrongTitle"></div>
+        <div id="quizResultWrongList"></div>
+      </div>
+    </div>
+    <div class="quiz-result-btns">
+      <button class="quiz-result-btn primary" id="btnRetryWrong" onclick="retryWrongOnly()" style="display:none">❌ 틀린 단어만 다시 풀기</button>
+      <button class="quiz-result-btn" onclick="exitQuiz()">📚 학습으로 돌아가기</button>
+      <button class="quiz-result-btn" onclick="exitQuizToDay()">🏠 Day 선택으로</button>
+    </div>
   </div>
 </div>
 
@@ -365,11 +525,16 @@ function cycleMode(e) {
   playSound('mode');
   const idx = VIEW_MODES.indexOf(viewMode);
   viewMode = VIEW_MODES[(idx + 1) % VIEW_MODES.length];
-  document.getElementById('btnMode').textContent = VIEW_LABELS[viewMode];
-  document.getElementById('btnModeBack').textContent = VIEW_LABELS[viewMode];
+  updateModeButtons();
   isFlipped = false;
   document.getElementById('cardFlipInner').classList.remove('flipped');
   showCard();
+}
+
+function updateModeButtons() {
+  const counter = studyWords.length > 0 ? ` ${currentIndex + 1}/${studyWords.length}` : '';
+  document.getElementById('btnMode').textContent = VIEW_LABELS[viewMode] + counter;
+  document.getElementById('btnModeBack').textContent = VIEW_LABELS[viewMode] + counter;
 }
 
 function flipCard(e) {
@@ -585,6 +750,10 @@ async function reloadDays() {
 function showDaySelectScreen() {
   document.getElementById('daySelectScreen').style.display = 'block';
   document.getElementById('studyScreen').style.display = 'none';
+  document.getElementById('quizSelectScreen').style.display = 'none';
+  document.getElementById('quizScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'none';
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
   const grid = document.getElementById('dayGrid');
   grid.innerHTML = '';
   const positions = getSavedPositions();
@@ -769,13 +938,15 @@ function showCard() {
     document.getElementById('btnSpeak').style.visibility = 'hidden';
   }
 
-  document.getElementById('cardCounter').textContent = `${currentIndex + 1} / ${studyWords.length}`;
+  updateModeButtons();
   document.getElementById('btnFirst').disabled = currentIndex === 0;
   document.getElementById('btnPrev').disabled = currentIndex === 0;
   document.getElementById('btnNext').disabled = currentIndex >= studyWords.length - 1;
   const dayNum = dayData[currentDayIndex].day;
   const wasCompleted = isDayCompleted(dayNum);
   document.getElementById('btnLast').disabled = !wasCompleted || currentIndex >= studyWords.length - 1;
+  // 퀴즈 버튼: 100% 완료 Day에서만 표시
+  document.getElementById('btnQuiz').style.display = wasCompleted ? 'block' : 'none';
 }
 
 function goFirst() { playSound('nav'); currentIndex = 0; showCard(); }
@@ -789,6 +960,392 @@ function goNext() {
   }
 }
 function goLast() { playSound('nav'); currentIndex = studyWords.length - 1; savePosition(); showCard(); }
+
+// ── 퀴즈 시스템 ──
+let quizMode = '';
+let quizQuestions = [];
+let quizIndex = 0;
+let quizCorrect = 0;
+let quizWrongList = [];
+let quizAnswered = false;
+let quizTimer = null;
+let isWrongNoteMode = false;
+
+function startQuiz() {
+  playSound('daySelect');
+  document.getElementById('studyScreen').style.display = 'none';
+  document.getElementById('quizSelectScreen').style.display = 'block';
+  document.getElementById('quizScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'none';
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  // 오답노트 개수 표시
+  const noteCount = getWrongNotes().length;
+  document.getElementById('wrongNoteCount').textContent = noteCount > 0 ? `틀린 단어 ${noteCount}개 저장됨` : '틀린 단어가 없습니다';
+}
+
+function exitQuiz() {
+  playSound('nav');
+  document.getElementById('quizSelectScreen').style.display = 'none';
+  document.getElementById('quizScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'none';
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  document.getElementById('studyScreen').style.display = 'block';
+}
+
+function exitQuizToDay() {
+  playSound('daySelect');
+  document.getElementById('quizSelectScreen').style.display = 'none';
+  document.getElementById('quizScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'none';
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  document.getElementById('headerDayLabel').textContent = '';
+  showDaySelectScreen();
+}
+
+function retryWrongOnly() {
+  playSound('daySelect');
+  document.getElementById('quizResultScreen').style.display = 'none';
+  quizQuestions = shuffle([...quizWrongList]);
+  quizIndex = 0;
+  quizCorrect = 0;
+  quizWrongList = [];
+  quizAnswered = false;
+  document.getElementById('quizScreen').style.display = 'block';
+  showQuizQuestion();
+}
+
+// 단어의 모든 뜻을 하나의 문자열로 결합
+function getDefsText(word) {
+  return word.meanings.map(m => m.defs.join(', ')).join(' / ');
+}
+
+// 단어의 모든 뜻을 개별 배열로
+function getAllDefs(word) {
+  const defs = [];
+  word.meanings.forEach(m => m.defs.forEach(d => {
+    d.split(',').forEach(s => { if (s.trim()) defs.push(s.trim()); });
+  }));
+  return defs;
+}
+
+// 품사 목록
+function getPosList(word) {
+  return word.meanings.map(m => m.pos);
+}
+
+// ── 오답노트 저장/관리 ──
+function getWrongNotes() {
+  try { return JSON.parse(localStorage.getItem('engvoca_wrong_notes') || '[]'); } catch { return []; }
+}
+function saveWrongNotes(notes) {
+  localStorage.setItem('engvoca_wrong_notes', JSON.stringify(notes));
+}
+function addToWrongNotes(word) {
+  let notes = getWrongNotes();
+  if (!notes.some(w => w.en === word.en)) {
+    notes.push(word);
+    saveWrongNotes(notes);
+  }
+}
+function removeFromWrongNotes(word) {
+  let notes = getWrongNotes();
+  notes = notes.filter(w => w.en !== word.en);
+  saveWrongNotes(notes);
+}
+
+// 오답 추출: 같은 Day 우선, 부족하면 다른 Day에서 보충
+function getWrongChoices(correctWord, count) {
+  const currentDayWords = dayData[currentDayIndex].words.filter(w => w.en !== correctWord.en);
+  const otherWords = allWords.filter(w => w.en !== correctWord.en && !currentDayWords.some(cw => cw.en === w.en));
+
+  // 같은 품사 우선 정렬
+  const correctPos = getPosList(correctWord);
+  const sortByPos = (a, b) => {
+    const aMatch = getPosList(a).some(p => correctPos.includes(p)) ? 0 : 1;
+    const bMatch = getPosList(b).some(p => correctPos.includes(p)) ? 0 : 1;
+    return aMatch - bMatch;
+  };
+
+  let pool = shuffle([...currentDayWords]).sort(sortByPos);
+  if (pool.length < count) {
+    pool = pool.concat(shuffle([...otherWords]).sort(sortByPos));
+  }
+  return pool.slice(0, count);
+}
+
+// 오답노트 열기
+function openWrongNoteQuiz() {
+  const notes = getWrongNotes();
+  if (notes.length === 0) {
+    alert('오답노트에 저장된 단어가 없습니다.');
+    return;
+  }
+  playSound('daySelect');
+  document.getElementById('quizSelectScreen').style.display = 'none';
+  document.getElementById('wrongNoteSelectScreen').style.display = 'block';
+}
+
+function closeWrongNoteSelect() {
+  playSound('nav');
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  document.getElementById('quizSelectScreen').style.display = 'block';
+}
+
+// 퀴즈 시작
+function beginQuiz(mode) {
+  playSound('daySelect');
+  quizMode = mode;
+  quizIndex = 0;
+  quizCorrect = 0;
+  quizWrongList = [];
+  quizAnswered = false;
+  isWrongNoteMode = false;
+
+  // 현재 Day 단어를 랜덤 순서로
+  quizQuestions = shuffle([...dayData[currentDayIndex].words]);
+
+  document.getElementById('quizSelectScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'none';
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  document.getElementById('quizScreen').style.display = 'block';
+
+  showQuizQuestion();
+}
+
+// 오답노트 퀴즈 시작
+function beginWrongNoteQuiz(mode) {
+  playSound('daySelect');
+  quizMode = mode;
+  quizIndex = 0;
+  quizCorrect = 0;
+  quizWrongList = [];
+  quizAnswered = false;
+  isWrongNoteMode = true;
+
+  quizQuestions = shuffle([...getWrongNotes()]);
+
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'none';
+  document.getElementById('quizScreen').style.display = 'block';
+
+  showQuizQuestion();
+}
+
+function showQuizQuestion() {
+  quizAnswered = false;
+  if (quizTimer) { clearTimeout(quizTimer); quizTimer = null; }
+  const q = quizQuestions[quizIndex];
+  const total = quizQuestions.length;
+  const pct = Math.round(((quizIndex) / total) * 100);
+
+  document.getElementById('quizProgressFill').style.width = pct + '%';
+  document.getElementById('quizProgressText').textContent = `${quizIndex + 1} / ${total}`;
+  document.getElementById('quizFeedback').textContent = '';
+  document.getElementById('quizFeedback').className = 'quiz-feedback';
+  document.getElementById('quizAnswerReveal').textContent = '';
+
+  const isMultipleChoice = quizMode === 'en2kr_mc' || quizMode === 'kr2en_mc';
+  const isEnToKr = quizMode === 'en2kr_mc' || quizMode === 'en2kr_write';
+
+  if (isEnToKr) {
+    document.getElementById('quizLabel').textContent = isMultipleChoice ? '다음 영어 단어의 뜻은?' : '다음 영어 단어의 뜻을 쓰세요';
+    document.getElementById('quizQuestion').textContent = q.en;
+    document.getElementById('quizQuestion').className = 'quiz-question en';
+    document.getElementById('quizIpa').textContent = q.ipa || '';
+  } else {
+    document.getElementById('quizLabel').textContent = isMultipleChoice ? '다음 뜻에 해당하는 영어 단어는?' : '다음 뜻에 해당하는 영어 단어를 쓰세요';
+    document.getElementById('quizQuestion').textContent = getDefsText(q);
+    document.getElementById('quizQuestion').className = 'quiz-question kr';
+    document.getElementById('quizIpa').textContent = '';
+  }
+
+  if (isMultipleChoice) {
+    document.getElementById('quizChoices').style.display = 'flex';
+    document.getElementById('quizInputWrap').style.display = 'none';
+    document.getElementById('quizSubmitBtn').style.display = 'none';
+    buildChoices(q, isEnToKr);
+  } else {
+    document.getElementById('quizChoices').style.display = 'none';
+    document.getElementById('quizInputWrap').style.display = 'block';
+    document.getElementById('quizSubmitBtn').style.display = 'block';
+    document.getElementById('quizSubmitBtn').disabled = false;
+    const input = document.getElementById('quizInput');
+    input.value = '';
+    input.className = 'quiz-input';
+    input.placeholder = isEnToKr ? '한국어 뜻을 입력하세요' : '영어 단어를 입력하세요';
+    input.focus();
+  }
+}
+
+function buildChoices(correctWord, isEnToKr) {
+  const wrongs = getWrongChoices(correctWord, 3);
+  let choices;
+
+  if (isEnToKr) {
+    choices = [
+      { text: getDefsText(correctWord), correct: true },
+      ...wrongs.map(w => ({ text: getDefsText(w), correct: false }))
+    ];
+  } else {
+    choices = [
+      { text: correctWord.en, correct: true },
+      ...wrongs.map(w => ({ text: w.en, correct: false }))
+    ];
+  }
+
+  choices = shuffle(choices);
+
+  const container = document.getElementById('quizChoices');
+  container.innerHTML = '';
+  const labels = ['①', '②', '③', '④'];
+  choices.forEach((c, i) => {
+    const div = document.createElement('div');
+    div.className = 'quiz-choice';
+    div.textContent = `${labels[i]} ${c.text}`;
+    div.dataset.correct = c.correct;
+    div.onclick = function() { selectChoice(this, c.correct, correctWord); };
+    container.appendChild(div);
+  });
+}
+
+function selectChoice(el, isCorrect, correctWord) {
+  if (quizAnswered) return;
+  quizAnswered = true;
+  playSound(isCorrect ? 'star' : 'nav');
+
+  const allChoices = document.querySelectorAll('#quizChoices .quiz-choice');
+  allChoices.forEach(c => {
+    if (c.dataset.correct === 'true') {
+      c.classList.add(isCorrect ? 'correct' : 'reveal');
+      if (!isCorrect) c.textContent += ' ✓';
+    } else if (c === el && !isCorrect) {
+      c.classList.add('wrong');
+    } else {
+      c.classList.add('disabled');
+    }
+  });
+
+  if (isCorrect) {
+    quizCorrect++;
+    document.getElementById('quizFeedback').textContent = '✅ 정답입니다!';
+    document.getElementById('quizFeedback').className = 'quiz-feedback correct';
+    if (isWrongNoteMode) removeFromWrongNotes(correctWord);
+    quizTimer = setTimeout(autoAdvance, 800);
+  } else {
+    quizWrongList.push(correctWord);
+    addToWrongNotes(correctWord);
+    document.getElementById('quizFeedback').textContent = '❌ 틀렸습니다';
+    document.getElementById('quizFeedback').className = 'quiz-feedback wrong';
+    quizTimer = setTimeout(autoAdvance, 2000);
+  }
+}
+
+function submitWriteAnswer() {
+  if (quizAnswered) return;
+  const input = document.getElementById('quizInput');
+  const answer = input.value.trim();
+  if (!answer) return;
+
+  quizAnswered = true;
+  const q = quizQuestions[quizIndex];
+  const isEnToKr = quizMode === 'en2kr_write';
+  let isCorrect = false;
+
+  if (isEnToKr) {
+    // 한국어 뜻 매칭: 입력값이 뜻 목록 중 하나에 포함되면 정답
+    const allDefs = getAllDefs(q);
+    isCorrect = allDefs.some(d => {
+      const norm = s => s.replace(/[\s,.\-()~]/g, '').toLowerCase();
+      return norm(d).includes(norm(answer)) || norm(answer).includes(norm(d));
+    });
+  } else {
+    // 영어 단어 매칭: 대소문자 무시
+    isCorrect = answer.toLowerCase() === q.en.toLowerCase();
+  }
+
+  playSound(isCorrect ? 'star' : 'nav');
+
+  if (isCorrect) {
+    quizCorrect++;
+    input.classList.add('correct');
+    document.getElementById('quizFeedback').textContent = '✅ 정답입니다!';
+    document.getElementById('quizFeedback').className = 'quiz-feedback correct';
+    if (isWrongNoteMode) removeFromWrongNotes(q);
+    quizTimer = setTimeout(autoAdvance, 800);
+  } else {
+    quizWrongList.push(q);
+    addToWrongNotes(q);
+    input.classList.add('wrong');
+    document.getElementById('quizFeedback').textContent = '❌ 틀렸습니다';
+    document.getElementById('quizFeedback').className = 'quiz-feedback wrong';
+    // 정답 보여주기
+    if (isEnToKr) {
+      document.getElementById('quizAnswerReveal').textContent = '정답: ' + getDefsText(q);
+    } else {
+      document.getElementById('quizAnswerReveal').textContent = '정답: ' + q.en;
+    }
+    quizTimer = setTimeout(autoAdvance, 2000);
+  }
+
+  document.getElementById('quizSubmitBtn').disabled = true;
+}
+
+function autoAdvance() {
+  quizTimer = null;
+  quizIndex++;
+  if (quizIndex >= quizQuestions.length) {
+    showQuizResult();
+  } else {
+    showQuizQuestion();
+  }
+}
+
+function showQuizResult() {
+  document.getElementById('quizScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'block';
+
+  const total = quizQuestions.length;
+  const score = Math.round((quizCorrect / total) * 100);
+  const dayNum = String(dayData[currentDayIndex].day).padStart(2, '0');
+
+  let emoji = '🎉';
+  if (score === 100) emoji = '🏆';
+  else if (score >= 80) emoji = '🎉';
+  else if (score >= 60) emoji = '😊';
+  else if (score >= 40) emoji = '😅';
+  else emoji = '💪';
+
+  document.getElementById('quizResultEmoji').textContent = emoji;
+  document.getElementById('quizResultTitle').textContent = isWrongNoteMode ? '오답노트 퀴즈 완료!' : `Day ${dayNum} 퀴즈 완료!`;
+  document.getElementById('quizResultScore').textContent = score + '점';
+  document.getElementById('quizResultSub').textContent = `${total}문제 중 ${quizCorrect}문제 정답`;
+
+  if (quizWrongList.length > 0) {
+    document.getElementById('quizResultWrong').style.display = 'block';
+    document.getElementById('quizResultWrongTitle').textContent = `❌ 틀린 단어 (${quizWrongList.length}개)`;
+    let html = '';
+    quizWrongList.forEach(w => {
+      html += `<div class="quiz-wrong-item"><span class="en">${w.en}</span><span class="kr">${getDefsText(w)}</span></div>`;
+    });
+    document.getElementById('quizResultWrongList').innerHTML = html;
+    document.getElementById('btnRetryWrong').style.display = 'block';
+  } else {
+    document.getElementById('quizResultWrong').style.display = 'none';
+    document.getElementById('btnRetryWrong').style.display = 'none';
+  }
+
+  playSound(score === 100 ? 'star' : 'daySelect');
+}
+
+// 주관식 Enter 키 제출
+document.addEventListener('keydown', function(e) {
+  if (document.getElementById('quizScreen').style.display !== 'none' && document.getElementById('quizInputWrap').style.display !== 'none') {
+    if (e.key === 'Enter' && !quizAnswered) {
+      e.preventDefault();
+      submitWriteAnswer();
+    }
+  }
+});
 
 function toggleFullscreen() {
   playSound('settings');
