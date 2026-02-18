@@ -1196,6 +1196,22 @@ function getAllDefs(word) {
   return defs;
 }
 
+function expandDefs(defs) {
+  const result = [];
+  defs.forEach(d => {
+    const m = d.match(/^(.+?)\((.+?)\)(.*)$/);
+    if (m) {
+      const withoutParen = (m[1] + m[3]).trim();
+      const withParen = (m[2] + m[3]).trim();
+      if (withoutParen) result.push(withoutParen);
+      if (withParen) result.push(withParen);
+    } else {
+      result.push(d);
+    }
+  });
+  return result;
+}
+
 // 품사 목록
 function getPosList(word) {
   return word.meanings.map(m => m.pos);
@@ -1453,10 +1469,11 @@ function submitWriteAnswer() {
 
   if (isEnToKr) {
     // 한국어 뜻 매칭: 입력값이 뜻 목록 중 하나에 포함되면 정답
-    const allDefs = getAllDefs(q);
+    const allDefs = expandDefs(getAllDefs(q));
     isCorrect = allDefs.some(d => {
       const norm = s => s.replace(/[\s,.\-()~]/g, '').toLowerCase();
-      return norm(d).includes(norm(answer)) || norm(answer).includes(norm(d));
+      if (!norm(answer)) return false;
+      return norm(answer) === norm(d);
     });
   } else {
     // 영어 단어 매칭: 대소문자 무시
