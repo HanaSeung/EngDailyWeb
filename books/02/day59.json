@@ -1,0 +1,709 @@
+{
+  "title": "-ant,-ent 행위자/ -ist 행위자/ -ive 행위자/ -y,-ry 행위,성질,상태/ -ion,-(a)tion 행위,성질,상태/ -th,-t 행위,성질,상태/ -al 행위,성질,상태/ -ship 자격,특성/ -ism 주의,특성/ -(l)et,-ette 작은 것을 가리키는 말",
+  "words": [
+    {
+      "en": "assistant",
+      "ipa": "/əˈsɪstənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조수",
+            "보조원"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "assist",
+          "mean": "돕다 (assist)"
+        },
+        {
+          "part": "-ant",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "돕는 사람 → 조수"
+    },
+    {
+      "en": "attendant",
+      "ipa": "/əˈtendənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수행원",
+            "안내원"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "attend",
+          "mean": "시중들다 (attend)"
+        },
+        {
+          "part": "-ant",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "시중드는 사람"
+    },
+    {
+      "en": "consultant",
+      "ipa": "/kənˈsʌltənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상담사",
+            "컨설턴트"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "consult",
+          "mean": "상담하다 (consult)"
+        },
+        {
+          "part": "-ant",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "상담하는 사람"
+    },
+    {
+      "en": "servant",
+      "ipa": "/ˈsɜːrvənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "하인",
+            "공무원"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "serve",
+          "mean": "섬기다 (serve)"
+        },
+        {
+          "part": "-ant",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "섬기는 사람"
+    },
+    {
+      "en": "resident",
+      "ipa": "/ˈrezɪdənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "거주자",
+            "주민"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "reside",
+          "mean": "거주하다 (reside)"
+        },
+        {
+          "part": "-ent",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "거주하는 사람"
+    },
+    {
+      "en": "journalist",
+      "ipa": "/ˈdʒɜːrnəlɪst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기자",
+            "언론인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "journal",
+          "mean": "일간의, 일지 (daily, journal)"
+        },
+        {
+          "part": "-ist",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "일지를 쓰는 사람 → 기자"
+    },
+    {
+      "en": "psychologist",
+      "ipa": "/saɪˈkɑːlədʒɪst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "심리학자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "psychology",
+          "mean": "심리학 (psychology)"
+        },
+        {
+          "part": "-ist",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "심리학을 하는 사람"
+    },
+    {
+      "en": "relative",
+      "ipa": "/ˈrelətɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "친척"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "상대적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "relate",
+          "mean": "관련시키다 (relate)"
+        },
+        {
+          "part": "-ive",
+          "mean": "~하는 사람/것"
+        }
+      ],
+      "origin": "관련된 사람 → 친척"
+    },
+    {
+      "en": "representative",
+      "ipa": "/ˌreprɪˈzentətɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대표(자)"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "대표하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "represent",
+          "mean": "대표하다 (represent)"
+        },
+        {
+          "part": "-ative",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "대표하는 사람"
+    },
+    {
+      "en": "discovery",
+      "ipa": "/dɪˈskʌvəri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "발견"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "discover",
+          "mean": "발견하다 (discover)"
+        },
+        {
+          "part": "-y",
+          "mean": "행위/상태 접미사"
+        }
+      ],
+      "origin": "발견한 것"
+    },
+    {
+      "en": "theory",
+      "ipa": "/ˈθɪəri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이론",
+            "학설"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "theor",
+          "mean": "관찰하다 (observe)"
+        },
+        {
+          "part": "-y",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "관찰한 것 → 이론"
+    },
+    {
+      "en": "surgery",
+      "ipa": "/ˈsɜːrdʒəri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수술",
+            "외과"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "surg",
+          "mean": "솟아나다, 일하다 (rise, work)"
+        },
+        {
+          "part": "-ery",
+          "mean": "행위/장소 접미사"
+        }
+      ],
+      "origin": "손으로 하는 일 → 수술"
+    },
+    {
+      "en": "pollution",
+      "ipa": "/pəˈluːʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "오염"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pollut",
+          "mean": "더럽히다 (make dirty)"
+        },
+        {
+          "part": "-ion",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "더러워진 상태 → 오염"
+    },
+    {
+      "en": "translation",
+      "ipa": "/trænzˈleɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "번역",
+            "해석"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "translate",
+          "mean": "번역하다 (translate)"
+        },
+        {
+          "part": "-ion",
+          "mean": "행위 접미사"
+        }
+      ],
+      "origin": "번역하는 행위"
+    },
+    {
+      "en": "introduction",
+      "ipa": "/ˌɪntrəˈdʌkʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소개",
+            "도입"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "introduce",
+          "mean": "소개하다 (introduce)"
+        },
+        {
+          "part": "-tion",
+          "mean": "행위 접미사"
+        }
+      ],
+      "origin": "소개하는 행위"
+    },
+    {
+      "en": "invitation",
+      "ipa": "/ˌɪnvɪˈteɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "초대(장)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "invite",
+          "mean": "초대하다 (invite)"
+        },
+        {
+          "part": "-ation",
+          "mean": "행위 접미사"
+        }
+      ],
+      "origin": "초대하는 행위"
+    },
+    {
+      "en": "wealth",
+      "ipa": "/welθ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부",
+            "재산"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "weal",
+          "mean": "잘 지냄 (well-being)"
+        },
+        {
+          "part": "-th",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "잘 지내는 상태 → 부"
+    },
+    {
+      "en": "weight",
+      "ipa": "/weɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "무게",
+            "체중"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "weigh",
+          "mean": "무게를 달다 (weigh)"
+        },
+        {
+          "part": "-t",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "무게를 단 것 → 무게"
+    },
+    {
+      "en": "arrival",
+      "ipa": "/əˈraɪvl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "도착"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "arrive",
+          "mean": "도착하다 (arrive)"
+        },
+        {
+          "part": "-al",
+          "mean": "행위 접미사"
+        }
+      ],
+      "origin": "도착하는 행위"
+    },
+    {
+      "en": "proposal",
+      "ipa": "/prəˈpoʊzl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "제안",
+            "청혼"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "propose",
+          "mean": "제안하다 (propose)"
+        },
+        {
+          "part": "-al",
+          "mean": "행위 접미사"
+        }
+      ],
+      "origin": "제안하는 행위"
+    },
+    {
+      "en": "citizenship",
+      "ipa": "/ˈsɪtɪzənʃɪp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시민권"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "citizen",
+          "mean": "시민 (citizen)"
+        },
+        {
+          "part": "-ship",
+          "mean": "자격, 신분 접미사"
+        }
+      ],
+      "origin": "시민의 자격 → 시민권"
+    },
+    {
+      "en": "leadership",
+      "ipa": "/ˈliːdərʃɪp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지도력",
+            "리더십"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "leader",
+          "mean": "지도자 (leader)"
+        },
+        {
+          "part": "-ship",
+          "mean": "자격, 특성 접미사"
+        }
+      ],
+      "origin": "지도자의 특성 → 리더십"
+    },
+    {
+      "en": "realism",
+      "ipa": "/ˈriːəlɪzəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "현실주의",
+            "사실주의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "real",
+          "mean": "현실의 (real)"
+        },
+        {
+          "part": "-ism",
+          "mean": "주의 접미사"
+        }
+      ],
+      "origin": "현실의 주의 → 현실주의"
+    },
+    {
+      "en": "optimism",
+      "ipa": "/ˈɑːptɪmɪzəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "낙관주의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "optim",
+          "mean": "최선의 (best)"
+        },
+        {
+          "part": "-ism",
+          "mean": "주의 접미사"
+        }
+      ],
+      "origin": "최선을 기대하는 주의 → 낙관주의"
+    },
+    {
+      "en": "criticism",
+      "ipa": "/ˈkrɪtɪsɪzəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비판",
+            "비평"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "critic",
+          "mean": "비평가 (critic)"
+        },
+        {
+          "part": "-ism",
+          "mean": "행위 접미사"
+        }
+      ],
+      "origin": "비평하는 행위"
+    },
+    {
+      "en": "target",
+      "ipa": "/ˈtɑːrɡɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목표",
+            "대상"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "겨냥하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "targ",
+          "mean": "작은 방패 (small shield)"
+        },
+        {
+          "part": "-et",
+          "mean": "작은 것 접미사"
+        }
+      ],
+      "origin": "작은 방패(과녁) → 목표"
+    },
+    {
+      "en": "booklet",
+      "ipa": "/ˈbʊklət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소책자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "book",
+          "mean": "책 (book)"
+        },
+        {
+          "part": "-let",
+          "mean": "작은 것 접미사"
+        }
+      ],
+      "origin": "작은 책 → 소책자"
+    },
+    {
+      "en": "leaflet",
+      "ipa": "/ˈliːflət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전단",
+            "소책자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "leaf",
+          "mean": "잎, 페이지 (leaf, page)"
+        },
+        {
+          "part": "-let",
+          "mean": "작은 것 접미사"
+        }
+      ],
+      "origin": "작은 잎(종이) → 전단"
+    },
+    {
+      "en": "etiquette",
+      "ipa": "/ˈetɪket/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "예절",
+            "에티켓"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "etiqu",
+          "mean": "꼬리표 (ticket, label)"
+        },
+        {
+          "part": "-ette",
+          "mean": "작은 것 접미사"
+        }
+      ],
+      "origin": "작은 꼬리표(규칙표) → 예절"
+    }
+  ]
+}

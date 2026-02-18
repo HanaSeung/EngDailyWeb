@@ -1,0 +1,593 @@
+{
+  "title": "ment 마음,생각나게 하다,경고하다/ limin 문턱,경계 /text 천을짜다/ prehend 붙잡다/ sper 희망/ pleas 기쁘게 하다",
+  "words": [
+    {
+      "en": "mental",
+      "ipa": "/ˈmentl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정신의",
+            "마음의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ment",
+          "mean": "마음 (mind)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "마음의 → 정신의"
+    },
+    {
+      "en": "mention",
+      "ipa": "/ˈmenʃn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "언급하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ment",
+          "mean": "마음 (mind)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "마음에 떠올려 말하다 → 언급하다"
+    },
+    {
+      "en": "comment",
+      "ipa": "/ˈkɑːment/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "논평"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "비평하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "ment",
+          "mean": "마음 (mind)"
+        }
+      ],
+      "origin": "함께 마음을 나누다 → 논평"
+    },
+    {
+      "en": "remind",
+      "ipa": "/rɪˈmaɪnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "상기시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "mind(ment)",
+          "mean": "마음 (mind)"
+        }
+      ],
+      "origin": "다시 마음에 떠올리다 → 상기시키다"
+    },
+    {
+      "en": "monument",
+      "ipa": "/ˈmɑːnjumənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기념물"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mon",
+          "mean": "경고하다, 기억시키다 (warn, remind)"
+        },
+        {
+          "part": "-ument",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "기억시키는 것 → 기념물"
+    },
+    {
+      "en": "monitor",
+      "ipa": "/ˈmɑːnɪtər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "화면"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "감시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mon",
+          "mean": "경고하다 (warn)"
+        },
+        {
+          "part": "-itor",
+          "mean": "사람/것 접미사"
+        }
+      ],
+      "origin": "경고하는 것 → 감시하다"
+    },
+    {
+      "en": "summon",
+      "ipa": "/ˈsʌmən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소환하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sum-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "mon",
+          "mean": "경고하다 (warn)"
+        }
+      ],
+      "origin": "아래에서 경고하여 부르다 → 소환하다"
+    },
+    {
+      "en": "eliminate",
+      "ipa": "/ɪˈlɪmɪneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제거하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "limin(lim)",
+          "mean": "문지방 (threshold)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "문지방 밖으로 내보내다 → 제거하다"
+    },
+    {
+      "en": "preliminary",
+      "ipa": "/prɪˈlɪmɪneri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "예비의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "예비 단계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "limin(lim)",
+          "mean": "문지방 (threshold)"
+        },
+        {
+          "part": "-ary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "문지방 앞의 → 예비의"
+    },
+    {
+      "en": "limit",
+      "ipa": "/ˈlɪmɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "제한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "제한하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "lim",
+          "mean": "문지방, 경계 (threshold, boundary)"
+        },
+        {
+          "part": "-it",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "경계 → 제한"
+    },
+    {
+      "en": "text",
+      "ipa": "/tekst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "본문",
+            "글"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "text",
+          "mean": "짜다, 직물 (weave)"
+        }
+      ],
+      "origin": "짜여진 것 → 글"
+    },
+    {
+      "en": "context",
+      "ipa": "/ˈkɑːntekst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문맥",
+            "정황"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "text",
+          "mean": "짜다 (weave)"
+        }
+      ],
+      "origin": "함께 짜여진 것 → 문맥"
+    },
+    {
+      "en": "textile",
+      "ipa": "/ˈtekstaɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "직물",
+            "옷감"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "text",
+          "mean": "짜다 (weave)"
+        },
+        {
+          "part": "-ile",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "짜여진 것 → 직물"
+    },
+    {
+      "en": "texture",
+      "ipa": "/ˈtekstʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감촉",
+            "질감"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "text",
+          "mean": "짜다 (weave)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "짜여진 느낌 → 질감"
+    },
+    {
+      "en": "comprehend",
+      "ipa": "/ˌkɑːmprɪˈhend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "이해하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "prehend",
+          "mean": "잡다 (seize, grasp)"
+        }
+      ],
+      "origin": "완전히 잡다 → 이해하다"
+    },
+    {
+      "en": "prison",
+      "ipa": "/ˈprɪzn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "교도소"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pris",
+          "mean": "잡다 (seize)"
+        },
+        {
+          "part": "-on",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "잡아두는 곳 → 교도소"
+    },
+    {
+      "en": "imprison",
+      "ipa": "/ɪmˈprɪzn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "투옥하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "prison(pris)",
+          "mean": "감옥 (prison)"
+        }
+      ],
+      "origin": "감옥 안에 넣다 → 투옥하다"
+    },
+    {
+      "en": "surprise",
+      "ipa": "/sərˈpraɪz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "놀람"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "놀라게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sur-(super-)",
+          "mean": "위에서 (over)"
+        },
+        {
+          "part": "prise(pris)",
+          "mean": "잡다 (seize)"
+        }
+      ],
+      "origin": "위에서 잡다 → 놀라게 하다"
+    },
+    {
+      "en": "enterprise",
+      "ipa": "/ˈentərpraɪz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기업",
+            "사업"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "enter-(inter-)",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "prise(pris)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "사이에서 잡아 시작하다 → 사업"
+    },
+    {
+      "en": "prey",
+      "ipa": "/preɪ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "먹이",
+            "희생자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prey(pris)",
+          "mean": "잡다 (seize)"
+        }
+      ],
+      "origin": "잡히는 것 → 먹이"
+    },
+    {
+      "en": "prosper",
+      "ipa": "/ˈprɑːspər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "번영하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "sper",
+          "mean": "희망 (hope)"
+        }
+      ],
+      "origin": "앞으로 희망이 있다 → 번영하다"
+    },
+    {
+      "en": "despair",
+      "ipa": "/dɪˈsper/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "절망"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "절망하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져, 반대 (away)"
+        },
+        {
+          "part": "spair(sper)",
+          "mean": "희망 (hope)"
+        }
+      ],
+      "origin": "희망에서 떨어지다 → 절망"
+    },
+    {
+      "en": "please",
+      "ipa": "/pliːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기쁘게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pleas(plac)",
+          "mean": "기쁘게 하다 (please)"
+        }
+      ],
+      "origin": "기쁘게 하다"
+    },
+    {
+      "en": "plead",
+      "ipa": "/pliːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "간청하다",
+            "변호하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "plead(plac)",
+          "mean": "기쁘게 하다, 달래다 (please, appease)"
+        }
+      ],
+      "origin": "기쁘게 해달라고 하다 → 간청하다"
+    }
+  ]
+}

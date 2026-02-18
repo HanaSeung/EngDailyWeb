@@ -1,0 +1,601 @@
+{
+  "title": "lect² 읽다/ scend 오르다,사다리/ liter 글자/ vot 맹세하다/ band 묶다/ sacr 신성한/ priv 떼어놓다/ char 사랑하는,소중한/ und 물결(치다)",
+  "words": [
+    {
+      "en": "lecture",
+      "ipa": "/ˈlektʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "강의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "강의하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "lect",
+          "mean": "읽다 (read)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "읽어주는 것 → 강의"
+    },
+    {
+      "en": "legend",
+      "ipa": "/ˈledʒənd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전설",
+            "범례"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "leg(lect)",
+          "mean": "읽다 (read)"
+        },
+        {
+          "part": "-end",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "읽히는 이야기 → 전설"
+    },
+    {
+      "en": "descend",
+      "ipa": "/dɪˈsend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "내려가다",
+            "하강하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "scend",
+          "mean": "오르다 (climb)"
+        }
+      ],
+      "origin": "아래로 가다 → 내려가다"
+    },
+    {
+      "en": "scale",
+      "ipa": "/skeɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "규모",
+            "저울",
+            "비늘"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "오르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "scal(scend)",
+          "mean": "사다리, 오르다 (ladder, climb)"
+        }
+      ],
+      "origin": "사다리 → 규모, 오르다"
+    },
+    {
+      "en": "escalate",
+      "ipa": "/ˈeskəleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확대되다",
+            "고조되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "scal(scend)",
+          "mean": "사다리 (ladder)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "사다리를 오르다 → 확대되다"
+    },
+    {
+      "en": "literal",
+      "ipa": "/ˈlɪtərəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "문자 그대로의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liter",
+          "mean": "글자 (letter)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "글자의 → 문자 그대로의"
+    },
+    {
+      "en": "literate",
+      "ipa": "/ˈlɪtərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "글을 읽고 쓸 줄 아는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liter",
+          "mean": "글자 (letter)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "글자를 아는 → 문해력 있는"
+    },
+    {
+      "en": "literature",
+      "ipa": "/ˈlɪtrətʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문학",
+            "문헌"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liter",
+          "mean": "글자 (letter)"
+        },
+        {
+          "part": "-ature",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "글자로 된 것 → 문학"
+    },
+    {
+      "en": "vow",
+      "ipa": "/vaʊ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "맹세",
+            "서약"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "맹세하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vow(vot)",
+          "mean": "맹세하다 (pledge)"
+        }
+      ],
+      "origin": "맹세"
+    },
+    {
+      "en": "vote",
+      "ipa": "/voʊt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "투표"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "투표하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vot",
+          "mean": "맹세하다 (pledge, vow)"
+        }
+      ],
+      "origin": "맹세하다 → 투표하다"
+    },
+    {
+      "en": "devote",
+      "ipa": "/dɪˈvoʊt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "바치다",
+            "헌신하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "vote(vot)",
+          "mean": "맹세하다 (vow)"
+        }
+      ],
+      "origin": "완전히 맹세하다 → 헌신하다"
+    },
+    {
+      "en": "bandage",
+      "ipa": "/ˈbændɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "붕대"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "붕대를 감다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "band",
+          "mean": "묶다 (bind)"
+        },
+        {
+          "part": "-age",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "묶는 것 → 붕대"
+    },
+    {
+      "en": "bond",
+      "ipa": "/bɑːnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유대",
+            "결속",
+            "채권"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bond(band)",
+          "mean": "묶다 (bind)"
+        }
+      ],
+      "origin": "묶인 것 → 유대"
+    },
+    {
+      "en": "bundle",
+      "ipa": "/ˈbʌndl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "묶음",
+            "꾸러미"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "묶다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bund(band)",
+          "mean": "묶다 (bind)"
+        },
+        {
+          "part": "-le",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "묶인 것 → 꾸러미"
+    },
+    {
+      "en": "bind",
+      "ipa": "/baɪnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "묶다",
+            "구속하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bind(band)",
+          "mean": "묶다 (bind)"
+        }
+      ],
+      "origin": "묶다"
+    },
+    {
+      "en": "sacred",
+      "ipa": "/ˈseɪkrɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "신성한",
+            "종교적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sacr",
+          "mean": "신성한 (holy)"
+        },
+        {
+          "part": "-ed",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "신성한"
+    },
+    {
+      "en": "sacrifice",
+      "ipa": "/ˈsækrɪfaɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "희생",
+            "제물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "희생하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sacr",
+          "mean": "신성한 (holy)"
+        },
+        {
+          "part": "fice(fac)",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "신성하게 만들다 → 제물을 바치다"
+    },
+    {
+      "en": "saint",
+      "ipa": "/seɪnt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "성인",
+            "성자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "saint(sacr)",
+          "mean": "신성한 (holy)"
+        }
+      ],
+      "origin": "신성한 사람 → 성인"
+    },
+    {
+      "en": "private",
+      "ipa": "/ˈpraɪvət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사적인",
+            "개인적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "priv",
+          "mean": "떼어놓다 (separate)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "떼어놓은 → 사적인"
+    },
+    {
+      "en": "deprive",
+      "ipa": "/dɪˈpraɪv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "빼앗다",
+            "박탈하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "prive(priv)",
+          "mean": "떼어놓다 (separate)"
+        }
+      ],
+      "origin": "완전히 떼어놓다 → 박탈하다"
+    },
+    {
+      "en": "charity",
+      "ipa": "/ˈtʃærəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자선",
+            "자선단체"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "char",
+          "mean": "사랑하는 (dear, love)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "사랑 → 자선"
+    },
+    {
+      "en": "cherish",
+      "ipa": "/ˈtʃerɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소중히 여기다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cher(char)",
+          "mean": "소중한, 사랑하는 (dear)"
+        },
+        {
+          "part": "-ish",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "소중히 하다"
+    },
+    {
+      "en": "abundant",
+      "ipa": "/əˈbʌndənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "풍부한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ab-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "und",
+          "mean": "물결 (wave)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "물결이 넘치는 → 풍부한"
+    },
+    {
+      "en": "surround",
+      "ipa": "/səˈraʊnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "둘러싸다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sur-(super-)",
+          "mean": "위에 (over)"
+        },
+        {
+          "part": "round(und)",
+          "mean": "물결 (wave, overflow)"
+        }
+      ],
+      "origin": "사방에서 물결이 밀려오다 → 둘러싸다"
+    }
+  ]
+}

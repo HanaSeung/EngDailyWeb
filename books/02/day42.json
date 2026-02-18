@@ -1,0 +1,572 @@
+{
+  "title": "mit 보내다/ der 주다/ cert 확실한/ spir 숨을 쉬다",
+  "words": [
+    {
+      "en": "admit",
+      "ipa": "/ədˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인정하다",
+            "허가하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "~쪽으로 보내다 → 들여보내다 → 인정하다"
+    },
+    {
+      "en": "commit",
+      "ipa": "/kəˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "저지르다",
+            "전념하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "함께 보내다 → 맡기다 → 전념하다"
+    },
+    {
+      "en": "committee",
+      "ipa": "/kəˈmɪti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위원회"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        },
+        {
+          "part": "-ee",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "함께 맡겨진 사람들 → 위원회"
+    },
+    {
+      "en": "emit",
+      "ipa": "/iˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "내뿜다",
+            "방출하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "밖으로 보내다 → 방출하다"
+    },
+    {
+      "en": "omit",
+      "ipa": "/oʊˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "생략하다",
+            "빠뜨리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "o-(ob-)",
+          "mean": "맞서, 반대 (against)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "보내지 않다 → 생략하다"
+    },
+    {
+      "en": "permit",
+      "ipa": "/pərˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "허가하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "허가증"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (through)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "완전히 보내주다 → 허가하다"
+    },
+    {
+      "en": "submit",
+      "ipa": "/səbˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제출하다",
+            "굴복하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "아래로 보내다 → 제출하다"
+    },
+    {
+      "en": "transmit",
+      "ipa": "/trænzˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전송하다",
+            "전달하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러 (across)"
+        },
+        {
+          "part": "mit",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "가로질러 보내다 → 전송하다"
+    },
+    {
+      "en": "mission",
+      "ipa": "/ˈmɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "임무",
+            "사명"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "miss(mit)",
+          "mean": "보내다 (send)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "보내진 것 → 임무"
+    },
+    {
+      "en": "commission",
+      "ipa": "/kəˈmɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위원회",
+            "수수료"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "miss(mit)",
+          "mean": "보내다 (send)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 보내진 → 위임 → 위원회"
+    },
+    {
+      "en": "promise",
+      "ipa": "/ˈprɑːmɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "약속"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "약속하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "mise(mit)",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "앞으로 보내다 → 약속하다"
+    },
+    {
+      "en": "mess",
+      "ipa": "/mes/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "엉망진창",
+            "혼란"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mess(miss)",
+          "mean": "보내다, 놓다 (send, put)"
+        }
+      ],
+      "origin": "놓여진 상태 → 혼란"
+    },
+    {
+      "en": "render",
+      "ipa": "/ˈrendər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~하게 만들다",
+            "주다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rend",
+          "mean": "주다 (give back)"
+        }
+      ],
+      "origin": "돌려주다 → ~하게 만들다"
+    },
+    {
+      "en": "surrender",
+      "ipa": "/səˈrendər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "항복하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "항복"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sur-(super-)",
+          "mean": "위에 (over)"
+        },
+        {
+          "part": "render(rend)",
+          "mean": "주다 (give)"
+        }
+      ],
+      "origin": "위로 넘겨주다 → 항복하다"
+    },
+    {
+      "en": "edit",
+      "ipa": "/ˈedɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "편집하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ed",
+          "mean": "주다 (give)"
+        },
+        {
+          "part": "-it",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "(세상에) 내주다 → 편집하다"
+    },
+    {
+      "en": "add",
+      "ipa": "/æd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "더하다",
+            "추가하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "d(do)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "~쪽으로 놓다 → 더하다"
+    },
+    {
+      "en": "rent",
+      "ipa": "/rent/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "임대료"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "빌리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rend",
+          "mean": "주다 (give, render)"
+        }
+      ],
+      "origin": "돌려주는 대가 → 임대료"
+    },
+    {
+      "en": "certain",
+      "ipa": "/ˈsɜːrtn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "확실한",
+            "특정한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cert",
+          "mean": "확실한 (sure, decided)"
+        },
+        {
+          "part": "-ain",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "확실한"
+    },
+    {
+      "en": "certificate",
+      "ipa": "/sərˈtɪfɪkət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "증명서",
+            "이수증"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cert",
+          "mean": "확실한 (sure)"
+        },
+        {
+          "part": "fic",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ate",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "확실하게 만든 것 → 증명서"
+    },
+    {
+      "en": "spirit",
+      "ipa": "/ˈspɪrɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정신",
+            "영혼"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spir",
+          "mean": "숨쉬다 (breathe)"
+        },
+        {
+          "part": "-it",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "숨쉬는 것 → 영혼"
+    },
+    {
+      "en": "aspire",
+      "ipa": "/əˈspaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "열망하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "spire(spir)",
+          "mean": "숨쉬다 (breathe)"
+        }
+      ],
+      "origin": "~쪽으로 숨을 내쉬다 → 열망하다"
+    },
+    {
+      "en": "inspire",
+      "ipa": "/ɪnˈspaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "영감을 주다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "spire(spir)",
+          "mean": "숨쉬다 (breathe)"
+        }
+      ],
+      "origin": "안으로 숨을 불어넣다 → 영감을 주다"
+    },
+    {
+      "en": "expire",
+      "ipa": "/ɪkˈspaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "만료되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "spire(spir)",
+          "mean": "숨쉬다 (breathe)"
+        }
+      ],
+      "origin": "숨이 나가다 → 만료되다"
+    }
+  ]
+}

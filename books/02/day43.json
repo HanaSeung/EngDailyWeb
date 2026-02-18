@@ -1,0 +1,602 @@
+{
+  "title": "par¹ 보이는/ sequ 따라가다,뒤를잇다/ phan 보여주다/ cit 소환하다,부르다/ tail 자르다/ patr 아버지/ plaud 박수치다",
+  "words": [
+    {
+      "en": "transparent",
+      "ipa": "/trænsˈpærənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "투명한",
+            "명백한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러 (through)"
+        },
+        {
+          "part": "par",
+          "mean": "보이다 (appear)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "가로질러 보이는 → 투명한"
+    },
+    {
+      "en": "apparent",
+      "ipa": "/əˈpærənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "분명한",
+            "외관상의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "par",
+          "mean": "보이다 (appear)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "보이는 쪽의 → 분명한"
+    },
+    {
+      "en": "appear",
+      "ipa": "/əˈpɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "나타나다",
+            "~인 것 같다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "pear(par)",
+          "mean": "보이다 (appear)"
+        }
+      ],
+      "origin": "보이는 쪽으로 → 나타나다"
+    },
+    {
+      "en": "sequence",
+      "ipa": "/ˈsiːkwəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "순서",
+            "연속"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sequ",
+          "mean": "따르다 (follow)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "따르는 것 → 순서"
+    },
+    {
+      "en": "consequence",
+      "ipa": "/ˈkɑːnsəkwens/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결과",
+            "중요성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "sequ",
+          "mean": "따르다 (follow)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 뒤따르는 것 → 결과"
+    },
+    {
+      "en": "subsequent",
+      "ipa": "/ˈsʌbsɪkwənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "다음의",
+            "뒤이은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under, after)"
+        },
+        {
+          "part": "sequ",
+          "mean": "따르다 (follow)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "뒤를 따르는 → 다음의"
+    },
+    {
+      "en": "pursue",
+      "ipa": "/pərˈsuː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추구하다",
+            "추적하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pur-(pro-)",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "sue(sequ)",
+          "mean": "따르다 (follow)"
+        }
+      ],
+      "origin": "앞으로 따라가다 → 추구하다"
+    },
+    {
+      "en": "suit",
+      "ipa": "/suːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정장",
+            "소송"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "적합하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "suit(sequ)",
+          "mean": "따르다 (follow)"
+        }
+      ],
+      "origin": "뒤따르는 한 벌 → 정장, 적합하다"
+    },
+    {
+      "en": "execute",
+      "ipa": "/ˈeksɪkjuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "실행하다",
+            "수행하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "secut(sequ)",
+          "mean": "따르다 (follow)"
+        }
+      ],
+      "origin": "끝까지 따라가다 → 실행하다"
+    },
+    {
+      "en": "emphasize",
+      "ipa": "/ˈemfəsaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "강조하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "em-(en-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "phas",
+          "mean": "보이다, 나타내다 (show)"
+        },
+        {
+          "part": "-ize",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "안에서 드러내다 → 강조하다"
+    },
+    {
+      "en": "phase",
+      "ipa": "/feɪz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "단계",
+            "시기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "phas",
+          "mean": "보이다, 나타나다 (appear, show)"
+        }
+      ],
+      "origin": "나타나는 모습 → 단계"
+    },
+    {
+      "en": "phenomenon",
+      "ipa": "/fəˈnɑːmɪnən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "현상"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "phen(phas)",
+          "mean": "보이다 (appear)"
+        },
+        {
+          "part": "-omenon",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "보이는 것 → 현상"
+    },
+    {
+      "en": "fancy",
+      "ipa": "/ˈfænsi/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "화려한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "좋아하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fan(phas)",
+          "mean": "보이다, 상상 (appear, imagine)"
+        },
+        {
+          "part": "-cy",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "상상 속에 보이는 → 화려한"
+    },
+    {
+      "en": "cite",
+      "ipa": "/saɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인용하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cit",
+          "mean": "부르다, 움직이다 (call, move)"
+        }
+      ],
+      "origin": "불러오다 → 인용하다"
+    },
+    {
+      "en": "recite",
+      "ipa": "/rɪˈsaɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "암송하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "cite(cit)",
+          "mean": "부르다 (call)"
+        }
+      ],
+      "origin": "다시 불러내다 → 암송하다"
+    },
+    {
+      "en": "excite",
+      "ipa": "/ɪkˈsaɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "흥분시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "cite(cit)",
+          "mean": "부르다, 움직이다 (call, move)"
+        }
+      ],
+      "origin": "밖으로 움직이게 하다 → 흥분시키다"
+    },
+    {
+      "en": "tailor",
+      "ipa": "/ˈteɪlər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재단사"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "맞춤 제작하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tail",
+          "mean": "자르다 (cut)"
+        },
+        {
+          "part": "-or",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "자르는 사람 → 재단사"
+    },
+    {
+      "en": "retail",
+      "ipa": "/ˈriːteɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소매"
+          ]
+        },
+        {
+          "pos": "부",
+          "defs": [
+            "소매로"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "tail",
+          "mean": "자르다 (cut)"
+        }
+      ],
+      "origin": "다시 잘라 나누다 → 소매"
+    },
+    {
+      "en": "detail",
+      "ipa": "/ˈdiːteɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "세부 사항"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "tail",
+          "mean": "자르다 (cut)"
+        }
+      ],
+      "origin": "완전히 잘게 자른 것 → 세부 사항"
+    },
+    {
+      "en": "patriot",
+      "ipa": "/ˈpeɪtriət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "애국자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "patr",
+          "mean": "아버지, 조국 (father, fatherland)"
+        },
+        {
+          "part": "-iot",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "조국을 사랑하는 사람 → 애국자"
+    },
+    {
+      "en": "patron",
+      "ipa": "/ˈpeɪtrən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "후원자",
+            "단골 손님"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "patr",
+          "mean": "아버지 (father)"
+        },
+        {
+          "part": "-on",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "아버지처럼 돌보는 사람 → 후원자"
+    },
+    {
+      "en": "pattern",
+      "ipa": "/ˈpætərn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "양식",
+            "패턴"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "patr",
+          "mean": "아버지, 본보기 (father, model)"
+        },
+        {
+          "part": "-ern",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "본보기 → 양식"
+    },
+    {
+      "en": "applaud",
+      "ipa": "/əˈplɔːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "박수치다",
+            "칭찬하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "plaud(plod)",
+          "mean": "박수치다 (clap)"
+        }
+      ],
+      "origin": "~쪽으로 박수치다 → 칭찬하다"
+    },
+    {
+      "en": "explode",
+      "ipa": "/ɪkˈsploʊd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "폭발하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "plode(plod)",
+          "mean": "박수치다, 소리내다 (clap, burst)"
+        }
+      ],
+      "origin": "밖으로 소리 내며 터지다 → 폭발하다"
+    }
+  ]
+}

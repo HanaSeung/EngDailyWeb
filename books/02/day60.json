@@ -1,0 +1,627 @@
+{
+  "title": "-ize ~화하다/ -(i)fy ~화하다/ -ate ~하게 만들다/ -en ~되게 하다/ -le (반복적인 행동을) 하다/ -ly 방식/ -ward 방향/ -way,-wise 방법",
+  "words": [
+    {
+      "en": "realize",
+      "ipa": "/ˈriːəlaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "깨닫다",
+            "실현하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "real",
+          "mean": "현실의 (real)"
+        },
+        {
+          "part": "-ize",
+          "mean": "~화하다"
+        }
+      ],
+      "origin": "현실화하다 → 깨닫다"
+    },
+    {
+      "en": "stabilize",
+      "ipa": "/ˈsteɪbəlaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "안정시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stable",
+          "mean": "안정된 (stable)"
+        },
+        {
+          "part": "-ize",
+          "mean": "~화하다"
+        }
+      ],
+      "origin": "안정화하다"
+    },
+    {
+      "en": "categorize",
+      "ipa": "/ˈkætəɡəraɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분류하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "category",
+          "mean": "범주 (category)"
+        },
+        {
+          "part": "-ize",
+          "mean": "~화하다"
+        }
+      ],
+      "origin": "범주화하다 → 분류하다"
+    },
+    {
+      "en": "simplify",
+      "ipa": "/ˈsɪmplɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "단순화하다",
+            "간소화하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "simple",
+          "mean": "간단한 (simple)"
+        },
+        {
+          "part": "-ify",
+          "mean": "~화하다"
+        }
+      ],
+      "origin": "간단하게 만들다"
+    },
+    {
+      "en": "classify",
+      "ipa": "/ˈklæsɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분류하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "class",
+          "mean": "등급, 분류 (class)"
+        },
+        {
+          "part": "-ify",
+          "mean": "~화하다"
+        }
+      ],
+      "origin": "등급화하다 → 분류하다"
+    },
+    {
+      "en": "clarify",
+      "ipa": "/ˈklærəfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "명확히 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "clar",
+          "mean": "맑은, 분명한 (clear)"
+        },
+        {
+          "part": "-ify",
+          "mean": "~화하다"
+        }
+      ],
+      "origin": "분명하게 만들다"
+    },
+    {
+      "en": "fascinate",
+      "ipa": "/ˈfæsɪneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "매혹하다",
+            "매료시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fascin",
+          "mean": "마법 (enchantment)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~하게 만들다"
+        }
+      ],
+      "origin": "마법에 걸리게 하다 → 매혹하다"
+    },
+    {
+      "en": "frustrate",
+      "ipa": "/ˈfrʌstreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "좌절시키다",
+            "실망시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "frustr",
+          "mean": "헛되이 (in vain)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~하게 만들다"
+        }
+      ],
+      "origin": "헛되게 만들다 → 좌절시키다"
+    },
+    {
+      "en": "imitate",
+      "ipa": "/ˈɪmɪteɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모방하다",
+            "흉내 내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "imit",
+          "mean": "닮다, 본뜨다 (copy, resemble)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~하게 만들다"
+        }
+      ],
+      "origin": "닮게 만들다 → 모방하다"
+    },
+    {
+      "en": "irritate",
+      "ipa": "/ˈɪrɪteɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "짜증나게 하다",
+            "자극하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "irrit",
+          "mean": "자극하다 (excite, provoke)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~하게 만들다"
+        }
+      ],
+      "origin": "자극하다 → 짜증나게 하다"
+    },
+    {
+      "en": "motivate",
+      "ipa": "/ˈmoʊtɪveɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "동기를 부여하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "motive",
+          "mean": "동기 (motive)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~하게 만들다"
+        }
+      ],
+      "origin": "동기를 갖게 하다"
+    },
+    {
+      "en": "originate",
+      "ipa": "/əˈrɪdʒɪneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비롯되다",
+            "유래하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "origin",
+          "mean": "기원 (origin)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~하게 만들다"
+        }
+      ],
+      "origin": "기원에서 시작하다 → 유래하다"
+    },
+    {
+      "en": "strengthen",
+      "ipa": "/ˈstreŋθn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "강화하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "strength",
+          "mean": "힘 (strength)"
+        },
+        {
+          "part": "-en",
+          "mean": "~되게 하다"
+        }
+      ],
+      "origin": "힘있게 하다 → 강화하다"
+    },
+    {
+      "en": "frighten",
+      "ipa": "/ˈfraɪtn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "겁먹게 하다",
+            "놀라게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fright",
+          "mean": "공포 (fright)"
+        },
+        {
+          "part": "-en",
+          "mean": "~되게 하다"
+        }
+      ],
+      "origin": "공포를 느끼게 하다"
+    },
+    {
+      "en": "fasten",
+      "ipa": "/ˈfæsn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "잠그다",
+            "고정시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fast",
+          "mean": "단단한 (firm)"
+        },
+        {
+          "part": "-en",
+          "mean": "~되게 하다"
+        }
+      ],
+      "origin": "단단하게 하다 → 고정시키다"
+    },
+    {
+      "en": "struggle",
+      "ipa": "/ˈstrʌɡl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분투하다",
+            "애쓰다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "투쟁"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "strugg",
+          "mean": "힘겹게 하다 (strive)"
+        },
+        {
+          "part": "-le",
+          "mean": "반복 동사형 접미사"
+        }
+      ],
+      "origin": "반복적으로 힘쓰다 → 분투하다"
+    },
+    {
+      "en": "wrestle",
+      "ipa": "/ˈresl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "씨름하다",
+            "격투하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "wrest",
+          "mean": "비틀다 (twist, wrench)"
+        },
+        {
+          "part": "-le",
+          "mean": "반복 동사형 접미사"
+        }
+      ],
+      "origin": "반복적으로 비틀다 → 씨름하다"
+    },
+    {
+      "en": "extremely",
+      "ipa": "/ɪkˈstriːmli/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "극도로",
+            "매우"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "extreme",
+          "mean": "극도의 (extreme)"
+        },
+        {
+          "part": "-ly",
+          "mean": "방식 접미사"
+        }
+      ],
+      "origin": "극도의 방식으로"
+    },
+    {
+      "en": "rarely",
+      "ipa": "/ˈrerli/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "드물게",
+            "좀처럼 ~않다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rare",
+          "mean": "드문 (rare)"
+        },
+        {
+          "part": "-ly",
+          "mean": "방식 접미사"
+        }
+      ],
+      "origin": "드문 방식으로"
+    },
+    {
+      "en": "nearly",
+      "ipa": "/ˈnɪrli/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "거의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "near",
+          "mean": "가까운 (near)"
+        },
+        {
+          "part": "-ly",
+          "mean": "방식 접미사"
+        }
+      ],
+      "origin": "가까운 정도로 → 거의"
+    },
+    {
+      "en": "homeward",
+      "ipa": "/ˈhoʊmwərd/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "집으로 향하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "home",
+          "mean": "집 (home)"
+        },
+        {
+          "part": "-ward",
+          "mean": "방향 접미사"
+        }
+      ],
+      "origin": "집 방향으로"
+    },
+    {
+      "en": "upward",
+      "ipa": "/ˈʌpwərd/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "위쪽으로",
+            "상승하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "up",
+          "mean": "위 (up)"
+        },
+        {
+          "part": "-ward",
+          "mean": "방향 접미사"
+        }
+      ],
+      "origin": "위 방향으로"
+    },
+    {
+      "en": "forward",
+      "ipa": "/ˈfɔːrwərd/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "앞으로",
+            "전진하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fore",
+          "mean": "앞 (front)"
+        },
+        {
+          "part": "-ward",
+          "mean": "방향 접미사"
+        }
+      ],
+      "origin": "앞 방향으로"
+    },
+    {
+      "en": "halfway",
+      "ipa": "/ˌhæfˈweɪ/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "중간에",
+            "중간의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "half",
+          "mean": "반 (half)"
+        },
+        {
+          "part": "-way",
+          "mean": "길, 방법 접미사"
+        }
+      ],
+      "origin": "반쯤의 길 → 중간에"
+    },
+    {
+      "en": "likewise",
+      "ipa": "/ˈlaɪkwaɪz/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "마찬가지로",
+            "또한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "like",
+          "mean": "같은 (like, similar)"
+        },
+        {
+          "part": "-wise",
+          "mean": "방법 접미사"
+        }
+      ],
+      "origin": "같은 방법으로 → 마찬가지로"
+    },
+    {
+      "en": "otherwise",
+      "ipa": "/ˈʌðərwaɪz/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "그렇지 않으면",
+            "달리"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "other",
+          "mean": "다른 (other)"
+        },
+        {
+          "part": "-wise",
+          "mean": "방법 접미사"
+        }
+      ],
+      "origin": "다른 방법으로 → 그렇지 않으면"
+    }
+  ]
+}

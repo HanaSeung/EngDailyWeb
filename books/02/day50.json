@@ -1,0 +1,606 @@
+{
+  "title": "civ 시,시민/ don 주다/ liber 자유롭게 하다/ ann 1년의,해마다/ electr 호박(琥珀)의,전기의/ ori 떠오르다/ sci 알다 / merge 물에 잠기다 / sure 근심이 없는",
+  "words": [
+    {
+      "en": "civil",
+      "ipa": "/ˈsɪvl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "시민의",
+            "민간의",
+            "예의 바른"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "civ",
+          "mean": "시민 (citizen)"
+        },
+        {
+          "part": "-il",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "시민의"
+    },
+    {
+      "en": "civilize",
+      "ipa": "/ˈsɪvəlaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "문명화하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "civ",
+          "mean": "시민 (citizen)"
+        },
+        {
+          "part": "-ilize",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "시민답게 만들다 → 문명화하다"
+    },
+    {
+      "en": "citizen",
+      "ipa": "/ˈsɪtɪzn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시민",
+            "국민"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cit(civ)",
+          "mean": "시민, 도시 (citizen, city)"
+        },
+        {
+          "part": "-izen",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "도시에 사는 사람 → 시민"
+    },
+    {
+      "en": "donate",
+      "ipa": "/ˈdoʊneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기부하다",
+            "기증하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "don",
+          "mean": "주다 (give)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "주다 → 기부하다"
+    },
+    {
+      "en": "anecdote",
+      "ipa": "/ˈænɪkdoʊt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "일화"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "an-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "ec-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "dote(don)",
+          "mean": "주다 (give)"
+        }
+      ],
+      "origin": "밖으로 내놓지 않은 이야기 → 일화"
+    },
+    {
+      "en": "dose",
+      "ipa": "/doʊs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "(약의) 복용량"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "투여하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dos(don)",
+          "mean": "주다 (give)"
+        }
+      ],
+      "origin": "주어진 양 → 복용량"
+    },
+    {
+      "en": "liberal",
+      "ipa": "/ˈlɪbərəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "자유주의의",
+            "관대한",
+            "후한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liber",
+          "mean": "자유로운 (free)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "자유로운 → 관대한"
+    },
+    {
+      "en": "liberate",
+      "ipa": "/ˈlɪbəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해방시키다",
+            "자유롭게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liber",
+          "mean": "자유로운 (free)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "자유롭게 하다 → 해방시키다"
+    },
+    {
+      "en": "deliver",
+      "ipa": "/dɪˈlɪvər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "배달하다",
+            "(연설 등을) 하다",
+            "구출하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "liver(liber)",
+          "mean": "자유로운 (free)"
+        }
+      ],
+      "origin": "완전히 자유롭게 하다 → 구출하다, 배달하다"
+    },
+    {
+      "en": "anniversary",
+      "ipa": "/ˌænɪˈvɜːrsəri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기념일"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ann",
+          "mean": "해 (year)"
+        },
+        {
+          "part": "vers",
+          "mean": "돌다 (turn)"
+        },
+        {
+          "part": "-ary",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "해가 돌아온 것 → 기념일"
+    },
+    {
+      "en": "annual",
+      "ipa": "/ˈænjuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "매년의",
+            "연례의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ann",
+          "mean": "해 (year)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "해의 → 매년의"
+    },
+    {
+      "en": "electric",
+      "ipa": "/ɪˈlektrɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전기의",
+            "전기로 움직이는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "electr",
+          "mean": "전기, 호박 (amber, electricity)"
+        },
+        {
+          "part": "-ic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "전기의"
+    },
+    {
+      "en": "electronic",
+      "ipa": "/ɪˌlekˈtrɑːnɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전자의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "electr",
+          "mean": "전기 (electricity)"
+        },
+        {
+          "part": "on",
+          "mean": "입자 (particle)"
+        },
+        {
+          "part": "-ic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "전자의"
+    },
+    {
+      "en": "origin",
+      "ipa": "/ˈɔːrɪdʒɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기원",
+            "유래",
+            "출신"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ori",
+          "mean": "뜨다, 일어나다 (rise)"
+        },
+        {
+          "part": "-gin",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "일어나는 곳 → 기원"
+    },
+    {
+      "en": "orient",
+      "ipa": "/ˈɔːrient/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동양"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "(특정 방향으로) 향하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ori",
+          "mean": "뜨다 (rise)"
+        },
+        {
+          "part": "-ent",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "해가 뜨는 곳 → 동양"
+    },
+    {
+      "en": "conscious",
+      "ipa": "/ˈkɑːnʃəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "의식하는",
+            "자각하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "sci",
+          "mean": "알다 (know)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "함께 아는 → 의식하는"
+    },
+    {
+      "en": "subconscious",
+      "ipa": "/ˌsʌbˈkɑːnʃəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "잠재의식의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "잠재의식"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "conscious(sci)",
+          "mean": "의식 (conscious)"
+        }
+      ],
+      "origin": "의식 아래의 → 잠재의식의"
+    },
+    {
+      "en": "conscience",
+      "ipa": "/ˈkɑːnʃəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "양심"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "sci",
+          "mean": "알다 (know)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 아는 것 → 양심"
+    },
+    {
+      "en": "merge",
+      "ipa": "/mɜːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "합병하다",
+            "합치다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "merg",
+          "mean": "잠기다 (dip, plunge)"
+        }
+      ],
+      "origin": "잠겨 하나가 되다 → 합병하다"
+    },
+    {
+      "en": "emerge",
+      "ipa": "/iˈmɜːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "나타나다",
+            "드러나다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "merge(merg)",
+          "mean": "잠기다 (plunge)"
+        }
+      ],
+      "origin": "밖으로 솟아오르다 → 나타나다"
+    },
+    {
+      "en": "submerge",
+      "ipa": "/səbˈmɜːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "잠수하다",
+            "물속에 잠기다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "merge(merg)",
+          "mean": "잠기다 (plunge)"
+        }
+      ],
+      "origin": "아래로 잠기다 → 잠수하다"
+    },
+    {
+      "en": "assure",
+      "ipa": "/əˈʃʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확신시키다",
+            "보장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "sure(sur)",
+          "mean": "확실한 (sure)"
+        }
+      ],
+      "origin": "확실하게 하다 → 보장하다"
+    },
+    {
+      "en": "reassure",
+      "ipa": "/ˌriːəˈʃʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "안심시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "assure(sur)",
+          "mean": "확신시키다 (assure)"
+        }
+      ],
+      "origin": "다시 확신시키다 → 안심시키다"
+    },
+    {
+      "en": "insure",
+      "ipa": "/ɪnˈʃʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보험에 들다",
+            "보장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "sure(sur)",
+          "mean": "확실한 (sure)"
+        }
+      ],
+      "origin": "안에서 확실하게 하다 → 보험에 들다"
+    }
+  ]
+}

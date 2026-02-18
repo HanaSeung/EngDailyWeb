@@ -1,0 +1,644 @@
+{
+  "title": "bar 막대,장애/ nov 새로운/ sert 결합하다/ tempt 시도하다/ spher 구/ fus 붓다/ centr 중심/ tort 비틀다",
+  "words": [
+    {
+      "en": "bar",
+      "ipa": "/bɑːr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "막대기",
+            "장애물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "막다",
+            "금하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bar",
+          "mean": "막대 (bar, barrier)"
+        }
+      ],
+      "origin": "막대 → 장애물, 막다"
+    },
+    {
+      "en": "embarrass",
+      "ipa": "/ɪmˈbærəs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "당황하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "em-(en-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "bar",
+          "mean": "막대, 장애 (bar)"
+        },
+        {
+          "part": "-ass",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "장애 안에 넣다 → 당황하게 하다"
+    },
+    {
+      "en": "barrier",
+      "ipa": "/ˈbæriər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "장벽",
+            "장애물"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bar",
+          "mean": "막대 (bar)"
+        },
+        {
+          "part": "-ier",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "막대로 막은 것 → 장벽"
+    },
+    {
+      "en": "novel",
+      "ipa": "/ˈnɑːvl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소설"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "새로운",
+            "신기한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nov",
+          "mean": "새로운 (new)"
+        },
+        {
+          "part": "-el",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "새로운 이야기 → 소설"
+    },
+    {
+      "en": "innovate",
+      "ipa": "/ˈɪnəveɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "혁신하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "nov",
+          "mean": "새로운 (new)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "안으로 새것을 들이다 → 혁신하다"
+    },
+    {
+      "en": "renovate",
+      "ipa": "/ˈrenəveɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "개조하다",
+            "보수하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "nov",
+          "mean": "새로운 (new)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "다시 새롭게 하다 → 개조하다"
+    },
+    {
+      "en": "renew",
+      "ipa": "/rɪˈnuː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "갱신하다",
+            "재개하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "new(nov)",
+          "mean": "새로운 (new)"
+        }
+      ],
+      "origin": "다시 새롭게 하다 → 갱신하다"
+    },
+    {
+      "en": "desert",
+      "ipa": "/ˈdezərt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사막"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "버리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "sert",
+          "mean": "잇다, 연결하다 (join)"
+        }
+      ],
+      "origin": "연결에서 떨어지다 → 버리다"
+    },
+    {
+      "en": "insert",
+      "ipa": "/ɪnˈsɜːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "삽입하다",
+            "끼워 넣다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "sert",
+          "mean": "잇다 (join)"
+        }
+      ],
+      "origin": "안으로 이어 넣다 → 삽입하다"
+    },
+    {
+      "en": "assert",
+      "ipa": "/əˈsɜːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "주장하다",
+            "단언하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "sert",
+          "mean": "잇다, 놓다 (join, put)"
+        }
+      ],
+      "origin": "~쪽으로 내놓다 → 주장하다"
+    },
+    {
+      "en": "exert",
+      "ipa": "/ɪɡˈzɜːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(권력·영향력을) 행사하다",
+            "노력하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "ert(sert)",
+          "mean": "잇다, 놓다 (join, put)"
+        }
+      ],
+      "origin": "밖으로 내놓다 → 행사하다"
+    },
+    {
+      "en": "series",
+      "ipa": "/ˈsɪriːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "연속",
+            "시리즈"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "seri(sert)",
+          "mean": "잇다 (join, connect)"
+        },
+        {
+          "part": "-es",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "이어진 것 → 연속"
+    },
+    {
+      "en": "tempt",
+      "ipa": "/tempt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유혹하다",
+            "부추기다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tempt",
+          "mean": "시도하다, 시험하다 (try, test)"
+        }
+      ],
+      "origin": "시험하다 → 유혹하다"
+    },
+    {
+      "en": "attempt",
+      "ipa": "/əˈtempt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시도"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "시도하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "at-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tempt",
+          "mean": "시도하다 (try)"
+        }
+      ],
+      "origin": "~쪽으로 시도하다"
+    },
+    {
+      "en": "sphere",
+      "ipa": "/sfɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "구(체)",
+            "영역",
+            "범위"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spher",
+          "mean": "구 (ball, globe)"
+        }
+      ],
+      "origin": "구 → 영역"
+    },
+    {
+      "en": "atmosphere",
+      "ipa": "/ˈætməsfɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대기",
+            "분위기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "atmo",
+          "mean": "증기 (vapor)"
+        },
+        {
+          "part": "sphere(spher)",
+          "mean": "구 (globe)"
+        }
+      ],
+      "origin": "증기의 구 → 대기"
+    },
+    {
+      "en": "hemisphere",
+      "ipa": "/ˈhemɪsfɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "(지구·천체의) 반구"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hemi-",
+          "mean": "반 (half)"
+        },
+        {
+          "part": "sphere(spher)",
+          "mean": "구 (globe)"
+        }
+      ],
+      "origin": "구의 반 → 반구"
+    },
+    {
+      "en": "confuse",
+      "ipa": "/kənˈfjuːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "혼란시키다",
+            "혼동하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "fuse(fus)",
+          "mean": "붓다 (pour)"
+        }
+      ],
+      "origin": "함께 부어 섞다 → 혼란시키다"
+    },
+    {
+      "en": "refuse",
+      "ipa": "/rɪˈfjuːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거절하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "fuse(fus)",
+          "mean": "붓다 (pour)"
+        }
+      ],
+      "origin": "뒤로 부어버리다 → 거절하다"
+    },
+    {
+      "en": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "환불"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "환불하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "fund(fus)",
+          "mean": "붓다 (pour)"
+        }
+      ],
+      "origin": "뒤로 부어주다 → 환불하다"
+    },
+    {
+      "en": "central",
+      "ipa": "/ˈsentrəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중심의",
+            "중앙의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "centr",
+          "mean": "중심 (center)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "중심의"
+    },
+    {
+      "en": "concentrate",
+      "ipa": "/ˈkɑːnsntreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "집중하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "centr",
+          "mean": "중심 (center)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 중심으로 모으다 → 집중하다"
+    },
+    {
+      "en": "torture",
+      "ipa": "/ˈtɔːrtʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "고문",
+            "고통"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "고문하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tort",
+          "mean": "비틀다 (twist)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "비트는 것 → 고문"
+    },
+    {
+      "en": "distort",
+      "ipa": "/dɪˈstɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "왜곡하다",
+            "비틀다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "tort",
+          "mean": "비틀다 (twist)"
+        }
+      ],
+      "origin": "떨어뜨려 비틀다 → 왜곡하다"
+    },
+    {
+      "en": "torment",
+      "ipa": "/ˈtɔːrment/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "고통"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "괴롭히다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tor(tort)",
+          "mean": "비틀다 (twist)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "비트는 것 → 고통"
+    }
+  ]
+}

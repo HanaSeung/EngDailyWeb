@@ -1,0 +1,644 @@
+{
+  "title": "cred 믿다/ fals 속이다,잘못된/ host 손님,낯선사람/ fid 믿다/ trad 넘겨주다/ dam 손실,비난/ punct 점/ norm 기준/ vag 떠돌아다니다",
+  "words": [
+    {
+      "en": "credit",
+      "ipa": "/ˈkredɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신용",
+            "업적",
+            "학점"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "믿다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cred",
+          "mean": "믿다 (believe)"
+        },
+        {
+          "part": "-it",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "믿음 → 신용"
+    },
+    {
+      "en": "incredible",
+      "ipa": "/ɪnˈkredəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "믿기 힘든",
+            "굉장한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "cred",
+          "mean": "믿다 (believe)"
+        },
+        {
+          "part": "-ible",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "믿을 수 없는 → 굉장한"
+    },
+    {
+      "en": "grant",
+      "ipa": "/ɡrænt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "승인하다",
+            "주다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "보조금"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grant(cred)",
+          "mean": "믿다, 동의하다 (believe, agree)"
+        }
+      ],
+      "origin": "동의하여 주다 → 승인하다"
+    },
+    {
+      "en": "false",
+      "ipa": "/fɔːls/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "잘못된",
+            "가짜의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fals(fal)",
+          "mean": "속이다 (deceive)"
+        }
+      ],
+      "origin": "속이는 → 잘못된"
+    },
+    {
+      "en": "fail",
+      "ipa": "/feɪl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "실패하다",
+            "~하지 못하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fail(fal)",
+          "mean": "속이다, 실망시키다 (deceive, disappoint)"
+        }
+      ],
+      "origin": "속이다 → 실패하다"
+    },
+    {
+      "en": "fault",
+      "ipa": "/fɔːlt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "잘못",
+            "결점",
+            "단층"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fault(fal)",
+          "mean": "속이다 (deceive)"
+        }
+      ],
+      "origin": "속임 → 잘못"
+    },
+    {
+      "en": "host",
+      "ipa": "/hoʊst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주인",
+            "주최자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "주최하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "host",
+          "mean": "손님, 주인 (guest, host)"
+        }
+      ],
+      "origin": "손님을 맞는 사람 → 주인"
+    },
+    {
+      "en": "hostile",
+      "ipa": "/ˈhɑːstl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적대적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "host",
+          "mean": "낯선 사람, 적 (stranger, enemy)"
+        },
+        {
+          "part": "-ile",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "적의 → 적대적인"
+    },
+    {
+      "en": "hospitality",
+      "ipa": "/ˌhɑːspɪˈtæləti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "환대",
+            "후한 대접"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hospit(host)",
+          "mean": "손님 (guest)"
+        },
+        {
+          "part": "-ality",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "손님 대접 → 환대"
+    },
+    {
+      "en": "confident",
+      "ipa": "/ˈkɑːnfɪdənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "자신감 있는",
+            "확신하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "fid",
+          "mean": "믿다 (trust)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "완전히 믿는 → 자신감 있는"
+    },
+    {
+      "en": "fidelity",
+      "ipa": "/fɪˈdeləti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "충실",
+            "신의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fid",
+          "mean": "믿다 (trust)"
+        },
+        {
+          "part": "-elity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "믿음 → 충실"
+    },
+    {
+      "en": "federal",
+      "ipa": "/ˈfedərəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "연방의",
+            "연방 정부의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fed(fid)",
+          "mean": "믿다, 맹약 (trust, league)"
+        },
+        {
+          "part": "-eral",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "맹약에 의한 → 연방의"
+    },
+    {
+      "en": "faith",
+      "ipa": "/feɪθ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "믿음",
+            "신념"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fai(fid)",
+          "mean": "믿다 (trust)"
+        },
+        {
+          "part": "-th",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "믿음"
+    },
+    {
+      "en": "defy",
+      "ipa": "/dɪˈfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반항하다",
+            "무시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져, 반대 (away)"
+        },
+        {
+          "part": "fy(fid)",
+          "mean": "믿다 (trust)"
+        }
+      ],
+      "origin": "믿음에서 떨어지다 → 반항하다"
+    },
+    {
+      "en": "tradition",
+      "ipa": "/trəˈdɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전통",
+            "관습"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trad",
+          "mean": "넘겨주다 (hand over)"
+        },
+        {
+          "part": "-ition",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "넘겨준 것 → 전통"
+    },
+    {
+      "en": "betray",
+      "ipa": "/bɪˈtreɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "배신하다",
+            "누설하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "be-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "tray(trad)",
+          "mean": "넘겨주다 (hand over)"
+        }
+      ],
+      "origin": "완전히 넘겨주다 → 배신하다"
+    },
+    {
+      "en": "damage",
+      "ipa": "/ˈdæmɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "손해",
+            "피해"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "손상을 입히다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dam(damn)",
+          "mean": "해, 손실 (harm, loss)"
+        },
+        {
+          "part": "-age",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "해 → 손해"
+    },
+    {
+      "en": "condemn",
+      "ipa": "/kənˈdem/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비난하다",
+            "선고하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "demn(damn)",
+          "mean": "해, 벌 (harm, penalty)"
+        }
+      ],
+      "origin": "완전히 벌을 주다 → 비난하다"
+    },
+    {
+      "en": "punctual",
+      "ipa": "/ˈpʌŋktʃuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "시간을 엄수하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "punct",
+          "mean": "찌르다, 점 (point, prick)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "정확한 점에 맞추는 → 시간을 엄수하는"
+    },
+    {
+      "en": "punctuate",
+      "ipa": "/ˈpʌŋktʃueɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구두점을 찍다",
+            "중단시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "punct",
+          "mean": "찌르다, 점 (point)"
+        },
+        {
+          "part": "-uate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "점을 찍다 → 구두점을 찍다"
+    },
+    {
+      "en": "disappoint",
+      "ipa": "/ˌdɪsəˈpɔɪnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "실망시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "반대 (opposite)"
+        },
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "point(punct)",
+          "mean": "점, 목표 (point)"
+        }
+      ],
+      "origin": "목표에서 벗어나게 하다 → 실망시키다"
+    },
+    {
+      "en": "norm",
+      "ipa": "/nɔːrm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "규범",
+            "표준"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "norm",
+          "mean": "규범, 기준 (rule, standard)"
+        }
+      ],
+      "origin": "기준 → 규범"
+    },
+    {
+      "en": "enormous",
+      "ipa": "/ɪˈnɔːrməs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "거대한",
+            "엄청난"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "norm",
+          "mean": "규범 (norm)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "규범을 벗어난 → 거대한"
+    },
+    {
+      "en": "vague",
+      "ipa": "/veɪɡ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "모호한",
+            "희미한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vag",
+          "mean": "떠돌다 (wander)"
+        }
+      ],
+      "origin": "떠도는 → 모호한"
+    },
+    {
+      "en": "extravagant",
+      "ipa": "/ɪkˈstrævəɡənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "낭비하는",
+            "사치스러운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "extra-",
+          "mean": "밖으로 (beyond)"
+        },
+        {
+          "part": "vag",
+          "mean": "떠돌다 (wander)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "경계 밖으로 떠도는 → 낭비하는"
+    },
+    {
+      "en": "vagrant",
+      "ipa": "/ˈveɪɡrənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부랑자",
+            "방랑자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vag",
+          "mean": "떠돌다 (wander)"
+        },
+        {
+          "part": "-rant",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "떠도는 사람 → 부랑자"
+    }
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "title": "-ous 성질,성향/ -ate 성질,성향/ -ant,-ent 성질,성향/ -ish 성질,성향/ -ic,-ical 성질,성향/ -ive,-ative 성질,성향/ -y 성질,성향",
+  "words": [
+    {
+      "en": "furious",
+      "ipa": "/ˈfjʊriəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "격분한",
+            "맹렬한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fury",
+          "mean": "분노 (fury)"
+        },
+        {
+          "part": "-ous",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "분노의 → 격분한"
+    },
+    {
+      "en": "ambitious",
+      "ipa": "/æmˈbɪʃəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "야심 있는",
+            "포부가 큰"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ambit",
+          "mean": "야망 (ambition)"
+        },
+        {
+          "part": "-ious",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "야망의 → 야심 있는"
+    },
+    {
+      "en": "cautious",
+      "ipa": "/ˈkɔːʃəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "조심스러운",
+            "신중한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "caut",
+          "mean": "조심 (caution)"
+        },
+        {
+          "part": "-ious",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "조심하는 → 신중한"
+    },
+    {
+      "en": "continuous",
+      "ipa": "/kənˈtɪnjuəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "계속적인",
+            "끊임없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "continu",
+          "mean": "이어지다 (continue)"
+        },
+        {
+          "part": "-ous",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "이어지는 → 계속적인"
+    },
+    {
+      "en": "fortunate",
+      "ipa": "/ˈfɔːrtʃənət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "운이 좋은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fortun",
+          "mean": "운 (fortune)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "운이 있는 → 운이 좋은"
+    },
+    {
+      "en": "passionate",
+      "ipa": "/ˈpæʃənət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "열정적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "passion",
+          "mean": "열정 (passion)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "열정의 → 열정적인"
+    },
+    {
+      "en": "intimate",
+      "ipa": "/ˈɪntɪmət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "친밀한",
+            "사적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "intim",
+          "mean": "가장 안쪽의 (innermost)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "가장 안쪽의 → 친밀한"
+    },
+    {
+      "en": "pleasant",
+      "ipa": "/ˈpleznt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "기분 좋은",
+            "쾌적한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pleas",
+          "mean": "기쁘게 하다 (please)"
+        },
+        {
+          "part": "-ant",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "기쁘게 하는 → 쾌적한"
+    },
+    {
+      "en": "reliant",
+      "ipa": "/rɪˈlaɪənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "의존하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rely",
+          "mean": "의지하다 (rely)"
+        },
+        {
+          "part": "-ant",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "의지하는"
+    },
+    {
+      "en": "violent",
+      "ipa": "/ˈvaɪələnt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "폭력적인",
+            "격렬한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "viol",
+          "mean": "힘 (force)"
+        },
+        {
+          "part": "-ent",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "힘이 센 → 폭력적인"
+    },
+    {
+      "en": "urgent",
+      "ipa": "/ˈɜːrdʒənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "긴급한",
+            "다급한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "urg",
+          "mean": "밀다 (push, press)"
+        },
+        {
+          "part": "-ent",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "밀어붙이는 → 긴급한"
+    },
+    {
+      "en": "foolish",
+      "ipa": "/ˈfuːlɪʃ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "어리석은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fool",
+          "mean": "바보 (fool)"
+        },
+        {
+          "part": "-ish",
+          "mean": "~와 같은"
+        }
+      ],
+      "origin": "바보 같은 → 어리석은"
+    },
+    {
+      "en": "reddish",
+      "ipa": "/ˈredɪʃ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불그스름한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "red",
+          "mean": "빨간 (red)"
+        },
+        {
+          "part": "-ish",
+          "mean": "~에 가까운"
+        }
+      ],
+      "origin": "빨간색에 가까운"
+    },
+    {
+      "en": "selfish",
+      "ipa": "/ˈselfɪʃ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이기적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "self",
+          "mean": "자기 (self)"
+        },
+        {
+          "part": "-ish",
+          "mean": "~와 같은"
+        }
+      ],
+      "origin": "자기만 생각하는 → 이기적인"
+    },
+    {
+      "en": "childish",
+      "ipa": "/ˈtʃaɪldɪʃ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유치한",
+            "어린애 같은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "child",
+          "mean": "아이 (child)"
+        },
+        {
+          "part": "-ish",
+          "mean": "~와 같은"
+        }
+      ],
+      "origin": "아이 같은 → 유치한"
+    },
+    {
+      "en": "basic",
+      "ipa": "/ˈbeɪsɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "기본적인",
+            "기초의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bas",
+          "mean": "기초 (base)"
+        },
+        {
+          "part": "-ic",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "기초의 → 기본적인"
+    },
+    {
+      "en": "characteristic",
+      "ipa": "/ˌkærəktəˈrɪstɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "특유의",
+            "독특한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "특징"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "character",
+          "mean": "성격, 특성 (character)"
+        },
+        {
+          "part": "-istic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "특성의 → 특유의"
+    },
+    {
+      "en": "typical",
+      "ipa": "/ˈtɪpɪkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전형적인",
+            "대표적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "type",
+          "mean": "유형 (type)"
+        },
+        {
+          "part": "-ical",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "유형의 → 전형적인"
+    },
+    {
+      "en": "active",
+      "ipa": "/ˈæktɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "활동적인",
+            "적극적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "act",
+          "mean": "행하다 (act)"
+        },
+        {
+          "part": "-ive",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "행하는 → 활동적인"
+    },
+    {
+      "en": "intuitive",
+      "ipa": "/ɪnˈtuːɪtɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "직관적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "tuit",
+          "mean": "보다 (look)"
+        },
+        {
+          "part": "-ive",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "안에서 보는 → 직관적인"
+    },
+    {
+      "en": "informative",
+      "ipa": "/ɪnˈfɔːrmətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유익한",
+            "정보를 주는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inform",
+          "mean": "알리다 (inform)"
+        },
+        {
+          "part": "-ative",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "알려주는 → 유익한"
+    },
+    {
+      "en": "hasty",
+      "ipa": "/ˈheɪsti/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "서두르는",
+            "급한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hast",
+          "mean": "서두름 (haste)"
+        },
+        {
+          "part": "-y",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "서두르는"
+    },
+    {
+      "en": "sticky",
+      "ipa": "/ˈstɪki/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "끈적끈적한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stick",
+          "mean": "붙다 (stick)"
+        },
+        {
+          "part": "-y",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "붙는 → 끈적끈적한"
+    },
+    {
+      "en": "gloomy",
+      "ipa": "/ˈɡluːmi/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "우울한",
+            "어두운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gloom",
+          "mean": "어둠, 우울 (darkness, gloom)"
+        },
+        {
+          "part": "-y",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "어두운 → 우울한"
+    }
+  ]
+}

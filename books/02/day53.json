@@ -1,0 +1,687 @@
+{
+  "title": "vict 적을 이기다/ tempor 시간,시대/ mir 놀라다/ nounce 보고하다,발표하다/ numer 숫자,수/ lus 놀다/ mut 바꾸다/ corp 몸,단체,조직체/ merc 장사하다,보상하다/ vol 의지",
+  "words": [
+    {
+      "en": "victory",
+      "ipa": "/ˈvɪktəri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "승리"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vict",
+          "mean": "이기다 (conquer)"
+        },
+        {
+          "part": "-ory",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "이긴 것 → 승리"
+    },
+    {
+      "en": "convict",
+      "ipa": "/kənˈvɪkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유죄를 선고하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "죄수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "vict",
+          "mean": "이기다 (conquer)"
+        }
+      ],
+      "origin": "완전히 이기다(증명하다) → 유죄 선고하다"
+    },
+    {
+      "en": "convince",
+      "ipa": "/kənˈvɪns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확신시키다",
+            "납득시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "vince(vict)",
+          "mean": "이기다 (conquer)"
+        }
+      ],
+      "origin": "완전히 이기다 → 확신시키다"
+    },
+    {
+      "en": "province",
+      "ipa": "/ˈprɑːvɪns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지방",
+            "주",
+            "분야"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "vince(vict)",
+          "mean": "이기다 (conquer)"
+        }
+      ],
+      "origin": "정복한 땅 → 지방"
+    },
+    {
+      "en": "temporary",
+      "ipa": "/ˈtempəreri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "일시적인",
+            "임시의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tempor",
+          "mean": "시간 (time)"
+        },
+        {
+          "part": "-ary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "시간의 → 일시적인"
+    },
+    {
+      "en": "contemporary",
+      "ipa": "/kənˈtempəreri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "동시대의",
+            "현대의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "동시대 사람"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tempor",
+          "mean": "시간 (time)"
+        },
+        {
+          "part": "-ary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "같은 시간의 → 동시대의"
+    },
+    {
+      "en": "miracle",
+      "ipa": "/ˈmɪrəkl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기적"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mir",
+          "mean": "놀라다 (wonder)"
+        },
+        {
+          "part": "-acle",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "놀라운 것 → 기적"
+    },
+    {
+      "en": "admire",
+      "ipa": "/ədˈmaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감탄하다",
+            "존경하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "mire(mir)",
+          "mean": "놀라다 (wonder)"
+        }
+      ],
+      "origin": "~을 향해 놀라다 → 감탄하다"
+    },
+    {
+      "en": "marvelous",
+      "ipa": "/ˈmɑːrvələs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "놀라운",
+            "경이로운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "marvel(mir)",
+          "mean": "놀라다 (wonder)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "놀라운"
+    },
+    {
+      "en": "announce",
+      "ipa": "/əˈnaʊns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발표하다",
+            "알리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "an-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "nounce",
+          "mean": "보고하다 (report)"
+        }
+      ],
+      "origin": "~쪽으로 알리다 → 발표하다"
+    },
+    {
+      "en": "pronounce",
+      "ipa": "/prəˈnaʊns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발음하다",
+            "선언하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "nounce",
+          "mean": "보고하다 (report)"
+        }
+      ],
+      "origin": "앞으로 알리다 → 발음하다"
+    },
+    {
+      "en": "numeral",
+      "ipa": "/ˈnuːmərəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "숫자"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "수의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "numer",
+          "mean": "수 (number)"
+        },
+        {
+          "part": "-al",
+          "mean": "명사/형용사형 접미사"
+        }
+      ],
+      "origin": "수 → 숫자"
+    },
+    {
+      "en": "numerous",
+      "ipa": "/ˈnuːmərəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수많은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "numer",
+          "mean": "수 (number)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "수가 많은"
+    },
+    {
+      "en": "innumerable",
+      "ipa": "/ɪˈnuːmərəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "셀 수 없이 많은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "numer",
+          "mean": "수 (number)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "셀 수 없는"
+    },
+    {
+      "en": "illusion",
+      "ipa": "/ɪˈluːʒn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "환상",
+            "착각"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "il-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "lus",
+          "mean": "놀다 (play)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안에서 놀리다 → 환상"
+    },
+    {
+      "en": "delusion",
+      "ipa": "/dɪˈluːʒn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "망상",
+            "착각"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "lus",
+          "mean": "놀다 (play)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "완전히 놀림당한 → 망상"
+    },
+    {
+      "en": "mutual",
+      "ipa": "/ˈmjuːtʃuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상호 간의",
+            "공동의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mut",
+          "mean": "바꾸다 (change)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "서로 바꾸는 → 상호 간의"
+    },
+    {
+      "en": "commute",
+      "ipa": "/kəˈmjuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통근하다",
+            "감형하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mute(mut)",
+          "mean": "바꾸다 (change)"
+        }
+      ],
+      "origin": "함께 바꾸다 → 통근하다"
+    },
+    {
+      "en": "mutation",
+      "ipa": "/mjuːˈteɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "돌연변이",
+            "변화"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mut",
+          "mean": "바꾸다 (change)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "바뀐 것 → 돌연변이"
+    },
+    {
+      "en": "corporate",
+      "ipa": "/ˈkɔːrpərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "기업의",
+            "법인의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "corp",
+          "mean": "몸, 단체 (body)"
+        },
+        {
+          "part": "-orate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "하나의 몸으로 된 → 기업의"
+    },
+    {
+      "en": "incorporate",
+      "ipa": "/ɪnˈkɔːrpəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "포함하다",
+            "통합하다",
+            "법인을 설립하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "corp",
+          "mean": "몸 (body)"
+        },
+        {
+          "part": "-orate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "몸 안으로 넣다 → 통합하다"
+    },
+    {
+      "en": "corps",
+      "ipa": "/kɔːr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "군단",
+            "단체"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "corps(corp)",
+          "mean": "몸, 단체 (body)"
+        }
+      ],
+      "origin": "한 몸 → 군단"
+    },
+    {
+      "en": "commerce",
+      "ipa": "/ˈkɑːmɜːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상업",
+            "무역"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "merce(merc)",
+          "mean": "장사하다 (trade)"
+        }
+      ],
+      "origin": "함께 거래하다 → 상업"
+    },
+    {
+      "en": "merchant",
+      "ipa": "/ˈmɜːrtʃənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "merch(merc)",
+          "mean": "장사하다 (trade)"
+        },
+        {
+          "part": "-ant",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "장사하는 사람 → 상인"
+    },
+    {
+      "en": "mercy",
+      "ipa": "/ˈmɜːrsi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자비",
+            "관용"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "merc",
+          "mean": "보상, 대가 (reward, pay)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "대가 없이 주는 것 → 자비"
+    },
+    {
+      "en": "voluntary",
+      "ipa": "/ˈvɑːlənteri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "자발적인",
+            "자원의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vol",
+          "mean": "의지 (will)"
+        },
+        {
+          "part": "-untary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "의지에 의한 → 자발적인"
+    },
+    {
+      "en": "volunteer",
+      "ipa": "/ˌvɑːlənˈtɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자원봉사자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "자원하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vol",
+          "mean": "의지 (will)"
+        },
+        {
+          "part": "-unteer",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "자기 의지로 하는 사람 → 자원봉사자"
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "title": "sid 앉다/ proper 자기 자신의/ temper 섞다,조절하다/ lack 부족/ flict 치다/ lig 묶다/ tru 믿음,정직한",
+  "words": [
+    {
+      "en": "reside",
+      "ipa": "/rɪˈzaɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거주하다",
+            "살다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "side(sid)",
+          "mean": "앉다 (sit)"
+        }
+      ],
+      "origin": "뒤로 앉다 → 머물다 → 거주하다"
+    },
+    {
+      "en": "president",
+      "ipa": "/ˈprezɪdənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대통령",
+            "회장"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "sid",
+          "mean": "앉다 (sit)"
+        },
+        {
+          "part": "-ent",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "앞에 앉은 사람 → 대통령"
+    },
+    {
+      "en": "session",
+      "ipa": "/ˈseʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "회기",
+            "기간",
+            "회의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sess(sid)",
+          "mean": "앉다 (sit)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "앉아 있는 기간 → 회기"
+    },
+    {
+      "en": "assess",
+      "ipa": "/əˈses/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "평가하다",
+            "산정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "sess(sid)",
+          "mean": "앉다 (sit)"
+        }
+      ],
+      "origin": "곁에 앉아 살피다 → 평가하다"
+    },
+    {
+      "en": "obsess",
+      "ipa": "/əbˈses/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "사로잡히다",
+            "강박감을 갖다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "맞서 (against)"
+        },
+        {
+          "part": "sess(sid)",
+          "mean": "앉다 (sit)"
+        }
+      ],
+      "origin": "맞서 앉아 떠나지 않다 → 사로잡히다"
+    },
+    {
+      "en": "settle",
+      "ipa": "/ˈsetl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정착하다",
+            "해결하다",
+            "결정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "settl(sid)",
+          "mean": "앉다 (sit)"
+        }
+      ],
+      "origin": "앉다 → 정착하다"
+    },
+    {
+      "en": "proper",
+      "ipa": "/ˈprɑːpər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적절한",
+            "올바른"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prop",
+          "mean": "자기 자신의 (one's own)"
+        },
+        {
+          "part": "-er",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "자기 자신에 맞는 → 적절한"
+    },
+    {
+      "en": "property",
+      "ipa": "/ˈprɑːpərti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재산",
+            "소유물",
+            "특성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prop",
+          "mean": "자기 자신의 (one's own)"
+        },
+        {
+          "part": "-erty",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "자기 자신의 것 → 재산"
+    },
+    {
+      "en": "appropriate",
+      "ipa": "/əˈproʊprieɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적절한",
+            "알맞은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "propri(prop)",
+          "mean": "자기 자신의 (own)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "자기 것에 맞는 → 적절한"
+    },
+    {
+      "en": "temper",
+      "ipa": "/ˈtempər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "성질",
+            "기분"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "temper",
+          "mean": "적당한, 조절 (moderate, mix)"
+        }
+      ],
+      "origin": "조절된 상태 → 성질"
+    },
+    {
+      "en": "temperament",
+      "ipa": "/ˈtemprəmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기질",
+            "성품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "temper",
+          "mean": "적당한 (moderate)"
+        },
+        {
+          "part": "-ament",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "조절된 성질 → 기질"
+    },
+    {
+      "en": "temperate",
+      "ipa": "/ˈtempərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "온화한",
+            "절제하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "temper",
+          "mean": "적당한 (moderate)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "적당히 조절된 → 온화한"
+    },
+    {
+      "en": "temperature",
+      "ipa": "/ˈtemprətʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "온도",
+            "기온",
+            "체온"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "temper",
+          "mean": "적당한 (moderate)"
+        },
+        {
+          "part": "-ature",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "조절된 정도 → 온도"
+    },
+    {
+      "en": "lack",
+      "ipa": "/læk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부족",
+            "결핍"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "~이 부족하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "lack",
+          "mean": "부족 (want, deficiency)"
+        }
+      ],
+      "origin": "부족"
+    },
+    {
+      "en": "leak",
+      "ipa": "/liːk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "새다",
+            "누설하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "새는 곳",
+            "누설"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "leak",
+          "mean": "새다 (drip, let through)"
+        }
+      ],
+      "origin": "새다"
+    },
+    {
+      "en": "conflict",
+      "ipa": "/ˈkɑːnflɪkt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "갈등",
+            "충돌"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "상충하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "flict",
+          "mean": "치다 (strike)"
+        }
+      ],
+      "origin": "함께 부딪치다 → 충돌"
+    },
+    {
+      "en": "inflict",
+      "ipa": "/ɪnˈflɪkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(고통 등을) 가하다",
+            "입히다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "flict",
+          "mean": "치다 (strike)"
+        }
+      ],
+      "origin": "위에 치다 → 가하다"
+    },
+    {
+      "en": "oblige",
+      "ipa": "/əˈblaɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의무를 지우다",
+            "강요하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "lige(lig)",
+          "mean": "묶다 (bind)"
+        }
+      ],
+      "origin": "~쪽으로 묶다 → 의무를 지우다"
+    },
+    {
+      "en": "religion",
+      "ipa": "/rɪˈlɪdʒən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "종교"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "lig",
+          "mean": "묶다 (bind)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "다시 묶는 것 → 종교"
+    },
+    {
+      "en": "ally",
+      "ipa": "/ˈælaɪ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동맹국",
+            "협력자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "동맹시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "al-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "ly(lig)",
+          "mean": "묶다 (bind)"
+        }
+      ],
+      "origin": "~쪽으로 묶다 → 동맹"
+    },
+    {
+      "en": "rally",
+      "ipa": "/ˈræli/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "집회",
+            "회복"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "모이다",
+            "회복하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "ally(ly)",
+          "mean": "묶다 (bind)"
+        }
+      ],
+      "origin": "다시 모아 묶다 → 집회"
+    },
+    {
+      "en": "rely",
+      "ipa": "/rɪˈlaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의지하다",
+            "신뢰하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "ly(lig)",
+          "mean": "묶다 (bind)"
+        }
+      ],
+      "origin": "다시 묶이다 → 의지하다"
+    },
+    {
+      "en": "liable",
+      "ipa": "/ˈlaɪəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "책임이 있는",
+            "~하기 쉬운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "li(lig)",
+          "mean": "묶다 (bind)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "묶여 있는 → 책임이 있는"
+    },
+    {
+      "en": "trust",
+      "ipa": "/trʌst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신뢰",
+            "믿음"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "신뢰하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tru",
+          "mean": "믿다 (believe, true)"
+        },
+        {
+          "part": "-st",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "믿는 것 → 신뢰"
+    },
+    {
+      "en": "entrust",
+      "ipa": "/ɪnˈtrʌst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "위임하다",
+            "맡기다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "trust(tru)",
+          "mean": "신뢰 (trust)"
+        }
+      ],
+      "origin": "신뢰 안에 넣다 → 맡기다"
+    },
+    {
+      "en": "truthful",
+      "ipa": "/ˈtruːθfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정직한",
+            "진실한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "truth(tru)",
+          "mean": "진실 (truth)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "진실이 가득한 → 정직한"
+    }
+  ]
+}

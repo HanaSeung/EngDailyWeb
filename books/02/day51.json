@@ -1,0 +1,584 @@
+{
+  "title": "trud 밀다/ graph 그리다,쓰다/ sect 자르다/ hered 상속인/ hum 땅/ nutri 영양분을 주다,기르다/ gra 붙잡다",
+  "words": [
+    {
+      "en": "intrude",
+      "ipa": "/ɪnˈtruːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "침입하다",
+            "방해하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "trude(trud)",
+          "mean": "밀다 (push, thrust)"
+        }
+      ],
+      "origin": "안으로 밀고 들어가다 → 침입하다"
+    },
+    {
+      "en": "thrust",
+      "ipa": "/θrʌst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "밀다",
+            "찌르다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "추진력"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "thrust(trud)",
+          "mean": "밀다 (push)"
+        }
+      ],
+      "origin": "밀다"
+    },
+    {
+      "en": "threat",
+      "ipa": "/θret/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위협",
+            "협박"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "threat(trud)",
+          "mean": "밀다, 압박하다 (push, press)"
+        }
+      ],
+      "origin": "압박하는 것 → 위협"
+    },
+    {
+      "en": "graphic",
+      "ipa": "/ˈɡræfɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "그래픽의",
+            "생생한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "graph",
+          "mean": "그리다, 쓰다 (draw, write)"
+        },
+        {
+          "part": "-ic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "그려진 → 생생한"
+    },
+    {
+      "en": "photograph",
+      "ipa": "/ˈfoʊtəɡræf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사진"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "photo",
+          "mean": "빛 (light)"
+        },
+        {
+          "part": "graph",
+          "mean": "그리다 (draw, write)"
+        }
+      ],
+      "origin": "빛으로 그린 것 → 사진"
+    },
+    {
+      "en": "section",
+      "ipa": "/ˈsekʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부분",
+            "구역",
+            "단면"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sect",
+          "mean": "자르다 (cut)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "잘린 부분 → 구역"
+    },
+    {
+      "en": "intersection",
+      "ipa": "/ˌɪntərˈsekʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "교차로",
+            "교차점"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "sect",
+          "mean": "자르다 (cut)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "사이를 가로지르는 곳 → 교차로"
+    },
+    {
+      "en": "sector",
+      "ipa": "/ˈsektər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부문",
+            "분야"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sect",
+          "mean": "자르다 (cut)"
+        },
+        {
+          "part": "-or",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "잘라 나눈 부분 → 부문"
+    },
+    {
+      "en": "segment",
+      "ipa": "/ˈseɡmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부분",
+            "구간"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "seg(sect)",
+          "mean": "자르다 (cut)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "잘라낸 조각 → 부분"
+    },
+    {
+      "en": "heredity",
+      "ipa": "/hɪˈredəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유전"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hered",
+          "mean": "상속인 (heir)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "상속되는 것 → 유전"
+    },
+    {
+      "en": "heritage",
+      "ipa": "/ˈherɪtɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유산",
+            "전통"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "herit(hered)",
+          "mean": "상속인 (heir)"
+        },
+        {
+          "part": "-age",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "상속받은 것 → 유산"
+    },
+    {
+      "en": "inherit",
+      "ipa": "/ɪnˈherɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "물려받다",
+            "상속하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "herit(hered)",
+          "mean": "상속인 (heir)"
+        }
+      ],
+      "origin": "상속인이 되다 → 물려받다"
+    },
+    {
+      "en": "heir",
+      "ipa": "/er/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상속인",
+            "후계자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "heir(hered)",
+          "mean": "상속인 (heir)"
+        }
+      ],
+      "origin": "상속인"
+    },
+    {
+      "en": "humanity",
+      "ipa": "/hjuːˈmænəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인류",
+            "인간성",
+            "인문학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "human(hum)",
+          "mean": "사람, 땅 (human, earth)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "사람다움 → 인간성"
+    },
+    {
+      "en": "humble",
+      "ipa": "/ˈhʌmbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "겸손한",
+            "보잘것없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hum",
+          "mean": "땅 (earth, ground)"
+        },
+        {
+          "part": "-ble",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "땅에 가까운 → 겸손한"
+    },
+    {
+      "en": "humility",
+      "ipa": "/hjuːˈmɪləti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "겸손",
+            "겸허"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "humil(hum)",
+          "mean": "땅, 낮은 (earth, low)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "낮은 상태 → 겸손"
+    },
+    {
+      "en": "humiliate",
+      "ipa": "/hjuːˈmɪlieɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "굴욕감을 주다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "humil(hum)",
+          "mean": "땅, 낮은 (low)"
+        },
+        {
+          "part": "-iate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "낮추다 → 굴욕감을 주다"
+    },
+    {
+      "en": "nutrition",
+      "ipa": "/nuːˈtrɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "영양(공급)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nutri",
+          "mean": "영양분을 주다 (nourish)"
+        },
+        {
+          "part": "-tion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "영양을 주는 것 → 영양"
+    },
+    {
+      "en": "nourish",
+      "ipa": "/ˈnɜːrɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "영양분을 공급하다",
+            "기르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nour(nutri)",
+          "mean": "영양분을 주다 (nourish)"
+        },
+        {
+          "part": "-ish",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "영양분을 주다"
+    },
+    {
+      "en": "nurse",
+      "ipa": "/nɜːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "간호사"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "간호하다",
+            "돌보다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nurs(nutri)",
+          "mean": "기르다 (nourish)"
+        }
+      ],
+      "origin": "기르는 사람 → 간호사"
+    },
+    {
+      "en": "nurture",
+      "ipa": "/ˈnɜːrtʃər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "양육하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "양육"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nurt(nutri)",
+          "mean": "기르다 (nourish)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "기르다 → 양육"
+    },
+    {
+      "en": "grab",
+      "ipa": "/ɡræb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "움켜잡다",
+            "급히 먹다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grab(gra)",
+          "mean": "붙잡다 (grasp, seize)"
+        }
+      ],
+      "origin": "붙잡다"
+    },
+    {
+      "en": "grasp",
+      "ipa": "/ɡræsp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "움켜쥐다",
+            "이해하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이해"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grasp(gra)",
+          "mean": "붙잡다 (grip, seize)"
+        }
+      ],
+      "origin": "붙잡다 → 이해하다"
+    },
+    {
+      "en": "grip",
+      "ipa": "/ɡrɪp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "꽉 쥐다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "손잡이",
+            "지배력"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grip(gra)",
+          "mean": "붙잡다 (grasp)"
+        }
+      ],
+      "origin": "붙잡다"
+    }
+  ]
+}

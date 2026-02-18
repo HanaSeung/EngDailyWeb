@@ -1,0 +1,614 @@
+{
+  "title": "fa 말하다/ polit 시민,도시/ par³ 준비하다,준비시키다/ test 중인,증언하다/ lat 나르다/ lev 올리다/ theo 신",
+  "words": [
+    {
+      "en": "fable",
+      "ipa": "/ˈfeɪbl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우화"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fa",
+          "mean": "말하다 (speak)"
+        },
+        {
+          "part": "-ble",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "이야기된 것 → 우화"
+    },
+    {
+      "en": "fate",
+      "ipa": "/feɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "운명"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fat(fa)",
+          "mean": "말하다, 선언하다 (speak, decree)"
+        }
+      ],
+      "origin": "선언된 것 → 운명"
+    },
+    {
+      "en": "fame",
+      "ipa": "/feɪm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "명성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fam(fa)",
+          "mean": "말하다 (speak)"
+        }
+      ],
+      "origin": "많이 이야기되는 것 → 명성"
+    },
+    {
+      "en": "infant",
+      "ipa": "/ˈɪnfənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유아",
+            "아기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "fant(fa)",
+          "mean": "말하다 (speak)"
+        }
+      ],
+      "origin": "말 못 하는 아이 → 유아"
+    },
+    {
+      "en": "confess",
+      "ipa": "/kənˈfes/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "자백하다",
+            "인정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "fess",
+          "mean": "고백하다 (declare, confess)"
+        }
+      ],
+      "origin": "완전히 고백하다 → 자백하다"
+    },
+    {
+      "en": "professional",
+      "ipa": "/prəˈfeʃənl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전문적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전문가"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞에서 (before)"
+        },
+        {
+          "part": "fess",
+          "mean": "고백하다, 공언 (declare)"
+        },
+        {
+          "part": "-ional",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "앞에서 공언한 → 전문적인"
+    },
+    {
+      "en": "political",
+      "ipa": "/pəˈlɪtɪkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정치적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "poli",
+          "mean": "도시, 국가 (city, state)"
+        },
+        {
+          "part": "-tical",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "도시(국가)의 → 정치적인"
+    },
+    {
+      "en": "policy",
+      "ipa": "/ˈpɑːləsi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정책",
+            "방침"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "poli",
+          "mean": "도시, 국가 (city)"
+        },
+        {
+          "part": "-cy",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "국가의 방침 → 정책"
+    },
+    {
+      "en": "metropolis",
+      "ipa": "/məˈtrɑːpəlɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대도시"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "metro-",
+          "mean": "어머니 (mother)"
+        },
+        {
+          "part": "polis(poli)",
+          "mean": "도시 (city)"
+        }
+      ],
+      "origin": "어머니 도시 → 대도시"
+    },
+    {
+      "en": "prepare",
+      "ipa": "/prɪˈper/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "준비하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "pare(par)",
+          "mean": "준비하다, 마련하다 (make ready)"
+        }
+      ],
+      "origin": "미리 마련하다 → 준비하다"
+    },
+    {
+      "en": "repair",
+      "ipa": "/rɪˈper/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수리하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "수리"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "pair(par)",
+          "mean": "준비하다 (make ready)"
+        }
+      ],
+      "origin": "다시 마련하다 → 수리하다"
+    },
+    {
+      "en": "emperor",
+      "ipa": "/ˈempərər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "황제"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "em-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "per(par)",
+          "mean": "준비하다, 명령 (order)"
+        },
+        {
+          "part": "-or",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "명령하는 사람 → 황제"
+    },
+    {
+      "en": "imperative",
+      "ipa": "/ɪmˈperətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "필수적인",
+            "긴급한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "per(par)",
+          "mean": "명령 (command)"
+        },
+        {
+          "part": "-ative",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "명령하는 → 필수적인"
+    },
+    {
+      "en": "testify",
+      "ipa": "/ˈtestɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "증언하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "test",
+          "mean": "증인 (witness)"
+        },
+        {
+          "part": "-ify",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "증인이 되다 → 증언하다"
+    },
+    {
+      "en": "contest",
+      "ipa": "/ˈkɑːntest/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대회"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "다투다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "test",
+          "mean": "증인 (witness)"
+        }
+      ],
+      "origin": "함께 증인을 세우며 겨루다 → 대회"
+    },
+    {
+      "en": "protest",
+      "ipa": "/ˈproʊtest/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "항의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "항의하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞에서 (before)"
+        },
+        {
+          "part": "test",
+          "mean": "증인 (witness)"
+        }
+      ],
+      "origin": "앞에서 증언하다 → 항의하다"
+    },
+    {
+      "en": "relate",
+      "ipa": "/rɪˈleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "관련시키다",
+            "이야기하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로, 다시 (back)"
+        },
+        {
+          "part": "late(lat)",
+          "mean": "나르다 (carry, bring)"
+        }
+      ],
+      "origin": "다시 가져오다 → 관련시키다"
+    },
+    {
+      "en": "correlation",
+      "ipa": "/ˌkɔːrəˈleɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상관관계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cor-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "lat",
+          "mean": "나르다 (carry)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 관련된 것 → 상관관계"
+    },
+    {
+      "en": "translate",
+      "ipa": "/trænzˈleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "번역하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러 (across)"
+        },
+        {
+          "part": "late(lat)",
+          "mean": "나르다 (carry)"
+        }
+      ],
+      "origin": "가로질러 나르다 → 번역하다"
+    },
+    {
+      "en": "elevate",
+      "ipa": "/ˈelɪveɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "올리다",
+            "승격시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "lev",
+          "mean": "가벼운, 들어올리다 (light, lift)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "위로 들어올리다 → 승격시키다"
+    },
+    {
+      "en": "relevant",
+      "ipa": "/ˈreləvənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "관련 있는",
+            "적절한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "lev",
+          "mean": "들어올리다 (lift)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "다시 들어올릴 만한 → 관련 있는"
+    },
+    {
+      "en": "relieve",
+      "ipa": "/rɪˈliːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "완화하다",
+            "덜어주다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "lieve(lev)",
+          "mean": "가볍게 하다 (lighten)"
+        }
+      ],
+      "origin": "다시 가볍게 하다 → 완화하다"
+    },
+    {
+      "en": "theology",
+      "ipa": "/θiˈɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "theo",
+          "mean": "신 (god)"
+        },
+        {
+          "part": "logy",
+          "mean": "학문 (study)"
+        }
+      ],
+      "origin": "신에 대한 학문 → 신학"
+    },
+    {
+      "en": "enthusiasm",
+      "ipa": "/ɪnˈθuːziæzəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "열정",
+            "열광"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "thus(theo)",
+          "mean": "신 (god)"
+        },
+        {
+          "part": "-iasm",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안에 신이 들어온 상태 → 열정"
+    }
+  ]
+}

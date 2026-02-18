@@ -1,0 +1,611 @@
+{
+  "title": "pet 추구하다/ debt 신세지다,빚지다/ par² 동등한/ meter 재다/ aud,ey 듣다/ preci 값/ viv 살다,생명/ veng 복수하다",
+  "words": [
+    {
+      "en": "compete",
+      "ipa": "/kəmˈpiːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "경쟁하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pete(pet)",
+          "mean": "구하다 (seek)"
+        }
+      ],
+      "origin": "함께 구하다 → 경쟁하다"
+    },
+    {
+      "en": "competence",
+      "ipa": "/ˈkɑːmpɪtəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "능력",
+            "역량"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pet",
+          "mean": "구하다 (seek)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 겨룰 수 있는 능력 → 역량"
+    },
+    {
+      "en": "petition",
+      "ipa": "/pəˈtɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "탄원",
+            "청원"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "청원하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pet",
+          "mean": "구하다 (seek)"
+        },
+        {
+          "part": "-ition",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "구하는 것 → 청원"
+    },
+    {
+      "en": "appetite",
+      "ipa": "/ˈæpɪtaɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "식욕",
+            "욕구"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "petite(pet)",
+          "mean": "구하다 (seek)"
+        }
+      ],
+      "origin": "~을 향해 구하다 → 욕구"
+    },
+    {
+      "en": "repeat",
+      "ipa": "/rɪˈpiːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반복하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "peat(pet)",
+          "mean": "구하다, 향하다 (seek)"
+        }
+      ],
+      "origin": "다시 구하다 → 반복하다"
+    },
+    {
+      "en": "debt",
+      "ipa": "/det/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "빚",
+            "부채"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "debt",
+          "mean": "빚지다 (owe)"
+        }
+      ],
+      "origin": "빚진 것 → 부채"
+    },
+    {
+      "en": "due",
+      "ipa": "/duː/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "만기된",
+            "~하기로 되어 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "du(debt)",
+          "mean": "빚지다 (owe)"
+        }
+      ],
+      "origin": "빚진 → 만기된"
+    },
+    {
+      "en": "duty",
+      "ipa": "/ˈduːti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의무",
+            "세금"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "du(debt)",
+          "mean": "빚지다 (owe)"
+        },
+        {
+          "part": "-ty",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "빚진 것 → 의무"
+    },
+    {
+      "en": "compare",
+      "ipa": "/kəmˈper/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비교하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "par",
+          "mean": "같은 (equal)"
+        }
+      ],
+      "origin": "함께 같은지 보다 → 비교하다"
+    },
+    {
+      "en": "peer",
+      "ipa": "/pɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동료"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "응시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "peer(par)",
+          "mean": "같은 (equal)"
+        }
+      ],
+      "origin": "같은 사람 → 동료"
+    },
+    {
+      "en": "pair",
+      "ipa": "/per/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "쌍",
+            "한 켤레"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pair(par)",
+          "mean": "같은 (equal)"
+        }
+      ],
+      "origin": "같은 것 둘 → 쌍"
+    },
+    {
+      "en": "measure",
+      "ipa": "/ˈmeʒər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조치"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "측정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mens",
+          "mean": "측정하다 (measure)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "측정하다 → 조치"
+    },
+    {
+      "en": "dimension",
+      "ipa": "/daɪˈmenʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "치수",
+            "차원"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "mens",
+          "mean": "측정하다 (measure)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "나누어 측정한 것 → 차원"
+    },
+    {
+      "en": "immense",
+      "ipa": "/ɪˈmens/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "거대한",
+            "엄청난"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "mense(mens)",
+          "mean": "측정하다 (measure)"
+        }
+      ],
+      "origin": "측정할 수 없는 → 거대한"
+    },
+    {
+      "en": "audience",
+      "ipa": "/ˈɔːdiəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "청중",
+            "관중"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "aud",
+          "mean": "듣다 (hear)"
+        },
+        {
+          "part": "-ience",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "듣는 사람들 → 청중"
+    },
+    {
+      "en": "obey",
+      "ipa": "/əˈbeɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "복종하다",
+            "따르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "ey(aud)",
+          "mean": "듣다 (hear)"
+        }
+      ],
+      "origin": "~쪽으로 귀 기울이다 → 복종하다"
+    },
+    {
+      "en": "precious",
+      "ipa": "/ˈpreʃəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "귀중한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "preci",
+          "mean": "값 (price, value)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "값이 높은 → 귀중한"
+    },
+    {
+      "en": "appreciate",
+      "ipa": "/əˈpriːʃieɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감사하다",
+            "감상하다",
+            "가치를 인정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "preci",
+          "mean": "값 (price)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "값을 매기다 → 가치를 인정하다"
+    },
+    {
+      "en": "praise",
+      "ipa": "/preɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "칭찬하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "칭찬"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prais(preci)",
+          "mean": "값 (price, value)"
+        }
+      ],
+      "origin": "가치를 말하다 → 칭찬하다"
+    },
+    {
+      "en": "priceless",
+      "ipa": "/ˈpraɪsləs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "대단히 귀중한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "price(preci)",
+          "mean": "값 (price)"
+        },
+        {
+          "part": "-less",
+          "mean": "~이 없는"
+        }
+      ],
+      "origin": "값을 매길 수 없는 → 대단히 귀중한"
+    },
+    {
+      "en": "survive",
+      "ipa": "/sərˈvaɪv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "살아남다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sur-(super-)",
+          "mean": "위에, 넘어 (over)"
+        },
+        {
+          "part": "vive(viv)",
+          "mean": "살다 (live)"
+        }
+      ],
+      "origin": "넘어서 살다 → 살아남다"
+    },
+    {
+      "en": "vivid",
+      "ipa": "/ˈvɪvɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "생생한",
+            "선명한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "viv",
+          "mean": "살다 (live)"
+        },
+        {
+          "part": "-id",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "살아있는 듯한 → 생생한"
+    },
+    {
+      "en": "vital",
+      "ipa": "/ˈvaɪtl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "필수적인",
+            "활기찬"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vit(viv)",
+          "mean": "살다, 생명 (life)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "생명의 → 필수적인"
+    },
+    {
+      "en": "avenge",
+      "ipa": "/əˈvendʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "복수하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "venge(veng)",
+          "mean": "복수 (revenge)"
+        }
+      ],
+      "origin": "~을 향해 복수하다"
+    },
+    {
+      "en": "revenge",
+      "ipa": "/rɪˈvendʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "복수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "venge(veng)",
+          "mean": "복수 (revenge)"
+        }
+      ],
+      "origin": "되갚다 → 복수"
+    }
+  ]
+}

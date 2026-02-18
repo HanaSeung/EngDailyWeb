@@ -1,0 +1,584 @@
+{
+  "title": "-able,-ible 가능성,능력,적합성/ -ful 풍부/ -less 결핍,결여/ -al,-ial,-ual 성질,성향/ -ar(y),-ory 성질,성향/ -ly 성질,성향",
+  "words": [
+    {
+      "en": "favorable",
+      "ipa": "/ˈfeɪvərəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "호의적인",
+            "유리한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "favor",
+          "mean": "호의 (favor)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "호의를 줄 수 있는 → 호의적인"
+    },
+    {
+      "en": "reliable",
+      "ipa": "/rɪˈlaɪəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "믿을 수 있는",
+            "신뢰할 만한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rely",
+          "mean": "의지하다 (rely)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "의지할 수 있는 → 신뢰할 만한"
+    },
+    {
+      "en": "visible",
+      "ipa": "/ˈvɪzəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "눈에 보이는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vis",
+          "mean": "보다 (see)"
+        },
+        {
+          "part": "-ible",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "볼 수 있는"
+    },
+    {
+      "en": "hopeful",
+      "ipa": "/ˈhoʊpfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "희망에 찬",
+            "유망한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hope",
+          "mean": "희망 (hope)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "희망이 가득한"
+    },
+    {
+      "en": "doubtful",
+      "ipa": "/ˈdaʊtfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "의심스러운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "doubt",
+          "mean": "의심 (doubt)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "의심이 가득한"
+    },
+    {
+      "en": "meaningful",
+      "ipa": "/ˈmiːnɪŋfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "의미 있는",
+            "뜻깊은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "meaning",
+          "mean": "의미 (meaning)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "의미가 가득한"
+    },
+    {
+      "en": "regretful",
+      "ipa": "/rɪˈɡretfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "후회하는",
+            "유감스러운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "regret",
+          "mean": "후회 (regret)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "후회가 가득한"
+    },
+    {
+      "en": "thoughtful",
+      "ipa": "/ˈθɔːtfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사려 깊은",
+            "생각에 잠긴"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "thought",
+          "mean": "생각 (thought)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "생각이 가득한 → 사려 깊은"
+    },
+    {
+      "en": "countless",
+      "ipa": "/ˈkaʊntləs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "셀 수 없이 많은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "count",
+          "mean": "세다 (count)"
+        },
+        {
+          "part": "-less",
+          "mean": "~이 없는"
+        }
+      ],
+      "origin": "셀 수 없는"
+    },
+    {
+      "en": "endless",
+      "ipa": "/ˈendləs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "끝없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "end",
+          "mean": "끝 (end)"
+        },
+        {
+          "part": "-less",
+          "mean": "~이 없는"
+        }
+      ],
+      "origin": "끝이 없는"
+    },
+    {
+      "en": "helpless",
+      "ipa": "/ˈhelpləs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "무력한",
+            "어찌할 수 없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "help",
+          "mean": "도움 (help)"
+        },
+        {
+          "part": "-less",
+          "mean": "~이 없는"
+        }
+      ],
+      "origin": "도움이 없는 → 무력한"
+    },
+    {
+      "en": "ideal",
+      "ipa": "/aɪˈdiːəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이상적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이상"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "idea",
+          "mean": "생각 (idea)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "생각(이상)의 → 이상적인"
+    },
+    {
+      "en": "verbal",
+      "ipa": "/ˈvɜːrbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "말의",
+            "구두의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "verb",
+          "mean": "말 (word)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "말의 → 구두의"
+    },
+    {
+      "en": "internal",
+      "ipa": "/ɪnˈtɜːrnl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "내부의",
+            "국내의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "안의 (within)"
+        },
+        {
+          "part": "-nal",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "안의 → 내부의"
+    },
+    {
+      "en": "racial",
+      "ipa": "/ˈreɪʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "인종의",
+            "인종적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "race",
+          "mean": "인종 (race)"
+        },
+        {
+          "part": "-ial",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "인종의"
+    },
+    {
+      "en": "spiritual",
+      "ipa": "/ˈspɪrɪtʃuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정신적인",
+            "영적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spirit",
+          "mean": "정신, 영혼 (spirit)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "정신의 → 영적인"
+    },
+    {
+      "en": "familiar",
+      "ipa": "/fəˈmɪliər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "익숙한",
+            "잘 아는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "famili",
+          "mean": "가족 (family)"
+        },
+        {
+          "part": "-ar",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "가족처럼 친한 → 익숙한"
+    },
+    {
+      "en": "solar",
+      "ipa": "/ˈsoʊlər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "태양의",
+            "태양열의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sol",
+          "mean": "태양 (sun)"
+        },
+        {
+          "part": "-ar",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "태양의"
+    },
+    {
+      "en": "peculiar",
+      "ipa": "/pɪˈkjuːliər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "독특한",
+            "이상한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "peculi",
+          "mean": "개인의 (private, own)"
+        },
+        {
+          "part": "-ar",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "개인만의 → 독특한"
+    },
+    {
+      "en": "customary",
+      "ipa": "/ˈkʌstəmeri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "관습적인",
+            "통상적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "custom",
+          "mean": "관습 (custom)"
+        },
+        {
+          "part": "-ary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "관습의 → 관습적인"
+    },
+    {
+      "en": "satisfactory",
+      "ipa": "/ˌsætɪsˈfæktəri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "만족스러운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "satis",
+          "mean": "충분한 (enough)"
+        },
+        {
+          "part": "fact",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ory",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "충분히 만든 → 만족스러운"
+    },
+    {
+      "en": "costly",
+      "ipa": "/ˈkɔːstli/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비싼",
+            "값비싼"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cost",
+          "mean": "비용 (cost)"
+        },
+        {
+          "part": "-ly",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "비용이 드는 → 비싼"
+    },
+    {
+      "en": "timely",
+      "ipa": "/ˈtaɪmli/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "시기적절한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "time",
+          "mean": "시간 (time)"
+        },
+        {
+          "part": "-ly",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "시간에 맞는 → 시기적절한"
+    },
+    {
+      "en": "orderly",
+      "ipa": "/ˈɔːrdərli/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정돈된",
+            "질서 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "order",
+          "mean": "질서 (order)"
+        },
+        {
+          "part": "-ly",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "질서의 → 정돈된"
+    }
+  ]
+}

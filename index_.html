@@ -72,9 +72,9 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .confirm-no{background:var(--surface2);color:var(--text)}
 
 .day-title{text-align:left;font-size:.84rem;color:var(--accent);font-weight:500;margin-bottom:16px;padding:10px 16px;background:rgba(91,106,191,.06);border-radius:10px;line-height:1.5}
-.day-title-grid{display:grid;grid-template-columns:auto 1fr auto 1fr;gap:2px 8px;align-items:baseline}
-.day-title-en{color:var(--text);font-weight:700;white-space:nowrap}
-.day-title-ko{color:var(--accent)}
+.day-title-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px}
+.day-title-item{display:flex;gap:4px}
+.day-title-item strong{color:var(--text);min-width:60px;display:inline-block;font-weight:700}
 
 /* Card */
 .card-area{margin-bottom:16px}
@@ -946,15 +946,10 @@ function updateDayTitle() {
   const el = document.getElementById('dayTitle');
   if (d.title) {
     const parts = d.title.split('/').map(s => s.trim()).filter(s => s);
-    const reEn = /^(-?(?:[a-zA-Z\u00B2\u00B3\u00B9]|\([a-zA-Z0-9]\))[a-zA-Z0-9()\u00B2\u00B3\u00B9-]*(,\s*-?(?:[a-zA-Z]|\([a-zA-Z0-9]\))[a-zA-Z0-9()\u00B2\u00B3\u00B9-]*)*)\s*(.*)/;
     let html = '<div class="day-title-grid">';
     parts.forEach(part => {
-      const m = part.match(reEn);
-      if (m) {
-        html += `<div class="day-title-en">${m[1]}</div><div class="day-title-ko">${m[3]}</div>`;
-      } else {
-        html += `<div class="day-title-ko" style="grid-column:span 2">${part}</div>`;
-      }
+      const highlighted = part.replace(/-?(?:[a-zA-Z\u00B2\u00B3\u00B9]|\([a-zA-Z0-9]\))[a-zA-Z0-9()\u00B2\u00B3\u00B9-]*(,\s*-?(?:[a-zA-Z]|\([a-zA-Z0-9]\))[a-zA-Z0-9()\u00B2\u00B3\u00B9-]*)*/g, '<strong>$&</strong>');
+      html += `<div class="day-title-item">${highlighted}</div>`;
     });
     html += '</div>';
     el.innerHTML = html;

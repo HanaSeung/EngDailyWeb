@@ -1,0 +1,690 @@
+{
+  "title": "-er,-ee,-or 행위자/ -ary 행위자,지칭/ -(e)ty,-ity 행위,성질,상태/ -ance,-ence 행위,성질,상태/ -ure 행위,성질,상태/ -(a)cy 행위,성질,상태/ -ness 행위,성질,상태/ -ment 행위,성질,상태,결과물/ -ic(s) 학문/ -hood 시대,관계/ -le,-el 작은 것을 가리키는 말",
+  "words": [
+    {
+      "en": "interviewer",
+      "ipa": "/ˈɪntərvjuːər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "면접관",
+            "인터뷰하는 사람"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "interview",
+          "mean": "면접 (interview)"
+        },
+        {
+          "part": "-er",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "면접하는 사람"
+    },
+    {
+      "en": "interviewee",
+      "ipa": "/ˌɪntərvjuːˈiː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "면접을 받는 사람"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "interview",
+          "mean": "면접 (interview)"
+        },
+        {
+          "part": "-ee",
+          "mean": "~을 받는 사람"
+        }
+      ],
+      "origin": "면접을 받는 사람"
+    },
+    {
+      "en": "inventor",
+      "ipa": "/ɪnˈventər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "발명가"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "invent",
+          "mean": "발명하다 (invent)"
+        },
+        {
+          "part": "-or",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "발명하는 사람"
+    },
+    {
+      "en": "supervisor",
+      "ipa": "/ˈsuːpərvaɪzər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감독자",
+            "관리자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "supervise",
+          "mean": "감독하다 (supervise)"
+        },
+        {
+          "part": "-or",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "감독하는 사람"
+    },
+    {
+      "en": "secretary",
+      "ipa": "/ˈsekrəteri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비서",
+            "장관"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "secret",
+          "mean": "비밀 (secret)"
+        },
+        {
+          "part": "-ary",
+          "mean": "~하는 사람"
+        }
+      ],
+      "origin": "비밀을 다루는 사람 → 비서"
+    },
+    {
+      "en": "boundary",
+      "ipa": "/ˈbaʊndəri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경계(선)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bound",
+          "mean": "경계 (bound, limit)"
+        },
+        {
+          "part": "-ary",
+          "mean": "~에 관한 것"
+        }
+      ],
+      "origin": "경계에 관한 것"
+    },
+    {
+      "en": "variety",
+      "ipa": "/vəˈraɪəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "다양성",
+            "종류"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vary",
+          "mean": "다양하다 (vary)"
+        },
+        {
+          "part": "-ety",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "다양한 상태 → 다양성"
+    },
+    {
+      "en": "ability",
+      "ipa": "/əˈbɪləti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "능력",
+            "재능"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "able",
+          "mean": "할 수 있는 (able)"
+        },
+        {
+          "part": "-ity",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "할 수 있는 상태 → 능력"
+    },
+    {
+      "en": "authority",
+      "ipa": "/əˈθɔːrəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "권위",
+            "당국"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "author",
+          "mean": "만든 사람 (originator)"
+        },
+        {
+          "part": "-ity",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "만든 사람의 지위 → 권위"
+    },
+    {
+      "en": "appearance",
+      "ipa": "/əˈpɪrəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "외모",
+            "출현"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "appear",
+          "mean": "나타나다 (appear)"
+        },
+        {
+          "part": "-ance",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "나타나는 것 → 외모"
+    },
+    {
+      "en": "conference",
+      "ipa": "/ˈkɑːnfərəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "회의",
+            "학술 대회"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "confer",
+          "mean": "상의하다 (confer)"
+        },
+        {
+          "part": "-ence",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "함께 상의하는 것 → 회의"
+    },
+    {
+      "en": "creature",
+      "ipa": "/ˈkriːtʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "생물",
+            "피조물"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "create",
+          "mean": "만들다 (create)"
+        },
+        {
+          "part": "-ure",
+          "mean": "결과물 접미사"
+        }
+      ],
+      "origin": "만들어진 것 → 생물"
+    },
+    {
+      "en": "failure",
+      "ipa": "/ˈfeɪljər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "실패",
+            "고장"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fail",
+          "mean": "실패하다 (fail)"
+        },
+        {
+          "part": "-ure",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "실패한 상태"
+    },
+    {
+      "en": "accuracy",
+      "ipa": "/ˈækjərəsi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정확성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "accurate",
+          "mean": "정확한 (accurate)"
+        },
+        {
+          "part": "-cy",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "정확한 상태"
+    },
+    {
+      "en": "privacy",
+      "ipa": "/ˈpraɪvəsi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사생활",
+            "프라이버시"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "private",
+          "mean": "사적인 (private)"
+        },
+        {
+          "part": "-cy",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "사적인 상태"
+    },
+    {
+      "en": "witness",
+      "ipa": "/ˈwɪtnəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "증인",
+            "목격자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "목격하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "wit",
+          "mean": "알다 (know)"
+        },
+        {
+          "part": "-ness",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "아는 상태 → 증인"
+    },
+    {
+      "en": "fitness",
+      "ipa": "/ˈfɪtnəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "건강",
+            "적합성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fit",
+          "mean": "적합한 (fit)"
+        },
+        {
+          "part": "-ness",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "적합한 상태 → 건강"
+    },
+    {
+      "en": "agreement",
+      "ipa": "/əˈɡriːmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동의",
+            "합의",
+            "계약"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "agree",
+          "mean": "동의하다 (agree)"
+        },
+        {
+          "part": "-ment",
+          "mean": "결과물 접미사"
+        }
+      ],
+      "origin": "동의한 것 → 합의"
+    },
+    {
+      "en": "assessment",
+      "ipa": "/əˈsesmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "평가"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "assess",
+          "mean": "평가하다 (assess)"
+        },
+        {
+          "part": "-ment",
+          "mean": "결과물 접미사"
+        }
+      ],
+      "origin": "평가한 것"
+    },
+    {
+      "en": "document",
+      "ipa": "/ˈdɑːkjəmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문서",
+            "서류"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "doc",
+          "mean": "가르치다 (teach)"
+        },
+        {
+          "part": "-ument",
+          "mean": "결과물 접미사"
+        }
+      ],
+      "origin": "가르침을 담은 것 → 문서"
+    },
+    {
+      "en": "supplement",
+      "ipa": "/ˈsʌplɪmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보충(물)"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보충하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sup-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "ple",
+          "mean": "채우다 (fill)"
+        },
+        {
+          "part": "-ment",
+          "mean": "결과물 접미사"
+        }
+      ],
+      "origin": "아래에서 채우는 것 → 보충물"
+    },
+    {
+      "en": "economics",
+      "ipa": "/ˌiːkəˈnɑːmɪks/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경제학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "economy",
+          "mean": "경제 (economy)"
+        },
+        {
+          "part": "-ics",
+          "mean": "학문 접미사"
+        }
+      ],
+      "origin": "경제에 관한 학문"
+    },
+    {
+      "en": "politics",
+      "ipa": "/ˈpɑːlətɪks/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정치(학)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "poli",
+          "mean": "도시, 국가 (city, state)"
+        },
+        {
+          "part": "-tics",
+          "mean": "학문 접미사"
+        }
+      ],
+      "origin": "국가에 관한 학문 → 정치"
+    },
+    {
+      "en": "physics",
+      "ipa": "/ˈfɪzɪks/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "물리학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "phys",
+          "mean": "자연 (nature)"
+        },
+        {
+          "part": "-ics",
+          "mean": "학문 접미사"
+        }
+      ],
+      "origin": "자연에 관한 학문 → 물리학"
+    },
+    {
+      "en": "childhood",
+      "ipa": "/ˈtʃaɪldhʊd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "어린 시절"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "child",
+          "mean": "아이 (child)"
+        },
+        {
+          "part": "-hood",
+          "mean": "시기, 상태 접미사"
+        }
+      ],
+      "origin": "아이의 시기 → 어린 시절"
+    },
+    {
+      "en": "neighborhood",
+      "ipa": "/ˈneɪbərhʊd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이웃",
+            "근처"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "neighbor",
+          "mean": "이웃 (neighbor)"
+        },
+        {
+          "part": "-hood",
+          "mean": "관계, 상태 접미사"
+        }
+      ],
+      "origin": "이웃 관계 → 근처"
+    },
+    {
+      "en": "angle",
+      "ipa": "/ˈæŋɡl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "각도",
+            "관점"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ang",
+          "mean": "굽히다 (bend)"
+        },
+        {
+          "part": "-le",
+          "mean": "작은 것 접미사"
+        }
+      ],
+      "origin": "굽은 것 → 각도"
+    },
+    {
+      "en": "label",
+      "ipa": "/ˈleɪbl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "표지",
+            "라벨"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "표를 붙이다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "lab",
+          "mean": "조각 (strip)"
+        },
+        {
+          "part": "-el",
+          "mean": "작은 것 접미사"
+        }
+      ],
+      "origin": "작은 조각 → 라벨"
+    }
+  ]
+}

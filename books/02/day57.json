@@ -1,0 +1,627 @@
+{
+  "title": "혼동하기 쉬운 형용사 파생어",
+  "words": [
+    {
+      "en": "imaginable",
+      "ipa": "/ɪˈmædʒɪnəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상상할 수 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "imagine",
+          "mean": "상상하다 (imagine)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "상상할 수 있는"
+    },
+    {
+      "en": "imaginative",
+      "ipa": "/ɪˈmædʒɪnətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상상력이 풍부한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "imagine",
+          "mean": "상상하다 (imagine)"
+        },
+        {
+          "part": "-ative",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "상상하는 성질의 → 상상력이 풍부한"
+    },
+    {
+      "en": "imaginary",
+      "ipa": "/ɪˈmædʒɪneri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "가상의",
+            "상상 속의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "imagine",
+          "mean": "상상하다 (imagine)"
+        },
+        {
+          "part": "-ary",
+          "mean": "~에 관한"
+        }
+      ],
+      "origin": "상상에 관한 → 가상의"
+    },
+    {
+      "en": "successful",
+      "ipa": "/səkˈsesfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "성공적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "success",
+          "mean": "성공 (success)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "성공이 가득한"
+    },
+    {
+      "en": "successive",
+      "ipa": "/səkˈsesɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "연속적인",
+            "잇따른"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "success",
+          "mean": "뒤따르다 (follow after)"
+        },
+        {
+          "part": "-ive",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "뒤따르는 → 연속적인"
+    },
+    {
+      "en": "industrial",
+      "ipa": "/ɪnˈdʌstriəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "산업의",
+            "공업의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "industry",
+          "mean": "산업 (industry)"
+        },
+        {
+          "part": "-al",
+          "mean": "~에 관한"
+        }
+      ],
+      "origin": "산업에 관한"
+    },
+    {
+      "en": "industrious",
+      "ipa": "/ɪnˈdʌstriəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "근면한",
+            "부지런한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "industry",
+          "mean": "근면 (diligence)"
+        },
+        {
+          "part": "-ous",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "근면한 성질의"
+    },
+    {
+      "en": "economic",
+      "ipa": "/ˌiːkəˈnɑːmɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "경제의",
+            "경제학의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "economy",
+          "mean": "경제 (economy)"
+        },
+        {
+          "part": "-ic",
+          "mean": "~에 관한"
+        }
+      ],
+      "origin": "경제에 관한"
+    },
+    {
+      "en": "economical",
+      "ipa": "/ˌiːkəˈnɑːmɪkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "경제적인",
+            "절약하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "economy",
+          "mean": "경제 (economy)"
+        },
+        {
+          "part": "-ical",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "절약하는 성질의"
+    },
+    {
+      "en": "historic",
+      "ipa": "/hɪˈstɔːrɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "역사적으로 중요한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "history",
+          "mean": "역사 (history)"
+        },
+        {
+          "part": "-ic",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "역사적으로 중요한"
+    },
+    {
+      "en": "historical",
+      "ipa": "/hɪˈstɔːrɪkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "역사에 관한",
+            "역사의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "history",
+          "mean": "역사 (history)"
+        },
+        {
+          "part": "-ical",
+          "mean": "~에 관한"
+        }
+      ],
+      "origin": "역사에 관한"
+    },
+    {
+      "en": "considerable",
+      "ipa": "/kənˈsɪdərəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상당한",
+            "적지 않은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "consider",
+          "mean": "고려하다 (consider)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "고려할 만한 → 상당한"
+    },
+    {
+      "en": "considerate",
+      "ipa": "/kənˈsɪdərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사려 깊은",
+            "배려하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "consider",
+          "mean": "고려하다 (consider)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "남을 고려하는 → 사려 깊은"
+    },
+    {
+      "en": "sensible",
+      "ipa": "/ˈsensəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "분별 있는",
+            "실용적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sense",
+          "mean": "감각, 분별력 (sense)"
+        },
+        {
+          "part": "-ible",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "분별할 수 있는"
+    },
+    {
+      "en": "sensitive",
+      "ipa": "/ˈsensətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "민감한",
+            "예민한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sense",
+          "mean": "감각 (sense)"
+        },
+        {
+          "part": "-itive",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "감각이 예민한"
+    },
+    {
+      "en": "respectable",
+      "ipa": "/rɪˈspektəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "존경할 만한",
+            "상당한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "respect",
+          "mean": "존경 (respect)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 만한"
+        }
+      ],
+      "origin": "존경할 만한"
+    },
+    {
+      "en": "respectful",
+      "ipa": "/rɪˈspektfl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공손한",
+            "예의 바른"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "respect",
+          "mean": "존경 (respect)"
+        },
+        {
+          "part": "-ful",
+          "mean": "~이 가득한"
+        }
+      ],
+      "origin": "존경이 가득한 → 공손한"
+    },
+    {
+      "en": "intellectual",
+      "ipa": "/ˌɪntəˈlektʃuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지식인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "intellect",
+          "mean": "지성 (intellect)"
+        },
+        {
+          "part": "-ual",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "지성의 → 지적인"
+    },
+    {
+      "en": "intelligent",
+      "ipa": "/ɪnˈtelɪdʒənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "총명한",
+            "지능이 높은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "intellig",
+          "mean": "이해하다 (understand)"
+        },
+        {
+          "part": "-ent",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "이해하는 → 총명한"
+    },
+    {
+      "en": "literal",
+      "ipa": "/ˈlɪtərəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "문자 그대로의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liter",
+          "mean": "글자 (letter)"
+        },
+        {
+          "part": "-al",
+          "mean": "~에 관한"
+        }
+      ],
+      "origin": "글자에 관한 → 문자 그대로의"
+    },
+    {
+      "en": "literary",
+      "ipa": "/ˈlɪtəreri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "문학의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liter",
+          "mean": "글자 (letter)"
+        },
+        {
+          "part": "-ary",
+          "mean": "~에 관한"
+        }
+      ],
+      "origin": "글에 관한 → 문학의"
+    },
+    {
+      "en": "literate",
+      "ipa": "/ˈlɪtərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "글을 읽고 쓸 줄 아는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "liter",
+          "mean": "글자 (letter)"
+        },
+        {
+          "part": "-ate",
+          "mean": "~의 성질을 가진"
+        }
+      ],
+      "origin": "글자를 아는"
+    },
+    {
+      "en": "social",
+      "ipa": "/ˈsoʊʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사회의",
+            "사회적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "soci",
+          "mean": "친구, 동반자 (companion)"
+        },
+        {
+          "part": "-al",
+          "mean": "~에 관한"
+        }
+      ],
+      "origin": "동반자에 관한 → 사회의"
+    },
+    {
+      "en": "sociable",
+      "ipa": "/ˈsoʊʃəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사교적인",
+            "붙임성 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "soci",
+          "mean": "친구 (companion)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "친구가 될 수 있는 → 사교적인"
+    },
+    {
+      "en": "comparable",
+      "ipa": "/ˈkɑːmpərəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비교할 만한",
+            "비슷한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "compare",
+          "mean": "비교하다 (compare)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "비교할 수 있는"
+    },
+    {
+      "en": "comparative",
+      "ipa": "/kəmˈpærətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비교의",
+            "상대적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "compare",
+          "mean": "비교하다 (compare)"
+        },
+        {
+          "part": "-ative",
+          "mean": "~하는 성질의"
+        }
+      ],
+      "origin": "비교하는 → 비교의"
+    }
+  ]
+}

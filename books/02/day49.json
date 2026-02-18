@@ -1,0 +1,575 @@
+{
+  "title": "gest 나르다,가져오다/ prob 시험하다,증명하다/ urb 도시/ thesis 두다/ tach 들러붙게 하다/ estim 평가하다/ circul 원,둘레에/ turb 어지럽게 하다",
+  "words": [
+    {
+      "en": "gesture",
+      "ipa": "/ˈdʒestʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "몸짓",
+            "제스처"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gest",
+          "mean": "나르다, 행하다 (carry, do)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "행하는 것 → 몸짓"
+    },
+    {
+      "en": "digest",
+      "ipa": "/daɪˈdʒest/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소화하다",
+            "요약하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "요약(판)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "gest",
+          "mean": "나르다 (carry)"
+        }
+      ],
+      "origin": "떨어뜨려 나르다 → 분해하다 → 소화하다"
+    },
+    {
+      "en": "register",
+      "ipa": "/ˈredʒɪstər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "등록하다",
+            "기록하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "등록"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "gist(gest)",
+          "mean": "나르다 (carry)"
+        },
+        {
+          "part": "-er",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "뒤로 가져와 기록하다 → 등록하다"
+    },
+    {
+      "en": "probable",
+      "ipa": "/ˈprɑːbəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "있을 법한",
+            "예상되는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prob",
+          "mean": "시험하다 (test, prove)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "시험해볼 만한 → 있을 법한"
+    },
+    {
+      "en": "probe",
+      "ipa": "/proʊb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조사하다",
+            "캐다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "조사"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prob",
+          "mean": "시험하다 (test)"
+        }
+      ],
+      "origin": "시험하다 → 조사하다"
+    },
+    {
+      "en": "prove",
+      "ipa": "/pruːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "증명하다",
+            "~로 판명되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prov(prob)",
+          "mean": "시험하다 (test)"
+        }
+      ],
+      "origin": "시험하다 → 증명하다"
+    },
+    {
+      "en": "approve",
+      "ipa": "/əˈpruːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "승인하다",
+            "찬성하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "prove(prob)",
+          "mean": "시험하다 (test)"
+        }
+      ],
+      "origin": "~쪽으로 시험하여 좋다고 하다 → 승인하다"
+    },
+    {
+      "en": "urban",
+      "ipa": "/ˈɜːrbən/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "도시의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "urb",
+          "mean": "도시 (city)"
+        },
+        {
+          "part": "-an",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "도시의"
+    },
+    {
+      "en": "suburb",
+      "ipa": "/ˈsʌbɜːrb/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "교외(도시 주변 지역)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에, 가까이 (near)"
+        },
+        {
+          "part": "urb",
+          "mean": "도시 (city)"
+        }
+      ],
+      "origin": "도시 가까이 → 교외"
+    },
+    {
+      "en": "thesis",
+      "ipa": "/ˈθiːsɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "학위 논문",
+            "논제"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "thes",
+          "mean": "놓다 (put, place)"
+        },
+        {
+          "part": "-is",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "놓여진 주장 → 논제"
+    },
+    {
+      "en": "hypothesis",
+      "ipa": "/haɪˈpɑːθəsɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가설"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hypo-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "thesis(thes)",
+          "mean": "놓다 (place)"
+        }
+      ],
+      "origin": "아래에 놓인 것 → 가설"
+    },
+    {
+      "en": "theme",
+      "ipa": "/θiːm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주제",
+            "테마"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "them(thes)",
+          "mean": "놓다 (place, set)"
+        }
+      ],
+      "origin": "놓여진 것 → 주제"
+    },
+    {
+      "en": "attach",
+      "ipa": "/əˈtætʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "붙이다",
+            "첨부하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "at-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tach",
+          "mean": "못, 붙이다 (nail, fasten)"
+        }
+      ],
+      "origin": "~에 못을 박다 → 붙이다"
+    },
+    {
+      "en": "attack",
+      "ipa": "/əˈtæk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "공격하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "공격"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "at-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tack(tach)",
+          "mean": "못, 찌르다 (nail, strike)"
+        }
+      ],
+      "origin": "~쪽으로 찌르다 → 공격하다"
+    },
+    {
+      "en": "stake",
+      "ipa": "/steɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "말뚝",
+            "지분",
+            "이해관계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stak",
+          "mean": "못, 말뚝 (stick, post)"
+        }
+      ],
+      "origin": "말뚝 → 지분"
+    },
+    {
+      "en": "estimate",
+      "ipa": "/ˈestɪmeɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "추정(치)",
+            "견적"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "평가하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e(a)stim",
+          "mean": "가치를 매기다, 찌르다 (value, prick)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "가치를 매기다 → 평가하다"
+    },
+    {
+      "en": "overestimate",
+      "ipa": "/ˌoʊvərˈestɪmeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "과대평가하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "over-",
+          "mean": "지나치게 (over)"
+        },
+        {
+          "part": "estimate",
+          "mean": "평가하다 (estimate)"
+        }
+      ],
+      "origin": "지나치게 평가하다 → 과대평가하다"
+    },
+    {
+      "en": "esteem",
+      "ipa": "/ɪˈstiːm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "존경",
+            "존중"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "존경하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "esteem(stim)",
+          "mean": "가치를 매기다 (value)"
+        }
+      ],
+      "origin": "가치를 매기다 → 존경하다"
+    },
+    {
+      "en": "circulate",
+      "ipa": "/ˈsɜːrkjəleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "순환하다",
+            "유통되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "circ",
+          "mean": "원 (circle)"
+        },
+        {
+          "part": "-ulate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "원을 그리다 → 순환하다"
+    },
+    {
+      "en": "circumstance",
+      "ipa": "/ˈsɜːrkəmstæns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상황",
+            "환경"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "circum-",
+          "mean": "둘레 (around)"
+        },
+        {
+          "part": "stance",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "둘레에 서 있는 것 → 상황"
+    },
+    {
+      "en": "circuit",
+      "ipa": "/ˈsɜːrkɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "순환",
+            "회로"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "circ",
+          "mean": "원 (circle)"
+        },
+        {
+          "part": "-uit",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "원을 돌아가다 → 회로"
+    },
+    {
+      "en": "disturb",
+      "ipa": "/dɪˈstɜːrb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방해하다",
+            "어지럽히다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "turb",
+          "mean": "소란, 어지럽히다 (confusion)"
+        }
+      ],
+      "origin": "완전히 어지럽히다 → 방해하다"
+    },
+    {
+      "en": "trouble",
+      "ipa": "/ˈtrʌbl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문제",
+            "곤란"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "괴롭히다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "troubl(turb)",
+          "mean": "소란, 어지럽히다 (disturb)"
+        }
+      ],
+      "origin": "소란 → 문제"
+    }
+  ]
+}
