@@ -1,0 +1,539 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "column",
+      "ipa": "/ˈkɑː.ləm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기둥, 칼럼"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "announce",
+      "ipa": "/əˈnaʊns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발표하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "union",
+      "ipa": "/ˈjuː.njən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "연합, 조합"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "convey",
+      "ipa": "/kənˈveɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전달하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "leak",
+      "ipa": "/liːk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "새다, 누설하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "누출"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "affair",
+      "ipa": "/əˈfer/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "일, 사건"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "brief",
+      "ipa": "/briːf/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "짧은"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "간단히 알리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "enhance",
+      "ipa": "/ɪnˈhæns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "향상시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "verbal",
+      "ipa": "/ˈvɝː.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "말의, 언어의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "medium",
+      "ipa": "/ˈmiː.di.əm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "매체, 수단"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "signal",
+      "ipa": "/ˈsɪɡ.nəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신호"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "신호를 보내다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "transmit",
+      "ipa": "/trænsˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전송하다, 전달하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "broadcast",
+      "ipa": "/ˈbrɔːd.kæst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방송하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "방송"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "audience",
+      "ipa": "/ˈɑː.di.əns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "청중, 관객"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "viewer",
+      "ipa": "/ˈvjuː.ɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시청자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "commercial",
+      "ipa": "/kəˈmɝː.ʃəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상업적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "광고"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "appealing",
+      "ipa": "/əˈpiː.lɪŋ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "매력적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "evident",
+      "ipa": "/ˈev.ə.dənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "분명한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "obscure",
+      "ipa": "/əbˈskjʊr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "모호한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "모호하게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "limitation",
+      "ipa": "/ˌlɪm.əˈteɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "제한, 한계"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "visible",
+      "ipa": "/ˈvɪz.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "보이는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "compelling",
+      "ipa": "/kəmˈpel.ɪŋ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "설득력 있는, 강렬한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "illustrate",
+      "ipa": "/ˈɪl.ə.streɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설명하다, 삽화를 넣다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "diminish",
+      "ipa": "/dɪˈmɪn.ɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "줄어들다, 감소하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "lessen",
+      "ipa": "/ˈles.ən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "줄이다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "informative",
+      "ipa": "/ɪnˈfɔːr.mə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유익한, 정보를 주는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "satellite",
+      "ipa": "/ˈsæt̬.əl.aɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위성"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mobile",
+      "ipa": "/ˈmoʊ.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이동식의, 모바일의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "portable",
+      "ipa": "/ˈpɔːr.t̬ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "휴대용의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "collect",
+      "ipa": "/kəˈlekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모으다, 수집하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "variable",
+      "ipa": "/ˈver.i.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "변동이 심한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "변수"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pile",
+      "ipa": "/paɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "더미, 무더기"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "쌓다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wrap",
+      "ipa": "/ræp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "싸다, 포장하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "deliver",
+      "ipa": "/dɪˈlɪv.ɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "배달하다, 전달하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "envelope",
+      "ipa": "/ˈen.və.loʊp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "봉투"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stamp",
+      "ipa": "/stæmp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우표"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "도장을 찍다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "respondent",
+      "ipa": "/rɪˈspɑːn.dənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "응답자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "transaction",
+      "ipa": "/trænˈzæk.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "거래"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "feel free to do",
+      "ipa": "/fiːl friː tuː duː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "자유롭게 ~하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "get in touch with",
+      "ipa": "/ɡet ɪn tʌtʃ wɪð/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~와 연락하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

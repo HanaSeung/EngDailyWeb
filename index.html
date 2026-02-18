@@ -25,6 +25,17 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .loading-bar{width:200px;height:4px;background:var(--surface2);border-radius:2px;overflow:hidden;margin-top:6px}
 .loading-bar-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--green));border-radius:2px;transition:width .3s ease;width:0%}
 
+/* ── 교재 선택 화면 ── */
+.book-select-screen{display:none}
+.book-select-title{font-size:1.1rem;font-weight:700;margin-bottom:16px;color:var(--text);text-align:center}
+.book-grid{display:flex;flex-direction:column;gap:10px}
+.book-card{padding:18px 16px;border:1px solid rgba(0,0,0,.08);border-radius:16px;background:var(--surface);cursor:pointer;transition:all .25s;box-shadow:var(--shadow)}
+.book-card:hover{border-color:var(--accent);background:#f0f2ff}
+.book-card:active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.book-card:active .book-days{color:#fff}
+.book-name{font-weight:700;font-size:.95rem;margin-bottom:4px}
+.book-days{font-size:.75rem;color:var(--text-dim)}
+
 /* ── Day 선택 화면 ── */
 .day-select-screen{display:none}
 .day-select-title{font-size:1rem;font-weight:700;margin-bottom:14px;color:var(--text)}
@@ -38,6 +49,10 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .day-bar{flex:1;height:4px;background:var(--surface2);border-radius:2px;overflow:hidden}
 .day-bar-fill{height:100%;border-radius:2px;background:linear-gradient(90deg,var(--accent),var(--green))}
 .day-pct{font-size:.55rem;color:var(--text-dim);font-weight:600;min-width:24px;text-align:right}
+.book-change-wrap{margin-top:24px;padding-top:16px;border-top:1px solid rgba(0,0,0,.06);text-align:center}
+.btn-change-book{background:rgba(91,106,191,.07);border:1px solid rgba(91,106,191,.2);border-radius:12px;padding:10px 24px;font-family:'Noto Sans KR',sans-serif;font-size:.82rem;color:var(--accent);cursor:pointer;transition:all .25s;font-weight:500}
+.btn-change-book:hover{background:rgba(91,106,191,.13);border-color:var(--accent)}
+.btn-change-book:active{background:var(--accent);color:#fff;border-color:var(--accent)}
 
 /* ── 학습 화면 ── */
 .study-screen{display:none}
@@ -234,6 +249,7 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
     </div>
     <button class="btn-reload" onclick="toggleFullscreen()" id="btnFullscreen">🖥️ 전체화면 모드</button>
     <div style="font-size:.7rem;color:var(--text-dim);text-align:center;margin-top:4px">※ iOS(아이폰/아이패드)에서는 지원되지 않습니다</div>
+    <button class="btn-reload" onclick="changeBook()">📚 교재 변경</button>
     <button class="btn-reload" onclick="reloadDays()">🔄 Day 파일 다시 불러오기</button>
     <button class="btn-close-settings" onclick="closeSettings()">닫기</button>
   </div>
@@ -252,10 +268,19 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
     <div class="loading-bar"><div class="loading-bar-fill" id="loadingBarFill"></div></div>
   </div>
 
+  <!-- 교재 선택 화면 -->
+  <div class="book-select-screen" id="bookSelectScreen">
+    <div class="book-select-title fade-up">📚 학습할 교재를 선택하세요</div>
+    <div class="book-grid fade-up" style="animation-delay:.1s" id="bookGrid"></div>
+  </div>
+
   <!-- Day 선택 화면 -->
   <div class="day-select-screen" id="daySelectScreen">
     <div class="day-select-title fade-up">📚 학습할 Day를 선택하세요</div>
     <div class="day-grid fade-up" style="animation-delay:.1s" id="dayGrid"></div>
+    <div class="book-change-wrap fade-up" style="animation-delay:.2s">
+      <button class="btn-change-book" onclick="changeBook()">📚 교재 변경</button>
+    </div>
   </div>
 
   <!-- 학습 화면 -->
@@ -405,6 +430,7 @@ let currentIndex = 0;
 let speakCount = 0;
 let viewMode = 'all'; // 'all', 'en', 'kr'
 let isFlipped = false;
+let currentBook = null; // { id, name, days }
 
 const VIEW_MODES = ['all', 'en', 'kr'];
 const VIEW_LABELS = { all: '📖 전체', en: '🔤 영어', kr: '🇰🇷 한글' };
@@ -565,9 +591,9 @@ function resetFlip() {
 
 // 중요 단어
 function getStarredWords() {
-  try { return JSON.parse(localStorage.getItem('engvoca_starred') || '[]'); } catch { return []; }
+  try { return JSON.parse(localStorage.getItem(storageKey('starred')) || '[]'); } catch { return []; }
 }
-function saveStarredWords(arr) { localStorage.setItem('engvoca_starred', JSON.stringify(arr)); }
+function saveStarredWords(arr) { localStorage.setItem(storageKey('starred'), JSON.stringify(arr)); }
 function isStarred(word) { return getStarredWords().includes(word); }
 
 // TTS 음성
@@ -677,22 +703,106 @@ function setLoadingStatus(text, pct) {
   document.getElementById('loadingBarFill').style.width = pct + '%';
 }
 
+// ── localStorage 키 헬퍼 (교재별 분리) ──
+function storageKey(key) {
+  const prefix = currentBook ? currentBook.id : '00';
+  return 'engvoca_' + prefix + '_' + key;
+}
+
+// ── 교재 선택 ──
+async function loadBooks() {
+  try {
+    const res = await fetch('book/books.json?t=' + Date.now());
+    if (res.ok) return await res.json();
+  } catch (e) {}
+  return [];
+}
+
+function showBookSelectScreen() {
+  document.getElementById('bookSelectScreen').style.display = 'block';
+  document.getElementById('daySelectScreen').style.display = 'none';
+  document.getElementById('studyScreen').style.display = 'none';
+  document.getElementById('quizSelectScreen').style.display = 'none';
+  document.getElementById('quizScreen').style.display = 'none';
+  document.getElementById('quizResultScreen').style.display = 'none';
+  document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  document.getElementById('headerDayLabel').textContent = '';
+}
+
+async function renderBookSelect(books) {
+  showBookSelectScreen();
+  const grid = document.getElementById('bookGrid');
+  grid.innerHTML = '';
+  books.forEach(b => {
+    const card = document.createElement('div');
+    card.className = 'book-card';
+    card.innerHTML = '<div class="book-name">📖 ' + b.name + '</div><div class="book-days">Day 1 ~ Day ' + b.days + ' (' + b.days + '일)</div>';
+    card.onclick = () => selectBook(b);
+    grid.appendChild(card);
+  });
+}
+
+async function selectBook(book) {
+  playSound('daySelect');
+  currentBook = book;
+  localStorage.setItem('engvoca_currentBook', JSON.stringify(book));
+  await loadAllDays();
+}
+
+function changeBook() {
+  playSound('settings');
+  closeSettings();
+  localStorage.removeItem('engvoca_currentBook');
+  currentBook = null;
+  appInit();
+}
+
+// ── 앱 시작 ──
+async function appInit() {
+  const books = await loadBooks();
+  if (books.length === 0) {
+    // books.json 없으면 기존 방식 fallback
+    currentBook = { id: '00', name: '', days: 99 };
+    await loadAllDays();
+    return;
+  }
+  // 저장된 교재 확인
+  const saved = localStorage.getItem('engvoca_currentBook');
+  if (saved) {
+    try {
+      const savedBook = JSON.parse(saved);
+      // books 목록에 아직 존재하는지 확인
+      const found = books.find(b => b.id === savedBook.id);
+      if (found) {
+        currentBook = found;
+        await loadAllDays();
+        return;
+      }
+    } catch (e) {}
+  }
+  // 저장된 교재 없으면 교재 선택 화면
+  await renderBookSelect(books);
+}
+
 async function loadAllDays() {
   document.getElementById('loadingScreen').style.display = 'flex';
+  document.getElementById('bookSelectScreen').style.display = 'none';
   document.getElementById('daySelectScreen').style.display = 'none';
   document.getElementById('studyScreen').style.display = 'none';
   dayData = []; allWords = [];
+
+  const basePath = currentBook && currentBook.id !== '00' ? 'book/' + currentBook.id + '/' : '';
 
   setLoadingStatus('버전 확인 중...', 10);
 
   let needFetch = true;
   try {
-    const vRes = await fetch('version.json?t=' + Date.now());
+    const vRes = await fetch(basePath + 'version.json?t=' + Date.now());
     if (vRes.ok) {
       const vData = await vRes.json();
       const remoteKey = vData.version + '-' + vData.count;
-      const localKey = localStorage.getItem('engvoca_version') || '';
-      const cached = localStorage.getItem('engvoca_daydata');
+      const localKey = localStorage.getItem(storageKey('version')) || '';
+      const cached = localStorage.getItem(storageKey('daydata'));
       if (remoteKey === localKey && cached) {
         setLoadingStatus('저장된 데이터 로드 중...', 80);
         dayData = JSON.parse(cached);
@@ -702,7 +812,8 @@ async function loadAllDays() {
         let dayNum = 1;
         while (true) {
           try {
-            const res = await fetch('day/day' + dayNum + '.json?t=' + Date.now());
+            const dayStr = String(dayNum).padStart(2, '0');
+            const res = await fetch(basePath + 'day' + dayStr + '.json?t=' + Date.now());
             if (!res.ok) break;
             const data = await res.json();
             dayData.push({ day: dayNum, title: data.title || '', words: data.words || [] });
@@ -712,14 +823,14 @@ async function loadAllDays() {
         }
         if (dayData.length > 0) {
           setLoadingStatus('데이터 저장 중...', 90);
-          localStorage.setItem('engvoca_daydata', JSON.stringify(dayData));
-          localStorage.setItem('engvoca_version', remoteKey);
+          localStorage.setItem(storageKey('daydata'), JSON.stringify(dayData));
+          localStorage.setItem(storageKey('version'), remoteKey);
         }
         needFetch = false;
       }
     }
   } catch (e) {
-    const cached = localStorage.getItem('engvoca_daydata');
+    const cached = localStorage.getItem(storageKey('daydata'));
     if (cached) {
       setLoadingStatus('오프라인 모드 — 저장된 데이터 사용', 80);
       dayData = JSON.parse(cached);
@@ -732,7 +843,8 @@ async function loadAllDays() {
     let dayNum = 1;
     while (true) {
       try {
-        const res = await fetch('day/day' + dayNum + '.json');
+        const dayStr = String(dayNum).padStart(2, '0');
+        const res = await fetch(basePath + 'day' + dayStr + '.json');
         if (!res.ok) break;
         const data = await res.json();
         dayData.push({ day: dayNum, title: data.title || '', words: data.words || [] });
@@ -753,19 +865,26 @@ async function loadAllDays() {
 async function reloadDays() {
   playSound('settings');
   toggleSettings();
-  localStorage.removeItem('engvoca_version');
-  localStorage.removeItem('engvoca_daydata');
+  localStorage.removeItem(storageKey('version'));
+  localStorage.removeItem(storageKey('daydata'));
   await loadAllDays();
 }
 
 // Day 선택 화면
 function showDaySelectScreen() {
+  document.getElementById('bookSelectScreen').style.display = 'none';
   document.getElementById('daySelectScreen').style.display = 'block';
   document.getElementById('studyScreen').style.display = 'none';
   document.getElementById('quizSelectScreen').style.display = 'none';
   document.getElementById('quizScreen').style.display = 'none';
   document.getElementById('quizResultScreen').style.display = 'none';
   document.getElementById('wrongNoteSelectScreen').style.display = 'none';
+  const titleEl = document.querySelector('.day-select-title');
+  if (currentBook && currentBook.name) {
+    titleEl.textContent = '📚 ' + currentBook.name;
+  } else {
+    titleEl.textContent = '📚 학습할 Day를 선택하세요';
+  }
   const grid = document.getElementById('dayGrid');
   grid.innerHTML = '';
   const positions = getSavedPositions();
@@ -860,7 +979,7 @@ function startStudy() {
 
 // 학습 위치 저장/복원
 function getSavedPositions() {
-  try { return JSON.parse(localStorage.getItem('engvoca_positions') || '{}'); } catch { return {}; }
+  try { return JSON.parse(localStorage.getItem(storageKey('positions')) || '{}'); } catch { return {}; }
 }
 function getSavedPosition(dayNum) {
   const positions = getSavedPositions();
@@ -874,13 +993,13 @@ function savePosition() {
   if (currentIndex >= studyWords.length - 1) {
     const completed = getCompletedDays();
     completed['day' + dayNum] = true;
-    localStorage.setItem('engvoca_completed', JSON.stringify(completed));
+    localStorage.setItem(storageKey('completed'), JSON.stringify(completed));
   }
-  localStorage.setItem('engvoca_positions', JSON.stringify(positions));
+  localStorage.setItem(storageKey('positions'), JSON.stringify(positions));
 }
 
 function getCompletedDays() {
-  try { return JSON.parse(localStorage.getItem('engvoca_completed') || '{}'); } catch { return {}; }
+  try { return JSON.parse(localStorage.getItem(storageKey('completed')) || '{}'); } catch { return {}; }
 }
 function isDayCompleted(dayNum) {
   return getCompletedDays()['day' + dayNum] === true;
@@ -1007,12 +1126,12 @@ let isWrongNoteMode = false;
 
 // ── 오답 Day 순환 카운터 ──
 function getWrongDayIndex() {
-  try { return parseInt(localStorage.getItem('engvoca_wrongDayIdx') || '0', 10); } catch { return 0; }
+  try { return parseInt(localStorage.getItem(storageKey('wrongDayIdx')) || '0', 10); } catch { return 0; }
 }
 function advanceWrongDayIndex() {
   let idx = getWrongDayIndex() + 1;
   if (idx >= dayData.length) idx = 0;
-  localStorage.setItem('engvoca_wrongDayIdx', String(idx));
+  localStorage.setItem(storageKey('wrongDayIdx'), String(idx));
 }
 
 function startQuiz() {
@@ -1079,10 +1198,10 @@ function getPosList(word) {
 
 // ── 오답노트 저장/관리 (모드별) ──
 function getWrongNotesAll() {
-  try { return JSON.parse(localStorage.getItem('engvoca_wrong_notes') || '{}'); } catch { return {}; }
+  try { return JSON.parse(localStorage.getItem(storageKey('wrong_notes')) || '{}'); } catch { return {}; }
 }
 function saveWrongNotesAll(data) {
-  localStorage.setItem('engvoca_wrong_notes', JSON.stringify(data));
+  localStorage.setItem(storageKey('wrong_notes'), JSON.stringify(data));
 }
 function getWrongNotes(mode) {
   const data = getWrongNotesAll();
@@ -1465,7 +1584,7 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape' || e.key === 'Backspace') askGoBack();
 });
 
-loadAllDays();
+appInit();
 </script>
 </body>
 </html>

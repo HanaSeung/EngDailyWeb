@@ -1,0 +1,545 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "rate",
+      "ipa": "/reɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비율, 요금"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "평가하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fine",
+      "ipa": "/faɪn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "좋은, 섬세한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "벌금"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "벌금을 부과하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "term",
+      "ipa": "/tɝːm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "용어, 기간, 조건"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "press",
+      "ipa": "/pres/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "누르다, 압박하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "언론, 인쇄"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "condition",
+      "ipa": "/kənˈdɪʃ.ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상태, 조건"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "solution",
+      "ipa": "/səˈluː.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "해결책, 용액"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conduct",
+      "ipa": "/ˈkɑːn.dʌkt/ (n), /kənˈdʌkt/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "행동, 수행"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "수행하다, 지휘하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fair",
+      "ipa": "/fer/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공정한, 맑은"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "박람회"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "book",
+      "ipa": "/bʊk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "책"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "예약하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "current",
+      "ipa": "/ˈkɝː.ənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "현재의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "흐름, 해류, 전류"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "feature",
+      "ipa": "/ˈfiː.tʃɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "특징, 이목구비"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "특징으로 삼다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "critical",
+      "ipa": "/ˈkrɪt̬.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비판적인, 중요한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "expire",
+      "ipa": "/ɪkˈspaɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "만료되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inspire",
+      "ipa": "/ɪnˈspaɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "영감을 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "loyal",
+      "ipa": "/ˈlɔɪ.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "충성스러운"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "royal",
+      "ipa": "/ˈrɔɪ.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "왕실의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "emergency",
+      "ipa": "/ɪˈmɝː.dʒən.si/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비상사태"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "emergence",
+      "ipa": "/ɪˈmɝː.dʒəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "출현, 발생"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "terrible",
+      "ipa": "/ˈter.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "끔찍한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "terrific",
+      "ipa": "/təˈrɪf.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "굉장한, 훌륭한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "personal",
+      "ipa": "/ˈpɝː.sən.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "개인의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "personnel",
+      "ipa": "/ˌpɝː.sənˈel/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인사, 직원"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conscience",
+      "ipa": "/ˈkɑːn.ʃəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "양심"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conscious",
+      "ipa": "/ˈkɑːn.ʃəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "의식이 있는, 자각하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "simulate",
+      "ipa": "/ˈsɪm.jə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모의 실험하다, 흉내 내다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stimulate",
+      "ipa": "/ˈstɪm.jə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "자극하다, 고무하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "raise",
+      "ipa": "/reɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "올리다, 기르다, 제기하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rise",
+      "ipa": "/raɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "오르다, 상승하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "상승, 증가"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "confirm",
+      "ipa": "/kənˈfɝːm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확인하다, 확정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conform",
+      "ipa": "/kənˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "순응하다, 따르다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "calculate",
+      "ipa": "/ˈkæl.kjə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "계산하다, 산출하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "circulate",
+      "ipa": "/ˈsɝː.kjə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "순환하다, 유포하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "depend",
+      "ipa": "/dɪˈpend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의존하다, 달려 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "defend",
+      "ipa": "/dɪˈfend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방어하다, 옹호하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "neutral",
+      "ipa": "/ˈnuː.trəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중립적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "neural",
+      "ipa": "/ˈnʊr.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "신경의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "evolution",
+      "ipa": "/ˌev.əˈluː.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "진화, 발전"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "revolution",
+      "ipa": "/ˌrev.əˈluː.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "혁명, 회전"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be concerned about",
+      "ipa": "/bi kənˈsɝːnd əˈbaʊt/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 대해 걱정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be concerned with",
+      "ipa": "/bi kənˈsɝːnd wɪð/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~와 관련되다, ~에 관심이 있다"
+          ]
+        }
+      ]
+    }
+  ]
+}

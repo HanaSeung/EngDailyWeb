@@ -1,0 +1,539 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "accurate",
+      "ipa": "/ˈæk.jər.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정확한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "precise",
+      "ipa": "/prɪˈsaɪs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정밀한, 정확한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "estimate",
+      "ipa": "/ˈes.tə.meɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추정하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "견적"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "compete",
+      "ipa": "/kəmˈpiːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "경쟁하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "submit",
+      "ipa": "/səbˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제출하다, 복종하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "grab",
+      "ipa": "/ɡræb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "붙잡다, 움켜쥐다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "theory",
+      "ipa": "/ˈθiː.ər.i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이론"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "document",
+      "ipa": "/ˈdɑː.kjə.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문서, 서류"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "문서화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "enable",
+      "ipa": "/ɪˈneɪ.bəl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가능하게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "avoid",
+      "ipa": "/əˈvɔɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "피하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "escape",
+      "ipa": "/ɪˈskeɪp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "달아나다, 탈출하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "탈출"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "innovate",
+      "ipa": "/ˈɪn.ə.veɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "혁신하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "insight",
+      "ipa": "/ˈɪn.saɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "통찰력"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "insurance",
+      "ipa": "/ɪnˈʃʊr.əns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보험"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "infection",
+      "ipa": "/ɪnˈfek.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감염"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vehicle",
+      "ipa": "/ˈviː.ə.kəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "차량, 운송 수단"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "belong",
+      "ipa": "/bɪˈlɔːŋ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~에 속하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "celebrate",
+      "ipa": "/ˈsel.ə.breɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "축하하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "demonstrate",
+      "ipa": "/ˈdem.ən.streɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "시위하다, 증명하다, 보여주다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disaster",
+      "ipa": "/dɪˈzæs.tər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재난, 재해"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "economic",
+      "ipa": "/ˌiː.kəˈnɑː.mɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "경제의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "household",
+      "ipa": "/ˈhaʊs.hoʊld/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가정, 가구"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "assign",
+      "ipa": "/əˈsaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "할당하다, 배정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "transfer",
+      "ipa": "/trænsˈfɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "옮기다, 이동하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이동"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "preserve",
+      "ipa": "/prɪˈzɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보존하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "opposite",
+      "ipa": "/ˈɑː.pə.zɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "반대의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "반대"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "satisfaction",
+      "ipa": "/ˌsæt.ɪsˈfæk.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "만족"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "comfort",
+      "ipa": "/ˈkʌm.fərt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "편안함, 위로"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "위로하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ease",
+      "ipa": "/iːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "용이함, 쉬움, 편안함"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "완화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "motion",
+      "ipa": "/ˈmoʊ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "움직임, 동작"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "operation",
+      "ipa": "/ˌɑː.pəˈreɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "작동, 수술, 운영"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "blame",
+      "ipa": "/bleɪm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비난하다, ~의 탓으로 하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "비난"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "refreshing",
+      "ipa": "/rɪˈfreʃ.ɪŋ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상쾌한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "trend",
+      "ipa": "/trend/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경향, 추세"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "journal",
+      "ipa": "/ˈdʒɜːr.nəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "일지, 신문, 잡지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "private",
+      "ipa": "/ˈpraɪ.vət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사적인, 개인적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sentence",
+      "ipa": "/ˈsen.təns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문장; 판결"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "선고하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "majority",
+      "ipa": "/məˈdʒɔːr.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "다수"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dozens of",
+      "ipa": "/ˈdʌz.ənz əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "수십(의)"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rather than",
+      "ipa": "/ˈræð.ər ðæn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~라기보다는"
+          ]
+        }
+      ]
+    }
+  ]
+}

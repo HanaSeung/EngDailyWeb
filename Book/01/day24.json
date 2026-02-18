@@ -1,0 +1,503 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "cherish",
+      "ipa": "/ˈtʃer.ɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소중히 여기다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rainforest",
+      "ipa": "/ˈreɪnˌfɔːr.ɪst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "열대우림"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "landscape",
+      "ipa": "/ˈlænd.skeɪp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "풍경, 지형"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "surface",
+      "ipa": "/ˈsɝː.fɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "표면"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "peak",
+      "ipa": "/piːk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정상, 절정"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "steep",
+      "ipa": "/stiːp/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "가파른"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "incline",
+      "ipa": "/ˈɪn.klaɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경사면"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "~하는 경향이 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cliff",
+      "ipa": "/klɪf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "절벽"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "suitable",
+      "ipa": "/ˈsuː.t̬ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적합한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "atmosphere",
+      "ipa": "/ˈæt.mə.sfɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대기, 분위기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "endangered",
+      "ipa": "/ɪnˈdeɪn.dʒɚd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "멸종 위기에 처한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pollution",
+      "ipa": "/pəˈluː.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "오염"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fossil",
+      "ipa": "/ˈfɑː.səl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "화석"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ecosystem",
+      "ipa": "/ˈiː.koʊˌsɪs.təm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "생태계"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pesticide",
+      "ipa": "/ˈpes.tə.saɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "살충제"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "landfill",
+      "ipa": "/ˈlænd.fɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "쓰레기 매립지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "purify",
+      "ipa": "/ˈpjʊr.ə.faɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sweep",
+      "ipa": "/swiːp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "쓸다, 청소하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "litter",
+      "ipa": "/ˈlɪt̬.ɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "쓰레기"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "어질러 놓다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "acid",
+      "ipa": "/ˈæs.ɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "산성 물질"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "threaten",
+      "ipa": "/ˈθret̬.ən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "위협하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "resource",
+      "ipa": "/ˈriː.sɔːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자원"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "raw",
+      "ipa": "/rɑː/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "가공되지 않은, 날것의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wasteful",
+      "ipa": "/ˈweɪst.fəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "낭비하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "straw",
+      "ipa": "/strɑː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "빨대, 짚"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "remain",
+      "ipa": "/rɪˈmeɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "남다, 여전히 ~이다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "utilize",
+      "ipa": "/ˈjuː.t̬əl.aɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "활용하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recycle",
+      "ipa": "/ˌriːˈsaɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "재활용하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conserve",
+      "ipa": "/kənˈsɝːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보존하다, 절약하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "filter",
+      "ipa": "/ˈfɪl.tɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "필터"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "거르다, 여과하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "generate",
+      "ipa": "/ˈdʒen.ə.reɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "생성하다, 만들어내다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "convert",
+      "ipa": "/kənˈvɝːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "변환하다, 바꾸다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "transform",
+      "ipa": "/trænsˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "변형시키다, 변화시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reduce",
+      "ipa": "/rɪˈduːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "줄이다, 감소시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fragile",
+      "ipa": "/ˈfrædʒ.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "깨지기 쉬운, 연약한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fabric",
+      "ipa": "/ˈfæb.rɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "직물, 천"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "accumulate",
+      "ipa": "/əˈkjuː.mjə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "축적하다, 모으다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "discard",
+      "ipa": "/dɪˈskɑːrd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "버리다, 폐기하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dispose of",
+      "ipa": "/dɪˈspoʊz əv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~을 처리하다, 없애다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "(the) chances are (that)",
+      "ipa": "/ðə ˈtʃæn.sɪz ɑːr/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "아마도 ~일 것이다"
+          ]
+        }
+      ]
+    }
+  ]
+}

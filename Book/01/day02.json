@@ -1,0 +1,485 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "illegal",
+      "ipa": "/ɪˈliː.ɡəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불법의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "local",
+      "ipa": "/ˈloʊ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지역의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "amount",
+      "ipa": "/əˈmaʊnt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "양"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "found",
+      "ipa": "/faʊnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설립하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "establish",
+      "ipa": "/ɪˈstæb.lɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설립하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "historical",
+      "ipa": "/hɪˈstɔːr.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "역사적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "process",
+      "ipa": "/ˈprɑː.ses/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "과정"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "expert",
+      "ipa": "/ˈek.spɜːrt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전문가"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "decade",
+      "ipa": "/ˈdek.eɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "10년"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "continue",
+      "ipa": "/kənˈtɪn.juː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "계속하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dedicate",
+      "ipa": "/ˈded.ɪ.keɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "바치다, 헌신하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "devote",
+      "ipa": "/dɪˈvoʊt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "헌신하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "period",
+      "ipa": "/ˈpɪr.i.əd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기간"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인지하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recognize",
+      "ipa": "/ˈrek.əɡ.naɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인식하다, 알아보다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "exhausted",
+      "ipa": "/ɪɡˈzɔː.stɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지친"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "crime",
+      "ipa": "/kraɪm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "범죄"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "expose",
+      "ipa": "/ɪkˈspoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "드러내다, 폭로하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reveal",
+      "ipa": "/rɪˈviːl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "밝히다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conceal",
+      "ipa": "/kənˈsiːl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "숨기다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "charity",
+      "ipa": "/ˈtʃer.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자선"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "deserve",
+      "ipa": "/dɪˈzɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~할 자격이 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "unite",
+      "ipa": "/juˈnaɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결합하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "combine",
+      "ipa": "/kəmˈbaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결합하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "separate",
+      "ipa": "/ˈsep.ər.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분리하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "complete",
+      "ipa": "/kəmˈpliːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "완성하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "connect",
+      "ipa": "/kəˈnekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연결하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "overcome",
+      "ipa": "/ˌoʊ.vərˈkʌm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "극복하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rapid",
+      "ipa": "/ˈræp.ɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "빠른"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "chase",
+      "ipa": "/tʃeɪs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "쫓다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "achieve",
+      "ipa": "/əˈtʃiːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "이루다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "accomplish",
+      "ipa": "/əˈkɑːm.plɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "성취하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mislead",
+      "ipa": "/ˌmɪsˈliːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "잘못 인도하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "random",
+      "ipa": "/ˈræn.dəm/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "무작위의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "organ",
+      "ipa": "/ˈɔːr.ɡən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "장기(몸의)"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vital",
+      "ipa": "/ˈvaɪ.t̬əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "필수적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reliable",
+      "ipa": "/rɪˈlaɪ.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "믿을 수 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "deal with",
+      "ipa": "/diːl wɪð/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "처리하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "lead to",
+      "ipa": "/liːd tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~로 이어지다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "get along with",
+      "ipa": "/ɡet əˈlɔːŋ wɪð/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~와 잘 지내다"
+          ]
+        }
+      ]
+    }
+  ]
+}

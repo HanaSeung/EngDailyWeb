@@ -1,0 +1,588 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "instruct",
+      "ipa": "/ɪnˈstrʌkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가르치다, 지시하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "academic",
+      "ipa": "/ˌæk.əˈdem.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "학문의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "학자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "gratitude",
+      "ipa": "/ˈɡræt̬.ə.tuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감사, 고마움"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "score",
+      "ipa": "/skɔːr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "점수"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "득점하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pupil",
+      "ipa": "/ˈpjuː.pəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "학생",
+            "눈동자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "enroll",
+      "ipa": "/ɪnˈroʊl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "등록하다, 입학하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "discipline",
+      "ipa": "/ˈdɪs.ə.plɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "규율, 훈육"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "훈육하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "strict",
+      "ipa": "/strɪkt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "엄격한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "interact",
+      "ipa": "/ˌɪn.t̬ɚˈækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "상호작용하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "argue",
+      "ipa": "/ˈɑːrɡ.juː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "논쟁하다, 주장하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "bother",
+      "ipa": "/ˈbɑː.ðɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "귀찮게 하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "성가심"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "guidance",
+      "ipa": "/ˈɡaɪ.dəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지도, 안내"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "collective",
+      "ipa": "/kəˈlek.tɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "집단의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "공동체"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "admire",
+      "ipa": "/ədˈmaɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "존경하다, 감탄하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "intellectual",
+      "ipa": "/ˌɪn.t̬əlˈek.tʃu.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지식인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "result from",
+      "ipa": "/rɪˈzʌlt frʌm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~에서 기인하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "evaluate",
+      "ipa": "/ɪˈvæl.ju.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "평가하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "assess",
+      "ipa": "/əˈses/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "평가하다, 사정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "presentation",
+      "ipa": "/ˌprez.ənˈteɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "발표, 제시"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "range",
+      "ipa": "/reɪndʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "범위"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "범위가 ~에 이르다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "formal",
+      "ipa": "/ˈfɔːr.məl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공식적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "intermediate",
+      "ipa": "/ˌɪn.t̬ɚˈmiː.di.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중급의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "중급자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "attempt",
+      "ipa": "/əˈtempt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "시도하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "시도"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "assist",
+      "ipa": "/əˈsɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "돕다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "aid",
+      "ipa": "/eɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "도움, 지원"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "돕다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "explanation",
+      "ipa": "/ˌek.spləˈneɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "설명"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "grant",
+      "ipa": "/ɡrænt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "허락하다, 주다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "보조금"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "award",
+      "ipa": "/əˈwɔːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상, 수여"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "수여하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "typical",
+      "ipa": "/ˈtɪp.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전형적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inevitable",
+      "ipa": "/ɪnˈev.ə.t̬ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "피할 수 없는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "get rid of",
+      "ipa": "/ɡet rɪd əv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~을 제거하다, 없애다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "policy",
+      "ipa": "/ˈpɑː.lə.si/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정책"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "trigger",
+      "ipa": "/ˈtrɪɡ.ɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유발하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "방아쇠, 계기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disguise",
+      "ipa": "/dɪsˈɡaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "변장하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "변장"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "isolate",
+      "ipa": "/ˈaɪ.sə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고립시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "invade",
+      "ipa": "/ɪnˈveɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "침입하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "captive",
+      "ipa": "/ˈkæp.tɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "포로"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "사로잡힌"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "command",
+      "ipa": "/kəˈmænd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "명령하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "명령"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recruit",
+      "ipa": "/rɪˈkruːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모집하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "신병, 신입"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "voluntary",
+      "ipa": "/ˈvɑː.lən.ter.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "자발적인"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "circumstance",
+      "ipa": "/ˈsɜːr.kəm.stæns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상황, 환경"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "environment",
+      "ipa": "/ɪnˈvaɪ.rən.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "환경"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "active",
+      "ipa": "/ˈæk.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "활동적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "community",
+      "ipa": "/kəˈmjuː.nə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공동체"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "necessity",
+      "ipa": "/nəˈses.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "필요성"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "effort",
+      "ipa": "/ˈef.ərt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "노력"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "participation",
+      "ipa": "/pɑːrˌt̬ɪs.əˈpeɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "참여"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "regular",
+      "ipa": "/ˈreɡ.jə.lər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "규칙적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "development",
+      "ipa": "/dɪˈvel.əp.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "발전"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "progress",
+      "ipa": "/ˈprɑː.ɡres/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "진보, 발전"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "진전하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "permit",
+      "ipa": "/pərˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "허락하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "허가증"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "forbid",
+      "ipa": "/fərˈbɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "금지하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "emission",
+      "ipa": "/iˈmɪʃ.ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "배출"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "perspective",
+      "ipa": "/pərˈspek.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "관점"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conservative",
+      "ipa": "/kənˈsɜːr.və.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "보수적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "entire",
+      "ipa": "/ɪnˈtaɪər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전체의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "measure",
+      "ipa": "/ˈmeʒ.ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "측정하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "조치"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "maintain",
+      "ipa": "/meɪnˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유지하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "support",
+      "ipa": "/səˈpɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지지하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "prevent",
+      "ipa": "/prɪˈvent/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "막다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "occur",
+      "ipa": "/əˈkɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발생하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "passion",
+      "ipa": "/ˈpæʃ.ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "열정"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "determine",
+      "ipa": "/dɪˈtɜːr.mɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "influence",
+      "ipa": "/ˈɪn.flu.əns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "영향을 주다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "영향"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "impact",
+      "ipa": "/ˈɪm.pækt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "영향"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "영향을 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "immediate",
+      "ipa": "/ɪˈmiː.di.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "즉각적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "military",
+      "ipa": "/ˈmɪl.ə.ter.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "군사의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ancient",
+      "ipa": "/ˈeɪn.ʃənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고대의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "emphasize",
+      "ipa": "/ˈem.fə.saɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "강조하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "preference",
+      "ipa": "/ˈpref.ər.əns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "선호"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "respect",
+      "ipa": "/rɪˈspekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "존경, 존중"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "존경하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "concern",
+      "ipa": "/kənˈsɜːrn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "걱정, 우려"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "관련되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "forecast",
+      "ipa": "/ˈfɔːr.kæst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예측하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "예보"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "predict",
+      "ipa": "/prɪˈdɪkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예언하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tendency",
+      "ipa": "/ˈten.dən.si/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경향"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "function",
+      "ipa": "/ˈfʌŋk.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기능"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "기능하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "significant",
+      "ipa": "/sɪɡˈnɪf.ə.kənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중요한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "due to",
+      "ipa": "/duː tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~때문에"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be aware of",
+      "ipa": "/biː əˈwer əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~을 알고 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "provide A with B",
+      "ipa": "/prəˈvaɪd eɪ wɪð biː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "A에게 B를 제공하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

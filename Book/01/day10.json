@@ -1,0 +1,533 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "obvious",
+      "ipa": "/ˈɑːb.vi.əs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "분명한, 명백한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "apparent",
+      "ipa": "/əˈper.ənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "명백한, 외관상의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "persist",
+      "ipa": "/pərˈsɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지속하다, 고집하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "temporary",
+      "ipa": "/ˈtem.pər.er.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "일시적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "permanent",
+      "ipa": "/ˈpɜːr.mə.nənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "영구적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rescue",
+      "ipa": "/ˈres.kjuː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구조하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "구조"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "embrace",
+      "ipa": "/ɪmˈbreɪs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "껴안다, 포용하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "포옹"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tremble",
+      "ipa": "/ˈtrem.bəl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "떨다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "떨림"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ancestor",
+      "ipa": "/ˈæn.ses.tər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cautious",
+      "ipa": "/ˈkɔː.ʃəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "조심스러운"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "clarify",
+      "ipa": "/ˈkler.ə.faɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "명확히 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "drag",
+      "ipa": "/dræɡ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "끌다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "horizontal",
+      "ipa": "/ˌhɔːr.əˈzɑːn.təl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수평의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vertical",
+      "ipa": "/ˈvɜːr.t̬ə.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수직의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "remarkable",
+      "ipa": "/rɪˈmɑːr.kə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주목할 만한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "individual",
+      "ipa": "/ˌɪn.dəˈvɪdʒ.u.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "개인"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "개별의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "memorize",
+      "ipa": "/ˈmem.ə.raɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "암기하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "retire",
+      "ipa": "/rɪˈtaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "은퇴하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "athlete",
+      "ipa": "/ˈæθ.liːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "운동선수"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "victim",
+      "ipa": "/ˈvɪk.t̬ɪm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "희생자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "aboard",
+      "ipa": "/əˈbɔːrd/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "탑승하여"
+          ]
+        },
+        {
+          "pos": "전",
+          "defs": [
+            "~에 탑승한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "departure",
+      "ipa": "/dɪˈpɑːr.tʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "출발"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "broaden",
+      "ipa": "/ˈbrɔː.dən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "넓히다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "extend",
+      "ipa": "/ɪkˈstend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연장하다, 확장하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sacrifice",
+      "ipa": "/ˈsæk.rə.faɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "희생"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "희생하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "devise",
+      "ipa": "/dɪˈvaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고안하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "electricity",
+      "ipa": "/ɪˌlek.ˈtrɪs.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "logical",
+      "ipa": "/ˈlɑː.dʒɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "논리적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inherit",
+      "ipa": "/ɪnˈher.ɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "물려받다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "length",
+      "ipa": "/leŋθ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "길이"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "initial",
+      "ipa": "/ɪˈnɪʃ.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "처음의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이니셜"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "qualified",
+      "ipa": "/ˈkwɑː.lə.faɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "자격 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reform",
+      "ipa": "/rɪˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "개혁하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "개혁"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "regulate",
+      "ipa": "/ˈreɡ.jə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "규제하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "delicate",
+      "ipa": "/ˈdel.ə.kət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "섬세한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "resist",
+      "ipa": "/rɪˈzɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "저항하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "restrict",
+      "ipa": "/rɪˈstrɪkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제한하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "possess",
+      "ipa": "/pəˈzes/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소유하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be related to",
+      "ipa": "/biː rɪˈleɪ.t̬ɪd tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~와 관련되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "contribute to",
+      "ipa": "/kənˈtrɪb.juːt tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 기여하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

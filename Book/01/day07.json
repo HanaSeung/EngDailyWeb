@@ -1,0 +1,533 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "protest",
+      "ipa": "/ˈproʊ.test/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "항의하다, 시위하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "항의, 시위"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "organic",
+      "ipa": "/ɔːrˈɡæn.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유기농의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "brilliant",
+      "ipa": "/ˈbrɪl.jənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "훌륭한, 멋진"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "finance",
+      "ipa": "/ˈfaɪ.næns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재정, 금융"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "자금을 조달하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "incredible",
+      "ipa": "/ɪnˈkred.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "믿을 수 없는, 굉장한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "interest",
+      "ipa": "/ˈɪn.t̬rəst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "관심, 흥미"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "흥미를 끌다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rare",
+      "ipa": "/rer/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "드문, 희귀한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "employ",
+      "ipa": "/ɪmˈplɔɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고용하다, 이용하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hire",
+      "ipa": "/haɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고용하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "define",
+      "ipa": "/dɪˈfaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정의하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "donate",
+      "ipa": "/ˈdoʊ.neɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기부하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "average",
+      "ipa": "/ˈæv.ər.ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "평균의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "평균"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "gender",
+      "ipa": "/ˈdʒen.dər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "성별"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "invest",
+      "ipa": "/ɪnˈvest/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "투자하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "previous",
+      "ipa": "/ˈpriː.vi.əs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이전의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "worth",
+      "ipa": "/wɜːrθ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "~의 가치가 있는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "가치"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "alternative",
+      "ipa": "/ɔːlˈtɜːr.nə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대안"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "대안의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "factor",
+      "ipa": "/ˈfæk.t̬ər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요소, 요인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "element",
+      "ipa": "/ˈel.ə.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요소, 성분"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "deadly",
+      "ipa": "/ˈded.li/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "치명적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "firm",
+      "ipa": "/fɜːrm/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "굳은, 확고한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "회사"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "independence",
+      "ipa": "/ˌɪn.dɪˈpen.dəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "독립"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "occasion",
+      "ipa": "/əˈkeɪ.ʒən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경우, 특별한 일"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "publish",
+      "ipa": "/ˈpʌb.lɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "출판하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "appearance",
+      "ipa": "/əˈpɪr.əns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "외모, 출현"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "appoint",
+      "ipa": "/əˈpɔɪnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "임명하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "blend",
+      "ipa": "/blend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "섞다, 혼합하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "혼합"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "barrier",
+      "ipa": "/ˈber.i.ər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "장벽"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "obstacle",
+      "ipa": "/ˈɑːb.stə.kəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "장애물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "detect",
+      "ipa": "/dɪˈtekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감지하다, 발견하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "education",
+      "ipa": "/ˌed.jəˈkeɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "교육"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "enormous",
+      "ipa": "/ɪˈnɔːr.məs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "거대한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vast",
+      "ipa": "/væst/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "광대한, 방대한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tiny",
+      "ipa": "/ˈtaɪ.ni/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "아주 작은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ordinary",
+      "ipa": "/ˈɔːr.dən.er.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "평범한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "application",
+      "ipa": "/ˌæp.ləˈkeɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신청, 적용"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reasonable",
+      "ipa": "/ˈriː.zən.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "합리적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "abandon",
+      "ipa": "/əˈbæn.dən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "버리다, 포기하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "get used to",
+      "ipa": "/ɡet juːzd tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 익숙해지다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "figure out",
+      "ipa": "/ˈfɪɡ.ər aʊt/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "이해하다, 알아내다"
+          ]
+        }
+      ]
+    }
+  ]
+}

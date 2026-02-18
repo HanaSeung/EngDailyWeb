@@ -1,0 +1,545 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "occupation",
+      "ipa": "/ˌɑː.kjəˈpeɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "직업"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "supervise",
+      "ipa": "/ˈsuː.pər.vaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감독하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "specialize",
+      "ipa": "/ˈspeʃ.əl.aɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전문으로 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "bond",
+      "ipa": "/bɑːnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유대, 결속"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "결속하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "certificate",
+      "ipa": "/sərˈtɪf.ə.kət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "증명서"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "chief",
+      "ipa": "/tʃiːf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "(계급상) 최고위자"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "주요한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "collaborate",
+      "ipa": "/kəˈlæb.ə.reɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "협력하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "deprive",
+      "ipa": "/dɪˈpraɪv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "빼앗다, 박탈하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "colleague",
+      "ipa": "/ˈkɑː.liːɡ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동료"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "shift",
+      "ipa": "/ʃɪft/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "변화, 교대 근무"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "이동하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "outcome",
+      "ipa": "/ˈaʊt.kʌm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결과"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "exceed",
+      "ipa": "/ɪkˈsiːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "초과하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "procedure",
+      "ipa": "/prəˈsiː.dʒər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "절차"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "attendant",
+      "ipa": "/əˈten.dənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "안내원, 수행원"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "negotiation",
+      "ipa": "/nɪˌɡoʊ.ʃiˈeɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "협상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "incentive",
+      "ipa": "/ɪnˈsen.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유인책, 장려책"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "strategy",
+      "ipa": "/ˈstræt̬.ə.dʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전략"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "challenge",
+      "ipa": "/ˈtʃæl.ɪndʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "도전"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "도전하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "routine",
+      "ipa": "/ruːˈtiːn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "일상"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "일상적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "shelter",
+      "ipa": "/ˈʃel.t̬ər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "피난처, 보호소"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보호하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "withdraw",
+      "ipa": "/wɪðˈdrɔː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "철수하다, 인출하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "deposit",
+      "ipa": "/dɪˈpɑː.zɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예금하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "보증금"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "secure",
+      "ipa": "/sɪˈkjʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확보하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "안전한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "chore",
+      "ipa": "/tʃɔːr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "집안일, 허드렛일"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "react",
+      "ipa": "/riˈækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반응하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "urban",
+      "ipa": "/ˈɜːr.bən/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "도시의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rural",
+      "ipa": "/ˈrʊr.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "시골의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "complicated",
+      "ipa": "/ˈkɑːm.plə.keɪ.t̬ɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "복잡한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "resident",
+      "ipa": "/ˈrez.ə.dənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "거주자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "familiar",
+      "ipa": "/fəˈmɪl.jər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "익숙한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "miracle",
+      "ipa": "/ˈmɪr.ə.kəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기적"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "companion",
+      "ipa": "/kəmˈpæn.jən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동반자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "keep up with",
+      "ipa": "/kiːp ʌp wɪð/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "따라가다, 뒤처지지 않다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "make the most of",
+      "ipa": "/meɪk ðə moʊst əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "최대한 활용하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "exchange",
+      "ipa": "/ɪksˈtʃeɪndʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "교환하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "교환"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "strain",
+      "ipa": "/streɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "긴장, 부담"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "긴장시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "adventure",
+      "ipa": "/ədˈven.tʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "모험"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "destination",
+      "ipa": "/ˌdes.t̬əˈneɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목적지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "accompany",
+      "ipa": "/əˈkʌm.pə.ni/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "동반하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "remote",
+      "ipa": "/rɪˈmoʊt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "외딴, 멀리 떨어진"
+          ]
+        }
+      ]
+    }
+  ]
+}

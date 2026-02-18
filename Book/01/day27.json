@@ -1,0 +1,599 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "bear",
+      "ipa": "/ber/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "참다, 견디다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "곰"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sound",
+      "ipa": "/saʊnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소리"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "건전한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "들리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "bill",
+      "ipa": "/bɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "청구서, 법안, 지폐"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "count",
+      "ipa": "/kaʊnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "세다, 중요하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "계산, 셈"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "present",
+      "ipa": "/ˈprez.ənt/ (n,a), /prɪˈzent/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "선물, 현재"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "현재의, 참석한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "제시하다, 발표하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "grave",
+      "ipa": "/ɡreɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "무덤"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "심각한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "subject",
+      "ipa": "/ˈsʌb.dʒɪkt/ (n), /səbˈdʒekt/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주제, 과목"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "~을 당하게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "draw",
+      "ipa": "/drɑː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "그리다, 끌다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "무승부"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "contract",
+      "ipa": "/ˈkɑːn.trækt/ (n), /kənˈtrækt/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "계약"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "수축하다, 계약하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hold",
+      "ipa": "/hoʊld/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "잡다, 유지하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "balance",
+      "ipa": "/ˈbæl.əns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "균형, 잔액"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "균형을 잡다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "character",
+      "ipa": "/ˈker.ək.tɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "성격, 등장인물, 문자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "absorb",
+      "ipa": "/əbˈzɔːrb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "흡수하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "absurd",
+      "ipa": "/əbˈsɝːd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "터무니없는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "carve",
+      "ipa": "/kɑːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조각하다, 새기다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "curve",
+      "ipa": "/kɝːv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "곡선"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "구부리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "complement",
+      "ipa": "/ˈkɑːm.plə.ment/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보완물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보완하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "compliment",
+      "ipa": "/ˈkɑːm.plə.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "칭찬"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "칭찬하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "respectable",
+      "ipa": "/rɪˈspek.tə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "존경할 만한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "respective",
+      "ipa": "/rɪˈspek.tɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "각각의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "principal",
+      "ipa": "/ˈprɪn.sə.pəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주요한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "교장, 원금"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "principle",
+      "ipa": "/ˈprɪn.sə.pəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원칙"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "acquire",
+      "ipa": "/əˈkwaɪɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "획득하다, 습득하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inquire",
+      "ipa": "/ɪnˈkwaɪɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "묻다, 문의하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "require",
+      "ipa": "/rɪˈkwaɪɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "요구하다, 필요로 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "lie¹",
+      "ipa": "/laɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "눕다, 놓여 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "lie²",
+      "ipa": "/laɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거짓말하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "거짓말"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "lay",
+      "ipa": "/leɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "놓다, 눕히다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "imitate",
+      "ipa": "/ˈɪm.ə.teɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모방하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "initiate",
+      "ipa": "/ɪˈnɪʃ.i.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "시작하다, 착수하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "defeat",
+      "ipa": "/dɪˈfiːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "패배시키다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "패배"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "defect",
+      "ipa": "/ˈdiː.fekt/ (n), /dɪˈfekt/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결함"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "탈퇴하다, 망명하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "frame",
+      "ipa": "/freɪm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "틀, 구조"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "틀에 넣다, 구성하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "flame",
+      "ipa": "/fleɪm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "불꽃, 화염"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "successive",
+      "ipa": "/səkˈses.ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "연속적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "successful",
+      "ipa": "/səkˈses.fəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "성공한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cooperation",
+      "ipa": "/koʊˌɑː.pəˈreɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "협력, 협조"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "corporation",
+      "ipa": "/ˌkɔːr.pəˈreɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기업, 법인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "call for",
+      "ipa": "/kɔːl fɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~을 요구하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "call off",
+      "ipa": "/kɔːl ɔːf/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "취소하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

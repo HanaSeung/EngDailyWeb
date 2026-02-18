@@ -1,0 +1,557 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "creative",
+      "ipa": "/kriˈeɪ.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "창의적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "abstract",
+      "ipa": "/ˈæb.strækt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "추상적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "요약"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "concrete",
+      "ipa": "/ˈkɑːŋ.kriːt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "구체적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "콘크리트"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "masterpiece",
+      "ipa": "/ˈmæs.tər.piːs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "걸작"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "polish",
+      "ipa": "/ˈpɑː.lɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "닦다, 윤내다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "광택제"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "craft",
+      "ipa": "/kræft/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공예, 기술"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "만들다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "authentic",
+      "ipa": "/ɔːˈθen.t̬ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "진짜의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "precious",
+      "ipa": "/ˈpreʃ.əs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "귀중한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "proportion",
+      "ipa": "/prəˈpɔːr.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비율"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "portrait",
+      "ipa": "/ˈpɔːr.trət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "초상화"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "play a role (in)",
+      "ipa": "/pleɪ ə roʊl/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "역할을 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "elaborate",
+      "ipa": "/ɪˈlæb.ər.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정교한, 공들인"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "자세히 설명하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "external",
+      "ipa": "/ɪkˈstɜːr.nəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "외부의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "internal",
+      "ipa": "/ɪnˈtɜːr.nəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "내부의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "memorial",
+      "ipa": "/məˈmɔːr.i.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기념물"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "기념의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "differ",
+      "ipa": "/ˈdɪf.ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "다르다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "distinguish",
+      "ipa": "/dɪˈstɪŋ.ɡwɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구별하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "contrast",
+      "ipa": "/ˈkɑːn.træst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대조, 대비"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "대조하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "architect",
+      "ipa": "/ˈɑːr.kə.tekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "건축가"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "institute",
+      "ipa": "/ˈɪn.stə.tuːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기관, 협회"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "설립하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "coordinate",
+      "ipa": "/koʊˈɔːr.də.neɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조정하다, 조직하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "좌표"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "collapse",
+      "ipa": "/kəˈlæps/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "무너지다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "붕괴"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "amuse",
+      "ipa": "/əˈmjuːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "즐겁게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "entertain",
+      "ipa": "/ˌen.t̬ərˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "즐겁게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "compose",
+      "ipa": "/kəmˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "작곡하다, 구성하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "orchestra",
+      "ipa": "/ˈɔːr.kə.strə/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "관현악단"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rehearse",
+      "ipa": "/rɪˈhɜːrs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예행연습하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "popularity",
+      "ipa": "/ˌpɑː.pjəˈler.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "perform",
+      "ipa": "/pərˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "공연하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "impressive",
+      "ipa": "/ɪmˈpres.ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "인상적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "flash",
+      "ipa": "/flæʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "번쩍이다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "번쩍임, 섬광"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "harmonize",
+      "ipa": "/ˈhɑːr.mə.naɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조화를 이루다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "encounter",
+      "ipa": "/ɪnˈkaʊn.t̬ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "우연히 마주치다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "만남"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "socialize",
+      "ipa": "/ˈsoʊ.ʃəl.aɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "사귀다, 어울리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "imaginative",
+      "ipa": "/ɪˈmædʒ.ə.nə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상상력이 풍부한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "magical",
+      "ipa": "/ˈmædʒ.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "마법 같은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "theme",
+      "ipa": "/θiːm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주제"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "entrance",
+      "ipa": "/ˈen.trəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "입구"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "classical",
+      "ipa": "/ˈklæs.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고전적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be associated with",
+      "ipa": "/biː əˈsoʊ.si.eɪ.t̬ɪd wɪð/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~와 관련되다"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "conquer",
+      "ipa": "/ˈkɑːŋ.kər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정복하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "heritage",
+      "ipa": "/ˈher.ɪ.t̬ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유산"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "artificial",
+      "ipa": "/ˌɑːr.t̬əˈfɪʃ.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "인공적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conventional",
+      "ipa": "/kənˈven.ʃən.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전통적인, 관습적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "colonial",
+      "ipa": "/kəˈloʊ.ni.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "식민지의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "noble",
+      "ipa": "/ˈnoʊ.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고귀한, 귀족의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "귀족"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ascend",
+      "ipa": "/əˈsend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "오르다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "empower",
+      "ipa": "/ɪmˈpaʊ.ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "권한을 부여하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be derived from",
+      "ipa": "/biː dɪˈraɪvd frʌm/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에서 유래하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "take ~ into account",
+      "ipa": "/teɪk ˈɪn.tuː əˈkaʊnt/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~을 고려하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "philosophy",
+      "ipa": "/fəˈlɑː.sə.fi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "철학"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "profound",
+      "ipa": "/prəˈfaʊnd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "깊은, 심오한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "shallow",
+      "ipa": "/ˈʃæl.oʊ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "얕은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "oppose",
+      "ipa": "/əˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반대하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "spirit",
+      "ipa": "/ˈspɪr.ɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정신, 영혼"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ritual",
+      "ipa": "/ˈrɪtʃ.u.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의식, 의례"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "의식의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "substance",
+      "ipa": "/ˈsʌb.stəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "물질, 실체"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "prejudice",
+      "ipa": "/ˈpredʒ.ə.dɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "편견"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "편견을 갖게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "bias",
+      "ipa": "/ˈbaɪ.əs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "편향"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "편향시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ultimate",
+      "ipa": "/ˈʌl.t̬ə.mət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "궁극적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "absolute",
+      "ipa": "/ˈæb.sə.luːt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "절대적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "humanity",
+      "ipa": "/hjuːˈmæn.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인류, 인간성"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "draft",
+      "ipa": "/dræft/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "초안"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "초안을 작성하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "spell",
+      "ipa": "/spel/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "철자를 말하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "마법, 한동안"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "modify",
+      "ipa": "/ˈmɑː.də.faɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "comic",
+      "ipa": "/ˈkɑː.mɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "희극적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "만화"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tragic",
+      "ipa": "/ˈtrædʒ.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비극적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "simplify",
+      "ipa": "/ˈsɪm.plə.faɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "단순화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "myth",
+      "ipa": "/mɪθ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신화"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "imply",
+      "ipa": "/ɪmˈplaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "암시하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "context",
+      "ipa": "/ˈkɑːn.tekst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문맥, 맥락"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inherent",
+      "ipa": "/ɪnˈhɪr.ənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "내재적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "outline",
+      "ipa": "/ˈaʊt.laɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "개요, 윤곽"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "개요를 설명하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "translate",
+      "ipa": "/trænsˈleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "번역하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "series",
+      "ipa": "/ˈsɪr.iːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "연속, 시리즈"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "plot",
+      "ipa": "/plɑːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "줄거리"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "음모를 꾸미다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "paradoxically",
+      "ipa": "/ˌper.əˈdɑːk.sɪ.kəl.i/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "역설적으로"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ironically",
+      "ipa": "/aɪˈrɑː.nɪ.kəl.i/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "반어적으로"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "metaphor",
+      "ipa": "/ˈmet̬.ə.fɔːr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "은유"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fiction",
+      "ipa": "/ˈfɪk.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소설, 허구"
+          ]
+        }
+      ]
+    }
+  ]
+}

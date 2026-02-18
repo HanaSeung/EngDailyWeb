@@ -1,0 +1,581 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "address",
+      "ipa": "/ˈæd.res/ (n), /əˈdres/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주소, 연설"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "말을 걸다, 연설하다, 다루다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "spring",
+      "ipa": "/sprɪŋ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "봄, 샘, 용수철"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "튀어 오르다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "board",
+      "ipa": "/bɔːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "판자, 이사회, 게시판"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "탑승하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "block",
+      "ipa": "/blɑːk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "덩어리, 장애물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "막다, 차단하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reason",
+      "ipa": "/ˈriː.zən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이유, 이성"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "추론하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cover",
+      "ipa": "/ˈkʌv.ɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "덮다, 포함하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "덮개, 표지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "flat",
+      "ipa": "/flæt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "평평한, 납작한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "아파트"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "margin",
+      "ipa": "/ˈmɑːr.dʒɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "여백, 차이, 수익"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "issue",
+      "ipa": "/ˈɪʃ.uː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문제, 발행물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "발행하다, 발표하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "even",
+      "ipa": "/ˈiː.vən/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "심지어"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "평평한, 짝수의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "release",
+      "ipa": "/rɪˈliːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "석방하다, 출시하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "석방, 발표"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "content",
+      "ipa": "/ˈkɑːn.tent/ (n), /kənˈtent/ (adj)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "내용물, 콘텐츠"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "만족하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "adapt",
+      "ipa": "/əˈdæpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "적응하다, 각색하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "adopt",
+      "ipa": "/əˈdɑːpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "입양하다, 채택하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "altitude",
+      "ipa": "/ˈæl.tə.tuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "고도, 높이"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "aptitude",
+      "ipa": "/ˈæp.tə.tuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소질, 적성"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "attitude",
+      "ipa": "/ˈæt̬.ə.tuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "태도, 자세"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "access",
+      "ipa": "/ˈæk.ses/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "접근, 이용"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "접속하다, 접근하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "excess",
+      "ipa": "/ɪkˈses/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "초과, 과잉"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "여분의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "council",
+      "ipa": "/ˈkaʊn.səl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의회, 위원회"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "counsel",
+      "ipa": "/ˈkaʊn.səl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조언, 변호인"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "조언하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "flight",
+      "ipa": "/flaɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비행, 항공편"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fright",
+      "ipa": "/fraɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공포"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "phase",
+      "ipa": "/feɪz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "단계, 국면"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "phrase",
+      "ipa": "/freɪz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "구, 말"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "표현하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "interpret",
+      "ipa": "/ɪnˈtɝː.prɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해석하다, 통역하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "interrupt",
+      "ipa": "/ˌɪn.t̬əˈrʌpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방해하다, 끼어들다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "moral",
+      "ipa": "/ˈmɔːr.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "도덕적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "교훈"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "morale",
+      "ipa": "/məˈræl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사기, 의욕"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mortal",
+      "ipa": "/ˈmɔːr.t̬əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "죽을 운명의, 치명적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "affect",
+      "ipa": "/əˈfekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "영향을 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "effect",
+      "ipa": "/ɪˈfekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "효과, 영향"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mediate",
+      "ipa": "/ˈmiː.di.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "중재하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "meditate",
+      "ipa": "/ˈmed.ɪ.teɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "명상하다, 깊이 생각하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "simultaneously",
+      "ipa": "/ˌsaɪ.məlˈteɪ.ni.əs.li/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "동시에"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "spontaneously",
+      "ipa": "/spɑːnˈteɪ.ni.əs.li/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "자발적으로"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "comparative",
+      "ipa": "/kəmˈper.ə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비교의, 상대적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "competitive",
+      "ipa": "/kəmˈpet̬.ə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "경쟁의, 경쟁력 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "make up",
+      "ipa": "/meɪk ʌp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "화해하다, 구성하다, 보상하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "make up for",
+      "ipa": "/meɪk ʌp fɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~을 보상하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

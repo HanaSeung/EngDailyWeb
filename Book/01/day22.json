@@ -1,0 +1,515 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "psychology",
+      "ipa": "/saɪˈkɑː.lə.dʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "심리학"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "relief",
+      "ipa": "/rɪˈliːf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "안도, 경감"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mental",
+      "ipa": "/ˈmen.t̬əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정신의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "manipulate",
+      "ipa": "/məˈnɪp.jə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조종하다, 다루다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "uneasy",
+      "ipa": "/ʌnˈiː.zi/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불안한, 불편한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "frightened",
+      "ipa": "/ˈfraɪ.tənd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "겁먹은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "afraid",
+      "ipa": "/əˈfreɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "두려워하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "illusion",
+      "ipa": "/ɪˈluː.ʒən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "환상, 착각"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "undergo",
+      "ipa": "/ˌʌn.dɚˈɡoʊ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "겪다, 경험하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "identify",
+      "ipa": "/aɪˈden.t̬ə.faɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확인하다, 동일시하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stress",
+      "ipa": "/stres/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "스트레스"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "강조하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "desperate",
+      "ipa": "/ˈdes.pɚ.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "절망적인, 필사적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stable",
+      "ipa": "/ˈsteɪ.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "안정된"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "overwhelm",
+      "ipa": "/ˌoʊ.vɚˈwelm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "압도하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "anxiety",
+      "ipa": "/æŋˈzaɪ.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "불안, 염려"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "burden",
+      "ipa": "/ˈbɝː.dən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "짐, 부담"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "짐 지우다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "complex",
+      "ipa": "/ˈkɑːm.pleks/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "복잡한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "복합체, 강박관념"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "intend",
+      "ipa": "/ɪnˈtend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의도하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sudden",
+      "ipa": "/ˈsʌd.ən/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "갑작스러운"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "favorable",
+      "ipa": "/ˈfeɪ.vər.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "호의적인, 유리한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "curiosity",
+      "ipa": "/ˌkjʊr.iˈɑː.sə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "호기심"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "innate",
+      "ipa": "/ɪˈneɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "타고난, 선천적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ignorant",
+      "ipa": "/ˈɪɡ.nɚ.ənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "무지한, 무식한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "associate",
+      "ipa": "/əˈsoʊ.ʃi.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연관짓다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "동료"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "assumption",
+      "ipa": "/əˈsʌmp.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가정, 추정"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "distraction",
+      "ipa": "/dɪˈstræk.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "집중을 방해하는 것"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "subjective",
+      "ipa": "/səbˈdʒek.tɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주관적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "end up -ing",
+      "ipa": "/end ʌp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~하게 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "interfere",
+      "ipa": "/ˌɪn.t̬ɚˈfɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "간섭하다, 방해하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "intervene",
+      "ipa": "/ˌɪn.t̬ɚˈviːn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "개입하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "exclude",
+      "ipa": "/ɪkˈskluːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제외하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "persuade",
+      "ipa": "/pɚˈsweɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설득하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "convince",
+      "ipa": "/kənˈvɪns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "납득시키다, 확신시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ensure",
+      "ipa": "/ɪnˈʃʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보장하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cheat",
+      "ipa": "/tʃiːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "속이다, 부정행위를 하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "속이는 사람"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "boost",
+      "ipa": "/buːst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "증가시키다, 북돋우다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "attribute",
+      "ipa": "/əˈtrɪb.juːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~의 결과로 보다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "skeptical",
+      "ipa": "/ˈskep.tɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "회의적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "optimistic",
+      "ipa": "/ˌɑːp.təˈmɪs.tɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "낙관적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "out of place",
+      "ipa": "/aʊt əv pleɪs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "어울리지 않는, 부적절한"
+          ]
+        }
+      ]
+    }
+  ]
+}

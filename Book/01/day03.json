@@ -1,0 +1,533 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "knowledge",
+      "ipa": "/ˈnɑː.lɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지식"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "encourage",
+      "ipa": "/ɪnˈkɜːr.ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "격려하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "discourage",
+      "ipa": "/dɪsˈkɜːr.ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "낙담시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "detail",
+      "ipa": "/ˈdiː.teɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "세부사항"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "resolution",
+      "ipa": "/ˌrez.əˈluː.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결의, 해결"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "probable",
+      "ipa": "/ˈprɑː.bə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "있음직한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "trait",
+      "ipa": "/treɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "특징"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "direct",
+      "ipa": "/dəˈrekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지시하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "직접적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "distance",
+      "ipa": "/ˈdɪs.təns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "거리"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "income",
+      "ipa": "/ˈɪn.kʌm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수입"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "revise",
+      "ipa": "/rɪˈvaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mark",
+      "ipa": "/mɑːrk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "표시하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "표시"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "negative",
+      "ipa": "/ˈneɡ.ə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부정적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "official",
+      "ipa": "/əˈfɪʃ.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공식적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "공무원"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "search",
+      "ipa": "/sɜːrtʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "찾다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "탐색"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "benefit",
+      "ipa": "/ˈben.ə.fɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이익"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "이익을 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "profit",
+      "ipa": "/ˈprɑː.fɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수익"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "damage",
+      "ipa": "/ˈdæm.ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "피해"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "손상시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "amaze",
+      "ipa": "/əˈmeɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "놀라게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "opportunity",
+      "ipa": "/ˌɑː.pərˈtuː.nə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기회"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ignore",
+      "ipa": "/ɪɡˈnɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "무시하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "contact",
+      "ipa": "/ˈkɑːn.tækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연락하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "연락"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "various",
+      "ipa": "/ˈver.i.əs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "다양한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "diverse",
+      "ipa": "/daɪˈvɜːrs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "다양한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "performance",
+      "ipa": "/pərˈfɔːr.məns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공연, 성과"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "contain",
+      "ipa": "/kənˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "포함하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "involve",
+      "ipa": "/ɪnˈvɑːlv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "포함하다, 관련되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "concentrate",
+      "ipa": "/ˈkɑːn.sən.treɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "집중하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disturb",
+      "ipa": "/dɪˈstɜːrb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방해하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "due",
+      "ipa": "/duː/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "~하기로 되어 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "examine",
+      "ipa": "/ɪɡˈzæm.ɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조사하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "investigate",
+      "ipa": "/ɪnˈves.t̬ə.ɡeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수사하다, 조사하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "research",
+      "ipa": "/ˈriː.sɜːrtʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연구하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "연구"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "material",
+      "ipa": "/məˈtɪr.i.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자료, 재료"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "medical",
+      "ipa": "/ˈmed.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "의학의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pursue",
+      "ipa": "/pərˈsuː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추구하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "alter",
+      "ipa": "/ˈɔːl.t̬ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "바꾸다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "according to",
+      "ipa": "/əˈkɔːr.dɪŋ tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 따르면"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "participate in",
+      "ipa": "/pɑːrˈtɪs.ə.peɪt ɪn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 참여하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "look into",
+      "ipa": "/lʊk ˈɪn.tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "조사하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

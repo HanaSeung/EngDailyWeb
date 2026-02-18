@@ -1,0 +1,557 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "account",
+      "ipa": "/əˈkaʊnt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "계좌, 설명"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "설명하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "correct",
+      "ipa": "/kəˈrekt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "옳은"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "수정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "charge",
+      "ipa": "/tʃɑːrdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요금, 책임"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "청구하다, 기소하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "check",
+      "ipa": "/tʃek/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확인하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "점검, 수표"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "air",
+      "ipa": "/er/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공기"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "방송하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tip",
+      "ipa": "/tɪp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "팁, 끝"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "기울이다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "still",
+      "ipa": "/stɪl/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "아직도, 여전히"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "고요한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "custom",
+      "ipa": "/ˈkʌs.təm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "관습, 풍습"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "regard",
+      "ipa": "/rɪˈɡɑːrd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~로 여기다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "존경, 고려"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "develop",
+      "ipa": "/dɪˈvel.əp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "개발하다, 성장하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "object",
+      "ipa": "/ˈɑːb.dʒɪkt/ (n), /əbˈdʒekt/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "물체, 대상"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "반대하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "yield",
+      "ipa": "/jiːld/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "양보하다, 생산하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "산출량"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sacred",
+      "ipa": "/ˈseɪ.krɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "신성한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "scared",
+      "ipa": "/skerd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "겁먹은, 두려운"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vain",
+      "ipa": "/veɪn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "헛된, 허영심이 강한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vein",
+      "ipa": "/veɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정맥, 기질"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cite",
+      "ipa": "/saɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인용하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "site",
+      "ipa": "/saɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "장소, 현장"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mass",
+      "ipa": "/mæs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "덩어리, 대중"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mess",
+      "ipa": "/mes/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "엉망진창, 혼란"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "expand",
+      "ipa": "/ɪkˈspænd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확장하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "expend",
+      "ipa": "/ɪkˈspend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지출하다, 소비하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "literal",
+      "ipa": "/ˈlɪt̬.ɚ.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "글자 그대로의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "literate",
+      "ipa": "/ˈlɪt̬.ɚ.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "글을 읽고 쓸 수 있는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "식자(識者)"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "literary",
+      "ipa": "/ˈlɪt̬.ə.rer.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "문학의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "considerable",
+      "ipa": "/kənˈsɪd.ɚ.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상당한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "considerate",
+      "ipa": "/kənˈsɪd.ɚ.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사려 깊은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "optical",
+      "ipa": "/ˈɑːp.tɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "시각의, 광학의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "optional",
+      "ipa": "/ˈɑːp.ʃən.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "선택적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "optimal",
+      "ipa": "/ˈɑːp.tə.məl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "최적의, 가장 좋은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vague",
+      "ipa": "/veɪɡ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "모호한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vogue",
+      "ipa": "/voʊɡ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유행"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "extinct",
+      "ipa": "/ɪkˈstɪŋkt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "멸종된"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "instinct",
+      "ipa": "/ˈɪn.stɪŋkt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "본능"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wander",
+      "ipa": "/ˈwɑːn.dɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "헤매다, 돌아다니다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wonder",
+      "ipa": "/ˈwʌn.dɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "궁금해하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "경이, 놀라움"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "famine",
+      "ipa": "/ˈfæm.ɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기근"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "feminine",
+      "ipa": "/ˈfem.ə.nɪn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "여성스러운"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be known for",
+      "ipa": "/bi noʊn fɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~로 유명하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be known as",
+      "ipa": "/bi noʊn æz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~로 알려져 있다"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "physical",
+      "ipa": "/ˈfɪz.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "신체의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "opponent",
+      "ipa": "/əˈpoʊ.nənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상대"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "target",
+      "ipa": "/ˈtɑːr.ɡɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목표"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "목표로 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "posture",
+      "ipa": "/ˈpɑːs.tʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자세"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "track",
+      "ipa": "/træk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "트랙, 경로"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "추적하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "row",
+      "ipa": "/roʊ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "줄, 열"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "젓다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stretch",
+      "ipa": "/stretʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "늘이다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "신장"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "extreme",
+      "ipa": "/ɪkˈstriːm/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "극단적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "극단"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "flexible",
+      "ipa": "/ˈflek.sə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유연한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "muscle",
+      "ipa": "/ˈmʌs.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "근육"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "surgery",
+      "ipa": "/ˈsɜːr.dʒər.i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수술"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cure",
+      "ipa": "/kjʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "치료하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "치료법"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "heal",
+      "ipa": "/hiːl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "낫다, 치유하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "symptom",
+      "ipa": "/ˈsɪmp.təm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "증상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "immune",
+      "ipa": "/ɪˈmjuːn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "면역의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "therapy",
+      "ipa": "/ˈθer.ə.pi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "치료"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "faint",
+      "ipa": "/feɪnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기절하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "희미한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stroke",
+      "ipa": "/stroʊk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "뇌졸중"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "쓰다듬다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "breath",
+      "ipa": "/breθ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "숨"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "bleed",
+      "ipa": "/bliːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "피를 흘리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "diagnose",
+      "ipa": "/ˈdaɪ.əɡ.noʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "진단하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "prescribe",
+      "ipa": "/prɪˈskraɪb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "처방하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "chronic",
+      "ipa": "/ˈkrɑː.nɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "만성의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "obesity",
+      "ipa": "/oʊˈbiː.sə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비만"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pregnant",
+      "ipa": "/ˈpreɡ.nənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "임신한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fatigue",
+      "ipa": "/fəˈtiːɡ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "피로"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "digestion",
+      "ipa": "/daɪˈdʒes.tʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소화"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "have an effect on",
+      "ipa": "/hæv ən ɪˈfekt ɑːn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "영향을 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "suffer from",
+      "ipa": "/ˈsʌf.ər frʌm/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~으로 고통받다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "scent",
+      "ipa": "/sent/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "향기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "flavor",
+      "ipa": "/ˈfleɪ.vər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "맛"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "nutrient",
+      "ipa": "/ˈnuː.tri.ənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "영양소"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fiber",
+      "ipa": "/ˈfaɪ.bər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "섬유질"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stir",
+      "ipa": "/stɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "젓다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "edible",
+      "ipa": "/ˈed.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "먹을 수 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "spill",
+      "ipa": "/spɪl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "엎지르다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "유출"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recipe",
+      "ipa": "/ˈres.ə.pi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요리법"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "portion",
+      "ipa": "/ˈpɔːr.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부분, 1인분"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dietary",
+      "ipa": "/ˈdaɪ.ə.ter.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "식이의, 음식물의, 식단의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "starve",
+      "ipa": "/stɑːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "굶주리다"
+          ]
+        }
+      ]
+    }
+  ]
+}

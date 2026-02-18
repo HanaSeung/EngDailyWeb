@@ -1,0 +1,503 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "modern",
+      "ipa": "/ˈmɑː.dɚn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "현대의, 근대의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "contemporary",
+      "ipa": "/kənˈtem.pə.rer.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "현대의, 동시대의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "동시대 사람"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "urgent",
+      "ipa": "/ˈɝː.dʒənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "긴급한, 시급한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "relevant",
+      "ipa": "/ˈrel.ə.vənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "관련 있는, 적절한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "explicit",
+      "ipa": "/ɪkˈsplɪs.ɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "명백한, 분명한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "approve",
+      "ipa": "/əˈpruːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "승인하다, 찬성하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "confront",
+      "ipa": "/kənˈfrʌnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "직면하다, 맞서다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "poverty",
+      "ipa": "/ˈpɑː.vɚ.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "빈곤, 가난"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wealth",
+      "ipa": "/welθ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부, 재산"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "integrate",
+      "ipa": "/ˈɪn.t̬ə.ɡreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통합하다, 통합되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "destructive",
+      "ipa": "/dɪˈstrʌk.tɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "파괴적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hierarchy",
+      "ipa": "/ˈhaɪ.rɑːr.ki/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "계층, 계급 제도"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "expertise",
+      "ipa": "/ˌek.spɝːˈtiːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전문 지식, 전문 기술"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reproduce",
+      "ipa": "/ˌriː.prəˈduːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "재생하다, 번식하다, 복제하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "frequency",
+      "ipa": "/ˈfriː.kwən.si/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "빈도, 주파수"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "identical",
+      "ipa": "/aɪˈden.t̬ə.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "동일한, 똑같은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reinforce",
+      "ipa": "/ˌriː.ɪnˈfɔːrs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "강화하다, 보강하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "strengthen",
+      "ipa": "/ˈstreŋ.θən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "강화하다, 튼튼하게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "industrial",
+      "ipa": "/ɪnˈdʌs.tri.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "산업의, 공업의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "classify",
+      "ipa": "/ˈklæs.ə.faɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분류하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mutual",
+      "ipa": "/ˈmjuː.tʃu.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상호 간의, 서로의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "decorate",
+      "ipa": "/ˈdek.ə.reɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "장식하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "potential",
+      "ipa": "/pəˈten.ʃəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "잠재적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "잠재력"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "possibility",
+      "ipa": "/ˌpɑː.səˈbɪl.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가능성"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "implement",
+      "ipa": "/ˈɪm.plə.ment/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "시행하다, 실행하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "도구"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "widespread",
+      "ipa": "/ˌwaɪdˈspred/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "널리 퍼진, 광범위한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "resemble",
+      "ipa": "/rɪˈzem.bəl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "닮다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fundamental",
+      "ipa": "/ˌfʌn.dəˈmen.t̬əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "근본적인, 기본적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "enthusiastic",
+      "ipa": "/ɪnˌθuː.ziˈæs.tɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "열광적인, 열정적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "consult",
+      "ipa": "/kənˈsʌlt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "상담하다, 참고하다, 의논하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disadvantage",
+      "ipa": "/ˌdɪs.ədˈvæn.t̬ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "불리한 점, 약점"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "drawback",
+      "ipa": "/ˈdrɑː.bæk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결점, 장애"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "steady",
+      "ipa": "/ˈsted.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "꾸준한, 안정된"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "primitive",
+      "ipa": "/ˈprɪm.ə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "원시의, 초기의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dominant",
+      "ipa": "/ˈdɑː.mə.nənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "우세한, 지배적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inhabit",
+      "ipa": "/ɪnˈhæb.ɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거주하다, 살다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "adolescence",
+      "ipa": "/ˌæd.əˈles.əns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "청소년기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "attach",
+      "ipa": "/əˈtætʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "붙이다, 첨부하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "in terms of",
+      "ipa": "/ɪn tɝːmz əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~의 관점에서, ~에 관하여"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "bring about",
+      "ipa": "/brɪŋ əˈbaʊt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "야기하다, 초래하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

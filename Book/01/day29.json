@@ -1,0 +1,557 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "company",
+      "ipa": "/ˈkʌm.pə.ni/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "회사, 동행"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "article",
+      "ipa": "/ˈɑːr.t̬ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기사, 물품, 관사"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "correspond",
+      "ipa": "/ˌkɔːr.əˈspɑːnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "일치하다, 서신을 주고받다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reflect",
+      "ipa": "/rɪˈflekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반영하다, 반사하다, 숙고하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "post",
+      "ipa": "/poʊst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우편, 직책, 기둥"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "우편으로 보내다, 게시하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "decline",
+      "ipa": "/dɪˈklaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감소하다, 거절하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "감소, 하락"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "suit",
+      "ipa": "/suːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "정장, 소송"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "어울리다, 적합하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "figure",
+      "ipa": "/ˈfɪɡ.jɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수치, 인물, 모습"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "생각하다, 계산하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "case",
+      "ipa": "/keɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경우, 사례, 사건, 상자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dismiss",
+      "ipa": "/dɪsˈmɪs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해고하다, 무시하다, 기각하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reserve",
+      "ipa": "/rɪˈzɝːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예약하다, 보유하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "비축(물)"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "appreciate",
+      "ipa": "/əˈpriː.ʃi.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감사하다, 진가를 알아보다, 인식하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "state",
+      "ipa": "/steɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상태, 국가, 주"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "진술하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "statue",
+      "ipa": "/ˈstætʃ.uː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조각상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "status",
+      "ipa": "/ˈsteɪ.t̬əs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지위, 상태"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "explode",
+      "ipa": "/ɪkˈsploʊd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "폭발하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "explore",
+      "ipa": "/ɪkˈsplɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "탐험하다, 조사하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ethical",
+      "ipa": "/ˈeθ.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "윤리적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ethnic",
+      "ipa": "/ˈeθ.nɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "민족의, 인종의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "waist",
+      "ipa": "/weɪst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "허리"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "waste",
+      "ipa": "/weɪst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "낭비, 쓰레기"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "낭비하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hospitality",
+      "ipa": "/ˌhɑː.spɪˈtæl.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "환대, 접대"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hostility",
+      "ipa": "/hɑːˈstɪl.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "적대감"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "constant",
+      "ipa": "/ˈkɑːn.stənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지속적인, 변함없는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "consistent",
+      "ipa": "/kənˈsɪs.tənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "일관된, 일치하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "brake",
+      "ipa": "/breɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "브레이크"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "속도를 줄이다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "break",
+      "ipa": "/breɪk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "깨다, 고장내다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "휴식, 고장"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "saw",
+      "ipa": "/sɔː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "see의 과거형"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "톱"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sew",
+      "ipa": "/soʊ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "바느질하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sow",
+      "ipa": "/soʊ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "씨를 뿌리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "precede",
+      "ipa": "/prɪˈsiːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "선행하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "proceed",
+      "ipa": "/proʊˈsiːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "진행하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "desert",
+      "ipa": "/ˈdez.ɚt/ (n), /dɪˈzɝːt/ (v)",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사막"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "버리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dessert",
+      "ipa": "/dɪˈzɝːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "후식"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "addition",
+      "ipa": "/əˈdɪʃ.ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "추가, 덧셈"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "addiction",
+      "ipa": "/əˈdɪk.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "중독"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "substitute",
+      "ipa": "/ˈsʌb.stə.tuːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대체물, 대리자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "대신하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "constitute",
+      "ipa": "/ˈkɑːn.stə.tuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구성하다, 설립하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be engaged in",
+      "ipa": "/bi ɪnˈɡeɪdʒd ɪn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 종사하다, 관여하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be engaged to",
+      "ipa": "/bi ɪnˈɡeɪdʒd tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~와 약혼하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

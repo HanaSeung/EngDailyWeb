@@ -1,0 +1,557 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "dominate",
+      "ipa": "/ˈdɑː.mə.neɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지배하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "govern",
+      "ipa": "/ˈɡʌv.ərn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통치하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "domestic",
+      "ipa": "/dəˈmes.tɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "국내의, 가정의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "territory",
+      "ipa": "/ˈter.ə.tɔːr.i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "영토"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wield",
+      "ipa": "/wiːld/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "휘두르다, 행사하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "region",
+      "ipa": "/ˈriː.dʒən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지역"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "immigration",
+      "ipa": "/ˌɪm.əˈɡreɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이민"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "diplomat",
+      "ipa": "/ˈdɪp.lə.mæt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "외교관"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "candidate",
+      "ipa": "/ˈkæn.dɪ.dət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "후보자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "compromise",
+      "ipa": "/ˈkɑːm.prə.maɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "타협하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "타협"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "radical",
+      "ipa": "/ˈræd.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "급진적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "급진주의자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "administration",
+      "ipa": "/ədˌmɪn.əˈstreɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "행정, 관리"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "executive",
+      "ipa": "/ɪɡˈzek.jə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "간부, 경영진"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "임원의, 집행의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "refuge",
+      "ipa": "/ˈref.juːdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "피난처"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "authority",
+      "ipa": "/əˈθɔːr.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "권위"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "democracy",
+      "ipa": "/dɪˈmɑː.krə.si/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "민주주의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "in charge of",
+      "ipa": "/ɪn ʧɑːrdʒ əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~을 책임지는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "suspect",
+      "ipa": "/səˈspekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의심하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "용의자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sue",
+      "ipa": "/suː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고소하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "violate",
+      "ipa": "/ˈvaɪ.ə.leɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "위반하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "patent",
+      "ipa": "/ˈpæt.ənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "특허"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "명백한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "equivalent",
+      "ipa": "/ɪˈkwɪv.ə.lənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "동등한, 상응하는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "동등한 것"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "witness",
+      "ipa": "/ˈwɪt.nəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목격자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "목격하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "priority",
+      "ipa": "/praɪˈɔːr.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우선순위"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ban",
+      "ipa": "/bæn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "금지하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "금지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "imprison",
+      "ipa": "/ɪmˈprɪz.ən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "투옥하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "justify",
+      "ipa": "/ˈdʒʌs.t̬ə.faɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정당화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "privilege",
+      "ipa": "/ˈprɪv.əl.ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "특권"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "dispute",
+      "ipa": "/dɪˈspjuːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "분쟁"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "논쟁하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "regardless of",
+      "ipa": "/rɪˈɡɑːrd.ləs əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 상관없이"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fund",
+      "ipa": "/fʌnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자금, 기금"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "자금을 지원하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "promote",
+      "ipa": "/prəˈmoʊt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "촉진하다, 승진시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "owe",
+      "ipa": "/oʊ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "빚지다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "debt",
+      "ipa": "/det/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "빚"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "commission",
+      "ipa": "/kəˈmɪʃ.ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수수료, 위원회"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "위임하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "refund",
+      "ipa": "/ˈriː.fʌnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "환불"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "환불하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "distribute",
+      "ipa": "/dɪˈstrɪb.juːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분배하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "property",
+      "ipa": "/ˈprɑː.pər.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재산, 소유물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "commodity",
+      "ipa": "/kəˈmɑː.də.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상품, 물품"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "industrialize",
+      "ipa": "/ɪnˈdʌs.tri.ə.laɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "산업화하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

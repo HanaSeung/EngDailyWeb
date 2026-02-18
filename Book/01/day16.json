@@ -1,0 +1,527 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "mixture",
+      "ipa": "/ˈmɪks.tʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "혼합물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "burst",
+      "ipa": "/bɜːrst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "터지다, 폭발하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "파열, 폭발"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "method",
+      "ipa": "/ˈmeθ.əd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "방법"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "laboratory",
+      "ipa": "/ˈlæb.rə.tɔːr.i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "실험실"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "observation",
+      "ipa": "/ˌɑːb.zərˈveɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "관찰"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "toxic",
+      "ipa": "/ˈtɑːk.sɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유독한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vapor",
+      "ipa": "/ˈveɪ.pər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "증기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "gas",
+      "ipa": "/ɡæs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가스"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fluid",
+      "ipa": "/ˈfluː.ɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유체, 액체"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "유동적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "liquid",
+      "ipa": "/ˈlɪk.wɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "액체"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "액체의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "solid",
+      "ipa": "/ˈsɑː.lɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고체의, 단단한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "고체"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "metal",
+      "ipa": "/ˈmet.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "금속"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "extract",
+      "ipa": "/ɪkˈstrækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추출하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "추출물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hypothesis",
+      "ipa": "/haɪˈpɑː.θə.sɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가설"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "gravity",
+      "ipa": "/ˈɡræv.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "중력"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "particle",
+      "ipa": "/ˈpɑːr.t̬ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "입자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "component",
+      "ipa": "/kəmˈpoʊ.nənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "구성 요소"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "molecule",
+      "ipa": "/ˈmɑː.lə.kjuːl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "분자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "keep A from ~ing",
+      "ipa": "/kiːp eɪ frəm ~ɪŋ/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "A가 ~하지 못하게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "habitat",
+      "ipa": "/ˈhæb.ɪ.tæt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "서식지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "species",
+      "ipa": "/ˈspiː.ʃiːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "종(種)"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mammal",
+      "ipa": "/ˈmæm.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "포유류"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "predator",
+      "ipa": "/ˈpred.ə.t̬ər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "포식자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "migrate",
+      "ipa": "/ˈmaɪ.ɡreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "이동하다, 이주하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "survive",
+      "ipa": "/sərˈvaɪv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "생존하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "skeleton",
+      "ipa": "/ˈskel.ə.t̬ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "골격"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "nerve",
+      "ipa": "/nɜːrv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신경"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "stem",
+      "ipa": "/stem/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "줄기"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "유래하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "organism",
+      "ipa": "/ˈɔːr.ɡən.ɪ.zəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유기체, 생물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "branch",
+      "ipa": "/bræntʃ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가지, 분과"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "갈라지다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tissue",
+      "ipa": "/ˈtɪʃ.uː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조직"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "come up with",
+      "ipa": "/kʌm ʌp wɪð/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "생각해내다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "volcanic",
+      "ipa": "/vɑːlˈkæn.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "화산의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "vibrate",
+      "ipa": "/ˈvaɪ.breɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "진동하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "layer",
+      "ipa": "/ˈleɪ.ər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "층"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "temperature",
+      "ipa": "/ˈtem.pər.ə.tʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "온도"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "glacier",
+      "ipa": "/ˈɡleɪ.ʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "빙하"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "astronomy",
+      "ipa": "/əˈstrɑː.nə.mi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "천문학"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ray",
+      "ipa": "/reɪ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "광선"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "consist of",
+      "ipa": "/kənˈsɪst əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~으로 구성되다"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,612 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "include",
+      "ipa": "/ɪnˈkluːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "포함하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "produce",
+      "ipa": "/prəˈduːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "생산하다",
+            "만들어 내다",
+            "초래하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "농산물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "belief",
+      "ipa": "/bɪˈliːf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "믿음",
+            "신념",
+            "신앙"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "similar",
+      "ipa": "/ˈsɪmələr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비슷한",
+            "유사한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "moment",
+      "ipa": "/ˈmoʊmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "순간",
+            "중요성"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "situation",
+      "ipa": "/ˌsɪtʃuˈeɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상황",
+            "위치"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "improve",
+      "ipa": "/ɪnˈpruːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "향상하다",
+            "개선하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "increase",
+      "ipa": "/ɪnˈkriːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "증가하다",
+            "증가시키다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "증가",
+            "인상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "decrease",
+      "ipa": "/dɪˈkriːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감소하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "감소",
+            "축소"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "share",
+      "ipa": "/ʃer/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "공유하다",
+            "나누다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "몫, 지분"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "emotion",
+      "ipa": "/ɪˈmoʊʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감정",
+            "정서"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "common",
+      "ipa": "/ˈkɑːmən/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공통의",
+            "흔한",
+            "보통의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recover",
+      "ipa": "/rɪˈkʌvər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "회복하다",
+            "복구되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "advanced",
+      "ipa": "/ədˈvænst/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "진보한",
+            "상급의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "indifferent",
+      "ipa": "/ɪnˈdɪfrənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "무관심한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reject",
+      "ipa": "/rɪˈdʒekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거절하다",
+            "거부하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "불량품"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "refuse",
+      "ipa": "/rɪˈfjuːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거부하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "쓰레기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "accept",
+      "ipa": "/əkˈsept/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "받아들이다",
+            "수락하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "experience",
+      "ipa": "/ɪkˈspɪriəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경험"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "경험하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "certain",
+      "ipa": "/ˈsɜːrtn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "확실한",
+            "확신하는",
+            "어떤"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "consider",
+      "ipa": "/kənˈsɪdər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고려하다",
+            "~으로 여기다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "supply",
+      "ipa": "/səˈplaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "공급하다",
+            "제공하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "공급"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "provide",
+      "ipa": "/prəˈvaɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제공하다",
+            "대비하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "practical",
+      "ipa": "/ˈpræktɪkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "실용적인",
+            "실제적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "express",
+      "ipa": "/ɪkˈspres/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "표현하다",
+            "나타내다",
+            "속달로 보내다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "급행의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "급행열차"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "quantity",
+      "ipa": "/ˈkwɑːntəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "양"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "superior",
+      "ipa": "/suːˈpɪriər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "우수한",
+            "뛰어난"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "상급자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inferior",
+      "ipa": "/ɪnˈfɪriər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "열등한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "하급자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "seek",
+      "ipa": "/siːk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "찾다",
+            "추구하다",
+            "청하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "aim",
+      "ipa": "/eɪm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "목표하다",
+            "겨냥하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "목표"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fade",
+      "ipa": "/feɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "희미해지다",
+            "사라지다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disappear",
+      "ipa": "/ˌdɪsəˈpɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "사라지다",
+            "없어지다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "emerge",
+      "ipa": "/ɪˈmɜːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "나타나다",
+            "드러나다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "grief",
+      "ipa": "/ɡriːf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "슬픔"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "slight",
+      "ipa": "/slaɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "약간의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "무시하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "무시"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "success",
+      "ipa": "/səkˈses/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "성공"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "failure",
+      "ipa": "/ˈfeɪljər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "실패"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "run into",
+      "ipa": "/rʌn ˈɪntu/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~와 우연히 만나다",
+            "~와 충돌하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "depend on",
+      "ipa": "/dɪˈpend ɑːn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 의존하다",
+            "~에 달려있다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "carry out",
+      "ipa": "/ˈkæri aʊt/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~을 수행하다",
+            "~을 완료하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

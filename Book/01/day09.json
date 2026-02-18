@@ -1,0 +1,557 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "punish",
+      "ipa": "/ˈpʌn.ɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "처벌하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "civilization",
+      "ipa": "/ˌsɪv.əl.əˈzeɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문명"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "construct",
+      "ipa": "/kənˈstrʌkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "건설하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "구조물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recall",
+      "ipa": "/rɪˈkɔːl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기억하다, 상기하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "회상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "gradually",
+      "ipa": "/ˈɡrædʒ.u.ə.li/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "점차적으로"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "delay",
+      "ipa": "/dɪˈleɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지연시키다, 미루다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지연"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "genetic",
+      "ipa": "/dʒəˈnet̬.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유전의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sustainable",
+      "ipa": "/səˈsteɪ.nə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지속 가능한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "register",
+      "ipa": "/ˈredʒ.ɪ.stər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "등록하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "등록부"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rotate",
+      "ipa": "/ˈroʊ.teɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "회전하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "declare",
+      "ipa": "/dɪˈkler/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "선언하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reputation",
+      "ipa": "/ˌrep.jəˈteɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "평판"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "settle",
+      "ipa": "/ˈset̬.əl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정착하다, 해결하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "agent",
+      "ipa": "/ˈeɪ.dʒənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대리인, 중개인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "crisis",
+      "ipa": "/ˈkraɪ.sɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "guilty",
+      "ipa": "/ˈɡɪl.t̬i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "죄책감 있는, 유죄의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "innocent",
+      "ipa": "/ˈɪn.ə.sənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "결백한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "analyze",
+      "ipa": "/ˈæn.əl.aɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분석하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "commit",
+      "ipa": "/kəˈmɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "저지르다, 약속하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "comment",
+      "ipa": "/ˈkɑː.ment/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "논평하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "논평"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "edit",
+      "ipa": "/ˈed.ɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "편집하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "equip",
+      "ipa": "/ɪˈkwɪp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "장비를 갖추다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "genius",
+      "ipa": "/ˈdʒiː.ni.əs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "천재"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "adequate",
+      "ipa": "/ˈæd.ə.kwət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "충분한, 적절한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "aggressive",
+      "ipa": "/əˈɡres.ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공격적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "load",
+      "ipa": "/loʊd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "짐을 싣다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "짐"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "manufacture",
+      "ipa": "/ˌmæn.jəˈfæk.tʃər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제조하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "제조"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "acknowledge",
+      "ipa": "/əkˈnɑː.lɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "deny",
+      "ipa": "/dɪˈnaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "부인하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "behavior",
+      "ipa": "/bɪˈheɪ.vjər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "행동"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mature",
+      "ipa": "/məˈtʊr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "성숙한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "성숙하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "thrust",
+      "ipa": "/θrʌst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "밀다, 찌르다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "추진력"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "corporate",
+      "ipa": "/ˈkɔːr.pər.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "기업의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "severe",
+      "ipa": "/sɪˈvɪr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "심각한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "alert",
+      "ipa": "/əˈlɜːrt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "경계하는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "경보"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "violent",
+      "ipa": "/ˈvaɪ.ə.lənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "폭력적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "glow",
+      "ipa": "/ɡloʊ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "빛나다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "빛"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "guarantee",
+      "ipa": "/ˌɡer.ənˈtiː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보장하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "보장"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be based on",
+      "ipa": "/biː beɪst ɑːn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 근거하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "remind A of B",
+      "ipa": "/rɪˈmaɪnd eɪ əv biː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "A에게 B를 상기시키다"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "climate",
+      "ipa": "/ˈklaɪ.mət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기후"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "freeze",
+      "ipa": "/friːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "얼다, 얼리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "melt",
+      "ipa": "/melt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "녹다, 녹이다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wave",
+      "ipa": "/weɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "파도, 물결"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "손을 흔들다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "humid",
+      "ipa": "/ˈhjuː.mɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "습한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "temperate",
+      "ipa": "/ˈtem.pɚ.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "온화한, 절제하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sufficient",
+      "ipa": "/səˈfɪʃ.ənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "충분한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tropical",
+      "ipa": "/ˈtrɑː.pɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "열대의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "intense",
+      "ipa": "/ɪnˈtens/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "강렬한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fierce",
+      "ipa": "/fɪrs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사나운, 맹렬한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "light",
+      "ipa": "/laɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "빛"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "가벼운, 밝은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "phenomenon",
+      "ipa": "/fəˈnɑː.mə.nɑːn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "현상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "creature",
+      "ipa": "/ˈkriː.tʃɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "생물, 창조물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tide",
+      "ipa": "/taɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조수, 물결"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "shadow",
+      "ipa": "/ˈʃæd.oʊ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "그림자"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "float",
+      "ipa": "/floʊt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "뜨다, 떠다니다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "earthquake",
+      "ipa": "/ˈɝːθ.kweɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지진"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "eruption",
+      "ipa": "/ɪˈrʌp.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "폭발, 분출"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "drought",
+      "ipa": "/draʊt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가뭄"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "originate",
+      "ipa": "/əˈrɪdʒ.ən.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유래하다, 시작되다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hatch",
+      "ipa": "/hætʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "부화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "agriculture",
+      "ipa": "/ˈæɡ.rə.kʌl.tʃɚ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "농업"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ripe",
+      "ipa": "/raɪp/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "익은, 성숙한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cultivate",
+      "ipa": "/ˈkʌl.tə.veɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "경작하다, 기르다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "crop",
+      "ipa": "/krɑːp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "농작물"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "harvest",
+      "ipa": "/ˈhɑːr.vəst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수확"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "수확하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "annual",
+      "ipa": "/ˈæn.ju.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "매년의, 연례의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "folk",
+      "ipa": "/foʊk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사람들, 민속의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "native",
+      "ipa": "/ˈneɪ.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "토착의, 태어난"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "원주민"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "resistant",
+      "ipa": "/rɪˈzɪs.tənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "저항하는, 견디는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "durable",
+      "ipa": "/ˈdʊr.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "내구성이 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "transplant",
+      "ipa": "/trænsˈplænt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "이식하다, 옮겨 심다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이식"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "enrich",
+      "ipa": "/ɪnˈrɪtʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "풍요롭게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fertile",
+      "ipa": "/ˈfɝː.t̬əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비옥한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "barren",
+      "ipa": "/ˈber.ən/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "척박한, 불모의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "drain",
+      "ipa": "/dreɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "물을 빼내다, 소모시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pest",
+      "ipa": "/pest/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "해충"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "weed",
+      "ipa": "/wiːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "잡초"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "잡초를 제거하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "take over",
+      "ipa": "/teɪk ˈoʊ.vɚ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인수하다, 장악하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "take advantage of",
+      "ipa": "/teɪk ədˈvæn.tɪdʒ əv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~을 이용하다"
+          ]
+        }
+      ]
+    }
+  ]
+}

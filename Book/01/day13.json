@@ -1,0 +1,503 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "applause",
+      "ipa": "/əˈplɔːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "박수"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "glance",
+      "ipa": "/ɡlæns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "흘끗 봄"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "흘끗 보다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "crawl",
+      "ipa": "/krɔːl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기어가다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "hesitate",
+      "ipa": "/ˈhez.ə.teɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "주저하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "make sense of",
+      "ipa": "/meɪk sens əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "이해하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "eager",
+      "ipa": "/ˈiː.ɡər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "열망하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "impatient",
+      "ipa": "/ɪmˈpeɪ.ʃənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "참을성 없는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "frank",
+      "ipa": "/fræŋk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "솔직한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "arrogant",
+      "ipa": "/ˈer.ə.ɡənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "거만한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "humble",
+      "ipa": "/ˈhʌm.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "겸손한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "awkward",
+      "ipa": "/ˈɔː.kwərd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "어색한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sincere",
+      "ipa": "/sɪnˈsɪr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "진실한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "genuine",
+      "ipa": "/ˈdʒen.ju.ɪn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "진짜의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "anticipate",
+      "ipa": "/ænˈtɪs.ə.peɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예상하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "responsible",
+      "ipa": "/rɪˈspɑːn.sə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "책임이 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "tolerate",
+      "ipa": "/ˈtɑːl.ə.reɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "참다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "endure",
+      "ipa": "/ɪnˈdʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "견디다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "put up with",
+      "ipa": "/pʊt ʌp wɪð/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "참다, 견디다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "depression",
+      "ipa": "/dɪˈpreʃ.ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우울증"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ashamed",
+      "ipa": "/əˈʃeɪmd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부끄러운"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "delight",
+      "ipa": "/dɪˈlaɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기쁨"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "기쁘게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fascinated",
+      "ipa": "/ˈfæs.ən.eɪ.t̬ɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "매료된"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "resent",
+      "ipa": "/rɪˈzent/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분개하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "irritate",
+      "ipa": "/ˈɪr.ə.teɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "짜증나게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "humiliate",
+      "ipa": "/hjuːˈmɪl.i.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "굴욕감을 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "impulse",
+      "ipa": "/ˈɪm.pʌls/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "충동"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reluctant",
+      "ipa": "/rɪˈlʌk.tənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "꺼리는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "astonished",
+      "ipa": "/əˈstɑː.nɪʃt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "깜짝 놀란"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "miserable",
+      "ipa": "/ˈmɪz.ər.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비참한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "arouse",
+      "ipa": "/əˈraʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "불러일으키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "frustrated",
+      "ipa": "/ˈfrʌs.treɪ.t̬ɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "좌절한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "empathy",
+      "ipa": "/ˈem.pə.θi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공감"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "offend",
+      "ipa": "/əˈfend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기분 상하게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "compassion",
+      "ipa": "/kəmˈpæʃ.ən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "연민"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "despair",
+      "ipa": "/dɪˈsper/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "절망"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "절망하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "confident",
+      "ipa": "/ˈkɑːn.fə.dənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "자신감 있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "jealous",
+      "ipa": "/ˈdʒel.əs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "질투하는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ridiculous",
+      "ipa": "/rɪˈdɪk.jə.ləs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "터무니없는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "generous",
+      "ipa": "/ˈdʒen.ər.əs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "관대한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "faithful",
+      "ipa": "/ˈfeɪθ.fəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "충실한, 신실한"
+          ]
+        }
+      ]
+    }
+  ]
+}

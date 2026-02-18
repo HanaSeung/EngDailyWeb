@@ -1,0 +1,539 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "apologize",
+      "ipa": "/əˈpɑː.lə.dʒaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "사과하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "confuse",
+      "ipa": "/kənˈfjuːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "혼란스럽게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disorder",
+      "ipa": "/dɪsˈɔːr.dər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "혼란, 장애"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "gather",
+      "ipa": "/ˈɡæð.ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모으다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recommend",
+      "ipa": "/ˌrek.əˈmend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추천하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "suppose",
+      "ipa": "/səˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "accident",
+      "ipa": "/ˈæk.sə.dənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사고"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "adjust",
+      "ipa": "/əˈdʒʌst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "aspect",
+      "ipa": "/ˈæs.pekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "측면"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "purchase",
+      "ipa": "/ˈpɜːr.tʃəs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구매하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "구매"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "purpose",
+      "ipa": "/ˈpɜːr.pəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목적"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "organize",
+      "ipa": "/ˈɔːr.ɡən.aɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조직하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "arrange",
+      "ipa": "/əˈreɪndʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정리하다, 배열하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "communicate",
+      "ipa": "/kəˈmjuː.nə.keɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의사소통하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "represent",
+      "ipa": "/ˌrep.rɪˈzent/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "대표하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "treatment",
+      "ipa": "/ˈtriːt.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "치료"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "approach",
+      "ipa": "/əˈproʊtʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "접근하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "접근법"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "claim",
+      "ipa": "/kleɪm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "주장하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "주장"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disappoint",
+      "ipa": "/ˌdɪs.əˈpɔɪnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "실망시키다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "observe",
+      "ipa": "/əbˈzɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "관찰하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "compare",
+      "ipa": "/kəmˈper/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비교하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "alarm",
+      "ipa": "/əˈlɑːrm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경보, 불안"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "놀라게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "exist",
+      "ipa": "/ɪɡˈzɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "존재하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "attract",
+      "ipa": "/əˈtrækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "끌다, 유인하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "crucial",
+      "ipa": "/ˈkruː.ʃəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "결정적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "display",
+      "ipa": "/dɪˈspleɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전시하다, 보여주다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전시"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "exhibit",
+      "ipa": "/ɪɡˈzɪb.ɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전시하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전시품"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "describe",
+      "ipa": "/dɪˈskraɪb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "묘사하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reward",
+      "ipa": "/rɪˈwɔːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보상"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보상하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "motivate",
+      "ipa": "/ˈmoʊ.t̬ə.veɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "동기를 부여하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "general",
+      "ipa": "/ˈdʒen.ər.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "일반적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "universal",
+      "ipa": "/ˌjuː.nəˈvɜːr.səl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "보편적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "specific",
+      "ipa": "/spəˈsɪf.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "구체적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "fee",
+      "ipa": "/fiː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요금, 수수료"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "demand",
+      "ipa": "/dɪˈmænd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "요구하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "요구"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "handle",
+      "ipa": "/ˈhæn.dəl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "다루다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "손잡이"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "manage",
+      "ipa": "/ˈmæn.ɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "관리하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "refer to",
+      "ipa": "/rɪˈfɜːr tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~을 언급하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "take on",
+      "ipa": "/teɪk ɑːn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "떠맡다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pay attention to",
+      "ipa": "/peɪ əˈten.ʃən tuː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~에 주의를 기울이다"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,557 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "electronic",
+      "ipa": "/ɪˌlekˈtrɑː.nɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전자의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "multiply",
+      "ipa": "/ˈmʌl.t̬ə.plaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "곱하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "upload",
+      "ipa": "/ʌpˈloʊd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "업로드하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "업로드"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "download",
+      "ipa": "/ˈdaʊn.loʊd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "다운로드하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "다운로드"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "virtual",
+      "ipa": "/ˈvɜːr.tʃu.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "가상의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "activate",
+      "ipa": "/ˈæk.t̬ə.veɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "활성화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "nuclear",
+      "ipa": "/ˈnuː.kli.ər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "핵의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "install",
+      "ipa": "/ɪnˈstɔːl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설치하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "maximize",
+      "ipa": "/ˈmæk.sə.maɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "최대화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "minimize",
+      "ipa": "/ˈmɪn.ə.maɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "최소화하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "circuit",
+      "ipa": "/ˈsɜːr.kɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "회로"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "sort",
+      "ipa": "/sɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분류하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "종류"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "automatic",
+      "ipa": "/ˌɔː.t̬əˈmæt̬.ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "자동의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "manual",
+      "ipa": "/ˈmæn.ju.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수동의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "설명서"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "visual",
+      "ipa": "/ˈvɪʒ.u.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "시각적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "recharge",
+      "ipa": "/ˌriːˈtʃɑːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "재충전하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "재충전"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "numerous",
+      "ipa": "/ˈnuː.mər.əs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수많은"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "statistics",
+      "ipa": "/stəˈtɪs.tɪks/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "통계"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "angle",
+      "ipa": "/ˈæŋ.ɡəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "각도"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "equation",
+      "ipa": "/ɪˈkweɪ.ʒən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "방정식"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ride",
+      "ipa": "/raɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "타다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "승차"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "crash",
+      "ipa": "/kræʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "충돌하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "충돌"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rush",
+      "ipa": "/rʌʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "급히 가다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "서두름"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "bump",
+      "ipa": "/bʌmp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "부딪치다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "충돌"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "aircraft",
+      "ipa": "/ˈer.kræft/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "항공기"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "astronaut",
+      "ipa": "/ˈæs.trə.nɔːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우주비행사"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "mechanical",
+      "ipa": "/məˈkæn.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "기계의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "loosen",
+      "ipa": "/ˈluː.sən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "느슨하게 하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "spare",
+      "ipa": "/sper/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "여분의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "아끼다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "rough",
+      "ipa": "/rʌf/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "거친"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "transport",
+      "ipa": "/ˈtræn.spɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "운송하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "운송"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "passenger",
+      "ipa": "/ˈpæs.ən.dʒər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "승객"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "commute",
+      "ipa": "/kəˈmjuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통근하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "통근"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "inspect",
+      "ipa": "/ɪnˈspekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조사하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "accelerate",
+      "ipa": "/əkˈsel.ə.reɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가속하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "navigate",
+      "ipa": "/ˈnæv.ə.ɡeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "항해하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "shipment",
+      "ipa": "/ˈʃɪp.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수송, 배송"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "assemble",
+      "ipa": "/əˈsem.bəl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조립하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "have A in common",
+      "ipa": "/hæv eɪ ɪn ˈkɑː.mən/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "A를 공통으로 가지다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "turn A into B",
+      "ipa": "/tɜːrn eɪ ˈɪn.tuː biː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "A를 B로 바꾸다"
+          ]
+        }
+      ]
+    }
+  ]
+}

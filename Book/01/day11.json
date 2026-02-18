@@ -1,0 +1,539 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "population",
+      "ipa": "/ˌpɑː.pjəˈleɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인구"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "foster",
+      "ipa": "/ˈfɔː.stər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "육성하다, 촉진하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "nurture",
+      "ipa": "/ˈnɜːr.tʃər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "양육하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "양육"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "available",
+      "ipa": "/əˈveɪ.lə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이용 가능한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "discover",
+      "ipa": "/dɪˈskʌv.ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발견하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "carbon",
+      "ipa": "/ˈkɑːr.bən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "탄소"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "pressure",
+      "ipa": "/ˈpreʃ.ər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "압력, 압박"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "압박하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "accuse",
+      "ipa": "/əˈkjuːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비난하다, 고발하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "outstanding",
+      "ipa": "/ˌaʊtˈstæn.dɪŋ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "뛰어난"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conversation",
+      "ipa": "/ˌkɑːn.vərˈseɪ.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대화"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "massive",
+      "ipa": "/ˈmæs.ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "거대한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "analogy",
+      "ipa": "/əˈnæl.ə.dʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유사, 비유"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wound",
+      "ipa": "/wuːnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상처, 부상"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "상처를 입히다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cause",
+      "ipa": "/kɔːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원인"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "초래하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "consequence",
+      "ipa": "/ˈkɑːn.sə.kwəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결과"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "election",
+      "ipa": "/ɪˈlek.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "선거"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "trace",
+      "ipa": "/treɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "흔적"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "추적하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "wire",
+      "ipa": "/ˈwaɪər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "철사, 전선"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "restore",
+      "ipa": "/rɪˈstɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "회복하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "cognitive",
+      "ipa": "/ˈkɑːɡ.nə.t̬ɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "인지의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "biological",
+      "ipa": "/ˌbaɪ.əˈlɑː.dʒɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "생물학적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ability",
+      "ipa": "/əˈbɪl.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "능력"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "capacity",
+      "ipa": "/kəˈpæs.ə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수용력, 능력"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ingredient",
+      "ipa": "/ɪnˈɡriː.di.ənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재료, 성분"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "adversity",
+      "ipa": "/ədˈvɜːr.sə.t̬i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "역경"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "intelligent",
+      "ipa": "/ɪnˈtel.ə.dʒənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "multiple",
+      "ipa": "/ˈmʌl.t̬ə.pəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "여러 개의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "exotic",
+      "ipa": "/ɪɡˈzɑː.t̬ɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이국적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "reference",
+      "ipa": "/ˈref.ər.əns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "언급, 참조"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "참조하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "scatter",
+      "ipa": "/ˈskæt̬.ər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "흩뿌리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conflict",
+      "ipa": "/ˈkɑːn.flɪkt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "갈등"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "갈등하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "friction",
+      "ipa": "/ˈfrɪk.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "마찰, 불화"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "asset",
+      "ipa": "/ˈæs.et/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자산"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "professional",
+      "ipa": "/prəˈfeʃ.ən.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전문적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전문가"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "disclose",
+      "ipa": "/dɪsˈkloʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "밝히다, 공개하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "negotiate",
+      "ipa": "/nəˈɡoʊ.ʃi.eɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "협상하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "split",
+      "ipa": "/splɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "나누다, 분열하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "분열"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "have difficulty (in) -ing",
+      "ipa": "/hæv ˈdɪf.ə.kəl.t̬i ɪn/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~하는 데 어려움을 겪다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "go through",
+      "ipa": "/ɡoʊ θruː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "겪다, 경험하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "be regarded as",
+      "ipa": "/biː rɪˈɡɑːr.dɪd æz/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~로 여겨지다"
+          ]
+        }
+      ]
+    }
+  ]
+}

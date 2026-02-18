@@ -1,0 +1,533 @@
+{
+  "title": "",
+  "words": [
+    {
+      "en": "category",
+      "ipa": "/ˈkæt̬.ə.ɡɔːr.i/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "범주"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "except",
+      "ipa": "/ɪkˈsept/",
+      "meanings": [
+        {
+          "pos": "전",
+          "defs": [
+            "~을 제외하고"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "discuss",
+      "ipa": "/dɪˈskʌs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "토론하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "debate",
+      "ipa": "/dɪˈbeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "논쟁하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "논쟁"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "judgment",
+      "ipa": "/ˈdʒʌdʒ.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "판단"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "consume",
+      "ipa": "/kənˈsuːm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소비하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "alive",
+      "ipa": "/əˈlaɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "살아있는"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "valuable",
+      "ipa": "/ˈvæl.ju.ə.bəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "소중한, 귀중한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "complain",
+      "ipa": "/kəmˈpleɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "불평하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "replace",
+      "ipa": "/rɪˈpleɪs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "대체하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "norm",
+      "ipa": "/nɔːrm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "규범"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "standard",
+      "ipa": "/ˈstæn.dərd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기준"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "표준의"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "advertise",
+      "ipa": "/ˈæd.vər.taɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "광고하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "awareness",
+      "ipa": "/əˈwer.nəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인식"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "concept",
+      "ipa": "/ˈkɑːn.sept/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "개념"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "respond",
+      "ipa": "/rɪˈspɑːnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "응답하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "credit",
+      "ipa": "/ˈkred.ɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신용"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "공로를 인정하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "poison",
+      "ipa": "/ˈpɔɪ.zən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "독"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "독을 넣다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "indicate",
+      "ipa": "/ˈɪn.də.keɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "나타내다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "chemical",
+      "ipa": "/ˈkem.ɪ.kəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "화학의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "화학 물질"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "primary",
+      "ipa": "/ˈpraɪ.mer.i/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주요한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "essential",
+      "ipa": "/ɪˈsen.ʃəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "필수적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "opinion",
+      "ipa": "/əˈpɪn.jən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의견"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "efficient",
+      "ipa": "/ɪˈfɪʃ.ənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "효율적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "welfare",
+      "ipa": "/ˈwel.fer/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "복지"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "eliminate",
+      "ipa": "/ɪˈlɪm.ə.neɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제거하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "locate",
+      "ipa": "/ˈloʊ.keɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "위치를 찾다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "invention",
+      "ipa": "/ɪnˈven.ʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "발명"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "ideal",
+      "ipa": "/aɪˈdiː.əl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이상적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이상"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "realistic",
+      "ipa": "/ˌriː.əˈlɪs.tɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "현실적인"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "conclude",
+      "ipa": "/kənˈkluːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결론짓다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "struggle",
+      "ipa": "/ˈstrʌɡ.əl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고군분투하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "투쟁"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "unique",
+      "ipa": "/juˈniːk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유일한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "proper",
+      "ipa": "/ˈprɑː.pər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적절한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "appropriate",
+      "ipa": "/əˈproʊ.pri.ət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적합한"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "supplement",
+      "ipa": "/ˈsʌp.lə.mənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보충제"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보충하다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "trial",
+      "ipa": "/ˈtraɪ.əl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시험, 재판"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "infant",
+      "ipa": "/ˈɪn.fənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유아"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "run out of",
+      "ipa": "/rʌn aʊt əv/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~을 다 써버리다"
+          ]
+        }
+      ]
+    },
+    {
+      "en": "can afford to do",
+      "ipa": "/kæn əˈfɔːrd tuː duː/",
+      "meanings": [
+        {
+          "pos": "구",
+          "defs": [
+            "~할 여유가 있다"
+          ]
+        }
+      ]
+    }
+  ]
+}
