@@ -1,0 +1,594 @@
+{
+  "title": "sta 서다,세우다/ tain 가지다,잡다,쥐다",
+  "words": [
+    {
+      "en": "assist",
+      "ipa": "/əˈsɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "돕다",
+            "조력하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "sist(sta)",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "곁에 서다 → 돕다"
+    },
+    {
+      "en": "consist",
+      "ipa": "/kənˈsɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(~으로) 구성되다",
+            "일치하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "sist(sta)",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "함께 서 있다 → 구성되다"
+    },
+    {
+      "en": "exist",
+      "ipa": "/ɪɡˈzɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "존재하다",
+            "생존하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "ist(sta)",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "밖으로 나와 서다 → 존재하다"
+    },
+    {
+      "en": "insist",
+      "ipa": "/ɪnˈsɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "주장하다",
+            "고집하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "sist(sta)",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "위에 단단히 서다 → 주장하다"
+    },
+    {
+      "en": "resist",
+      "ipa": "/rɪˈzɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "저항하다",
+            "견디다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "반대로 (back, against)"
+        },
+        {
+          "part": "sist(sta)",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "반대로 맞서 서다 → 저항하다"
+    },
+    {
+      "en": "restore",
+      "ipa": "/rɪˈstɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "복구하다",
+            "회복하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "store(sta)",
+          "mean": "세우다 (set up, store)"
+        }
+      ],
+      "origin": "다시 세우다 → 복구하다"
+    },
+    {
+      "en": "arrest",
+      "ipa": "/əˈrest/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "체포하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "체포"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ar-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "rest(sta)",
+          "mean": "멈추다 (stop, stay)"
+        }
+      ],
+      "origin": "멈추게 하다 → 체포하다"
+    },
+    {
+      "en": "cost",
+      "ipa": "/kɔːst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비용",
+            "희생"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "비용이 들다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "co-(con-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "st(sta)",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "함께 서 있는(수반되는) 것 → 비용"
+    },
+    {
+      "en": "steady",
+      "ipa": "/ˈstedi/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "꾸준한",
+            "안정된"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stead",
+          "mean": "자리, 장소 (place, stand)"
+        },
+        {
+          "part": "-y",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "제자리에 서 있는 → 꾸준한, 안정된"
+    },
+    {
+      "en": "system",
+      "ipa": "/ˈsɪstəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "체계",
+            "방식"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sy-(syn-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "stem(sta)",
+          "mean": "세우다 (set up)"
+        }
+      ],
+      "origin": "함께 세운 것 → 체계"
+    },
+    {
+      "en": "constitute",
+      "ipa": "/ˈkɑːnstɪtuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구성하다",
+            "제정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "stitute(sta)",
+          "mean": "세우다 (set up)"
+        }
+      ],
+      "origin": "함께 세우다 → 구성하다"
+    },
+    {
+      "en": "institute",
+      "ipa": "/ˈɪnstɪtuːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "학회",
+            "기관"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "도입하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "stitute(sta)",
+          "mean": "세우다 (set up)"
+        }
+      ],
+      "origin": "안에 세우다 → 기관, 도입하다"
+    },
+    {
+      "en": "substitute",
+      "ipa": "/ˈsʌbstɪtuːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대용품",
+            "후보"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "대신하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "stitute(sta)",
+          "mean": "세우다 (set up)"
+        }
+      ],
+      "origin": "아래에서 대신 세우다 → 대신하다"
+    },
+    {
+      "en": "destination",
+      "ipa": "/ˌdestɪˈneɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목적지"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "stin(sta)",
+          "mean": "세우다, 정하다 (fix, stand)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "완전히 정해진 곳 → 목적지"
+    },
+    {
+      "en": "superstition",
+      "ipa": "/ˌsuːpərˈstɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "미신"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "super-",
+          "mean": "위에 (above, over)"
+        },
+        {
+          "part": "stition(sta)",
+          "mean": "서 있는 (standing)"
+        }
+      ],
+      "origin": "이성 위에 서 있는 믿음 → 미신"
+    },
+    {
+      "en": "contain",
+      "ipa": "/kənˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "포함하다",
+            "억제하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tain",
+          "mean": "잡다, 가지다 (hold)"
+        }
+      ],
+      "origin": "함께 잡아두다 → 포함하다"
+    },
+    {
+      "en": "entertain",
+      "ipa": "/ˌentərˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "즐겁게 하다",
+            "대접하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "enter-(inter-)",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "tain",
+          "mean": "잡다 (hold)"
+        }
+      ],
+      "origin": "사이에서 관심을 잡다 → 즐겁게 하다"
+    },
+    {
+      "en": "obtain",
+      "ipa": "/əbˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "얻다",
+            "획득하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tain",
+          "mean": "잡다 (hold)"
+        }
+      ],
+      "origin": "~쪽으로 잡다 → 얻다"
+    },
+    {
+      "en": "retain",
+      "ipa": "/rɪˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보유하다",
+            "유지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "tain",
+          "mean": "잡다 (hold)"
+        }
+      ],
+      "origin": "뒤로 잡아두다 → 보유하다"
+    },
+    {
+      "en": "sustain",
+      "ipa": "/səˈsteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지탱하다",
+            "유지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sus-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "tain",
+          "mean": "잡다 (hold)"
+        }
+      ],
+      "origin": "아래에서 잡아주다 → 지탱하다"
+    },
+    {
+      "en": "content",
+      "ipa": "/ˈkɑːntent/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "내용(물)",
+            "목차"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "만족하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tent(tain)",
+          "mean": "잡다 (hold)"
+        }
+      ],
+      "origin": "함께 잡혀 있는 것 → 내용물"
+    },
+    {
+      "en": "continent",
+      "ipa": "/ˈkɑːntɪnənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대륙"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tin(tain)",
+          "mean": "잡다, 이어지다 (hold)"
+        },
+        {
+          "part": "-ent",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 이어져 잡혀 있는 땅 → 대륙"
+    },
+    {
+      "en": "continue",
+      "ipa": "/kənˈtɪnjuː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "계속하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tin(tain)",
+          "mean": "잡다, 이어지다 (hold)"
+        },
+        {
+          "part": "-ue",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 이어서 잡다 → 계속하다"
+    }
+  ]
+}

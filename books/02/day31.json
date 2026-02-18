@@ -1,0 +1,651 @@
+{
+  "title": "cap 머리,우두머리/ sum 취하다,골라 가지다/ equ,ident 같은/ solv 느슨하게 하다/ neg 부인하다/ log 말/ memor 마음에 새겨 두는",
+  "words": [
+    {
+      "en": "capital",
+      "ipa": "/ˈkæpɪtl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "수도",
+            "자본",
+            "대문자"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "주요한",
+            "사형의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "capit(cap)",
+          "mean": "머리 (head)"
+        },
+        {
+          "part": "-al",
+          "mean": "명사/형용사형 접미사"
+        }
+      ],
+      "origin": "머리가 되는 → 수도, 주요한"
+    },
+    {
+      "en": "chief",
+      "ipa": "/tʃiːf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우두머리",
+            "장"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "주요한",
+            "최고의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "chief(cap)",
+          "mean": "머리 (head)"
+        }
+      ],
+      "origin": "머리가 되는 사람 → 우두머리"
+    },
+    {
+      "en": "achieve",
+      "ipa": "/əˈtʃiːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "성취하다",
+            "이루다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "chieve(cap)",
+          "mean": "머리, 끝 (head, end)"
+        }
+      ],
+      "origin": "끝까지 이르다 → 성취하다"
+    },
+    {
+      "en": "assume",
+      "ipa": "/əˈsuːm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가정하다",
+            "(책임을) 떠맡다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "sume(sum)",
+          "mean": "취하다 (take)"
+        }
+      ],
+      "origin": "자기 쪽으로 취하다 → 가정하다, 떠맡다"
+    },
+    {
+      "en": "consume",
+      "ipa": "/kənˈsuːm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소비하다",
+            "다 써버리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "sume(sum)",
+          "mean": "취하다 (take)"
+        }
+      ],
+      "origin": "완전히 취하다 → 소비하다"
+    },
+    {
+      "en": "presume",
+      "ipa": "/prɪˈzuːm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추정하다",
+            "간주하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "sume(sum)",
+          "mean": "취하다 (take)"
+        }
+      ],
+      "origin": "미리 취하다(판단하다) → 추정하다"
+    },
+    {
+      "en": "resume",
+      "ipa": "/rɪˈzuːm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "다시 시작하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이력서"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "sume(sum)",
+          "mean": "취하다 (take)"
+        }
+      ],
+      "origin": "다시 취하다 → 다시 시작하다"
+    },
+    {
+      "en": "equal",
+      "ipa": "/ˈiːkwəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "동일한",
+            "평등한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "~와 같다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "equ",
+          "mean": "같은 (equal)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "같은 → 동일한, 평등한"
+    },
+    {
+      "en": "equivalent",
+      "ipa": "/ɪˈkwɪvələnt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "상응하는",
+            "동등한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "맞먹는 것"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "equ",
+          "mean": "같은 (equal)"
+        },
+        {
+          "part": "val",
+          "mean": "가치 (worth)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "같은 가치의 → 동등한"
+    },
+    {
+      "en": "adequate",
+      "ipa": "/ˈædɪkwət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적절한",
+            "충분한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "equ",
+          "mean": "같은 (equal)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "같은 수준에 이른 → 적절한"
+    },
+    {
+      "en": "identify",
+      "ipa": "/aɪˈdentɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확인하다",
+            "동일시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ident",
+          "mean": "같은 (same)"
+        },
+        {
+          "part": "-ify",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "같은 것으로 만들다 → 확인하다"
+    },
+    {
+      "en": "solve",
+      "ipa": "/sɑːlv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해결하다",
+            "풀다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "solv",
+          "mean": "풀다, 느슨하게 하다 (loosen)"
+        }
+      ],
+      "origin": "풀다 → 해결하다"
+    },
+    {
+      "en": "resolve",
+      "ipa": "/rɪˈzɑːlv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해결하다",
+            "결심하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "결심"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "solv",
+          "mean": "풀다 (loosen)"
+        }
+      ],
+      "origin": "다시 풀다 → 해결하다"
+    },
+    {
+      "en": "dissolve",
+      "ipa": "/dɪˈzɑːlv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "녹이다",
+            "해산시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "solv",
+          "mean": "풀다 (loosen)"
+        }
+      ],
+      "origin": "떨어뜨려 풀다 → 녹이다"
+    },
+    {
+      "en": "negative",
+      "ipa": "/ˈneɡətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부정적인",
+            "음성의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "부정"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "neg",
+          "mean": "부정 (deny)"
+        },
+        {
+          "part": "-ative",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "부정하는 → 부정적인"
+    },
+    {
+      "en": "deny",
+      "ipa": "/dɪˈnaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "부인하다",
+            "거절하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "ny(neg)",
+          "mean": "부정하다 (deny)"
+        }
+      ],
+      "origin": "완전히 부정하다 → 부인하다"
+    },
+    {
+      "en": "neutral",
+      "ipa": "/ˈnuːtrəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중립적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ne-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "utr",
+          "mean": "어느 쪽 (either)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "어느 쪽도 아닌 → 중립적인"
+    },
+    {
+      "en": "logic",
+      "ipa": "/ˈlɑːdʒɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "논리",
+            "논리학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "log",
+          "mean": "말, 이성 (word, reason)"
+        },
+        {
+          "part": "-ic",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "이성적인 것 → 논리"
+    },
+    {
+      "en": "analogy",
+      "ipa": "/əˈnælədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비유",
+            "유추"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ana-",
+          "mean": "위로, 다시 (up, again)"
+        },
+        {
+          "part": "logy(log)",
+          "mean": "말, 이성 (word, reason)"
+        }
+      ],
+      "origin": "다시 대응시켜 말하기 → 유추"
+    },
+    {
+      "en": "apology",
+      "ipa": "/əˈpɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사과",
+            "사죄"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "apo-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "logy(log)",
+          "mean": "말 (word, speech)"
+        }
+      ],
+      "origin": "변호의 말 → 사과"
+    },
+    {
+      "en": "catalogue",
+      "ipa": "/ˈkætəlɔːɡ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목록",
+            "카탈로그"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cata-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "logue(log)",
+          "mean": "말, 모음 (word, collection)"
+        }
+      ],
+      "origin": "완전히 나열한 것 → 목록"
+    },
+    {
+      "en": "ecology",
+      "ipa": "/iˈkɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "생태학",
+            "생태계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "eco",
+          "mean": "집, 환경 (home)"
+        },
+        {
+          "part": "logy(log)",
+          "mean": "학문 (study)"
+        }
+      ],
+      "origin": "환경에 대한 학문 → 생태학"
+    },
+    {
+      "en": "psychology",
+      "ipa": "/saɪˈkɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "심리학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "psych",
+          "mean": "마음 (mind, soul)"
+        },
+        {
+          "part": "logy(log)",
+          "mean": "학문 (study)"
+        }
+      ],
+      "origin": "마음에 대한 학문 → 심리학"
+    },
+    {
+      "en": "memory",
+      "ipa": "/ˈmeməri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기억(력)",
+            "추억"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "memor",
+          "mean": "기억하다 (remember)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "기억하는 것 → 기억력"
+    },
+    {
+      "en": "remember",
+      "ipa": "/rɪˈmembər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기억하다",
+            "명심하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "member(memor)",
+          "mean": "기억하다 (remember)"
+        }
+      ],
+      "origin": "다시 기억하다"
+    }
+  ]
+}

@@ -1,0 +1,651 @@
+{
+  "title": "fac 만들다,행하다/ port 운반하다,항구",
+  "words": [
+    {
+      "en": "manufacture",
+      "ipa": "/ˌmænjuˈfæktʃər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제조하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "제조",
+            "제품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "manu-",
+          "mean": "손 (hand)"
+        },
+        {
+          "part": "fact",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "손으로 만들다 → 제조하다"
+    },
+    {
+      "en": "facility",
+      "ipa": "/fəˈsɪləti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시설",
+            "편의",
+            "재능"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "facil",
+          "mean": "쉬운, 만들기 쉬운 (easy, doable)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "쉽게 할 수 있는 것 → 시설, 편의"
+    },
+    {
+      "en": "faculty",
+      "ipa": "/ˈfæklti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "학부",
+            "교수진",
+            "능력"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fac",
+          "mean": "만들다, 행하다 (make, do)"
+        },
+        {
+          "part": "-ulty",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "행할 수 있는 능력 → 학부, 능력"
+    },
+    {
+      "en": "factor",
+      "ipa": "/ˈfæktər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요인",
+            "요소"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fact",
+          "mean": "만들다, 행하다 (make, do)"
+        },
+        {
+          "part": "-or",
+          "mean": "~하는 것"
+        }
+      ],
+      "origin": "일을 만드는 것 → 요인"
+    },
+    {
+      "en": "factual",
+      "ipa": "/ˈfæktʃuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사실에 근거한, 실제의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fact",
+          "mean": "만들다, 행하다 (make, do)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "행해진 것에 근거한 → 사실에 근거한"
+    },
+    {
+      "en": "effect",
+      "ipa": "/ɪˈfekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "효과",
+            "영향",
+            "결과"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "초래하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ef-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "fect",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "밖으로 만들어내다 → 효과, 결과"
+    },
+    {
+      "en": "affect",
+      "ipa": "/əˈfekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "영향을 미치다",
+            "~인 척하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "af-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "fect",
+          "mean": "만들다 (make, do)"
+        }
+      ],
+      "origin": "~쪽으로 작용하다 → 영향을 미치다"
+    },
+    {
+      "en": "defect",
+      "ipa": "/ˈdiːfekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결점",
+            "결함"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "탈퇴하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져, 아래로 (away, down)"
+        },
+        {
+          "part": "fect",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "제대로 만들어지지 않은 것 → 결점, 결함"
+    },
+    {
+      "en": "efficient",
+      "ipa": "/ɪˈfɪʃnt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "효율적인",
+            "유능한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ef-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "fic",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "밖으로 결과를 잘 만들어내는 → 효율적인"
+    },
+    {
+      "en": "deficient",
+      "ipa": "/dɪˈfɪʃnt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부족한",
+            "결함이 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져, 아래 (away, down)"
+        },
+        {
+          "part": "fic",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "충분히 만들어지지 않은 → 부족한"
+    },
+    {
+      "en": "sufficient",
+      "ipa": "/səˈfɪʃnt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "충분한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "suf-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "fic",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "아래에서 충분히 만들어진 → 충분한"
+    },
+    {
+      "en": "proficient",
+      "ipa": "/prəˈfɪʃnt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "능숙한, 숙달된"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "fic",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "앞으로 잘 만들어내는 → 능숙한"
+    },
+    {
+      "en": "fiction",
+      "ipa": "/ˈfɪkʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소설, 허구"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fic(fac)",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-tion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "만들어낸 것 → 소설, 허구"
+    },
+    {
+      "en": "figure",
+      "ipa": "/ˈfɪɡjər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "숫자, 인물, 모습"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "생각하다, 계산하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fig(fac)",
+          "mean": "만들다 (make, form)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "만들어진 형태 → 숫자, 인물, 모습"
+    },
+    {
+      "en": "profit",
+      "ipa": "/ˈprɑːfɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이익",
+            "수익"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "이득을 얻다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "fit(fic)",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "앞으로 나아가게 만드는 것 → 이익"
+    },
+    {
+      "en": "benefit",
+      "ipa": "/ˈbenɪfɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이익",
+            "혜택"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "유익하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bene-",
+          "mean": "좋은 (good, well)"
+        },
+        {
+          "part": "fit(fic)",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "좋게 만드는 것 → 이익, 혜택"
+    },
+    {
+      "en": "qualify",
+      "ipa": "/ˈkwɑːlɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "자격을 얻다(주다)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "qual",
+          "mean": "어떤 (of what kind)"
+        },
+        {
+          "part": "-ify(fic)",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "어떤 종류로 만들다 → 자격을 부여하다"
+    },
+    {
+      "en": "satisfy",
+      "ipa": "/ˈsætɪsfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "만족시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "satis",
+          "mean": "충분한 (enough)"
+        },
+        {
+          "part": "-fy(fic)",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "충분하게 만들다 → 만족시키다"
+    },
+    {
+      "en": "affair",
+      "ipa": "/əˈfer/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "일",
+            "사건",
+            "사무"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "af-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "fair(fac)",
+          "mean": "만들다, 행하다 (make, do)"
+        }
+      ],
+      "origin": "해야 할 일 → 일, 사건"
+    },
+    {
+      "en": "export",
+      "ipa": "/ɪkˈspɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수출하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "수출"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "port",
+          "mean": "운반하다 (carry)"
+        }
+      ],
+      "origin": "밖으로 운반하다 → 수출하다"
+    },
+    {
+      "en": "import",
+      "ipa": "/ɪmˈpɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수입하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "수입"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "안으로 (in)"
+        },
+        {
+          "part": "port",
+          "mean": "운반하다 (carry)"
+        }
+      ],
+      "origin": "안으로 운반하다 → 수입하다"
+    },
+    {
+      "en": "transport",
+      "ipa": "/ˈtrænspɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수송하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "수송"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러 (across)"
+        },
+        {
+          "part": "port",
+          "mean": "운반하다 (carry)"
+        }
+      ],
+      "origin": "가로질러 운반하다 → 수송하다"
+    },
+    {
+      "en": "portable",
+      "ipa": "/ˈpɔːrtəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "휴대용의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "port",
+          "mean": "운반하다 (carry)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "운반할 수 있는 → 휴대용의"
+    },
+    {
+      "en": "opportunity",
+      "ipa": "/ˌɑːpərˈtuːnəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기회"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "op-(ob-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "port",
+          "mean": "항구 (port)"
+        },
+        {
+          "part": "-unity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "항구 쪽으로 바람이 부는 것 → 기회"
+    }
+  ]
+}

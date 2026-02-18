@@ -1,0 +1,677 @@
+{
+  "title": "dict 말하다,부르다/ vad 가다/ mod 척도/ ordin 순서/ cid 떨어지다",
+  "words": [
+    {
+      "en": "dictate",
+      "ipa": "/ˈdɪkteɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "받아쓰게 하다",
+            "지시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dict",
+          "mean": "말하다 (say, speak)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "말하다 → 지시하다"
+    },
+    {
+      "en": "addiction",
+      "ipa": "/əˈdɪkʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "중독",
+            "열중"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "dict",
+          "mean": "말하다, 선고하다 (say, decree)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "~에 선고된 → 중독"
+    },
+    {
+      "en": "contradict",
+      "ipa": "/ˌkɑːntrəˈdɪkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반박하다",
+            "모순되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "contra-",
+          "mean": "반대 (against)"
+        },
+        {
+          "part": "dict",
+          "mean": "말하다 (say)"
+        }
+      ],
+      "origin": "반대로 말하다 → 반박하다"
+    },
+    {
+      "en": "dedicate",
+      "ipa": "/ˈdedɪkeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "바치다",
+            "헌신하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "dic(dict)",
+          "mean": "말하다, 선언하다 (declare)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "완전히 선언하다 → 바치다"
+    },
+    {
+      "en": "indicate",
+      "ipa": "/ˈɪndɪkeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가리키다",
+            "나타내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "dic(dict)",
+          "mean": "말하다 (say, point)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "~쪽을 가리켜 말하다 → 나타내다"
+    },
+    {
+      "en": "index",
+      "ipa": "/ˈɪndeks/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지수",
+            "색인",
+            "지표"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "dex(dict)",
+          "mean": "가리키다 (point)"
+        }
+      ],
+      "origin": "가리키는 것 → 지표"
+    },
+    {
+      "en": "invade",
+      "ipa": "/ɪnˈveɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "침입하다",
+            "침해하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "vade(vad)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "안으로 가다 → 침입하다"
+    },
+    {
+      "en": "pervade",
+      "ipa": "/pərˈveɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "만연하다",
+            "구석구석 스며들다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "vade(vad)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "완전히 퍼져가다 → 만연하다"
+    },
+    {
+      "en": "evade",
+      "ipa": "/ɪˈveɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "피하다",
+            "모면하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "vade(vad)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "밖으로 가다 → 피하다"
+    },
+    {
+      "en": "moderate",
+      "ipa": "/ˈmɑːdərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적당한",
+            "중도의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "완화하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mod",
+          "mean": "척도 (measure)"
+        },
+        {
+          "part": "-erate",
+          "mean": "형용사/동사형 접미사"
+        }
+      ],
+      "origin": "척도에 맞는 → 적당한"
+    },
+    {
+      "en": "modernize",
+      "ipa": "/ˈmɑːdərnaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "현대화하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mod",
+          "mean": "척도, 방식 (measure, mode)"
+        },
+        {
+          "part": "-ernize",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "새로운 방식으로 만들다 → 현대화하다"
+    },
+    {
+      "en": "modest",
+      "ipa": "/ˈmɑːdɪst/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "겸손한",
+            "적당한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mod",
+          "mean": "척도 (measure)"
+        },
+        {
+          "part": "-est",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "척도에 맞는 → 겸손한"
+    },
+    {
+      "en": "modify",
+      "ipa": "/ˈmɑːdɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수정하다",
+            "수식하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mod",
+          "mean": "척도 (measure)"
+        },
+        {
+          "part": "-ify",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "척도에 맞게 만들다 → 수정하다"
+    },
+    {
+      "en": "accommodate",
+      "ipa": "/əˈkɑːmədeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수용하다",
+            "편의를 도모하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mod",
+          "mean": "척도 (measure)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 척도에 맞추다 → 수용하다"
+    },
+    {
+      "en": "commodity",
+      "ipa": "/kəˈmɑːdəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상품",
+            "원자재"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mod",
+          "mean": "척도 (measure)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "척도에 맞는 물건 → 상품"
+    },
+    {
+      "en": "mold",
+      "ipa": "/moʊld/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "형틀",
+            "곰팡이"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "형틀에 넣어 만들다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mold(mod)",
+          "mean": "척도, 형태 (measure, form)"
+        }
+      ],
+      "origin": "형태를 만드는 것 → 형틀"
+    },
+    {
+      "en": "ordinary",
+      "ipa": "/ˈɔːrdneri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "보통의",
+            "평범한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ordin",
+          "mean": "순서 (order)"
+        },
+        {
+          "part": "-ary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "순서대로인 → 보통의"
+    },
+    {
+      "en": "subordinate",
+      "ipa": "/səˈbɔːrdɪnət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "하위의",
+            "부수적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "부하"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "ordin",
+          "mean": "순서 (order)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "순서에서 아래의 → 하위의"
+    },
+    {
+      "en": "coordinate",
+      "ipa": "/koʊˈɔːrdɪneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조직하다",
+            "조정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "co-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "ordin",
+          "mean": "순서 (order)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 순서를 맞추다 → 조정하다"
+    },
+    {
+      "en": "accident",
+      "ipa": "/ˈæksɪdənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사고",
+            "우연"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cid",
+          "mean": "떨어지다 (fall)"
+        },
+        {
+          "part": "-ent",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "~쪽으로 떨어지다 → 사고"
+    },
+    {
+      "en": "incident",
+      "ipa": "/ˈɪnsɪdənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사건",
+            "일어난 일"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "cid",
+          "mean": "떨어지다 (fall)"
+        },
+        {
+          "part": "-ent",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "위에 떨어진 것 → 사건"
+    },
+    {
+      "en": "coincidence",
+      "ipa": "/koʊˈɪnsɪdəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우연의 일치"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "co-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "cid",
+          "mean": "떨어지다 (fall)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 떨어지다 → 우연의 일치"
+    },
+    {
+      "en": "casual",
+      "ipa": "/ˈkæʒuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "격식 없는",
+            "우연한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cas(cid)",
+          "mean": "떨어지다 (fall)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "떨어진(우연한) → 격식 없는"
+    },
+    {
+      "en": "occasion",
+      "ipa": "/əˈkeɪʒn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "때",
+            "경우",
+            "특별한 행사"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "oc-(ob-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cas(cid)",
+          "mean": "떨어지다 (fall)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "~쪽으로 떨어진 때 → 경우"
+    },
+    {
+      "en": "decay",
+      "ipa": "/dɪˈkeɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "부패하다",
+            "쇠퇴하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "부패"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "cay(cid)",
+          "mean": "떨어지다 (fall)"
+        }
+      ],
+      "origin": "아래로 떨어지다 → 부패하다"
+    }
+  ]
+}

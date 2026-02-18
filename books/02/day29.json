@@ -1,0 +1,589 @@
+{
+  "title": "not 표시하다,알다/ car 마차,탈것,운반하다,짐을싣다/ ag 행하다,작용하다,몰다/ tact 건드리다,접촉하다",
+  "words": [
+    {
+      "en": "notable",
+      "ipa": "/ˈnoʊtəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주목할 만한",
+            "유명한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "not",
+          "mean": "표시, 알다 (mark, know)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "표시할 만한 → 주목할 만한"
+    },
+    {
+      "en": "notice",
+      "ipa": "/ˈnoʊtɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공지",
+            "주목"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "알아차리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "not",
+          "mean": "알다 (know)"
+        },
+        {
+          "part": "-ice",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "알게 되다 → 알아차리다"
+    },
+    {
+      "en": "notify",
+      "ipa": "/ˈnoʊtɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통지하다",
+            "알리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "not",
+          "mean": "알다 (know)"
+        },
+        {
+          "part": "-ify",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "알게 만들다 → 통지하다"
+    },
+    {
+      "en": "notion",
+      "ipa": "/ˈnoʊʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "관념",
+            "생각"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "not",
+          "mean": "알다 (know)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "알고 있는 것 → 관념"
+    },
+    {
+      "en": "career",
+      "ipa": "/kəˈrɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경력",
+            "직업"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "car",
+          "mean": "탈것, 달리다 (car, run)"
+        }
+      ],
+      "origin": "달려가는 길 → 경력"
+    },
+    {
+      "en": "carpenter",
+      "ipa": "/ˈkɑːrpəntər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "carp(car)",
+          "mean": "마차, 탈것 (wagon)"
+        },
+        {
+          "part": "-enter",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "마차를 만드는 사람 → 목수"
+    },
+    {
+      "en": "carriage",
+      "ipa": "/ˈkærɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "마차",
+            "(기차) 객차"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "carr(car)",
+          "mean": "나르다 (carry)"
+        },
+        {
+          "part": "-iage",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "나르는 것 → 마차"
+    },
+    {
+      "en": "carrier",
+      "ipa": "/ˈkæriər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "운송회사",
+            "항공모함",
+            "보균자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "carr(car)",
+          "mean": "나르다 (carry)"
+        },
+        {
+          "part": "-ier",
+          "mean": "사람/것 접미사"
+        }
+      ],
+      "origin": "나르는 것 → 운송회사"
+    },
+    {
+      "en": "charge",
+      "ipa": "/tʃɑːrdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요금",
+            "책임"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "청구하다",
+            "충전하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "char(car)",
+          "mean": "짐을 싣다 (load)"
+        },
+        {
+          "part": "-ge",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "짐을 싣다 → 부과하다, 충전하다"
+    },
+    {
+      "en": "discharge",
+      "ipa": "/dɪsˈtʃɑːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해고하다",
+            "방출하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "퇴원",
+            "제대"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "반대 (opposite)"
+        },
+        {
+          "part": "charge(car)",
+          "mean": "싣다 (load)"
+        }
+      ],
+      "origin": "짐을 내리다 → 해고하다, 방출하다"
+    },
+    {
+      "en": "agent",
+      "ipa": "/ˈeɪdʒənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대리인",
+            "중개인",
+            "동인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ag",
+          "mean": "행하다 (do, act)"
+        },
+        {
+          "part": "-ent",
+          "mean": "사람/것 접미사"
+        }
+      ],
+      "origin": "행하는 사람 → 대리인"
+    },
+    {
+      "en": "agenda",
+      "ipa": "/əˈdʒendə/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의제",
+            "안건"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ag",
+          "mean": "행하다 (do)"
+        },
+        {
+          "part": "-enda",
+          "mean": "해야 할 것들"
+        }
+      ],
+      "origin": "행해야 할 것들 → 의제"
+    },
+    {
+      "en": "active",
+      "ipa": "/ˈæktɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "활동적인",
+            "적극적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "act(ag)",
+          "mean": "행하다 (do, act)"
+        },
+        {
+          "part": "-ive",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "행하는 → 활동적인"
+    },
+    {
+      "en": "actual",
+      "ipa": "/ˈæktʃuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "실제의",
+            "사실상의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "act(ag)",
+          "mean": "행하다 (do)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "행해진 → 실제의"
+    },
+    {
+      "en": "exact",
+      "ipa": "/ɪɡˈzækt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정확한",
+            "정밀한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "act(ag)",
+          "mean": "행하다 (do)"
+        }
+      ],
+      "origin": "완전히 행해진 → 정확한"
+    },
+    {
+      "en": "react",
+      "ipa": "/riˈækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반응하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시, 반대로 (back)"
+        },
+        {
+          "part": "act(ag)",
+          "mean": "행하다 (act)"
+        }
+      ],
+      "origin": "반대로 행하다 → 반응하다"
+    },
+    {
+      "en": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "모호한",
+            "두 가지 뜻으로 풀이되는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ambi-",
+          "mean": "양쪽 (both)"
+        },
+        {
+          "part": "g(ag)",
+          "mean": "행하다, 이끌다 (drive)"
+        },
+        {
+          "part": "-uous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "양쪽으로 이끌리는 → 모호한"
+    },
+    {
+      "en": "navigate",
+      "ipa": "/ˈnævɪɡeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "길을 찾다",
+            "항해하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nav",
+          "mean": "배 (ship)"
+        },
+        {
+          "part": "ig(ag)",
+          "mean": "이끌다 (drive)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "배를 이끌다 → 항해하다"
+    },
+    {
+      "en": "intact",
+      "ipa": "/ɪnˈtækt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "온전한",
+            "손상되지 않은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "tact",
+          "mean": "접촉하다 (touch)"
+        }
+      ],
+      "origin": "접촉(손상)되지 않은 → 온전한"
+    },
+    {
+      "en": "contact",
+      "ipa": "/ˈkɑːntækt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "접촉",
+            "연락"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "연락하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tact",
+          "mean": "접촉하다 (touch)"
+        }
+      ],
+      "origin": "함께 접촉하다 → 연락"
+    },
+    {
+      "en": "integrate",
+      "ipa": "/ˈɪntɪɡreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통합시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "teg(tact)",
+          "mean": "접촉하다, 건드리다 (touch)"
+        },
+        {
+          "part": "-rate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "건드려지지 않은 전체로 만들다 → 통합하다"
+    },
+    {
+      "en": "attain",
+      "ipa": "/əˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "달성하다",
+            "획득하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "at-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tain(tact)",
+          "mean": "접촉하다, 닿다 (touch, reach)"
+        }
+      ],
+      "origin": "~에 닿다 → 달성하다"
+    },
+    {
+      "en": "entire",
+      "ipa": "/ɪnˈtaɪər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "전체의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "tire(tact)",
+          "mean": "건드리다 (touch)"
+        }
+      ],
+      "origin": "건드려지지 않은 → 전체의, 온전한"
+    }
+  ]
+}

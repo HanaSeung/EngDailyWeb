@@ -1,0 +1,650 @@
+{
+  "title": "pos 놓다/ hab 갖다,잡다,살다/ val 가치 있는,강한",
+  "words": [
+    {
+      "en": "pose",
+      "ipa": "/poʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제기하다",
+            "포즈를 취하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "자세"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pos",
+          "mean": "놓다 (put, place)"
+        }
+      ],
+      "origin": "놓다 → 자세를 취하다"
+    },
+    {
+      "en": "position",
+      "ipa": "/pəˈzɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위치",
+            "입장",
+            "지위"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pos",
+          "mean": "놓다 (put, place)"
+        },
+        {
+          "part": "-ition",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "놓인 곳 → 위치, 지위"
+    },
+    {
+      "en": "positive",
+      "ipa": "/ˈpɑːzətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "긍정적인",
+            "확실한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pos",
+          "mean": "놓다 (put)"
+        },
+        {
+          "part": "-itive",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "확실히 놓인 → 긍정적인"
+    },
+    {
+      "en": "post",
+      "ipa": "/poʊst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우편",
+            "직위"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "게시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pos",
+          "mean": "놓다 (put, place)"
+        },
+        {
+          "part": "-t",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "놓아둔 것 → 우편, 직위"
+    },
+    {
+      "en": "deposit",
+      "ipa": "/dɪˈpɑːzɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "예금",
+            "침전물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "예금하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "posit(pos)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "아래에 놓다 → 예금하다"
+    },
+    {
+      "en": "impose",
+      "ipa": "/ɪmˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "부과하다",
+            "강요하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "pose(pos)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "위에 놓다 → 부과하다"
+    },
+    {
+      "en": "purpose",
+      "ipa": "/ˈpɜːrpəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "목적",
+            "의도"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pur-(pro-)",
+          "mean": "앞에 (forward)"
+        },
+        {
+          "part": "pose(pos)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "앞에 놓다 → 목적"
+    },
+    {
+      "en": "oppose",
+      "ipa": "/əˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반대하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "op-(ob-)",
+          "mean": "맞서 (against)"
+        },
+        {
+          "part": "pose(pos)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "맞서 놓다 → 반대하다"
+    },
+    {
+      "en": "suppose",
+      "ipa": "/səˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가정하다",
+            "추측하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sup-(sub-)",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "pose(pos)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "아래에 놓고 생각하다 → 가정하다"
+    },
+    {
+      "en": "postpone",
+      "ipa": "/poʊstˈpoʊn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연기하다",
+            "미루다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "post-",
+          "mean": "뒤에 (after)"
+        },
+        {
+          "part": "pone(pos)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "뒤에 놓다 → 연기하다"
+    },
+    {
+      "en": "component",
+      "ipa": "/kəmˈpoʊnənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "구성 요소",
+            "부품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pon(pos)",
+          "mean": "놓다 (put)"
+        },
+        {
+          "part": "-ent",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 놓인 것 → 구성 요소"
+    },
+    {
+      "en": "opponent",
+      "ipa": "/əˈpoʊnənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상대방",
+            "적"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "op-(ob-)",
+          "mean": "맞서 (against)"
+        },
+        {
+          "part": "pon(pos)",
+          "mean": "놓다 (put)"
+        },
+        {
+          "part": "-ent",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "맞서 놓인 사람 → 상대방"
+    },
+    {
+      "en": "compound",
+      "ipa": "/ˈkɑːmpaʊnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "화합물"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "복합의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "악화시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pound(pos)",
+          "mean": "놓다 (put)"
+        }
+      ],
+      "origin": "함께 놓다 → 화합물, 복합의"
+    },
+    {
+      "en": "habit",
+      "ipa": "/ˈhæbɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "습관"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hab",
+          "mean": "갖다 (have, hold)"
+        },
+        {
+          "part": "-it",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "가지고 있는 것 → 습관"
+    },
+    {
+      "en": "inhabit",
+      "ipa": "/ɪnˈhæbɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거주하다",
+            "살다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "habit(hab)",
+          "mean": "살다, 갖다 (dwell, have)"
+        }
+      ],
+      "origin": "안에 살다 → 거주하다"
+    },
+    {
+      "en": "habitat",
+      "ipa": "/ˈhæbɪtæt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "서식지"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "hab",
+          "mean": "살다 (dwell)"
+        },
+        {
+          "part": "-itat",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "사는 곳 → 서식지"
+    },
+    {
+      "en": "exhibit",
+      "ipa": "/ɪɡˈzɪbɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전시하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전시품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "hibit(hab)",
+          "mean": "갖다 (hold)"
+        }
+      ],
+      "origin": "밖으로 내어 보이다 → 전시하다"
+    },
+    {
+      "en": "prohibit",
+      "ipa": "/prəˈhɪbɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "금지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞에서 (before)"
+        },
+        {
+          "part": "hibit(hab)",
+          "mean": "갖다 (hold)"
+        }
+      ],
+      "origin": "앞에서 막아 잡다 → 금지하다"
+    },
+    {
+      "en": "inhibit",
+      "ipa": "/ɪnˈhɪbɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "억제하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "hibit(hab)",
+          "mean": "갖다 (hold)"
+        }
+      ],
+      "origin": "안에서 잡아두다 → 억제하다"
+    },
+    {
+      "en": "behave",
+      "ipa": "/bɪˈheɪv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "행동하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "be-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "have(hab)",
+          "mean": "갖다 (have)"
+        }
+      ],
+      "origin": "자신을 완전히 갖추다 → 행동하다"
+    },
+    {
+      "en": "value",
+      "ipa": "/ˈvæljuː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "가치"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "가치 있게 여기다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "val",
+          "mean": "가치 있는 (worth, strong)"
+        },
+        {
+          "part": "-ue",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "가치 있는 것 → 가치"
+    },
+    {
+      "en": "evaluate",
+      "ipa": "/ɪˈvæljueɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "평가하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "valu(val)",
+          "mean": "가치 (worth)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "가치를 밖으로 끌어내다 → 평가하다"
+    },
+    {
+      "en": "valid",
+      "ipa": "/ˈvælɪd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유효한",
+            "타당한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "val",
+          "mean": "가치 있는, 강한 (worth, strong)"
+        },
+        {
+          "part": "-id",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "힘이 있는 → 유효한"
+    },
+    {
+      "en": "available",
+      "ipa": "/əˈveɪləbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이용 가능한",
+            "시간이 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "vail(val)",
+          "mean": "가치 있는 (worth)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "가치가 있어 쓸 수 있는 → 이용 가능한"
+    },
+    {
+      "en": "prevail",
+      "ipa": "/prɪˈveɪl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "우세하다",
+            "만연하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "vail(val)",
+          "mean": "강한 (strong)"
+        }
+      ],
+      "origin": "앞서 강하다 → 우세하다"
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "title": "magni 거대한/ flu 흐르다/ it 가다/ cern 체로 쳐서 가려내다,분리하다",
+  "words": [
+    {
+      "en": "magnitude",
+      "ipa": "/ˈmæɡnɪtuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "규모",
+            "중요도",
+            "(지진) 진도"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "magni",
+          "mean": "거대한 (great)"
+        },
+        {
+          "part": "-tude",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "거대한 정도 → 규모"
+    },
+    {
+      "en": "magnify",
+      "ipa": "/ˈmæɡnɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확대하다",
+            "과장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "magni",
+          "mean": "거대한 (great)"
+        },
+        {
+          "part": "-fy",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "크게 만들다 → 확대하다"
+    },
+    {
+      "en": "master",
+      "ipa": "/ˈmæstər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주인",
+            "거장"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "숙달하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mast(magni)",
+          "mean": "거대한 (great)"
+        },
+        {
+          "part": "-er",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "가장 큰 사람 → 주인"
+    },
+    {
+      "en": "masterpiece",
+      "ipa": "/ˈmæstərpiːs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "걸작",
+            "명작"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "master",
+          "mean": "거장 (master)"
+        },
+        {
+          "part": "piece",
+          "mean": "작품 (piece)"
+        }
+      ],
+      "origin": "거장의 작품 → 걸작"
+    },
+    {
+      "en": "major",
+      "ipa": "/ˈmeɪdʒər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주요한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전공"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "전공하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "maj(magni)",
+          "mean": "거대한 (great)"
+        },
+        {
+          "part": "-or",
+          "mean": "비교급 접미사"
+        }
+      ],
+      "origin": "더 큰 → 주요한"
+    },
+    {
+      "en": "mayor",
+      "ipa": "/ˈmeɪər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시장(지자체장)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "may(magni)",
+          "mean": "큰 (great)"
+        },
+        {
+          "part": "-or",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "가장 큰 사람 → 시장"
+    },
+    {
+      "en": "majestic",
+      "ipa": "/məˈdʒestɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "장엄한",
+            "위엄 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "maj(magni)",
+          "mean": "거대한 (great)"
+        },
+        {
+          "part": "-estic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "거대한 → 장엄한"
+    },
+    {
+      "en": "maximum",
+      "ipa": "/ˈmæksɪməm/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "최대의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "최대한도"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "max(magni)",
+          "mean": "거대한 (greatest)"
+        },
+        {
+          "part": "-imum",
+          "mean": "최상급 접미사"
+        }
+      ],
+      "origin": "가장 큰 → 최대"
+    },
+    {
+      "en": "fluid",
+      "ipa": "/ˈfluːɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유체",
+            "액체"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "유동적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "flu",
+          "mean": "흐르다 (flow)"
+        },
+        {
+          "part": "-id",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "흐르는 것 → 유체"
+    },
+    {
+      "en": "fluent",
+      "ipa": "/ˈfluːənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유창한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "flu",
+          "mean": "흐르다 (flow)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "물 흐르듯 → 유창한"
+    },
+    {
+      "en": "influence",
+      "ipa": "/ˈɪnfluəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "영향"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "영향을 미치다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "flu",
+          "mean": "흐르다 (flow)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안으로 흘러들다 → 영향"
+    },
+    {
+      "en": "influenza",
+      "ipa": "/ˌɪnfluˈenzə/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "독감"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "flu",
+          "mean": "흐르다 (flow)"
+        },
+        {
+          "part": "-enza",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안으로 흘러드는 나쁜 기운 → 독감"
+    },
+    {
+      "en": "exit",
+      "ipa": "/ˈeɡzɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "출구"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "나가다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "it",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "밖으로 가다 → 출구"
+    },
+    {
+      "en": "initial",
+      "ipa": "/ɪˈnɪʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "처음의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이름의 첫 글자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "it",
+          "mean": "가다 (go)"
+        },
+        {
+          "part": "-ial",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "안으로 들어가는 → 처음의"
+    },
+    {
+      "en": "initiate",
+      "ipa": "/ɪˈnɪʃieɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "시작하다",
+            "가입시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "it",
+          "mean": "가다 (go)"
+        },
+        {
+          "part": "-iate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "안으로 들어가게 하다 → 시작하다"
+    },
+    {
+      "en": "transit",
+      "ipa": "/ˈtrænzɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "운송",
+            "통과",
+            "환승"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러 (across)"
+        },
+        {
+          "part": "it",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "가로질러 가다 → 운송"
+    },
+    {
+      "en": "perish",
+      "ipa": "/ˈperɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "죽다",
+            "소멸하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "ish(it)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "완전히 가버리다 → 죽다"
+    },
+    {
+      "en": "issue",
+      "ipa": "/ˈɪʃuː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주제",
+            "(잡지) 호"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "발행하다",
+            "발표하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "iss(it)",
+          "mean": "가다 (go)"
+        },
+        {
+          "part": "-ue",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "밖으로 나가다 → 발행하다"
+    },
+    {
+      "en": "concern",
+      "ipa": "/kənˈsɜːrn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우려",
+            "관심"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "걱정시키다",
+            "관계있다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "cern",
+          "mean": "거르다, 구별 (sift)"
+        }
+      ],
+      "origin": "함께 구별하다 → 관심"
+    },
+    {
+      "en": "discern",
+      "ipa": "/dɪˈsɜːrn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "식별하다",
+            "파악하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "cern",
+          "mean": "거르다 (sift)"
+        }
+      ],
+      "origin": "떨어뜨려 거르다 → 식별하다"
+    },
+    {
+      "en": "crisis",
+      "ipa": "/ˈkraɪsɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cris(cern)",
+          "mean": "판단하다 (judge)"
+        },
+        {
+          "part": "-is",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "판단의 갈림길 → 위기"
+    },
+    {
+      "en": "criticize",
+      "ipa": "/ˈkrɪtɪsaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비판하다",
+            "비난하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "crit(cern)",
+          "mean": "판단하다 (judge)"
+        },
+        {
+          "part": "-icize",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "판단하다 → 비판하다"
+    },
+    {
+      "en": "discriminate",
+      "ipa": "/dɪˈskrɪmɪneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "차별하다",
+            "식별하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "crimin(cern)",
+          "mean": "구별 (separate)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "떨어뜨려 구별하다 → 차별하다"
+    }
+  ]
+}

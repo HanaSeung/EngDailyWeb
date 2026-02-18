@@ -1,0 +1,625 @@
+{
+  "title": "plic 접어 겹치다,엮다/ ject 던지다/ rat 계산하다,논리적으로 생각하다/ fort 강한",
+  "words": [
+    {
+      "en": "complicate",
+      "ipa": "/ˈkɑːmplɪkeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "복잡하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "plic",
+          "mean": "접다 (fold)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 접다 → 복잡하게 하다"
+    },
+    {
+      "en": "simplicity",
+      "ipa": "/sɪmˈplɪsəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "단순함",
+            "소박함"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sim-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "plic",
+          "mean": "접다 (fold)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "한 번만 접힌 → 단순함"
+    },
+    {
+      "en": "complex",
+      "ipa": "/kəmˈpleks/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "복잡한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "복합 건물",
+            "콤플렉스"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "plex(plic)",
+          "mean": "접다 (fold)"
+        }
+      ],
+      "origin": "함께 접힌 → 복잡한"
+    },
+    {
+      "en": "perplex",
+      "ipa": "/pərˈpleks/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "당혹하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "plex(plic)",
+          "mean": "접다 (fold)"
+        }
+      ],
+      "origin": "완전히 뒤엉키게 접다 → 당혹하게 하다"
+    },
+    {
+      "en": "imply",
+      "ipa": "/ɪmˈplaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "암시하다",
+            "내포하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "ply(plic)",
+          "mean": "접다 (fold)"
+        }
+      ],
+      "origin": "안에 접어 넣다 → 암시하다"
+    },
+    {
+      "en": "apply",
+      "ipa": "/əˈplaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지원하다",
+            "적용하다",
+            "바르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "ply(plic)",
+          "mean": "접다 (fold)"
+        }
+      ],
+      "origin": "~쪽으로 접어 붙이다 → 적용하다"
+    },
+    {
+      "en": "employ",
+      "ipa": "/ɪmˈplɔɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고용하다",
+            "(도구 등을) 쓰다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "em-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "ploy(plic)",
+          "mean": "접다, 엮다 (fold, involve)"
+        }
+      ],
+      "origin": "안으로 엮어 넣다 → 고용하다"
+    },
+    {
+      "en": "diplomatic",
+      "ipa": "/ˌdɪpləˈmætɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "외교의",
+            "외교 수완이 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "diplo-",
+          "mean": "두 배, 접힌 (double, folded)"
+        },
+        {
+          "part": "ma",
+          "mean": "문서 (document)"
+        },
+        {
+          "part": "-tic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "접힌 공식 문서(외교 문서)의 → 외교의"
+    },
+    {
+      "en": "exploit",
+      "ipa": "/ɪkˈsplɔɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "이용하다",
+            "착취하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "공훈",
+            "업적"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "ploit(plic)",
+          "mean": "접다, 펼치다 (fold, unfold)"
+        }
+      ],
+      "origin": "밖으로 펼쳐 쓰다 → 이용하다"
+    },
+    {
+      "en": "inject",
+      "ipa": "/ɪnˈdʒekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "주입하다",
+            "주사하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "ject",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "안으로 던지다 → 주입하다"
+    },
+    {
+      "en": "object",
+      "ipa": "/ˈɑːbdʒekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "물체",
+            "목적",
+            "대상"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "반대하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "맞서 (against)"
+        },
+        {
+          "part": "ject",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "맞서 던지다 → 반대하다"
+    },
+    {
+      "en": "reject",
+      "ipa": "/rɪˈdʒekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "거절하다",
+            "거부하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "ject",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "뒤로 던지다 → 거절하다"
+    },
+    {
+      "en": "subject",
+      "ipa": "/ˈsʌbdʒɪkt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "주제",
+            "과목",
+            "피실험자"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "~하기 쉬운"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "복종시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "ject",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "아래에 던지다 → 복종시키다, 주제"
+    },
+    {
+      "en": "project",
+      "ipa": "/ˈprɑːdʒekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "계획",
+            "프로젝트"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "발사하다",
+            "투영하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "ject",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "앞으로 던지다 → 계획, 투영하다"
+    },
+    {
+      "en": "rate",
+      "ipa": "/reɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비율",
+            "요금",
+            "속도"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "평가하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rat",
+          "mean": "계산하다 (reckon, calculate)"
+        }
+      ],
+      "origin": "계산하다 → 비율, 평가하다"
+    },
+    {
+      "en": "ratio",
+      "ipa": "/ˈreɪʃioʊ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비율",
+            "비"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rat",
+          "mean": "계산하다 (reckon)"
+        },
+        {
+          "part": "-io",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "계산한 것 → 비율"
+    },
+    {
+      "en": "rational",
+      "ipa": "/ˈræʃnəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이성적인",
+            "합리적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rat",
+          "mean": "이성, 계산 (reason)"
+        },
+        {
+          "part": "-ional",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "이성에 따른 → 합리적인"
+    },
+    {
+      "en": "reason",
+      "ipa": "/ˈriːzn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이유",
+            "이성"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "추론하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "reas(rat)",
+          "mean": "계산하다, 생각하다 (reckon, think)"
+        },
+        {
+          "part": "-on",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "생각해 낸 것 → 이유, 이성"
+    },
+    {
+      "en": "fort",
+      "ipa": "/fɔːrt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요새",
+            "보루"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fort",
+          "mean": "강한 (strong)"
+        }
+      ],
+      "origin": "강한 곳 → 요새"
+    },
+    {
+      "en": "effort",
+      "ipa": "/ˈefərt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "노력",
+            "수고"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ef-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "fort",
+          "mean": "강한 (strong)"
+        }
+      ],
+      "origin": "밖으로 힘을 쓰다 → 노력"
+    },
+    {
+      "en": "comfort",
+      "ipa": "/ˈkʌmfərt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "편안함",
+            "위로"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "위로하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "fort",
+          "mean": "강한 (strong)"
+        }
+      ],
+      "origin": "함께 힘을 주다 → 위로하다"
+    },
+    {
+      "en": "force",
+      "ipa": "/fɔːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "힘",
+            "군대"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "강요하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "forc(fort)",
+          "mean": "강한 (strong)"
+        }
+      ],
+      "origin": "강한 것 → 힘, 강요하다"
+    },
+    {
+      "en": "reinforce",
+      "ipa": "/ˌriːɪnˈfɔːrs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "강화하다",
+            "증강하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "force(fort)",
+          "mean": "강한 (strong)"
+        }
+      ],
+      "origin": "다시 안에서 강하게 하다 → 강화하다"
+    }
+  ]
+}

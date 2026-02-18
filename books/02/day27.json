@@ -1,0 +1,604 @@
+{
+  "title": "volv 말다,돌다/ fer 나르다,가져가다,산출하다/ van 빈/ ess 존재하다/ ward 주의하다,지켜보다/ art 예술,기술",
+  "words": [
+    {
+      "en": "evolve",
+      "ipa": "/ɪˈvɑːlv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "진화하다",
+            "발달하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "volv",
+          "mean": "말다, 돌다 (roll)"
+        }
+      ],
+      "origin": "밖으로 펼쳐지다 → 진화하다"
+    },
+    {
+      "en": "revolve",
+      "ipa": "/rɪˈvɑːlv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "회전하다",
+            "공전하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "volv",
+          "mean": "돌다 (roll)"
+        }
+      ],
+      "origin": "다시 돌다 → 회전하다"
+    },
+    {
+      "en": "involve",
+      "ipa": "/ɪnˈvɑːlv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "포함하다",
+            "관련시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "volv",
+          "mean": "말다 (roll, wrap)"
+        }
+      ],
+      "origin": "안으로 말아 넣다 → 관련시키다"
+    },
+    {
+      "en": "volume",
+      "ipa": "/ˈvɑːljuːm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부피",
+            "음량",
+            "(책의) 권"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "volum(volv)",
+          "mean": "말다 (roll)"
+        }
+      ],
+      "origin": "두루마리로 말린 것 → 권, 부피"
+    },
+    {
+      "en": "prefer",
+      "ipa": "/prɪˈfɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "선호하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "fer",
+          "mean": "나르다 (carry)"
+        }
+      ],
+      "origin": "앞에 내놓다 → 선호하다"
+    },
+    {
+      "en": "refer",
+      "ipa": "/rɪˈfɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "언급하다",
+            "참조하다",
+            "보내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "fer",
+          "mean": "나르다 (carry)"
+        }
+      ],
+      "origin": "뒤로 가져가다 → 참조하다"
+    },
+    {
+      "en": "confer",
+      "ipa": "/kənˈfɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "상의하다",
+            "(학위를) 수여하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "fer",
+          "mean": "나르다 (carry)"
+        }
+      ],
+      "origin": "함께 가져오다 → 상의하다"
+    },
+    {
+      "en": "infer",
+      "ipa": "/ɪnˈfɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추론하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (in)"
+        },
+        {
+          "part": "fer",
+          "mean": "나르다 (carry)"
+        }
+      ],
+      "origin": "안으로 가져오다 → 추론하다"
+    },
+    {
+      "en": "indifferent",
+      "ipa": "/ɪnˈdɪfrənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "무관심한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "dif-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "fer",
+          "mean": "나르다 (carry)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "차이를 나르지 않는 → 무관심한"
+    },
+    {
+      "en": "fertile",
+      "ipa": "/ˈfɜːrtl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비옥한",
+            "다산의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fer",
+          "mean": "나르다, 낳다 (carry, bear)"
+        },
+        {
+          "part": "-tile",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "많이 낳는 → 비옥한"
+    },
+    {
+      "en": "vanish",
+      "ipa": "/ˈvænɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "사라지다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "van",
+          "mean": "빈 (empty)"
+        },
+        {
+          "part": "-ish",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "비어지다 → 사라지다"
+    },
+    {
+      "en": "vain",
+      "ipa": "/veɪn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "헛된",
+            "허영심 많은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "van",
+          "mean": "빈 (empty)"
+        }
+      ],
+      "origin": "비어 있는 → 헛된"
+    },
+    {
+      "en": "avoid",
+      "ipa": "/əˈvɔɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "피하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~으로 (to)"
+        },
+        {
+          "part": "void(van)",
+          "mean": "빈 (empty)"
+        }
+      ],
+      "origin": "빈 곳으로 가다 → 피하다"
+    },
+    {
+      "en": "vacant",
+      "ipa": "/ˈveɪkənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비어 있는",
+            "결원의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vac(van)",
+          "mean": "빈 (empty)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "비어 있는"
+    },
+    {
+      "en": "vacuum",
+      "ipa": "/ˈvækjuːm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "진공"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "진공 청소기로 청소하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vacu(van)",
+          "mean": "빈 (empty)"
+        },
+        {
+          "part": "-um",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "완전히 빈 상태 → 진공"
+    },
+    {
+      "en": "essence",
+      "ipa": "/ˈesns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "본질",
+            "정수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ess",
+          "mean": "존재하다 (be)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "존재의 핵심 → 본질"
+    },
+    {
+      "en": "absent",
+      "ipa": "/ˈæbsənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "결석한",
+            "없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ab-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "sent(ess)",
+          "mean": "존재하다 (be)"
+        }
+      ],
+      "origin": "떨어져 존재하는 → 결석한"
+    },
+    {
+      "en": "present",
+      "ipa": "/ˈpreznt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "현재의",
+            "출석한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "선물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "주다",
+            "나타내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "sent(ess)",
+          "mean": "존재하다 (be)"
+        }
+      ],
+      "origin": "앞에 존재하는 → 현재의"
+    },
+    {
+      "en": "award",
+      "ipa": "/əˈwɔːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "수여하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "ward",
+          "mean": "주의, 감시 (watch)"
+        }
+      ],
+      "origin": "주의를 기울여 판단하다 → 수여하다"
+    },
+    {
+      "en": "reward",
+      "ipa": "/rɪˈwɔːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보상"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보상하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (back)"
+        },
+        {
+          "part": "ward",
+          "mean": "주의 (watch)"
+        }
+      ],
+      "origin": "돌려 갚다 → 보상"
+    },
+    {
+      "en": "aware",
+      "ipa": "/əˈwer/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "알고 있는",
+            "인식하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~의 상태로 (in state of)"
+        },
+        {
+          "part": "ware(ward)",
+          "mean": "주의 (watch)"
+        }
+      ],
+      "origin": "주의 기울이는 상태 → 알고 있는"
+    },
+    {
+      "en": "warn",
+      "ipa": "/wɔːrn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "경고하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "warn(ward)",
+          "mean": "주의, 조심 (watch)"
+        }
+      ],
+      "origin": "주의하게 하다 → 경고하다"
+    },
+    {
+      "en": "artificial",
+      "ipa": "/ˌɑːrtɪˈfɪʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "인공적인",
+            "모조의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "art",
+          "mean": "기술 (skill)"
+        },
+        {
+          "part": "fic(fac)",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ial",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "기술로 만든 → 인공적인"
+    },
+    {
+      "en": "artistic",
+      "ipa": "/ɑːrˈtɪstɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "예술적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "art",
+          "mean": "예술 (art)"
+        },
+        {
+          "part": "-istic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "예술의 → 예술적인"
+    }
+  ]
+}

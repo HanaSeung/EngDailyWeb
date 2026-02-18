@@ -1,0 +1,602 @@
+{
+  "title": "mov 움직이다/ serv 지키다,주의를 기울이다/ spect 보다",
+  "words": [
+    {
+      "en": "move",
+      "ipa": "/muːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "움직이다",
+            "이사하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "조치"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mov",
+          "mean": "움직이다 (move)"
+        }
+      ],
+      "origin": "움직이다"
+    },
+    {
+      "en": "motive",
+      "ipa": "/ˈmoʊtɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동기",
+            "원인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mot(mov)",
+          "mean": "움직이다 (move)"
+        },
+        {
+          "part": "-ive",
+          "mean": "명사/형용사형 접미사"
+        }
+      ],
+      "origin": "움직이게 하는 것 → 동기"
+    },
+    {
+      "en": "motion",
+      "ipa": "/ˈmoʊʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "운동",
+            "동작",
+            "발의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mot(mov)",
+          "mean": "움직이다 (move)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "움직임 → 운동, 동작"
+    },
+    {
+      "en": "emotion",
+      "ipa": "/ɪˈmoʊʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감정"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "mot(mov)",
+          "mean": "움직이다 (move)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "밖으로 움직여 나오는 것 → 감정"
+    },
+    {
+      "en": "promote",
+      "ipa": "/prəˈmoʊt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "홍보하다",
+            "승진시키다",
+            "촉진하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "mote(mov)",
+          "mean": "움직이다 (move)"
+        }
+      ],
+      "origin": "앞으로 움직이게 하다 → 촉진하다, 승진시키다"
+    },
+    {
+      "en": "remote",
+      "ipa": "/rɪˈmoʊt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "먼",
+            "외딴"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "mote(mov)",
+          "mean": "움직이다 (move)"
+        }
+      ],
+      "origin": "뒤로 멀리 움직인 → 먼, 외딴"
+    },
+    {
+      "en": "moment",
+      "ipa": "/ˈmoʊmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "순간",
+            "중요성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mom(mov)",
+          "mean": "움직이다 (move)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "움직이는 찰나 → 순간"
+    },
+    {
+      "en": "mobile",
+      "ipa": "/ˈmoʊbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이동식의",
+            "유동적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mob(mov)",
+          "mean": "움직이다 (move)"
+        },
+        {
+          "part": "-ile",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "움직일 수 있는 → 이동식의"
+    },
+    {
+      "en": "conserve",
+      "ipa": "/kənˈsɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보존하다",
+            "보호하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "serve",
+          "mean": "지키다 (keep, save)"
+        }
+      ],
+      "origin": "함께 지키다 → 보존하다"
+    },
+    {
+      "en": "deserve",
+      "ipa": "/dɪˈzɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~할 가치가 있다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "serve",
+          "mean": "봉사하다 (serve)"
+        }
+      ],
+      "origin": "완전히 봉사할 만한 → ~할 가치가 있다"
+    },
+    {
+      "en": "preserve",
+      "ipa": "/prɪˈzɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보존하다",
+            "유지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "serve",
+          "mean": "지키다 (keep)"
+        }
+      ],
+      "origin": "미리 지키다 → 보존하다"
+    },
+    {
+      "en": "reserve",
+      "ipa": "/rɪˈzɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예약하다",
+            "비축하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "매장량"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "serve",
+          "mean": "지키다 (keep)"
+        }
+      ],
+      "origin": "뒤로 보관해 두다 → 예약하다, 비축하다"
+    },
+    {
+      "en": "observe",
+      "ipa": "/əbˈzɜːrv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "관찰하다",
+            "준수하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "serve",
+          "mean": "주의를 기울이다 (watch)"
+        }
+      ],
+      "origin": "~쪽으로 주의를 기울이다 → 관찰하다"
+    },
+    {
+      "en": "spectacle",
+      "ipa": "/ˈspektəkl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "광경",
+            "구경거리",
+            "(복수)안경"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        },
+        {
+          "part": "-acle",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "볼 만한 것 → 광경, 구경거리"
+    },
+    {
+      "en": "aspect",
+      "ipa": "/ˈæspekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "측면",
+            "양상"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        }
+      ],
+      "origin": "~쪽에서 바라본 것 → 측면, 양상"
+    },
+    {
+      "en": "expect",
+      "ipa": "/ɪkˈspekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기대하다",
+            "예상하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        }
+      ],
+      "origin": "밖을 내다보다 → 기대하다"
+    },
+    {
+      "en": "inspect",
+      "ipa": "/ɪnˈspekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "점검하다",
+            "검사하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        }
+      ],
+      "origin": "안을 들여다보다 → 점검하다"
+    },
+    {
+      "en": "prospect",
+      "ipa": "/ˈprɑːspekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전망",
+            "가능성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        }
+      ],
+      "origin": "앞을 내다보다 → 전망"
+    },
+    {
+      "en": "respect",
+      "ipa": "/rɪˈspekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "존경하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "존중",
+            "측면"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        }
+      ],
+      "origin": "다시 돌아보다 → 존경하다"
+    },
+    {
+      "en": "suspect",
+      "ipa": "/səˈspekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의심하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "용의자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sus-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        }
+      ],
+      "origin": "아래에서 올려다보다 → 의심하다"
+    },
+    {
+      "en": "species",
+      "ipa": "/ˈspiːʃiːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "(생물) 종"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spec",
+          "mean": "보다 (look)"
+        },
+        {
+          "part": "-ies",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "보이는 외형으로 나눈 것 → 종"
+    },
+    {
+      "en": "specific",
+      "ipa": "/spəˈsɪfɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "구체적인",
+            "특정한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spec",
+          "mean": "보다 (look)"
+        },
+        {
+          "part": "-ific",
+          "mean": "만드는 (making)"
+        }
+      ],
+      "origin": "보이게 만드는 → 구체적인"
+    },
+    {
+      "en": "special",
+      "ipa": "/ˈspeʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "특별한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spec",
+          "mean": "보다, 외형 (look, appearance)"
+        },
+        {
+          "part": "-ial",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "외형이 남다른 → 특별한"
+    },
+    {
+      "en": "despite",
+      "ipa": "/dɪˈspaɪt/",
+      "meanings": [
+        {
+          "pos": "전",
+          "defs": [
+            "~에도 불구하고"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "spite(spect)",
+          "mean": "보다 (look)"
+        }
+      ],
+      "origin": "아래로 깔보다 → 무시하고 → ~에도 불구하고"
+    }
+  ]
+}

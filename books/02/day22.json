@@ -1,0 +1,647 @@
+{
+  "title": "strict 팽팽히 당기다,묶어 두다/ fund 바닥/ press 누르다/ clud 닫다/ bio 생명",
+  "words": [
+    {
+      "en": "strict",
+      "ipa": "/strɪkt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "엄격한",
+            "엄한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "strict",
+          "mean": "당기다, 조이다 (draw tight)"
+        }
+      ],
+      "origin": "조여진 → 엄격한"
+    },
+    {
+      "en": "restrict",
+      "ipa": "/rɪˈstrɪkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제한하다",
+            "한정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "strict",
+          "mean": "당기다 (draw tight)"
+        }
+      ],
+      "origin": "뒤로 당겨 조이다 → 제한하다"
+    },
+    {
+      "en": "district",
+      "ipa": "/ˈdɪstrɪkt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지구",
+            "구역"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "strict",
+          "mean": "당기다 (draw)"
+        }
+      ],
+      "origin": "구분하여 나눈 곳 → 지구, 구역"
+    },
+    {
+      "en": "strain",
+      "ipa": "/streɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "긴장",
+            "부담"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "잡아당기다",
+            "애쓰다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "strain(strict)",
+          "mean": "당기다 (draw tight)"
+        }
+      ],
+      "origin": "당기다 → 긴장, 부담"
+    },
+    {
+      "en": "restrain",
+      "ipa": "/rɪˈstreɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "저지하다",
+            "억제하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "strain(strict)",
+          "mean": "당기다 (draw tight)"
+        }
+      ],
+      "origin": "뒤로 잡아당기다 → 억제하다"
+    },
+    {
+      "en": "constrain",
+      "ipa": "/kənˈstreɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "강요하다",
+            "억제하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "strain(strict)",
+          "mean": "당기다 (draw tight)"
+        }
+      ],
+      "origin": "함께 조이다 → 강요하다"
+    },
+    {
+      "en": "strait",
+      "ipa": "/streɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "해협",
+            "(경제적) 궁핍"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "strait(strict)",
+          "mean": "당기다, 좁은 (tight, narrow)"
+        }
+      ],
+      "origin": "좁게 조여진 곳 → 해협"
+    },
+    {
+      "en": "distress",
+      "ipa": "/dɪˈstres/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "고통",
+            "곤경"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "괴롭히다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "stress(strict)",
+          "mean": "당기다 (draw tight)"
+        }
+      ],
+      "origin": "사방으로 조여지다 → 고통"
+    },
+    {
+      "en": "stress",
+      "ipa": "/stres/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "스트레스",
+            "강조"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "강조하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stress(strict)",
+          "mean": "당기다, 조이다 (draw tight)"
+        }
+      ],
+      "origin": "조이는 것 → 스트레스, 강조"
+    },
+    {
+      "en": "prestige",
+      "ipa": "/preˈstiːʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "명성",
+            "위신"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "stige(strict)",
+          "mean": "당기다, 묶다 (bind)"
+        }
+      ],
+      "origin": "눈을 미리 사로잡다 → 명성"
+    },
+    {
+      "en": "fund",
+      "ipa": "/fʌnd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자금",
+            "기금"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "자금을 제공하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fund",
+          "mean": "바닥, 기초 (bottom, foundation)"
+        }
+      ],
+      "origin": "기초가 되는 것 → 자금"
+    },
+    {
+      "en": "fundamental",
+      "ipa": "/ˌfʌndəˈmentl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "근본적인",
+            "필수의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "기본 원칙"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fund",
+          "mean": "바닥, 기초 (bottom)"
+        },
+        {
+          "part": "-ament",
+          "mean": "명사형 접미사"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "기초의 → 근본적인"
+    },
+    {
+      "en": "found",
+      "ipa": "/faʊnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설립하다",
+            "~에 기초를 두다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "found(fund)",
+          "mean": "바닥, 기초 (bottom, foundation)"
+        }
+      ],
+      "origin": "기초를 놓다 → 설립하다"
+    },
+    {
+      "en": "profound",
+      "ipa": "/prəˈfaʊnd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "심오한",
+            "깊은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "found(fund)",
+          "mean": "바닥 (bottom)"
+        }
+      ],
+      "origin": "바닥까지 깊은 → 심오한"
+    },
+    {
+      "en": "pressure",
+      "ipa": "/ˈpreʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "압력",
+            "압박"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "press",
+          "mean": "누르다 (press)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "누르는 것 → 압력"
+    },
+    {
+      "en": "express",
+      "ipa": "/ɪkˈspres/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "표현하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "급행의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "급행열차"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "press",
+          "mean": "누르다 (press)"
+        }
+      ],
+      "origin": "밖으로 눌러 짜내다 → 표현하다"
+    },
+    {
+      "en": "impress",
+      "ipa": "/ɪmˈpres/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "깊은 인상을 주다",
+            "감명시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "press",
+          "mean": "누르다 (press)"
+        }
+      ],
+      "origin": "안에 눌러 새기다 → 인상을 주다"
+    },
+    {
+      "en": "oppress",
+      "ipa": "/əˈpres/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "억압하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "op-(ob-)",
+          "mean": "맞서 (against)"
+        },
+        {
+          "part": "press",
+          "mean": "누르다 (press)"
+        }
+      ],
+      "origin": "맞서 누르다 → 억압하다"
+    },
+    {
+      "en": "conclude",
+      "ipa": "/kənˈkluːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결론을 내리다",
+            "끝내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "clude(clud)",
+          "mean": "닫다 (close)"
+        }
+      ],
+      "origin": "완전히 닫다 → 끝내다, 결론 내리다"
+    },
+    {
+      "en": "include",
+      "ipa": "/ɪnˈkluːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "포함하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "clude(clud)",
+          "mean": "닫다 (close)"
+        }
+      ],
+      "origin": "안에 넣고 닫다 → 포함하다"
+    },
+    {
+      "en": "exclude",
+      "ipa": "/ɪkˈskluːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제외하다",
+            "배제하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "clude(clud)",
+          "mean": "닫다 (close)"
+        }
+      ],
+      "origin": "밖으로 내고 닫다 → 제외하다"
+    },
+    {
+      "en": "closet",
+      "ipa": "/ˈklɑːzɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "벽장"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "clos(clud)",
+          "mean": "닫다 (close)"
+        },
+        {
+          "part": "-et",
+          "mean": "작은 것 (diminutive)"
+        }
+      ],
+      "origin": "닫힌 작은 공간 → 벽장"
+    },
+    {
+      "en": "disclose",
+      "ipa": "/dɪsˈkloʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "드러내다",
+            "폭로하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "반대 (opposite)"
+        },
+        {
+          "part": "close(clud)",
+          "mean": "닫다 (close)"
+        }
+      ],
+      "origin": "닫힌 것을 열다 → 드러내다"
+    },
+    {
+      "en": "biography",
+      "ipa": "/baɪˈɑːɡrəfi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전기",
+            "일대기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bio",
+          "mean": "생명, 삶 (life)"
+        },
+        {
+          "part": "graphy",
+          "mean": "기록 (writing)"
+        }
+      ],
+      "origin": "삶의 기록 → 전기"
+    },
+    {
+      "en": "biology",
+      "ipa": "/baɪˈɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "생물학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bio",
+          "mean": "생명 (life)"
+        },
+        {
+          "part": "logy",
+          "mean": "학문 (study)"
+        }
+      ],
+      "origin": "생명에 대한 학문 → 생물학"
+    },
+    {
+      "en": "microbe",
+      "ipa": "/ˈmaɪkroʊb/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "미생물",
+            "세균"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "micro-",
+          "mean": "작은 (small)"
+        },
+        {
+          "part": "be(bio)",
+          "mean": "생명 (life)"
+        }
+      ],
+      "origin": "작은 생명 → 미생물"
+    }
+  ]
+}

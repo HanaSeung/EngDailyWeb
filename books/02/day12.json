@@ -1,0 +1,662 @@
+{
+  "title": "cap 잡다,취하다/ sta 서다,세우다",
+  "words": [
+    {
+      "en": "capable",
+      "ipa": "/ˈkeɪpəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "~할 능력이 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cap",
+          "mean": "잡다 (take, seize)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "잡아낼 수 있는 → 능력이 있는"
+    },
+    {
+      "en": "capture",
+      "ipa": "/ˈkæptʃər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "붙잡다",
+            "포착하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "생포",
+            "점령"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "capt",
+          "mean": "잡다 (take, seize)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사/동사형 접미사"
+        }
+      ],
+      "origin": "잡다 → 붙잡다, 포착하다"
+    },
+    {
+      "en": "participate",
+      "ipa": "/pɑːrˈtɪsɪpeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "참여하다",
+            "참가하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "part",
+          "mean": "부분 (part)"
+        },
+        {
+          "part": "cip(cap)",
+          "mean": "잡다 (take)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "한 부분을 잡다 → 참여하다"
+    },
+    {
+      "en": "accept",
+      "ipa": "/əkˈsept/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수락하다",
+            "받아들이다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cept(cap)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "자기 쪽으로 잡다 → 받아들이다"
+    },
+    {
+      "en": "except",
+      "ipa": "/ɪkˈsept/",
+      "meanings": [
+        {
+          "pos": "전",
+          "defs": [
+            "~을 제외하고"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "제외하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "cept(cap)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "밖으로 잡아내다 → 제외하다"
+    },
+    {
+      "en": "conceive",
+      "ipa": "/kənˈsiːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "상상하다",
+            "품다",
+            "임신하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "ceive(cap)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "완전히 마음에 잡다 → 상상하다, 품다"
+    },
+    {
+      "en": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인지하다",
+            "알아차리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "ceive(cap)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "완전히 잡아내다 → 인지하다"
+    },
+    {
+      "en": "deceive",
+      "ipa": "/dɪˈsiːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "속이다, 기만하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져, 아래로 (away, down)"
+        },
+        {
+          "part": "ceive(cap)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "아래로 잡아끌다 → 속이다"
+    },
+    {
+      "en": "receive",
+      "ipa": "/rɪˈsiːv/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "받다",
+            "수신하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "ceive(cap)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "뒤로 잡다 → 받다"
+    },
+    {
+      "en": "occupy",
+      "ipa": "/ˈɑːkjupaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "차지하다",
+            "점령하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "oc-(ob-)",
+          "mean": "~위에 (over)"
+        },
+        {
+          "part": "cupy(cap)",
+          "mean": "잡다 (seize)"
+        }
+      ],
+      "origin": "위에서 잡다 → 차지하다, 점령하다"
+    },
+    {
+      "en": "stand",
+      "ipa": "/stænd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "서다, 참다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "입장, 가판대"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sta",
+          "mean": "서다 (stand)"
+        },
+        {
+          "part": "-nd",
+          "mean": "동사형 어미"
+        }
+      ],
+      "origin": "서다"
+    },
+    {
+      "en": "standard",
+      "ipa": "/ˈstændərd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "표준",
+            "기준"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "일반적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stand",
+          "mean": "서다 (stand)"
+        },
+        {
+          "part": "-ard",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "세워놓은 것 → 표준, 기준"
+    },
+    {
+      "en": "state",
+      "ipa": "/steɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상태",
+            "국가",
+            "주"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "진술하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sta",
+          "mean": "서다, 세우다 (stand)"
+        },
+        {
+          "part": "-te",
+          "mean": "명사/동사형 접미사"
+        }
+      ],
+      "origin": "세워진 것 → 상태, 국가"
+    },
+    {
+      "en": "statistics",
+      "ipa": "/stəˈtɪstɪks/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "통계(학)",
+            "통계치"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stat",
+          "mean": "세우다, 상태 (stand, state)"
+        },
+        {
+          "part": "-istics",
+          "mean": "학문 접미사"
+        }
+      ],
+      "origin": "국가 상태를 수치로 세운 것 → 통계"
+    },
+    {
+      "en": "statue",
+      "ipa": "/ˈstætʃuː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조각상",
+            "동상"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sta",
+          "mean": "서다 (stand)"
+        },
+        {
+          "part": "-tue",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "서 있는 것 → 조각상"
+    },
+    {
+      "en": "status",
+      "ipa": "/ˈsteɪtəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지위",
+            "신분",
+            "상황"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sta",
+          "mean": "서다, 서 있는 (stand)"
+        },
+        {
+          "part": "-tus",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "서 있는 위치 → 지위, 상황"
+    },
+    {
+      "en": "stable",
+      "ipa": "/ˈsteɪbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "안정된"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "마구간"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sta",
+          "mean": "서다 (stand)"
+        },
+        {
+          "part": "-ble",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "단단히 서 있는 → 안정된"
+    },
+    {
+      "en": "establish",
+      "ipa": "/ɪˈstæblɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설립하다",
+            "확립하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "stabl",
+          "mean": "세우다 (stand, stable)"
+        },
+        {
+          "part": "-ish",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "단단히 세우다 → 설립하다"
+    },
+    {
+      "en": "constant",
+      "ipa": "/ˈkɑːnstənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "끊임없는",
+            "불변의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "상수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "stant",
+          "mean": "서 있는 (standing)"
+        }
+      ],
+      "origin": "함께 계속 서 있는 → 끊임없는"
+    },
+    {
+      "en": "estate",
+      "ipa": "/ɪˈsteɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사유지",
+            "자산"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "state",
+          "mean": "상태, 세움 (state, stand)"
+        }
+      ],
+      "origin": "세워놓은 재산 → 사유지, 자산"
+    },
+    {
+      "en": "instance",
+      "ipa": "/ˈɪnstəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사례",
+            "경우"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "stance",
+          "mean": "서 있는 (standing)"
+        }
+      ],
+      "origin": "앞에 서 있는 것 → 사례, 경우"
+    },
+    {
+      "en": "instant",
+      "ipa": "/ˈɪnstənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "즉각적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "순간"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "stant",
+          "mean": "서 있는 (standing)"
+        }
+      ],
+      "origin": "바로 앞에 서 있는 → 즉각적인"
+    },
+    {
+      "en": "install",
+      "ipa": "/ɪnˈstɔːl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설치하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "stall",
+          "mean": "세우다, 자리 (stand, place)"
+        }
+      ],
+      "origin": "안에 세우다 → 설치하다"
+    },
+    {
+      "en": "obstacle",
+      "ipa": "/ˈɑːbstəkl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "장애물"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "앞에, 맞서 (against)"
+        },
+        {
+          "part": "sta",
+          "mean": "서다 (stand)"
+        },
+        {
+          "part": "-cle",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "앞에 서 있는 것 → 장애물"
+    },
+    {
+      "en": "substance",
+      "ipa": "/ˈsʌbstəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "물질",
+            "실체",
+            "본질"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "stance",
+          "mean": "서 있는 (standing)"
+        }
+      ],
+      "origin": "아래에 서 있는 것 → 물질, 본질"
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "title": "lect 모으다,선택하다/ claim 부르다,외치다/ rupt 깨다,부수다/ alter 다른/ scrib 쓰다",
+  "words": [
+    {
+      "en": "collect",
+      "ipa": "/kəˈlekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수집하다",
+            "모으다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "col-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "lect",
+          "mean": "모으다 (gather)"
+        }
+      ],
+      "origin": "함께 모으다 → 수집하다"
+    },
+    {
+      "en": "recollect",
+      "ipa": "/ˌrekəˈlekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기억해내다",
+            "회상하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "col-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "lect",
+          "mean": "모으다 (gather)"
+        }
+      ],
+      "origin": "다시 함께 모으다 → 기억해내다"
+    },
+    {
+      "en": "elect",
+      "ipa": "/ɪˈlekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "선출하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "lect",
+          "mean": "모으다, 고르다 (choose)"
+        }
+      ],
+      "origin": "밖으로 골라내다 → 선출하다"
+    },
+    {
+      "en": "neglect",
+      "ipa": "/nɪˈɡlekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소홀히 하다",
+            "무시하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "태만"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "neg-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "lect",
+          "mean": "모으다 (gather)"
+        }
+      ],
+      "origin": "모으지 않다 → 소홀히 하다"
+    },
+    {
+      "en": "intellect",
+      "ipa": "/ˈɪntəlekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지성",
+            "지적 능력"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "lect",
+          "mean": "모으다, 고르다 (choose)"
+        }
+      ],
+      "origin": "사이에서 골라내는 능력 → 지성"
+    },
+    {
+      "en": "elegant",
+      "ipa": "/ˈelɪɡənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "우아한",
+            "고상한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "leg(lect)",
+          "mean": "고르다 (choose)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "골라낸 → 우아한"
+    },
+    {
+      "en": "claim",
+      "ipa": "/kleɪm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "주장하다",
+            "요구하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "주장"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "claim",
+          "mean": "외치다 (cry out, shout)"
+        }
+      ],
+      "origin": "외치다 → 주장하다"
+    },
+    {
+      "en": "proclaim",
+      "ipa": "/prəˈkleɪm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "선언하다",
+            "공포하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "claim",
+          "mean": "외치다 (cry out)"
+        }
+      ],
+      "origin": "앞으로 외치다 → 선언하다"
+    },
+    {
+      "en": "exclaim",
+      "ipa": "/ɪkˈskleɪm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "외치다",
+            "고함치다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "claim",
+          "mean": "외치다 (cry out)"
+        }
+      ],
+      "origin": "밖으로 외치다"
+    },
+    {
+      "en": "council",
+      "ipa": "/ˈkaʊnsl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "회의",
+            "위원회"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "coun-(con-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "cil(claim)",
+          "mean": "부르다 (call)"
+        }
+      ],
+      "origin": "함께 불러 모은 → 회의"
+    },
+    {
+      "en": "bankrupt",
+      "ipa": "/ˈbæŋkrʌpt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "파산한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "파산시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bank",
+          "mean": "은행 (bank)"
+        },
+        {
+          "part": "rupt",
+          "mean": "깨다 (break)"
+        }
+      ],
+      "origin": "은행이 깨진 → 파산한"
+    },
+    {
+      "en": "corrupt",
+      "ipa": "/kəˈrʌpt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부패한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "타락시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cor-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "rupt",
+          "mean": "깨다 (break)"
+        }
+      ],
+      "origin": "완전히 깨진 → 부패한"
+    },
+    {
+      "en": "disrupt",
+      "ipa": "/dɪsˈrʌpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방해하다",
+            "중단시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "rupt",
+          "mean": "깨다 (break)"
+        }
+      ],
+      "origin": "떨어뜨려 깨다 → 방해하다"
+    },
+    {
+      "en": "erupt",
+      "ipa": "/ɪˈrʌpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분출하다",
+            "폭발하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "rupt",
+          "mean": "깨다 (break)"
+        }
+      ],
+      "origin": "밖으로 깨져 나오다 → 분출하다"
+    },
+    {
+      "en": "interrupt",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방해하다",
+            "중단시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "rupt",
+          "mean": "깨다 (break)"
+        }
+      ],
+      "origin": "사이를 깨다 → 방해하다"
+    },
+    {
+      "en": "route",
+      "ipa": "/ruːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경로",
+            "노선"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "route(rupt)",
+          "mean": "깨다, 뚫다 (break through)"
+        }
+      ],
+      "origin": "뚫린 길 → 경로"
+    },
+    {
+      "en": "routine",
+      "ipa": "/ruːˈtiːn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "일상",
+            "루틴"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "일상적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rout(rupt)",
+          "mean": "길 (route)"
+        },
+        {
+          "part": "-ine",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "늘 다니는 길 → 일상"
+    },
+    {
+      "en": "alter",
+      "ipa": "/ˈɔːltər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "바꾸다",
+            "변경하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "alter",
+          "mean": "다른 (other)"
+        }
+      ],
+      "origin": "다른 것으로 하다 → 바꾸다"
+    },
+    {
+      "en": "alternative",
+      "ipa": "/ɔːlˈtɜːrnətɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대안"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "대체 가능한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "alter",
+          "mean": "다른 (other)"
+        },
+        {
+          "part": "nat",
+          "mean": "태어나다 (born)"
+        },
+        {
+          "part": "-ive",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "다른 선택지 → 대안"
+    },
+    {
+      "en": "alien",
+      "ipa": "/ˈeɪliən/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "외국의",
+            "이질적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "외계인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ali(alter)",
+          "mean": "다른 (other)"
+        },
+        {
+          "part": "-en",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "다른 곳의 → 외국의"
+    },
+    {
+      "en": "describe",
+      "ipa": "/dɪˈskraɪb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "묘사하다",
+            "서술하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "scribe",
+          "mean": "쓰다 (write)"
+        }
+      ],
+      "origin": "완전히 써내다 → 묘사하다"
+    },
+    {
+      "en": "prescribe",
+      "ipa": "/prɪˈskraɪb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "처방하다",
+            "규정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "scribe",
+          "mean": "쓰다 (write)"
+        }
+      ],
+      "origin": "미리 써놓다 → 처방하다"
+    },
+    {
+      "en": "subscribe",
+      "ipa": "/səbˈskraɪb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구독하다",
+            "서명하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "scribe",
+          "mean": "쓰다 (write)"
+        }
+      ],
+      "origin": "아래에 서명하다 → 구독하다"
+    }
+  ]
+}

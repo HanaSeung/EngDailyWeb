@@ -1,0 +1,632 @@
+{
+  "title": "manu 손/ cogn 알다/ grad 걸어가다,걸음,단계/ lax,ly 느슨하게하다,내버려두다",
+  "words": [
+    {
+      "en": "manual",
+      "ipa": "/ˈmænjuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수동의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "설명서"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "manu",
+          "mean": "손 (hand)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "손으로 하는 → 수동의"
+    },
+    {
+      "en": "manuscript",
+      "ipa": "/ˈmænjuskrɪpt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원고",
+            "사본"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "manu",
+          "mean": "손 (hand)"
+        },
+        {
+          "part": "script",
+          "mean": "쓰다 (write)"
+        }
+      ],
+      "origin": "손으로 쓴 것 → 원고"
+    },
+    {
+      "en": "maintain",
+      "ipa": "/meɪnˈteɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유지하다",
+            "주장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "main(manu)",
+          "mean": "손 (hand)"
+        },
+        {
+          "part": "tain",
+          "mean": "잡다 (hold)"
+        }
+      ],
+      "origin": "손으로 잡아두다 → 유지하다"
+    },
+    {
+      "en": "manipulate",
+      "ipa": "/məˈnɪpjuleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조작하다",
+            "다루다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mani(manu)",
+          "mean": "손 (hand)"
+        },
+        {
+          "part": "pul",
+          "mean": "채우다 (fill)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "손으로 다루다 → 조작하다"
+    },
+    {
+      "en": "manage",
+      "ipa": "/ˈmænɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "관리하다",
+            "간신히 해내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "man(manu)",
+          "mean": "손 (hand)"
+        },
+        {
+          "part": "-age",
+          "mean": "명사/동사형 접미사"
+        }
+      ],
+      "origin": "손으로 다루다 → 관리하다"
+    },
+    {
+      "en": "recognize",
+      "ipa": "/ˈrekəɡnaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "알아보다",
+            "인정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "cogn",
+          "mean": "알다 (know)"
+        },
+        {
+          "part": "-ize",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "다시 알다 → 알아보다"
+    },
+    {
+      "en": "diagnose",
+      "ipa": "/ˌdaɪəɡˈnoʊs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "진단하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dia-",
+          "mean": "가로질러 (through)"
+        },
+        {
+          "part": "gnos(cogn)",
+          "mean": "알다 (know)"
+        }
+      ],
+      "origin": "속까지 알다 → 진단하다"
+    },
+    {
+      "en": "ignore",
+      "ipa": "/ɪɡˈnɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "무시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "i-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "gnor(cogn)",
+          "mean": "알다 (know)"
+        }
+      ],
+      "origin": "알지 못하다 → 무시하다"
+    },
+    {
+      "en": "noble",
+      "ipa": "/ˈnoʊbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고귀한",
+            "숭고한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "귀족"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nobl(cogn)",
+          "mean": "알다, 알려진 (known)"
+        }
+      ],
+      "origin": "잘 알려진 → 고귀한"
+    },
+    {
+      "en": "acknowledge",
+      "ipa": "/əkˈnɑːlɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인정하다",
+            "감사를 표하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "knowledge(cogn)",
+          "mean": "앎, 지식 (knowledge)"
+        }
+      ],
+      "origin": "앎 쪽으로 향하다 → 인정하다"
+    },
+    {
+      "en": "acquaint",
+      "ipa": "/əˈkweɪnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "알리다",
+            "숙지시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "quaint(cogn)",
+          "mean": "알다 (know)"
+        }
+      ],
+      "origin": "알게 하다 → 숙지시키다"
+    },
+    {
+      "en": "grade",
+      "ipa": "/ɡreɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "등급",
+            "학년",
+            "성적"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "나누다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grad",
+          "mean": "걷다, 단계 (step)"
+        }
+      ],
+      "origin": "단계 → 등급"
+    },
+    {
+      "en": "gradual",
+      "ipa": "/ˈɡrædʒuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "점진적인",
+            "완만한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grad",
+          "mean": "단계 (step)"
+        },
+        {
+          "part": "-ual",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "단계적인 → 점진적인"
+    },
+    {
+      "en": "graduate",
+      "ipa": "/ˈɡrædʒuət/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "졸업하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "졸업생"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grad",
+          "mean": "단계 (step)"
+        },
+        {
+          "part": "-uate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "단계를 마치다 → 졸업하다"
+    },
+    {
+      "en": "aggressive",
+      "ipa": "/əˈɡresɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공격적인",
+            "적극적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ag-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "gress(grad)",
+          "mean": "걷다 (step, go)"
+        },
+        {
+          "part": "-ive",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "~쪽으로 나아가는 → 공격적인"
+    },
+    {
+      "en": "congress",
+      "ipa": "/ˈkɑːŋɡrəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의회",
+            "국회",
+            "회의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "gress(grad)",
+          "mean": "걷다 (step, go)"
+        }
+      ],
+      "origin": "함께 모여가다 → 의회"
+    },
+    {
+      "en": "degree",
+      "ipa": "/dɪˈɡriː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "도",
+            "정도",
+            "학위"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "gree(grad)",
+          "mean": "단계 (step)"
+        }
+      ],
+      "origin": "한 단계씩 내려감 → 정도"
+    },
+    {
+      "en": "ingredient",
+      "ipa": "/ɪnˈɡriːdiənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재료",
+            "성분",
+            "구성 요소"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "gredi(grad)",
+          "mean": "걷다, 들어가다 (step, go)"
+        },
+        {
+          "part": "-ent",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안으로 들어가는 것 → 재료"
+    },
+    {
+      "en": "relax",
+      "ipa": "/rɪˈlæks/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "휴식을 취하다",
+            "완화하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "lax",
+          "mean": "느슨한 (loose)"
+        }
+      ],
+      "origin": "뒤로 느슨하게 하다 → 쉬다"
+    },
+    {
+      "en": "analysis",
+      "ipa": "/əˈnæləsɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "분석"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ana-",
+          "mean": "위로, 다시 (up, throughout)"
+        },
+        {
+          "part": "lys(lax)",
+          "mean": "풀다 (loosen)"
+        },
+        {
+          "part": "-is",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "완전히 풀어 나누다 → 분석"
+    },
+    {
+      "en": "paralysis",
+      "ipa": "/pəˈræləsɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "마비"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "para-",
+          "mean": "옆에, 벗어나 (beside)"
+        },
+        {
+          "part": "lysis(lax)",
+          "mean": "풀다 (loosen)"
+        }
+      ],
+      "origin": "힘이 풀림 → 마비"
+    },
+    {
+      "en": "release",
+      "ipa": "/rɪˈliːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "석방하다",
+            "발표하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "출시"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "lease(lax)",
+          "mean": "느슨하게 하다 (loosen)"
+        }
+      ],
+      "origin": "뒤로 풀어주다 → 석방하다"
+    },
+    {
+      "en": "delay",
+      "ipa": "/dɪˈleɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "미루다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지연"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "lay(lax)",
+          "mean": "느슨하게 (loosen)"
+        }
+      ],
+      "origin": "떨어져 놓아두다 → 미루다"
+    },
+    {
+      "en": "relay",
+      "ipa": "/ˈriːleɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전달하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "릴레이",
+            "중계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "lay(lax)",
+          "mean": "놓다 (lay)"
+        }
+      ],
+      "origin": "다시 놓다 → 전달하다"
+    }
+  ]
+}

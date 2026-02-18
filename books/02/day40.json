@@ -1,0 +1,622 @@
+{
+  "title": "aster 별/ surg 솟아나다/ sens 느끼다/ cord 마음/ termin 끝,한계",
+  "words": [
+    {
+      "en": "disaster",
+      "ipa": "/dɪˈzæstər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재난",
+            "참사"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart, away)"
+        },
+        {
+          "part": "aster",
+          "mean": "별 (star)"
+        }
+      ],
+      "origin": "별이 떨어진(불길한) → 재난"
+    },
+    {
+      "en": "astronaut",
+      "ipa": "/ˈæstrənɔːt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우주비행사"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "astro(aster)",
+          "mean": "별 (star)"
+        },
+        {
+          "part": "naut",
+          "mean": "항해사 (sailor)"
+        }
+      ],
+      "origin": "별의 항해사 → 우주비행사"
+    },
+    {
+      "en": "astronomy",
+      "ipa": "/əˈstrɑːnəmi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "천문학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "astro(aster)",
+          "mean": "별 (star)"
+        },
+        {
+          "part": "nomy",
+          "mean": "법칙, 학문 (law, study)"
+        }
+      ],
+      "origin": "별의 법칙 → 천문학"
+    },
+    {
+      "en": "astrology",
+      "ipa": "/əˈstrɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "점성학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "astro(aster)",
+          "mean": "별 (star)"
+        },
+        {
+          "part": "logy",
+          "mean": "학문 (study)"
+        }
+      ],
+      "origin": "별에 대한 학문 → 점성학"
+    },
+    {
+      "en": "desire",
+      "ipa": "/dɪˈzaɪər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "욕구",
+            "열망"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "바라다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져 (from)"
+        },
+        {
+          "part": "sire(aster)",
+          "mean": "별 (star)"
+        }
+      ],
+      "origin": "별로부터(점성에서) 바라다 → 열망"
+    },
+    {
+      "en": "consider",
+      "ipa": "/kənˈsɪdər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고려하다",
+            "~라고 간주하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "sider(aster)",
+          "mean": "별 (star)"
+        }
+      ],
+      "origin": "별들을 함께 살피다 → 고려하다"
+    },
+    {
+      "en": "surge",
+      "ipa": "/sɜːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "급증하다",
+            "밀려들다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "급증"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "surg",
+          "mean": "솟아나다 (rise)"
+        }
+      ],
+      "origin": "솟아나다 → 급증하다"
+    },
+    {
+      "en": "source",
+      "ipa": "/sɔːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원천",
+            "근원",
+            "출처"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sourc(surg)",
+          "mean": "솟아나다 (rise, spring)"
+        }
+      ],
+      "origin": "솟아나는 곳 → 원천"
+    },
+    {
+      "en": "resource",
+      "ipa": "/ˈriːsɔːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자원",
+            "수단"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "source(surg)",
+          "mean": "솟아나다 (rise)"
+        }
+      ],
+      "origin": "다시 솟아나는 것 → 자원"
+    },
+    {
+      "en": "sense",
+      "ipa": "/sens/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감각",
+            "의미",
+            "분별력"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "느끼다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sens",
+          "mean": "느끼다 (feel)"
+        }
+      ],
+      "origin": "느끼다 → 감각"
+    },
+    {
+      "en": "nonsense",
+      "ipa": "/ˈnɑːnsens/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "터무니없는 생각",
+            "무의미한 말"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "non-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "sense(sens)",
+          "mean": "의미 (meaning)"
+        }
+      ],
+      "origin": "의미 없는 것 → 무의미한 말"
+    },
+    {
+      "en": "sensation",
+      "ipa": "/senˈseɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감각",
+            "세상을 놀라게 하는 일"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sens",
+          "mean": "느끼다 (feel)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "느껴지는 것 → 감각"
+    },
+    {
+      "en": "sentiment",
+      "ipa": "/ˈsentɪmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감정",
+            "정서"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sent(sens)",
+          "mean": "느끼다 (feel)"
+        },
+        {
+          "part": "-iment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "느끼는 것 → 감정"
+    },
+    {
+      "en": "consent",
+      "ipa": "/kənˈsent/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "동의하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "동의",
+            "승낙"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "sent(sens)",
+          "mean": "느끼다 (feel)"
+        }
+      ],
+      "origin": "함께 느끼다 → 동의하다"
+    },
+    {
+      "en": "resent",
+      "ipa": "/rɪˈzent/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "분개하다",
+            "억울하게 여기다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "반대로 (against)"
+        },
+        {
+          "part": "sent(sens)",
+          "mean": "느끼다 (feel)"
+        }
+      ],
+      "origin": "반대로 느끼다 → 분개하다"
+    },
+    {
+      "en": "scent",
+      "ipa": "/sent/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "향기",
+            "냄새"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "scent(sens)",
+          "mean": "느끼다 (feel, smell)"
+        }
+      ],
+      "origin": "느껴지는 냄새 → 향기"
+    },
+    {
+      "en": "discord",
+      "ipa": "/ˈdɪskɔːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "불일치",
+            "불화"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "반대 (apart)"
+        },
+        {
+          "part": "cord",
+          "mean": "마음 (heart)"
+        }
+      ],
+      "origin": "마음이 떨어진 → 불화"
+    },
+    {
+      "en": "accord",
+      "ipa": "/əˈkɔːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "일치",
+            "합의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "일치하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cord",
+          "mean": "마음 (heart)"
+        }
+      ],
+      "origin": "마음이 ~쪽으로 향하다 → 일치"
+    },
+    {
+      "en": "courage",
+      "ipa": "/ˈkɜːrɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "용기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cour(cord)",
+          "mean": "마음 (heart)"
+        },
+        {
+          "part": "-age",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "마음의 힘 → 용기"
+    },
+    {
+      "en": "encourage",
+      "ipa": "/ɪnˈkɜːrɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "격려하다",
+            "권장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "courage(cord)",
+          "mean": "용기 (courage)"
+        }
+      ],
+      "origin": "안에 용기를 넣다 → 격려하다"
+    },
+    {
+      "en": "core",
+      "ipa": "/kɔːr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "핵심"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "핵심의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cor(cord)",
+          "mean": "마음 (heart)"
+        }
+      ],
+      "origin": "마음 → 핵심"
+    },
+    {
+      "en": "terminal",
+      "ipa": "/ˈtɜːrmɪnl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "터미널"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "말기의",
+            "끝의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "termin",
+          "mean": "끝 (end, limit)"
+        },
+        {
+          "part": "-al",
+          "mean": "명사/형용사형 접미사"
+        }
+      ],
+      "origin": "끝의 → 말기의"
+    },
+    {
+      "en": "terminate",
+      "ipa": "/ˈtɜːrmɪneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "끝내다",
+            "종결시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "termin",
+          "mean": "끝 (end)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "끝내다"
+    },
+    {
+      "en": "determine",
+      "ipa": "/dɪˈtɜːrmɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결정하다",
+            "알아내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "termin",
+          "mean": "끝, 경계 (end, limit)"
+        }
+      ],
+      "origin": "완전히 경계를 정하다 → 결정하다"
+    },
+    {
+      "en": "term",
+      "ipa": "/tɜːrm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "용어",
+            "기간",
+            "학기",
+            "조건"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "term(termin)",
+          "mean": "끝, 경계 (end, limit)"
+        }
+      ],
+      "origin": "경계가 있는 것 → 기간, 용어"
+    }
+  ]
+}

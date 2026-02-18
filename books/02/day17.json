@@ -1,0 +1,622 @@
+{
+  "title": "vis 보다/ quir 구하다, 묻다/ duc 인도하다",
+  "words": [
+    {
+      "en": "vision",
+      "ipa": "/ˈvɪʒn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "시력",
+            "환상",
+            "비전"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vis",
+          "mean": "보다 (see)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "보는 것 → 시력, 비전"
+    },
+    {
+      "en": "revise",
+      "ipa": "/rɪˈvaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수정하다",
+            "개정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "vise(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "다시 보다 → 수정하다"
+    },
+    {
+      "en": "advise",
+      "ipa": "/ədˈvaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조언하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "vise(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "~쪽을 보게 하다 → 조언하다"
+    },
+    {
+      "en": "supervise",
+      "ipa": "/ˈsuːpərvaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감독하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "super-",
+          "mean": "위에서 (above)"
+        },
+        {
+          "part": "vise(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "위에서 보다 → 감독하다"
+    },
+    {
+      "en": "evidence",
+      "ipa": "/ˈevɪdəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "증거"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "vid(vis)",
+          "mean": "보다 (see)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "밖으로 보이는 것 → 증거"
+    },
+    {
+      "en": "provide",
+      "ipa": "/prəˈvaɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제공하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로, 미리 (forward, before)"
+        },
+        {
+          "part": "vide(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "미리 내다보고 준비하다 → 제공하다"
+    },
+    {
+      "en": "view",
+      "ipa": "/vjuː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "견해",
+            "관점"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "view(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "보다 → 견해, 관점"
+    },
+    {
+      "en": "interview",
+      "ipa": "/ˈɪntərvjuː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "면접"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "면접을 보다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "서로, 사이에 (between)"
+        },
+        {
+          "part": "view(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "서로 보다 → 면접"
+    },
+    {
+      "en": "review",
+      "ipa": "/rɪˈvjuː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "검토",
+            "복습",
+            "비평"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "검토하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "view(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "다시 보다 → 검토, 복습"
+    },
+    {
+      "en": "envy",
+      "ipa": "/ˈenvi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부러움"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "부러워하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-(in-)",
+          "mean": "안으로 (in, upon)"
+        },
+        {
+          "part": "vy(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "안으로 바라보다 → 부러워하다"
+    },
+    {
+      "en": "survey",
+      "ipa": "/ˈsɜːrveɪ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조사"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "조사하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sur-(super-)",
+          "mean": "위에서 (over)"
+        },
+        {
+          "part": "vey(vis)",
+          "mean": "보다 (see)"
+        }
+      ],
+      "origin": "위에서 내려다보다 → 조사하다"
+    },
+    {
+      "en": "acquire",
+      "ipa": "/əˈkwaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "습득하다",
+            "얻다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "quire",
+          "mean": "구하다 (seek)"
+        }
+      ],
+      "origin": "~쪽으로 구하다 → 습득하다"
+    },
+    {
+      "en": "require",
+      "ipa": "/rɪˈkwaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "요구하다",
+            "필요로 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "quire",
+          "mean": "구하다 (seek)"
+        }
+      ],
+      "origin": "다시 구하다 → 요구하다"
+    },
+    {
+      "en": "inquire",
+      "ipa": "/ɪnˈkwaɪər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "묻다",
+            "조사하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "quire",
+          "mean": "구하다, 묻다 (seek, ask)"
+        }
+      ],
+      "origin": "안으로 파고들어 묻다 → 조사하다"
+    },
+    {
+      "en": "conquer",
+      "ipa": "/ˈkɑːŋkər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정복하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "quer(quir)",
+          "mean": "구하다 (seek)"
+        }
+      ],
+      "origin": "완전히 손에 넣다 → 정복하다"
+    },
+    {
+      "en": "request",
+      "ipa": "/rɪˈkwest/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요청"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "요청하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "quest(quir)",
+          "mean": "구하다 (seek)"
+        }
+      ],
+      "origin": "다시 구하다 → 요청하다"
+    },
+    {
+      "en": "exquisite",
+      "ipa": "/ɪkˈskwɪzɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정교한",
+            "우아한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "quis(quir)",
+          "mean": "구하다 (seek)"
+        },
+        {
+          "part": "-ite",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "밖으로 찾아낸 → 정교한"
+    },
+    {
+      "en": "conduct",
+      "ipa": "/kənˈdʌkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "수행하다",
+            "지휘하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "행동"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "duct(duc)",
+          "mean": "이끌다 (lead)"
+        }
+      ],
+      "origin": "함께 이끌다 → 수행하다"
+    },
+    {
+      "en": "deduct",
+      "ipa": "/dɪˈdʌkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "빼다",
+            "공제하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "duct(duc)",
+          "mean": "이끌다 (lead)"
+        }
+      ],
+      "origin": "아래로 이끌어 빼다 → 공제하다"
+    },
+    {
+      "en": "educate",
+      "ipa": "/ˈedʒukeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "교육하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "duc",
+          "mean": "이끌다 (lead)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "밖으로 이끌어내다 → 교육하다"
+    },
+    {
+      "en": "deduce",
+      "ipa": "/dɪˈduːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추론하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "duce(duc)",
+          "mean": "이끌다 (lead)"
+        }
+      ],
+      "origin": "아래로 이끌어내다 → 추론하다"
+    },
+    {
+      "en": "induce",
+      "ipa": "/ɪnˈduːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유도하다",
+            "귀납하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "duce(duc)",
+          "mean": "이끌다 (lead)"
+        }
+      ],
+      "origin": "안으로 이끌다 → 유도하다"
+    },
+    {
+      "en": "reduce",
+      "ipa": "/rɪˈduːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "줄이다",
+            "감소시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "duce(duc)",
+          "mean": "이끌다 (lead)"
+        }
+      ],
+      "origin": "뒤로 이끌다 → 줄이다"
+    },
+    {
+      "en": "introduce",
+      "ipa": "/ˌɪntrəˈduːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소개하다",
+            "도입하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "intro-",
+          "mean": "안으로 (inward)"
+        },
+        {
+          "part": "duce(duc)",
+          "mean": "이끌다 (lead)"
+        }
+      ],
+      "origin": "안으로 이끌어 들이다 → 소개하다"
+    }
+  ]
+}

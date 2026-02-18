@@ -1,0 +1,581 @@
+{
+  "title": "cause 이유/ via 길/ rang 줄/ pend 매달다,무게를 달다/ apt 적합한/ spond 약속하다",
+  "words": [
+    {
+      "en": "cause",
+      "ipa": "/kɔːz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원인",
+            "이유"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "야기하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cause",
+          "mean": "이유 (reason, cause)"
+        }
+      ],
+      "origin": "이유 → 원인, 야기하다"
+    },
+    {
+      "en": "accuse",
+      "ipa": "/əˈkjuːz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고발하다",
+            "비난하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cuse(cause)",
+          "mean": "이유, 원인 (cause)"
+        }
+      ],
+      "origin": "원인을 ~에게 돌리다 → 고발하다"
+    },
+    {
+      "en": "excuse",
+      "ipa": "/ɪkˈskjuːs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "변명",
+            "이유"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "용서하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "cuse(cause)",
+          "mean": "이유 (cause)"
+        }
+      ],
+      "origin": "이유 밖으로 빼주다 → 용서하다"
+    },
+    {
+      "en": "via",
+      "ipa": "/ˈvaɪə/",
+      "meanings": [
+        {
+          "pos": "전",
+          "defs": [
+            "~을 통하여",
+            "~을 경유하여"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "via",
+          "mean": "길 (way, road)"
+        }
+      ],
+      "origin": "길을 통해 → ~을 경유하여"
+    },
+    {
+      "en": "obvious",
+      "ipa": "/ˈɑːbviəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "명백한",
+            "분명한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob-",
+          "mean": "맞서, 앞에 (in front)"
+        },
+        {
+          "part": "vi(via)",
+          "mean": "길 (way)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "길 앞에 있는 → 명백한"
+    },
+    {
+      "en": "previous",
+      "ipa": "/ˈpriːviəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이전의",
+            "앞선"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "vi(via)",
+          "mean": "길 (way)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "앞선 길의 → 이전의"
+    },
+    {
+      "en": "convey",
+      "ipa": "/kənˈveɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전달하다",
+            "운반하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "vey(via)",
+          "mean": "길 (way)"
+        }
+      ],
+      "origin": "함께 길을 가다 → 운반하다"
+    },
+    {
+      "en": "voyage",
+      "ipa": "/ˈvɔɪɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "항해",
+            "여행"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "voy(via)",
+          "mean": "길 (way)"
+        },
+        {
+          "part": "-age",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "길을 떠남 → 항해"
+    },
+    {
+      "en": "range",
+      "ipa": "/reɪndʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "범위",
+            "산맥"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "~에 걸쳐 있다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rang",
+          "mean": "줄, 열 (row, line)"
+        }
+      ],
+      "origin": "줄지어 선 범위 → 범위"
+    },
+    {
+      "en": "arrange",
+      "ipa": "/əˈreɪndʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "배열하다",
+            "마련하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ar-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "range(rang)",
+          "mean": "줄 (row)"
+        }
+      ],
+      "origin": "줄에 맞추다 → 배열하다"
+    },
+    {
+      "en": "rank",
+      "ipa": "/ræŋk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "계급",
+            "지위"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "등급을 매기다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rank(rang)",
+          "mean": "줄, 열 (row, line)"
+        }
+      ],
+      "origin": "줄에서의 위치 → 계급"
+    },
+    {
+      "en": "depend",
+      "ipa": "/dɪˈpend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의존하다",
+            "~에 달려 있다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "pend",
+          "mean": "매달다 (hang)"
+        }
+      ],
+      "origin": "아래에 매달리다 → 의존하다"
+    },
+    {
+      "en": "suspend",
+      "ipa": "/səˈspend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "매달다",
+            "중단하다",
+            "정직시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sus-(sub-)",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "pend",
+          "mean": "매달다 (hang)"
+        }
+      ],
+      "origin": "아래에 매달다 → 중단하다"
+    },
+    {
+      "en": "expend",
+      "ipa": "/ɪkˈspend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(시간·노력 등을) 들이다",
+            "쓰다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "pend",
+          "mean": "달다, 무게를 재다 (weigh)"
+        }
+      ],
+      "origin": "밖으로 달아내다 → 쓰다"
+    },
+    {
+      "en": "compensate",
+      "ipa": "/ˈkɑːmpenseɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보상하다",
+            "보충하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pens(pend)",
+          "mean": "달다, 무게를 재다 (weigh)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 무게를 맞추다 → 보상하다"
+    },
+    {
+      "en": "pension",
+      "ipa": "/ˈpenʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "연금"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pens(pend)",
+          "mean": "달다, 지불하다 (weigh, pay)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "정기적으로 지불하는 것 → 연금"
+    },
+    {
+      "en": "ponder",
+      "ipa": "/ˈpɑːndər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "숙고하다",
+            "곰곰이 생각하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pond(pend)",
+          "mean": "달다, 무게를 재다 (weigh)"
+        },
+        {
+          "part": "-er",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "무게를 재다 → 숙고하다"
+    },
+    {
+      "en": "apt",
+      "ipa": "/æpt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "적절한",
+            "~하기 쉬운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "apt",
+          "mean": "적합한 (fit, suitable)"
+        }
+      ],
+      "origin": "적합한 → 적절한"
+    },
+    {
+      "en": "adapt",
+      "ipa": "/əˈdæpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "적응시키다",
+            "각색하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "apt",
+          "mean": "적합한 (fit)"
+        }
+      ],
+      "origin": "~에 맞게 적합하게 하다 → 적응시키다"
+    },
+    {
+      "en": "attitude",
+      "ipa": "/ˈætɪtuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "태도",
+            "자세"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "apt",
+          "mean": "적합한 (fit)"
+        },
+        {
+          "part": "-itude",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "적합한 상태 → 태도"
+    },
+    {
+      "en": "respond",
+      "ipa": "/rɪˈspɑːnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "응답하다",
+            "반응하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "spond",
+          "mean": "약속하다 (promise, pledge)"
+        }
+      ],
+      "origin": "뒤로 약속하다 → 응답하다"
+    },
+    {
+      "en": "responsible",
+      "ipa": "/rɪˈspɑːnsəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "책임이 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "spons(spond)",
+          "mean": "약속 (pledge)"
+        },
+        {
+          "part": "-ible",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "약속에 응할 수 있는 → 책임이 있는"
+    },
+    {
+      "en": "sponsor",
+      "ipa": "/ˈspɑːnsər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "후원자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "후원하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spons(spond)",
+          "mean": "약속하다 (pledge)"
+        },
+        {
+          "part": "-or",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "약속하는 사람 → 후원자"
+    }
+  ]
+}

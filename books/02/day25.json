@@ -1,0 +1,655 @@
+{
+  "title": "vert 돌리다/ nat 태어난/ rot 바퀴,두리마리/ part 부분/ flect 굽히다",
+  "words": [
+    {
+      "en": "advertise",
+      "ipa": "/ˈædvərtaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "광고하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "vert",
+          "mean": "돌리다 (turn)"
+        },
+        {
+          "part": "-ise",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "~쪽으로 관심을 돌리다 → 광고하다"
+    },
+    {
+      "en": "convert",
+      "ipa": "/kənˈvɜːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전환하다",
+            "개조하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "vert",
+          "mean": "돌리다 (turn)"
+        }
+      ],
+      "origin": "완전히 돌리다 → 전환하다"
+    },
+    {
+      "en": "vertical",
+      "ipa": "/ˈvɜːrtɪkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수직의",
+            "세로의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vert",
+          "mean": "돌리다, 꼭대기 (turn, top)"
+        },
+        {
+          "part": "-ical",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "꼭대기를 향한 → 수직의"
+    },
+    {
+      "en": "converse",
+      "ipa": "/kənˈvɜːrs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "대화하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "정반대"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "역의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "verse(vert)",
+          "mean": "돌리다 (turn)"
+        }
+      ],
+      "origin": "함께 번갈아 돌리다 → 대화하다"
+    },
+    {
+      "en": "diverse",
+      "ipa": "/daɪˈvɜːrs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "다양한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "verse(vert)",
+          "mean": "돌리다 (turn)"
+        }
+      ],
+      "origin": "여러 방향으로 돌린 → 다양한"
+    },
+    {
+      "en": "reverse",
+      "ipa": "/rɪˈvɜːrs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "뒤바꾸다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "반대의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "후진"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "verse(vert)",
+          "mean": "돌리다 (turn)"
+        }
+      ],
+      "origin": "뒤로 돌리다 → 뒤바꾸다"
+    },
+    {
+      "en": "adversity",
+      "ipa": "/ədˈvɜːrsəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "역경",
+            "불운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "vers(vert)",
+          "mean": "돌리다 (turn)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "맞서 돌아온 것 → 역경"
+    },
+    {
+      "en": "verse",
+      "ipa": "/vɜːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "운문",
+            "(시의) 연",
+            "(노래의) 절"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "verse(vert)",
+          "mean": "돌리다 (turn)"
+        }
+      ],
+      "origin": "줄을 돌려 쓰는 것 → 운문"
+    },
+    {
+      "en": "version",
+      "ipa": "/ˈvɜːrʒn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "버전",
+            "판",
+            "설명"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vers(vert)",
+          "mean": "돌리다 (turn)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "돌려서 바꾼 것 → 버전"
+    },
+    {
+      "en": "divorce",
+      "ipa": "/dɪˈvɔːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "이혼"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "이혼하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "vorce(vert)",
+          "mean": "돌리다 (turn)"
+        }
+      ],
+      "origin": "서로 다른 방향으로 돌리다 → 이혼"
+    },
+    {
+      "en": "native",
+      "ipa": "/ˈneɪtɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "태생의",
+            "토착의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "현지인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nat",
+          "mean": "태어나다 (born)"
+        },
+        {
+          "part": "-ive",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "태어난 곳의 → 토착의"
+    },
+    {
+      "en": "nation",
+      "ipa": "/ˈneɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "국가",
+            "국민"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nat",
+          "mean": "태어나다 (born)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "태어난 사람들의 집단 → 국가"
+    },
+    {
+      "en": "nature",
+      "ipa": "/ˈneɪtʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자연",
+            "성질",
+            "본성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "nat",
+          "mean": "태어나다 (born)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "태어날 때부터의 것 → 자연, 본성"
+    },
+    {
+      "en": "innate",
+      "ipa": "/ɪˈneɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "타고난",
+            "천성의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "nate(nat)",
+          "mean": "태어나다 (born)"
+        }
+      ],
+      "origin": "안에 태어날 때부터 있는 → 타고난"
+    },
+    {
+      "en": "rotate",
+      "ipa": "/ˈroʊteɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "회전하다",
+            "교대하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rot",
+          "mean": "바퀴 (wheel)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "바퀴처럼 돌다 → 회전하다"
+    },
+    {
+      "en": "control",
+      "ipa": "/kənˈtroʊl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통제하다",
+            "조절하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지배"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "contra-",
+          "mean": "반대 (against)"
+        },
+        {
+          "part": "rol(rot)",
+          "mean": "바퀴, 목록 (roll)"
+        }
+      ],
+      "origin": "대조 목록으로 점검하다 → 통제하다"
+    },
+    {
+      "en": "enroll",
+      "ipa": "/ɪnˈroʊl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "등록하다",
+            "입학하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "roll(rot)",
+          "mean": "두루마리 (roll)"
+        }
+      ],
+      "origin": "두루마리 명부에 넣다 → 등록하다"
+    },
+    {
+      "en": "partial",
+      "ipa": "/ˈpɑːrʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부분적인",
+            "편파적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "part",
+          "mean": "부분 (part)"
+        },
+        {
+          "part": "-ial",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "부분의 → 부분적인"
+    },
+    {
+      "en": "particle",
+      "ipa": "/ˈpɑːrtɪkl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "입자",
+            "아주 작은 조각"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "part",
+          "mean": "부분 (part)"
+        },
+        {
+          "part": "-icle",
+          "mean": "작은 것 (diminutive)"
+        }
+      ],
+      "origin": "작은 부분 → 입자"
+    },
+    {
+      "en": "particular",
+      "ipa": "/pərˈtɪkjələr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "특정한",
+            "까다로운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "part",
+          "mean": "부분 (part)"
+        },
+        {
+          "part": "-icular",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "한 부분에 해당하는 → 특정한"
+    },
+    {
+      "en": "apart",
+      "ipa": "/əˈpɑːrt/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "떨어져서"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "분리된"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~으로 (to)"
+        },
+        {
+          "part": "part",
+          "mean": "부분 (part)"
+        }
+      ],
+      "origin": "부분으로 나뉘어 → 떨어져서"
+    },
+    {
+      "en": "portion",
+      "ipa": "/ˈpɔːrʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부분",
+            "1인분"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "port(part)",
+          "mean": "부분 (part)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "나뉜 부분 → 1인분"
+    },
+    {
+      "en": "proportion",
+      "ipa": "/prəˈpɔːrʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "비율",
+            "균형"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞에 (for)"
+        },
+        {
+          "part": "portion(part)",
+          "mean": "부분 (part)"
+        }
+      ],
+      "origin": "각 부분의 비 → 비율"
+    },
+    {
+      "en": "reflect",
+      "ipa": "/rɪˈflekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반사하다",
+            "반영하다",
+            "숙고하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "flect",
+          "mean": "굽히다 (bend)"
+        }
+      ],
+      "origin": "뒤로 굽히다 → 반사하다"
+    },
+    {
+      "en": "flexible",
+      "ipa": "/ˈfleksəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유연한",
+            "융통성 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "flex(flect)",
+          "mean": "굽히다 (bend)"
+        },
+        {
+          "part": "-ible",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "굽힐 수 있는 → 유연한"
+    }
+  ]
+}

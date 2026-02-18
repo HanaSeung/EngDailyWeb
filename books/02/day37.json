@@ -1,0 +1,612 @@
+{
+  "title": "leg 법률,위임하다/ labor 일하다/ cast 던지다/ terr 두려워하게 하다/ ton 소리/ sol 혼자의",
+  "words": [
+    {
+      "en": "legal",
+      "ipa": "/ˈliːɡl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "법률의",
+            "합법적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "leg",
+          "mean": "법 (law)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "법의 → 합법적인"
+    },
+    {
+      "en": "legislate",
+      "ipa": "/ˈledʒɪsleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "법률을 제정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "legis(leg)",
+          "mean": "법 (law)"
+        },
+        {
+          "part": "late",
+          "mean": "나르다 (carry, propose)"
+        }
+      ],
+      "origin": "법을 제안하다 → 법률을 제정하다"
+    },
+    {
+      "en": "privilege",
+      "ipa": "/ˈprɪvəlɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "특권",
+            "영광"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "priv",
+          "mean": "개인의 (private)"
+        },
+        {
+          "part": "lege(leg)",
+          "mean": "법 (law)"
+        }
+      ],
+      "origin": "개인을 위한 법 → 특권"
+    },
+    {
+      "en": "delegate",
+      "ipa": "/ˈdelɪɡət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대표자"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "위임하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "leg",
+          "mean": "보내다 (send)"
+        },
+        {
+          "part": "-ate",
+          "mean": "명사/동사형 접미사"
+        }
+      ],
+      "origin": "떨어져 보내다 → 위임하다"
+    },
+    {
+      "en": "legacy",
+      "ipa": "/ˈleɡəsi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유산"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "leg",
+          "mean": "법, 유언 (law, bequest)"
+        },
+        {
+          "part": "-acy",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "유언으로 남긴 것 → 유산"
+    },
+    {
+      "en": "colleague",
+      "ipa": "/ˈkɑːliːɡ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동료"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "col-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "league(leg)",
+          "mean": "보내다, 선택 (send, choose)"
+        }
+      ],
+      "origin": "함께 선택된 사람 → 동료"
+    },
+    {
+      "en": "loyal",
+      "ipa": "/ˈlɔɪəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "충성스러운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "loy(leg)",
+          "mean": "법 (law)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "법에 충실한 → 충성스러운"
+    },
+    {
+      "en": "labor",
+      "ipa": "/ˈleɪbər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "노동",
+            "수고"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "노동하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "labor",
+          "mean": "일하다 (work, toil)"
+        }
+      ],
+      "origin": "일하다 → 노동"
+    },
+    {
+      "en": "laboratory",
+      "ipa": "/ˈlæbrətɔːri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "실험실"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "labor",
+          "mean": "일하다 (work)"
+        },
+        {
+          "part": "-atory",
+          "mean": "장소 접미사"
+        }
+      ],
+      "origin": "일하는 장소 → 실험실"
+    },
+    {
+      "en": "elaborate",
+      "ipa": "/ɪˈlæbərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정교한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "상세히 설명하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "labor",
+          "mean": "일하다 (work)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사/동사형 접미사"
+        }
+      ],
+      "origin": "공들여 만들어낸 → 정교한"
+    },
+    {
+      "en": "collaborate",
+      "ipa": "/kəˈlæbəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "협력하다",
+            "공동으로 작업하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "col-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "labor",
+          "mean": "일하다 (work)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 일하다 → 협력하다"
+    },
+    {
+      "en": "cast",
+      "ipa": "/kæst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "던지다",
+            "배역을 정하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "출연진"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cast",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "던지다"
+    },
+    {
+      "en": "broadcast",
+      "ipa": "/ˈbrɔːdkæst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방송하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "방송"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "broad",
+          "mean": "넓은 (wide)"
+        },
+        {
+          "part": "cast",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "넓게 던지다 → 방송하다"
+    },
+    {
+      "en": "forecast",
+      "ipa": "/ˈfɔːrkæst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예보하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "예보"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fore-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "cast",
+          "mean": "던지다 (throw)"
+        }
+      ],
+      "origin": "앞에 던져보다 → 예보하다"
+    },
+    {
+      "en": "terrible",
+      "ipa": "/ˈterəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "끔찍한",
+            "형편없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "terr",
+          "mean": "두려움 (fear)"
+        },
+        {
+          "part": "-ible",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "두려운 → 끔찍한"
+    },
+    {
+      "en": "terror",
+      "ipa": "/ˈterər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공포",
+            "테러"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "terr",
+          "mean": "두려움 (fear)"
+        },
+        {
+          "part": "-or",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "두려움 → 공포"
+    },
+    {
+      "en": "terrify",
+      "ipa": "/ˈterɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "겁나게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "terr",
+          "mean": "두려움 (fear)"
+        },
+        {
+          "part": "-ify",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "두렵게 만들다"
+    },
+    {
+      "en": "tone",
+      "ipa": "/toʊn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "음조",
+            "말투",
+            "색조"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ton",
+          "mean": "소리 (sound)"
+        }
+      ],
+      "origin": "소리 → 음조"
+    },
+    {
+      "en": "intonation",
+      "ipa": "/ˌɪntəˈneɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "억양"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "ton",
+          "mean": "소리 (sound)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안에서의 소리 변화 → 억양"
+    },
+    {
+      "en": "monotonous",
+      "ipa": "/məˈnɑːtənəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "단조로운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mono-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "ton",
+          "mean": "소리 (sound)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "하나의 소리 → 단조로운"
+    },
+    {
+      "en": "tune",
+      "ipa": "/tuːn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "곡",
+            "선율"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "조율하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tun(ton)",
+          "mean": "소리 (sound)"
+        }
+      ],
+      "origin": "소리 → 곡"
+    },
+    {
+      "en": "sole",
+      "ipa": "/soʊl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유일한",
+            "혼자의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sol",
+          "mean": "혼자 (alone)"
+        }
+      ],
+      "origin": "혼자의 → 유일한"
+    },
+    {
+      "en": "solitary",
+      "ipa": "/ˈsɑːləteri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고독한",
+            "혼자 하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sol",
+          "mean": "혼자 (alone)"
+        },
+        {
+          "part": "-itary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "혼자의 → 고독한"
+    },
+    {
+      "en": "solitude",
+      "ipa": "/ˈsɑːlətuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "고독",
+            "혼자 있음"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sol",
+          "mean": "혼자 (alone)"
+        },
+        {
+          "part": "-itude",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "혼자인 상태 → 고독"
+    }
+  ]
+}

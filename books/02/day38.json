@@ -1,0 +1,661 @@
+{
+  "title": "pass 통과하다,발걸음/ ped 발/ us 사용하다/ jus 법/ per 시험 삼아 해보다/ soci 친구",
+  "words": [
+    {
+      "en": "passage",
+      "ipa": "/ˈpæsɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "통로",
+            "(책의) 구절",
+            "흐름"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pass",
+          "mean": "통과하다 (pass)"
+        },
+        {
+          "part": "-age",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "통과하는 것 → 통로"
+    },
+    {
+      "en": "passenger",
+      "ipa": "/ˈpæsɪndʒər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "승객"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pass",
+          "mean": "통과하다 (pass)"
+        },
+        {
+          "part": "-enger",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "통과하는 사람 → 승객"
+    },
+    {
+      "en": "passerby",
+      "ipa": "/ˌpæsərˈbaɪ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "통행인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "passer",
+          "mean": "지나가는 사람 (one who passes)"
+        },
+        {
+          "part": "by",
+          "mean": "곁을 (by)"
+        }
+      ],
+      "origin": "곁을 지나가는 사람 → 통행인"
+    },
+    {
+      "en": "pastime",
+      "ipa": "/ˈpæstaɪm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기분 전환",
+            "취미"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pass",
+          "mean": "통과하다 (pass)"
+        },
+        {
+          "part": "time",
+          "mean": "시간 (time)"
+        }
+      ],
+      "origin": "시간을 보내는 것 → 취미"
+    },
+    {
+      "en": "surpass",
+      "ipa": "/sərˈpæs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "능가하다",
+            "넘어서다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sur-(super-)",
+          "mean": "위에 (above)"
+        },
+        {
+          "part": "pass",
+          "mean": "통과하다 (pass)"
+        }
+      ],
+      "origin": "위로 지나가다 → 능가하다"
+    },
+    {
+      "en": "bypass",
+      "ipa": "/ˈbaɪpæs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우회로"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "우회하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "by",
+          "mean": "곁을 (by)"
+        },
+        {
+          "part": "pass",
+          "mean": "통과하다 (pass)"
+        }
+      ],
+      "origin": "곁으로 지나가다 → 우회하다"
+    },
+    {
+      "en": "pace",
+      "ipa": "/peɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "속도",
+            "걸음"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pac(pass)",
+          "mean": "걸음 (step)"
+        }
+      ],
+      "origin": "걸음 → 속도"
+    },
+    {
+      "en": "pedal",
+      "ipa": "/ˈpedl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "페달"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "페달을 밟다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ped",
+          "mean": "발 (foot)"
+        },
+        {
+          "part": "-al",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "발로 밟는 것 → 페달"
+    },
+    {
+      "en": "expedition",
+      "ipa": "/ˌekspəˈdɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "탐험(대)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "ped",
+          "mean": "발 (foot)"
+        },
+        {
+          "part": "-ition",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "발을 밖으로 내딛다 → 탐험"
+    },
+    {
+      "en": "pedestrian",
+      "ipa": "/pəˈdestriən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보행자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ped",
+          "mean": "발 (foot)"
+        },
+        {
+          "part": "-estrian",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "발로 걷는 사람 → 보행자"
+    },
+    {
+      "en": "use",
+      "ipa": "/juːs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사용"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "사용하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "us",
+          "mean": "사용하다 (use)"
+        }
+      ],
+      "origin": "사용하다"
+    },
+    {
+      "en": "abuse",
+      "ipa": "/əˈbjuːs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "남용",
+            "학대"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "남용하다",
+            "학대하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ab-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "use(us)",
+          "mean": "사용하다 (use)"
+        }
+      ],
+      "origin": "잘못 사용하다 → 남용하다"
+    },
+    {
+      "en": "utilize",
+      "ipa": "/ˈjuːtəlaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "활용하다",
+            "이용하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "util(us)",
+          "mean": "쓸모 있는 (useful)"
+        },
+        {
+          "part": "-ize",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "쓸모 있게 하다 → 활용하다"
+    },
+    {
+      "en": "utensil",
+      "ipa": "/juːˈtensl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기구",
+            "도구"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "utens(us)",
+          "mean": "사용하다 (use)"
+        },
+        {
+          "part": "-il",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "사용하는 것 → 기구"
+    },
+    {
+      "en": "just",
+      "ipa": "/dʒʌst/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공정한",
+            "적절한"
+          ]
+        },
+        {
+          "pos": "부",
+          "defs": [
+            "방금",
+            "단지"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "jus",
+          "mean": "법, 정의 (law, right)"
+        },
+        {
+          "part": "-t",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "법에 맞는 → 공정한"
+    },
+    {
+      "en": "justify",
+      "ipa": "/ˈdʒʌstɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정당화하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "just(jus)",
+          "mean": "정의 (right)"
+        },
+        {
+          "part": "-ify",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "정의에 맞게 만들다 → 정당화하다"
+    },
+    {
+      "en": "judge",
+      "ipa": "/dʒʌdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "판사",
+            "심사위원"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "판단하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "judg(jus)",
+          "mean": "법, 정의 (law, right)"
+        }
+      ],
+      "origin": "법에 따라 판단하는 사람 → 판사"
+    },
+    {
+      "en": "prejudice",
+      "ipa": "/ˈpredʒədɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "편견",
+            "선입견"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "judice(jus)",
+          "mean": "판단 (judgment)"
+        }
+      ],
+      "origin": "미리 판단함 → 편견"
+    },
+    {
+      "en": "injure",
+      "ipa": "/ˈɪndʒər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "상처 입히다",
+            "해치다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "jure(jus)",
+          "mean": "법, 정의 (right)"
+        }
+      ],
+      "origin": "정의롭지 않게 하다 → 해치다"
+    },
+    {
+      "en": "experience",
+      "ipa": "/ɪkˈspɪriəns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경험"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "경험하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "peri(per)",
+          "mean": "시험하다 (try)"
+        },
+        {
+          "part": "-ence",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "밖으로 시험하다 → 경험"
+    },
+    {
+      "en": "experiment",
+      "ipa": "/ɪkˈsperɪmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "실험"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "실험하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "peri(per)",
+          "mean": "시험하다 (try)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "밖으로 시험하다 → 실험"
+    },
+    {
+      "en": "expert",
+      "ipa": "/ˈekspɜːrt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전문가"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "전문가의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "pert(per)",
+          "mean": "시험하다 (try)"
+        }
+      ],
+      "origin": "충분히 시험한 사람 → 전문가"
+    },
+    {
+      "en": "peril",
+      "ipa": "/ˈperəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위험",
+            "위난"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per",
+          "mean": "시험하다 (try)"
+        },
+        {
+          "part": "-il",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "시험에 처한 상태 → 위험"
+    },
+    {
+      "en": "social",
+      "ipa": "/ˈsoʊʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사회의",
+            "사교적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "soci",
+          "mean": "친구, 동반자 (companion)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "동반자의 → 사회의"
+    },
+    {
+      "en": "associate",
+      "ipa": "/əˈsoʊʃieɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연상하다",
+            "교제하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "동료"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "soci",
+          "mean": "친구 (companion)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "친구 쪽으로 향하다 → 교제하다"
+    }
+  ]
+}

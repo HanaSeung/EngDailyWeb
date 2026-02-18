@@ -1,0 +1,649 @@
+{
+  "title": "struct 쌓다,세우다/ vary 변화시키다,다르게 만들다/ simil 비슷한,같은,함께/ prim 제1의,최초의/ opt 선택하다",
+  "words": [
+    {
+      "en": "structure",
+      "ipa": "/ˈstrʌktʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "구조(물)",
+            "체계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "struct",
+          "mean": "쌓다, 세우다 (build)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "세운 것 → 구조물"
+    },
+    {
+      "en": "infrastructure",
+      "ipa": "/ˈɪnfrəstrʌktʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사회 기반 시설"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "infra-",
+          "mean": "아래에 (below)"
+        },
+        {
+          "part": "struct",
+          "mean": "세우다 (build)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "아래에 세운 것 → 기반 시설"
+    },
+    {
+      "en": "construct",
+      "ipa": "/kənˈstrʌkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "건설하다",
+            "구성하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "struct",
+          "mean": "쌓다 (build)"
+        }
+      ],
+      "origin": "함께 쌓다 → 건설하다"
+    },
+    {
+      "en": "instruct",
+      "ipa": "/ɪnˈstrʌkt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "교육하다",
+            "지시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "struct",
+          "mean": "쌓다 (build)"
+        }
+      ],
+      "origin": "안에 쌓아주다 → 교육하다"
+    },
+    {
+      "en": "instrument",
+      "ipa": "/ˈɪnstrəmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기구",
+            "악기",
+            "도구"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "stru(struct)",
+          "mean": "세우다 (build)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안에 세우는 도구 → 기구"
+    },
+    {
+      "en": "industry",
+      "ipa": "/ˈɪndəstri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "산업",
+            "근면"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "du(struct)",
+          "mean": "세우다 (build)"
+        },
+        {
+          "part": "-stry",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안에서 세우는 일 → 산업, 근면"
+    },
+    {
+      "en": "destroy",
+      "ipa": "/dɪˈstrɔɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "파괴하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "반대, 아래로 (down, reverse)"
+        },
+        {
+          "part": "stroy(struct)",
+          "mean": "세우다 (build)"
+        }
+      ],
+      "origin": "세운 것을 무너뜨리다 → 파괴하다"
+    },
+    {
+      "en": "vary",
+      "ipa": "/ˈveri/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "다르다",
+            "바꾸다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vary",
+          "mean": "변화시키다 (change)"
+        }
+      ],
+      "origin": "변화시키다 → 다르다"
+    },
+    {
+      "en": "various",
+      "ipa": "/ˈveriəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "다양한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vari(vary)",
+          "mean": "변화 (change)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "변화가 많은 → 다양한"
+    },
+    {
+      "en": "variable",
+      "ipa": "/ˈveriəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "변하기 쉬운"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "변수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vari(vary)",
+          "mean": "변화 (change)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "변할 수 있는 → 변하기 쉬운"
+    },
+    {
+      "en": "variation",
+      "ipa": "/ˌveriˈeɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "변화",
+            "차이"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vari(vary)",
+          "mean": "변화 (change)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "변화한 것 → 변화, 차이"
+    },
+    {
+      "en": "similar",
+      "ipa": "/ˈsɪmələr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비슷한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "simil",
+          "mean": "비슷한 (like, same)"
+        },
+        {
+          "part": "-ar",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "비슷한"
+    },
+    {
+      "en": "resemble",
+      "ipa": "/rɪˈzembl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "닮다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "semble(simil)",
+          "mean": "비슷한 (like)"
+        }
+      ],
+      "origin": "다시 비슷해 보이다 → 닮다"
+    },
+    {
+      "en": "assemble",
+      "ipa": "/əˈsembl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모으다",
+            "조립하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "semble(simil)",
+          "mean": "함께 (together)"
+        }
+      ],
+      "origin": "한 곳으로 모으다 → 조립하다"
+    },
+    {
+      "en": "seemingly",
+      "ipa": "/ˈsiːmɪŋli/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "겉보기에",
+            "보아하니"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "seem(simil)",
+          "mean": "비슷해 보이다 (seem, appear)"
+        },
+        {
+          "part": "-ingly",
+          "mean": "부사형 접미사"
+        }
+      ],
+      "origin": "비슷해 보이는 방식으로 → 겉보기에"
+    },
+    {
+      "en": "simulation",
+      "ipa": "/ˌsɪmjuˈleɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "모의 실험"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "simul(simil)",
+          "mean": "비슷한 (like)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "비슷하게 만든 것 → 모의 실험"
+    },
+    {
+      "en": "simultaneously",
+      "ipa": "/ˌsaɪmlˈteɪniəsli/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "동시에"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "simul(simil)",
+          "mean": "함께, 동시에 (together, at once)"
+        },
+        {
+          "part": "tane",
+          "mean": "상태 (state)"
+        },
+        {
+          "part": "-ously",
+          "mean": "부사형 접미사"
+        }
+      ],
+      "origin": "함께 같은 상태로 → 동시에"
+    },
+    {
+      "en": "prime",
+      "ipa": "/praɪm/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주요한",
+            "최고의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전성기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prim",
+          "mean": "제1의 (first)"
+        }
+      ],
+      "origin": "제1의 → 주요한, 전성기"
+    },
+    {
+      "en": "primary",
+      "ipa": "/ˈpraɪmeri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주요한",
+            "제1의",
+            "초등의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prim",
+          "mean": "제1의 (first)"
+        },
+        {
+          "part": "-ary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "제1의 → 주요한, 초등의"
+    },
+    {
+      "en": "primitive",
+      "ipa": "/ˈprɪmətɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "원시적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prim",
+          "mean": "제1의 (first)"
+        },
+        {
+          "part": "-itive",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "최초의 → 원시적인"
+    },
+    {
+      "en": "principal",
+      "ipa": "/ˈprɪnsəpl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "주요한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "교장"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prin(prim)",
+          "mean": "제1의 (first)"
+        },
+        {
+          "part": "cip(cap)",
+          "mean": "잡다 (take)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "첫째를 잡고 있는 → 주요한, 교장"
+    },
+    {
+      "en": "principle",
+      "ipa": "/ˈprɪnsəpl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원리",
+            "원칙"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "prin(prim)",
+          "mean": "제1의 (first)"
+        },
+        {
+          "part": "ciple(cap)",
+          "mean": "잡다 (take)"
+        }
+      ],
+      "origin": "첫째로 잡아야 할 것 → 원리, 원칙"
+    },
+    {
+      "en": "prior",
+      "ipa": "/ˈpraɪər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이전의",
+            "우선하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pri(prim)",
+          "mean": "제1의, 앞의 (first, before)"
+        },
+        {
+          "part": "-or",
+          "mean": "비교급 접미사"
+        }
+      ],
+      "origin": "더 앞의 → 이전의, 우선하는"
+    },
+    {
+      "en": "option",
+      "ipa": "/ˈɑːpʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "선택(권)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "opt",
+          "mean": "선택하다 (choose)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "선택하는 것 → 선택(권)"
+    },
+    {
+      "en": "adopt",
+      "ipa": "/əˈdɑːpt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "채택하다",
+            "입양하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "opt",
+          "mean": "선택하다 (choose)"
+        }
+      ],
+      "origin": "~쪽으로 선택하다 → 채택하다"
+    },
+    {
+      "en": "opinion",
+      "ipa": "/əˈpɪnjən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의견"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "opin(opt)",
+          "mean": "생각하다 (think, choose)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "생각해서 선택한 것 → 의견"
+    }
+  ]
+}

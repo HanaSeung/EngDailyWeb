@@ -1,0 +1,609 @@
+{
+  "title": "tract 끌다,끌리다/ gener 출생,생성하다",
+  "words": [
+    {
+      "en": "abstract",
+      "ipa": "/ˈæbstrækt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "추상적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "요약"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "abs-(ab-)",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "tract",
+          "mean": "끌다 (draw, pull)"
+        }
+      ],
+      "origin": "떨어져 끌어내다 → 추상적인"
+    },
+    {
+      "en": "attract",
+      "ipa": "/əˈtrækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "끌어당기다",
+            "매혹하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "at-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tract",
+          "mean": "끌다 (draw, pull)"
+        }
+      ],
+      "origin": "~쪽으로 끌다 → 끌어당기다"
+    },
+    {
+      "en": "contract",
+      "ipa": "/ˈkɑːntrækt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "계약(서)"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "수축하다",
+            "병에 걸리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tract",
+          "mean": "끌다 (draw)"
+        }
+      ],
+      "origin": "함께 끌어 묶다 → 계약"
+    },
+    {
+      "en": "distract",
+      "ipa": "/dɪˈstrækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "산만하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "tract",
+          "mean": "끌다 (draw)"
+        }
+      ],
+      "origin": "다른 곳으로 끌다 → 산만하게 하다"
+    },
+    {
+      "en": "extract",
+      "ipa": "/ɪkˈstrækt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추출하다",
+            "뽑아내다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "발췌"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "tract",
+          "mean": "끌다 (draw)"
+        }
+      ],
+      "origin": "밖으로 끌어내다 → 추출하다"
+    },
+    {
+      "en": "treat",
+      "ipa": "/triːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "대우하다",
+            "치료하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "한턱"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "treat(tract)",
+          "mean": "끌다, 다루다 (draw, handle)"
+        }
+      ],
+      "origin": "다루다 → 대우하다, 치료하다"
+    },
+    {
+      "en": "treaty",
+      "ipa": "/ˈtriːti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조약",
+            "협정"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "treat(tract)",
+          "mean": "다루다 (handle)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "다루어 합의한 것 → 조약"
+    },
+    {
+      "en": "retreat",
+      "ipa": "/rɪˈtriːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "후퇴하다",
+            "철수하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "휴양지"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "treat(tract)",
+          "mean": "끌다 (draw)"
+        }
+      ],
+      "origin": "뒤로 끌다 → 후퇴하다"
+    },
+    {
+      "en": "trace",
+      "ipa": "/treɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "흔적"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "추적하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trace(tract)",
+          "mean": "끌다, 끌린 자국 (draw, track)"
+        }
+      ],
+      "origin": "끌린 자국 → 흔적, 추적하다"
+    },
+    {
+      "en": "track",
+      "ipa": "/træk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "길",
+            "자국"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "추적하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "track(tract)",
+          "mean": "끌다, 끌린 자국 (draw, path)"
+        }
+      ],
+      "origin": "끌린 자국 → 길, 추적하다"
+    },
+    {
+      "en": "trail",
+      "ipa": "/treɪl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "오솔길",
+            "자국"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "끌다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trail(tract)",
+          "mean": "끌다 (draw, drag)"
+        }
+      ],
+      "origin": "끌려간 자국 → 오솔길"
+    },
+    {
+      "en": "trait",
+      "ipa": "/treɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "특징",
+            "특성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trait(tract)",
+          "mean": "끌다, 끌어내다 (draw)"
+        }
+      ],
+      "origin": "끌어낸 특질 → 특징"
+    },
+    {
+      "en": "portray",
+      "ipa": "/pɔːrˈtreɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "묘사하다",
+            "그리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "por-(pro-)",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "tray(tract)",
+          "mean": "끌다 (draw)"
+        }
+      ],
+      "origin": "앞으로 끌어내어 그리다 → 묘사하다"
+    },
+    {
+      "en": "generate",
+      "ipa": "/ˈdʒenəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발생시키다",
+            "일으키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gener",
+          "mean": "낳다, 생성하다 (birth, produce)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "낳다, 만들어내다 → 발생시키다"
+    },
+    {
+      "en": "generous",
+      "ipa": "/ˈdʒenərəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "관대한",
+            "풍부한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gener",
+          "mean": "태생, 종족 (birth, race)"
+        },
+        {
+          "part": "-ous",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "좋은 태생의 → 관대한"
+    },
+    {
+      "en": "general",
+      "ipa": "/ˈdʒenrəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "일반적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "장군"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gener",
+          "mean": "종류, 종족 (kind, race)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "모든 종류에 걸친 → 일반적인"
+    },
+    {
+      "en": "gender",
+      "ipa": "/ˈdʒendər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "성별"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gen(gener)",
+          "mean": "낳다, 종류 (birth, kind)"
+        },
+        {
+          "part": "-der",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "태어난 종류 → 성별"
+    },
+    {
+      "en": "gene",
+      "ipa": "/dʒiːn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유전자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gen(gener)",
+          "mean": "낳다 (birth, produce)"
+        }
+      ],
+      "origin": "낳게 하는 것 → 유전자"
+    },
+    {
+      "en": "genetic",
+      "ipa": "/dʒəˈnetɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "유전의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gen(gener)",
+          "mean": "낳다 (birth)"
+        },
+        {
+          "part": "-etic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "태어남과 관련된 → 유전의"
+    },
+    {
+      "en": "genius",
+      "ipa": "/ˈdʒiːniəs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "천재(성)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gen(gener)",
+          "mean": "낳다, 태어나다 (birth)"
+        },
+        {
+          "part": "-ius",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "타고난 재능 → 천재"
+    },
+    {
+      "en": "gentle",
+      "ipa": "/ˈdʒentl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부드러운",
+            "온화한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gen(gener)",
+          "mean": "태생, 종족 (birth, race)"
+        },
+        {
+          "part": "-tle",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "좋은 태생의 → 부드러운, 온화한"
+    },
+    {
+      "en": "genuine",
+      "ipa": "/ˈdʒenjuɪn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "진짜의",
+            "진실된"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gen(gener)",
+          "mean": "낳다, 태생 (birth)"
+        },
+        {
+          "part": "-uine",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "태어날 때부터의 → 진짜의"
+    },
+    {
+      "en": "congenital",
+      "ipa": "/kənˈdʒenɪtl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "선천적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "genit(gener)",
+          "mean": "낳다 (birth)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "태어남과 함께 있는 → 선천적인"
+    },
+    {
+      "en": "pregnant",
+      "ipa": "/ˈpreɡnənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "임신한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "gn(gener)",
+          "mean": "낳다 (birth)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "낳기 전의 상태 → 임신한"
+    }
+  ]
+}

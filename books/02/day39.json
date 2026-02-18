@@ -1,0 +1,632 @@
+{
+  "title": "voc 목소리,부르다/ long 갈망하다,긴/ mun 의무/ popul 사람들/ frag 부수다/ grav 무거운",
+  "words": [
+    {
+      "en": "vocal",
+      "ipa": "/ˈvoʊkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "목소리의",
+            "의견을 당당히 밝히는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "보컬"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "voc",
+          "mean": "목소리 (voice)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "목소리의"
+    },
+    {
+      "en": "vocabulary",
+      "ipa": "/vəˈkæbjəleri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "어휘"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "voc",
+          "mean": "목소리, 말 (voice, word)"
+        },
+        {
+          "part": "-abulary",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "말의 모음 → 어휘"
+    },
+    {
+      "en": "vocation",
+      "ipa": "/voʊˈkeɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "천직",
+            "직업",
+            "소명"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "voc",
+          "mean": "부르다 (call)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "부름 → 천직"
+    },
+    {
+      "en": "advocate",
+      "ipa": "/ˈædvəkət/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지지하다",
+            "옹호하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지지자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "voc",
+          "mean": "부르다 (call)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "~쪽으로 불러들이다 → 옹호하다"
+    },
+    {
+      "en": "evoke",
+      "ipa": "/ɪˈvoʊk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(감정·기억을) 불러일으키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "voke(voc)",
+          "mean": "부르다 (call)"
+        }
+      ],
+      "origin": "밖으로 불러내다 → 불러일으키다"
+    },
+    {
+      "en": "provoke",
+      "ipa": "/prəˈvoʊk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "유발하다",
+            "화나게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "voke(voc)",
+          "mean": "부르다 (call)"
+        }
+      ],
+      "origin": "앞으로 불러내다 → 유발하다"
+    },
+    {
+      "en": "invoke",
+      "ipa": "/ɪnˈvoʊk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(법 등을) 적용하다",
+            "기원하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로, 위에 (in, upon)"
+        },
+        {
+          "part": "voke(voc)",
+          "mean": "부르다 (call)"
+        }
+      ],
+      "origin": "안으로 불러들이다 → 적용하다"
+    },
+    {
+      "en": "long",
+      "ipa": "/lɔːŋ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "긴"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "갈망하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "long",
+          "mean": "긴 (long)"
+        }
+      ],
+      "origin": "긴"
+    },
+    {
+      "en": "belong",
+      "ipa": "/bɪˈlɔːŋ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "속하다",
+            "제자리에 있다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "be-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "long",
+          "mean": "~에 관한 (along)"
+        }
+      ],
+      "origin": "완전히 ~에 관한 → 속하다"
+    },
+    {
+      "en": "prolong",
+      "ipa": "/prəˈlɔːŋ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연장하다",
+            "늘리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "long",
+          "mean": "긴 (long)"
+        }
+      ],
+      "origin": "앞으로 길게 하다 → 연장하다"
+    },
+    {
+      "en": "length",
+      "ipa": "/leŋθ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "길이",
+            "기간"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "leng(long)",
+          "mean": "긴 (long)"
+        },
+        {
+          "part": "-th",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "긴 정도 → 길이"
+    },
+    {
+      "en": "linger",
+      "ipa": "/ˈlɪŋɡər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "오래 머물다",
+            "남다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ling(long)",
+          "mean": "긴 (long)"
+        },
+        {
+          "part": "-er",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "길게 머물다 → 오래 남다"
+    },
+    {
+      "en": "community",
+      "ipa": "/kəˈmjuːnəti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공동체",
+            "지역 사회"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mun",
+          "mean": "의무, 봉사 (duty, service)"
+        },
+        {
+          "part": "-ity",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 의무를 나누는 집단 → 공동체"
+    },
+    {
+      "en": "common",
+      "ipa": "/ˈkɑːmən/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공통의",
+            "일반적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mon(mun)",
+          "mean": "의무 (duty)"
+        }
+      ],
+      "origin": "함께 의무를 지는 → 공통의"
+    },
+    {
+      "en": "communicate",
+      "ipa": "/kəˈmjuːnɪkeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의사소통하다",
+            "전달하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "mun",
+          "mean": "의무, 나누다 (share)"
+        },
+        {
+          "part": "-icate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 나누다 → 의사소통하다"
+    },
+    {
+      "en": "popular",
+      "ipa": "/ˈpɑːpjələr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "인기 있는",
+            "대중적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "popul",
+          "mean": "사람들 (people)"
+        },
+        {
+          "part": "-ar",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "사람들의 → 인기 있는"
+    },
+    {
+      "en": "population",
+      "ipa": "/ˌpɑːpjuˈleɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인구",
+            "개체 수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "popul",
+          "mean": "사람들 (people)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "사람들의 수 → 인구"
+    },
+    {
+      "en": "public",
+      "ipa": "/ˈpʌblɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "공공의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "대중"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "publ(popul)",
+          "mean": "사람들 (people)"
+        },
+        {
+          "part": "-ic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "사람들의 → 공공의"
+    },
+    {
+      "en": "publish",
+      "ipa": "/ˈpʌblɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "출판하다",
+            "발표하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "publ(popul)",
+          "mean": "사람들 (people)"
+        },
+        {
+          "part": "-ish",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "사람들에게 알리다 → 출판하다"
+    },
+    {
+      "en": "republic",
+      "ipa": "/rɪˈpʌblɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공화국"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "public(popul)",
+          "mean": "사람들, 공공 (public)"
+        }
+      ],
+      "origin": "사람들의 것 → 공화국"
+    },
+    {
+      "en": "fragment",
+      "ipa": "/ˈfræɡmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "파편",
+            "조각"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "frag",
+          "mean": "부수다 (break)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "부서진 것 → 파편"
+    },
+    {
+      "en": "fragile",
+      "ipa": "/ˈfrædʒl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부서지기 쉬운",
+            "취약한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "frag",
+          "mean": "부수다 (break)"
+        },
+        {
+          "part": "-ile",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "부서지기 쉬운"
+    },
+    {
+      "en": "fraction",
+      "ipa": "/ˈfrækʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부분",
+            "파편",
+            "분수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "frac(frag)",
+          "mean": "부수다 (break)"
+        },
+        {
+          "part": "-tion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "부서진 부분 → 분수"
+    },
+    {
+      "en": "grave",
+      "ipa": "/ɡreɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "무덤"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "중대한",
+            "엄숙한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grav",
+          "mean": "무거운 (heavy)"
+        }
+      ],
+      "origin": "무거운 → 중대한"
+    },
+    {
+      "en": "grief",
+      "ipa": "/ɡriːf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "슬픔",
+            "비탄"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grief(grav)",
+          "mean": "무거운 (heavy)"
+        }
+      ],
+      "origin": "마음이 무거운 것 → 슬픔"
+    }
+  ]
+}

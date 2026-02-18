@@ -1,0 +1,711 @@
+{
+  "title": "ple 채우다/ cult 경작하다/ sult 뛰어오르다/ cide 죽이다,자르다/ cede 가다",
+  "words": [
+    {
+      "en": "complete",
+      "ipa": "/kəmˈpliːt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "완전한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "완료하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "ple",
+          "mean": "채우다 (fill)"
+        },
+        {
+          "part": "-te",
+          "mean": "형용사/동사형 접미사"
+        }
+      ],
+      "origin": "완전히 채운 → 완전한"
+    },
+    {
+      "en": "complement",
+      "ipa": "/ˈkɑːmplɪment/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보완물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보완하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "ple",
+          "mean": "채우다 (fill)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "완전히 채워주는 것 → 보완물"
+    },
+    {
+      "en": "implement",
+      "ipa": "/ˈɪmplɪment/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "실행하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "도구"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "ple",
+          "mean": "채우다 (fill)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안을 채우다 → 실행하다"
+    },
+    {
+      "en": "compliment",
+      "ipa": "/ˈkɑːmplɪmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "칭찬"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "칭찬하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "pli(ple)",
+          "mean": "채우다 (fill)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "예의를 완전히 채우다 → 칭찬"
+    },
+    {
+      "en": "accomplish",
+      "ipa": "/əˈkɑːmplɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "완수하다",
+            "성취하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "plish(ple)",
+          "mean": "채우다 (fill)"
+        }
+      ],
+      "origin": "완전히 채우다 → 완수하다"
+    },
+    {
+      "en": "supply",
+      "ipa": "/səˈplaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "공급하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "공급(물)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sup-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "ply(ple)",
+          "mean": "채우다 (fill)"
+        }
+      ],
+      "origin": "아래에서 채워주다 → 공급하다"
+    },
+    {
+      "en": "plenty",
+      "ipa": "/ˈplenti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "풍부함"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "풍부한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "plen(ple)",
+          "mean": "채우다 (fill)"
+        },
+        {
+          "part": "-ty",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "가득 찬 상태 → 풍부함"
+    },
+    {
+      "en": "cultivate",
+      "ipa": "/ˈkʌltɪveɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "경작하다",
+            "재배하다",
+            "기르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cult",
+          "mean": "경작하다 (till, care)"
+        },
+        {
+          "part": "-ivate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "땅을 돌보다 → 경작하다"
+    },
+    {
+      "en": "culture",
+      "ipa": "/ˈkʌltʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "문화",
+            "재배"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cult",
+          "mean": "경작하다 (till, care)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "돌보아 기른 것 → 문화"
+    },
+    {
+      "en": "agriculture",
+      "ipa": "/ˈæɡrɪkʌltʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "농업"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "agri",
+          "mean": "밭 (field)"
+        },
+        {
+          "part": "cult",
+          "mean": "경작하다 (till)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "밭을 경작하다 → 농업"
+    },
+    {
+      "en": "colony",
+      "ipa": "/ˈkɑːləni/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "식민지",
+            "(생물) 군집"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "col(cult)",
+          "mean": "경작하다, 거주하다 (cultivate, inhabit)"
+        },
+        {
+          "part": "-ony",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "경작하며 사는 곳 → 식민지"
+    },
+    {
+      "en": "insult",
+      "ipa": "/ɪnˈsʌlt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모욕하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "모욕"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "sult",
+          "mean": "뛰다 (leap)"
+        }
+      ],
+      "origin": "위에 뛰어올라 짓밟다 → 모욕하다"
+    },
+    {
+      "en": "result",
+      "ipa": "/rɪˈzʌlt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결과"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "(~의 결과로) 발생하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "뒤로 (back)"
+        },
+        {
+          "part": "sult",
+          "mean": "뛰다 (leap)"
+        }
+      ],
+      "origin": "뒤로 튀어나오다 → 결과"
+    },
+    {
+      "en": "assault",
+      "ipa": "/əˈsɔːlt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "폭행",
+            "공격"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "공격하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "sault(sult)",
+          "mean": "뛰다 (leap)"
+        }
+      ],
+      "origin": "~쪽으로 뛰어들다 → 공격"
+    },
+    {
+      "en": "salient",
+      "ipa": "/ˈseɪliənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "가장 중요한",
+            "핵심적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sal(sult)",
+          "mean": "뛰다 (leap)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "튀어나온 → 핵심적인"
+    },
+    {
+      "en": "suicide",
+      "ipa": "/ˈsuːɪsaɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자살"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sui",
+          "mean": "자기 (self)"
+        },
+        {
+          "part": "cide",
+          "mean": "죽이다 (kill)"
+        }
+      ],
+      "origin": "자기를 죽임 → 자살"
+    },
+    {
+      "en": "pesticide",
+      "ipa": "/ˈpestɪsaɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "살충제"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pest",
+          "mean": "해충 (pest)"
+        },
+        {
+          "part": "cide",
+          "mean": "죽이다 (kill)"
+        }
+      ],
+      "origin": "해충을 죽이는 것 → 살충제"
+    },
+    {
+      "en": "decision",
+      "ipa": "/dɪˈsɪʒn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결정",
+            "결단력"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "cis(cide)",
+          "mean": "자르다 (cut)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "완전히 잘라냄 → 결정"
+    },
+    {
+      "en": "precise",
+      "ipa": "/prɪˈsaɪs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정확한",
+            "정밀한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "cise(cide)",
+          "mean": "자르다 (cut)"
+        }
+      ],
+      "origin": "미리 정확히 잘라낸 → 정확한"
+    },
+    {
+      "en": "precede",
+      "ipa": "/prɪˈsiːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "앞서다",
+            "먼저 일어나다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "cede",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "앞에 가다 → 앞서다"
+    },
+    {
+      "en": "exceed",
+      "ipa": "/ɪkˈsiːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "넘다",
+            "초과하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "ceed(cede)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "밖으로 나가다 → 초과하다"
+    },
+    {
+      "en": "proceed",
+      "ipa": "/proʊˈsiːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "계속하다",
+            "진행하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro-",
+          "mean": "앞으로 (forward)"
+        },
+        {
+          "part": "ceed(cede)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "앞으로 가다 → 진행하다"
+    },
+    {
+      "en": "succeed",
+      "ipa": "/səkˈsiːd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "성공하다",
+            "계승하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "suc-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "ceed(cede)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "뒤를 이어 가다 → 성공하다"
+    },
+    {
+      "en": "predecessor",
+      "ipa": "/ˈpredəsesər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전임자",
+            "이전 모델"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "de-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "cess(cede)",
+          "mean": "가다 (go)"
+        },
+        {
+          "part": "-or",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "앞서 떠난 사람 → 전임자"
+    },
+    {
+      "en": "access",
+      "ipa": "/ˈækses/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "접근",
+            "통로"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "접근하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cess(cede)",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "~쪽으로 가다 → 접근"
+    },
+    {
+      "en": "cease",
+      "ipa": "/siːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "그만두다",
+            "중지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cease(cede)",
+          "mean": "가다, 물러가다 (go, yield)"
+        }
+      ],
+      "origin": "물러가다 → 그만두다"
+    }
+  ]
+}

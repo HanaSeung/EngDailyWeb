@@ -1,0 +1,606 @@
+{
+  "title": "sign 표시(하다)/ rect 바르게 이끌다,통치하다/ form 형태,구성/ techn 기술",
+  "words": [
+    {
+      "en": "sign",
+      "ipa": "/saɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신호",
+            "징후"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "서명하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sign",
+          "mean": "표시 (mark, sign)"
+        }
+      ],
+      "origin": "표시 → 신호, 서명"
+    },
+    {
+      "en": "signal",
+      "ipa": "/ˈsɪɡnəl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "신호"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "신호를 보내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sign",
+          "mean": "표시 (mark)"
+        },
+        {
+          "part": "-al",
+          "mean": "명사/형용사형 접미사"
+        }
+      ],
+      "origin": "표시하는 것 → 신호"
+    },
+    {
+      "en": "significant",
+      "ipa": "/sɪɡˈnɪfɪkənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중요한",
+            "상당한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sign",
+          "mean": "표시 (mark)"
+        },
+        {
+          "part": "fic",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "표시를 만들 만한 → 중요한"
+    },
+    {
+      "en": "assign",
+      "ipa": "/əˈsaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "배정하다",
+            "할당하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "as-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "sign",
+          "mean": "표시 (mark)"
+        }
+      ],
+      "origin": "~쪽에 표시하다 → 배정하다"
+    },
+    {
+      "en": "design",
+      "ipa": "/dɪˈzaɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "디자인",
+            "설계"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "설계하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "sign",
+          "mean": "표시 (mark)"
+        }
+      ],
+      "origin": "완전히 표시하다 → 설계하다"
+    },
+    {
+      "en": "designate",
+      "ipa": "/ˈdezɪɡneɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지정하다",
+            "지명하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "sign",
+          "mean": "표시 (mark)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "완전히 표시하여 정하다 → 지정하다"
+    },
+    {
+      "en": "resign",
+      "ipa": "/rɪˈzaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "사임하다",
+            "물러나다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "되돌려 (back)"
+        },
+        {
+          "part": "sign",
+          "mean": "표시, 서명 (sign)"
+        }
+      ],
+      "origin": "서명을 되돌리다 → 사임하다"
+    },
+    {
+      "en": "seal",
+      "ipa": "/siːl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인장",
+            "바다표범"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "봉인하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "seal(sign)",
+          "mean": "표시, 인장 (mark, seal)"
+        }
+      ],
+      "origin": "표시를 찍다 → 봉인하다"
+    },
+    {
+      "en": "correct",
+      "ipa": "/kəˈrekt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "옳은"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "바로잡다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cor-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "rect",
+          "mean": "바르게 하다 (make right)"
+        }
+      ],
+      "origin": "완전히 바르게 하다 → 옳은, 바로잡다"
+    },
+    {
+      "en": "direct",
+      "ipa": "/dəˈrekt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "직접적인"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "지시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "rect",
+          "mean": "바르게 이끌다 (guide right)"
+        }
+      ],
+      "origin": "곧바로 이끌다 → 직접적인, 지시하다"
+    },
+    {
+      "en": "erect",
+      "ipa": "/ɪˈrekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "세우다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "똑바로 선"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out, up)"
+        },
+        {
+          "part": "rect",
+          "mean": "바르게 하다 (right)"
+        }
+      ],
+      "origin": "바르게 위로 하다 → 세우다"
+    },
+    {
+      "en": "rectangular",
+      "ipa": "/rekˈtæŋɡjələr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "직사각형의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rect",
+          "mean": "바른 (right)"
+        },
+        {
+          "part": "angle",
+          "mean": "각 (angle)"
+        },
+        {
+          "part": "-ar",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "바른 각의 → 직사각형의"
+    },
+    {
+      "en": "region",
+      "ipa": "/ˈriːdʒən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지역",
+            "지방"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "reg(rect)",
+          "mean": "다스리다 (rule)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "다스리는 범위 → 지역"
+    },
+    {
+      "en": "regular",
+      "ipa": "/ˈreɡjələr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "규칙적인",
+            "정기적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "reg(rect)",
+          "mean": "다스리다 (rule)"
+        },
+        {
+          "part": "-ular",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "규칙에 따라 다스리는 → 규칙적인"
+    },
+    {
+      "en": "regulate",
+      "ipa": "/ˈreɡjuleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "규제하다",
+            "조절하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "reg(rect)",
+          "mean": "다스리다 (rule)"
+        },
+        {
+          "part": "-ulate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "규칙으로 다스리다 → 규제하다"
+    },
+    {
+      "en": "royal",
+      "ipa": "/ˈrɔɪəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "국왕의",
+            "왕실의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "roy(reg)",
+          "mean": "왕, 다스리다 (king, rule)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "왕의 → 왕실의"
+    },
+    {
+      "en": "rule",
+      "ipa": "/ruːl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "규칙",
+            "지배"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "지배하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "rul(reg)",
+          "mean": "다스리다 (rule, govern)"
+        }
+      ],
+      "origin": "다스리다 → 규칙, 지배"
+    },
+    {
+      "en": "form",
+      "ipa": "/fɔːrm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "형태",
+            "서식"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "형성하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "form",
+          "mean": "형태 (shape, form)"
+        }
+      ],
+      "origin": "형태 → 형성하다"
+    },
+    {
+      "en": "inform",
+      "ipa": "/ɪnˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "알리다",
+            "통지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "form",
+          "mean": "형태를 만들다 (form, shape)"
+        }
+      ],
+      "origin": "마음 안에 형태를 만들다 → 알리다"
+    },
+    {
+      "en": "reform",
+      "ipa": "/rɪˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "개혁하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "개혁"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "form",
+          "mean": "형태 (form)"
+        }
+      ],
+      "origin": "다시 형태를 만들다 → 개혁하다"
+    },
+    {
+      "en": "formula",
+      "ipa": "/ˈfɔːrmjələ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공식",
+            "방식"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "form",
+          "mean": "형태 (form)"
+        },
+        {
+          "part": "-ula",
+          "mean": "작은 것 (diminutive)"
+        }
+      ],
+      "origin": "작은 형태 → 공식"
+    },
+    {
+      "en": "technique",
+      "ipa": "/tekˈniːk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기법",
+            "기술"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "techn",
+          "mean": "기술 (skill, craft)"
+        },
+        {
+          "part": "-ique",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "기술 → 기법"
+    },
+    {
+      "en": "technology",
+      "ipa": "/tekˈnɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "과학 기술"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "techn",
+          "mean": "기술 (skill)"
+        },
+        {
+          "part": "logy",
+          "mean": "학문 (study)"
+        }
+      ],
+      "origin": "기술에 대한 학문 → 과학 기술"
+    }
+  ]
+}

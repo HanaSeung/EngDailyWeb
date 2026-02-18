@@ -1,0 +1,613 @@
+{
+  "title": "tribut 할당하다,나누어주다/ grat 기쁘게 하는,감사하는/ oper 일/ sting 찌르다,끄다/ gard 지켜보다,보호하다/ flo 흐르다,날다",
+  "words": [
+    {
+      "en": "attribute",
+      "ipa": "/əˈtrɪbjuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~의 탓으로 돌리다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "자질",
+            "속성"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "at-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tribute",
+          "mean": "할당하다 (assign)"
+        }
+      ],
+      "origin": "~쪽으로 할당하다 → ~의 탓으로 돌리다"
+    },
+    {
+      "en": "contribute",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기부하다",
+            "기여하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "tribute",
+          "mean": "할당하다 (assign)"
+        }
+      ],
+      "origin": "함께 할당하다 → 기여하다"
+    },
+    {
+      "en": "distribute",
+      "ipa": "/dɪˈstrɪbjuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "배포하다",
+            "배급하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "tribute",
+          "mean": "할당하다 (assign)"
+        }
+      ],
+      "origin": "떨어뜨려 나눠주다 → 배포하다"
+    },
+    {
+      "en": "congratulate",
+      "ipa": "/kənˈɡrætʃuleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "축하하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "gratul(grat)",
+          "mean": "기쁜 (pleasing)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 기뻐하다 → 축하하다"
+    },
+    {
+      "en": "gratify",
+      "ipa": "/ˈɡrætɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기쁘게 하다",
+            "충족시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grat",
+          "mean": "기쁜 (pleasing)"
+        },
+        {
+          "part": "-ify",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "기쁘게 만들다"
+    },
+    {
+      "en": "gratitude",
+      "ipa": "/ˈɡrætɪtuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감사(의 마음)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grat",
+          "mean": "기쁜 (pleasing)"
+        },
+        {
+          "part": "-itude",
+          "mean": "상태 접미사"
+        }
+      ],
+      "origin": "기쁜 상태 → 감사"
+    },
+    {
+      "en": "grace",
+      "ipa": "/ɡreɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우아함",
+            "은총"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "grac(grat)",
+          "mean": "기쁜 (pleasing)"
+        }
+      ],
+      "origin": "기쁨을 주는 것 → 우아함"
+    },
+    {
+      "en": "agree",
+      "ipa": "/əˈɡriː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "동의하다",
+            "일치하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "gree(grat)",
+          "mean": "기쁜 (pleasing)"
+        }
+      ],
+      "origin": "기쁘게 ~쪽으로 향하다 → 동의하다"
+    },
+    {
+      "en": "operate",
+      "ipa": "/ˈɑːpəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "작동하다",
+            "수술하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "oper",
+          "mean": "일하다 (work)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "일하다 → 작동하다"
+    },
+    {
+      "en": "cooperate",
+      "ipa": "/koʊˈɑːpəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "협력하다",
+            "협동하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "co-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "oper",
+          "mean": "일하다 (work)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "함께 일하다 → 협력하다"
+    },
+    {
+      "en": "distinguish",
+      "ipa": "/dɪˈstɪŋɡwɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구별하다",
+            "특징짓다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "stingu(sting)",
+          "mean": "찌르다 (prick)"
+        },
+        {
+          "part": "-ish",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "떨어뜨려 찍어 표시하다 → 구별하다"
+    },
+    {
+      "en": "extinguish",
+      "ipa": "/ɪkˈstɪŋɡwɪʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(불을) 끄다",
+            "끝내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "stingu(sting)",
+          "mean": "찌르다 (prick)"
+        },
+        {
+          "part": "-ish",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "밖으로 찔러 없애다 → 끄다"
+    },
+    {
+      "en": "extinct",
+      "ipa": "/ɪkˈstɪŋkt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "멸종된",
+            "사라진"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "stinct(sting)",
+          "mean": "찌르다 (prick)"
+        }
+      ],
+      "origin": "찔러 없앤 → 멸종된"
+    },
+    {
+      "en": "distinct",
+      "ipa": "/dɪˈstɪŋkt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "별개의",
+            "뚜렷한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "stinct(sting)",
+          "mean": "찌르다 (prick)"
+        }
+      ],
+      "origin": "떨어뜨려 구분 짓는 → 별개의"
+    },
+    {
+      "en": "instinct",
+      "ipa": "/ˈɪnstɪŋkt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "본능"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "stinct(sting)",
+          "mean": "찌르다 (prick)"
+        }
+      ],
+      "origin": "안에서 찌르는 것 → 본능"
+    },
+    {
+      "en": "stimulate",
+      "ipa": "/ˈstɪmjuleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "자극하다",
+            "격려하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "stimul(sting)",
+          "mean": "찌르다 (prick, goad)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "찔러 자극하다"
+    },
+    {
+      "en": "regard",
+      "ipa": "/rɪˈɡɑːrd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "간주하다",
+            "주목하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "관심",
+            "안부"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "gard(guard)",
+          "mean": "지키다, 보다 (watch)"
+        }
+      ],
+      "origin": "다시 보다 → 간주하다"
+    },
+    {
+      "en": "garment",
+      "ipa": "/ˈɡɑːrmənt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "의복",
+            "옷"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "gar(guard)",
+          "mean": "지키다 (protect)"
+        },
+        {
+          "part": "-ment",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "몸을 지키는 것 → 의복"
+    },
+    {
+      "en": "guard",
+      "ipa": "/ɡɑːrd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "경비원",
+            "보호대"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "지키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "guard",
+          "mean": "지키다 (watch, protect)"
+        }
+      ],
+      "origin": "지키다"
+    },
+    {
+      "en": "guarantee",
+      "ipa": "/ˌɡærənˈtiː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "보증",
+            "담보"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "보장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "guar(guard)",
+          "mean": "지키다 (protect)"
+        },
+        {
+          "part": "-antee",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "지켜주는 것 → 보증"
+    },
+    {
+      "en": "float",
+      "ipa": "/floʊt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "뜨다",
+            "떠다니다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "flo",
+          "mean": "흐르다 (flow)"
+        },
+        {
+          "part": "-at",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "흘러 떠다니다"
+    },
+    {
+      "en": "flood",
+      "ipa": "/flʌd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "홍수"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "범람시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "flo",
+          "mean": "흐르다 (flow)"
+        },
+        {
+          "part": "-od",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "넘쳐 흐르다 → 홍수"
+    },
+    {
+      "en": "flow",
+      "ipa": "/floʊ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "흐름"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "흐르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "flo",
+          "mean": "흐르다 (flow)"
+        }
+      ],
+      "origin": "흐르다"
+    },
+    {
+      "en": "flee",
+      "ipa": "/fliː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "달아나다",
+            "도망치다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "flee(flo)",
+          "mean": "흐르듯 달아나다 (flow away)"
+        }
+      ],
+      "origin": "흘러 달아나다 → 도망치다"
+    }
+  ]
+}

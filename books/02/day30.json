@@ -1,0 +1,660 @@
+{
+  "title": "clin 굽다,경사지다/ fin 끝,경계,한계/ mand 맡기다,명령하다/ loc 장소/ path (고통등을)겪다,느끼다",
+  "words": [
+    {
+      "en": "decline",
+      "ipa": "/dɪˈklaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감소하다",
+            "거절하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "하락"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "cline(clin)",
+          "mean": "굽다, 기울다 (lean, bend)"
+        }
+      ],
+      "origin": "아래로 기울다 → 감소하다, 거절하다"
+    },
+    {
+      "en": "incline",
+      "ipa": "/ɪnˈklaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~할 마음이 생기게 하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "경사"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cline(clin)",
+          "mean": "기울다 (lean)"
+        }
+      ],
+      "origin": "~쪽으로 기울다 → 마음이 기울다"
+    },
+    {
+      "en": "climate",
+      "ipa": "/ˈklaɪmət/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기후",
+            "분위기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "clim(clin)",
+          "mean": "기울다 (lean, slope)"
+        },
+        {
+          "part": "-ate",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "태양이 기우는 정도 → 기후"
+    },
+    {
+      "en": "final",
+      "ipa": "/ˈfaɪnl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "마지막의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "결승전",
+            "기말고사"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fin",
+          "mean": "끝 (end)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "끝의 → 마지막의"
+    },
+    {
+      "en": "finance",
+      "ipa": "/ˈfaɪnæns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "재무",
+            "자금"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "자금을 조달하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "fin",
+          "mean": "끝, 마무리 (end, settle)"
+        },
+        {
+          "part": "-ance",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "(빚을) 마무리하다 → 재무"
+    },
+    {
+      "en": "confine",
+      "ipa": "/kənˈfaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "국한하다",
+            "가두다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "fine(fin)",
+          "mean": "끝, 경계 (end, boundary)"
+        }
+      ],
+      "origin": "경계 안에 함께 두다 → 국한하다"
+    },
+    {
+      "en": "refine",
+      "ipa": "/rɪˈfaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정제하다",
+            "개선하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "fine(fin)",
+          "mean": "끝, 세밀한 (end, fine)"
+        }
+      ],
+      "origin": "다시 세밀하게 하다 → 정제하다"
+    },
+    {
+      "en": "define",
+      "ipa": "/dɪˈfaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "정의하다",
+            "한정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "fine(fin)",
+          "mean": "끝, 경계 (end, limit)"
+        }
+      ],
+      "origin": "경계를 완전히 정하다 → 정의하다"
+    },
+    {
+      "en": "infinite",
+      "ipa": "/ˈɪnfɪnət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "무한한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "fin",
+          "mean": "끝 (end)"
+        },
+        {
+          "part": "-ite",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "끝이 없는 → 무한한"
+    },
+    {
+      "en": "demand",
+      "ipa": "/dɪˈmænd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "요구",
+            "수요"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "요구하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "mand",
+          "mean": "맡기다, 명령하다 (order, entrust)"
+        }
+      ],
+      "origin": "완전히 명령하다 → 요구하다"
+    },
+    {
+      "en": "command",
+      "ipa": "/kəˈmænd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "명령",
+            "지휘"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "명령하다",
+            "지배하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "mand",
+          "mean": "맡기다, 명령하다 (order)"
+        }
+      ],
+      "origin": "완전히 명령하다 → 지휘하다"
+    },
+    {
+      "en": "mandate",
+      "ipa": "/ˈmændeɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "권한",
+            "위임 사항"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "명령하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mand",
+          "mean": "맡기다 (entrust, order)"
+        },
+        {
+          "part": "-ate",
+          "mean": "명사/동사형 접미사"
+        }
+      ],
+      "origin": "맡긴 것 → 권한, 위임"
+    },
+    {
+      "en": "recommend",
+      "ipa": "/ˌrekəˈmend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "추천하다",
+            "권고하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "mend(mand)",
+          "mean": "맡기다 (entrust)"
+        }
+      ],
+      "origin": "다시 완전히 맡기다 → 추천하다"
+    },
+    {
+      "en": "local",
+      "ipa": "/ˈloʊkl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지역의",
+            "현지의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "현지인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "loc",
+          "mean": "장소 (place)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "장소의 → 지역의"
+    },
+    {
+      "en": "locate",
+      "ipa": "/ˈloʊkeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "위치를 찾아내다",
+            "(특정 위치에) 두다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "loc",
+          "mean": "장소 (place)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "장소를 정하다 → 위치를 찾다"
+    },
+    {
+      "en": "allocate",
+      "ipa": "/ˈæləkeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "할당하다",
+            "배분하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "al-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "loc",
+          "mean": "장소 (place)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "각 장소에 놓다 → 할당하다"
+    },
+    {
+      "en": "pathetic",
+      "ipa": "/pəˈθetɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불쌍한",
+            "한심한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "path",
+          "mean": "겪다, 감정 (suffer, feeling)"
+        },
+        {
+          "part": "-etic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "감정을 겪게 하는 → 불쌍한"
+    },
+    {
+      "en": "empathy",
+      "ipa": "/ˈempəθi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "공감",
+            "감정 이입"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "em-(en-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "path",
+          "mean": "겪다, 감정 (feeling)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "안에서 함께 겪다 → 공감"
+    },
+    {
+      "en": "sympathy",
+      "ipa": "/ˈsɪmpəθi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "동정",
+            "공감"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sym-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "path",
+          "mean": "겪다, 감정 (feeling)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 겪다 → 동정"
+    },
+    {
+      "en": "antipathy",
+      "ipa": "/ænˈtɪpəθi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "반감",
+            "혐오"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anti-",
+          "mean": "반대 (against)"
+        },
+        {
+          "part": "path",
+          "mean": "감정 (feeling)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "반대 감정 → 반감"
+    },
+    {
+      "en": "patient",
+      "ipa": "/ˈpeɪʃnt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "인내심 있는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "환자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pat(path)",
+          "mean": "겪다, 참다 (suffer, endure)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "겪어내는 → 인내심 있는, 환자"
+    },
+    {
+      "en": "passive",
+      "ipa": "/ˈpæsɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "수동적인",
+            "소극적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pass(path)",
+          "mean": "겪다 (suffer, endure)"
+        },
+        {
+          "part": "-ive",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "당하는 → 수동적인"
+    },
+    {
+      "en": "passion",
+      "ipa": "/ˈpæʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "열정"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pass(path)",
+          "mean": "겪다, 고통 (suffer)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "강렬하게 겪는 감정 → 열정"
+    },
+    {
+      "en": "compassion",
+      "ipa": "/kəmˈpæʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "연민",
+            "동정심"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pass(path)",
+          "mean": "겪다 (suffer)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 겪다 → 연민"
+    }
+  ]
+}

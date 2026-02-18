@@ -1,0 +1,675 @@
+{
+  "title": "crea 만들다,자라다/ vent 오다/ medi 중간",
+  "words": [
+    {
+      "en": "create",
+      "ipa": "/kriˈeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "창조하다",
+            "만들다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "crea",
+          "mean": "만들다 (make, grow)"
+        },
+        {
+          "part": "-te",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "만들다 → 창조하다"
+    },
+    {
+      "en": "recreate",
+      "ipa": "/ˌriːkriˈeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "재현하다",
+            "휴양하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "crea",
+          "mean": "만들다 (make)"
+        },
+        {
+          "part": "-te",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "다시 만들다 → 재현하다"
+    },
+    {
+      "en": "increase",
+      "ipa": "/ɪnˈkriːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "증가하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "증가"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로, 위로 (in, up)"
+        },
+        {
+          "part": "crease(crea)",
+          "mean": "자라다 (grow)"
+        }
+      ],
+      "origin": "안으로 자라다 → 증가하다"
+    },
+    {
+      "en": "decrease",
+      "ipa": "/dɪˈkriːs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "감소하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "감소"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "아래로 (down)"
+        },
+        {
+          "part": "crease(crea)",
+          "mean": "자라다 (grow)"
+        }
+      ],
+      "origin": "아래로 줄어들다 → 감소하다"
+    },
+    {
+      "en": "concrete",
+      "ipa": "/ˈkɑːnkriːt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "구체적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "콘크리트"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "crete(crea)",
+          "mean": "자라다 (grow)"
+        }
+      ],
+      "origin": "함께 자라 굳어진 → 구체적인"
+    },
+    {
+      "en": "recruit",
+      "ipa": "/rɪˈkruːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "채용하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "신병"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re-",
+          "mean": "다시 (again)"
+        },
+        {
+          "part": "cruit(crea)",
+          "mean": "자라다 (grow)"
+        }
+      ],
+      "origin": "다시 자라게 하다(인원 보충) → 채용하다"
+    },
+    {
+      "en": "advent",
+      "ipa": "/ˈædvent/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "출현",
+            "도래"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        }
+      ],
+      "origin": "~쪽으로 오다 → 출현, 도래"
+    },
+    {
+      "en": "adventure",
+      "ipa": "/ədˈventʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "모험"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "다가오는 것(운명) → 모험"
+    },
+    {
+      "en": "venture",
+      "ipa": "/ˈventʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "모험(적 사업)"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "위험을 무릅쓰고 가다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        },
+        {
+          "part": "-ure",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "앞으로 나아가다 → 모험"
+    },
+    {
+      "en": "convention",
+      "ipa": "/kənˈvenʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "집회",
+            "관습",
+            "협약"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 오다 → 집회, 관습"
+    },
+    {
+      "en": "event",
+      "ipa": "/ɪˈvent/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사건",
+            "행사"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        }
+      ],
+      "origin": "밖으로 나온 것 → 사건"
+    },
+    {
+      "en": "invent",
+      "ipa": "/ɪnˈvent/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발명하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "위에 (upon)"
+        },
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        }
+      ],
+      "origin": "위로 떠오르다(착상) → 발명하다"
+    },
+    {
+      "en": "prevent",
+      "ipa": "/prɪˈvent/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예방하다",
+            "막다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "미리 (before)"
+        },
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        }
+      ],
+      "origin": "미리 앞에 오다 → 막다"
+    },
+    {
+      "en": "intervention",
+      "ipa": "/ˌɪntərˈvenʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "개입",
+            "중재"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "vent",
+          "mean": "오다 (come)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "사이에 들어오다 → 개입, 중재"
+    },
+    {
+      "en": "avenue",
+      "ipa": "/ˈævənuː/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대로",
+            "수단"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "venue(vent)",
+          "mean": "오다 (come)"
+        }
+      ],
+      "origin": "~쪽으로 오는 길 → 대로"
+    },
+    {
+      "en": "convenient",
+      "ipa": "/kənˈviːniənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "편리한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "ven(vent)",
+          "mean": "오다 (come)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "함께 잘 맞아오는 → 편리한"
+    },
+    {
+      "en": "souvenir",
+      "ipa": "/ˌsuːvəˈnɪr/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기념품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sou-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "venir(vent)",
+          "mean": "오다 (come)"
+        }
+      ],
+      "origin": "마음 아래에서 떠오르는 것 → 기념품"
+    },
+    {
+      "en": "medium",
+      "ipa": "/ˈmiːdiəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "매체",
+            "수단"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "중간의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "medi",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "-um",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "중간의 것 → 매체, 수단"
+    },
+    {
+      "en": "medieval",
+      "ipa": "/ˌmiːdiˈiːvl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중세의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "medi",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "ev",
+          "mean": "시대 (age)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "중간 시대의 → 중세의"
+    },
+    {
+      "en": "mediate",
+      "ipa": "/ˈmiːdieɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "중재하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "medi",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "중간에서 하다 → 중재하다"
+    },
+    {
+      "en": "immediate",
+      "ipa": "/ɪˈmiːdiət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "즉각적인",
+            "시급한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "medi",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "중간이 없는 → 즉각적인"
+    },
+    {
+      "en": "intermediate",
+      "ipa": "/ˌɪntərˈmiːdiət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "중간의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "중급자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "medi",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "사이 중간의 → 중간의"
+    },
+    {
+      "en": "mean",
+      "ipa": "/miːn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의미하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "비열한"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "평균"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mean(medi)",
+          "mean": "중간 (middle)"
+        }
+      ],
+      "origin": "중간의 → 평균 / 의미하다"
+    },
+    {
+      "en": "meanwhile",
+      "ipa": "/ˈmiːnwaɪl/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "그동안에",
+            "한편"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mean(medi)",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "while",
+          "mean": "동안 (while)"
+        }
+      ],
+      "origin": "중간 시간 동안 → 그동안에"
+    },
+    {
+      "en": "midst",
+      "ipa": "/mɪdst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "중앙",
+            "한가운데"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mid(medi)",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "-st",
+          "mean": "최상급 접미사"
+        }
+      ],
+      "origin": "가장 중간 → 한가운데"
+    }
+  ]
+}

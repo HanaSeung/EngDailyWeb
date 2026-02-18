@@ -1,0 +1,645 @@
+{
+  "title": "cur 달리다,흐르다,관심,돌봄,주의/ vid 분리하다/ terr 땅/ tend 뻗다,늘리다,당기다/ poss ~할 수 있다",
+  "words": [
+    {
+      "en": "current",
+      "ipa": "/ˈkɜːrənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "현재의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "흐름",
+            "해류",
+            "전류"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cur",
+          "mean": "달리다, 흐르다 (run, flow)"
+        },
+        {
+          "part": "-rent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "흐르고 있는 → 현재의, 흐름"
+    },
+    {
+      "en": "curriculum",
+      "ipa": "/kəˈrɪkjələm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "교육 과정",
+            "커리큘럼"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cur",
+          "mean": "달리다 (run)"
+        },
+        {
+          "part": "-riculum",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "달려야 할 과정 → 교육 과정"
+    },
+    {
+      "en": "occur",
+      "ipa": "/əˈkɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "일어나다",
+            "발생하다",
+            "(생각이) 떠오르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "oc-(ob-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cur",
+          "mean": "달리다 (run)"
+        }
+      ],
+      "origin": "~쪽으로 달려오다 → 발생하다"
+    },
+    {
+      "en": "excursion",
+      "ipa": "/ɪkˈskɜːrʒn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "소풍",
+            "짧은 여행"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "curs(cur)",
+          "mean": "달리다 (run)"
+        },
+        {
+          "part": "-ion",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "밖으로 달려나감 → 소풍"
+    },
+    {
+      "en": "cure",
+      "ipa": "/kjʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "치료하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "치료(약)",
+            "해결책"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cur",
+          "mean": "돌보다, 주의 (care)"
+        }
+      ],
+      "origin": "돌보다 → 치료하다"
+    },
+    {
+      "en": "curious",
+      "ipa": "/ˈkjʊriəs/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "호기심 많은",
+            "이상한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cur",
+          "mean": "돌보다, 주의 (care)"
+        },
+        {
+          "part": "-ious",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "주의를 기울이는 → 호기심 많은"
+    },
+    {
+      "en": "accurate",
+      "ipa": "/ˈækjərət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "정확한",
+            "정밀한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cur",
+          "mean": "돌보다 (care)"
+        },
+        {
+          "part": "-ate",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "주의를 기울인 → 정확한"
+    },
+    {
+      "en": "divide",
+      "ipa": "/dɪˈvaɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "나누다",
+            "분리하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "di-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "vid",
+          "mean": "분리하다 (separate)"
+        }
+      ],
+      "origin": "떨어뜨려 나누다 → 분리하다"
+    },
+    {
+      "en": "individual",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "개인의",
+            "개별적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "개인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "dividu(vid)",
+          "mean": "나누다 (divide)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "더 이상 나눌 수 없는 → 개인"
+    },
+    {
+      "en": "devise",
+      "ipa": "/dɪˈvaɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고안하다",
+            "궁리하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "vise(vid)",
+          "mean": "나누다, 보다 (divide, see)"
+        }
+      ],
+      "origin": "완전히 나누어 살피다 → 고안하다"
+    },
+    {
+      "en": "widow",
+      "ipa": "/ˈwɪdoʊ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "과부",
+            "미망인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "wid(vid)",
+          "mean": "분리된 (separated)"
+        },
+        {
+          "part": "-ow",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "(배우자와) 분리된 사람 → 과부"
+    },
+    {
+      "en": "territory",
+      "ipa": "/ˈterətɔːri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "영토",
+            "영역"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "terr",
+          "mean": "땅 (earth, land)"
+        },
+        {
+          "part": "-itory",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "땅의 범위 → 영토"
+    },
+    {
+      "en": "terrestrial",
+      "ipa": "/təˈrestriəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "지구의",
+            "지상의",
+            "육생의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "terr",
+          "mean": "땅 (earth)"
+        },
+        {
+          "part": "-estrial",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "땅의 → 지구의, 지상의"
+    },
+    {
+      "en": "mediterranean",
+      "ipa": "/ˌmedɪtəˈreɪniən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지중해"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "지중해의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "medi",
+          "mean": "중간 (middle)"
+        },
+        {
+          "part": "terr",
+          "mean": "땅 (earth, land)"
+        },
+        {
+          "part": "-anean",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "땅의 중간에 있는 바다 → 지중해"
+    },
+    {
+      "en": "attend",
+      "ipa": "/əˈtend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "참석하다",
+            "주의를 기울이다",
+            "돌보다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "at-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tend",
+          "mean": "뻗다 (stretch)"
+        }
+      ],
+      "origin": "~쪽으로 마음을 뻗다 → 참석하다"
+    },
+    {
+      "en": "pretend",
+      "ipa": "/prɪˈtend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~인 척하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre-",
+          "mean": "앞에 (before)"
+        },
+        {
+          "part": "tend",
+          "mean": "뻗다 (stretch)"
+        }
+      ],
+      "origin": "앞에 내세우다 → ~인 척하다"
+    },
+    {
+      "en": "extend",
+      "ipa": "/ɪkˈstend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연장하다",
+            "확장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "tend",
+          "mean": "뻗다 (stretch)"
+        }
+      ],
+      "origin": "밖으로 뻗다 → 연장하다"
+    },
+    {
+      "en": "intend",
+      "ipa": "/ɪnˈtend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "의도하다",
+            "~하려고 생각하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "tend",
+          "mean": "뻗다 (stretch)"
+        }
+      ],
+      "origin": "~쪽으로 마음을 뻗다 → 의도하다"
+    },
+    {
+      "en": "tend",
+      "ipa": "/tend/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~하는 경향이 있다",
+            "돌보다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tend",
+          "mean": "뻗다, 향하다 (stretch, aim)"
+        }
+      ],
+      "origin": "~쪽으로 향하다 → 경향이 있다"
+    },
+    {
+      "en": "tender",
+      "ipa": "/ˈtendər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부드러운",
+            "연약한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tend",
+          "mean": "뻗다 (stretch)"
+        },
+        {
+          "part": "-er",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "뻗어서 얇아진 → 부드러운"
+    },
+    {
+      "en": "tense",
+      "ipa": "/tens/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "긴장된"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "시제"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tens(tend)",
+          "mean": "뻗다, 당기다 (stretch)"
+        }
+      ],
+      "origin": "팽팽하게 당겨진 → 긴장된"
+    },
+    {
+      "en": "intense",
+      "ipa": "/ɪnˈtens/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "강렬한",
+            "치열한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "안으로 (into)"
+        },
+        {
+          "part": "tense(tend)",
+          "mean": "뻗다, 당기다 (stretch)"
+        }
+      ],
+      "origin": "안으로 강하게 당겨진 → 강렬한"
+    },
+    {
+      "en": "possible",
+      "ipa": "/ˈpɑːsəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "가능한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "poss",
+          "mean": "할 수 있는 (able, powerful)"
+        },
+        {
+          "part": "-ible",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "할 수 있는 → 가능한"
+    },
+    {
+      "en": "possess",
+      "ipa": "/pəˈzes/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "소유하다",
+            "갖추다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pos(poss)",
+          "mean": "할 수 있는, 힘 (power)"
+        },
+        {
+          "part": "sess",
+          "mean": "앉다 (sit)"
+        }
+      ],
+      "origin": "힘을 가지고 앉다 → 소유하다"
+    },
+    {
+      "en": "potential",
+      "ipa": "/pəˈtenʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "잠재적인",
+            "가능성 있는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "잠재력"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pot(poss)",
+          "mean": "할 수 있는, 힘 (power)"
+        },
+        {
+          "part": "-ential",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "힘이 있는 → 잠재적인"
+    }
+  ]
+}
