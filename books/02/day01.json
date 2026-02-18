@@ -1,104 +1,341 @@
 {
   "title": "pro- 앞으로/ pre- 미리,먼저/ in¹- 안에,위에/ out- ~밖으로,~을 능가하는",
   "words": [
-    {"en":"progress","ipa":"/ˈprɑːɡres/","meanings":[{"pos":"명","defs":["진보, 발전"]},{"pos":"동","defs":["전진하다, 발달하다"]}],
+    {
+      "en":"progress","ipa":"/ˈprɑːɡres/",
+      "meanings":[{"pos":"명","defs":["진보, 발전","진전, 진행, 전진"]},{"pos":"동","defs":["진보하다, 발전하다","전진하다"]}],
       "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"gress","mean":"걷다 (walk, step)"}],
-      "origin":"앞으로 나아가다 → 진보, 발전"},
+      "origin":"앞으로 나아가다 → 진보, 발전",
+      "synonyms":["advance"],
+      "antonyms":["regression"],
+      "derivatives":[
+        {"en":"progressive","pos":"형","defs":["진보[혁신]적인","점진적인"]}
+      ],
+      "examples":[
+        {"en":"Some progressive schools are testing different systems to speed up their educational progress.","ko":"일부 진보적인 학교에서는 교육 발전을 가속화하기 위해 다양한 제도들을 실험하고 있다."}
+      ]
+    },
 
-    {"en":"propose","ipa":"/prəˈpoʊz/","meanings":[{"pos":"동","defs":["제안하다","(결혼을) 신청하다"]}],
+    {
+      "en":"propose","ipa":"/prəˈpoʊz/",
+      "meanings":[{"pos":"동","defs":["제안하다","(이론 등을) 제시하다","청혼하다"]}],
       "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"pose","mean":"놓다, 두다 (put, place)"}],
-      "origin":"앞에 내놓다 → 제안하다"},
+      "origin":"앞에 내놓다 → 제안하다",
+      "synonyms":["suggest"],
+      "derivatives":[
+        {"en":"proposal","pos":"명","defs":["제안, 신청","청혼"]}
+      ],
+      "phrases":[
+        {"en":"propose v-ing","ko":"~할 것을 제안하다"},
+        {"en":"submit a proposal","ko":"건의를 올리다, 제안서를 내다"}
+      ],
+      "examples":[
+        {"en":"He proposed starting a drama club at school.","ko":"그는 교내 연극 동아리를 만들자고 제안했다."},
+        {"en":"The committee approved the proposal without any changes.","ko":"위원회는 그 제안을 아무런 변경 없이 승인했다."}
+      ]
+    },
 
-    {"en":"produce","ipa":"/prəˈduːs/ · /ˈprɑːduːs/","meanings":[{"pos":"동","defs":["생산하다"]},{"pos":"명","defs":["농산물"]}],
+    {
+      "en":"produce","ipa":"/prəˈduːs/ · /ˈprɑːduːs/",
+      "meanings":[{"pos":"동","defs":["생산[제조]하다"]},{"pos":"명","defs":["농산물"]}],
       "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"duce","mean":"이끌다 (lead)"}],
-      "origin":"앞으로 이끌어 내다 → 생산하다"},
+      "origin":"앞으로 이끌어 내다 → 생산하다",
+      "synonyms":["manufacture"],
+      "antonyms":["consume"],
+      "derivatives":[
+        {"en":"producer","pos":"명","defs":["생산자, 제작자"]},
+        {"en":"product","pos":"명","defs":["생산품, 제품"]},
+        {"en":"production","pos":"명","defs":["생산, 제조"]},
+        {"en":"productive","pos":"형","defs":["생산적인, 결실이 많은","비옥한"]}
+      ],
+      "examples":[
+        {"en":"The factory produces first-class cheese.","ko":"그 공장은 최고급 치즈를 생산한다."},
+        {"en":"Greenhouse gases are released during the production process, but the company doesn't talk about that.","ko":"생산 과정에서 온실가스가 배출되지만, 회사는 그에 대해 언급하지 않는다.","source":"교과서"}
+      ]
+    },
 
-    {"en":"protect","ipa":"/prəˈtekt/","meanings":[{"pos":"동","defs":["보호하다, 지키다"]}],
+    {
+      "en":"protect","ipa":"/prəˈtekt/",
+      "meanings":[{"pos":"동","defs":["보호하다, 막다, 지키다"]}],
       "parts":[{"part":"pro-","mean":"앞에서 (in front)"},{"part":"tect","mean":"덮다 (cover)"}],
-      "origin":"앞에서 덮어주다 → 보호하다"},
+      "origin":"앞에서 덮어주다 → 보호하다",
+      "synonyms":["guard","defend"],
+      "antonyms":["attack"],
+      "derivatives":[
+        {"en":"protection","pos":"명","defs":["보호","방어물"]},
+        {"en":"protective","pos":"형","defs":["보호[방어]하는"]}
+      ],
+      "phrases":[
+        {"en":"protective gear","ko":"보호 장비"}
+      ],
+      "examples":[
+        {"en":"Just remember to bring a hat to protect yourself from the sun.","ko":"햇빛으로부터 자신을 보호할 수 있는 모자를 꼭 챙겨오세요.","source":"교과서"}
+      ]
+    },
 
-    {"en":"profile","ipa":"/ˈproʊfaɪl/","meanings":[{"pos":"명","defs":["옆얼굴, 개요, 인물 소개(프로필)"]}],
+    {
+      "en":"profile","ipa":"/ˈproʊfaɪl/",
+      "meanings":[{"pos":"명","defs":["(얼굴의) 윤곽, 옆얼굴","인물 소개, 프로필","개요"]}],
       "parts":[{"part":"pro-","mean":"앞으로 (forward)"},{"part":"file","mean":"윤곽선 (line, thread)"}],
-      "origin":"앞에서 본 윤곽선 → 옆얼굴, 프로필"},
+      "origin":"앞에서 본 윤곽선 → 옆얼굴, 프로필",
+      "examples":[
+        {"en":"According to her profile, everyone called her Sam even though her real name was Samantha.","ko":"그녀의 프로필에 따르면, 본명이 Samantha임에도 모두가 그녀를 Sam이라고 불렀다.","source":"교과서"}
+      ]
+    },
 
-    {"en":"purchase","ipa":"/ˈpɜːrtʃəs/","meanings":[{"pos":"동","defs":["구매하다"]},{"pos":"명","defs":["구매품, 구입"]}],
+    {
+      "en":"purchase","ipa":"/ˈpɜːrtʃəs/",
+      "meanings":[{"pos":"동","defs":["구매하다, 구입하다"]},{"pos":"명","defs":["구매, 구입"]}],
       "parts":[{"part":"pur-","mean":"앞으로 (forward, pro-)"},{"part":"chase","mean":"쫓다 (chase, pursue)"}],
-      "origin":"앞으로 쫓아가 얻다 → 구매하다"},
+      "origin":"앞으로 쫓아가 얻다 → 구매하다",
+      "examples":[
+        {"en":"Online tickets must be purchased at least 24 hours prior to the event.","ko":"온라인 티켓은 행사 최소 24시간 전에 구매해야 한다.","source":"모의"}
+      ]
+    },
 
-    {"en":"predict","ipa":"/prɪˈdɪkt/","meanings":[{"pos":"동","defs":["예측하다, 예언하다"]}],
+    {
+      "en":"predict","ipa":"/prɪˈdɪkt/",
+      "meanings":[{"pos":"동","defs":["예언하다, 예측[예상]하다"]}],
       "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"dict","mean":"말하다 (say, speak)"}],
-      "origin":"미리 말하다 → 예측하다"},
+      "origin":"미리 말하다 → 예측하다",
+      "synonyms":["anticipate","foresee","forecast"],
+      "derivatives":[
+        {"en":"prediction","pos":"명","defs":["예언, 예측"]},
+        {"en":"predictable","pos":"형","defs":["예측 가능한, 뻔한"]}
+      ],
+      "examples":[
+        {"en":"Experts predict that gas prices will continue to rise.","ko":"전문가들은 석유 가격이 계속해서 오를 것이라고 예측한다."}
+      ]
+    },
 
-    {"en":"precaution","ipa":"/prɪˈkɔːʃən/","meanings":[{"pos":"명","defs":["예방 조치, 조심, 경계"]}],
+    {
+      "en":"precaution","ipa":"/prɪˈkɔːʃən/",
+      "meanings":[{"pos":"명","defs":["조심, 경계","예방책"]}],
       "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"caut","mean":"조심하다 (be careful)"},{"part":"-ion","mean":"명사형 접미사"}],
-      "origin":"미리 조심하는 것 → 예방 조치"},
+      "origin":"미리 조심하는 것 → 예방 조치",
+      "phrases":[
+        {"en":"take precautions","ko":"조심하다"},
+        {"en":"a safety precaution","ko":"안전 예방(책)"}
+      ],
+      "examples":[
+        {"en":"Always take precautions when using dangerous equipment.","ko":"위험한 장비를 사용할 때는 항상 조심하세요."}
+      ]
+    },
 
-    {"en":"premature","ipa":"/ˌpriːməˈtʃʊr/","meanings":[{"pos":"형","defs":["시기상조의, 조숙한, 조산의"]}],
+    {
+      "en":"premature","ipa":"/ˌpriːməˈtʃʊr/",
+      "meanings":[{"pos":"형","defs":["시기상조의, 조급한","너무 이른, 조기의"]}],
       "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"mature","mean":"익은, 성숙한 (ripe, mature)"}],
-      "origin":"때가 되기 전에 익은 → 시기상조의"},
+      "origin":"때가 되기 전에 익은 → 시기상조의",
+      "phrases":[
+        {"en":"a premature birth[baby]","ko":"조산(早産)[조산아]"},
+        {"en":"cf. mature","ko":"성숙한"},
+        {"en":"immature","ko":"미숙한"}
+      ],
+      "examples":[
+        {"en":"Premature decisions are the leading cause of decision failure.","ko":"성급한 의사 결정은 의사 결정 실패의 주된 원인이다.","source":"모의"}
+      ]
+    },
 
-    {"en":"preview","ipa":"/ˈpriːvjuː/","meanings":[{"pos":"명","defs":["시사(회), 미리 보기"]},{"pos":"동","defs":["(영화 등을) 미리 보다"]}],
+    {
+      "en":"preview","ipa":"/ˈpriːvjuː/",
+      "meanings":[{"pos":"명","defs":["미리 보기, 사전 검토","(극·영화 등의) 시사(회), 시연, 예고편"]},{"pos":"동","defs":["(시사·시연 따위를) 보다[보여주다]"]}],
       "parts":[{"part":"pre-","mean":"미리 (before)"},{"part":"view","mean":"보다 (see, look)"}],
-      "origin":"미리 보다 → 시사회, 미리 보기"},
+      "origin":"미리 보다 → 시사회, 미리 보기",
+      "examples":[
+        {"en":"Have you seen the preview for that movie?","ko":"그 영화 예고편 봤어요?"}
+      ]
+    },
 
-    {"en":"income","ipa":"/ˈɪnkʌm/","meanings":[{"pos":"명","defs":["수입, 소득"]}],
+    {
+      "en":"income","ipa":"/ˈɪnkʌm/",
+      "meanings":[{"pos":"명","defs":["소득, 수입"]}],
       "parts":[{"part":"in-","mean":"안으로 (in, into)"},{"part":"come","mean":"오다 (come)"}],
-      "origin":"안으로 들어오는 것 → 수입, 소득"},
+      "origin":"안으로 들어오는 것 → 수입, 소득",
+      "synonyms":["earnings"],
+      "examples":[
+        {"en":"Her monthly income is less than $1,000.","ko":"그녀의 한 달 수입은 천 달러 미만이다."}
+      ]
+    },
 
-    {"en":"intake","ipa":"/ˈɪnteɪk/","meanings":[{"pos":"명","defs":["섭취(량), 흡입"]}],
+    {
+      "en":"intake","ipa":"/ˈɪnteɪk/",
+      "meanings":[{"pos":"명","defs":["섭취(량)"]}],
       "parts":[{"part":"in-","mean":"안으로 (in, into)"},{"part":"take","mean":"취하다 (take)"}],
-      "origin":"안으로 가져오다 → 섭취, 흡입"},
+      "origin":"안으로 가져오다 → 섭취, 흡입",
+      "phrases":[
+        {"en":"caffeine[sugar/caloric] intake","ko":"카페인[설탕/칼로리] 섭취(량)"}
+      ],
+      "examples":[
+        {"en":"Food intake is essential for the survival of every living organism.","ko":"음식 섭취는 모든 생명체의 생존을 위해 필수적인 것이다.","source":"수능"}
+      ]
+    },
 
-    {"en":"infection","ipa":"/ɪnˈfekʃən/","meanings":[{"pos":"명","defs":["감염, 전염, 전염병"]}],
+    {
+      "en":"infection","ipa":"/ɪnˈfekʃən/",
+      "meanings":[{"pos":"명","defs":["감염","오염"]}],
       "parts":[{"part":"in-","mean":"안에 (in, on)"},{"part":"fect","mean":"만들다 (make, do)"},{"part":"-ion","mean":"명사형 접미사"}],
-      "origin":"안에 (병이) 만들어진 것 → 감염"},
+      "origin":"안에 (병이) 만들어진 것 → 감염",
+      "derivatives":[
+        {"en":"infect","pos":"동","defs":["감염시키다","오염시키다"]},
+        {"en":"infectious","pos":"형","defs":["(병이) 전염성의","(감정·습관이) 남에게 옮기 쉬운"]}
+      ],
+      "phrases":[
+        {"en":"be[become] infected with","ko":"~에 감염되다"}
+      ],
+      "examples":[
+        {"en":"The weakened immune system leads to infection.","ko":"약해진 면역 체계는 감염으로 이어진다.","source":"모의"},
+        {"en":"He became infected with malaria while in the jungle.","ko":"그는 밀림지대에 있는 동안 말라리아에 감염되었다."},
+        {"en":"Most infectious diseases can be prevented.","ko":"대부분의 전염병은 예방이 가능하다."}
+      ]
+    },
 
-    {"en":"insight","ipa":"/ˈɪnsaɪt/","meanings":[{"pos":"명","defs":["통찰력, 식견"]}],
+    {
+      "en":"insight","ipa":"/ˈɪnsaɪt/",
+      "meanings":[{"pos":"명","defs":["통찰력"]}],
       "parts":[{"part":"in-","mean":"안을 (into)"},{"part":"sight","mean":"보다, 시야 (see, sight)"}],
-      "origin":"안을 들여다보다 → 통찰력"},
+      "origin":"안을 들여다보다 → 통찰력",
+      "examples":[
+        {"en":"His writing shows deep insight into relations among people.","ko":"그의 글은 사람들 사이의 관계에 대한 깊은 통찰력을 보여준다.","source":"수능"}
+      ]
+    },
 
-    {"en":"inherent","ipa":"/ɪnˈhɪrənt/","meanings":[{"pos":"형","defs":["타고난, 내재된, 고유의"]}],
+    {
+      "en":"inherent","ipa":"/ɪnˈhɪrənt/",
+      "meanings":[{"pos":"형","defs":["내재된, 고유의"]}],
       "parts":[{"part":"in-","mean":"안에 (in)"},{"part":"her","mean":"달라붙다 (stick, cling)"},{"part":"-ent","mean":"형용사형 접미사"}],
-      "origin":"안에 달라붙어 있는 → 내재된, 타고난"},
+      "origin":"안에 달라붙어 있는 → 내재된, 타고난",
+      "synonyms":["intrinsic"],
+      "derivatives":[
+        {"en":"inherently","pos":"부","defs":["본질적으로"]}
+      ],
+      "examples":[
+        {"en":"The inherent complexity of English is something common to all languages.","ko":"영어에 내재된 복잡성은 모든 언어에 공통적인 것이다."}
+      ]
+    },
 
-    {"en":"investment","ipa":"/ɪnˈvestmənt/","meanings":[{"pos":"명","defs":["투자, 투자금"]}],
+    {
+      "en":"investment","ipa":"/ɪnˈvestmənt/",
+      "meanings":[{"pos":"명","defs":["투자, 투자 자금"]}],
       "parts":[{"part":"in-","mean":"안에 (on)"},{"part":"vest","mean":"옷을 입히다 (clothe)"},{"part":"-ment","mean":"명사형 접미사"}],
-      "origin":"(돈에) 옷을 입혀 넣다 → 투자"},
+      "origin":"(돈에) 옷을 입혀 넣다 → 투자",
+      "derivatives":[
+        {"en":"invest","pos":"동","defs":["투자하다"]}
+      ],
+      "examples":[
+        {"en":"We should attract foreign investment.","ko":"우리는 외국인 투자를 이끌어내야[유치해야] 한다."},
+        {"en":"Businesses that refuse to invest in the future fail.","ko":"미래에 대한 투자를 하지 않는 사업은 실패한다."}
+      ]
+    },
 
-    {"en":"investigate","ipa":"/ɪnˈvestɪɡeɪt/","meanings":[{"pos":"동","defs":["조사하다, 수사하다"]}],
+    {
+      "en":"investigate","ipa":"/ɪnˈvestɪɡeɪt/",
+      "meanings":[{"pos":"동","defs":["수사[조사]하다","조사[연구]하다"]}],
       "parts":[{"part":"in-","mean":"안으로 (into)"},{"part":"vestig","mean":"발자국, 흔적 (track, footprint)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"안으로 발자국을 쫓다 → 조사하다"},
+      "origin":"안으로 발자국을 쫓다 → 조사하다",
+      "synonyms":["research","examine","inspect"],
+      "derivatives":[
+        {"en":"investigation","pos":"명","defs":["수사[조사]","조사[연구]"]},
+        {"en":"investigator","pos":"명","defs":["수사관"]}
+      ],
+      "examples":[
+        {"en":"Cheryl got down on her hands and knees to investigate the tunnel.","ko":"Cheryl은 그 굴을 조사하기 위해 손과 무릎을 대고 엎드렸다."},
+        {"en":"The east wing of the building will be closed until the investigation is finished.","ko":"건물의 동쪽 부분은 조사가 끝날 때까지 폐쇄될 것이다."}
+      ]
+    },
 
-    {"en":"illustrate","ipa":"/ˈɪləstreɪt/","meanings":[{"pos":"동","defs":["(실례·그림으로) 설명하다, 삽화를 넣다"]}],
+    {
+      "en":"illustrate","ipa":"/ˈɪləstreɪt/",
+      "meanings":[{"pos":"동","defs":["설명하다","삽화를 넣다"]}],
       "parts":[{"part":"il-","mean":"위에 (on, in-)"},{"part":"lustr","mean":"빛나다 (light, shine)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"위에 빛을 비추다 → 밝혀 설명하다"},
+      "origin":"위에 빛을 비추다 → 밝혀 설명하다",
+      "derivatives":[
+        {"en":"illustration","pos":"명","defs":["삽화, 예시"]}
+      ],
+      "examples":[
+        {"en":"This experiment illustrates the problems created by pollution from factories.","ko":"이 실험은 공장에서 발생시키는 오염으로 인해 생기는 문제를 설명한다."},
+        {"en":"Every illustration in the book was original and fresh.","ko":"그 책에 있는 모든 삽화는 독창적이고 생생했다."}
+      ]
+    },
 
-    {"en":"outcome","ipa":"/ˈaʊtkʌm/","meanings":[{"pos":"명","defs":["결과, 성과"]}],
+    {
+      "en":"outcome","ipa":"/ˈaʊtkʌm/",
+      "meanings":[{"pos":"명","defs":["결과, 성과"]}],
       "parts":[{"part":"out-","mean":"밖으로 (out)"},{"part":"come","mean":"나오다 (come)"}],
-      "origin":"밖으로 나온 것 → 결과"},
+      "origin":"밖으로 나온 것 → 결과",
+      "synonyms":["result","consequence"],
+      "examples":[
+        {"en":"What was the outcome of the presidential election?","ko":"대통령 선거 결과가 어떻게 되었나요?"}
+      ]
+    },
 
-    {"en":"outline","ipa":"/ˈaʊtlaɪn/","meanings":[{"pos":"명","defs":["개요, 윤곽"]},{"pos":"동","defs":["개요를 서술하다, 윤곽을 그리다"]}],
+    {
+      "en":"outline","ipa":"/ˈaʊtlaɪn/",
+      "meanings":[{"pos":"명","defs":["개요","윤곽, 외형"]},{"pos":"동","defs":["개요를 서술하다","윤곽을 보여주다[나타내다]"]}],
       "parts":[{"part":"out-","mean":"바깥의 (outer)"},{"part":"line","mean":"선 (line)"}],
-      "origin":"바깥 선 → 윤곽, 개요"},
+      "origin":"바깥 선 → 윤곽, 개요",
+      "examples":[
+        {"en":"Let me give you an outline of the plan.","ko":"내가 그 계획의 개요를 설명해 줄게."}
+      ]
+    },
 
-    {"en":"outstanding","ipa":"/aʊtˈstændɪŋ/","meanings":[{"pos":"형","defs":["뛰어난, 아주 훌륭한","(부채 등이) 미지불된"]}],
+    {
+      "en":"outstanding","ipa":"/aʊtˈstændɪŋ/",
+      "meanings":[{"pos":"형","defs":["뛰어난, 아주 훌륭한, 두드러진"]}],
       "parts":[{"part":"out-","mean":"능가하는 (surpassing)"},{"part":"stand","mean":"서다 (stand)"},{"part":"-ing","mean":"형용사형 접미사"}],
-      "origin":"밖으로 우뚝 서 있는 → 뛰어난"},
+      "origin":"밖으로 우뚝 서 있는 → 뛰어난",
+      "synonyms":["excellent","prominent","notable"],
+      "antonyms":["ordinary"],
+      "examples":[
+        {"en":"The student had an outstanding talent for mathematics.","ko":"그 학생은 수학에 뛰어난 재능을 가졌다."}
+      ]
+    },
 
-    {"en":"outbreak","ipa":"/ˈaʊtbreɪk/","meanings":[{"pos":"명","defs":["(전쟁·질병 등의) 발생, 발발"]}],
+    {
+      "en":"outbreak","ipa":"/ˈaʊtbreɪk/",
+      "meanings":[{"pos":"명","defs":["발생, 발발"]}],
       "parts":[{"part":"out-","mean":"밖으로 (out)"},{"part":"break","mean":"터지다 (break, burst)"}],
-      "origin":"밖으로 터져 나오다 → 발생, 발발"},
+      "origin":"밖으로 터져 나오다 → 발생, 발발",
+      "examples":[
+        {"en":"At the outbreak of World War I, he was serving in the French army.","ko":"제1차 세계대전이 발발했을 때 그는 프랑스 군에서 복무 중이었다.","source":"모의"}
+      ]
+    },
 
-    {"en":"outlet","ipa":"/ˈaʊtlet/","meanings":[{"pos":"명","defs":["배출구, (가전) 콘센트, 할인점(아울렛)"]}],
+    {
+      "en":"outlet","ipa":"/ˈaʊtlet/",
+      "meanings":[{"pos":"명","defs":["(액체·기체, 감정 등의) 배출구, 표출 방법","상점, 아울렛","(미) [전기] 콘센트"]}],
       "parts":[{"part":"out-","mean":"밖으로 (out)"},{"part":"let","mean":"내보내다 (let go, release)"}],
-      "origin":"밖으로 내보내는 곳 → 배출구"},
+      "origin":"밖으로 내보내는 곳 → 배출구",
+      "examples":[
+        {"en":"Many people say writing a journal is a good outlet for their emotions.","ko":"많은 사람이 일기를 쓰는 것이 좋은 감정 표출 방법이라고 말한다."}
+      ]
+    },
 
-    {"en":"utter","ipa":"/ˈʌtər/","meanings":[{"pos":"형","defs":["완전한, 순전한"]},{"pos":"동","defs":["(말을) 내뱉다, 발언하다"]}],
+    {
+      "en":"utter","ipa":"/ˈʌtər/",
+      "meanings":[{"pos":"형","defs":["(명사 앞에서) 완전한, 전적인"]},{"pos":"동","defs":["말하다","(소리 등을) 내다"]}],
       "parts":[{"part":"ut-","mean":"밖으로 (out)"},{"part":"-er","mean":"비교급/동작 접미사"}],
-      "origin":"밖으로 내보내다 → 말을 내뱉다 / 완전히 밖의 → 완전한"},
+      "origin":"밖으로 내보내다 → 말을 내뱉다 / 완전히 밖의 → 완전한",
+      "synonyms":["complete","total","say","speak"],
+      "derivatives":[
+        {"en":"utterly","pos":"부","defs":["완전히, 철저히"]},
+        {"en":"utterance","pos":"명","defs":["(입 밖으로 낸) 말, 언급된 것","말하는 행동, 발화, 발성"]}
+      ],
+      "examples":[
+        {"en":"She was so shocked that she couldn't utter a single word.","ko":"그녀는 너무 충격을 받아서 한 마디도 할 수가 없었다."},
+        {"en":"We were utterly wrong about the cause of the problem.","ko":"우리는 그 문제의 원인에 대해 완전히 틀렸다."}
+      ]
+    },
 
-    {"en":"utmost","ipa":"/ˈʌtmoʊst/","meanings":[{"pos":"형","defs":["최고의, 극도의"]},{"pos":"명","defs":["최대한도"]}],
+    {
+      "en":"utmost","ipa":"/ˈʌtmoʊst/",
+      "meanings":[{"pos":"형","defs":["최대의, 극도의"]}],
       "parts":[{"part":"ut-","mean":"극단, 밖으로 (outermost)"},{"part":"most","mean":"가장 (most)"}],
-      "origin":"가장 바깥의, 극단의 → 최고의, 극도의"}
+      "origin":"가장 바깥의, 극단의 → 최고의, 극도의",
+      "synonyms":["extreme"],
+      "examples":[
+        {"en":"All drugs should be treated with the utmost care.","ko":"모든 약물은 최대한의 주의를 기울여 다루어져야 한다."}
+      ]
+    }
   ]
 }
