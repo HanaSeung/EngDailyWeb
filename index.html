@@ -712,7 +712,7 @@ function storageKey(key) {
 // ── 교재 선택 ──
 async function loadBooks() {
   try {
-    const res = await fetch('book/books.json?t=' + Date.now());
+    const res = await fetch('books/books.json?t=' + Date.now());
     if (res.ok) return await res.json();
   } catch (e) {}
   return [];
@@ -791,7 +791,7 @@ async function loadAllDays() {
   document.getElementById('studyScreen').style.display = 'none';
   dayData = []; allWords = [];
 
-  const basePath = currentBook && currentBook.id !== '00' ? 'book/' + currentBook.id + '/' : '';
+  const basePath = currentBook && currentBook.id !== '00' ? 'books/' + currentBook.id + '/' : '';
 
   setLoadingStatus('버전 확인 중...', 10);
 
