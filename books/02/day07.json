@@ -1,0 +1,598 @@
+{
+  "title": "com- 함께,'강조'/ sym- 함께/ ab- 떨어져,'강조'/ se- 떨어져",
+  "words": [
+    {
+      "en": "combine",
+      "ipa": "/kəmˈbaɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결합시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "bine",
+          "mean": "둘 (two)"
+        }
+      ],
+      "origin": "둘을 함께 하다 → 결합시키다"
+    },
+    {
+      "en": "company",
+      "ipa": "/ˈkʌmpəni/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "회사",
+            "동행",
+            "일행"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pan",
+          "mean": "빵 (bread)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 빵을 나누는 사이 → 회사, 동행"
+    },
+    {
+      "en": "complain",
+      "ipa": "/kəmˈpleɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "불평하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "plain",
+          "mean": "치다, 울다 (strike, lament)"
+        }
+      ],
+      "origin": "완전히 울부짖다 → 불평하다"
+    },
+    {
+      "en": "compile",
+      "ipa": "/kəmˈpaɪl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "편집하다",
+            "수집하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pile",
+          "mean": "쌓다, 모으다 (heap, pile)"
+        }
+      ],
+      "origin": "함께 모아 쌓다 → 편집하다, 수집하다"
+    },
+    {
+      "en": "compress",
+      "ipa": "/kəmˈpres/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "압축하다",
+            "요약하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "press",
+          "mean": "누르다 (press)"
+        }
+      ],
+      "origin": "함께 눌러 모으다 → 압축하다"
+    },
+    {
+      "en": "compose",
+      "ipa": "/kəmˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "구성하다",
+            "작곡하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pose",
+          "mean": "놓다 (put, place)"
+        }
+      ],
+      "origin": "함께 놓다 → 구성하다, 작곡하다"
+    },
+    {
+      "en": "compromise",
+      "ipa": "/ˈkɑːmprəmaɪz/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "타협"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "타협하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "promise",
+          "mean": "약속 (promise)"
+        }
+      ],
+      "origin": "함께 약속하다 → 타협"
+    },
+    {
+      "en": "confirm",
+      "ipa": "/kənˈfɜːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확인하다",
+            "확정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "firm",
+          "mean": "단단한 (firm)"
+        }
+      ],
+      "origin": "완전히 단단하게 하다 → 확인하다, 확정하다"
+    },
+    {
+      "en": "connect",
+      "ipa": "/kəˈnekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "연결하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "nect",
+          "mean": "묶다 (bind, tie)"
+        }
+      ],
+      "origin": "함께 묶다 → 연결하다"
+    },
+    {
+      "en": "conform",
+      "ipa": "/kənˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "따르다",
+            "순응하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "form",
+          "mean": "형태 (form)"
+        }
+      ],
+      "origin": "함께 같은 형태를 이루다 → 따르다, 순응하다"
+    },
+    {
+      "en": "confront",
+      "ipa": "/kənˈfrʌnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "직면하다",
+            "맞서다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "front",
+          "mean": "이마, 앞 (forehead, front)"
+        }
+      ],
+      "origin": "얼굴을 마주하다 → 직면하다, 맞서다"
+    },
+    {
+      "en": "correspond",
+      "ipa": "/ˌkɔːrəˈspɑːnd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "일치하다",
+            "서신을 주고받다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "cor-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "respond",
+          "mean": "응답하다 (respond)"
+        }
+      ],
+      "origin": "함께 응답하다 → 일치하다, 서신을 주고받다"
+    },
+    {
+      "en": "collapse",
+      "ipa": "/kəˈlæps/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "무너지다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "붕괴"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "col-(com-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "lapse",
+          "mean": "미끄러지다, 넘어지다 (slip, fall)"
+        }
+      ],
+      "origin": "함께 무너져 내리다 → 붕괴"
+    },
+    {
+      "en": "symphony",
+      "ipa": "/ˈsɪmfəni/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "교향곡"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sym-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "phon",
+          "mean": "소리 (sound)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "함께 울리는 소리 → 교향곡"
+    },
+    {
+      "en": "synthetic",
+      "ipa": "/sɪnˈθetɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "합성의",
+            "인조의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "syn-(sym-)",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "the",
+          "mean": "놓다 (put, place)"
+        },
+        {
+          "part": "-tic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "함께 모아 놓은 → 합성의, 인조의"
+    },
+    {
+      "en": "absorb",
+      "ipa": "/əbˈsɔːrb/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "흡수하다",
+            "열중시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ab-",
+          "mean": "떨어져, ~로부터 (away, from)"
+        },
+        {
+          "part": "sorb",
+          "mean": "빨아들이다 (suck in)"
+        }
+      ],
+      "origin": "안으로 빨아들이다 → 흡수하다"
+    },
+    {
+      "en": "abnormal",
+      "ipa": "/æbˈnɔːrml/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비정상적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ab-",
+          "mean": "떨어져, 벗어나 (away from)"
+        },
+        {
+          "part": "normal",
+          "mean": "정상적인 (normal)"
+        }
+      ],
+      "origin": "정상에서 벗어난 → 비정상적인"
+    },
+    {
+      "en": "absolute",
+      "ipa": "/ˈæbsəluːt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "절대적인",
+            "확실한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ab-",
+          "mean": "떨어져, ~로부터 (away, from)"
+        },
+        {
+          "part": "solute",
+          "mean": "풀다 (loosen)"
+        }
+      ],
+      "origin": "어떤 제약으로부터도 풀려난 → 절대적인"
+    },
+    {
+      "en": "absurd",
+      "ipa": "/əbˈsɜːrd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "터무니없는",
+            "불합리한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ab-",
+          "mean": "완전히 (completely)"
+        },
+        {
+          "part": "surd",
+          "mean": "귀먹은, 어리석은 (deaf, foolish)"
+        }
+      ],
+      "origin": "완전히 어리석은 → 터무니없는"
+    },
+    {
+      "en": "separate",
+      "ipa": "/ˈseprət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "분리된"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "분리하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "se-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "par",
+          "mean": "준비하다, 마련하다 (prepare)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사/형용사형 접미사"
+        }
+      ],
+      "origin": "따로 떼어 놓다 → 분리하다"
+    },
+    {
+      "en": "secure",
+      "ipa": "/səˈkjʊr/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "안전한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "확보하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "se-",
+          "mean": "~없이 (without)"
+        },
+        {
+          "part": "cure",
+          "mean": "걱정 (care, worry)"
+        }
+      ],
+      "origin": "걱정 없는 → 안전한"
+    },
+    {
+      "en": "select",
+      "ipa": "/səˈlekt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "선택하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "엄선된"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "se-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "lect",
+          "mean": "모으다, 고르다 (gather, choose)"
+        }
+      ],
+      "origin": "따로 골라내다 → 선택하다"
+    },
+    {
+      "en": "segregation",
+      "ipa": "/ˌseɡrɪˈɡeɪʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "인종 차별",
+            "격리"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "se-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "greg",
+          "mean": "무리 (flock, group)"
+        },
+        {
+          "part": "-ation",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "무리에서 떼어놓음 → 격리, 인종 차별"
+    }
+  ]
+}

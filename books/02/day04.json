@@ -1,0 +1,652 @@
+{
+  "title": "inter- ~사이에,상호간/ trans- 이쪽에서 서쪽으로,~을 통해/ ex- 밖으로,'강조',이전에/ dia- ~사이에,가로질러/ mis- 잘못된,나쁜",
+  "words": [
+    {
+      "en": "international",
+      "ipa": "/ˌɪntərˈnæʃnəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "국제적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "nation",
+          "mean": "국가 (nation)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "국가 사이의 → 국제적인"
+    },
+    {
+      "en": "interpret",
+      "ipa": "/ɪnˈtɜːrprət/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해석하다",
+            "통역하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에서 (between)"
+        },
+        {
+          "part": "pret",
+          "mean": "설명하다 (explain)"
+        }
+      ],
+      "origin": "사이에서 설명하다 → 해석하다, 통역하다"
+    },
+    {
+      "en": "interval",
+      "ipa": "/ˈɪntərvl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "간격",
+            "틈"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "val",
+          "mean": "벽, 공간 (wall, space)"
+        }
+      ],
+      "origin": "사이의 공간 → 간격, 틈"
+    },
+    {
+      "en": "interfere",
+      "ipa": "/ˌɪntərˈfɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "방해하다",
+            "간섭하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "사이에 (between)"
+        },
+        {
+          "part": "fere",
+          "mean": "치다, 부딪치다 (strike)"
+        }
+      ],
+      "origin": "사이에서 부딪치다 → 방해하다, 간섭하다"
+    },
+    {
+      "en": "interaction",
+      "ipa": "/ˌɪntərˈækʃn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상호 작용"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "inter-",
+          "mean": "서로 (between, mutual)"
+        },
+        {
+          "part": "action",
+          "mean": "행동 (action)"
+        }
+      ],
+      "origin": "서로 간의 행동 → 상호 작용"
+    },
+    {
+      "en": "transfer",
+      "ipa": "/trænsˈfɜːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "옮기다",
+            "갈아타다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이동",
+            "전근"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러 (across)"
+        },
+        {
+          "part": "fer",
+          "mean": "옮기다 (carry)"
+        }
+      ],
+      "origin": "가로질러 옮기다 → 이동하다, 갈아타다"
+    },
+    {
+      "en": "transform",
+      "ipa": "/trænsˈfɔːrm/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "변형시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러, 넘어 (across, beyond)"
+        },
+        {
+          "part": "form",
+          "mean": "형태 (form, shape)"
+        }
+      ],
+      "origin": "형태를 넘어 바꾸다 → 변형시키다"
+    },
+    {
+      "en": "transplant",
+      "ipa": "/trænsˈplænt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "이식하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "이식"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trans-",
+          "mean": "가로질러 (across)"
+        },
+        {
+          "part": "plant",
+          "mean": "심다 (plant)"
+        }
+      ],
+      "origin": "옮겨 심다 → 이식하다"
+    },
+    {
+      "en": "expand",
+      "ipa": "/ɪkˈspænd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확장하다",
+            "팽창하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "pand",
+          "mean": "펼치다 (spread)"
+        }
+      ],
+      "origin": "밖으로 펼치다 → 확장하다, 팽창하다"
+    },
+    {
+      "en": "explore",
+      "ipa": "/ɪkˈsplɔːr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "탐험하다",
+            "탐구하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "plore",
+          "mean": "울다, 외치다 (cry out)"
+        }
+      ],
+      "origin": "밖으로 나가 외치며 찾다 → 탐험하다"
+    },
+    {
+      "en": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설명하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "plain",
+          "mean": "평평한, 분명한 (flat, clear)"
+        }
+      ],
+      "origin": "밖으로 드러내어 분명하게 하다 → 설명하다"
+    },
+    {
+      "en": "explicit",
+      "ipa": "/ɪkˈsplɪsɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "명백한",
+            "노골적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "plic",
+          "mean": "접다 (fold)"
+        },
+        {
+          "part": "-it",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "밖으로 펼쳐진 → 명백한"
+    },
+    {
+      "en": "exhaust",
+      "ipa": "/ɪɡˈzɔːst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기진맥진하게 하다",
+            "다 써버리다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "배기가스"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "haust",
+          "mean": "끌어내다 (draw)"
+        }
+      ],
+      "origin": "밖으로 모두 끌어내다 → 기진맥진하게 하다, 다 써버리다"
+    },
+    {
+      "en": "expose",
+      "ipa": "/ɪkˈspoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "노출시키다",
+            "드러내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "pose",
+          "mean": "놓다 (put, place)"
+        }
+      ],
+      "origin": "밖으로 내놓다 → 노출시키다, 드러내다"
+    },
+    {
+      "en": "examine",
+      "ipa": "/ɪɡˈzæmɪn/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조사하다",
+            "검사하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "amine",
+          "mean": "저울질하다 (weigh)"
+        }
+      ],
+      "origin": "밖으로 꺼내 저울질하다 → 조사하다, 검사하다"
+    },
+    {
+      "en": "exaggerate",
+      "ipa": "/ɪɡˈzædʒəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "과장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "agger",
+          "mean": "쌓다 (heap up)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "밖으로 지나치게 쌓다 → 과장하다"
+    },
+    {
+      "en": "exchange",
+      "ipa": "/ɪksˈtʃeɪndʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "교환하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "환전"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex-",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "change",
+          "mean": "바꾸다 (change)"
+        }
+      ],
+      "origin": "밖으로 내어 바꾸다 → 교환하다"
+    },
+    {
+      "en": "escape",
+      "ipa": "/ɪˈskeɪp/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "탈출하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "도망"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "es-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "cape",
+          "mean": "망토 (cloak)"
+        }
+      ],
+      "origin": "망토를 벗고 빠져나가다 → 탈출하다"
+    },
+    {
+      "en": "evaporate",
+      "ipa": "/ɪˈvæpəreɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "증발하다",
+            "사라지다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e-(ex-)",
+          "mean": "밖으로 (out)"
+        },
+        {
+          "part": "vapor",
+          "mean": "증기 (vapor)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "밖으로 증기가 되다 → 증발하다"
+    },
+    {
+      "en": "dialogue",
+      "ipa": "/ˈdaɪəlɔːɡ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대화",
+            "문답"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dia-",
+          "mean": "가로질러, 사이에 (across, between)"
+        },
+        {
+          "part": "logue",
+          "mean": "말 (speech, word)"
+        }
+      ],
+      "origin": "서로 간에 말을 주고받다 → 대화"
+    },
+    {
+      "en": "dialect",
+      "ipa": "/ˈdaɪəlekt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "방언",
+            "사투리"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dia-",
+          "mean": "가로질러, 사이에 (across)"
+        },
+        {
+          "part": "lect",
+          "mean": "말하다 (speak)"
+        }
+      ],
+      "origin": "지역 사이에서 다르게 말하는 것 → 방언, 사투리"
+    },
+    {
+      "en": "diameter",
+      "ipa": "/daɪˈæmɪtər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지름",
+            "직경"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dia-",
+          "mean": "가로질러 (across)"
+        },
+        {
+          "part": "meter",
+          "mean": "재다, 측정 (measure)"
+        }
+      ],
+      "origin": "가로질러 잰 길이 → 지름, 직경"
+    },
+    {
+      "en": "mistake",
+      "ipa": "/mɪˈsteɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "실수"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "잘못 생각하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mis-",
+          "mean": "잘못 (wrong)"
+        },
+        {
+          "part": "take",
+          "mean": "잡다, 취하다 (take)"
+        }
+      ],
+      "origin": "잘못 잡다 → 실수"
+    },
+    {
+      "en": "misleading",
+      "ipa": "/ˌmɪsˈliːdɪŋ/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "오해의 소지가 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mis-",
+          "mean": "잘못 (wrong)"
+        },
+        {
+          "part": "lead",
+          "mean": "이끌다 (lead)"
+        },
+        {
+          "part": "-ing",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "잘못 이끄는 → 오해의 소지가 있는"
+    },
+    {
+      "en": "misfortune",
+      "ipa": "/ˌmɪsˈfɔːrtʃən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "불운",
+            "불행"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mis-",
+          "mean": "나쁜, 잘못 (bad, wrong)"
+        },
+        {
+          "part": "fortune",
+          "mean": "운 (fortune, luck)"
+        }
+      ],
+      "origin": "나쁜 운 → 불운, 불행"
+    }
+  ]
+}

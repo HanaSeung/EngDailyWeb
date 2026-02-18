@@ -1,0 +1,642 @@
+{
+  "title": "en- ~이 되게 하다,~안에/ per- 완전히,두루/ a- ~에,'강조','완료','부정'",
+  "words": [
+    {
+      "en": "enable",
+      "ipa": "/ɪˈneɪbl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "가능하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "~하게 하다 (make)"
+        },
+        {
+          "part": "able",
+          "mean": "할 수 있는 (able)"
+        }
+      ],
+      "origin": "할 수 있게 하다 → 가능하게 하다"
+    },
+    {
+      "en": "enforce",
+      "ipa": "/ɪnˈfɔːrs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "집행하다",
+            "강요하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "~하게 하다 (make)"
+        },
+        {
+          "part": "force",
+          "mean": "힘 (force)"
+        }
+      ],
+      "origin": "힘을 가하게 하다 → 집행하다, 강요하다"
+    },
+    {
+      "en": "enhance",
+      "ipa": "/ɪnˈhæns/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "향상시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "~하게 하다 (make)"
+        },
+        {
+          "part": "hance",
+          "mean": "높은 (high)"
+        }
+      ],
+      "origin": "높게 만들다 → 향상시키다"
+    },
+    {
+      "en": "enrich",
+      "ipa": "/ɪnˈrɪtʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "풍부하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "~하게 하다 (make)"
+        },
+        {
+          "part": "rich",
+          "mean": "풍부한 (rich)"
+        }
+      ],
+      "origin": "풍부하게 만들다 → 풍부하게 하다"
+    },
+    {
+      "en": "enlarge",
+      "ipa": "/ɪnˈlɑːrdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "확장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "~하게 하다 (make)"
+        },
+        {
+          "part": "large",
+          "mean": "큰 (large)"
+        }
+      ],
+      "origin": "크게 만들다 → 확장하다"
+    },
+    {
+      "en": "entitle",
+      "ipa": "/ɪnˈtaɪtl/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "권리를 주다",
+            "제목을 붙이다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "~하게 하다 (make)"
+        },
+        {
+          "part": "title",
+          "mean": "직함, 제목 (title)"
+        }
+      ],
+      "origin": "직함을 부여하다 → 권리를 주다, 제목을 붙이다"
+    },
+    {
+      "en": "ensure",
+      "ipa": "/ɪnˈʃʊr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "반드시 ~하게 하다",
+            "보장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "~하게 하다 (make)"
+        },
+        {
+          "part": "sure",
+          "mean": "확실한 (sure)"
+        }
+      ],
+      "origin": "확실하게 하다 → 보장하다"
+    },
+    {
+      "en": "enclose",
+      "ipa": "/ɪnˈkloʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "에워싸다",
+            "동봉하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "close",
+          "mean": "닫다 (close)"
+        }
+      ],
+      "origin": "안에 넣고 닫다 → 에워싸다, 동봉하다"
+    },
+    {
+      "en": "encounter",
+      "ipa": "/ɪnˈkaʊntər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "마주치다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "만남"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "counter",
+          "mean": "맞서다 (against)"
+        }
+      ],
+      "origin": "안에서 맞닥뜨리다 → 마주치다"
+    },
+    {
+      "en": "engage",
+      "ipa": "/ɪnˈɡeɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "관여하다",
+            "약속하다",
+            "끌어들이다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en-",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "gage",
+          "mean": "서약, 담보 (pledge)"
+        }
+      ],
+      "origin": "서약 안에 들다 → 관여하다, 약속하다"
+    },
+    {
+      "en": "embrace",
+      "ipa": "/ɪmˈbreɪs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "껴안다",
+            "받아들이다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "em-(en-)",
+          "mean": "안에 (in)"
+        },
+        {
+          "part": "brace",
+          "mean": "두 팔 (arms)"
+        }
+      ],
+      "origin": "두 팔 안에 넣다 → 껴안다, 받아들이다"
+    },
+    {
+      "en": "perfect",
+      "ipa": "/ˈpɜːrfɪkt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "완벽한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "완벽하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "fect",
+          "mean": "만들다 (make, do)"
+        }
+      ],
+      "origin": "완전히 만들어진 → 완벽한"
+    },
+    {
+      "en": "permanent",
+      "ipa": "/ˈpɜːrmənənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "영구적인",
+            "불변의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (throughout)"
+        },
+        {
+          "part": "man",
+          "mean": "머무르다 (stay, remain)"
+        },
+        {
+          "part": "-ent",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "끝까지 머무르는 → 영구적인"
+    },
+    {
+      "en": "persist",
+      "ipa": "/pərˈsɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "고집하다",
+            "지속되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "sist",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "끝까지 서 있다 → 고집하다, 지속되다"
+    },
+    {
+      "en": "persevere",
+      "ipa": "/ˌpɜːrsəˈvɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "인내하다",
+            "참다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "severe",
+          "mean": "엄격한, 심한 (strict, severe)"
+        }
+      ],
+      "origin": "끝까지 엄격히 버티다 → 인내하다"
+    },
+    {
+      "en": "persuade",
+      "ipa": "/pərˈsweɪd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "설득하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "완전히 (thoroughly)"
+        },
+        {
+          "part": "suade",
+          "mean": "권하다 (urge, advise)"
+        }
+      ],
+      "origin": "완전히 권하다 → 설득하다"
+    },
+    {
+      "en": "perspective",
+      "ipa": "/pərˈspektɪv/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "관점",
+            "원근법"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per-",
+          "mean": "통하여 (through)"
+        },
+        {
+          "part": "spect",
+          "mean": "보다 (look)"
+        },
+        {
+          "part": "-ive",
+          "mean": "명사/형용사형 접미사"
+        }
+      ],
+      "origin": "통하여 보는 것 → 관점, 원근법"
+    },
+    {
+      "en": "aboard",
+      "ipa": "/əˈbɔːrd/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "배(비행기) 위에"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~위에 (on)"
+        },
+        {
+          "part": "board",
+          "mean": "판, 갑판 (board)"
+        }
+      ],
+      "origin": "갑판 위에 → 배(비행기) 위에"
+    },
+    {
+      "en": "abroad",
+      "ipa": "/əˈbrɔːd/",
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "해외로"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~으로 (on, to)"
+        },
+        {
+          "part": "broad",
+          "mean": "넓은 (broad, wide)"
+        }
+      ],
+      "origin": "넓은 곳으로 → 해외로"
+    },
+    {
+      "en": "alike",
+      "ipa": "/əˈlaɪk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비슷한"
+          ]
+        },
+        {
+          "pos": "부",
+          "defs": [
+            "비슷하게"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~의 상태로 (in the state of)"
+        },
+        {
+          "part": "like",
+          "mean": "같은 (like)"
+        }
+      ],
+      "origin": "같은 상태의 → 비슷한"
+    },
+    {
+      "en": "arise",
+      "ipa": "/əˈraɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "발생하다",
+            "일어나다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "위로 (up)"
+        },
+        {
+          "part": "rise",
+          "mean": "오르다 (rise)"
+        }
+      ],
+      "origin": "위로 일어나다 → 발생하다"
+    },
+    {
+      "en": "arouse",
+      "ipa": "/əˈraʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "깨우다",
+            "유발하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "위로 (up)"
+        },
+        {
+          "part": "rouse",
+          "mean": "깨우다 (wake up)"
+        }
+      ],
+      "origin": "위로 깨우다 → 깨우다, 유발하다"
+    },
+    {
+      "en": "ashamed",
+      "ipa": "/əˈʃeɪmd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부끄러워하는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~의 상태로 (in the state of)"
+        },
+        {
+          "part": "shamed",
+          "mean": "수치스러운 (shamed)"
+        }
+      ],
+      "origin": "수치스러운 상태의 → 부끄러워하는"
+    },
+    {
+      "en": "amaze",
+      "ipa": "/əˈmeɪz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "놀라게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~의 상태로 (into)"
+        },
+        {
+          "part": "maze",
+          "mean": "혼란, 미로 (confusion, maze)"
+        }
+      ],
+      "origin": "혼란 상태에 빠뜨리다 → 놀라게 하다"
+    },
+    {
+      "en": "afford",
+      "ipa": "/əˈfɔːrd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "~할 여유가 있다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~으로 (to)"
+        },
+        {
+          "part": "ford",
+          "mean": "제공하다 (provide, further)"
+        }
+      ],
+      "origin": "제공할 수 있다 → ~할 여유가 있다"
+    },
+    {
+      "en": "atom",
+      "ipa": "/ˈætəm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "tom",
+          "mean": "자르다 (cut)"
+        }
+      ],
+      "origin": "더 이상 자를 수 없는 것 → 원자"
+    }
+  ]
+}

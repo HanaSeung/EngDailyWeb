@@ -1,0 +1,610 @@
+{
+  "title": "geo- 지구이,땅의/ multi- 많은/ mono,uni- 하나의,혼자의/ bi,du,twi- 둘의/ tri- 셋의",
+  "words": [
+    {
+      "en": "geography",
+      "ipa": "/dʒiˈɑːɡrəfi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지리(학)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "geo-",
+          "mean": "땅 (earth)"
+        },
+        {
+          "part": "graphy",
+          "mean": "기록 (writing, description)"
+        }
+      ],
+      "origin": "땅에 대한 기록 → 지리(학)"
+    },
+    {
+      "en": "geology",
+      "ipa": "/dʒiˈɑːlədʒi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "지질학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "geo-",
+          "mean": "땅 (earth)"
+        },
+        {
+          "part": "logy",
+          "mean": "학문 (study)"
+        }
+      ],
+      "origin": "땅에 대한 학문 → 지질학"
+    },
+    {
+      "en": "geometry",
+      "ipa": "/dʒiˈɑːmətri/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기하학"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "geo-",
+          "mean": "땅 (earth)"
+        },
+        {
+          "part": "metry",
+          "mean": "측정 (measurement)"
+        }
+      ],
+      "origin": "땅을 측정하다 → 기하학"
+    },
+    {
+      "en": "multiple",
+      "ipa": "/ˈmʌltɪpl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "다수의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "배수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "multi-",
+          "mean": "많은 (many)"
+        },
+        {
+          "part": "ple",
+          "mean": "겹 (fold)"
+        }
+      ],
+      "origin": "여러 겹의 → 다수의"
+    },
+    {
+      "en": "multimedia",
+      "ipa": "/ˌmʌltiˈmiːdiə/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "멀티미디어"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "다중 매체의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "multi-",
+          "mean": "많은 (many)"
+        },
+        {
+          "part": "media",
+          "mean": "매체 (media)"
+        }
+      ],
+      "origin": "많은 매체를 사용하는 → 멀티미디어"
+    },
+    {
+      "en": "multitude",
+      "ipa": "/ˈmʌltɪtuːd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "다수",
+            "군중"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "multi-",
+          "mean": "많은 (many)"
+        },
+        {
+          "part": "-tude",
+          "mean": "상태 접미사 (state)"
+        }
+      ],
+      "origin": "많은 상태 → 다수, 군중"
+    },
+    {
+      "en": "monologue",
+      "ipa": "/ˈmɑːnəlɔːɡ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "독백"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mono-",
+          "mean": "하나 (one, single)"
+        },
+        {
+          "part": "logue",
+          "mean": "말 (speech, word)"
+        }
+      ],
+      "origin": "혼자 하는 말 → 독백"
+    },
+    {
+      "en": "monoculture",
+      "ipa": "/ˈmɑːnəkʌltʃər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "단일 재배"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mono-",
+          "mean": "하나 (one, single)"
+        },
+        {
+          "part": "culture",
+          "mean": "재배, 경작 (cultivation)"
+        }
+      ],
+      "origin": "하나만 재배하는 것 → 단일 재배"
+    },
+    {
+      "en": "union",
+      "ipa": "/ˈjuːniən/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "결합",
+            "노동조합"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "-on",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "하나로 합침 → 결합, 노동조합"
+    },
+    {
+      "en": "unique",
+      "ipa": "/juˈniːk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "독특한",
+            "유일한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "-que",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "하나뿐인 → 독특한, 유일한"
+    },
+    {
+      "en": "unify",
+      "ipa": "/ˈjuːnɪfaɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "통일하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "fy",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "하나로 만들다 → 통일하다"
+    },
+    {
+      "en": "unite",
+      "ipa": "/juˈnaɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "결합하다",
+            "단결하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "-te",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "하나로 하다 → 결합하다, 단결하다"
+    },
+    {
+      "en": "unit",
+      "ipa": "/ˈjuːnɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "단위",
+            "한 개"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "-t",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "하나의 것 → 단위, 한 개"
+    },
+    {
+      "en": "universe",
+      "ipa": "/ˈjuːnɪvɜːrs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "우주",
+            "전 세계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "verse",
+          "mean": "돌리다 (turn)"
+        }
+      ],
+      "origin": "하나로 돌아가는 전체 → 우주"
+    },
+    {
+      "en": "uniform",
+      "ipa": "/ˈjuːnɪfɔːrm/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "제복"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "균일한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni-",
+          "mean": "하나 (one)"
+        },
+        {
+          "part": "form",
+          "mean": "형태 (form, shape)"
+        }
+      ],
+      "origin": "하나의 형태 → 제복, 균일한"
+    },
+    {
+      "en": "bilingual",
+      "ipa": "/ˌbaɪˈlɪŋɡwəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "2개 국어 구사자(의)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bi-",
+          "mean": "둘 (two)"
+        },
+        {
+          "part": "lingual",
+          "mean": "언어의 (language)"
+        }
+      ],
+      "origin": "두 언어의 → 2개 국어 구사자(의)"
+    },
+    {
+      "en": "balance",
+      "ipa": "/ˈbæləns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "균형"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "균형을 잡다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bi-",
+          "mean": "둘 (two)"
+        },
+        {
+          "part": "lance",
+          "mean": "접시 (plate, pan)"
+        }
+      ],
+      "origin": "두 접시(저울) → 균형"
+    },
+    {
+      "en": "duplicate",
+      "ipa": "/ˈduːplɪkeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "복사하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "중복의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "du-",
+          "mean": "둘 (two)"
+        },
+        {
+          "part": "plic",
+          "mean": "접다 (fold)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "두 번 접다 → 복사하다"
+    },
+    {
+      "en": "dual",
+      "ipa": "/ˈduːəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "이중의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "du-",
+          "mean": "둘 (two)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "둘의 → 이중의"
+    },
+    {
+      "en": "twilight",
+      "ipa": "/ˈtwaɪlaɪt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "황혼",
+            "쇠퇴기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "twi-",
+          "mean": "둘 (two)"
+        },
+        {
+          "part": "light",
+          "mean": "빛 (light)"
+        }
+      ],
+      "origin": "두 빛 사이(낮과 밤) → 황혼"
+    },
+    {
+      "en": "twist",
+      "ipa": "/twɪst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "비틀다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "뒤틀림"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "twi-",
+          "mean": "둘 (two)"
+        },
+        {
+          "part": "st",
+          "mean": "실, 줄 (string)"
+        }
+      ],
+      "origin": "두 줄을 꼬다 → 비틀다"
+    },
+    {
+      "en": "triangle",
+      "ipa": "/ˈtraɪæŋɡl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "삼각형"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tri-",
+          "mean": "셋 (three)"
+        },
+        {
+          "part": "angle",
+          "mean": "각 (angle)"
+        }
+      ],
+      "origin": "세 개의 각 → 삼각형"
+    },
+    {
+      "en": "tribe",
+      "ipa": "/traɪb/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부족",
+            "종족"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tri-",
+          "mean": "셋 (three)"
+        },
+        {
+          "part": "-be",
+          "mean": "존재 (being)"
+        }
+      ],
+      "origin": "로마의 세 부족에서 유래 → 부족, 종족"
+    },
+    {
+      "en": "trivial",
+      "ipa": "/ˈtrɪviəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사소한",
+            "하찮은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tri-",
+          "mean": "셋 (three)"
+        },
+        {
+          "part": "vi",
+          "mean": "길 (road)"
+        },
+        {
+          "part": "-al",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "세 갈래 길(교차로)에서 떠도는 흔한 이야기 → 사소한"
+    }
+  ]
+}

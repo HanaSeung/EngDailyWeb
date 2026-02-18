@@ -1,0 +1,614 @@
+{
+  "title": "super- 위에,초월해서/ up- 위로/ sub- ~의 아래에/ anti- ~에 대항(반대)하여/ ante- 앞,전에",
+  "words": [
+    {
+      "en": "superior",
+      "ipa": "/suːˈpɪriər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "우수한",
+            "상급의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "super-",
+          "mean": "위의 (above)"
+        },
+        {
+          "part": "-ior",
+          "mean": "비교급 접미사"
+        }
+      ],
+      "origin": "위에 있는 → 우수한, 상급의"
+    },
+    {
+      "en": "superb",
+      "ipa": "/suːˈpɜːrb/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "최고의",
+            "뛰어난"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "super-",
+          "mean": "위의, 넘어 (above, beyond)"
+        },
+        {
+          "part": "-b",
+          "mean": "형용사형 어미"
+        }
+      ],
+      "origin": "위를 넘어서는 → 최고의, 뛰어난"
+    },
+    {
+      "en": "superficial",
+      "ipa": "/ˌsuːpərˈfɪʃl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "피상적인",
+            "표면적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "super-",
+          "mean": "위의 (above)"
+        },
+        {
+          "part": "fic",
+          "mean": "얼굴, 표면 (face)"
+        },
+        {
+          "part": "-ial",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "표면 위의 → 피상적인, 표면적인"
+    },
+    {
+      "en": "surface",
+      "ipa": "/ˈsɜːrfɪs/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "표면",
+            "외관"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sur-(super-)",
+          "mean": "위의 (above)"
+        },
+        {
+          "part": "face",
+          "mean": "얼굴, 면 (face)"
+        }
+      ],
+      "origin": "위의 면 → 표면"
+    },
+    {
+      "en": "sovereign",
+      "ipa": "/ˈsɑːvrɪn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "통치자"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "주권이 있는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sover-(super-)",
+          "mean": "위의 (above, over)"
+        },
+        {
+          "part": "-eign",
+          "mean": "지배 (reign)"
+        }
+      ],
+      "origin": "위에서 지배하는 → 통치자, 주권이 있는"
+    },
+    {
+      "en": "uphold",
+      "ipa": "/ʌpˈhoʊld/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지지하다",
+            "유지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "up-",
+          "mean": "위로 (up)"
+        },
+        {
+          "part": "hold",
+          "mean": "잡다, 유지하다 (hold)"
+        }
+      ],
+      "origin": "위로 잡아 유지하다 → 지지하다"
+    },
+    {
+      "en": "upright",
+      "ipa": "/ˈʌpraɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "똑바른"
+          ]
+        },
+        {
+          "pos": "부",
+          "defs": [
+            "똑바로"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "up-",
+          "mean": "위로 (up)"
+        },
+        {
+          "part": "right",
+          "mean": "바른 (right, straight)"
+        }
+      ],
+      "origin": "위로 바르게 → 똑바른"
+    },
+    {
+      "en": "upset",
+      "ipa": "/ʌpˈset/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "화난"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "망치다",
+            "뒤엎다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "up-",
+          "mean": "위로 (up)"
+        },
+        {
+          "part": "set",
+          "mean": "놓다 (set, place)"
+        }
+      ],
+      "origin": "위로 뒤집어 놓다 → 화난, 뒤엎다"
+    },
+    {
+      "en": "upside",
+      "ipa": "/ˈʌpsaɪd/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위쪽",
+            "긍정적인 면"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "up-",
+          "mean": "위 (up)"
+        },
+        {
+          "part": "side",
+          "mean": "면, 쪽 (side)"
+        }
+      ],
+      "origin": "위쪽 면 → 위쪽, 긍정적인 면"
+    },
+    {
+      "en": "submarine",
+      "ipa": "/ˌsʌbməˈriːn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "잠수함"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "해저의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub-",
+          "mean": "아래에 (under)"
+        },
+        {
+          "part": "marine",
+          "mean": "바다의 (sea)"
+        }
+      ],
+      "origin": "바다 아래의 → 잠수함"
+    },
+    {
+      "en": "suffer",
+      "ipa": "/ˈsʌfər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "겪다",
+            "고통받다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "suf-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "fer",
+          "mean": "옮기다, 견디다 (carry, bear)"
+        }
+      ],
+      "origin": "아래에서 짊어지다 → 겪다, 고통받다"
+    },
+    {
+      "en": "suggest",
+      "ipa": "/səˈdʒest/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "제안하다",
+            "암시하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sug-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "gest",
+          "mean": "옮기다, 가져오다 (carry, bring)"
+        }
+      ],
+      "origin": "아래에서 가져오다 → 제안하다, 암시하다"
+    },
+    {
+      "en": "support",
+      "ipa": "/səˈpɔːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "지지하다",
+            "부양하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "지지"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sup-(sub-)",
+          "mean": "아래에서 (under)"
+        },
+        {
+          "part": "port",
+          "mean": "옮기다 (carry)"
+        }
+      ],
+      "origin": "아래에서 받쳐 옮기다 → 지지하다, 부양하다"
+    },
+    {
+      "en": "suppress",
+      "ipa": "/səˈpres/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "억제하다",
+            "진압하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sup-(sub-)",
+          "mean": "아래로 (under, down)"
+        },
+        {
+          "part": "press",
+          "mean": "누르다 (press)"
+        }
+      ],
+      "origin": "아래로 누르다 → 억제하다, 진압하다"
+    },
+    {
+      "en": "antibiotic",
+      "ipa": "/ˌæntibaɪˈɑːtɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "항생제"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anti-",
+          "mean": "반대, 대항 (against)"
+        },
+        {
+          "part": "bio",
+          "mean": "생명 (life)"
+        },
+        {
+          "part": "-tic",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "생명(세균)에 대항하는 → 항생제"
+    },
+    {
+      "en": "antibody",
+      "ipa": "/ˈæntibɑːdi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "항체"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anti-",
+          "mean": "반대, 대항 (against)"
+        },
+        {
+          "part": "body",
+          "mean": "몸, 물질 (body)"
+        }
+      ],
+      "origin": "외부 물질에 대항하는 것 → 항체"
+    },
+    {
+      "en": "Antarctic",
+      "ipa": "/ænˈtɑːrktɪk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "남극"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "남극의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ant-(anti-)",
+          "mean": "반대 (opposite)"
+        },
+        {
+          "part": "arctic",
+          "mean": "북극의 (arctic)"
+        }
+      ],
+      "origin": "북극의 반대쪽 → 남극"
+    },
+    {
+      "en": "anticipate",
+      "ipa": "/ænˈtɪsɪpeɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "예상하다",
+            "기대하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ante-",
+          "mean": "미리, 전에 (before)"
+        },
+        {
+          "part": "cip",
+          "mean": "잡다 (take)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "미리 잡다 → 예상하다, 기대하다"
+    },
+    {
+      "en": "antique",
+      "ipa": "/ænˈtiːk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "골동품의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "골동품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ante-",
+          "mean": "이전의 (before)"
+        },
+        {
+          "part": "-ique",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "이전 시대의 → 골동품의"
+    },
+    {
+      "en": "advantage",
+      "ipa": "/ədˈvæntɪdʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "유리한 점",
+            "장점"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-(ante-)",
+          "mean": "앞에 (before, ahead)"
+        },
+        {
+          "part": "vantage",
+          "mean": "유리한 위치 (vantage)"
+        }
+      ],
+      "origin": "앞서 유리한 위치에 있는 → 장점"
+    },
+    {
+      "en": "ancestor",
+      "ipa": "/ˈænsestər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조상",
+            "선조"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ante-",
+          "mean": "이전의 (before)"
+        },
+        {
+          "part": "ces",
+          "mean": "가다 (go)"
+        },
+        {
+          "part": "-tor",
+          "mean": "사람 접미사"
+        }
+      ],
+      "origin": "이전에 간 사람 → 조상, 선조"
+    },
+    {
+      "en": "ancient",
+      "ipa": "/ˈeɪnʃənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고대의",
+            "아주 오래된"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ante-",
+          "mean": "이전의 (before)"
+        },
+        {
+          "part": "-ient",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "이전의 → 고대의, 아주 오래된"
+    },
+    {
+      "en": "advance",
+      "ipa": "/ədˈvæns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전진",
+            "진보"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "나아가다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-(ante-)",
+          "mean": "앞으로 (forward, before)"
+        },
+        {
+          "part": "vance",
+          "mean": "가다 (go)"
+        }
+      ],
+      "origin": "앞으로 가다 → 전진하다, 나아가다"
+    }
+  ]
+}

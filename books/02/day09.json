@@ -1,0 +1,658 @@
+{
+  "title": "contra- ~에 반대(대항)하여/ with- 뒤쪽으로,~에 대항하여/ ad- ~에,~로,~을 향해/ tele- 멀리/ auto- 자신의,스스로의",
+  "words": [
+    {
+      "en": "contrary",
+      "ipa": "/ˈkɑːntreri/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "반대의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "반대"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "contra-",
+          "mean": "반대 (against)"
+        },
+        {
+          "part": "-ary",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "반대되는 → 반대의"
+    },
+    {
+      "en": "contrast",
+      "ipa": "/ˈkɑːntræst/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "대조"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "대조를 이루다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "contra-",
+          "mean": "반대 (against)"
+        },
+        {
+          "part": "st(stand)",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "반대쪽에 서다 → 대조"
+    },
+    {
+      "en": "controversy",
+      "ipa": "/ˈkɑːntrəvɜːrsi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "논란",
+            "말다툼"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "contra-",
+          "mean": "반대 (against)"
+        },
+        {
+          "part": "vers",
+          "mean": "돌리다 (turn)"
+        },
+        {
+          "part": "-y",
+          "mean": "명사형 접미사"
+        }
+      ],
+      "origin": "반대로 돌리다 → 논란"
+    },
+    {
+      "en": "counterattack",
+      "ipa": "/ˈkaʊntərəˌtæk/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "반격"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "반격하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "counter-",
+          "mean": "반대로, 맞서 (against)"
+        },
+        {
+          "part": "attack",
+          "mean": "공격 (attack)"
+        }
+      ],
+      "origin": "맞서 공격하다 → 반격"
+    },
+    {
+      "en": "counterfeit",
+      "ipa": "/ˈkaʊntərfɪt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "가짜의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "위조품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "counter-",
+          "mean": "반대로, 대항하여 (against)"
+        },
+        {
+          "part": "feit",
+          "mean": "만들다 (make)"
+        }
+      ],
+      "origin": "대항하여(몰래) 만들다 → 위조품, 가짜의"
+    },
+    {
+      "en": "counterpart",
+      "ipa": "/ˈkaʊntərpɑːrt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "상대방",
+            "대응물"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "counter-",
+          "mean": "맞은편 (opposite)"
+        },
+        {
+          "part": "part",
+          "mean": "부분, 역할 (part, role)"
+        }
+      ],
+      "origin": "맞은편의 역할 → 상대방, 대응물"
+    },
+    {
+      "en": "withdraw",
+      "ipa": "/wɪðˈdrɔː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "철회하다",
+            "인출하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "with-",
+          "mean": "뒤로, 반대로 (back, against)"
+        },
+        {
+          "part": "draw",
+          "mean": "끌다 (draw, pull)"
+        }
+      ],
+      "origin": "뒤로 끌다 → 철회하다, 인출하다"
+    },
+    {
+      "en": "withhold",
+      "ipa": "/wɪðˈhoʊld/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "주지 않다",
+            "보류하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "with-",
+          "mean": "뒤로, 반대로 (back, against)"
+        },
+        {
+          "part": "hold",
+          "mean": "잡다 (hold)"
+        }
+      ],
+      "origin": "뒤로 잡아두다 → 주지 않다, 보류하다"
+    },
+    {
+      "en": "withstand",
+      "ipa": "/wɪðˈstænd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "저항하다",
+            "견디다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "with-",
+          "mean": "반대로, 맞서 (against)"
+        },
+        {
+          "part": "stand",
+          "mean": "서다 (stand)"
+        }
+      ],
+      "origin": "맞서 서다 → 저항하다, 견디다"
+    },
+    {
+      "en": "adjust",
+      "ipa": "/əˈdʒʌst/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "조절하다",
+            "적응하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad-",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "just",
+          "mean": "바른, 정당한 (right, just)"
+        }
+      ],
+      "origin": "바른 쪽으로 맞추다 → 조절하다, 적응하다"
+    },
+    {
+      "en": "accompany",
+      "ipa": "/əˈkʌmpəni/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "동행하다",
+            "수반하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "com-",
+          "mean": "함께 (together)"
+        },
+        {
+          "part": "pan",
+          "mean": "빵 (bread)"
+        }
+      ],
+      "origin": "함께 빵을 나누러 가다 → 동행하다"
+    },
+    {
+      "en": "accustomed",
+      "ipa": "/əˈkʌstəmd/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "익숙한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "custom",
+          "mean": "습관 (custom)"
+        },
+        {
+          "part": "-ed",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "습관 쪽으로 된 → 익숙한"
+    },
+    {
+      "en": "account",
+      "ipa": "/əˈkaʊnt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "계좌",
+            "설명"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "간주하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "count",
+          "mean": "세다 (count)"
+        }
+      ],
+      "origin": "~쪽으로 세다 → 계좌, 설명"
+    },
+    {
+      "en": "accumulate",
+      "ipa": "/əˈkjuːmjəleɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "모으다",
+            "축적하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "cumul",
+          "mean": "쌓다, 더미 (heap)"
+        },
+        {
+          "part": "-ate",
+          "mean": "동사형 접미사"
+        }
+      ],
+      "origin": "한쪽으로 쌓다 → 축적하다"
+    },
+    {
+      "en": "appoint",
+      "ipa": "/əˈpɔɪnt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "임명하다",
+            "정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "point",
+          "mean": "가리키다 (point)"
+        }
+      ],
+      "origin": "~을 가리켜 정하다 → 임명하다"
+    },
+    {
+      "en": "approach",
+      "ipa": "/əˈproʊtʃ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "접근하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "접근"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "proach",
+          "mean": "가까이 (near)"
+        }
+      ],
+      "origin": "가까이 다가가다 → 접근하다"
+    },
+    {
+      "en": "await",
+      "ipa": "/əˈweɪt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기다리다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "wait",
+          "mean": "기다리다 (wait)"
+        }
+      ],
+      "origin": "~을 향해 기다리다 → 기다리다"
+    },
+    {
+      "en": "abandon",
+      "ipa": "/əˈbændən/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "버리다",
+            "포기하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a-(ad-)",
+          "mean": "~쪽으로 (to)"
+        },
+        {
+          "part": "bandon",
+          "mean": "지배, 관할 (control, jurisdiction)"
+        }
+      ],
+      "origin": "관할에서 내놓다 → 버리다, 포기하다"
+    },
+    {
+      "en": "arrogant",
+      "ipa": "/ˈærəɡənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "오만한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ar-(ad-)",
+          "mean": "~쪽으로 (toward)"
+        },
+        {
+          "part": "rog",
+          "mean": "요구하다 (ask)"
+        },
+        {
+          "part": "-ant",
+          "mean": "형용사형 접미사"
+        }
+      ],
+      "origin": "자기 쪽으로 요구하는 → 오만한"
+    },
+    {
+      "en": "telescope",
+      "ipa": "/ˈtelɪskoʊp/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "망원경"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tele-",
+          "mean": "멀리 (far)"
+        },
+        {
+          "part": "scope",
+          "mean": "보다 (look, view)"
+        }
+      ],
+      "origin": "멀리 보는 것 → 망원경"
+    },
+    {
+      "en": "telegraph",
+      "ipa": "/ˈtelɪɡræf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전신"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "전보를 보내다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tele-",
+          "mean": "멀리 (far)"
+        },
+        {
+          "part": "graph",
+          "mean": "쓰다 (write)"
+        }
+      ],
+      "origin": "멀리 글을 보내다 → 전신, 전보"
+    },
+    {
+      "en": "telecommute",
+      "ipa": "/ˌtelikəˈmjuːt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "재택근무하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tele-",
+          "mean": "멀리 (far)"
+        },
+        {
+          "part": "commute",
+          "mean": "통근하다 (commute)"
+        }
+      ],
+      "origin": "멀리서 통근하다 → 재택근무하다"
+    },
+    {
+      "en": "autograph",
+      "ipa": "/ˈɔːtəɡræf/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "서명",
+            "사인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "auto-",
+          "mean": "스스로 (self)"
+        },
+        {
+          "part": "graph",
+          "mean": "쓰다 (write)"
+        }
+      ],
+      "origin": "스스로 쓴 것 → 서명, 사인"
+    },
+    {
+      "en": "autobiography",
+      "ipa": "/ˌɔːtəbaɪˈɑːɡrəfi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자서전"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "auto-",
+          "mean": "스스로 (self)"
+        },
+        {
+          "part": "bio",
+          "mean": "생명, 삶 (life)"
+        },
+        {
+          "part": "graphy",
+          "mean": "기록 (writing)"
+        }
+      ],
+      "origin": "스스로 쓴 삶의 기록 → 자서전"
+    },
+    {
+      "en": "automobile",
+      "ipa": "/ˈɔːtəmoʊbiːl/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자동차"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "auto-",
+          "mean": "스스로 (self)"
+        },
+        {
+          "part": "mobile",
+          "mean": "움직이는 (moving)"
+        }
+      ],
+      "origin": "스스로 움직이는 것 → 자동차"
+    }
+  ]
+}

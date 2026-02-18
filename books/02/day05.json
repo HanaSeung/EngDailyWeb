@@ -1,0 +1,658 @@
+{
+  "title": "un- '부정','반대'/ dis- '부정','반대',떨어져,분리된/ in- '부정','반대'",
+  "words": [
+    {
+      "en": "uneasy",
+      "ipa": "/ʌnˈiːzi/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불안한",
+            "불편한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "easy",
+          "mean": "쉬운, 편한 (easy)"
+        }
+      ],
+      "origin": "편하지 않은 → 불안한, 불편한"
+    },
+    {
+      "en": "unfair",
+      "ipa": "/ˌʌnˈfer/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불공평한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "fair",
+          "mean": "공정한 (fair)"
+        }
+      ],
+      "origin": "공정하지 않은 → 불공평한"
+    },
+    {
+      "en": "unfortunate",
+      "ipa": "/ʌnˈfɔːrtʃənət/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불행한",
+            "유감스러운"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "fortunate",
+          "mean": "운 좋은 (fortunate)"
+        }
+      ],
+      "origin": "운이 좋지 않은 → 불행한"
+    },
+    {
+      "en": "unlikely",
+      "ipa": "/ʌnˈlaɪkli/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "~할 것 같지 않은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "likely",
+          "mean": "있을 법한 (likely)"
+        }
+      ],
+      "origin": "있을 법하지 않은 → ~할 것 같지 않은"
+    },
+    {
+      "en": "unusual",
+      "ipa": "/ʌnˈjuːʒuəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "보통이 아닌",
+            "유별난"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "usual",
+          "mean": "보통의 (usual)"
+        }
+      ],
+      "origin": "보통이 아닌 → 유별난"
+    },
+    {
+      "en": "unknown",
+      "ipa": "/ˌʌnˈnoʊn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "알려지지 않은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "known",
+          "mean": "알려진 (known)"
+        }
+      ],
+      "origin": "알려지지 않은"
+    },
+    {
+      "en": "unbearable",
+      "ipa": "/ʌnˈberəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "참을 수 없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "bear",
+          "mean": "견디다 (bear)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "견딜 수 없는 → 참을 수 없는"
+    },
+    {
+      "en": "unlock",
+      "ipa": "/ˌʌnˈlɑːk/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(자물쇠를) 열다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "un-",
+          "mean": "반대로 (reverse)"
+        },
+        {
+          "part": "lock",
+          "mean": "잠그다 (lock)"
+        }
+      ],
+      "origin": "잠근 것을 반대로 → (자물쇠를) 열다"
+    },
+    {
+      "en": "disagree",
+      "ipa": "/ˌdɪsəˈɡriː/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "동의하지 않다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "agree",
+          "mean": "동의하다 (agree)"
+        }
+      ],
+      "origin": "동의하지 않다"
+    },
+    {
+      "en": "disorder",
+      "ipa": "/dɪsˈɔːrdər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "무질서",
+            "장애(질환)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "order",
+          "mean": "질서 (order)"
+        }
+      ],
+      "origin": "질서가 없는 → 무질서, 장애"
+    },
+    {
+      "en": "disappear",
+      "ipa": "/ˌdɪsəˈpɪr/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "사라지다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "appear",
+          "mean": "나타나다 (appear)"
+        }
+      ],
+      "origin": "나타나지 않다 → 사라지다"
+    },
+    {
+      "en": "discount",
+      "ipa": "/ˈdɪskaʊnt/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "할인"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "할인하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떼어내다 (away)"
+        },
+        {
+          "part": "count",
+          "mean": "세다 (count)"
+        }
+      ],
+      "origin": "셈에서 떼어내다 → 할인"
+    },
+    {
+      "en": "discourage",
+      "ipa": "/dɪsˈkɜːrɪdʒ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "낙담시키다",
+            "단념시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "반대 (opposite)"
+        },
+        {
+          "part": "courage",
+          "mean": "용기 (courage)"
+        }
+      ],
+      "origin": "용기를 꺾다 → 낙담시키다"
+    },
+    {
+      "en": "dismiss",
+      "ipa": "/dɪsˈmɪs/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "해고하다",
+            "묵살하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "miss",
+          "mean": "보내다 (send)"
+        }
+      ],
+      "origin": "떨어져 보내다 → 해고하다, 묵살하다"
+    },
+    {
+      "en": "dispose",
+      "ipa": "/dɪsˈpoʊz/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "배치하다",
+            "처분하다(of)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "pose",
+          "mean": "놓다 (put, place)"
+        }
+      ],
+      "origin": "떨어뜨려 놓다 → 배치하다, 처분하다"
+    },
+    {
+      "en": "display",
+      "ipa": "/dɪˈspleɪ/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "전시하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전시",
+            "표현"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "펼쳐 (apart)"
+        },
+        {
+          "part": "play",
+          "mean": "접다 (fold)"
+        }
+      ],
+      "origin": "접힌 것을 펼치다 → 전시하다"
+    },
+    {
+      "en": "discard",
+      "ipa": "/dɪˈskɑːrd/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "버리다",
+            "폐기하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "떨어져 (away)"
+        },
+        {
+          "part": "card",
+          "mean": "카드 (card)"
+        }
+      ],
+      "origin": "카드를 내던지다 → 버리다, 폐기하다"
+    },
+    {
+      "en": "disability",
+      "ipa": "/ˌdɪsəˈbɪləti/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "(신체적·정신적) 장애"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dis-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "ability",
+          "mean": "능력 (ability)"
+        }
+      ],
+      "origin": "능력이 없는 상태 → 장애"
+    },
+    {
+      "en": "differ",
+      "ipa": "/ˈdɪfər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "다르다",
+            "의견이 다르다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "dif-(dis-)",
+          "mean": "떨어져 (apart)"
+        },
+        {
+          "part": "fer",
+          "mean": "옮기다 (carry)"
+        }
+      ],
+      "origin": "떨어져 옮기다 → 다르다"
+    },
+    {
+      "en": "independent",
+      "ipa": "/ˌɪndɪˈpendənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "독립적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "dependent",
+          "mean": "의존하는 (dependent)"
+        }
+      ],
+      "origin": "의존하지 않는 → 독립적인"
+    },
+    {
+      "en": "inevitable",
+      "ipa": "/ɪnˈevɪtəbl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "피할 수 없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "evit",
+          "mean": "피하다 (avoid)"
+        },
+        {
+          "part": "-able",
+          "mean": "~할 수 있는"
+        }
+      ],
+      "origin": "피할 수 없는"
+    },
+    {
+      "en": "inexpensive",
+      "ipa": "/ˌɪnɪkˈspensɪv/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "저렴한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in-",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "expensive",
+          "mean": "비싼 (expensive)"
+        }
+      ],
+      "origin": "비싸지 않은 → 저렴한"
+    },
+    {
+      "en": "illegal",
+      "ipa": "/ɪˈliːɡl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "불법의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "il-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "legal",
+          "mean": "합법적인 (legal)"
+        }
+      ],
+      "origin": "합법적이지 않은 → 불법의"
+    },
+    {
+      "en": "immoral",
+      "ipa": "/ɪˈmɔːrəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부도덕한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "moral",
+          "mean": "도덕적인 (moral)"
+        }
+      ],
+      "origin": "도덕적이지 않은 → 부도덕한"
+    },
+    {
+      "en": "immune",
+      "ipa": "/ɪˈmjuːn/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "면역력이 있는",
+            "면제되는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "im-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "mune",
+          "mean": "의무, 봉사 (service, duty)"
+        }
+      ],
+      "origin": "의무가 면제된 → 면역력이 있는, 면제되는"
+    },
+    {
+      "en": "irrelevant",
+      "ipa": "/ɪˈreləvənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "관계없는",
+            "상관없는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ir-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "relevant",
+          "mean": "관련 있는 (relevant)"
+        }
+      ],
+      "origin": "관련이 없는 → 상관없는"
+    },
+    {
+      "en": "irrational",
+      "ipa": "/ɪˈræʃənl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "비이성적인"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ir-(in-)",
+          "mean": "~이 아닌 (not)"
+        },
+        {
+          "part": "rational",
+          "mean": "이성적인 (rational)"
+        }
+      ],
+      "origin": "이성적이지 않은 → 비이성적인"
+    }
+  ]
+}
