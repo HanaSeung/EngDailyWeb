@@ -294,6 +294,13 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
         <option value="tab">탭 전환</option>
       </select>
     </div>
+    <div class="setting-row">
+      <div class="setting-label">카드 넘김 시 뒤집기 상태<span>다음/이전 카드 이동 시</span></div>
+      <select class="setting-select" id="keepFlip">
+        <option value="reset" selected>앞면으로 초기화</option>
+        <option value="keep">현재 상태 유지</option>
+      </select>
+    </div>
     <button class="btn-reload" onclick="toggleFullscreen()" id="btnFullscreen">🖥️ 전체화면 모드</button>
     <div style="font-size:.7rem;color:var(--text-dim);text-align:center;margin-top:4px">※ iOS(아이폰/아이패드)에서는 지원되지 않습니다</div>
     <button class="btn-reload" onclick="changeBook()">📚 교재 변경</button>
@@ -691,6 +698,7 @@ function saveSettings() {
   localStorage.setItem('engvoca_wordOrder', document.getElementById('wordOrder').value);
   localStorage.setItem('engvoca_slowSpeed', document.getElementById('slowSpeed').value);
   localStorage.setItem('engvoca_cardLayout', document.getElementById('cardLayout').value);
+  localStorage.setItem('engvoca_keepFlip', document.getElementById('keepFlip').value);
   const vIdx = parseInt(document.getElementById('voiceSelect').value);
   if (vIdx >= 0 && voices[vIdx]) {
     localStorage.setItem('engvoca_voice', voices[vIdx].name);
@@ -705,6 +713,8 @@ function restoreSettings() {
   if (savedSpeed) document.getElementById('slowSpeed').value = savedSpeed;
   const savedLayout = localStorage.getItem('engvoca_cardLayout');
   if (savedLayout) document.getElementById('cardLayout').value = savedLayout;
+  const savedKeepFlip = localStorage.getItem('engvoca_keepFlip');
+  if (savedKeepFlip) document.getElementById('keepFlip').value = savedKeepFlip;
   // 음성은 loadVoices에서 복원
 }
 restoreSettings();
@@ -1221,7 +1231,9 @@ cardBackObserver.observe(document.getElementById('cardBack'));
 function showCard() {
   const word = studyWords[currentIndex]; if (!word) return;
   speakCount = 0;
-  resetFlip();
+  if (document.getElementById('keepFlip').value !== 'keep') {
+    resetFlip();
+  }
   document.getElementById('cardFlipInner').style.minHeight = '';
 
   // 별표 상태
@@ -1317,6 +1329,9 @@ function showCard() {
   document.getElementById('btnLast').disabled = !wasCompleted || currentIndex >= studyWords.length - 1;
   // 퀴즈 버튼: 100% 완료 Day에서만 표시
   document.getElementById('btnQuiz').style.display = wasCompleted ? 'block' : 'none';
+
+  // 뒤집힌 상태 유지 시 새 카드 높이 재계산
+  if (isFlipped) updateCardHeight();
 }
 
 function goFirst() { playSound('nav'); currentIndex = 0; showCard(); }
@@ -1807,6 +1822,7 @@ document.getElementById('wordOrder').addEventListener('change', function() { pla
 document.getElementById('voiceSelect').addEventListener('change', function() { playSound('mode'); saveSettings(); });
 document.getElementById('slowSpeed').addEventListener('change', function() { playSound('mode'); saveSettings(); });
 document.getElementById('cardLayout').addEventListener('change', function() { playSound('mode'); saveSettings(); if (document.getElementById('studyScreen').style.display !== 'none') showCard(); });
+document.getElementById('keepFlip').addEventListener('change', function() { playSound('mode'); saveSettings(); });
 
 document.addEventListener('keydown', function(e) {
   if (document.getElementById('settingsPanel').classList.contains('open')) return;
