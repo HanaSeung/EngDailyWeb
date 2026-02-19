@@ -1426,7 +1426,14 @@ function getAllDefs(word) {
 function expandDefs(defs) {
   const result = [];
   defs.forEach(d => {
-    const m = d.match(/^(.+?)\((.+?)\)(.*)$/);
+    // 맨 앞 괄호는 부연 설명 → 제거만
+    const leading = d.match(/^[\(\[](.+?)[\)\]]\s*(.+)$/);
+    if (leading) {
+      result.push(leading[2].trim());
+      return;
+    }
+    // 중간/끝 괄호는 대체 표현 → 두 변형 생성
+    const m = d.match(/^(.+?)[\(\[](.+?)[\)\]](.*)$/);
     if (m) {
       const withoutParen = (m[1] + m[3]).trim();
       const withParen = (m[2] + m[3]).trim();
