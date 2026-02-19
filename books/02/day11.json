@@ -5,647 +5,475 @@
       "en": "manufacture",
       "ipa": "/ˌmænjuˈfæktʃər/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "제조하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "제조",
-            "제품"
-          ]
-        }
+        {"pos": "동", "defs": ["(주로 대량으로) 제조하다, 생산하다", "(이야기·구실 등을) 꾸며내다, 만들어내다"]},
+        {"pos": "명", "defs": ["(대규모의) 제조, 생산"]}
       ],
       "parts": [
-        {
-          "part": "manu-",
-          "mean": "손 (hand)"
-        },
-        {
-          "part": "fact",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
+        {"part": "manu-", "mean": "손 (hand)"},
+        {"part": "fact", "mean": "만들다 (make)"},
+        {"part": "-ure", "mean": "명사형 접미사"}
       ],
-      "origin": "손으로 만들다 → 제조하다"
+      "origin": "손으로 만들다 → 제조하다",
+      "synonyms": ["produce"],
+      "derivatives": [
+        {"en": "manufacturer", "pos": "명", "defs": ["제조업자, 제작사"]}
+      ],
+      "examples": [
+        {"en": "The company manufactures electric vehicles and is now a leading manufacturer in the industry.", "ko": "그 회사는 전기차를 생산하며, 이제는 업계에서 선도적인 제조업체이다."}
+      ]
     },
     {
       "en": "facility",
       "ipa": "/fəˈsɪləti/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "시설",
-            "편의",
-            "재능"
-          ]
-        }
+        {"pos": "명", "defs": ["(주로 복수형) 시설, 설비", "(장비·체계 등의) 기능, 특질", "(타고난) 재능, 솜씨"]}
       ],
       "parts": [
-        {
-          "part": "facil",
-          "mean": "쉬운, 만들기 쉬운 (easy, doable)"
-        },
-        {
-          "part": "-ity",
-          "mean": "명사형 접미사"
-        }
+        {"part": "facil", "mean": "쉬운, 만들기 쉬운 (easy, doable)"},
+        {"part": "-ity", "mean": "명사형 접미사"}
       ],
-      "origin": "쉽게 할 수 있는 것 → 시설, 편의"
+      "origin": "쉽게 할 수 있는 것 → 시설, 편의",
+      "synonyms": ["talent"],
+      "derivatives": [
+        {"en": "facilitate", "pos": "동", "defs": ["가능하게 하다, 용이하게 하다"]},
+        {"en": "facile", "pos": "형", "defs": ["(별 생각 없이) 술술 하는, 안이한", "손쉬운, 쉽게 얻은"]}
+      ],
+      "examples": [
+        {"en": "We need to improve our school's facilities for people with disabilities.", "ko": "우리 학교의 장애인을 위한 시설을 개선할 필요가 있다.", "source": "교과서"},
+        {"en": "She has a great facility for playing the piano.", "ko": "그녀는 피아노 연주에 대단한 재능이 있다."}
+      ]
     },
     {
       "en": "faculty",
       "ipa": "/ˈfæklti/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "학부",
-            "교수진",
-            "능력"
-          ]
-        }
+        {"pos": "명", "defs": ["(타고난) 재능, 능력", "(대학 등의) 학부", "(대학의) 교수진"]}
       ],
       "parts": [
-        {
-          "part": "fac",
-          "mean": "만들다, 행하다 (make, do)"
-        },
-        {
-          "part": "-ulty",
-          "mean": "명사형 접미사"
-        }
+        {"part": "fac", "mean": "만들다, 행하다 (make, do)"},
+        {"part": "-ulty", "mean": "명사형 접미사"}
       ],
-      "origin": "행할 수 있는 능력 → 학부, 능력"
+      "origin": "행할 수 있는 능력 → 학부, 능력",
+      "synonyms": ["ability", "talent"],
+      "examples": [
+        {"en": "The university has an excellent faculty.", "ko": "그 대학은 훌륭한 교수진을 갖추고 있다."}
+      ]
     },
     {
       "en": "factor",
       "ipa": "/ˈfæktər/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "요인",
-            "요소"
-          ]
-        }
+        {"pos": "명", "defs": ["요소, 요인"]}
       ],
       "parts": [
-        {
-          "part": "fact",
-          "mean": "만들다, 행하다 (make, do)"
-        },
-        {
-          "part": "-or",
-          "mean": "~하는 것"
-        }
+        {"part": "fact", "mean": "만들다, 행하다 (make, do)"},
+        {"part": "-or", "mean": "~하는 것"}
       ],
-      "origin": "일을 만드는 것 → 요인"
+      "origin": "일을 만드는 것 → 요인",
+      "synonyms": ["element"],
+      "examples": [
+        {"en": "Motivation is a key factor in sports training and performance.", "ko": "동기부여는 스포츠 훈련과 성과에서 핵심 요소이다.", "source": "모의"}
+      ]
     },
     {
       "en": "factual",
       "ipa": "/ˈfæktʃuəl/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "사실에 근거한, 실제의"
-          ]
-        }
+        {"pos": "형", "defs": ["사실에 입각한, 사실적인"]}
       ],
       "parts": [
-        {
-          "part": "fact",
-          "mean": "만들다, 행하다 (make, do)"
-        },
-        {
-          "part": "-ual",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "fact", "mean": "만들다, 행하다 (make, do)"},
+        {"part": "-ual", "mean": "형용사형 접미사"}
       ],
-      "origin": "행해진 것에 근거한 → 사실에 근거한"
+      "origin": "행해진 것에 근거한 → 사실에 근거한",
+      "synonyms": ["actual"],
+      "examples": [
+        {"en": "The soldier gave a factual account of the war.", "ko": "그 군인은 전쟁에 관하여 사실에 입각한 보고를 했다."}
+      ]
     },
     {
       "en": "effect",
       "ipa": "/ɪˈfekt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "효과",
-            "영향",
-            "결과"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "초래하다"
-          ]
-        }
+        {"pos": "명", "defs": ["효과, 영향", "결과"]},
+        {"pos": "동", "defs": ["초래하다"]}
       ],
       "parts": [
-        {
-          "part": "ef-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "fect",
-          "mean": "만들다 (make)"
-        }
+        {"part": "ef-(ex-)", "mean": "밖으로 (out)"},
+        {"part": "fect", "mean": "만들다 (make)"}
       ],
-      "origin": "밖으로 만들어내다 → 효과, 결과"
+      "origin": "밖으로 만들어내다 → 효과, 결과",
+      "synonyms": ["impact", "influence", "result", "outcome", "consequence"],
+      "antonyms": ["ineffective"],
+      "derivatives": [
+        {"en": "effective", "pos": "형", "defs": ["효과적인", "(법 등이) 시행되는"]},
+        {"en": "effectively", "pos": "부", "defs": ["효과적으로", "사실상, 실제로"]}
+      ],
+      "phrases": [
+        {"en": "have an effect on", "ko": "~에 영향을 미치다[효과가 있다]"}
+      ],
+      "examples": [
+        {"en": "Our advice had no effect on him.", "ko": "우리의 조언은 그에게 아무 효과가 없었다."}
+      ]
     },
     {
       "en": "affect",
       "ipa": "/əˈfekt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "영향을 미치다",
-            "~인 척하다"
-          ]
-        }
+        {"pos": "동", "defs": ["영향을 미치다", "~인 척하다, 가장하다"]}
       ],
       "parts": [
-        {
-          "part": "af-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "fect",
-          "mean": "만들다 (make, do)"
-        }
+        {"part": "af-(ad-)", "mean": "~쪽으로 (toward)"},
+        {"part": "fect", "mean": "만들다 (make, do)"}
       ],
-      "origin": "~쪽으로 작용하다 → 영향을 미치다"
+      "origin": "~쪽으로 작용하다 → 영향을 미치다",
+      "synonyms": ["influence"],
+      "derivatives": [
+        {"en": "affection", "pos": "명", "defs": ["정(情), 애정"]},
+        {"en": "affectionate", "pos": "형", "defs": ["애정 있는, 다정한"]},
+        {"en": "affective", "pos": "형", "defs": ["정서적인"]}
+      ],
+      "examples": [
+        {"en": "It is easier to affect children's behavior by being kind and affectionate than by being harsh.", "ko": "호되게 하는 것보다 애정을 가지고 친절하게 대함으로써 아이들의 행동에 영향을 미치는 것이 더 쉽다."}
+      ]
     },
     {
       "en": "defect",
       "ipa": "/ˈdiːfekt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "결점",
-            "결함"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "탈퇴하다"
-          ]
-        }
+        {"pos": "명", "defs": ["결점, 결함, 결핍"]}
       ],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "떨어져, 아래로 (away, down)"
-        },
-        {
-          "part": "fect",
-          "mean": "만들다 (make)"
-        }
+        {"part": "de-", "mean": "떨어져, 아래로 (away, down)"},
+        {"part": "fect", "mean": "만들다 (make)"}
       ],
-      "origin": "제대로 만들어지지 않은 것 → 결점, 결함"
+      "origin": "제대로 만들어지지 않은 것 → 결점, 결함",
+      "synonyms": ["fault"],
+      "derivatives": [
+        {"en": "defective", "pos": "형", "defs": ["결함[결점]이 있는"]}
+      ],
+      "examples": [
+        {"en": "It is wholly the company's responsibility to correct the defect.", "ko": "결함을 고치는 것은 전적으로 회사의 책임이다.", "source": "수능"},
+        {"en": "If you find a defective product, let us know.", "ko": "결함 있는 제품을 발견한다면 저희에게 알려주세요."}
+      ]
     },
     {
       "en": "efficient",
       "ipa": "/ɪˈfɪʃnt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "효율적인",
-            "유능한"
-          ]
-        }
+        {"pos": "형", "defs": ["능률적인, 효율적인"]}
       ],
       "parts": [
-        {
-          "part": "ef-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "fic",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-ient",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "ef-(ex-)", "mean": "밖으로 (out)"},
+        {"part": "fic", "mean": "만들다 (make)"},
+        {"part": "-ient", "mean": "형용사형 접미사"}
       ],
-      "origin": "밖으로 결과를 잘 만들어내는 → 효율적인"
+      "origin": "밖으로 결과를 잘 만들어내는 → 효율적인",
+      "antonyms": ["inefficient"],
+      "derivatives": [
+        {"en": "efficiency", "pos": "명", "defs": ["능률, 효율"]}
+      ],
+      "examples": [
+        {"en": "To improve the efficiency of the manufacturing process, we need to develop more efficient technologies.", "ko": "제조 과정에서 능률을 향상시키기 위해서, 우리는 더 효율적인 기술을 개발해야 한다."}
+      ]
     },
     {
       "en": "deficient",
       "ipa": "/dɪˈfɪʃnt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "부족한",
-            "결함이 있는"
-          ]
-        }
+        {"pos": "형", "defs": ["(필수적인 것이) 부족한, 모자라는", "결함이 있는"]}
       ],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "떨어져, 아래 (away, down)"
-        },
-        {
-          "part": "fic",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-ient",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "de-", "mean": "떨어져, 아래 (away, down)"},
+        {"part": "fic", "mean": "만들다 (make)"},
+        {"part": "-ient", "mean": "형용사형 접미사"}
       ],
-      "origin": "충분히 만들어지지 않은 → 부족한"
+      "origin": "충분히 만들어지지 않은 → 부족한",
+      "synonyms": ["flawed", "imperfect"],
+      "antonyms": ["flawless"],
+      "derivatives": [
+        {"en": "deficit", "pos": "명", "defs": ["적자, 부족액", "결손"]},
+        {"en": "deficiency", "pos": "명", "defs": ["부족, 결핍", "결함"]}
+      ],
+      "examples": [
+        {"en": "This diet is deficient in proteins and fat.", "ko": "이 식단에는 단백질과 지방이 부족하다."},
+        {"en": "Experiments show that rats display an immediate liking for salt when they experience a salt deficiency.", "ko": "실험 결과, 쥐들은 소금 부족을 경험할 때 소금에 대한 즉각적인 선호를 드러낸다.", "source": "수능"}
+      ]
     },
     {
       "en": "sufficient",
       "ipa": "/səˈfɪʃnt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "충분한"
-          ]
-        }
+        {"pos": "형", "defs": ["충분한"]}
       ],
       "parts": [
-        {
-          "part": "suf-(sub-)",
-          "mean": "아래에서 (under)"
-        },
-        {
-          "part": "fic",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-ient",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "suf-(sub-)", "mean": "아래에서 (under)"},
+        {"part": "fic", "mean": "만들다 (make)"},
+        {"part": "-ient", "mean": "형용사형 접미사"}
       ],
-      "origin": "아래에서 충분히 만들어진 → 충분한"
+      "origin": "아래에서 충분히 만들어진 → 충분한",
+      "synonyms": ["enough", "adequate"],
+      "antonyms": ["insufficient", "deficient"],
+      "examples": [
+        {"en": "One bad experience can be sufficient to last us a lifetime.", "ko": "하나의 나쁜 경험은 우리에게 평생 지속되기에 충분할 수 있다.", "source": "모의"}
+      ]
     },
     {
       "en": "proficient",
       "ipa": "/prəˈfɪʃnt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "능숙한, 숙달된"
-          ]
-        }
+        {"pos": "형", "defs": ["숙달된, 능숙한"]}
       ],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "fic",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-ient",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "pro-", "mean": "앞으로 (forward)"},
+        {"part": "fic", "mean": "만들다 (make)"},
+        {"part": "-ient", "mean": "형용사형 접미사"}
       ],
-      "origin": "앞으로 잘 만들어내는 → 능숙한"
+      "origin": "앞으로 잘 만들어내는 → 능숙한",
+      "synonyms": ["skillful", "competent"],
+      "derivatives": [
+        {"en": "proficiency", "pos": "명", "defs": ["숙달, 능숙, 능란"]}
+      ],
+      "examples": [
+        {"en": "Gloria is very proficient at her job now.", "ko": "Gloria는 이제 자신의 직업에 매우 능숙하다."}
+      ]
     },
     {
       "en": "fiction",
       "ipa": "/ˈfɪkʃn/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "소설, 허구"
-          ]
-        }
+        {"pos": "명", "defs": ["소설", "꾸며낸 이야기, 허구"]}
       ],
       "parts": [
-        {
-          "part": "fic(fac)",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-tion",
-          "mean": "명사형 접미사"
-        }
+        {"part": "fic(fac)", "mean": "만들다 (make)"},
+        {"part": "-tion", "mean": "명사형 접미사"}
       ],
-      "origin": "만들어낸 것 → 소설, 허구"
+      "origin": "만들어낸 것 → 소설, 허구",
+      "synonyms": ["novel"],
+      "antonyms": ["nonfiction"],
+      "derivatives": [
+        {"en": "fictional", "pos": "형", "defs": ["지어낸, 허구적인"]}
+      ],
+      "examples": [
+        {"en": "Is that book fiction or nonfiction?", "ko": "그 책은 허구야 아니면 실화야?"},
+        {"en": "His stories seemed to be more fictional than factual.", "ko": "그의 이야기는 사실적이기보다는 허구적인 것 같았다."}
+      ]
     },
     {
       "en": "figure",
       "ipa": "/ˈfɪɡjər/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "숫자, 인물, 모습"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "생각하다, 계산하다"
-          ]
-        }
+        {"pos": "명", "defs": ["숫자, 수치", "(중요한) 인물", "모양, 형태", "사람의 모습, (그림의) 모델"]},
+        {"pos": "동", "defs": ["~라고 생각하다", "계산하다", "(+in) 중요한 부분을 차지하다"]}
       ],
       "parts": [
-        {
-          "part": "fig(fac)",
-          "mean": "만들다 (make, form)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
+        {"part": "fig(fac)", "mean": "만들다 (make, form)"},
+        {"part": "-ure", "mean": "명사형 접미사"}
       ],
-      "origin": "만들어진 형태 → 숫자, 인물, 모습"
+      "origin": "만들어진 형태 → 숫자, 인물, 모습",
+      "derivatives": [
+        {"en": "figurative", "pos": "형", "defs": ["비유적인"]}
+      ],
+      "phrases": [
+        {"en": "figure out", "ko": "(생각·조사 끝에) ~을 알아내다"}
+      ],
+      "examples": [
+        {"en": "The strong sales figures in the report surprised everyone.", "ko": "보고서 상의 높은 판매 수치는 모든 사람을 놀라게 했다."},
+        {"en": "Charlie Chaplin is a famous figure in American comedy.", "ko": "찰리 채플린은 미국의 코미디에서 유명한 인물이다."},
+        {"en": "I wish I could figure out what my dream job is.", "ko": "나는 내가 원하는 직업이 무엇인지 알아낼 수 있으면 좋겠어.", "source": "교과서"}
+      ]
     },
     {
       "en": "profit",
       "ipa": "/ˈprɑːfɪt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "이익",
-            "수익"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "이득을 얻다"
-          ]
-        }
+        {"pos": "명", "defs": ["(금전상의) 이익, 수익", "이득, 이점"]},
+        {"pos": "동", "defs": ["~에 득[도움]이 되다", "(+from) 이익을 얻다"]}
       ],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "fit(fic)",
-          "mean": "만들다 (make)"
-        }
+        {"part": "pro-", "mean": "앞으로 (forward)"},
+        {"part": "fit(fic)", "mean": "만들다 (make)"}
       ],
-      "origin": "앞으로 나아가게 만드는 것 → 이익"
+      "origin": "앞으로 나아가게 만드는 것 → 이익",
+      "synonyms": ["advantage"],
+      "antonyms": ["loss"],
+      "derivatives": [
+        {"en": "profitable", "pos": "형", "defs": ["이익이 되는, 유익한"]}
+      ],
+      "phrases": [
+        {"en": "nonprofit organization", "ko": "비영리기관"}
+      ],
+      "examples": [
+        {"en": "All profits will be donated to the local children's hospital.", "ko": "모든 수익은 지역 어린이 병원에 기부될 예정입니다.", "source": "모의"},
+        {"en": "It was a profitable investment.", "ko": "그것은 수익성 있는 투자였다."}
+      ]
     },
     {
       "en": "benefit",
       "ipa": "/ˈbenɪfɪt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "이익",
-            "혜택"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "유익하다"
-          ]
-        }
+        {"pos": "명", "defs": ["(주로 복지와 관련된) 이익, 이점", "(정부·직장·보험을 통해 제공되는) 수당, 혜택"]},
+        {"pos": "동", "defs": ["~에 득[도움]이 되다", "(+from) 득을 보다"]}
       ],
       "parts": [
-        {
-          "part": "bene-",
-          "mean": "좋은 (good, well)"
-        },
-        {
-          "part": "fit(fic)",
-          "mean": "만들다 (make)"
-        }
+        {"part": "bene-", "mean": "좋은 (good, well)"},
+        {"part": "fit(fic)", "mean": "만들다 (make)"}
       ],
-      "origin": "좋게 만드는 것 → 이익, 혜택"
+      "origin": "좋게 만드는 것 → 이익, 혜택",
+      "synonyms": ["advantage", "profit"],
+      "derivatives": [
+        {"en": "beneficial", "pos": "형", "defs": ["(주로 +to) 유익한, 유리한"]}
+      ],
+      "examples": [
+        {"en": "Regular exercise has many health benefits.", "ko": "규칙적인 운동은 건강에 많은 이점을 준다."},
+        {"en": "Many people considered pesticides to be mainly beneficial to mankind.", "ko": "많은 사람들이 살충제가 인류에게 대개는 이롭다고 여겼다.", "source": "모의"}
+      ]
     },
     {
       "en": "qualify",
       "ipa": "/ˈkwɑːlɪfaɪ/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "자격을 얻다(주다)"
-          ]
-        }
+        {"pos": "동", "defs": ["자격[권한]을 얻다, 적임이다", "자격[권한]을 주다"]}
       ],
       "parts": [
-        {
-          "part": "qual",
-          "mean": "어떤 (of what kind)"
-        },
-        {
-          "part": "-ify(fic)",
-          "mean": "만들다 (make)"
-        }
+        {"part": "qual", "mean": "어떤 (of what kind)"},
+        {"part": "-ify(fic)", "mean": "만들다 (make)"}
       ],
-      "origin": "어떤 종류로 만들다 → 자격을 부여하다"
+      "origin": "어떤 종류로 만들다 → 자격을 부여하다",
+      "derivatives": [
+        {"en": "qualification", "pos": "명", "defs": ["자격 (부여), 자질", "자격 증명서"]},
+        {"en": "qualified", "pos": "형", "defs": ["자격 있는, 적임의"]}
+      ],
+      "examples": [
+        {"en": "A: Do you think he will qualify for the position?\nB: Yes, he meets all the qualifications.", "ko": "A: 그가 그 직책에 적임이라고 생각하시나요?\nB: 네, 그는 모든 자격 조건을 충족해요."}
+      ]
     },
     {
       "en": "satisfy",
       "ipa": "/ˈsætɪsfaɪ/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "만족시키다"
-          ]
-        }
+        {"pos": "동", "defs": ["(사람·규칙·조건 등을) 만족[충족]시키다"]}
       ],
       "parts": [
-        {
-          "part": "satis",
-          "mean": "충분한 (enough)"
-        },
-        {
-          "part": "-fy(fic)",
-          "mean": "만들다 (make)"
-        }
+        {"part": "satis", "mean": "충분한 (enough)"},
+        {"part": "-fy(fic)", "mean": "만들다 (make)"}
       ],
-      "origin": "충분하게 만들다 → 만족시키다"
+      "origin": "충분하게 만들다 → 만족시키다",
+      "synonyms": ["content"],
+      "antonyms": ["dissatisfy"],
+      "derivatives": [
+        {"en": "satisfaction", "pos": "명", "defs": ["만족(감)"]},
+        {"en": "satisfactory", "pos": "형", "defs": ["충분한, 만족스러운"]}
+      ],
+      "phrases": [
+        {"en": "be satisfied with", "ko": "~에 만족하다"}
+      ],
+      "examples": [
+        {"en": "Are you satisfied with your purchase?", "ko": "구매하신 상품에 만족하시나요?", "source": "교과서"},
+        {"en": "The results of his test seemed to be satisfactory.", "ko": "그의 시험 결과는 만족스러워 보였다."}
+      ]
     },
     {
       "en": "affair",
       "ipa": "/əˈfer/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "일",
-            "사건",
-            "사무"
-          ]
-        }
+        {"pos": "명", "defs": ["(복수형) (공적으로 중요한) 일, 문제", "(사적인) 일, 사건", "스캔들, 추문"]}
       ],
       "parts": [
-        {
-          "part": "af-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "fair(fac)",
-          "mean": "만들다, 행하다 (make, do)"
-        }
+        {"part": "af-(ad-)", "mean": "~쪽으로 (toward)"},
+        {"part": "fair(fac)", "mean": "만들다, 행하다 (make, do)"}
       ],
-      "origin": "해야 할 일 → 일, 사건"
+      "origin": "해야 할 일 → 일, 사건",
+      "examples": [
+        {"en": "The ambassador and I discussed international affairs.", "ko": "그 대사와 나는 국제 정세에 대해 토론했다."}
+      ]
     },
     {
       "en": "export",
-      "ipa": "/ɪkˈspɔːrt/",
+      "ipa": "/ɪkˈspɔːrt/ · /ˈekspɔːrt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "수출하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "수출"
-          ]
-        }
+        {"pos": "동", "defs": ["수출하다", "(사상 등을) 다른 나라에 소개하다[전하다]"]},
+        {"pos": "명", "defs": ["수출(품)"]}
       ],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "port",
-          "mean": "운반하다 (carry)"
-        }
+        {"part": "ex-", "mean": "밖으로 (out)"},
+        {"part": "port", "mean": "운반하다 (carry)"}
       ],
-      "origin": "밖으로 운반하다 → 수출하다"
+      "origin": "밖으로 운반하다 → 수출하다",
+      "examples": [
+        {"en": "The economic policy of the government encourages exports and discourages imports.", "ko": "정부의 경제 정책은 수출을 장려하고 수입을 억제한다."}
+      ]
     },
     {
       "en": "import",
-      "ipa": "/ɪmˈpɔːrt/",
+      "ipa": "/ɪmˈpɔːrt/ · /ˈɪmpɔːrt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "수입하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "수입"
-          ]
-        }
+        {"pos": "동", "defs": ["수입하다"]},
+        {"pos": "명", "defs": ["수입(품)"]}
       ],
       "parts": [
-        {
-          "part": "im-(in-)",
-          "mean": "안으로 (in)"
-        },
-        {
-          "part": "port",
-          "mean": "운반하다 (carry)"
-        }
+        {"part": "im-(in-)", "mean": "안으로 (in)"},
+        {"part": "port", "mean": "운반하다 (carry)"}
       ],
-      "origin": "안으로 운반하다 → 수입하다"
+      "origin": "안으로 운반하다 → 수입하다",
+      "phrases": [
+        {"en": "import restriction[control/regulation]", "ko": "수입 규제"}
+      ],
+      "examples": [
+        {"en": "If we import much more than we can export, our economy will be in trouble.", "ko": "수출보다 수입을 훨씬 더 많이 한다면, 우리 경제는 곤경에 처할 것이다."}
+      ]
     },
     {
       "en": "transport",
-      "ipa": "/ˈtrænspɔːrt/",
+      "ipa": "/trænˈspɔːrt/ · /ˈtrænspɔːrt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "수송하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "수송"
-          ]
-        }
+        {"pos": "동", "defs": ["수송[운송]하다"]},
+        {"pos": "명", "defs": ["수송, 운송", "운송 수단, 수송 기관"]}
       ],
       "parts": [
-        {
-          "part": "trans-",
-          "mean": "가로질러 (across)"
-        },
-        {
-          "part": "port",
-          "mean": "운반하다 (carry)"
-        }
+        {"part": "trans-", "mean": "가로질러 (across)"},
+        {"part": "port", "mean": "운반하다 (carry)"}
       ],
-      "origin": "가로질러 운반하다 → 수송하다"
+      "origin": "가로질러 운반하다 → 수송하다",
+      "synonyms": ["convey"],
+      "derivatives": [
+        {"en": "transportation", "pos": "명", "defs": ["운송 (수단), 수송 (기관)"]}
+      ],
+      "examples": [
+        {"en": "They were able to transport many heavy goods because of the new transportation system.", "ko": "새로운 운송 체계 덕분에 그들은 많은 무거운 상품들을 수송할 수 있었다."}
+      ]
     },
     {
       "en": "portable",
       "ipa": "/ˈpɔːrtəbl/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "휴대용의"
-          ]
-        }
+        {"pos": "형", "defs": ["휴대용의, 가지고 다닐 수 있는"]}
       ],
       "parts": [
-        {
-          "part": "port",
-          "mean": "운반하다 (carry)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
-        }
+        {"part": "port", "mean": "운반하다 (carry)"},
+        {"part": "-able", "mean": "~할 수 있는"}
       ],
-      "origin": "운반할 수 있는 → 휴대용의"
+      "origin": "운반할 수 있는 → 휴대용의",
+      "examples": [
+        {"en": "I asked Jeff to bring his portable speaker so we can play music at the beach.", "ko": "나는 해변에서 음악을 들을 수 있도록 Jeff에게 휴대용 스피커를 가져와 달라고 부탁했다."}
+      ]
     },
     {
       "en": "opportunity",
       "ipa": "/ˌɑːpərˈtuːnəti/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "기회"
-          ]
-        }
+        {"pos": "명", "defs": ["(좋은) 기회, 호기"]}
       ],
       "parts": [
-        {
-          "part": "op-(ob-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "port",
-          "mean": "항구 (port)"
-        },
-        {
-          "part": "-unity",
-          "mean": "명사형 접미사"
-        }
+        {"part": "op-(ob-)", "mean": "~쪽으로 (toward)"},
+        {"part": "port", "mean": "항구 (port)"},
+        {"part": "-unity", "mean": "명사형 접미사"}
       ],
-      "origin": "항구 쪽으로 바람이 부는 것 → 기회"
+      "origin": "항구 쪽으로 바람이 부는 것 → 기회",
+      "synonyms": ["chance"],
+      "examples": [
+        {"en": "When a society ensures equity, everyone is given the same opportunity to succeed.", "ko": "사회가 공정함을 보장할 때, 모든 사람에게 성공할 수 있는 동일한 기회가 주어진다.", "source": "교과서"}
+      ]
     }
   ]
 }

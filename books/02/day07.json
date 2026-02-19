@@ -2,597 +2,344 @@
   "title": "com- 함께,'강조'/ sym- 함께/ ab- 떨어져,'강조'/ se- 떨어져",
   "words": [
     {
-      "en": "combine",
-      "ipa": "/kəmˈbaɪn/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "결합시키다"
-          ]
-        }
+      "en":"combine","ipa":"/kəmˈbaɪn/",
+      "meanings":[{"pos":"동","defs":["결합하다; 결합되다","겸비하다"]}],
+      "parts":[{"part":"com-","mean":"함께 (together)"},{"part":"bine","mean":"둘 (two)"}],
+      "origin":"둘을 함께 하다 → 결합시키다",
+      "synonyms":["unite","get[put] together"],
+      "derivatives":[
+        {"en":"combination","pos":"명","defs":["결합, 조합","(자물쇠 등의) 번호 (조합)"]}
       ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "bine",
-          "mean": "둘 (two)"
-        }
+      "phrases":[
+        {"en":"combine A with B","ko":"A를 B와 결합하다"}
       ],
-      "origin": "둘을 함께 하다 → 결합시키다"
+      "examples":[
+        {"en":"Think about the roller skate. It combines two existing things: wheels and shoes.","ko":"롤러스케이트를 생각해 보라. 그것은 바퀴와 신발이라는 기존의 두 가지를 결합한 것이다.","source":"교과서"}
+      ]
     },
+
     {
-      "en": "company",
-      "ipa": "/ˈkʌmpəni/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "회사",
-            "동행",
-            "일행"
-          ]
-        }
+      "en":"company","ipa":"/ˈkʌmpəni/",
+      "meanings":[{"pos":"명","defs":["친구, 동료","회사","동석, 동행, 함께 있음"]}],
+      "parts":[{"part":"com-","mean":"함께 (together)"},{"part":"pan","mean":"빵 (bread)"},{"part":"-y","mean":"명사형 접미사"}],
+      "origin":"함께 빵을 나누는 사이 → 회사, 동행",
+      "synonyms":["companion","business","firm"],
+      "phrases":[
+        {"en":"keep good[bad] company","ko":"좋은[나쁜] 친구와 어울리다"}
       ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "pan",
-          "mean": "빵 (bread)"
-        },
-        {
-          "part": "-y",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "함께 빵을 나누는 사이 → 회사, 동행"
+      "examples":[
+        {"en":"He keeps good[bad] company.","ko":"그는 좋은[나쁜] 친구들과 어울려 다닌다."},
+        {"en":"Which company do you work for?","ko":"어느 회사에서 근무하십니까?"},
+        {"en":"He enjoys her company.","ko":"그는 그녀와 함께하는 것을 좋아한다."}
+      ]
     },
+
     {
-      "en": "complain",
-      "ipa": "/kəmˈpleɪn/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "불평하다"
-          ]
-        }
+      "en":"complain","ipa":"/kəmˈpleɪn/",
+      "meanings":[{"pos":"동","defs":["불평하다, 항의하다"]}],
+      "parts":[{"part":"com-","mean":"완전히 (completely)"},{"part":"plain","mean":"치다, 울다 (strike, lament)"}],
+      "origin":"완전히 울부짖다 → 불평하다",
+      "synonyms":["protest","object"],
+      "antonyms":["accept"],
+      "derivatives":[
+        {"en":"complaint","pos":"명","defs":["불평, 항의"]}
       ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "plain",
-          "mean": "치다, 울다 (strike, lament)"
-        }
+      "phrases":[
+        {"en":"make a complaint","ko":"불만을 제기하다"}
       ],
-      "origin": "완전히 울부짖다 → 불평하다"
+      "examples":[
+        {"en":"We spent much time complaining about a lack of time and playing the blame game.","ko":"우리는 시간 부족에 대해 불평하고 서로에게 책임을 떠넘기는 데 많은 시간을 보냈다.","source":"수능"},
+        {"en":"I made a complaint about the noise.","ko":"나는 소음에 대해 불만을 제기했다."}
+      ]
     },
+
     {
-      "en": "compile",
-      "ipa": "/kəmˈpaɪl/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "편집하다",
-            "수집하다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "pile",
-          "mean": "쌓다, 모으다 (heap, pile)"
-        }
-      ],
-      "origin": "함께 모아 쌓다 → 편집하다, 수집하다"
+      "en":"compile","ipa":"/kəmˈpaɪl/",
+      "meanings":[{"pos":"동","defs":["편집[편찬]하다","(자료를) 수집하다"]}],
+      "parts":[{"part":"com-","mean":"함께 (together)"},{"part":"pile","mean":"쌓다, 모으다 (heap, pile)"}],
+      "origin":"함께 모아 쌓다 → 편집하다, 수집하다",
+      "examples":[
+        {"en":"The report is based on data compiled by 100 researchers.","ko":"그 보고서는 100명의 연구자들이 수집한 자료를 기반으로 한다."}
+      ]
     },
+
     {
-      "en": "compress",
-      "ipa": "/kəmˈpres/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "압축하다",
-            "요약하다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "press",
-          "mean": "누르다 (press)"
-        }
-      ],
-      "origin": "함께 눌러 모으다 → 압축하다"
+      "en":"compress","ipa":"/kəmˈpres/",
+      "meanings":[{"pos":"동","defs":["압축하다, 꼭 누르다","(사상·언어 등을) 간결하게 하다, 요약하다"]}],
+      "parts":[{"part":"com-","mean":"함께 (together)"},{"part":"press","mean":"누르다 (press)"}],
+      "origin":"함께 눌러 모으다 → 압축하다",
+      "examples":[
+        {"en":"Foams feel soft because they are easily compressed.","ko":"거품은 쉽게 압축되기 때문에 부드럽게 느껴진다.","source":"모의"}
+      ]
     },
+
     {
-      "en": "compose",
-      "ipa": "/kəmˈpoʊz/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "구성하다",
-            "작곡하다"
-          ]
-        }
+      "en":"compose","ipa":"/kəmˈpoʊz/",
+      "meanings":[{"pos":"동","defs":["구성하다","작곡하다, (글을) 쓰다"]}],
+      "parts":[{"part":"com-","mean":"함께 (together)"},{"part":"pose","mean":"놓다 (put, place)"}],
+      "origin":"함께 놓다 → 구성하다, 작곡하다",
+      "synonyms":["make up","constitute","comprise","create"],
+      "derivatives":[
+        {"en":"composition","pos":"명","defs":["구성, 조립","작문, 작곡","(음악·미술·시) 작품"]},
+        {"en":"composer","pos":"명","defs":["작곡가"]}
       ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "pose",
-          "mean": "놓다 (put, place)"
-        }
+      "phrases":[
+        {"en":"be composed of","ko":"~로 구성되다 (= be made up of, consist of)"}
       ],
-      "origin": "함께 놓다 → 구성하다, 작곡하다"
+      "examples":[
+        {"en":"Water is composed of hydrogen and oxygen.","ko":"물은 수소와 산소로 구성되어 있다."},
+        {"en":"She likes to write lyrics and compose music.","ko":"그녀는 작사와 작곡을 하는 것을 좋아한다."}
+      ]
     },
+
     {
-      "en": "compromise",
-      "ipa": "/ˈkɑːmprəmaɪz/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "타협"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "타협하다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "promise",
-          "mean": "약속 (promise)"
-        }
-      ],
-      "origin": "함께 약속하다 → 타협"
+      "en":"compromise","ipa":"/ˈkɑːmprəmaɪz/",
+      "meanings":[{"pos":"명","defs":["타협, 절충"]},{"pos":"동","defs":["타협[절충]하다"]}],
+      "parts":[{"part":"com-","mean":"함께 (together)"},{"part":"promise","mean":"약속 (promise)"}],
+      "origin":"함께 약속하다 → 타협",
+      "synonyms":["negotiate"],
+      "examples":[
+        {"en":"After an hour of discussion, they reached a compromise.","ko":"한 시간의 토론 끝에 그들은 합의에 이르렀다."}
+      ]
     },
+
     {
-      "en": "confirm",
-      "ipa": "/kənˈfɜːrm/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "확인하다",
-            "확정하다"
-          ]
-        }
+      "en":"confirm","ipa":"/kənˈfɜːrm/",
+      "meanings":[{"pos":"동","defs":["(예약·약속 등을) 확인하다, 확정하다","(~이 사실임을) 보여주다, 확인해주다","(~이 맞다고) 인정하다"]}],
+      "parts":[{"part":"con-(com-)","mean":"완전히 (completely)"},{"part":"firm","mean":"단단한 (firm)"}],
+      "origin":"완전히 단단하게 하다 → 확인하다, 확정하다",
+      "derivatives":[
+        {"en":"confirmation","pos":"명","defs":["확인, 확증"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "firm",
-          "mean": "단단한 (firm)"
-        }
-      ],
-      "origin": "완전히 단단하게 하다 → 확인하다, 확정하다"
+      "examples":[
+        {"en":"Don't forget to confirm your flight reservation.","ko":"비행기 예약을 확인하는 것을 잊지 마세요."},
+        {"en":"She creates playful visual arts that force you to look twice in order to confirm what you have just seen.","ko":"그녀는 당신이 방금 본 것을 확인하기 위해 두 번 쳐다보게 만드는 재미있는 시각 예술을 만들어 낸다.","source":"교과서"},
+        {"en":"The politician refused to confirm the rumor.","ko":"그 정치인은 소문을 인정하기를 거부했다."}
+      ]
     },
+
     {
-      "en": "connect",
-      "ipa": "/kəˈnekt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "연결하다"
-          ]
-        }
+      "en":"connect","ipa":"/kəˈnekt/",
+      "meanings":[{"pos":"동","defs":["(주로 + to/with) 연결하다, 잇다","관련시키다, 연관시키다","(인터넷·기기·네트워크 등에) 연결[접속]하다"]}],
+      "parts":[{"part":"con-(com-)","mean":"함께 (together)"},{"part":"nect","mean":"묶다 (bind, tie)"}],
+      "origin":"함께 묶다 → 연결하다",
+      "synonyms":["link"],
+      "antonyms":["disconnect"],
+      "derivatives":[
+        {"en":"connection","pos":"명","defs":["관련성[연관성]","연결, 접속"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "nect",
-          "mean": "묶다 (bind, tie)"
-        }
-      ],
-      "origin": "함께 묶다 → 연결하다"
+      "examples":[
+        {"en":"The airport is directly connected to the subway line.","ko":"그 공항은 지하철 노선과 바로 연결되어 있다."},
+        {"en":"Doctors saw the connection between poor living conditions and disease.","ko":"의사들은 열악한 생활 환경과 질병 사이의 연관성을 발견했다.","source":"모의"}
+      ]
     },
+
     {
-      "en": "conform",
-      "ipa": "/kənˈfɔːrm/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "따르다",
-            "순응하다"
-          ]
-        }
+      "en":"conform","ipa":"/kənˈfɔːrm/",
+      "meanings":[{"pos":"동","defs":["(주로 + to) (관습·법·규칙 등에) 순응하다, 따르다"]}],
+      "parts":[{"part":"con-(com-)","mean":"함께 (together)"},{"part":"form","mean":"형태 (form)"}],
+      "origin":"함께 같은 형태를 이루다 → 따르다, 순응하다",
+      "synonyms":["obey","observe"],
+      "antonyms":["rebel"],
+      "derivatives":[
+        {"en":"conformity","pos":"명","defs":["따름, 순응","일치"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "form",
-          "mean": "형태 (form)"
-        }
-      ],
-      "origin": "함께 같은 형태를 이루다 → 따르다, 순응하다"
+      "examples":[
+        {"en":"One must conform to proper etiquette in public places.","ko":"공공장소에서는 적합한 에티켓을 지켜야 한다."}
+      ]
     },
+
     {
-      "en": "confront",
-      "ipa": "/kənˈfrʌnt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "직면하다",
-            "맞서다"
-          ]
-        }
+      "en":"confront","ipa":"/kənˈfrʌnt/",
+      "meanings":[{"pos":"동","defs":["(문제·어려움 등에) 직면하다","~에 맞서다"]}],
+      "parts":[{"part":"con-(com-)","mean":"함께 (together)"},{"part":"front","mean":"이마, 앞 (forehead, front)"}],
+      "origin":"얼굴을 마주하다 → 직면하다, 맞서다",
+      "synonyms":["face"],
+      "derivatives":[
+        {"en":"confrontation","pos":"명","defs":["대립, 대결"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "front",
-          "mean": "이마, 앞 (forehead, front)"
-        }
+      "phrases":[
+        {"en":"be confronted with","ko":"~와 직면하다"}
       ],
-      "origin": "얼굴을 마주하다 → 직면하다, 맞서다"
+      "examples":[
+        {"en":"When you're confronted with difficulties, you should find solutions rather than complaining.","ko":"어려움에 직면했을 때 불평하기보다는 해결책을 찾아야 한다."}
+      ]
     },
+
     {
-      "en": "correspond",
-      "ipa": "/ˌkɔːrəˈspɑːnd/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "일치하다",
-            "서신을 주고받다"
-          ]
-        }
+      "en":"correspond","ipa":"/ˌkɔːrəˈspɑːnd/",
+      "meanings":[{"pos":"동","defs":["(+ to) (~에) 해당[대응]하다","(+ to/with) 일치[부합]하다","(+ with) 서신을 주고받다"]}],
+      "parts":[{"part":"cor-(com-)","mean":"함께 (together)"},{"part":"respond","mean":"응답하다 (respond)"}],
+      "origin":"함께 응답하다 → 일치하다, 서신을 주고받다",
+      "synonyms":["match"],
+      "derivatives":[
+        {"en":"corresponding","pos":"형","defs":["(주로 + to) (~에) 상응하는"]},
+        {"en":"correspondence","pos":"명","defs":["서신 왕래","대응[상응], 일치"]}
       ],
-      "parts": [
-        {
-          "part": "cor-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "respond",
-          "mean": "응답하다 (respond)"
-        }
-      ],
-      "origin": "함께 응답하다 → 일치하다, 서신을 주고받다"
+      "examples":[
+        {"en":"The broad lines on the map correspond to roads.","ko":"지도상의 굵은 선은 도로에 해당한다."},
+        {"en":"The problem is that what she says doesn't correspond with what she does.","ko":"문제는 그녀의 말과 행동이 일치하지 않는다는 것이다."}
+      ]
     },
+
     {
-      "en": "collapse",
-      "ipa": "/kəˈlæps/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "무너지다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "붕괴"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "col-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "lapse",
-          "mean": "미끄러지다, 넘어지다 (slip, fall)"
-        }
-      ],
-      "origin": "함께 무너져 내리다 → 붕괴"
+      "en":"collapse","ipa":"/kəˈlæps/",
+      "meanings":[{"pos":"동","defs":["붕괴되다, 무너지다","(의식을 잃고) 쓰러지다"]},{"pos":"명","defs":["붕괴","쓰러짐","실패"]}],
+      "parts":[{"part":"col-(com-)","mean":"함께 (together)"},{"part":"lapse","mean":"미끄러지다, 넘어지다 (slip, fall)"}],
+      "origin":"함께 무너져 내리다 → 붕괴",
+      "examples":[
+        {"en":"The old house collapsed during the windstorm.","ko":"그 오래된 집은 폭풍에 붕괴되었다."},
+        {"en":"He was forced to leave school at the age of sixteen after his father's business collapsed.","ko":"그는 아버지의 사업이 실패한 후, 열여섯살에 학교를 그만두어야 했다.","source":"모의"}
+      ]
     },
+
     {
-      "en": "symphony",
-      "ipa": "/ˈsɪmfəni/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "교향곡"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "sym-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "phon",
-          "mean": "소리 (sound)"
-        },
-        {
-          "part": "-y",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "함께 울리는 소리 → 교향곡"
+      "en":"symphony","ipa":"/ˈsɪmfəni/",
+      "meanings":[{"pos":"명","defs":["교향곡, 심포니"]}],
+      "parts":[{"part":"sym-","mean":"함께 (together)"},{"part":"phon","mean":"소리 (sound)"},{"part":"-y","mean":"명사형 접미사"}],
+      "origin":"함께 울리는 소리 → 교향곡",
+      "examples":[
+        {"en":"Symphonies are usually composed of three or four movements.","ko":"교향곡은 대개 3악장 또는 4악장으로 구성된다."}
+      ]
     },
+
     {
-      "en": "synthetic",
-      "ipa": "/sɪnˈθetɪk/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "합성의",
-            "인조의"
-          ]
-        }
+      "en":"synthetic","ipa":"/sɪnˈθetɪk/",
+      "meanings":[{"pos":"형","defs":["합성한, 인조의","종합적인"]}],
+      "parts":[{"part":"syn-(sym-)","mean":"함께 (together)"},{"part":"the","mean":"놓다 (put, place)"},{"part":"-tic","mean":"형용사형 접미사"}],
+      "origin":"함께 모아 놓은 → 합성의, 인조의",
+      "synonyms":["artificial"],
+      "antonyms":["natural"],
+      "derivatives":[
+        {"en":"synthesize","pos":"동","defs":["합성하다","종합적으로 다루다"]}
       ],
-      "parts": [
-        {
-          "part": "syn-(sym-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "the",
-          "mean": "놓다 (put, place)"
-        },
-        {
-          "part": "-tic",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "함께 모아 놓은 → 합성의, 인조의"
+      "examples":[
+        {"en":"People often assume that synthetic food ingredients are more harmful than natural ones.","ko":"사람들은 흔히 합성 식품 첨가물이 천연 첨가물보다 더 유해하다고 생각한다."}
+      ]
     },
+
     {
-      "en": "absorb",
-      "ipa": "/əbˈsɔːrb/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "흡수하다",
-            "열중시키다"
-          ]
-        }
+      "en":"absorb","ipa":"/əbˈsɔːrb/",
+      "meanings":[{"pos":"동","defs":["(액체·기체를) 흡수하다","(정보·지식 등을) 받아들이다","열중하게 하다"]}],
+      "parts":[{"part":"ab-","mean":"떨어져, ~로부터 (away, from)"},{"part":"sorb","mean":"빨아들이다 (suck in)"}],
+      "origin":"안으로 빨아들이다 → 흡수하다",
+      "synonyms":["take[suck] in"],
+      "phrases":[
+        {"en":"be absorbed in","ko":"~에 열중하다"}
       ],
-      "parts": [
-        {
-          "part": "ab-",
-          "mean": "떨어져, ~로부터 (away, from)"
-        },
-        {
-          "part": "sorb",
-          "mean": "빨아들이다 (suck in)"
-        }
-      ],
-      "origin": "안으로 빨아들이다 → 흡수하다"
+      "examples":[
+        {"en":"The average tree absorbs only 48 pounds of CO₂ a year.","ko":"일반적인 나무 한 그루는 1년에 이산화탄소 48파운드만을 흡수한다.","source":"모의"},
+        {"en":"Time passes quickly when you are absorbed in your work.","ko":"당신의 일에 열중하면 시간이 금방 지나간다."}
+      ]
     },
+
     {
-      "en": "abnormal",
-      "ipa": "/æbˈnɔːrml/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "비정상적인"
-          ]
-        }
+      "en":"abnormal","ipa":"/æbˈnɔːrml/",
+      "meanings":[{"pos":"형","defs":["비정상적인"]}],
+      "parts":[{"part":"ab-","mean":"떨어져, 벗어나 (away from)"},{"part":"normal","mean":"정상적인 (normal)"}],
+      "origin":"정상에서 벗어난 → 비정상적인",
+      "antonyms":["normal"],
+      "derivatives":[
+        {"en":"abnormality","pos":"명","defs":["비정상, 이상"]}
       ],
-      "parts": [
-        {
-          "part": "ab-",
-          "mean": "떨어져, 벗어나 (away from)"
-        },
-        {
-          "part": "normal",
-          "mean": "정상적인 (normal)"
-        }
-      ],
-      "origin": "정상에서 벗어난 → 비정상적인"
+      "examples":[
+        {"en":"Snow is abnormal for this time of year.","ko":"일 년 중 이 시기에 눈이 내리는 것은 비정상적이다."}
+      ]
     },
+
     {
-      "en": "absolute",
-      "ipa": "/ˈæbsəluːt/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "절대적인",
-            "확실한"
-          ]
-        }
+      "en":"absolute","ipa":"/ˈæbsəluːt/",
+      "meanings":[{"pos":"형","defs":["완전한, 전적인, 절대적인","확실한, 틀림없는","전제[독재]적인, 무제한의"]}],
+      "parts":[{"part":"ab-","mean":"떨어져, ~로부터 (away, from)"},{"part":"solute","mean":"풀다 (loosen)"}],
+      "origin":"어떤 제약으로부터도 풀려난 → 절대적인",
+      "synonyms":["complete","total"],
+      "derivatives":[
+        {"en":"absolutely","pos":"부","defs":["완전히, 전적으로","그렇고말고"]}
       ],
-      "parts": [
-        {
-          "part": "ab-",
-          "mean": "떨어져, ~로부터 (away, from)"
-        },
-        {
-          "part": "solute",
-          "mean": "풀다 (loosen)"
-        }
-      ],
-      "origin": "어떤 제약으로부터도 풀려난 → 절대적인"
+      "examples":[
+        {"en":"There was absolute silence after his comment.","ko":"그의 발언 후 완전한 침묵이 흘렀다."},
+        {"en":"Are you absolutely sure?","ko":"정말로[전적으로] 확실해?"}
+      ]
     },
+
     {
-      "en": "absurd",
-      "ipa": "/əbˈsɜːrd/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "터무니없는",
-            "불합리한"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "ab-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "surd",
-          "mean": "귀먹은, 어리석은 (deaf, foolish)"
-        }
-      ],
-      "origin": "완전히 어리석은 → 터무니없는"
+      "en":"absurd","ipa":"/əbˈsɜːrd/",
+      "meanings":[{"pos":"형","defs":["어리석은, 터무니없는","불합리한"]}],
+      "parts":[{"part":"ab-","mean":"완전히 (completely)"},{"part":"surd","mean":"귀먹은, 어리석은 (deaf, foolish)"}],
+      "origin":"완전히 어리석은 → 터무니없는",
+      "synonyms":["silly","ridiculous","unreasonable"],
+      "antonyms":["sensible","reasonable"],
+      "examples":[
+        {"en":"That's an unrealistic and absurd idea.","ko":"그것은 비현실적이고 터무니없는 생각이다."}
+      ]
     },
+
     {
-      "en": "separate",
-      "ipa": "/ˈseprət/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "분리된"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "분리하다"
-          ]
-        }
+      "en":"separate","ipa":"/ˈseprət/ · /ˈsepəreɪt/",
+      "meanings":[{"pos":"형","defs":["분리된, 갈라진","별개의, 따로따로의"]},{"pos":"동","defs":["분리하다, 갈라놓다; 분리되다, 갈라지다"]}],
+      "parts":[{"part":"se-","mean":"떨어져 (apart)"},{"part":"par","mean":"준비하다, 마련하다 (prepare)"},{"part":"-ate","mean":"동사/형용사형 접미사"}],
+      "origin":"따로 떼어 놓다 → 분리하다",
+      "synonyms":["split up"],
+      "derivatives":[
+        {"en":"separately","pos":"부","defs":["따로따로, 개별적으로"]},
+        {"en":"separation","pos":"명","defs":["분리, 분할, 구별","(부부 간의) 별거, 이별"]}
       ],
-      "parts": [
-        {
-          "part": "se-",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "par",
-          "mean": "준비하다, 마련하다 (prepare)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사/형용사형 접미사"
-        }
+      "phrases":[
+        {"en":"separate A from B","ko":"B에서 A를 분리하다"}
       ],
-      "origin": "따로 떼어 놓다 → 분리하다"
+      "examples":[
+        {"en":"Food waste should be separated from other waste before disposal.","ko":"음식물 쓰레기는 버려지기 전에 다른 쓰레기와 분리되어야 한다."}
+      ]
     },
+
     {
-      "en": "secure",
-      "ipa": "/səˈkjʊr/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "안전한"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "확보하다"
-          ]
-        }
+      "en":"secure","ipa":"/səˈkjʊr/",
+      "meanings":[{"pos":"형","defs":["안전한","확실한"]},{"pos":"동","defs":["얻다, 확보하다","안전하게 하다, 위험으로부터 보호하다"]}],
+      "parts":[{"part":"se-","mean":"~없이 (without)"},{"part":"cure","mean":"걱정 (care, worry)"}],
+      "origin":"걱정 없는 → 안전한",
+      "synonyms":["safe","guaranteed"],
+      "antonyms":["insecure"],
+      "derivatives":[
+        {"en":"security","pos":"명","defs":["안전, 보호 (수단)","보안, 경비","안도(감), 안심"]}
       ],
-      "parts": [
-        {
-          "part": "se-",
-          "mean": "~없이 (without)"
-        },
-        {
-          "part": "cure",
-          "mean": "걱정 (care, worry)"
-        }
-      ],
-      "origin": "걱정 없는 → 안전한"
+      "examples":[
+        {"en":"A: You're lucky to have such a secure job.\nB: Yes, but you wouldn't believe what I went through securing it.","ko":"A: 그렇게 안정된 직업을 갖다니 운이 좋으시군요.\nB: 네, 하지만 제가 그 일자리를 얻기 위해 겪은 일을 믿으실 수 없을 거예요."},
+        {"en":"Some repetition gives us a sense of security, in that we know what is coming next.","ko":"어떤 반복은 다음에 무엇이 올지 우리가 안다는 점에서 안도감을 준다.","source":"모의"}
+      ]
     },
+
     {
-      "en": "select",
-      "ipa": "/səˈlekt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "선택하다"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "엄선된"
-          ]
-        }
+      "en":"select","ipa":"/səˈlekt/",
+      "meanings":[{"pos":"동","defs":["선택하다, 고르다"]}],
+      "parts":[{"part":"se-","mean":"떨어져 (apart)"},{"part":"lect","mean":"모으다, 고르다 (gather, choose)"}],
+      "origin":"따로 골라내다 → 선택하다",
+      "synonyms":["choose","pick"],
+      "derivatives":[
+        {"en":"selection","pos":"명","defs":["선발, 선택(된 것)"]},
+        {"en":"selective","pos":"형","defs":["(주로 명사 앞에서) 선택적인","까다롭게[꼼꼼히] 선택하는"]}
       ],
-      "parts": [
-        {
-          "part": "se-",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "lect",
-          "mean": "모으다, 고르다 (gather, choose)"
-        }
+      "phrases":[
+        {"en":"make a selection","ko":"선택하다"}
       ],
-      "origin": "따로 골라내다 → 선택하다"
+      "examples":[
+        {"en":"He had hopes of being selected for the national team.","ko":"그는 국가대표팀에 선발되길 바랐다."},
+        {"en":"We offer a wide selection of electronic goods.","ko":"우리는 다양한 종류의 전자 제품을 제공합니다."}
+      ]
     },
+
     {
-      "en": "segregation",
-      "ipa": "/ˌseɡrɪˈɡeɪʃn/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "인종 차별",
-            "격리"
-          ]
-        }
+      "en":"segregation","ipa":"/ˌseɡrɪˈɡeɪʃn/",
+      "meanings":[{"pos":"명","defs":["(인종·성별 등에 의한) 차별, 분리","분리, 격리"]}],
+      "parts":[{"part":"se-","mean":"떨어져 (apart)"},{"part":"greg","mean":"무리 (flock, group)"},{"part":"-ation","mean":"명사형 접미사"}],
+      "origin":"무리에서 떼어놓음 → 격리, 인종 차별",
+      "synonyms":["discrimination","separation","isolation"],
+      "antonyms":["integration"],
+      "derivatives":[
+        {"en":"segregate","pos":"동","defs":["(인종·성별 등에 따라) 분리[차별]하다","분리[격리]하다"]}
       ],
-      "parts": [
-        {
-          "part": "se-",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "greg",
-          "mean": "무리 (flock, group)"
-        },
-        {
-          "part": "-ation",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "무리에서 떼어놓음 → 격리, 인종 차별"
+      "examples":[
+        {"en":"Once racial and ethical segregation is eliminated and people come together, they must learn to live with each other despite diverse experiences and cultural perspectives.","ko":"인종적, 민족적 분리가 사라지고 사람들이 함께 모이면, 그들은 다양한 경험과 문화적 관점에도 불구하고 함께 사는 법을 배워야 한다.","source":"모의"}
+      ]
     }
   ]
 }

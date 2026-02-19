@@ -1,100 +1,361 @@
 {
   "title": "re- 다시,뒤에/ de- 아래로,떨어져,'반대','강조'",
   "words": [
-    {"en":"recall","ipa":"/rɪˈkɔːl/","meanings":[{"pos":"동","defs":["기억해 내다","소환하다","(결함 제품을) 회수하다"]},{"pos":"명","defs":["기억","소환","리콜"]}],
+    {
+      "en":"recall","ipa":"/rɪˈkɔːl/",
+      "meanings":[{"pos":"동","defs":["기억해 내다, 회상[상기]하다","상기시키다","(결함 제품을) 회수[리콜]하다"]},{"pos":"명","defs":["기억","소환","회수"]}],
       "parts":[{"part":"re-","mean":"다시 (again, back)"},{"part":"call","mean":"부르다 (call)"}],
-      "origin":"다시 불러오다 → 기억해 내다, 소환하다"},
+      "origin":"다시 불러오다 → 기억해 내다, 소환하다",
+      "synonyms":["recollect","evoke"],
+      "examples":[
+        {"en":"I recall that he was a very tall gentleman.","ko":"내가 기억하기로 그는 키가 매우 큰 신사였다."}
+      ]
+    },
 
-    {"en":"record","ipa":"/rɪˈkɔːrd/ · /ˈrekərd/","meanings":[{"pos":"동","defs":["기록하다, 녹음(녹화)하다"]},{"pos":"명","defs":["기록, 증언, 음반"]}],
+    {
+      "en":"record","ipa":"/ˈrekərd/ · /rɪˈkɔːrd/",
+      "meanings":[{"pos":"명","defs":["기록","음반"]},{"pos":"동","defs":["기록하다","녹음[녹화]하다"]}],
       "parts":[{"part":"re-","mean":"다시 (again)"},{"part":"cord","mean":"마음, 심장 (heart)"}],
-      "origin":"다시 마음에 새기다 → 기록하다"},
+      "origin":"다시 마음에 새기다 → 기록하다",
+      "phrases":[
+        {"en":"off the record","ko":"비공개를 전제로"}
+      ],
+      "examples":[
+        {"en":"Very few of us have a complete photo record of our life.","ko":"우리 중 자신의 인생에 대한 완전한 사진 기록을 가지고 있는 사람은 거의 없다.","source":"모의"},
+        {"en":"If you have a funny thought, record it as an audio note.","ko":"만약 재미있는 생각이 떠오르면, 음성 노트의 형태로 그것을 기록해라.","source":"모의"}
+      ]
+    },
 
-    {"en":"recover","ipa":"/rɪˈkʌvər/","meanings":[{"pos":"동","defs":["(건강 등을) 회복하다","되찾다, 만회하다"]}],
+    {
+      "en":"recover","ipa":"/rɪˈkʌvər/",
+      "meanings":[{"pos":"동","defs":["(건강·기능 등을) 회복하다","되찾다, 회수하다"]}],
       "parts":[{"part":"re-","mean":"다시 (again, back)"},{"part":"cover","mean":"덮다, 감추다 (cover)"}],
-      "origin":"다시 덮어 원래로 돌리다 → 회복하다"},
+      "origin":"다시 덮어 원래로 돌리다 → 회복하다",
+      "derivatives":[
+        {"en":"recovery","pos":"명","defs":["회복","되찾기, 회수"]}
+      ],
+      "phrases":[
+        {"en":"recover from","ko":"~에서 회복하다"}
+      ],
+      "examples":[
+        {"en":"A: Have you recovered from your cold yet?\nB: Not completely. I'm making a very slow recovery.","ko":"A: 감기는 좀 나았니?\nB: 완전히 낫지는 않았어. 아주 서서히 회복되고 있는 중이야."}
+      ]
+    },
 
-    {"en":"recycle","ipa":"/ˌriːˈsaɪkl/","meanings":[{"pos":"동","defs":["재활용하다, 재생하다"]}],
+    {
+      "en":"recycle","ipa":"/ˌriːˈsaɪkl/",
+      "meanings":[{"pos":"동","defs":["재활용하다, 재생하다"]}],
       "parts":[{"part":"re-","mean":"다시 (again)"},{"part":"cycle","mean":"순환 (circle, cycle)"}],
-      "origin":"다시 순환시키다 → 재활용하다"},
+      "origin":"다시 순환시키다 → 재활용하다",
+      "derivatives":[
+        {"en":"recycling","pos":"명","defs":["재활용"]}
+      ],
+      "examples":[
+        {"en":"However, less than ten percent of the world's plastic waste has been recycled so far.","ko":"하지만 지금까지 전 세계 플라스틱 쓰레기의 10% 미만이 재활용되었다.","source":"교과서"}
+      ]
+    },
 
-    {"en":"research","ipa":"/rɪˈsɜːrtʃ/","meanings":[{"pos":"동","defs":["연구하다, 조사하다"]},{"pos":"명","defs":["연구, 조사"]}],
+    {
+      "en":"research","ipa":"/rɪˈsɜːrtʃ/",
+      "meanings":[{"pos":"명","defs":["연구, 조사"]},{"pos":"동","defs":["연구[조사]하다"]}],
       "parts":[{"part":"re-","mean":"다시 (again, thoroughly)"},{"part":"search","mean":"찾다, 탐색하다 (search)"}],
-      "origin":"다시 철저히 찾다 → 연구하다"},
+      "origin":"다시 철저히 찾다 → 연구하다",
+      "synonyms":["investigation","analysis"],
+      "derivatives":[
+        {"en":"researcher","pos":"명","defs":["연구원"]}
+      ],
+      "examples":[
+        {"en":"I did some research on rare plants and animals found in the Galapagos Islands.","ko":"나는 갈라파고스 제도에서 발견되는 희귀한 동식물에 대한 조사를 했다."}
+      ]
+    },
 
-    {"en":"replace","ipa":"/rɪˈpleɪs/","meanings":[{"pos":"동","defs":["대신하다, 대체하다","(원래 자리에) 되돌려 놓다"]}],
+    {
+      "en":"replace","ipa":"/rɪˈpleɪs/",
+      "meanings":[{"pos":"동","defs":["대신하다, 대체하다","바꾸다, 교체하다"]}],
       "parts":[{"part":"re-","mean":"다시 (back)"},{"part":"place","mean":"놓다, 자리 (place, put)"}],
-      "origin":"다시 자리에 놓다 → 대체하다, 되돌려 놓다"},
+      "origin":"다시 자리에 놓다 → 대체하다, 되돌려 놓다",
+      "synonyms":["substitute"],
+      "derivatives":[
+        {"en":"replacement","pos":"명","defs":["교체, 교환(물)","후임자"]}
+      ],
+      "phrases":[
+        {"en":"replace[substitute] A with B","ko":"A를 B로 대체하다"}
+      ],
+      "examples":[
+        {"en":"He replaced the meat in his diet with vegetables.","ko":"그는 식단의 고기를 채소로 대체했다."},
+        {"en":"If both the green light and the red light are on, replace the batteries.","ko":"초록 표시등과 빨간 표시등이 모두 켜져 있으면 배터리를 교체하세요.","source":"모의"}
+      ]
+    },
 
-    {"en":"reproduce","ipa":"/ˌriːprəˈduːs/","meanings":[{"pos":"동","defs":["복제(복사)하다","번식하다","재현하다"]}],
+    {
+      "en":"reproduce","ipa":"/ˌriːprəˈduːs/",
+      "meanings":[{"pos":"동","defs":["생식[번식]하다","복제[복사]하다","재생[재현]하다, 다시 만들어내다"]}],
       "parts":[{"part":"re-","mean":"다시 (again)"},{"part":"pro-","mean":"앞으로 (forward)"},{"part":"duce","mean":"이끌다 (lead)"}],
-      "origin":"다시 앞으로 이끌어 내다 → 복제하다, 번식하다"},
+      "origin":"다시 앞으로 이끌어 내다 → 복제하다, 번식하다",
+      "derivatives":[
+        {"en":"reproduction","pos":"명","defs":["생식, 번식","복제(품)","재생, 재현"]},
+        {"en":"reproductive","pos":"형","defs":["생식[번식]의"]}
+      ],
+      "examples":[
+        {"en":"Salmon return to their birthplace to reproduce.","ko":"연어는 번식하기 위해서 자신들이 태어난 곳으로 되돌아간다."},
+        {"en":"No one has been able to perfectly reproduce the Koryo pottery made by our ancestors.","ko":"어느 누구도 우리 조상들이 만든 고려자기를 완벽하게 재현해내지 못하고 있다."}
+      ]
+    },
 
-    {"en":"reveal","ipa":"/rɪˈviːl/","meanings":[{"pos":"동","defs":["드러내다, 폭로하다"]}],
+    {
+      "en":"reveal","ipa":"/rɪˈviːl/",
+      "meanings":[{"pos":"동","defs":["드러내다, 밝히다, 폭로하다"]}],
       "parts":[{"part":"re-","mean":"반대로 (back, reverse)"},{"part":"veal","mean":"덮다, 가리다 (veil, cover)"}],
-      "origin":"가림을 되돌리다 → 드러내다"},
+      "origin":"가림을 되돌리다 → 드러내다",
+      "synonyms":["disclose","expose"],
+      "examples":[
+        {"en":"The investigation revealed new evidence about the case.","ko":"수사를 통해 사건에 대한 새로운 증거가 드러났다."}
+      ]
+    },
 
-    {"en":"revenue","ipa":"/ˈrevənuː/","meanings":[{"pos":"명","defs":["(국가·기관의) 수익, 세입, 매출"]}],
+    {
+      "en":"revenue","ipa":"/ˈrevənuː/",
+      "meanings":[{"pos":"명","defs":["수익, 수입","세입"]}],
       "parts":[{"part":"re-","mean":"뒤로, 되돌아 (back)"},{"part":"venue","mean":"오다 (come)"}],
-      "origin":"되돌아오는 것 → 수익, 매출"},
+      "origin":"되돌아오는 것 → 수익, 매출",
+      "synonyms":["income"],
+      "examples":[
+        {"en":"It would be very useful to know what would happen to your firm's total revenue if you increased your product's price.","ko":"제품 가격을 인상할 경우 회사의 총 수익이 어떻게 될지 아는 것은 매우 유용하다.","source":"모의"}
+      ]
+    },
 
-    {"en":"revive","ipa":"/rɪˈvaɪv/","meanings":[{"pos":"동","defs":["활기를 되찾다, 소생시키다","재상연하다"]}],
+    {
+      "en":"revive","ipa":"/rɪˈvaɪv/",
+      "meanings":[{"pos":"동","defs":["소생[회복]시키다, 소생[회복]하다","(유행·기억 등이) 되살아나게 하다","재공연하다, 재상연[재상영]하다"]}],
       "parts":[{"part":"re-","mean":"다시 (again)"},{"part":"vive","mean":"살다 (live)"}],
-      "origin":"다시 살아나다 → 소생시키다"},
+      "origin":"다시 살아나다 → 소생시키다",
+      "derivatives":[
+        {"en":"revival","pos":"명","defs":["회복, 부활, 되살아남","재공연, 재상연[재상영]"]}
+      ],
+      "examples":[
+        {"en":"Breaks are necessary to revive your energy levels and recharge your mental stamina.","ko":"휴식은 체력을 회복하고 정신력을 재충전하는 데 필요하다.","source":"모의"},
+        {"en":"the revival of the rural economy","ko":"농촌 경제의 회복","source":"모의"}
+      ]
+    },
 
-    {"en":"remove","ipa":"/rɪˈmuːv/","meanings":[{"pos":"동","defs":["제거하다, 없애다","이사하다","해고하다"]}],
+    {
+      "en":"remove","ipa":"/rɪˈmuːv/",
+      "meanings":[{"pos":"동","defs":["제거하다","옮기다, 이전[이동]시키다"]}],
       "parts":[{"part":"re-","mean":"뒤로 (back, away)"},{"part":"move","mean":"움직이다 (move)"}],
-      "origin":"뒤로 옮기다 → 제거하다"},
+      "origin":"뒤로 옮기다 → 제거하다",
+      "synonyms":["get rid of","eliminate"],
+      "derivatives":[
+        {"en":"removal","pos":"명","defs":["제거","이전, 이동"]}
+      ],
+      "examples":[
+        {"en":"Fish farms are placed in sites where there is good water flow to remove fish waste.","ko":"양어장은 물고기 배설물을 제거하기 좋은 물의 흐름이 있는 장소에 위치한다.","source":"수능"}
+      ]
+    },
 
-    {"en":"retire","ipa":"/rɪˈtaɪər/","meanings":[{"pos":"동","defs":["은퇴하다, 퇴직하다","물러나다"]}],
+    {
+      "en":"retire","ipa":"/rɪˈtaɪər/",
+      "meanings":[{"pos":"동","defs":["은퇴[퇴직]하다","은퇴[퇴직]시키다"]}],
       "parts":[{"part":"re-","mean":"뒤로 (back)"},{"part":"tire","mean":"끌다, 물러나다 (draw, pull)"}],
-      "origin":"뒤로 물러나다 → 은퇴하다"},
+      "origin":"뒤로 물러나다 → 은퇴하다",
+      "derivatives":[
+        {"en":"retirement","pos":"명","defs":["은퇴, 퇴직"]}
+      ],
+      "examples":[
+        {"en":"Professor Peterson plans to retire at the end of the year.","ko":"Peterson 교수는 올해 말에 은퇴할 계획이다."},
+        {"en":"Most people start planning for their retirement around age 60.","ko":"대부분의 사람은 60세쯤 은퇴를 위한 계획을 시작한다."}
+      ]
+    },
 
-    {"en":"remain","ipa":"/rɪˈmeɪn/","meanings":[{"pos":"동","defs":["여전히 ~인 채로 남다","머무르다"]},{"pos":"명","defs":["(남은) 것, 유적, 유해"]}],
+    {
+      "en":"remain","ipa":"/rɪˈmeɪn/",
+      "meanings":[{"pos":"동","defs":["여전히 ~인 상태이다","머무르다, 체류하다","남아 있다, 남다"]}],
       "parts":[{"part":"re-","mean":"뒤에 (behind, back)"},{"part":"main","mean":"머무르다 (stay, remain)"}],
-      "origin":"뒤에 머무르다 → 남다"},
+      "origin":"뒤에 머무르다 → 남다",
+      "synonyms":["stay"],
+      "derivatives":[
+        {"en":"remainder","pos":"명","defs":["나머지, 잔여 (부분)"]},
+        {"en":"remains","pos":"명","defs":["남은 것; 유적, 유물"]}
+      ],
+      "examples":[
+        {"en":"The true author of the book remains unknown.","ko":"그 책의 진짜 저자는 여전히 알려지지 않은 상태이다."},
+        {"en":"the remains of ancient Rome","ko":"고대 로마의 유적"}
+      ]
+    },
 
-    {"en":"represent","ipa":"/ˌreprɪˈzent/","meanings":[{"pos":"동","defs":["대표하다, 대변하다","나타내다, 상징하다"]}],
+    {
+      "en":"represent","ipa":"/ˌreprɪˈzent/",
+      "meanings":[{"pos":"동","defs":["대변하다, 대표하다","나타내다, 상징하다"]}],
       "parts":[{"part":"re-","mean":"다시 (again)"},{"part":"present","mean":"보여주다 (show, present)"}],
-      "origin":"다시 앞에 보여주다 → 대표하다, 나타내다"},
+      "origin":"다시 앞에 보여주다 → 대표하다, 나타내다",
+      "synonyms":["stand for","symbolize"],
+      "derivatives":[
+        {"en":"representation","pos":"명","defs":["표시, 표현","대리, 대변, 대표"]},
+        {"en":"representative","pos":"명","defs":["대표자","(Representative) (미국의) 하원의원"]}
+      ],
+      "examples":[
+        {"en":"The representatives don't always represent the desires of the people.","ko":"대표자들이 항상 사람들의 요구를 대변하는 것은 아니다."},
+        {"en":"Red lines on the map represent railways.","ko":"지도상의 붉은 선은 철도를 나타낸다."}
+      ]
+    },
 
-    {"en":"depress","ipa":"/dɪˈpres/","meanings":[{"pos":"동","defs":["낙담시키다, 우울하게 하다","침체시키다","누르다"]}],
+    {
+      "en":"depress","ipa":"/dɪˈpres/",
+      "meanings":[{"pos":"동","defs":["낙담시키다, 우울하게 하다","불경기로 만들다"]}],
       "parts":[{"part":"de-","mean":"아래로 (down)"},{"part":"press","mean":"누르다 (press)"}],
-      "origin":"아래로 누르다 → 우울하게 하다, 침체시키다"},
+      "origin":"아래로 누르다 → 우울하게 하다, 침체시키다",
+      "derivatives":[
+        {"en":"depression","pos":"명","defs":["우울","불경기, 불황"]},
+        {"en":"depressed","pos":"형","defs":["우울한, 낙담한","불경기의, 불황의"]}
+      ],
+      "phrases":[
+        {"en":"the Great Depression","ko":"경제 대공황"}
+      ],
+      "examples":[
+        {"en":"Thinking about endangered animals depresses me.","ko":"멸종 위기의 동물들에 대해 생각하면 우울하다."},
+        {"en":"We offer talk therapy sessions to people dealing with issues such as depression or anxiety.","ko":"우리는 우울증이나 불안과 같은 문제를 겪고 있는 사람들에게 대화 치료 세션을 제공한다.","source":"교과서"}
+      ]
+    },
 
-    {"en":"depart","ipa":"/dɪˈpɑːrt/","meanings":[{"pos":"동","defs":["떠나다, 출발하다"]}],
+    {
+      "en":"depart","ipa":"/dɪˈpɑːrt/",
+      "meanings":[{"pos":"동","defs":["떠나다, 출발하다"]}],
       "parts":[{"part":"de-","mean":"떨어져 (away)"},{"part":"part","mean":"나누다, 갈라지다 (part, divide)"}],
-      "origin":"떨어져 갈라지다 → 떠나다, 출발하다"},
+      "origin":"떨어져 갈라지다 → 떠나다, 출발하다",
+      "synonyms":["leave","go away"],
+      "antonyms":["arrive"],
+      "derivatives":[
+        {"en":"departure","pos":"명","defs":["떠남, 출발"]}
+      ],
+      "phrases":[
+        {"en":"depart for","ko":"~을 향해 출발하다"},
+        {"en":"depart from","ko":"~로부터 떠나다"}
+      ],
+      "examples":[
+        {"en":"We'll be departing for the States next week.","ko":"우리는 다음 주에 미국으로 떠난다."},
+        {"en":"The flight departs from Gimpo Airport at 2 o'clock.","ko":"그 항공편은 김포공항에서 2시에 출발한다."},
+        {"en":"Passengers must check in at least two hours before departure time.","ko":"승객들은 출발 시간 최소 2시간 전에는 탑승 수속을 해야 한다."}
+      ]
+    },
 
-    {"en":"derive","ipa":"/dɪˈraɪv/","meanings":[{"pos":"동","defs":["(~에서) 끌어내다, 얻다","유래하다"]}],
+    {
+      "en":"derive","ipa":"/dɪˈraɪv/",
+      "meanings":[{"pos":"동","defs":["(~에서) 끌어내다, 얻다","(~에서) 유래하다, 파생되다"]}],
       "parts":[{"part":"de-","mean":"~로부터 (from)"},{"part":"rive","mean":"강, 흐름 (river, stream)"}],
-      "origin":"흐름으로부터 끌어오다 → 유래하다, 얻다"},
+      "origin":"흐름으로부터 끌어오다 → 유래하다, 얻다",
+      "derivatives":[
+        {"en":"derived","pos":"형","defs":["파생된, 유래된"]}
+      ],
+      "phrases":[
+        {"en":"derive A from N/V-ing","ko":"~로부터 A를 이끌어내다"}
+      ],
+      "examples":[
+        {"en":"The organization is looking for ways to derive more profit.","ko":"그 단체는 더 많은 이익을 이끌어낼 방법들을 찾고 있다."},
+        {"en":"The term \"biology\" is derived from the Greek words bios and logos.","ko":"'생물학'이라는 용어는 그리스어 bios와 logos에서 유래했다."}
+      ]
+    },
 
-    {"en":"detect","ipa":"/dɪˈtekt/","meanings":[{"pos":"동","defs":["발견하다, 탐지하다, 찾아내다"]}],
+    {
+      "en":"detect","ipa":"/dɪˈtekt/",
+      "meanings":[{"pos":"동","defs":["발견[감지]하다, 알아내다"]}],
       "parts":[{"part":"de-","mean":"벗기다 (un-, reverse)"},{"part":"tect","mean":"덮다 (cover)"}],
-      "origin":"덮개를 벗기다 → 발견하다, 탐지하다"},
+      "origin":"덮개를 벗기다 → 발견하다, 탐지하다",
+      "synonyms":["discover","find out"],
+      "derivatives":[
+        {"en":"detection","pos":"명","defs":["발견, 감지"]},
+        {"en":"detective","pos":"명","defs":["탐정, 형사"]}
+      ],
+      "examples":[
+        {"en":"Small quantities of poison were detected in his blood.","ko":"소량의 독극물이 그의 혈액에서 검출되었다."},
+        {"en":"While reading the case file, the detective examined the details of the crime scene.","ko":"형사는 사건 파일을 읽으면서 범죄 현장의 세부 사항을 조사했다.","source":"교과서"}
+      ]
+    },
 
-    {"en":"detach","ipa":"/dɪˈtætʃ/","meanings":[{"pos":"동","defs":["떼어내다, 분리하다"]}],
+    {
+      "en":"detach","ipa":"/dɪˈtætʃ/",
+      "meanings":[{"pos":"동","defs":["분리하다, 떼어내다"]}],
       "parts":[{"part":"de-","mean":"떨어져 (away, off)"},{"part":"tach","mean":"붙이다 (attach, fasten)"}],
-      "origin":"붙어 있는 것을 떼어내다 → 분리하다"},
+      "origin":"붙어 있는 것을 떼어내다 → 분리하다",
+      "synonyms":["separate","remove"],
+      "antonyms":["attach"],
+      "derivatives":[
+        {"en":"detachment","pos":"명","defs":["분리, 이탈","파견 (부대)"]}
+      ],
+      "examples":[
+        {"en":"You can detach the speaker from the TV if you want to.","ko":"원하신다면 TV에서 스피커를 뗄 수 있습니다."}
+      ]
+    },
 
-    {"en":"develop","ipa":"/dɪˈveləp/","meanings":[{"pos":"동","defs":["발달(발전)하다","현상하다","(병이) 생기다"]}],
+    {
+      "en":"develop","ipa":"/dɪˈveləp/",
+      "meanings":[{"pos":"동","defs":["발전[발달]하다, 성장하다","개발하다"]}],
       "parts":[{"part":"de-","mean":"반대 (reverse, un-)"},{"part":"velop","mean":"감싸다 (wrap, envelop)"}],
-      "origin":"감싼 것을 풀다 → 발달하다, 펼치다"},
+      "origin":"감싼 것을 풀다 → 발달하다, 펼치다",
+      "derivatives":[
+        {"en":"development","pos":"명","defs":["발달, 성장","개발"]}
+      ],
+      "phrases":[
+        {"en":"a developing country","ko":"개발 도상국"},
+        {"en":"a developed country","ko":"선진국"}
+      ],
+      "examples":[
+        {"en":"Knowledge and understanding are developed through thinking and talking.","ko":"지식과 이해는 사고와 대화를 통해 발전한다.","source":"모의"},
+        {"en":"Every technological development is met with resistance.","ko":"모든 기술적 발전은 저항을 만나게 된다."}
+      ]
+    },
 
-    {"en":"declare","ipa":"/dɪˈkler/","meanings":[{"pos":"동","defs":["선언하다, 공포하다","(세관에) 신고하다"]}],
+    {
+      "en":"declare","ipa":"/dɪˈkler/",
+      "meanings":[{"pos":"동","defs":["선언[발표]하다","(세관 등에) 신고하다"]}],
       "parts":[{"part":"de-","mean":"강조 (completely)"},{"part":"clare","mean":"분명하게 하다 (make clear)"}],
-      "origin":"완전히 분명하게 하다 → 선언하다"},
+      "origin":"완전히 분명하게 하다 → 선언하다",
+      "synonyms":["proclaim","announce","state"],
+      "derivatives":[
+        {"en":"declaration","pos":"명","defs":["선언(문), 발표","신고"]}
+      ],
+      "examples":[
+        {"en":"Americans declared they were free in 1776.","ko":"미국인들은 1776년에 그들이 독립했음을 선언했다."},
+        {"en":"Do you have anything to declare at customs?","ko":"세관에 신고할 물건이 있습니까?"}
+      ]
+    },
 
-    {"en":"debate","ipa":"/dɪˈbeɪt/","meanings":[{"pos":"동","defs":["토론(논쟁)하다, 숙고하다"]},{"pos":"명","defs":["토론, 논쟁"]}],
+    {
+      "en":"debate","ipa":"/dɪˈbeɪt/",
+      "meanings":[{"pos":"명","defs":["토론, 논쟁"]},{"pos":"동","defs":["토론[논쟁]하다","숙고하다, 검토하다"]}],
       "parts":[{"part":"de-","mean":"강조 (thoroughly)"},{"part":"bate","mean":"치다, 싸우다 (beat, fight)"}],
-      "origin":"철저히 (말로) 싸우다 → 토론하다"},
+      "origin":"철저히 (말로) 싸우다 → 토론하다",
+      "synonyms":["discussion","dispute"],
+      "examples":[
+        {"en":"Let's debate the issues when the meeting starts.","ko":"회의가 시작되면 그 문제들에 대해 토론합시다."}
+      ]
+    },
 
-    {"en":"demonstrate","ipa":"/ˈdemənstreɪt/","meanings":[{"pos":"동","defs":["증명하다, 입증하다","설명하다","시위하다"]}],
+    {
+      "en":"demonstrate","ipa":"/ˈdemənstreɪt/",
+      "meanings":[{"pos":"동","defs":["입증[증명]하다, 설명하다","(행동으로) 보여주다","시위하다"]}],
       "parts":[{"part":"de-","mean":"강조 (completely)"},{"part":"monstr","mean":"보여주다 (show)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"완전히 보여주다 → 증명하다, 시위하다"},
+      "origin":"완전히 보여주다 → 증명하다, 시위하다",
+      "synonyms":["prove"],
+      "derivatives":[
+        {"en":"demonstration","pos":"명","defs":["입증, 설명"]}
+      ],
+      "examples":[
+        {"en":"The experiment demonstrated that heat causes the substance to expand.","ko":"그 실험은 열이 물질을 팽창하게 만든다는 것을 입증했다."}
+      ]
+    },
 
-    {"en":"depict","ipa":"/dɪˈpɪkt/","meanings":[{"pos":"동","defs":["(그림·말 등으로) 그리다, 묘사하다"]}],
+    {
+      "en":"depict","ipa":"/dɪˈpɪkt/",
+      "meanings":[{"pos":"동","defs":["(그림으로) 그리다","묘사하다"]}],
       "parts":[{"part":"de-","mean":"강조 (thoroughly)"},{"part":"pict","mean":"그리다 (paint, picture)"}],
-      "origin":"철저히 그리다 → 묘사하다"}
+      "origin":"철저히 그리다 → 묘사하다",
+      "synonyms":["portray","describe"],
+      "derivatives":[
+        {"en":"depiction","pos":"명","defs":["묘사, 서술"]},
+        {"en":"depictive","pos":"형","defs":["묘사적인"]}
+      ],
+      "examples":[
+        {"en":"The composer Antonio Salieri is depicted as one of the most famous \"non-great composers\" in the movie.","ko":"작곡가 Antonio Salieri는 영화에서 가장 잘 알려진 '위대하지 않은 작곡가' 중 한 명으로 묘사된다.","source":"모의"}
+      ]
+    }
   ]
 }

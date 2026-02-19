@@ -4,672 +4,377 @@
     {
       "en": "create",
       "ipa": "/kriˈeɪt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "창조하다",
-            "만들다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["창조하다, 창작하다, 만들어내다"]}],
+      "parts": [{"part": "crea", "mean": "만들다 (make, grow)"}, {"part": "-te", "mean": "동사형 접미사"}],
+      "origin": "만들다 → 창조하다",
+      "derivatives": [
+        {"en": "creation", "pos": "명", "defs": ["창조(물), 창작(물)"]},
+        {"en": "creative", "pos": "형", "defs": ["창조적인, 창의적인, 독창적인"]},
+        {"en": "creature", "pos": "명", "defs": ["(생명이 있는) 생물, 동물", "창조물", "(상상의) 괴물"]},
+        {"en": "creator", "pos": "명", "defs": ["창조[창작]자, (the Creator) 조물주, 신"]}
       ],
-      "parts": [
-        {
-          "part": "crea",
-          "mean": "만들다 (make, grow)"
-        },
-        {
-          "part": "-te",
-          "mean": "동사형 접미사"
-        }
-      ],
-      "origin": "만들다 → 창조하다"
+      "examples": [
+        {"en": "The theory holds that the universe was created by a huge explosion.", "ko": "그 이론은 우주가 큰 폭발로 생성되었다고 주장한다."},
+        {"en": "Hikers should be careful about small dangerous creatures like poisonous snakes.", "ko": "등산객들은 독사와 같은 작은 위험한 동물을 조심해야 한다.", "source": "수능"},
+        {"en": "Copyright lasts 70 years after the creator's death.", "ko": "저작권은 창작자가 사망한 후 70년간 지속된다."}
+      ]
     },
     {
       "en": "recreate",
       "ipa": "/ˌriːkriˈeɪt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "재현하다",
-            "휴양하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["다시 만들어내다, 재현하다", "기분을 전환시키다"]}],
+      "parts": [{"part": "re-", "mean": "다시 (again)"}, {"part": "crea", "mean": "만들다 (make)"}, {"part": "-te", "mean": "동사형 접미사"}],
+      "origin": "다시 만들다 → 재현하다",
+      "synonyms": ["reproduce"],
+      "derivatives": [
+        {"en": "recreation", "pos": "명", "defs": ["재창조, 재현", "기분 전환 (활동), 레크리에이션"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "crea",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-te",
-          "mean": "동사형 접미사"
-        }
-      ],
-      "origin": "다시 만들다 → 재현하다"
+      "examples": [
+        {"en": "Naturally, your mind recreates what it just \"saw\" based on what it's been told.", "ko": "자연스럽게, 당신의 마음은 들은 내용을 바탕으로 방금 '본 것'을 재현해 낸다.", "source": "모의"},
+        {"en": "For recreation, he works in his garden.", "ko": "여가 활동으로, 그는 정원을 가꾼다."}
+      ]
     },
     {
       "en": "increase",
-      "ipa": "/ɪnˈkriːs/",
+      "ipa": "/ɪnˈkriːs/ · /ˈɪnkriːs/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "증가하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "증가"
-          ]
-        }
+        {"pos": "동", "defs": ["(수량·정도 등이[을]) 증가하다, 늘다; 증가시키다, 늘리다"]},
+        {"pos": "명", "defs": ["(+in) 증가"]}
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로, 위로 (in, up)"
-        },
-        {
-          "part": "crease(crea)",
-          "mean": "자라다 (grow)"
-        }
+      "parts": [{"part": "in-", "mean": "안으로, 위로 (in, up)"}, {"part": "crease(crea)", "mean": "자라다 (grow)"}],
+      "origin": "안으로 자라다 → 증가하다",
+      "synonyms": ["growth"],
+      "antonyms": ["decrease", "reduce"],
+      "derivatives": [
+        {"en": "increasingly", "pos": "부", "defs": ["점점 더, 더욱 더"]}
       ],
-      "origin": "안으로 자라다 → 증가하다"
+      "examples": [
+        {"en": "In the 19th century, the demand for workers increased, and many new positions were filled by young children.", "ko": "19세기에 노동자에 대한 수요가 증가했고 많은 새로운 일자리가 어린이들로 채워졌다.", "source": "교과서"},
+        {"en": "Online shopping has become increasingly popular.", "ko": "온라인 쇼핑이 점점 더 인기를 끌고 있다."}
+      ]
     },
     {
       "en": "decrease",
-      "ipa": "/dɪˈkriːs/",
+      "ipa": "/dɪˈkriːs/ · /ˈdiːkriːs/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "감소하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "감소"
-          ]
-        }
+        {"pos": "동", "defs": ["(수량·정도 등이[을]) 감소하다, 줄다; 감소시키다, 줄이다"]},
+        {"pos": "명", "defs": ["(+in) 감소, 축소"]}
       ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "아래로 (down)"
-        },
-        {
-          "part": "crease(crea)",
-          "mean": "자라다 (grow)"
-        }
-      ],
-      "origin": "아래로 줄어들다 → 감소하다"
+      "parts": [{"part": "de-", "mean": "아래로 (down)"}, {"part": "crease(crea)", "mean": "자라다 (grow)"}],
+      "origin": "아래로 줄어들다 → 감소하다",
+      "synonyms": ["diminish", "reduce", "reduction"],
+      "antonyms": ["increase", "growth"],
+      "examples": [
+        {"en": "Too much caffeine can decrease your performance.", "ko": "지나친 카페인 섭취는 능률을 저하시킬 수 있다."},
+        {"en": "a decrease in appetite", "ko": "식욕 감소", "source": "수능"}
+      ]
     },
     {
       "en": "concrete",
       "ipa": "/ˈkɑːnkriːt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "구체적인"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "콘크리트"
-          ]
-        }
+        {"pos": "형", "defs": ["구체적인, 확실한"]},
+        {"pos": "명", "defs": ["콘크리트"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "crete(crea)",
-          "mean": "자라다 (grow)"
-        }
-      ],
-      "origin": "함께 자라 굳어진 → 구체적인"
+      "parts": [{"part": "con-(com-)", "mean": "함께 (together)"}, {"part": "crete(crea)", "mean": "자라다 (grow)"}],
+      "origin": "함께 자라 굳어진 → 구체적인",
+      "antonyms": ["abstract"],
+      "examples": [
+        {"en": "There's no concrete evidence that he is guilty.", "ko": "그가 유죄라는 확실한 증거는 없다."},
+        {"en": "turn abstract thoughts into concrete expressions", "ko": "추상적인 생각을 구체적인 표현으로 바꾸다", "source": "모의"}
+      ]
     },
     {
       "en": "recruit",
       "ipa": "/rɪˈkruːt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "채용하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "신병"
-          ]
-        }
+        {"pos": "동", "defs": ["(조직·군대 등에 사람을) 채용하다, 모집하다"]},
+        {"pos": "명", "defs": ["신병, 신입 사원"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "cruit(crea)",
-          "mean": "자라다 (grow)"
-        }
+      "parts": [{"part": "re-", "mean": "다시 (again)"}, {"part": "cruit(crea)", "mean": "자라다 (grow)"}],
+      "origin": "다시 자라게 하다(인원 보충) → 채용하다",
+      "derivatives": [
+        {"en": "recruitment", "pos": "명", "defs": ["신규 모집[채용], 신병 모집"]}
       ],
-      "origin": "다시 자라게 하다(인원 보충) → 채용하다"
+      "examples": [
+        {"en": "The company plans to recruit 30 new employees.", "ko": "그 회사는 30명의 신입 직원을 채용할 계획이다."}
+      ]
     },
     {
       "en": "advent",
       "ipa": "/ˈædvent/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "출현",
-            "도래"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        }
-      ],
-      "origin": "~쪽으로 오다 → 출현, 도래"
+      "meanings": [{"pos": "명", "defs": ["도래, 출현, 등장"]}],
+      "parts": [{"part": "ad-", "mean": "~쪽으로 (toward)"}, {"part": "vent", "mean": "오다 (come)"}],
+      "origin": "~쪽으로 오다 → 출현, 도래",
+      "synonyms": ["emergence", "appearance"],
+      "examples": [
+        {"en": "The advent of smartphones changed the way we communicate.", "ko": "스마트폰의 출현은 우리가 소통하는 방식을 바꿔 놓았다."}
+      ]
     },
     {
       "en": "adventure",
       "ipa": "/ədˈventʃər/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "모험"
-          ]
-        }
+      "meanings": [{"pos": "명", "defs": ["모험(심), 색다른 경험"]}],
+      "parts": [{"part": "ad-", "mean": "~쪽으로 (toward)"}, {"part": "vent", "mean": "오다 (come)"}, {"part": "-ure", "mean": "명사형 접미사"}],
+      "origin": "다가오는 것(운명) → 모험",
+      "derivatives": [
+        {"en": "adventurous", "pos": "형", "defs": ["모험을 좋아하는, 대담한; 모험적인"]}
       ],
-      "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "다가오는 것(운명) → 모험"
+      "examples": [
+        {"en": "He got back safe from his adventure in Africa.", "ko": "그는 아프리카에서의 모험에서 무사히 돌아왔다."},
+        {"en": "She spent her time enjoying adventurous activities like horse riding and hunting.", "ko": "그녀는 승마와 사냥 같은 모험적인 활동을 즐기며 시간을 보냈다.", "source": "모의"}
+      ]
     },
     {
       "en": "venture",
       "ipa": "/ˈventʃər/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "모험(적 사업)"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "위험을 무릅쓰고 가다"
-          ]
-        }
+        {"pos": "명", "defs": ["(위험이 따르는) 사업, 벤처 사업"]},
+        {"pos": "동", "defs": ["위험을 무릅쓰고 …하다, 과감히 …하다"]}
       ],
-      "parts": [
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "앞으로 나아가다 → 모험"
+      "parts": [{"part": "vent", "mean": "오다 (come)"}, {"part": "-ure", "mean": "명사형 접미사"}],
+      "origin": "앞으로 나아가다 → 모험",
+      "examples": [
+        {"en": "Venture capital investment is a high-risk, high-return field.", "ko": "벤처 자본 투자는 위험도 높고 보상도 높은 분야이다."},
+        {"en": "You have to venture beyond the boundaries of your current experience and explore new territory.", "ko": "당신은 과감하게 현재 경험의 한계를 뛰어넘어 새로운 영역을 개척해야 한다.", "source": "수능"}
+      ]
     },
     {
       "en": "convention",
       "ipa": "/kənˈvenʃn/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "집회",
-            "관습",
-            "협약"
-          ]
-        }
+      "meanings": [{"pos": "명", "defs": ["집회, 모임", "협정, 협약", "관습, 인습"]}],
+      "parts": [{"part": "con-(com-)", "mean": "함께 (together)"}, {"part": "vent", "mean": "오다 (come)"}, {"part": "-ion", "mean": "명사형 접미사"}],
+      "origin": "함께 오다 → 집회, 관습",
+      "synonyms": ["assembly", "treaty", "agreement", "custom"],
+      "derivatives": [
+        {"en": "conventional", "pos": "형", "defs": ["관습적인, 전통적인", "틀에 박힌, 상투적인"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "함께 오다 → 집회, 관습"
+      "examples": [
+        {"en": "The Democratic and Republican Parties hold conventions every four years.", "ko": "(미국의) 민주당과 공화당은 4년마다 집회(전당대회)를 갖는다."},
+        {"en": "Salting is a conventional method of preserving meat.", "ko": "염장은 고기를 보존하는 전통적인 방법이다."}
+      ]
     },
     {
       "en": "event",
       "ipa": "/ɪˈvent/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "사건",
-            "행사"
-          ]
-        }
+      "meanings": [{"pos": "명", "defs": ["(중요한) 사건", "(공연 등의) 행사, 이벤트, (경기) 종목"]}],
+      "parts": [{"part": "e-(ex-)", "mean": "밖으로 (out)"}, {"part": "vent", "mean": "오다 (come)"}],
+      "origin": "밖으로 나온 것 → 사건",
+      "derivatives": [
+        {"en": "eventual", "pos": "형", "defs": ["최종적인, 최후의"]},
+        {"en": "eventually", "pos": "부", "defs": ["결국, 마침내"]}
       ],
-      "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        }
-      ],
-      "origin": "밖으로 나온 것 → 사건"
+      "examples": [
+        {"en": "The event led to the company's eventual collapse.", "ko": "그 사건은 그 회사의 최종적인 붕괴로 이어졌다."}
+      ]
     },
     {
       "en": "invent",
       "ipa": "/ɪnˈvent/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "발명하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["발명하다, 고안하다", "(이야기·변명 등을) 조작하다, 꾸며내다"]}],
+      "parts": [{"part": "in-", "mean": "위에 (upon)"}, {"part": "vent", "mean": "오다 (come)"}],
+      "origin": "위로 떠오르다(착상) → 발명하다",
+      "synonyms": ["create", "design"],
+      "derivatives": [
+        {"en": "invention", "pos": "명", "defs": ["발명(품)", "꾸며낸 이야기"]},
+        {"en": "inventor", "pos": "명", "defs": ["발명가"]},
+        {"en": "inventive", "pos": "형", "defs": ["창의력이 있는, 독창적인"]}
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "위에 (upon)"
-        },
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        }
-      ],
-      "origin": "위로 떠오르다(착상) → 발명하다"
+      "examples": [
+        {"en": "She invented a successful hair care product and sold it across the country.", "ko": "그녀는 성공적인 모발 관리 제품을 발명해서 전국에 판매했다.", "source": "모의"},
+        {"en": "The original idea of a patent was to encourage inventors to share their inventions.", "ko": "특허의 원래 목적은 발명가들이 그들의 발명품을 공유하도록 독려하는 것이었다.", "source": "모의"}
+      ]
     },
     {
       "en": "prevent",
       "ipa": "/prɪˈvent/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "예방하다",
-            "막다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["막다, 예방하다, 방해하다"]}],
+      "parts": [{"part": "pre-", "mean": "미리 (before)"}, {"part": "vent", "mean": "오다 (come)"}],
+      "origin": "미리 앞에 오다 → 막다",
+      "synonyms": ["stop", "hinder"],
+      "derivatives": [
+        {"en": "prevention", "pos": "명", "defs": ["예방, 저지"]},
+        {"en": "preventive", "pos": "형", "defs": ["예방의, 방지하는"]}
       ],
-      "parts": [
-        {
-          "part": "pre-",
-          "mean": "미리 (before)"
-        },
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        }
+      "phrases": [
+        {"en": "prevent A from v-ing", "ko": "A가 …하지 못하게 하다 (= stop[hinder/keep] A from v-ing)"}
       ],
-      "origin": "미리 앞에 오다 → 막다"
+      "examples": [
+        {"en": "The heavy rain prevented me from going out.", "ko": "나는 폭우 때문에 외출하지 못했다."}
+      ]
     },
     {
       "en": "intervention",
       "ipa": "/ˌɪntərˈvenʃn/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "개입",
-            "중재"
-          ]
-        }
+      "meanings": [{"pos": "명", "defs": ["사이에 듦, 조정, 중재; 개입, 간섭"]}],
+      "parts": [{"part": "inter-", "mean": "사이에 (between)"}, {"part": "vent", "mean": "오다 (come)"}, {"part": "-ion", "mean": "명사형 접미사"}],
+      "origin": "사이에 들어오다 → 개입, 중재",
+      "derivatives": [
+        {"en": "intervene", "pos": "동", "defs": ["(+in/between) (언쟁·싸움 등을) 중재하다, 개입하다", "끼어들다, 방해하다", "(사건 등이) 사이에 일어나다"]}
       ],
-      "parts": [
-        {
-          "part": "inter-",
-          "mean": "사이에 (between)"
-        },
-        {
-          "part": "vent",
-          "mean": "오다 (come)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "사이에 들어오다 → 개입, 중재"
+      "examples": [
+        {"en": "His quick intervention ended the fight between them.", "ko": "그의 신속한 개입이 그들 사이의 싸움을 끝냈다."},
+        {"en": "The government intervened in the strike.", "ko": "정부는 그 파업에 개입했다."}
+      ]
     },
     {
       "en": "avenue",
       "ipa": "/ˈævənuː/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "대로",
-            "수단"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "a-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "venue(vent)",
-          "mean": "오다 (come)"
-        }
-      ],
-      "origin": "~쪽으로 오는 길 → 대로"
+      "meanings": [{"pos": "명", "defs": ["대로, 길, (거리 이름으로) …가(街) (줄여서 Ave., Av.)", "(성취를 위한) 수단, 방법"]}],
+      "parts": [{"part": "a-(ad-)", "mean": "~쪽으로 (toward)"}, {"part": "venue(vent)", "mean": "오다 (come)"}],
+      "origin": "~쪽으로 오는 길 → 대로",
+      "examples": [
+        {"en": "Fifth Avenue in New York is one of the most expensive and elegant shopping districts in the world.", "ko": "뉴욕의 5번가는 세계에서 가장 비싸고 고상한 쇼핑구역 중 하나다."}
+      ]
     },
     {
       "en": "convenient",
       "ipa": "/kənˈviːniənt/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "편리한"
-          ]
-        }
+      "meanings": [{"pos": "형", "defs": ["편리한, 사용하기 쉬운", "(장소가) 가까운"]}],
+      "parts": [{"part": "con-(com-)", "mean": "함께 (together)"}, {"part": "ven(vent)", "mean": "오다 (come)"}, {"part": "-ient", "mean": "형용사형 접미사"}],
+      "origin": "함께 잘 맞아오는 → 편리한",
+      "antonyms": ["inconvenient"],
+      "derivatives": [
+        {"en": "convenience", "pos": "명", "defs": ["편리(한 물건), 편의"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "ven(vent)",
-          "mean": "오다 (come)"
-        },
-        {
-          "part": "-ient",
-          "mean": "형용사형 접미사"
-        }
+      "phrases": [
+        {"en": "a convenience store", "ko": "편의점"},
+        {"en": "at one's earliest convenience", "ko": "가급적 빨리, 형편이 되는 대로"}
       ],
-      "origin": "함께 잘 맞아오는 → 편리한"
+      "examples": [
+        {"en": "We will call you to arrange a convenient delivery time.", "ko": "편리한 배송 시간을 조율해 드리기 위해 전화를 드릴 예정입니다.", "source": "모의"},
+        {"en": "It is a great convenience to have the doctor living nearby.", "ko": "가까이에 의사가 살고 있어 매우 편리하다."}
+      ]
     },
     {
       "en": "souvenir",
       "ipa": "/ˌsuːvəˈnɪr/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "기념품"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "sou-(sub-)",
-          "mean": "아래에서 (under)"
-        },
-        {
-          "part": "venir(vent)",
-          "mean": "오다 (come)"
-        }
-      ],
-      "origin": "마음 아래에서 떠오르는 것 → 기념품"
+      "meanings": [{"pos": "명", "defs": ["기념품, 기념 선물"]}],
+      "parts": [{"part": "sou-(sub-)", "mean": "아래에서 (under)"}, {"part": "venir(vent)", "mean": "오다 (come)"}],
+      "origin": "마음 아래에서 떠오르는 것 → 기념품",
+      "examples": [
+        {"en": "Visitors can buy souvenirs and local crafts at the shop.", "ko": "관람객들은 상점에서 기념품과 현지 공예품을 살 수 있다.", "source": "모의"}
+      ]
     },
     {
       "en": "medium",
       "ipa": "/ˈmiːdiəm/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "매체",
-            "수단"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "중간의"
-          ]
-        }
+        {"pos": "명", "defs": ["(복수형 media 또는 mediums) (전달 등의) 매체, 수단; 매개(물)"]},
+        {"pos": "형", "defs": ["중간의", "(고기 따위가) 중간 정도로 구워진"]}
       ],
-      "parts": [
-        {
-          "part": "medi",
-          "mean": "중간 (middle)"
-        },
-        {
-          "part": "-um",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "중간의 것 → 매체, 수단"
+      "parts": [{"part": "medi", "mean": "중간 (middle)"}, {"part": "-um", "mean": "명사형 접미사"}],
+      "origin": "중간의 것 → 매체, 수단",
+      "examples": [
+        {"en": "Which medium of communication do you prefer?", "ko": "어떤 통신 매체를 선호하세요?"},
+        {"en": "A: How would you like your steak?\nB: Medium[Well-done/Rare], please.", "ko": "A: 스테이크를 어떻게 해드릴까요?\nB: 중간 정도로[완전히/살짝] 익혀주세요."}
+      ]
     },
     {
       "en": "medieval",
       "ipa": "/ˌmiːdiˈiːvl/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "중세의"
-          ]
-        }
+      "meanings": [{"pos": "형", "defs": ["중세의, 중세풍의"]}],
+      "parts": [{"part": "medi", "mean": "중간 (middle)"}, {"part": "ev", "mean": "시대 (age)"}, {"part": "-al", "mean": "형용사형 접미사"}],
+      "origin": "중간 시대의 → 중세의",
+      "phrases": [
+        {"en": "medieval time[period]", "ko": "중세 시대"}
       ],
-      "parts": [
-        {
-          "part": "medi",
-          "mean": "중간 (middle)"
-        },
-        {
-          "part": "ev",
-          "mean": "시대 (age)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "중간 시대의 → 중세의"
+      "examples": [
+        {"en": "The castle was built in the medieval period and still stands today.", "ko": "그 성은 중세 시대에 세워졌고, 오늘날에도 서 있다."}
+      ]
     },
     {
       "en": "mediate",
       "ipa": "/ˈmiːdieɪt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "중재하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["조정하다, 중재하다, 화해시키다"]}],
+      "parts": [{"part": "medi", "mean": "중간 (middle)"}, {"part": "-ate", "mean": "동사형 접미사"}],
+      "origin": "중간에서 하다 → 중재하다",
+      "synonyms": ["intervene"],
+      "derivatives": [
+        {"en": "mediation", "pos": "명", "defs": ["조정, 중재, 매개"]},
+        {"en": "mediator", "pos": "명", "defs": ["조정인, 중재인, 매개자"]}
       ],
-      "parts": [
-        {
-          "part": "medi",
-          "mean": "중간 (middle)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
-      ],
-      "origin": "중간에서 하다 → 중재하다"
+      "examples": [
+        {"en": "My friend is trying to mediate problems among other students.", "ko": "내 친구는 다른 학생들 사이의 문제를 조정하려고 노력하고 있다."},
+        {"en": "A mediator who \"takes sides\" is likely to lose all credibility.", "ko": "'편을 드는' 중재자는 모든 신뢰를 잃기 쉽다.", "source": "수능"}
+      ]
     },
     {
       "en": "immediate",
       "ipa": "/ɪˈmiːdiət/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "즉각적인",
-            "시급한"
-          ]
-        }
+      "meanings": [{"pos": "형", "defs": ["즉시의, 즉각의", "시급한, 당면한"]}],
+      "parts": [{"part": "im-(in-)", "mean": "~이 아닌 (not)"}, {"part": "medi", "mean": "중간 (middle)"}, {"part": "-ate", "mean": "형용사형 접미사"}],
+      "origin": "중간이 없는 → 즉각적인",
+      "synonyms": ["instant", "prompt", "current"],
+      "derivatives": [
+        {"en": "immediately", "pos": "부", "defs": ["즉시, 곧"]}
       ],
-      "parts": [
-        {
-          "part": "im-(in-)",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "medi",
-          "mean": "중간 (middle)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "중간이 없는 → 즉각적인"
+      "examples": [
+        {"en": "They urged immediate action to solve this problem.", "ko": "그들은 이 문제를 해결하기 위한 즉각적인 조치를 촉구했다.", "source": "수능"},
+        {"en": "I left immediately after I heard the news.", "ko": "나는 그 소식을 듣자마자 즉시 떠났다."}
+      ]
     },
     {
       "en": "intermediate",
       "ipa": "/ˌɪntərˈmiːdiət/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "중간의"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "중급자"
-          ]
-        }
+        {"pos": "형", "defs": ["중간의, 중간 단계의", "중급의"]},
+        {"pos": "명", "defs": ["(학생·선수 등) 중급자"]}
       ],
-      "parts": [
-        {
-          "part": "inter-",
-          "mean": "사이에 (between)"
-        },
-        {
-          "part": "medi",
-          "mean": "중간 (middle)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "사이 중간의 → 중간의"
+      "parts": [{"part": "inter-", "mean": "사이에 (between)"}, {"part": "medi", "mean": "중간 (middle)"}, {"part": "-ate", "mean": "형용사형 접미사"}],
+      "origin": "사이 중간의 → 중간의",
+      "examples": [
+        {"en": "Did you sign up for the intermediate course this month?", "ko": "당신은 이번 달에 중급 과정에 등록하셨습니까?"}
+      ]
     },
     {
       "en": "mean",
       "ipa": "/miːn/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "의미하다"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "비열한"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "평균"
-          ]
-        }
+        {"pos": "동", "defs": ["의미하다", "의도하다"]},
+        {"pos": "형", "defs": ["비열한, 못된, 심술궂은", "(BrE) 인색한", "(신분이) 천한, 초라한", "평균의"]},
+        {"pos": "명", "defs": ["평균"]}
       ],
-      "parts": [
-        {
-          "part": "mean(medi)",
-          "mean": "중간 (middle)"
-        }
+      "parts": [{"part": "mean(medi)", "mean": "중간 (middle)"}],
+      "origin": "중간의 → 평균 / 의미하다",
+      "synonyms": ["cruel", "stingy", "average"],
+      "antonyms": ["generous"],
+      "derivatives": [
+        {"en": "meaning", "pos": "명", "defs": ["의미, 뜻"]},
+        {"en": "means", "pos": "명", "defs": ["(단·복수 취급) 수단, 방법"]}
       ],
-      "origin": "중간의 → 평균 / 의미하다"
+      "phrases": [
+        {"en": "by no means …", "ko": "결코 …이 아니다 (= not … at all)"}
+      ],
+      "examples": [
+        {"en": "What does this symbol mean in your culture?", "ko": "이 기호는 너희 문화에서 무엇을 의미하니?"},
+        {"en": "Poetry is considered to be an easy and useful means of expressing emotions.", "ko": "시는 감정을 표현하는 데 있어 쉽고 유용한 수단으로 여겨진다.", "source": "모의"},
+        {"en": "This is by no means an excuse for skipping class.", "ko": "이건 결코 수업을 빠지는 이유가 될 수 없어."}
+      ]
     },
     {
       "en": "meanwhile",
       "ipa": "/ˈmiːnwaɪl/",
-      "meanings": [
-        {
-          "pos": "부",
-          "defs": [
-            "그동안에",
-            "한편"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "mean(medi)",
-          "mean": "중간 (middle)"
-        },
-        {
-          "part": "while",
-          "mean": "동안 (while)"
-        }
-      ],
-      "origin": "중간 시간 동안 → 그동안에"
+      "meanings": [{"pos": "부", "defs": ["그동안에, 그 사이에", "한편으로는"]}],
+      "parts": [{"part": "mean(medi)", "mean": "중간 (middle)"}, {"part": "while", "mean": "동안 (while)"}],
+      "origin": "중간 시간 동안 → 그동안에",
+      "synonyms": ["in the meanwhile", "meantime"],
+      "examples": [
+        {"en": "I'll be back soon. Meanwhile, why not get some rest?", "ko": "곧 돌아올게. 그동안 좀 쉬는 게 어때?"}
+      ]
     },
     {
       "en": "midst",
       "ipa": "/mɪdst/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "중앙",
-            "한가운데"
-          ]
-        }
+      "meanings": [{"pos": "명", "defs": ["중앙, 한가운데"]}],
+      "parts": [{"part": "mid(medi)", "mean": "중간 (middle)"}, {"part": "-st", "mean": "최상급 접미사"}],
+      "origin": "가장 중간 → 한가운데",
+      "phrases": [
+        {"en": "in the midst of", "ko": "…의 한가운데에"}
       ],
-      "parts": [
-        {
-          "part": "mid(medi)",
-          "mean": "중간 (middle)"
-        },
-        {
-          "part": "-st",
-          "mean": "최상급 접미사"
-        }
-      ],
-      "origin": "가장 중간 → 한가운데"
+      "examples": [
+        {"en": "The country is in the midst of major economic change.", "ko": "그 나라는 큰 경제적 변화의 한가운데에 있다."}
+      ]
     }
   ]
 }

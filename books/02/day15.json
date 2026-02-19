@@ -3,607 +3,304 @@
   "words": [
     {
       "en": "abstract",
-      "ipa": "/ˈæbstrækt/",
+      "ipa": "/ˈæbstrækt/ · /æbˈstrækt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "추상적인"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "요약"
-          ]
-        }
+        {"pos": "형", "defs": ["추상적인", "이론적인"]},
+        {"pos": "동", "defs": ["추출하다", "요약하다"]},
+        {"pos": "명", "defs": ["추상", "요약, 발췌"]}
       ],
-      "parts": [
-        {
-          "part": "abs-(ab-)",
-          "mean": "떨어져 (away)"
-        },
-        {
-          "part": "tract",
-          "mean": "끌다 (draw, pull)"
-        }
-      ],
-      "origin": "떨어져 끌어내다 → 추상적인"
+      "parts": [{"part": "abs-(ab-)", "mean": "떨어져 (away)"}, {"part": "tract", "mean": "끌다 (draw, pull)"}],
+      "origin": "떨어져 끌어내다 → 추상적인",
+      "antonyms": ["concrete", "theoretical", "practical"],
+      "examples": [
+        {"en": "A robot might not get the idea of friendship because it is an abstract concept.", "ko": "우정은 추상적인 개념이기 때문에, 로봇은 그 의미를 이해하지 못할 수 있다.", "source": "교과서"},
+        {"en": "We've abstracted the data from the experiment.", "ko": "우리는 그 실험에서 데이터를 추출했다."}
+      ]
     },
     {
       "en": "attract",
       "ipa": "/əˈtrækt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "끌어당기다",
-            "매혹하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["(주의·흥미 등을) 끌다, 끌어당기다, 매혹하다"]}],
+      "parts": [{"part": "at-(ad-)", "mean": "~쪽으로 (toward)"}, {"part": "tract", "mean": "끌다 (draw, pull)"}],
+      "origin": "~쪽으로 끌다 → 끌어당기다",
+      "derivatives": [
+        {"en": "attractive", "pos": "형", "defs": ["매력적인, 마음을 끄는"]},
+        {"en": "attraction", "pos": "명", "defs": ["매력", "명소, 명물"]}
       ],
-      "parts": [
-        {
-          "part": "at-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "tract",
-          "mean": "끌다 (draw, pull)"
-        }
-      ],
-      "origin": "~쪽으로 끌다 → 끌어당기다"
+      "examples": [
+        {"en": "Small companies can't attract big investors.", "ko": "소규모 회사들은 큰 투자자들을 끌어들이기 어렵다.", "source": "교과서"},
+        {"en": "Her dark eyes are very attractive.", "ko": "그녀의 짙은 눈동자는 아주 매력적이다."}
+      ]
     },
     {
       "en": "contract",
-      "ipa": "/ˈkɑːntrækt/",
+      "ipa": "/kənˈtrækt/ · /ˈkɑːntrækt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "계약(서)"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "수축하다",
-            "병에 걸리다"
-          ]
-        }
+        {"pos": "동", "defs": ["계약을 맺다", "수축하다, 줄다; 수축시키다, 줄이다", "병에 걸리다"]},
+        {"pos": "명", "defs": ["계약(서)"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "tract",
-          "mean": "끌다 (draw)"
-        }
-      ],
-      "origin": "함께 끌어 묶다 → 계약"
+      "parts": [{"part": "con-(com-)", "mean": "함께 (together)"}, {"part": "tract", "mean": "끌다 (draw)"}],
+      "origin": "함께 끌어 묶다 → 계약",
+      "synonyms": ["agreement"],
+      "antonyms": ["expand"],
+      "derivatives": [{"en": "contraction", "pos": "명", "defs": ["수축, 축소"]}],
+      "examples": [
+        {"en": "Wood expands when wet and contracts when dry.", "ko": "목재는 젖으면 팽창하고, 마르면 수축한다."}
+      ]
     },
     {
       "en": "distract",
       "ipa": "/dɪˈstrækt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "산만하게 하다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "dis-",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "tract",
-          "mean": "끌다 (draw)"
-        }
-      ],
-      "origin": "다른 곳으로 끌다 → 산만하게 하다"
+      "meanings": [{"pos": "동", "defs": ["(마음·주의 등을) 흐트러뜨리다, 산만하게 하다"]}],
+      "parts": [{"part": "dis-", "mean": "떨어져 (apart)"}, {"part": "tract", "mean": "끌다 (draw)"}],
+      "origin": "다른 곳으로 끌다 → 산만하게 하다",
+      "synonyms": ["divert"],
+      "derivatives": [{"en": "distraction", "pos": "명", "defs": ["주의 산만, 정신이 흐트러짐", "기분 전환, 오락 활동"]}],
+      "examples": [{"en": "If you want to concentrate on your work, delete the apps that distract you.", "ko": "일에 집중하고 싶다면, 너를 방해하는 앱들을 삭제해라.", "source": "모의"}]
     },
     {
       "en": "extract",
-      "ipa": "/ɪkˈstrækt/",
+      "ipa": "/ɪkˈstrækt/ · /ˈekstrækt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "추출하다",
-            "뽑아내다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "발췌"
-          ]
-        }
+        {"pos": "동", "defs": ["뽑아내다, 추출하다", "발췌하다"]},
+        {"pos": "명", "defs": ["추출물", "발췌"]}
       ],
-      "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "tract",
-          "mean": "끌다 (draw)"
-        }
-      ],
-      "origin": "밖으로 끌어내다 → 추출하다"
+      "parts": [{"part": "ex-", "mean": "밖으로 (out)"}, {"part": "tract", "mean": "끌다 (draw)"}],
+      "origin": "밖으로 끌어내다 → 추출하다",
+      "derivatives": [{"en": "extraction", "pos": "명", "defs": ["추출 (과정)"]}],
+      "examples": [{"en": "Oil is extracted from deep underground.", "ko": "석유는 깊은 지하에서 뽑아낸다."}]
     },
     {
       "en": "treat",
       "ipa": "/triːt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "대우하다",
-            "치료하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "한턱"
-          ]
-        }
+        {"pos": "동", "defs": ["대(우)하다, 다루다", "치료하다", "대접하다, 한턱내다"]},
+        {"pos": "명", "defs": ["특별한 것[선물]", "대접, 한턱"]}
       ],
-      "parts": [
-        {
-          "part": "treat(tract)",
-          "mean": "끌다, 다루다 (draw, handle)"
-        }
-      ],
-      "origin": "다루다 → 대우하다, 치료하다"
+      "parts": [{"part": "treat(tract)", "mean": "끌다, 다루다 (draw, handle)"}],
+      "origin": "다루다 → 대우하다, 치료하다",
+      "synonyms": ["deal with"],
+      "derivatives": [{"en": "treatment", "pos": "명", "defs": ["치료", "대우, 처우"]}],
+      "examples": [
+        {"en": "You always listen to others carefully and treat people kindly.", "ko": "너는 항상 다른 사람들의 말을 주의 깊게 들어주고, 친절하게 대해줘.", "source": "교과서"},
+        {"en": "I'll treat you this time.", "ko": "이번에는 제가 대접할게요[한턱낼게요]."},
+        {"en": "The best treatment for the virus is prevention.", "ko": "가장 좋은 바이러스 치료법은 예방이다."}
+      ]
     },
     {
       "en": "treaty",
       "ipa": "/ˈtriːti/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "조약",
-            "협정"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "treat(tract)",
-          "mean": "다루다 (handle)"
-        },
-        {
-          "part": "-y",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "다루어 합의한 것 → 조약"
+      "meanings": [{"pos": "명", "defs": ["(국가 간의) 조약, 협정"]}],
+      "parts": [{"part": "treat(tract)", "mean": "다루다 (handle)"}, {"part": "-y", "mean": "명사형 접미사"}],
+      "origin": "다루어 합의한 것 → 조약",
+      "examples": [{"en": "That trade treaty was signed by five countries.", "ko": "그 무역 협정은 5개국에 의해서 체결되었다."}]
     },
     {
       "en": "retreat",
       "ipa": "/rɪˈtriːt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "후퇴하다",
-            "철수하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "휴양지"
-          ]
-        }
+        {"pos": "동", "defs": ["후퇴하다, 물러서다", "(생각·결정·태도 등을) 철회하다, 바꾸다"]},
+        {"pos": "명", "defs": ["후퇴, 퇴각", "철회"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "뒤로 (back)"
-        },
-        {
-          "part": "treat(tract)",
-          "mean": "끌다 (draw)"
-        }
-      ],
-      "origin": "뒤로 끌다 → 후퇴하다"
+      "parts": [{"part": "re-", "mean": "뒤로 (back)"}, {"part": "treat(tract)", "mean": "끌다 (draw)"}],
+      "origin": "뒤로 끌다 → 후퇴하다",
+      "synonyms": ["withdraw"],
+      "antonyms": ["advance"],
+      "examples": [{"en": "The troops could neither advance nor retreat.", "ko": "그 군대는 전진하지도 후퇴하지도 못했다."}]
     },
     {
       "en": "trace",
       "ipa": "/treɪs/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "흔적"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "추적하다"
-          ]
-        }
+        {"pos": "동", "defs": ["추적하다, 자국을 따라가다", "(유래·출처·원인 등을) 밝혀내다, 알아내다"]},
+        {"pos": "명", "defs": ["자국, 자취"]}
       ],
-      "parts": [
-        {
-          "part": "trace(tract)",
-          "mean": "끌다, 끌린 자국 (draw, track)"
-        }
-      ],
-      "origin": "끌린 자국 → 흔적, 추적하다"
+      "parts": [{"part": "trace(tract)", "mean": "끌다, 끌린 자국 (draw, track)"}],
+      "origin": "끌린 자국 → 흔적, 추적하다",
+      "examples": [
+        {"en": "She traced the suspect.", "ko": "그녀는 용의자를 추적했다."},
+        {"en": "The island vanished without a trace.", "ko": "그 섬은 흔적도 없이 사라졌다."}
+      ]
     },
     {
       "en": "track",
       "ipa": "/træk/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "길",
-            "자국"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "추적하다"
-          ]
-        }
+        {"pos": "명", "defs": ["통로, 오솔길", "지나간 자국, 흔적", "철도, 선로", "경주로, 트랙"]},
+        {"pos": "동", "defs": ["자취를 따라가다"]}
       ],
-      "parts": [
-        {
-          "part": "track(tract)",
-          "mean": "끌다, 끌린 자국 (draw, path)"
-        }
+      "parts": [{"part": "track(tract)", "mean": "끌다, 끌린 자국 (draw, path)"}],
+      "origin": "끌린 자국 → 길, 추적하다",
+      "synonyms": ["trace"],
+      "phrases": [
+        {"en": "lose track of", "ko": "~을 놓치다, ~을 잊다"},
+        {"en": "keep track of", "ko": "~을 기록하다, ~의 동향을[정보를] 파악하다, ~을 놓치지 않다, 추적하다"}
       ],
-      "origin": "끌린 자국 → 길, 추적하다"
+      "examples": [{"en": "I tracked the rabbit through the woods, but I eventually lost track of it.", "ko": "나는 숲속으로 토끼를 추적하려 갔지만, 결국 놓쳤다."}]
     },
     {
       "en": "trail",
       "ipa": "/treɪl/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "오솔길",
-            "자국"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "끌다"
-          ]
-        }
+        {"pos": "동", "defs": ["질질 끌다; 끌리다", "추적하다, 흔적을 쫓다"]},
+        {"pos": "명", "defs": ["오솔길, 작은 길", "자국, 흔적, 실마리"]}
       ],
-      "parts": [
-        {
-          "part": "trail(tract)",
-          "mean": "끌다 (draw, drag)"
-        }
-      ],
-      "origin": "끌려간 자국 → 오솔길"
+      "parts": [{"part": "trail(tract)", "mean": "끌다 (draw, drag)"}],
+      "origin": "끌려간 자국 → 오솔길",
+      "examples": [
+        {"en": "Her long dress was trailing on the floor.", "ko": "그녀의 긴 원피스는 바닥에 질질 끌리고 있었다."},
+        {"en": "While walking along the trail, we encountered a bear.", "ko": "오솔길을 따라 걷던 중, 우리는 곰을 만났다.", "source": "교과서"}
+      ]
     },
     {
       "en": "trait",
       "ipa": "/treɪt/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "특징",
-            "특성"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "trait(tract)",
-          "mean": "끌다, 끌어내다 (draw)"
-        }
-      ],
-      "origin": "끌어낸 특질 → 특징"
+      "meanings": [{"pos": "명", "defs": ["특성, 특징"]}],
+      "parts": [{"part": "trait(tract)", "mean": "끌다, 끌어내다 (draw)"}],
+      "origin": "끌어낸 특질 → 특징",
+      "synonyms": ["characteristic", "feature", "attribute"],
+      "examples": [{"en": "There are personality traits and characteristics commonly associated with entrepreneurs.", "ko": "기업가들과 자주 연관되는 성격 특성과 특징들이 있다.", "source": "모의"}]
     },
     {
       "en": "portray",
       "ipa": "/pɔːrˈtreɪ/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "묘사하다",
-            "그리다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "por-(pro-)",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "tray(tract)",
-          "mean": "끌다 (draw)"
-        }
-      ],
-      "origin": "앞으로 끌어내어 그리다 → 묘사하다"
+      "meanings": [{"pos": "동", "defs": ["묘사하다, 표현하다"]}],
+      "parts": [{"part": "por-(pro-)", "mean": "앞으로 (forward)"}, {"part": "tray(tract)", "mean": "끌다 (draw)"}],
+      "origin": "앞으로 끌어내어 그리다 → 묘사하다",
+      "synonyms": ["describe", "depict"],
+      "derivatives": [{"en": "portrait", "pos": "명", "defs": ["초상화, 인물 사진", "(대상에 대한 상세한) 묘사"]}],
+      "examples": [
+        {"en": "The portrait portrays him as strong and noble.", "ko": "그 초상화는 그를 강인하고 기품있게 묘사하고 있다."},
+        {"en": "Smiling can portray confidence and warmth.", "ko": "미소는 자신감과 따뜻함을 표현할 수 있다.", "source": "모의"}
+      ]
     },
     {
       "en": "generate",
       "ipa": "/ˈdʒenəreɪt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "발생시키다",
-            "일으키다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "gener",
-          "mean": "낳다, 생성하다 (birth, produce)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
-      ],
-      "origin": "낳다, 만들어내다 → 발생시키다"
+      "meanings": [{"pos": "동", "defs": ["생산[창출]하다, 일으키다", "(전기 등을) 발생시키다"]}],
+      "parts": [{"part": "gener", "mean": "낳다, 생성하다 (birth, produce)"}, {"part": "-ate", "mean": "동사형 접미사"}],
+      "origin": "낳다, 만들어내다 → 발생시키다",
+      "synonyms": ["produce", "create"],
+      "derivatives": [{"en": "generation", "pos": "명", "defs": ["세대, 일대(一代)", "발생"]}],
+      "examples": [
+        {"en": "The project generated high profits.", "ko": "그 사업은 높은 수익을 창출했다."},
+        {"en": "This tradition has been passed down from generation to generation.", "ko": "이 전통은 세대에서 세대로 전해져 내려왔다."}
+      ]
     },
     {
       "en": "generous",
       "ipa": "/ˈdʒenərəs/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "관대한",
-            "풍부한"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "gener",
-          "mean": "태생, 종족 (birth, race)"
-        },
-        {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "좋은 태생의 → 관대한"
+      "meanings": [{"pos": "형", "defs": ["(성품이) 관대한, 인색하지 않은", "(크기·양 등이) 풍부한"]}],
+      "parts": [{"part": "gener", "mean": "태생, 종족 (birth, race)"}, {"part": "-ous", "mean": "형용사형 접미사"}],
+      "origin": "좋은 태생의 → 관대한",
+      "antonyms": ["stingy", "mean"],
+      "derivatives": [{"en": "generosity", "pos": "명", "defs": ["관대함, 인심이 좋음"]}],
+      "examples": [{"en": "Tom is very generous as he always shares his things with others.", "ko": "Tom은 항상 그의 것을 다른 사람과 함께 사용하기에 정말 너그럽다."}]
     },
     {
       "en": "general",
       "ipa": "/ˈdʒenrəl/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "일반적인"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "장군"
-          ]
-        }
+        {"pos": "형", "defs": ["일반적인, 보편적인", "대체적인, 대략적인", "전체적인, 전반적인"]},
+        {"pos": "명", "defs": ["장군, 장성, 대장"]}
       ],
-      "parts": [
-        {
-          "part": "gener",
-          "mean": "종류, 종족 (kind, race)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "gener", "mean": "종류, 종족 (kind, race)"}, {"part": "-al", "mean": "형용사형 접미사"}],
+      "origin": "모든 종류에 걸친 → 일반적인",
+      "synonyms": ["common", "universal"],
+      "antonyms": ["specific", "whole", "overall"],
+      "derivatives": [
+        {"en": "generally", "pos": "부", "defs": ["일반적으로, 대개"]},
+        {"en": "generalize", "pos": "동", "defs": ["일반화하다"]}
       ],
-      "origin": "모든 종류에 걸친 → 일반적인"
+      "examples": [
+        {"en": "My general impression of him was good.", "ko": "그에 대한 전반적인 인상은 좋았다."},
+        {"en": "Generally speaking, electric cars are better for the environment.", "ko": "일반적으로, 전기차가 환경에 더 좋다."}
+      ]
     },
     {
       "en": "gender",
       "ipa": "/ˈdʒendər/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "성별"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "gen(gener)",
-          "mean": "낳다, 종류 (birth, kind)"
-        },
-        {
-          "part": "-der",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "태어난 종류 → 성별"
+      "meanings": [{"pos": "명", "defs": ["성, 성별"]}],
+      "parts": [{"part": "gen(gener)", "mean": "낳다, 종류 (birth, kind)"}, {"part": "-der", "mean": "명사형 접미사"}],
+      "origin": "태어난 종류 → 성별",
+      "derivatives": [{"en": "genderless", "pos": "형", "defs": ["성별 구분이 없는"]}],
+      "examples": [
+        {"en": "The selection of leaders should be based on qualifications and aptitude, not on gender.", "ko": "지도자를 뽑는 것은 성별이 아니라 자격과 능력에 기반을 두어야 한다."},
+        {"en": "Most clothing nowadays is practically genderless.", "ko": "요즘 대부분의 옷은 사실상 성별 구분이 없다."}
+      ]
     },
     {
       "en": "gene",
       "ipa": "/dʒiːn/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "유전자"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "gen(gener)",
-          "mean": "낳다 (birth, produce)"
-        }
-      ],
-      "origin": "낳게 하는 것 → 유전자"
+      "meanings": [{"pos": "명", "defs": ["유전자"]}],
+      "parts": [{"part": "gen(gener)", "mean": "낳다 (birth, produce)"}],
+      "origin": "낳게 하는 것 → 유전자",
+      "examples": [{"en": "Characteristics like eye and hair color come from our genes.", "ko": "눈이나 머리카락의 색깔 같은 특징은 우리 유전자로 정해진다."}]
     },
     {
       "en": "genetic",
       "ipa": "/dʒəˈnetɪk/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "유전의"
-          ]
-        }
+      "meanings": [{"pos": "형", "defs": ["유전의; 유전학의"]}],
+      "parts": [{"part": "gen(gener)", "mean": "낳다 (birth)"}, {"part": "-etic", "mean": "형용사형 접미사"}],
+      "origin": "태어남과 관련된 → 유전의",
+      "derivatives": [
+        {"en": "genetics", "pos": "명", "defs": ["(단수 취급) 유전학"]},
+        {"en": "genetically", "pos": "부", "defs": ["유전적으로; 유전학적으로"]}
       ],
-      "parts": [
-        {
-          "part": "gen(gener)",
-          "mean": "낳다 (birth)"
-        },
-        {
-          "part": "-etic",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "태어남과 관련된 → 유전의"
+      "examples": [
+        {"en": "Genetic engineering can cure some fatal diseases.", "ko": "유전자 공학은 몇몇 치명적인 질병을 치료할 수 있다.", "source": "모의"},
+        {"en": "Certain diseases are genetically inherited from parents.", "ko": "어떤 질병들은 유전적으로 부모로부터 물려받는다."}
+      ]
     },
     {
       "en": "genius",
       "ipa": "/ˈdʒiːniəs/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "천재(성)"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "gen(gener)",
-          "mean": "낳다, 태어나다 (birth)"
-        },
-        {
-          "part": "-ius",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "타고난 재능 → 천재"
+      "meanings": [{"pos": "명", "defs": ["(복수형 geniuses) 천재(적 재능)"]}],
+      "parts": [{"part": "gen(gener)", "mean": "낳다, 태어나다 (birth)"}, {"part": "-ius", "mean": "명사형 접미사"}],
+      "origin": "타고난 재능 → 천재",
+      "antonyms": ["idiot"],
+      "examples": [{"en": "Genius displays itself even in childhood.", "ko": "[속담] 될성부른 나무는 떡잎부터 알아본다."}]
     },
     {
       "en": "gentle",
       "ipa": "/ˈdʒentl/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "부드러운",
-            "온화한"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "gen(gener)",
-          "mean": "태생, 종족 (birth, race)"
-        },
-        {
-          "part": "-tle",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "좋은 태생의 → 부드러운, 온화한"
+      "meanings": [{"pos": "형", "defs": ["온화한, 상냥한, 친절한", "적당한, 부드러운, 완만한"]}],
+      "parts": [{"part": "gen(gener)", "mean": "태생, 종족 (birth, race)"}, {"part": "-tle", "mean": "형용사형 접미사"}],
+      "origin": "좋은 태생의 → 부드러운, 온화한",
+      "derivatives": [{"en": "gently", "pos": "부", "defs": ["다정하게, 부드럽게"]}],
+      "examples": [{"en": "Max awoke to the gentle sunlight of an autumn day.", "ko": "Max는 가을날의 부드러운 햇살에 잠에서 깼다.", "source": "모의"}]
     },
     {
       "en": "genuine",
       "ipa": "/ˈdʒenjuɪn/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "진짜의",
-            "진실된"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "gen(gener)",
-          "mean": "낳다, 태생 (birth)"
-        },
-        {
-          "part": "-uine",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "태어날 때부터의 → 진짜의"
+      "meanings": [{"pos": "형", "defs": ["진짜의, 진품의", "진실된, 진정한"]}],
+      "parts": [{"part": "gen(gener)", "mean": "낳다, 태생 (birth)"}, {"part": "-uine", "mean": "형용사형 접미사"}],
+      "origin": "태어날 때부터의 → 진짜의",
+      "synonyms": ["authentic"],
+      "antonyms": ["fake", "counterfeit", "sincere"],
+      "examples": [{"en": "Who can say whether this information is genuine or fake?", "ko": "이 정보의 진위 여부를 누가 말할 수 있는가?"}]
     },
     {
       "en": "congenital",
       "ipa": "/kənˈdʒenɪtl/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "선천적인"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "genit(gener)",
-          "mean": "낳다 (birth)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "태어남과 함께 있는 → 선천적인"
+      "meanings": [{"pos": "형", "defs": ["(병·장애 등이) 선천적인", "(기질·특성 등이) 타고난, 천성의"]}],
+      "parts": [{"part": "con-(com-)", "mean": "함께 (together)"}, {"part": "genit(gener)", "mean": "낳다 (birth)"}, {"part": "-al", "mean": "형용사형 접미사"}],
+      "origin": "태어남과 함께 있는 → 선천적인",
+      "synonyms": ["inborn"],
+      "antonyms": ["acquired"],
+      "examples": [
+        {"en": "The disease is congenital but treatable.", "ko": "그 병은 선천적이지만 치료 가능하다."},
+        {"en": "He's a congenital liar — he lies without even thinking.", "ko": "그는 타고난 거짓말쟁이다 — 생각도 않고 거짓말을 한다."}
+      ]
     },
     {
       "en": "pregnant",
       "ipa": "/ˈpreɡnənt/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "임신한"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "pre-",
-          "mean": "미리 (before)"
-        },
-        {
-          "part": "gn(gener)",
-          "mean": "낳다 (birth)"
-        },
-        {
-          "part": "-ant",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "낳기 전의 상태 → 임신한"
+      "meanings": [{"pos": "형", "defs": ["임신한", "(의미·중요성 등을) 품은, 내포하고 있는"]}],
+      "parts": [{"part": "pre-", "mean": "미리 (before)"}, {"part": "gn(gener)", "mean": "낳다 (birth)"}, {"part": "-ant", "mean": "형용사형 접미사"}],
+      "origin": "낳기 전의 상태 → 임신한",
+      "derivatives": [{"en": "pregnancy", "pos": "명", "defs": ["임신"]}],
+      "examples": [{"en": "She is seven months pregnant.", "ko": "그녀는 임신 7개월이다."}]
     }
   ]
 }

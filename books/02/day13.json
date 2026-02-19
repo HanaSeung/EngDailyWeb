@@ -5,590 +5,479 @@
       "en": "assist",
       "ipa": "/əˈsɪst/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "돕다",
-            "조력하다"
-          ]
-        }
+        {"pos": "동", "defs": ["돕다, 거들다, 원조하다"]},
+        {"pos": "명", "defs": ["[스포츠] 어시스트 (공을 동료에게 패스하여 득점을 돕는 행위)"]}
       ],
       "parts": [
-        {
-          "part": "as-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "sist(sta)",
-          "mean": "서다 (stand)"
-        }
+        {"part": "as-(ad-)", "mean": "~쪽으로 (toward)"},
+        {"part": "sist(sta)", "mean": "서다 (stand)"}
       ],
-      "origin": "곁에 서다 → 돕다"
+      "origin": "곁에 서다 → 돕다",
+      "synonyms": ["help", "aid"],
+      "derivatives": [
+        {"en": "assistance", "pos": "명", "defs": ["보조, 도움"]},
+        {"en": "assistant", "pos": "명/형", "defs": ["보조자, 조수", "보조의, 하위 직급의"]}
+      ],
+      "examples": [
+        {"en": "The dog assisted the blind.", "ko": "그 개는 시각 장애인들을 도왔다."},
+        {"en": "It is a care center that houses more than 160 elderly residents who require assistance.", "ko": "이곳은 도움이 필요한 160명 이상의 노인들이 거주하는 요양 시설이다.", "source": "교과서"}
+      ]
     },
     {
       "en": "consist",
       "ipa": "/kənˈsɪst/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "(~으로) 구성되다",
-            "일치하다"
-          ]
-        }
+        {"pos": "동", "defs": ["(+in) (주요 특징 등이) ~에 존재하다, ~에 있다", "(+of) ~로 이루어지다, 구성되다"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "sist(sta)",
-          "mean": "서다 (stand)"
-        }
+        {"part": "con-(com-)", "mean": "함께 (together)"},
+        {"part": "sist(sta)", "mean": "서다 (stand)"}
       ],
-      "origin": "함께 서 있다 → 구성되다"
+      "origin": "함께 서 있다 → 구성되다",
+      "synonyms": ["be made up of", "be composed of", "comprise"],
+      "derivatives": [
+        {"en": "consistency", "pos": "명", "defs": ["(태도·수준 등의) 일관성"]},
+        {"en": "consistent", "pos": "형", "defs": ["시종일관한, 일관된", "(진술·의견 등이) 일치하는, 모순이 없는"]}
+      ],
+      "examples": [
+        {"en": "Happiness consists in being with people you love.", "ko": "행복은 사랑하는 사람들과 함께 있는 데 있다."},
+        {"en": "All natural sounds consist of constantly changing frequencies.", "ko": "모든 자연의 소리는 끊임없이 변하는 주파수들로 구성되어 있다.", "source": "수능"}
+      ]
     },
     {
       "en": "exist",
       "ipa": "/ɪɡˈzɪst/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "존재하다",
-            "생존하다"
-          ]
-        }
+        {"pos": "동", "defs": ["존재하다, 실재하다", "(어려운 상황에서) 생존하다"]}
       ],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "ist(sta)",
-          "mean": "서다 (stand)"
-        }
+        {"part": "ex-", "mean": "밖으로 (out)"},
+        {"part": "ist(sta)", "mean": "서다 (stand)"}
       ],
-      "origin": "밖으로 나와 서다 → 존재하다"
+      "origin": "밖으로 나와 서다 → 존재하다",
+      "synonyms": ["survive"],
+      "derivatives": [
+        {"en": "existence", "pos": "명", "defs": ["존재, 실재", "생존 (방식)"]}
+      ],
+      "examples": [
+        {"en": "If we exist without love, our existence is meaningless.", "ko": "만약 우리가 사랑 없이 살아간다면, 우리의 존재는 무의미하다."},
+        {"en": "We did use the phrase \"black-and-white\" before the existence of color photography.", "ko": "우리는 컬러 사진이 존재하기 전에도 '흑백'이라는 표현을 사용했다.", "source": "모의"}
+      ]
     },
     {
       "en": "insist",
       "ipa": "/ɪnˈsɪst/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "주장하다",
-            "고집하다"
-          ]
-        }
+        {"pos": "동", "defs": ["(특정 사실에 대해) 주장하다, 고집하다", "(+that) (강력히) 요구하다"]}
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "위에 (upon)"
-        },
-        {
-          "part": "sist(sta)",
-          "mean": "서다 (stand)"
-        }
+        {"part": "in-", "mean": "위에 (upon)"},
+        {"part": "sist(sta)", "mean": "서다 (stand)"}
       ],
-      "origin": "위에 단단히 서다 → 주장하다"
+      "origin": "위에 단단히 서다 → 주장하다",
+      "synonyms": ["assert", "contend", "demand"],
+      "derivatives": [
+        {"en": "insistence", "pos": "명", "defs": ["(강력한) 주장, 요구"]},
+        {"en": "insistent", "pos": "형", "defs": ["고집하는, 끈질긴"]}
+      ],
+      "phrases": [
+        {"en": "insist on N/v-ing", "ko": "~을 주장하다, 고집하다"},
+        {"en": "insist[suggest] that A (should)", "ko": "A가 ~할 것을 요구하다[제안하다]"}
+      ],
+      "examples": [
+        {"en": "Some students insist on doing their homework while watching TV or listening to loud music.", "ko": "몇몇 학생들은 TV를 보거나 큰 음악을 들으면서 숙제를 하겠다고 고집을 부린다.", "source": "모의"},
+        {"en": "She insisted that he wear his new suit to the party.", "ko": "그녀는 그에게 파티에서 새 정장을 입을 것을 요구했다."}
+      ]
     },
     {
       "en": "resist",
       "ipa": "/rɪˈzɪst/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "저항하다",
-            "견디다"
-          ]
-        }
+        {"pos": "동", "defs": ["~에 반대하다, 저항[반항]하다", "(유혹 등을) 견디다, 참다"]}
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "반대로 (back, against)"
-        },
-        {
-          "part": "sist(sta)",
-          "mean": "서다 (stand)"
-        }
+        {"part": "re-", "mean": "반대로 (back, against)"},
+        {"part": "sist(sta)", "mean": "서다 (stand)"}
       ],
-      "origin": "반대로 맞서 서다 → 저항하다"
+      "origin": "반대로 맞서 서다 → 저항하다",
+      "synonyms": ["oppose"],
+      "derivatives": [
+        {"en": "resistance", "pos": "명", "defs": ["저항 (운동), 반항, 반대"]},
+        {"en": "resistant", "pos": "형", "defs": ["(주로 +to) 견디는, 내성이 있는", "반대하는, 저항하는"]},
+        {"en": "irresistible", "pos": "형", "defs": ["저항할[억누를] 수 없는", "(못 견디게) 매력적인"]}
+      ],
+      "examples": [
+        {"en": "Athletes resist the temptation to win in a dishonest way.", "ko": "운동선수들은 부정직한 방법으로 이기려는 유혹에 저항한다.", "source": "모의"},
+        {"en": "This plant is resistant to cold.", "ko": "이 식물은 추위에 강하다."},
+        {"en": "These days, children find instant food irresistible.", "ko": "요즘 아이들은 인스턴트 식품에 대한 욕구를 억제할 수 없다."}
+      ]
     },
     {
       "en": "restore",
       "ipa": "/rɪˈstɔːr/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "복구하다",
-            "회복하다"
-          ]
-        }
+        {"pos": "동", "defs": ["회복하다, 회복시키다", "복원하다, 복구하다", "돌려주다"]}
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "store(sta)",
-          "mean": "세우다 (set up, store)"
-        }
+        {"part": "re-", "mean": "다시 (again)"},
+        {"part": "store(sta)", "mean": "세우다 (set up, store)"}
       ],
-      "origin": "다시 세우다 → 복구하다"
+      "origin": "다시 세우다 → 복구하다",
+      "synonyms": ["revive", "return"],
+      "derivatives": [
+        {"en": "restoration", "pos": "명", "defs": ["복원, 복구", "회복", "반환"]},
+        {"en": "restorative", "pos": "형", "defs": ["회복시키는"]},
+        {"en": "restorable", "pos": "형", "defs": ["회복할 수 있는"]}
+      ],
+      "examples": [
+        {"en": "Paying promptly will restore your membership to good standing.", "ko": "신속하게 (비용을) 지불하시면 귀하의 멤버십이 정상 상태로 회복될 것입니다.", "source": "모의"}
+      ]
     },
     {
       "en": "arrest",
       "ipa": "/əˈrest/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "체포하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "체포"
-          ]
-        }
+        {"pos": "명/동", "defs": ["체포(하다)"]}
       ],
       "parts": [
-        {
-          "part": "ar-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "rest(sta)",
-          "mean": "멈추다 (stop, stay)"
-        }
+        {"part": "ar-(ad-)", "mean": "~쪽으로 (toward)"},
+        {"part": "rest(sta)", "mean": "멈추다 (stop, stay)"}
       ],
-      "origin": "멈추게 하다 → 체포하다"
+      "origin": "멈추게 하다 → 체포하다",
+      "examples": [
+        {"en": "The suspect's arrest was the result of a long investigation.", "ko": "용의자의 체포는 오랜 조사 끝에 이루어진 결과였다."}
+      ]
     },
     {
       "en": "cost",
       "ipa": "/kɔːst/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "비용",
-            "희생"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "비용이 들다"
-          ]
-        }
+        {"pos": "명", "defs": ["비용, 값, 가격", "(시간·노력 등의) 희생, 손실"]},
+        {"pos": "동", "defs": ["(비용·대가가) 들다", "(시간·노력을) 요하다, (어떤 것을) 희생하다, 잃게 하다"]}
       ],
       "parts": [
-        {
-          "part": "co-(con-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "st(sta)",
-          "mean": "서다 (stand)"
-        }
+        {"part": "co-(con-)", "mean": "함께 (together)"},
+        {"part": "st(sta)", "mean": "서다 (stand)"}
       ],
-      "origin": "함께 서 있는(수반되는) 것 → 비용"
+      "origin": "함께 서 있는(수반되는) 것 → 비용",
+      "derivatives": [
+        {"en": "costly", "pos": "형", "defs": ["값비싼", "손실[희생]이 큰"]}
+      ],
+      "phrases": [
+        {"en": "at all costs", "ko": "무슨 수를 써서라도 (= at any cost)"}
+      ],
+      "examples": [
+        {"en": "Lewis made a costly mistake, which cost him his job.", "ko": "Lewis는 손실이 큰 실수를 해서, 그것 때문에 일자리를 잃었다."},
+        {"en": "Instructions should be followed at all costs.", "ko": "지침은 어떤 일이 있어도 준수되어야 한다.", "source": "모의"}
+      ]
     },
     {
       "en": "steady",
       "ipa": "/ˈstedi/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "꾸준한",
-            "안정된"
-          ]
-        }
+        {"pos": "형", "defs": ["꾸준한, 지속적인", "안정된, 흔들리지 않는"]}
       ],
       "parts": [
-        {
-          "part": "stead",
-          "mean": "자리, 장소 (place, stand)"
-        },
-        {
-          "part": "-y",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "stead", "mean": "자리, 장소 (place, stand)"},
+        {"part": "-y", "mean": "형용사형 접미사"}
       ],
-      "origin": "제자리에 서 있는 → 꾸준한, 안정된"
+      "origin": "제자리에 서 있는 → 꾸준한, 안정된",
+      "synonyms": ["stable"],
+      "derivatives": [
+        {"en": "steadily", "pos": "부", "defs": ["꾸준히"]},
+        {"en": "unsteady", "pos": "형", "defs": ["불안정한"]}
+      ],
+      "examples": [
+        {"en": "He has a steady job, and his wages are steadily rising.", "ko": "그는 안정된 일자리를 갖고 있고, 그의 월급은 꾸준히 오르고 있다."}
+      ]
     },
     {
       "en": "system",
       "ipa": "/ˈsɪstəm/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "체계",
-            "방식"
-          ]
-        }
+        {"pos": "명", "defs": ["체계, 체제, 방식, 시스템"]}
       ],
       "parts": [
-        {
-          "part": "sy-(syn-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "stem(sta)",
-          "mean": "세우다 (set up)"
-        }
+        {"part": "sy-(syn-)", "mean": "함께 (together)"},
+        {"part": "stem(sta)", "mean": "세우다 (set up)"}
       ],
-      "origin": "함께 세운 것 → 체계"
+      "origin": "함께 세운 것 → 체계",
+      "derivatives": [
+        {"en": "systematic", "pos": "형", "defs": ["조직적인, 체계적인"]},
+        {"en": "systematize", "pos": "동", "defs": ["조직화하다, 체계화하다"]},
+        {"en": "systemic", "pos": "형", "defs": ["조직의; 온몸의"]}
+      ],
+      "examples": [
+        {"en": "The way he works isn't very systematic.", "ko": "그가 일하는 방식은 그다지 체계적이지 않다."}
+      ]
     },
     {
       "en": "constitute",
       "ipa": "/ˈkɑːnstɪtuːt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "구성하다",
-            "제정하다"
-          ]
-        }
+        {"pos": "동", "defs": ["구성하다", "~로 간주되다", "(주로 수동태로) 설립하다, 제정하다"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "stitute(sta)",
-          "mean": "세우다 (set up)"
-        }
+        {"part": "con-(com-)", "mean": "함께 (together)"},
+        {"part": "stitute(sta)", "mean": "세우다 (set up)"}
       ],
-      "origin": "함께 세우다 → 구성하다"
+      "origin": "함께 세우다 → 구성하다",
+      "synonyms": ["make up", "establish"],
+      "derivatives": [
+        {"en": "constitution", "pos": "명", "defs": ["헌법 (고유명사로 쓰일 때 Constitution)", "체격, 체질", "구성, 구조, 조직"]}
+      ],
+      "examples": [
+        {"en": "Forty pages constitute the book's section on World War II.", "ko": "그 책의 2차 세계 대전에 대한 부분은 40페이지로 구성되어 있다."},
+        {"en": "Their actions constitute a clear threat.", "ko": "그들의 행동은 명백한 위협으로 간주된다."},
+        {"en": "Ecuador has become the first nation on Earth to put the rights of nature in its constitution.", "ko": "에콰도르는 지구상에서 자연의 권리를 헌법에 명시한 첫 번째 국가가 되었다.", "source": "모의"}
+      ]
     },
     {
       "en": "institute",
       "ipa": "/ˈɪnstɪtuːt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "학회",
-            "기관"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "도입하다"
-          ]
-        }
+        {"pos": "명", "defs": ["학회, 협회, 연구소"]},
+        {"pos": "동", "defs": ["(제도·절차 등을) 제정하다, 도입하다"]}
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "stitute(sta)",
-          "mean": "세우다 (set up)"
-        }
+        {"part": "in-", "mean": "안에 (in)"},
+        {"part": "stitute(sta)", "mean": "세우다 (set up)"}
       ],
-      "origin": "안에 세우다 → 기관, 도입하다"
+      "origin": "안에 세우다 → 기관, 도입하다",
+      "derivatives": [
+        {"en": "institution", "pos": "명", "defs": ["(병원·대학 등의) (공공) 기관[시설]", "(사회) 제도, 관례", "제정, 설립"]},
+        {"en": "institutional", "pos": "형", "defs": ["제도(상)의, 규정된", "기관의"]}
+      ],
+      "examples": [
+        {"en": "The university established an institute for Korean studies.", "ko": "그 대학은 한국학 연구소를 설립했다."},
+        {"en": "Research has shown that our decisions are influenced by various institutional practices.", "ko": "연구에 따르면, 우리의 결정은 다양한 제도적 관행에 영향을 받는 것으로 나타났다.", "source": "모의"}
+      ]
     },
     {
       "en": "substitute",
       "ipa": "/ˈsʌbstɪtuːt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "대용품",
-            "후보"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "대신하다"
-          ]
-        }
+        {"pos": "동", "defs": ["대체하다, 바꾸다", "(+for) (일 등을) 대신하다"]},
+        {"pos": "명", "defs": ["대용품, 대리인"]}
       ],
       "parts": [
-        {
-          "part": "sub-",
-          "mean": "아래에 (under)"
-        },
-        {
-          "part": "stitute(sta)",
-          "mean": "세우다 (set up)"
-        }
+        {"part": "sub-", "mean": "아래에 (under)"},
+        {"part": "stitute(sta)", "mean": "세우다 (set up)"}
       ],
-      "origin": "아래에서 대신 세우다 → 대신하다"
+      "origin": "아래에서 대신 세우다 → 대신하다",
+      "synonyms": ["replace"],
+      "derivatives": [
+        {"en": "substitution", "pos": "명", "defs": ["대리, 대체, 대용"]}
+      ],
+      "phrases": [
+        {"en": "substitute A for B", "ko": "B를 A로 대체[교체]하다 (= substitute[replace] B with[by] A)"}
+      ],
+      "examples": [
+        {"en": "We must substitute a new chair for the broken one.", "ko": "우리는 부서진 의자를 새 의자로 바꿔야 한다."},
+        {"en": "Jake substituted for Lucy, who was on a business trip.", "ko": "Jake는 Lucy의 업무를 대신했는데, 그녀가 출장 중이었기 때문이다."}
+      ]
     },
     {
       "en": "destination",
       "ipa": "/ˌdestɪˈneɪʃn/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "목적지"
-          ]
-        }
+        {"pos": "명", "defs": ["목적지, 행선지"]}
       ],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "stin(sta)",
-          "mean": "세우다, 정하다 (fix, stand)"
-        },
-        {
-          "part": "-ation",
-          "mean": "명사형 접미사"
-        }
+        {"part": "de-", "mean": "완전히 (completely)"},
+        {"part": "stin(sta)", "mean": "세우다, 정하다 (fix, stand)"},
+        {"part": "-ation", "mean": "명사형 접미사"}
       ],
-      "origin": "완전히 정해진 곳 → 목적지"
+      "origin": "완전히 정해진 곳 → 목적지",
+      "derivatives": [
+        {"en": "destined", "pos": "형", "defs": ["~할 운명의, ~하기로 되어 있는; ~행(行)의"]},
+        {"en": "destiny", "pos": "명", "defs": ["운명, 숙명"]}
+      ],
+      "examples": [
+        {"en": "The transportation industry does more than just carry travelers from one destination to another.", "ko": "운송업은 단지 한 목적지에서 다른 목적지로 여행객을 옮기는 것 이상의 것을 한다.", "source": "모의"},
+        {"en": "We are destined to inherit certain diseases based on the misfortune of our DNA.", "ko": "우리는 유전자의 불운으로 인해 특정 질병을 물려받도록 운명 지어져 있다.", "source": "모의"},
+        {"en": "It was her destiny to be a singer.", "ko": "가수가 되는 것은 그녀의 운명이었다."}
+      ]
     },
     {
       "en": "superstition",
       "ipa": "/ˌsuːpərˈstɪʃn/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "미신"
-          ]
-        }
+        {"pos": "명", "defs": ["미신"]}
       ],
       "parts": [
-        {
-          "part": "super-",
-          "mean": "위에 (above, over)"
-        },
-        {
-          "part": "stition(sta)",
-          "mean": "서 있는 (standing)"
-        }
+        {"part": "super-", "mean": "위에 (above, over)"},
+        {"part": "stition(sta)", "mean": "서 있는 (standing)"}
       ],
-      "origin": "이성 위에 서 있는 믿음 → 미신"
+      "origin": "이성 위에 서 있는 믿음 → 미신",
+      "derivatives": [
+        {"en": "superstitious", "pos": "형", "defs": ["미신적인"]}
+      ],
+      "examples": [
+        {"en": "According to superstition, Friday the 13th is unlucky.", "ko": "미신에 따르면, 13일의 금요일은 불길하다."}
+      ]
     },
     {
       "en": "contain",
       "ipa": "/kənˈteɪn/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "포함하다",
-            "억제하다"
-          ]
-        }
+        {"pos": "동", "defs": ["포함하다, 함유하다, 수용하다, 담다"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "tain",
-          "mean": "잡다, 가지다 (hold)"
-        }
+        {"part": "con-(com-)", "mean": "함께 (together)"},
+        {"part": "tain", "mean": "잡다, 가지다 (hold)"}
       ],
-      "origin": "함께 잡아두다 → 포함하다"
+      "origin": "함께 잡아두다 → 포함하다",
+      "synonyms": ["hold"],
+      "derivatives": [
+        {"en": "container", "pos": "명", "defs": ["그릇, 용기", "컨테이너"]}
+      ],
+      "examples": [
+        {"en": "Can you guess what this package contains?", "ko": "이 소포 안에 무엇이 들어 있는지 알 수 있겠니?"},
+        {"en": "The information contained in the letter really upset me.", "ko": "편지에 담긴 내용은 나를 정말로 화나게 했다."},
+        {"en": "This container is made of durable plastic.", "ko": "이 용기는 내구성이 좋은 플라스틱으로 만들어졌다."}
+      ]
     },
     {
       "en": "entertain",
       "ipa": "/ˌentərˈteɪn/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "즐겁게 하다",
-            "대접하다"
-          ]
-        }
+        {"pos": "동", "defs": ["즐겁게 하다", "대접하다, 환대하다"]}
       ],
       "parts": [
-        {
-          "part": "enter-(inter-)",
-          "mean": "사이에 (between)"
-        },
-        {
-          "part": "tain",
-          "mean": "잡다 (hold)"
-        }
+        {"part": "enter-(inter-)", "mean": "사이에 (between)"},
+        {"part": "tain", "mean": "잡다 (hold)"}
       ],
-      "origin": "사이에서 관심을 잡다 → 즐겁게 하다"
+      "origin": "사이에서 관심을 잡다 → 즐겁게 하다",
+      "synonyms": ["amuse"],
+      "derivatives": [
+        {"en": "entertainment", "pos": "명", "defs": ["(영화·공연 등의) 오락, 연예", "대접, 환대"]},
+        {"en": "entertainer", "pos": "명", "defs": ["연예인, 엔터테이너"]}
+      ],
+      "examples": [
+        {"en": "The children entertained us with their singing.", "ko": "그 아이들은 노래를 부르며 우리를 즐겁게 해주었다."},
+        {"en": "He was often heard on the radio as an entertainer.", "ko": "그는 연예인으로서 라디오에 자주 출연했다.", "source": "모의"}
+      ]
     },
     {
       "en": "obtain",
       "ipa": "/əbˈteɪn/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "얻다",
-            "획득하다"
-          ]
-        }
+        {"pos": "동", "defs": ["얻다, 획득하다"]}
       ],
       "parts": [
-        {
-          "part": "ob-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "tain",
-          "mean": "잡다 (hold)"
-        }
+        {"part": "ob-", "mean": "~쪽으로 (toward)"},
+        {"part": "tain", "mean": "잡다 (hold)"}
       ],
-      "origin": "~쪽으로 잡다 → 얻다"
+      "origin": "~쪽으로 잡다 → 얻다",
+      "synonyms": ["get"],
+      "examples": [
+        {"en": "When did you obtain your driver's license?", "ko": "당신은 언제 운전 면허증을 땄나요?"}
+      ]
     },
     {
       "en": "retain",
       "ipa": "/rɪˈteɪn/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "보유하다",
-            "유지하다"
-          ]
-        }
+        {"pos": "동", "defs": ["보유하다, 유지하다", "(정보 등을) 기억하다"]}
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "뒤로 (back)"
-        },
-        {
-          "part": "tain",
-          "mean": "잡다 (hold)"
-        }
+        {"part": "re-", "mean": "뒤로 (back)"},
+        {"part": "tain", "mean": "잡다 (hold)"}
       ],
-      "origin": "뒤로 잡아두다 → 보유하다"
+      "origin": "뒤로 잡아두다 → 보유하다",
+      "synonyms": ["keep in mind"],
+      "examples": [
+        {"en": "He couldn't retain his prestige because of the scandal.", "ko": "그는 그 스캔들 때문에 자신의 명성을 유지할 수 없었다."},
+        {"en": "Previously gained knowledge is retained in simplified forms within the brain.", "ko": "이전에 얻은 지식은 뇌 속에 단순화된 형태로 기억된다.", "source": "수능"}
+      ]
     },
     {
       "en": "sustain",
       "ipa": "/səˈsteɪn/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "지탱하다",
-            "유지하다"
-          ]
-        }
+        {"pos": "동", "defs": ["유지하다, 지속시키다", "(손해·부상 등을) 겪다, 입다", "(무게를) 떠받치다, (의견 등을) 지지하다"]}
       ],
       "parts": [
-        {
-          "part": "sus-(sub-)",
-          "mean": "아래에서 (under)"
-        },
-        {
-          "part": "tain",
-          "mean": "잡다 (hold)"
-        }
+        {"part": "sus-(sub-)", "mean": "아래에서 (under)"},
+        {"part": "tain", "mean": "잡다 (hold)"}
       ],
-      "origin": "아래에서 잡아주다 → 지탱하다"
+      "origin": "아래에서 잡아주다 → 지탱하다",
+      "synonyms": ["maintain", "suffer", "support", "hold up"],
+      "derivatives": [
+        {"en": "sustainable", "pos": "형", "defs": ["지속[유지] 가능한"]}
+      ],
+      "examples": [
+        {"en": "I want to know how to sustain my students' interest.", "ko": "나는 학생들의 관심을 지속시키는 방법을 알고 싶다."},
+        {"en": "He sustained serious injuries in the accident.", "ko": "그는 그 사고로 심각한 부상을 입었다."}
+      ]
     },
     {
       "en": "content",
-      "ipa": "/ˈkɑːntent/",
+      "ipa": "/ˈkɑːntent/ · /kənˈtent/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "내용(물)",
-            "목차"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "만족하는"
-          ]
-        }
+        {"pos": "명", "defs": ["(복수형) 내용(물); 목차", "용량, 함유량", "(연설·문서·영화 속의) 주제, 콘텐츠, 이야기"]},
+        {"pos": "형", "defs": ["만족하는"]},
+        {"pos": "동", "defs": ["만족시키다"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "tent(tain)",
-          "mean": "잡다 (hold)"
-        }
+        {"part": "con-(com-)", "mean": "함께 (together)"},
+        {"part": "tent(tain)", "mean": "잡다 (hold)"}
       ],
-      "origin": "함께 잡혀 있는 것 → 내용물"
+      "origin": "함께 잡혀 있는 것 → 내용물",
+      "synonyms": ["satisfied"],
+      "antonyms": ["discontent", "dissatisfied"],
+      "derivatives": [
+        {"en": "contentment", "pos": "명", "defs": ["만족"]}
+      ],
+      "phrases": [
+        {"en": "be content with", "ko": "~에 만족하다 (= be satisfied with)"}
+      ],
+      "examples": [
+        {"en": "A: Do you think she'll be content with your gift?\nB: Yes. She'll be satisfied with the contents of the box.", "ko": "A: 그녀가 네 선물에 만족할 것 같니?\nB: 응, 그녀는 상자 속의 내용물에 만족할 거야."}
+      ]
     },
     {
       "en": "continent",
       "ipa": "/ˈkɑːntɪnənt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "대륙"
-          ]
-        }
+        {"pos": "명", "defs": ["대륙, 육지"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "tin(tain)",
-          "mean": "잡다, 이어지다 (hold)"
-        },
-        {
-          "part": "-ent",
-          "mean": "명사형 접미사"
-        }
+        {"part": "con-(com-)", "mean": "함께 (together)"},
+        {"part": "tin(tain)", "mean": "잡다, 이어지다 (hold)"},
+        {"part": "-ent", "mean": "명사형 접미사"}
       ],
-      "origin": "함께 이어져 잡혀 있는 땅 → 대륙"
+      "origin": "함께 이어져 잡혀 있는 땅 → 대륙",
+      "derivatives": [
+        {"en": "continental", "pos": "형", "defs": ["대륙의, 대륙성의"]}
+      ],
+      "examples": [
+        {"en": "Asia is larger than any other continent in the world.", "ko": "아시아는 세계에서 가장 큰 대륙이다."}
+      ]
     },
     {
       "en": "continue",
       "ipa": "/kənˈtɪnjuː/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "계속하다"
-          ]
-        }
+        {"pos": "동", "defs": ["계속하다; 계속되다", "(중단한 후에) 다시 시작하다; 재개되다"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "tin(tain)",
-          "mean": "잡다, 이어지다 (hold)"
-        },
-        {
-          "part": "-ue",
-          "mean": "동사형 접미사"
-        }
+        {"part": "con-(com-)", "mean": "함께 (together)"},
+        {"part": "tin(tain)", "mean": "잡다, 이어지다 (hold)"},
+        {"part": "-ue", "mean": "동사형 접미사"}
       ],
-      "origin": "함께 이어서 잡다 → 계속하다"
+      "origin": "함께 이어서 잡다 → 계속하다",
+      "synonyms": ["go on", "carry on", "resume"],
+      "derivatives": [
+        {"en": "continuous", "pos": "형", "defs": ["끊임없는, 계속적인"]},
+        {"en": "continual", "pos": "형", "defs": ["반복[거듭]되는, 빈번한"]}
+      ],
+      "examples": [
+        {"en": "The rain continued all through the night.", "ko": "밤새 쉬지 않고 비가 내렸다."},
+        {"en": "The brain needs a continuous supply of blood.", "ko": "뇌는 지속적인 혈액 공급을 필요로 한다."},
+        {"en": "He has continual arguments with his brother.", "ko": "그는 형제와 끊임없이 말다툼을 한다."}
+      ]
     }
   ]
 }

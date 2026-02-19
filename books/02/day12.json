@@ -5,658 +5,500 @@
       "en": "capable",
       "ipa": "/ˈkeɪpəbl/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "~할 능력이 있는"
-          ]
-        }
+        {"pos": "형", "defs": ["(+of) ~할 수 있는", "유능한"]}
       ],
       "parts": [
-        {
-          "part": "cap",
-          "mean": "잡다 (take, seize)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
-        }
+        {"part": "cap", "mean": "잡다 (take, seize)"},
+        {"part": "-able", "mean": "~할 수 있는"}
       ],
-      "origin": "잡아낼 수 있는 → 능력이 있는"
+      "origin": "잡아낼 수 있는 → 능력이 있는",
+      "synonyms": ["able"],
+      "antonyms": ["incapable of"],
+      "derivatives": [
+        {"en": "capability", "pos": "명", "defs": ["능력"]},
+        {"en": "capacity", "pos": "명", "defs": ["(최대) 수용량", "능력, 역량", "(기계 등의) 생산 능력"]}
+      ],
+      "phrases": [
+        {"en": "be filled[packed] to capacity", "ko": "꽉 차다, 만원이다"}
+      ],
+      "examples": [
+        {"en": "We never know what we're capable of until we try!", "ko": "우리는 시도해 보기 전까지 자신이 무엇을 해낼 수 있는지 절대 알 수 없습니다!", "source": "교과서"},
+        {"en": "What is the memory capacity of this computer?", "ko": "이 컴퓨터의 저장 용량은 얼마나 됩니까?"}
+      ]
     },
     {
       "en": "capture",
       "ipa": "/ˈkæptʃər/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "붙잡다",
-            "포착하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "생포",
-            "점령"
-          ]
-        }
+        {"pos": "명", "defs": ["생포, 포획", "점령"]},
+        {"pos": "동", "defs": ["(사람·동물 등을) 붙잡다, 생포하다", "(적지 등을) 점령하다", "(관심·마음 등을) 사로잡다", "(사진·영상 등으로) 기록[포착]하다, 담아내다"]}
       ],
       "parts": [
-        {
-          "part": "capt",
-          "mean": "잡다 (take, seize)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사/동사형 접미사"
-        }
+        {"part": "capt", "mean": "잡다 (take, seize)"},
+        {"part": "-ure", "mean": "명사/동사형 접미사"}
       ],
-      "origin": "잡다 → 붙잡다, 포착하다"
+      "origin": "잡다 → 붙잡다, 포착하다",
+      "synonyms": ["seize"],
+      "derivatives": [
+        {"en": "captive", "pos": "형/명", "defs": ["사로잡힌", "포로"]},
+        {"en": "captivity", "pos": "명", "defs": ["(주로 in+) 사로잡혀 있음, 감금, 억류"]}
+      ],
+      "examples": [
+        {"en": "Since humor can easily capture people's attention, commercials tend to contain humorous elements.", "ko": "유머가 쉽게 사람들의 관심을 끌기 때문에 상업 광고는 유머러스한 요소들을 포함하는 경향이 있다.", "source": "수능"},
+        {"en": "The wild animal was held in captivity.", "ko": "그 야생 동물은 가두어져 있었다."}
+      ]
     },
     {
       "en": "participate",
       "ipa": "/pɑːrˈtɪsɪpeɪt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "참여하다",
-            "참가하다"
-          ]
-        }
+        {"pos": "동", "defs": ["(+in) (~에) 참가[참여]하다"]}
       ],
       "parts": [
-        {
-          "part": "part",
-          "mean": "부분 (part)"
-        },
-        {
-          "part": "cip(cap)",
-          "mean": "잡다 (take)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        {"part": "part", "mean": "부분 (part)"},
+        {"part": "cip(cap)", "mean": "잡다 (take)"},
+        {"part": "-ate", "mean": "동사형 접미사"}
       ],
-      "origin": "한 부분을 잡다 → 참여하다"
+      "origin": "한 부분을 잡다 → 참여하다",
+      "synonyms": ["take part in", "join"],
+      "derivatives": [
+        {"en": "participation", "pos": "명", "defs": ["참가, 참여"]},
+        {"en": "participant", "pos": "명", "defs": ["참가자, 참여자"]}
+      ],
+      "examples": [
+        {"en": "A: How many people will participate in this event?\nB: There will be about 100 participants.", "ko": "A: 이번 행사에 몇 명이 참가하나요?\nB: 약 100명의 참가자가 있을 것입니다."}
+      ]
     },
     {
       "en": "accept",
       "ipa": "/əkˈsept/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "수락하다",
-            "받아들이다"
-          ]
-        }
+        {"pos": "동", "defs": ["수락하다, 받아들이다", "(설명·학설·사실 등을) 믿다, 인정하다", "(기구·모임 등에) 구성원으로 받아들이다"]}
       ],
       "parts": [
-        {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "cept(cap)",
-          "mean": "잡다 (take)"
-        }
+        {"part": "ac-(ad-)", "mean": "~쪽으로 (toward)"},
+        {"part": "cept(cap)", "mean": "잡다 (take)"}
       ],
-      "origin": "자기 쪽으로 잡다 → 받아들이다"
+      "origin": "자기 쪽으로 잡다 → 받아들이다",
+      "antonyms": ["refuse", "reject", "turn down"],
+      "derivatives": [
+        {"en": "acceptable", "pos": "형", "defs": ["받아들일 수 있는"]},
+        {"en": "acceptance", "pos": "명", "defs": ["수락, 받아들임", "용인, 승인"]}
+      ],
+      "examples": [
+        {"en": "Her dream was to attend Harvard Medical School, but, at that time, the school did not accept women.", "ko": "그녀의 꿈은 하버드 의과대학에 진학하는 것이었지만, 그 당시 그 학교는 여성을 받아들이지 않았다.", "source": "교과서"},
+        {"en": "Wearing jeans is not acceptable for a formal event.", "ko": "공식적인 행사에서는 청바지를 입는 것이 허용되지 않는다."}
+      ]
     },
     {
       "en": "except",
       "ipa": "/ɪkˈsept/",
       "meanings": [
-        {
-          "pos": "전",
-          "defs": [
-            "~을 제외하고"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "제외하다"
-          ]
-        }
+        {"pos": "전/접", "defs": ["~을 제외하고, ~ 이외에는"]}
       ],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "cept(cap)",
-          "mean": "잡다 (take)"
-        }
+        {"part": "ex-", "mean": "밖으로 (out)"},
+        {"part": "cept(cap)", "mean": "잡다 (take)"}
       ],
-      "origin": "밖으로 잡아내다 → 제외하다"
+      "origin": "밖으로 잡아내다 → 제외하다",
+      "synonyms": ["apart from", "but for"],
+      "derivatives": [
+        {"en": "exception", "pos": "명", "defs": ["예외, 제외"]},
+        {"en": "exceptional", "pos": "형", "defs": ["아주 뛰어난", "예외적인"]}
+      ],
+      "phrases": [
+        {"en": "except (for)", "ko": "~을 제외하고"}
+      ],
+      "examples": [
+        {"en": "All the students in the class are having trouble with math except (for) John. He's an exceptional student.", "ko": "반에서 John을 제외한 모든 학생이 수학 때문에 애를 먹고 있다. 그는 뛰어난 학생이다."}
+      ]
     },
     {
       "en": "conceive",
       "ipa": "/kənˈsiːv/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "상상하다",
-            "품다",
-            "임신하다"
-          ]
-        }
+        {"pos": "동", "defs": ["(의견·계획 등을) 생각해내다, 착상하다, 고안하다", "(+of) (특정한 상황 등을) 상상하다", "임신하다"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "ceive(cap)",
-          "mean": "잡다 (take)"
-        }
+        {"part": "con-(com-)", "mean": "완전히 (completely)"},
+        {"part": "ceive(cap)", "mean": "잡다 (take)"}
       ],
-      "origin": "완전히 마음에 잡다 → 상상하다, 품다"
+      "origin": "완전히 마음에 잡다 → 상상하다, 품다",
+      "synonyms": ["devise"],
+      "derivatives": [
+        {"en": "concept", "pos": "명", "defs": ["개념, 관념"]},
+        {"en": "conception", "pos": "명", "defs": ["개념, 생각", "구상, 착상", "임신"]}
+      ],
+      "examples": [
+        {"en": "It's hard to conceive of an idea that would completely solve the problem.", "ko": "그 문제를 완벽하게 해결할 방안을 생각해내는 것은 힘들다."}
+      ]
     },
     {
       "en": "perceive",
       "ipa": "/pərˈsiːv/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "인지하다",
-            "알아차리다"
-          ]
-        }
+        {"pos": "동", "defs": ["인지하다, 알아차리다"]}
       ],
       "parts": [
-        {
-          "part": "per-",
-          "mean": "완전히 (thoroughly)"
-        },
-        {
-          "part": "ceive(cap)",
-          "mean": "잡다 (take)"
-        }
+        {"part": "per-", "mean": "완전히 (thoroughly)"},
+        {"part": "ceive(cap)", "mean": "잡다 (take)"}
       ],
-      "origin": "완전히 잡아내다 → 인지하다"
+      "origin": "완전히 잡아내다 → 인지하다",
+      "synonyms": ["notice", "recognize"],
+      "derivatives": [
+        {"en": "perception", "pos": "명", "defs": ["지각 (작용), 인지(력)"]}
+      ],
+      "examples": [
+        {"en": "I perceived a subtle change in her manner.", "ko": "나는 그녀의 태도에서 미묘한 변화를 감지했다."}
+      ]
     },
     {
       "en": "deceive",
       "ipa": "/dɪˈsiːv/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "속이다, 기만하다"
-          ]
-        }
+        {"pos": "동", "defs": ["속이다, 기만하다"]}
       ],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "떨어져, 아래로 (away, down)"
-        },
-        {
-          "part": "ceive(cap)",
-          "mean": "잡다 (take)"
-        }
+        {"part": "de-", "mean": "떨어져, 아래로 (away, down)"},
+        {"part": "ceive(cap)", "mean": "잡다 (take)"}
       ],
-      "origin": "아래로 잡아끌다 → 속이다"
+      "origin": "아래로 잡아끌다 → 속이다",
+      "synonyms": ["cheat", "fool"],
+      "derivatives": [
+        {"en": "deception", "pos": "명", "defs": ["속임수, 사기 (행위)"]},
+        {"en": "deceptive", "pos": "형", "defs": ["속이는, 기만적인"]},
+        {"en": "deceit", "pos": "명", "defs": ["속이기, 거짓말"]}
+      ],
+      "examples": [
+        {"en": "I'd rather be cheated by enemies than deceived by friends.", "ko": "나는 친구에게 기만을 당하느니 차라리 적에게 당하겠다."},
+        {"en": "Social lies such as making deceptive but flattering comments may benefit mutual relations.", "ko": "속이는듯 하지만 아첨하는 말을 하는 것과 같은 사회적 거짓말은 상호 관계에 도움이 될지도 모른다.", "source": "모의"}
+      ]
     },
     {
       "en": "receive",
       "ipa": "/rɪˈsiːv/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "받다",
-            "수신하다"
-          ]
-        }
+        {"pos": "동", "defs": ["받다, 수령하다", "(제안·의견 등을) 받아들이다", "(전화·방송 등을) 수신하다"]}
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "뒤로 (back)"
-        },
-        {
-          "part": "ceive(cap)",
-          "mean": "잡다 (take)"
-        }
+        {"part": "re-", "mean": "뒤로 (back)"},
+        {"part": "ceive(cap)", "mean": "잡다 (take)"}
       ],
-      "origin": "뒤로 잡다 → 받다"
+      "origin": "뒤로 잡다 → 받다",
+      "derivatives": [
+        {"en": "reception", "pos": "명", "defs": ["환영(회)", "(호텔 등의) 안내 데스크", "수신"]},
+        {"en": "receipt", "pos": "명", "defs": ["영수증", "발음, 수령"]},
+        {"en": "recipient", "pos": "명", "defs": ["수령인, 수취인"]}
+      ],
+      "examples": [
+        {"en": "I received an invitation to the wedding reception.", "ko": "나는 결혼 피로연에 초대를 받았다."},
+        {"en": "Enclosed are copies of my receipts and guarantees concerning this purchase.", "ko": "이 구매와 관련된 영수증과 보증서 사본을 동봉합니다.", "source": "모의"}
+      ]
     },
     {
       "en": "occupy",
       "ipa": "/ˈɑːkjupaɪ/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "차지하다",
-            "점령하다"
-          ]
-        }
+        {"pos": "동", "defs": ["(시간·공간·마음·지위·일 등을) 차지하다", "(방·건물 등을) 사용하다", "점령[점거]하다"]}
       ],
       "parts": [
-        {
-          "part": "oc-(ob-)",
-          "mean": "~위에 (over)"
-        },
-        {
-          "part": "cupy(cap)",
-          "mean": "잡다 (seize)"
-        }
+        {"part": "oc-(ob-)", "mean": "~위에 (over)"},
+        {"part": "cupy(cap)", "mean": "잡다 (seize)"}
       ],
-      "origin": "위에서 잡다 → 차지하다, 점령하다"
+      "origin": "위에서 잡다 → 차지하다, 점령하다",
+      "synonyms": ["take up"],
+      "derivatives": [
+        {"en": "occupation", "pos": "명", "defs": ["직업", "점령, 점유", "여가 활동"]}
+      ],
+      "examples": [
+        {"en": "For most of the day, I was occupied with writing essays.", "ko": "나는 그날의 대부분을 에세이를 쓰는 데 보냈다."},
+        {"en": "She takes pride in her occupation as a nurse.", "ko": "그녀는 간호사라는 직업에 자부심을 느낀다."}
+      ]
     },
     {
       "en": "stand",
       "ipa": "/stænd/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "서다, 참다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "입장, 가판대"
-          ]
-        }
+        {"pos": "동", "defs": ["서다", "~에 있다[위치하다], (어떤 상태·입장 등에) 있다", "~을 참다, 견디다"]},
+        {"pos": "명", "defs": ["입장, 처지", "(가구 등) 받침대, 스탠드"]}
       ],
       "parts": [
-        {
-          "part": "sta",
-          "mean": "서다 (stand)"
-        },
-        {
-          "part": "-nd",
-          "mean": "동사형 어미"
-        }
+        {"part": "sta", "mean": "서다 (stand)"},
+        {"part": "-nd", "mean": "동사형 어미"}
       ],
-      "origin": "서다"
+      "origin": "서다",
+      "synonyms": ["endure", "tolerate", "put up with"],
+      "examples": [
+        {"en": "I know where you stand.", "ko": "나는 네가 어떤 입장에 있는지 알고 있다."},
+        {"en": "I can't stand this pain.", "ko": "나는 이 고통을 참을 수가 없다."}
+      ]
     },
     {
       "en": "standard",
       "ipa": "/ˈstændərd/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "표준",
-            "기준"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "일반적인"
-          ]
-        }
+        {"pos": "명", "defs": ["표준, 기준, 수준"]},
+        {"pos": "형", "defs": ["표준의", "일반적인, 보통의"]}
       ],
       "parts": [
-        {
-          "part": "stand",
-          "mean": "서다 (stand)"
-        },
-        {
-          "part": "-ard",
-          "mean": "명사형 접미사"
-        }
+        {"part": "stand", "mean": "서다 (stand)"},
+        {"part": "-ard", "mean": "명사형 접미사"}
       ],
-      "origin": "세워놓은 것 → 표준, 기준"
+      "origin": "세워놓은 것 → 표준, 기준",
+      "examples": [
+        {"en": "Jack always sets his standards too high.", "ko": "Jack은 항상 자신의 기준을 너무 높게 설정한다."},
+        {"en": "It is a standard style of portrait that you would see in a gallery or an art book.", "ko": "그것은 갤러리나 미술 책에서 볼 수 있는 일반적인 스타일의 초상화다.", "source": "교과서"}
+      ]
     },
     {
       "en": "state",
       "ipa": "/steɪt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "상태",
-            "국가",
-            "주"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "진술하다"
-          ]
-        }
+        {"pos": "명", "defs": ["상태, 상황", "국가, 주(州)"]},
+        {"pos": "동", "defs": ["진술하다, 말하다"]}
       ],
       "parts": [
-        {
-          "part": "sta",
-          "mean": "서다, 세우다 (stand)"
-        },
-        {
-          "part": "-te",
-          "mean": "명사/동사형 접미사"
-        }
+        {"part": "sta", "mean": "서다, 세우다 (stand)"},
+        {"part": "-te", "mean": "명사/동사형 접미사"}
       ],
-      "origin": "세워진 것 → 상태, 국가"
+      "origin": "세워진 것 → 상태, 국가",
+      "synonyms": ["condition", "express"],
+      "derivatives": [
+        {"en": "statement", "pos": "명", "defs": ["성명(서)", "진술, 주장"]},
+        {"en": "statesman/stateswoman", "pos": "명", "defs": ["(복수형 states(wo)men) 정치인"]}
+      ],
+      "examples": [
+        {"en": "As stated in the last newsletter, this year we are happy to be celebrating our 50th anniversary.", "ko": "지난 뉴스레터에서 언급했듯이, 올해 우리는 창립 50주년을 기쁘게 기념하고 있습니다.", "source": "모의"},
+        {"en": "The stateswoman is going to issue a statement about the serious state of our economy.", "ko": "그 정치인은 우리 경제의 심각한 상황에 관한 성명을 발표할 예정이다."}
+      ]
     },
     {
       "en": "statistics",
       "ipa": "/stəˈtɪstɪks/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "통계(학)",
-            "통계치"
-          ]
-        }
+        {"pos": "명", "defs": ["(복수 취급) 통계(치[량/표])", "(단수 취급) 통계학"]}
       ],
       "parts": [
-        {
-          "part": "stat",
-          "mean": "세우다, 상태 (stand, state)"
-        },
-        {
-          "part": "-istics",
-          "mean": "학문 접미사"
-        }
+        {"part": "stat", "mean": "세우다, 상태 (stand, state)"},
+        {"part": "-istics", "mean": "학문 접미사"}
       ],
-      "origin": "국가 상태를 수치로 세운 것 → 통계"
+      "origin": "국가 상태를 수치로 세운 것 → 통계",
+      "derivatives": [
+        {"en": "statistical", "pos": "형", "defs": ["통계(상)의"]}
+      ],
+      "examples": [
+        {"en": "Teams compile statistics to evaluate their players' game performance.", "ko": "팀들은 선수들의 경기 성적을 평가하기 위해 통계를 모은다."}
+      ]
     },
     {
       "en": "statue",
       "ipa": "/ˈstætʃuː/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "조각상",
-            "동상"
-          ]
-        }
+        {"pos": "명", "defs": ["(사람·동물 등의) 상(像), 조각상"]}
       ],
       "parts": [
-        {
-          "part": "sta",
-          "mean": "서다 (stand)"
-        },
-        {
-          "part": "-tue",
-          "mean": "명사형 접미사"
-        }
+        {"part": "sta", "mean": "서다 (stand)"},
+        {"part": "-tue", "mean": "명사형 접미사"}
       ],
-      "origin": "서 있는 것 → 조각상"
+      "origin": "서 있는 것 → 조각상",
+      "examples": [
+        {"en": "After his death, a statue of him was installed in the U.S. Capitol.", "ko": "그가 사망한 후, 그의 동상이 미국 국회 의사당에 설치되었다.", "source": "모의"}
+      ]
     },
     {
       "en": "status",
       "ipa": "/ˈsteɪtəs/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "지위",
-            "신분",
-            "상황"
-          ]
-        }
+        {"pos": "명", "defs": ["(법적·직업적·사회적) 지위, 신분, 위상", "(진행) 상황"]}
       ],
       "parts": [
-        {
-          "part": "sta",
-          "mean": "서다, 서 있는 (stand)"
-        },
-        {
-          "part": "-tus",
-          "mean": "명사형 접미사"
-        }
+        {"part": "sta", "mean": "서다, 서 있는 (stand)"},
+        {"part": "-tus", "mean": "명사형 접미사"}
       ],
-      "origin": "서 있는 위치 → 지위, 상황"
+      "origin": "서 있는 위치 → 지위, 상황",
+      "synonyms": ["position"],
+      "examples": [
+        {"en": "She inquired about the status of her application.", "ko": "그녀는 (채용) 지원의 진행 상황에 대해 문의했다."}
+      ]
     },
     {
       "en": "stable",
       "ipa": "/ˈsteɪbl/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "안정된"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "마구간"
-          ]
-        }
+        {"pos": "형", "defs": ["안정된, 견고한"]},
+        {"pos": "명", "defs": ["마구간, 외양간"]}
       ],
       "parts": [
-        {
-          "part": "sta",
-          "mean": "서다 (stand)"
-        },
-        {
-          "part": "-ble",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "sta", "mean": "서다 (stand)"},
+        {"part": "-ble", "mean": "형용사형 접미사"}
       ],
-      "origin": "단단히 서 있는 → 안정된"
+      "origin": "단단히 서 있는 → 안정된",
+      "synonyms": ["firm"],
+      "antonyms": ["unstable"],
+      "derivatives": [
+        {"en": "stability", "pos": "명", "defs": ["안정(성)"]}
+      ],
+      "examples": [
+        {"en": "In spite of some instability in the labor market, Korea will soon regain economic stability.", "ko": "노동 시장에서의 어느 정도의 불안정에도 불구하고, 한국은 곧 경제적 안정을 되찾을 것이다."}
+      ]
     },
     {
       "en": "establish",
       "ipa": "/ɪˈstæblɪʃ/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "설립하다",
-            "확립하다"
-          ]
-        }
+        {"pos": "동", "defs": ["(기업·단체 등을) 설립하다, (제도·법률 등을) 제정하다", "수립[확립]하다", "(사실 등을) 입증하다, 증명하다"]}
       ],
       "parts": [
-        {
-          "part": "e-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "stabl",
-          "mean": "세우다 (stand, stable)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+        {"part": "e-", "mean": "밖으로 (out)"},
+        {"part": "stabl", "mean": "세우다 (stand, stable)"},
+        {"part": "-ish", "mean": "동사형 접미사"}
       ],
-      "origin": "단단히 세우다 → 설립하다"
+      "origin": "단단히 세우다 → 설립하다",
+      "synonyms": ["set up", "found"],
+      "derivatives": [
+        {"en": "establishment", "pos": "명", "defs": ["기관, 단체", "설립, 제정"]}
+      ],
+      "examples": [
+        {"en": "Our company was established in 1972.", "ko": "우리 회사는 1972년에 설립되었다."},
+        {"en": "We needed to trade, and we needed to establish trust in order to trade.", "ko": "우리는 거래를 해야 했고, 거래를 하기 위해서 신뢰를 쌓아야 했다.", "source": "모의"}
+      ]
     },
     {
       "en": "constant",
       "ipa": "/ˈkɑːnstənt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "끊임없는",
-            "불변의"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "상수"
-          ]
-        }
+        {"pos": "형", "defs": ["끊임없는, 계속되는", "(속도·양·수준 등이) 불변의"]},
+        {"pos": "명", "defs": ["불변(의 것)", "[수학] 상수"]}
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "stant",
-          "mean": "서 있는 (standing)"
-        }
+        {"part": "con-(com-)", "mean": "함께 (together)"},
+        {"part": "stant", "mean": "서 있는 (standing)"}
       ],
-      "origin": "함께 계속 서 있는 → 끊임없는"
+      "origin": "함께 계속 서 있는 → 끊임없는",
+      "derivatives": [
+        {"en": "constantly", "pos": "부", "defs": ["끊임없이, 항상"]}
+      ],
+      "examples": [
+        {"en": "Constant worry can result in stomach problems.", "ko": "지속적인 걱정은 위장 문제를 일으킬 수 있다.", "source": "교과서"}
+      ]
     },
     {
       "en": "estate",
       "ipa": "/ɪˈsteɪt/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "사유지",
-            "자산"
-          ]
-        }
+        {"pos": "명", "defs": ["재산, 자산", "토지, 소유지"]}
       ],
       "parts": [
-        {
-          "part": "e-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "state",
-          "mean": "상태, 세움 (state, stand)"
-        }
+        {"part": "e-", "mean": "밖으로 (out)"},
+        {"part": "state", "mean": "상태, 세움 (state, stand)"}
       ],
-      "origin": "세워놓은 재산 → 사유지, 자산"
+      "origin": "세워놓은 재산 → 사유지, 자산",
+      "synonyms": ["property"],
+      "phrases": [
+        {"en": "real estate", "ko": "부동산, 토지"}
+      ],
+      "examples": [
+        {"en": "His estate is twice the size of mine.", "ko": "그의 재산은 나의 두 배이다."},
+        {"en": "As real estate prices rose, many of their neighbors sold their homes and lots.", "ko": "부동산 가격이 오르자, 그들의 이웃들 중 많은 이들이 집과 대지를 팔았다.", "source": "수능"}
+      ]
     },
     {
       "en": "instance",
       "ipa": "/ˈɪnstəns/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "사례",
-            "경우"
-          ]
-        }
+        {"pos": "명", "defs": ["예, 실례, 사례, 경우"]}
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "위에 (upon)"
-        },
-        {
-          "part": "stance",
-          "mean": "서 있는 (standing)"
-        }
+        {"part": "in-", "mean": "위에 (upon)"},
+        {"part": "stance", "mean": "서 있는 (standing)"}
       ],
-      "origin": "앞에 서 있는 것 → 사례, 경우"
+      "origin": "앞에 서 있는 것 → 사례, 경우",
+      "synonyms": ["example"],
+      "phrases": [
+        {"en": "for instance[example]", "ko": "예를 들어"}
+      ],
+      "examples": [
+        {"en": "This is a clear instance of how technology can change education.", "ko": "이것은 기술이 교육을 어떻게 변화시킬 수 있는지를 보여주는 명확한 사례이다."}
+      ]
     },
     {
       "en": "instant",
       "ipa": "/ˈɪnstənt/",
       "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "즉각적인"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "순간"
-          ]
-        }
+        {"pos": "형", "defs": ["즉석의, 즉각적인", "인스턴트의, 즉석 요리의"]},
+        {"pos": "명", "defs": ["즉시, 순간, 찰나"]}
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "위에 (upon)"
-        },
-        {
-          "part": "stant",
-          "mean": "서 있는 (standing)"
-        }
+        {"part": "in-", "mean": "위에 (upon)"},
+        {"part": "stant", "mean": "서 있는 (standing)"}
       ],
-      "origin": "바로 앞에 서 있는 → 즉각적인"
+      "origin": "바로 앞에 서 있는 → 즉각적인",
+      "synonyms": ["immediate"],
+      "derivatives": [
+        {"en": "instantly", "pos": "부", "defs": ["곧, 당장, 즉석에서"]}
+      ],
+      "phrases": [
+        {"en": "in an instant", "ko": "즉시, 당장, 순식간에"}
+      ],
+      "examples": [
+        {"en": "The movie was an instant success.", "ko": "그 영화는 즉각적인 성공을 거두었다."},
+        {"en": "Photographs can change people's hearts and minds in an instant.", "ko": "사진은 한순간에 사람들의 마음과 생각을 바꿀 수 있다.", "source": "수능"}
+      ]
     },
     {
       "en": "install",
       "ipa": "/ɪnˈstɔːl/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "설치하다"
-          ]
-        }
+        {"pos": "동", "defs": ["(장비·가구를) 설치[설비]하다", "~을 취임시키다, 임명하다"]}
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "stall",
-          "mean": "세우다, 자리 (stand, place)"
-        }
+        {"part": "in-", "mean": "안에 (in)"},
+        {"part": "stall", "mean": "세우다, 자리 (stand, place)"}
       ],
-      "origin": "안에 세우다 → 설치하다"
+      "origin": "안에 세우다 → 설치하다",
+      "derivatives": [
+        {"en": "installation", "pos": "명", "defs": ["설치"]}
+      ],
+      "examples": [
+        {"en": "We need to install an elevator for people with physical disabilities.", "ko": "우리는 신체 장애가 있는 사람들을 위해 엘리베이터를 설치해야 한다.", "source": "교과서"},
+        {"en": "She was installed as president of the university.", "ko": "그녀는 대학교 총장으로 임명되었다."}
+      ]
     },
     {
       "en": "obstacle",
       "ipa": "/ˈɑːbstəkl/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "장애물"
-          ]
-        }
+        {"pos": "명", "defs": ["장애(물), 방해(물)"]}
       ],
       "parts": [
-        {
-          "part": "ob-",
-          "mean": "앞에, 맞서 (against)"
-        },
-        {
-          "part": "sta",
-          "mean": "서다 (stand)"
-        },
-        {
-          "part": "-cle",
-          "mean": "명사형 접미사"
-        }
+        {"part": "ob-", "mean": "앞에, 맞서 (against)"},
+        {"part": "sta", "mean": "서다 (stand)"},
+        {"part": "-cle", "mean": "명사형 접미사"}
       ],
-      "origin": "앞에 서 있는 것 → 장애물"
+      "origin": "앞에 서 있는 것 → 장애물",
+      "examples": [
+        {"en": "He overcame the obstacle of blindness and became a great musician.", "ko": "그는 시각 장애를 극복하고 훌륭한 음악가가 되었다."}
+      ]
     },
     {
       "en": "substance",
       "ipa": "/ˈsʌbstəns/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "물질",
-            "실체",
-            "본질"
-          ]
-        }
+        {"pos": "명", "defs": ["물질, 물체", "실체, 본체, 본질", "(이야기 등의) 요지, 중요한 부분"]}
       ],
       "parts": [
-        {
-          "part": "sub-",
-          "mean": "아래에 (under)"
-        },
-        {
-          "part": "stance",
-          "mean": "서 있는 (standing)"
-        }
+        {"part": "sub-", "mean": "아래에 (under)"},
+        {"part": "stance", "mean": "서 있는 (standing)"}
       ],
-      "origin": "아래에 서 있는 것 → 물질, 본질"
+      "origin": "아래에 서 있는 것 → 물질, 본질",
+      "synonyms": ["material", "essence"],
+      "derivatives": [
+        {"en": "substantial", "pos": "형", "defs": ["(양·정도 등이) 상당한, 많은", "본질[실질]적인, 중요한"]}
+      ],
+      "examples": [
+        {"en": "Keep dangerous substances away from children.", "ko": "위험한 물질은 아이들로부터 멀리 두세요."},
+        {"en": "The prospect of getting a more substantial salary encouraged him to work hard.", "ko": "더 많은 월급을 받을 것이라는 기대는 그가 열심히 일하도록 북돋웠다."}
+      ]
     }
   ]
 }

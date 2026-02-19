@@ -4,619 +4,385 @@
     {
       "en": "vision",
       "ipa": "/ˈvɪʒn/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "시력",
-            "환상",
-            "비전"
-          ]
-        }
+      "meanings": [{"pos": "명", "defs": ["시력, 시야", "통찰력, 직감력", "미래상, 비전", "환영, 환상"]}],
+      "parts": [{"part": "vis", "mean": "보다 (see)"}, {"part": "-ion", "mean": "명사형 접미사"}],
+      "origin": "보는 것 → 시력, 비전",
+      "synonyms": ["sight", "insight", "illusion"],
+      "derivatives": [
+        {"en": "visible", "pos": "형", "defs": ["눈에 보이는", "분명한, 명백한", "눈에 띄는, 두드러진"]},
+        {"en": "visual", "pos": "형", "defs": ["시각[시력]의", "눈으로 보는"]}
       ],
-      "parts": [
-        {
-          "part": "vis",
-          "mean": "보다 (see)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "보는 것 → 시력, 비전"
+      "examples": [
+        {"en": "She has a clear vision of the future she wants.", "ko": "그녀는 자신이 원하는 확실한 미래상을 가지고 있다."},
+        {"en": "Clothing and food are visible aspects of culture that we can easily observe.", "ko": "의복과 음식은 우리가 쉽게 관찰할 수 있는 문화의 눈에 보이는 측면이다.", "source": "모의"},
+        {"en": "The movie has strong visual effects.", "ko": "그 영화는 강렬한 시각효과를 가지고 있다."}
+      ]
     },
     {
       "en": "revise",
       "ipa": "/rɪˈvaɪz/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "수정하다",
-            "개정하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["(의견·계획 등을) 변경하다, 고치다", "(책·내용 등을) 수정[교정/개정]하다", "(BrE) 복습하다"]}],
+      "parts": [{"part": "re-", "mean": "다시 (again)"}, {"part": "vise(vis)", "mean": "보다 (see)"}],
+      "origin": "다시 보다 → 수정하다",
+      "synonyms": ["modify", "amend"],
+      "derivatives": [
+        {"en": "revision", "pos": "명", "defs": ["수정 (사항), 교정, 개정", "(BrE) 복습"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "vise(vis)",
-          "mean": "보다 (see)"
-        }
-      ],
-      "origin": "다시 보다 → 수정하다"
+      "examples": [
+        {"en": "She needs to revise her essay before she submits it.", "ko": "그녀는 숙제를 내기 전에 그것을 수정할 필요가 있다."},
+        {"en": "He made a lot of revisions to his speech to make it sound better.", "ko": "그는 그의 연설문이 더 좋아지도록 많은 수정을 했다."}
+      ]
     },
     {
       "en": "advise",
       "ipa": "/ədˈvaɪz/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "조언하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["조언하다, 충고하다, 권하다"]}],
+      "parts": [{"part": "ad-", "mean": "~쪽으로 (toward)"}, {"part": "vise(vis)", "mean": "보다 (see)"}],
+      "origin": "~쪽을 보게 하다 → 조언하다",
+      "synonyms": ["recommend", "counsel"],
+      "derivatives": [
+        {"en": "advice", "pos": "명", "defs": ["조언, 충고"]}
       ],
-      "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "vise(vis)",
-          "mean": "보다 (see)"
-        }
-      ],
-      "origin": "~쪽을 보게 하다 → 조언하다"
+      "examples": [
+        {"en": "Experts advise people to take the stairs instead of the elevator.", "ko": "전문가들은 사람들에게 엘리베이터 대신 계단을 사용하라고 조언한다.", "source": "교과서"},
+        {"en": "He asked for advice on how to save money effectively.", "ko": "그는 효과적으로 돈을 절약하는 방법에 대해 조언을 구했다."}
+      ]
     },
     {
       "en": "supervise",
       "ipa": "/ˈsuːpərvaɪz/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "감독하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["(일·사람 등을) 감독하다, 관리하다, 지휘하다"]}],
+      "parts": [{"part": "super-", "mean": "위에서 (above)"}, {"part": "vise(vis)", "mean": "보다 (see)"}],
+      "origin": "위에서 보다 → 감독하다",
+      "synonyms": ["oversee", "watch over"],
+      "derivatives": [
+        {"en": "supervisor", "pos": "명", "defs": ["감독관, 관리자"]}
       ],
-      "parts": [
-        {
-          "part": "super-",
-          "mean": "위에서 (above)"
-        },
-        {
-          "part": "vise(vis)",
-          "mean": "보다 (see)"
-        }
-      ],
-      "origin": "위에서 보다 → 감독하다"
+      "examples": [
+        {"en": "He supervised all the students taking the examination.", "ko": "그는 시험을 치르는 모든 학생을 감독했다."},
+        {"en": "The supervisor is responsible for the employee's performance.", "ko": "관리자는 직원의 성과에 대한 책임이 있다.", "source": "모의"}
+      ]
     },
     {
       "en": "evidence",
       "ipa": "/ˈevɪdəns/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "증거"
-          ]
-        }
+      "meanings": [{"pos": "명", "defs": ["증거"]}],
+      "parts": [{"part": "e-(ex-)", "mean": "밖으로 (out)"}, {"part": "vid(vis)", "mean": "보다 (see)"}, {"part": "-ence", "mean": "명사형 접미사"}],
+      "origin": "밖으로 보이는 것 → 증거",
+      "synonyms": ["proof"],
+      "derivatives": [
+        {"en": "evident", "pos": "형", "defs": ["분명한, 명백한"]}
       ],
-      "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "vid(vis)",
-          "mean": "보다 (see)"
-        },
-        {
-          "part": "-ence",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "밖으로 보이는 것 → 증거"
+      "examples": [
+        {"en": "The police didn't have enough evidence to convict the suspect.", "ko": "경찰은 그 용의자가 유죄라고 입증할 만한 충분한 증거가 없었다."},
+        {"en": "It was evident from his face that he was upset.", "ko": "그의 얼굴을 보니 그가 화났다는 것이 분명했다."}
+      ]
     },
     {
       "en": "provide",
       "ipa": "/prəˈvaɪd/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "제공하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["공급[제공]하다", "(+for/against) 준비[대비]하다", "(+for) 부양하다", "규정하다"]}],
+      "parts": [{"part": "pro-", "mean": "앞으로, 미리 (forward, before)"}, {"part": "vide(vis)", "mean": "보다 (see)"}],
+      "origin": "미리 내다보고 준비하다 → 제공하다",
+      "synonyms": ["supply"],
+      "derivatives": [
+        {"en": "provision", "pos": "명", "defs": ["공급, 제공", "준비, 대비", "(복수형) 식량", "[법] 규정, 조항"]},
+        {"en": "provided", "pos": "접", "defs": ["(+that) 만약 …이면"]}
       ],
-      "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로, 미리 (forward, before)"
-        },
-        {
-          "part": "vide(vis)",
-          "mean": "보다 (see)"
-        }
+      "phrases": [
+        {"en": "provide A with B", "ko": "A에게 B를 공급[제공]하다 (= provide B for A)"},
+        {"en": "make provision for", "ko": "…에 대비하다"}
       ],
-      "origin": "미리 내다보고 준비하다 → 제공하다"
+      "examples": [
+        {"en": "He provided the stranger with food.", "ko": "그는 그 낯선 사람에게 음식을 제공하였다."},
+        {"en": "The provision of clean water is essential for public health.", "ko": "깨끗한 물의 공급은 공중 보건을 위해 필수적이다."},
+        {"en": "You can go out, provided that you finish your homework.", "ko": "네가 숙제를 다 한다면, 외출해도 돼."}
+      ]
     },
     {
       "en": "view",
       "ipa": "/vjuː/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "견해",
-            "관점"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "보다"
-          ]
-        }
+        {"pos": "명", "defs": ["관점, 견해", "시야", "경관, 경치"]},
+        {"pos": "동", "defs": ["…라고 생각하다, 간주하다", "보다"]}
       ],
-      "parts": [
-        {
-          "part": "view(vis)",
-          "mean": "보다 (see)"
-        }
+      "parts": [{"part": "view(vis)", "mean": "보다 (see)"}],
+      "origin": "보다 → 견해, 관점",
+      "synonyms": ["sight", "scenery", "regard"],
+      "derivatives": [
+        {"en": "viewer", "pos": "명", "defs": ["시청자, 보는 사람"]},
+        {"en": "viewpoint", "pos": "명", "defs": ["관점, 견지, 입장"]}
       ],
-      "origin": "보다 → 견해, 관점"
+      "phrases": [
+        {"en": "view A as B", "ko": "A를 B라고 생각하다"}
+      ],
+      "examples": [
+        {"en": "Many viewers are criticizing the prejudiced view of the broadcaster.", "ko": "많은 시청자가 그 방송인의 편파적인 시각[견해]을 비판하고 있다."},
+        {"en": "A man stood up in front of me and blocked my view.", "ko": "한 남자가 내 앞에 일어서서 나의 시야를 가렸다."},
+        {"en": "People viewed fencing as a game of skill and technique rather than strength.", "ko": "많은 사람들이 펜싱을 힘보다는 기술과 테크닉의 게임이라고 생각했다.", "source": "모의"}
+      ]
     },
     {
       "en": "interview",
       "ipa": "/ˈɪntərvjuː/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "면접"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "면접을 보다"
-          ]
-        }
+        {"pos": "명/동", "defs": ["(직장·학교 등에서) 면접(하다[보다])", "회견[인터뷰](하다)"]}
       ],
-      "parts": [
-        {
-          "part": "inter-",
-          "mean": "서로, 사이에 (between)"
-        },
-        {
-          "part": "view(vis)",
-          "mean": "보다 (see)"
-        }
+      "parts": [{"part": "inter-", "mean": "서로, 사이에 (between)"}, {"part": "view(vis)", "mean": "보다 (see)"}],
+      "origin": "서로 보다 → 면접",
+      "derivatives": [
+        {"en": "interviewer", "pos": "명", "defs": ["면접관, 인터뷰 진행자"]},
+        {"en": "interviewee", "pos": "명", "defs": ["면접[인터뷰] 대상자"]}
       ],
-      "origin": "서로 보다 → 면접"
+      "examples": [
+        {"en": "How did your job interview go?", "ko": "네 구직 면접은 어떻게 됐니?"},
+        {"en": "She interviewed twelve people who were highly successful in their work.", "ko": "그녀는 자신의 일에서 크게 성공한 12명의 사람들을 인터뷰했다.", "source": "모의"}
+      ]
     },
     {
       "en": "review",
       "ipa": "/rɪˈvjuː/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "검토",
-            "복습",
-            "비평"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "검토하다"
-          ]
-        }
+        {"pos": "명", "defs": ["재검토, 재조사", "비평, 논평, 리뷰", "(AmE) 복습"]},
+        {"pos": "동", "defs": ["재검토[재조사]하다", "비평[논평]하다", "(AmE) 복습하다"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "view(vis)",
-          "mean": "보다 (see)"
-        }
-      ],
-      "origin": "다시 보다 → 검토, 복습"
+      "parts": [{"part": "re-", "mean": "다시 (again)"}, {"part": "view(vis)", "mean": "보다 (see)"}],
+      "origin": "다시 보다 → 검토, 복습",
+      "examples": [
+        {"en": "I haven't read a positive review of that movie yet.", "ko": "나는 아직 그 영화에 대한 호평을 읽어보지 못했다."},
+        {"en": "Once you've answered all of these questions, go back and review your answers.", "ko": "모든 질문에 답한 후에는 돌아가서 답변을 재검토하세요.", "source": "교과서"},
+        {"en": "Let's review what you learned in our last class.", "ko": "지난 수업에서 배운 것을 복습하자."}
+      ]
     },
     {
       "en": "envy",
       "ipa": "/ˈenvi/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "부러움"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "부러워하다"
-          ]
-        }
+        {"pos": "명", "defs": ["선망, 질투"]},
+        {"pos": "동", "defs": ["부러워하다, 질투하다"]}
       ],
-      "parts": [
-        {
-          "part": "en-(in-)",
-          "mean": "안으로 (in, upon)"
-        },
-        {
-          "part": "vy(vis)",
-          "mean": "보다 (see)"
-        }
+      "parts": [{"part": "en-(in-)", "mean": "안으로 (in, upon)"}, {"part": "vy(vis)", "mean": "보다 (see)"}],
+      "origin": "안으로 바라보다 → 부러워하다",
+      "synonyms": ["jealousy", "be jealous"],
+      "derivatives": [
+        {"en": "envious", "pos": "형", "defs": ["(+of) 부러워하는, 질투하는"]}
       ],
-      "origin": "안으로 바라보다 → 부러워하다"
+      "examples": [
+        {"en": "We often envy those who have more than us.", "ko": "우리는 종종 우리보다 더 많은 것을 가진 사람들을 부러워한다."},
+        {"en": "It was obvious that he was envious of my promotion.", "ko": "그는 내가 승진한 것을 질투한 것이 분명했다."}
+      ]
     },
     {
       "en": "survey",
-      "ipa": "/ˈsɜːrveɪ/",
+      "ipa": "/ˈsɜːrveɪ/ · /sərˈveɪ/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "조사"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "조사하다"
-          ]
-        }
+        {"pos": "명", "defs": ["(질문 등을 통한) 조사", "(토지 등의) 측량"]},
+        {"pos": "동", "defs": ["조사하다", "측량하다"]}
       ],
-      "parts": [
-        {
-          "part": "sur-(super-)",
-          "mean": "위에서 (over)"
-        },
-        {
-          "part": "vey(vis)",
-          "mean": "보다 (see)"
-        }
-      ],
-      "origin": "위에서 내려다보다 → 조사하다"
+      "parts": [{"part": "sur-(super-)", "mean": "위에서 (over)"}, {"part": "vey(vis)", "mean": "보다 (see)"}],
+      "origin": "위에서 내려다보다 → 조사하다",
+      "examples": [
+        {"en": "The survey asked participants about their daily habits.", "ko": "그 설문조사는 참가자들에게 그들의 일상 습관에 대해 물었다."}
+      ]
     },
     {
       "en": "acquire",
       "ipa": "/əˈkwaɪər/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "습득하다",
-            "얻다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["획득하다, 얻다", "(지식·기술 등을) 배우다, 얻다, 습득하다"]}],
+      "parts": [{"part": "ac-(ad-)", "mean": "~쪽으로 (toward)"}, {"part": "quire", "mean": "구하다 (seek)"}],
+      "origin": "~쪽으로 구하다 → 습득하다",
+      "synonyms": ["obtain", "gain", "get"],
+      "derivatives": [
+        {"en": "acquisition", "pos": "명", "defs": ["획득(물), 취득(물)"]}
       ],
-      "parts": [
-        {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "quire",
-          "mean": "구하다 (seek)"
-        }
-      ],
-      "origin": "~쪽으로 구하다 → 습득하다"
+      "examples": [
+        {"en": "Group projects help students acquire teamwork skills.", "ko": "모둠 활동은 학생들이 협동 능력을 익히는 데 도움을 준다."}
+      ]
     },
     {
       "en": "require",
       "ipa": "/rɪˈkwaɪər/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "요구하다",
-            "필요로 하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["필요로 하다", "(법·규칙 등이) 요구하다, 규정하다"]}],
+      "parts": [{"part": "re-", "mean": "다시 (again)"}, {"part": "quire", "mean": "구하다 (seek)"}],
+      "origin": "다시 구하다 → 요구하다",
+      "synonyms": ["need", "demand"],
+      "derivatives": [
+        {"en": "requirement", "pos": "명", "defs": ["필요 조건, 요건, 자격", "(주로 복수형) 필요한 것"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "quire",
-          "mean": "구하다 (seek)"
-        }
-      ],
-      "origin": "다시 구하다 → 요구하다"
+      "examples": [
+        {"en": "To be a top athlete requires self-discipline.", "ko": "최고의 선수가 되려면 자기 수양이 필요하다."},
+        {"en": "Having the ability to take care of oneself without depending on others was considered a requirement for everyone.", "ko": "다른 사람에게 의존하지 않고 스스로를 돌보는 능력을 갖추는 것은 모두에게 필요한 것이라고 여겨졌다.", "source": "모의"}
+      ]
     },
     {
       "en": "inquire",
       "ipa": "/ɪnˈkwaɪər/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "묻다",
-            "조사하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["묻다, 질문하다", "(+into) 조사하다"]}],
+      "parts": [{"part": "in-", "mean": "안으로 (into)"}, {"part": "quire", "mean": "구하다, 묻다 (seek, ask)"}],
+      "origin": "안으로 파고들어 묻다 → 조사하다",
+      "synonyms": ["ask", "investigate"],
+      "derivatives": [
+        {"en": "inquiry", "pos": "명", "defs": ["문의, 질문", "조사"]}
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로 (into)"
-        },
-        {
-          "part": "quire",
-          "mean": "구하다, 묻다 (seek, ask)"
-        }
+      "phrases": [
+        {"en": "inquire after", "ko": "…의 안부를 묻다"}
       ],
-      "origin": "안으로 파고들어 묻다 → 조사하다"
+      "examples": [
+        {"en": "A: I'm calling to inquire about the latest model.\nB: Sure! We've received a lot of inquiries about it lately.", "ko": "A: 최신 모델에 관해 문의하려고 전화드렸습니다.\nB: 네! 최근에 그 모델에 대한 문의가 많이 들어오고 있어요."}
+      ]
     },
     {
       "en": "conquer",
       "ipa": "/ˈkɑːŋkər/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "정복하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["정복하다", "(적 등을) 이기다", "(어려움 등을) 극복하다"]}],
+      "parts": [{"part": "con-(com-)", "mean": "완전히 (completely)"}, {"part": "quer(quir)", "mean": "구하다 (seek)"}],
+      "origin": "완전히 손에 넣다 → 정복하다",
+      "synonyms": ["defeat", "beat", "overcome"],
+      "antonyms": ["surrender", "yield"],
+      "derivatives": [
+        {"en": "conquest", "pos": "명", "defs": ["(주로 +of) 정복, 극복; 획득", "점령지"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "quer(quir)",
-          "mean": "구하다 (seek)"
-        }
-      ],
-      "origin": "완전히 손에 넣다 → 정복하다"
+      "examples": [
+        {"en": "He helped children conquer their fears.", "ko": "그는 아이들이 공포심을 극복하도록 도와주었다."},
+        {"en": "The French conquest of Laos lasted from 1893 to 1954.", "ko": "프랑스의 라오스 점령은 1893년부터 1954년까지 지속됐다."}
+      ]
     },
     {
       "en": "request",
       "ipa": "/rɪˈkwest/",
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "요청"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "요청하다"
-          ]
-        }
+        {"pos": "명/동", "defs": ["요청(하다), 요구(하다)"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "quest(quir)",
-          "mean": "구하다 (seek)"
-        }
-      ],
-      "origin": "다시 구하다 → 요청하다"
+      "parts": [{"part": "re-", "mean": "다시 (again)"}, {"part": "quest(quir)", "mean": "구하다 (seek)"}],
+      "origin": "다시 구하다 → 요청하다",
+      "examples": [
+        {"en": "I am writing this letter to request that you be our guest speaker for the conference.", "ko": "이번 컨퍼런스의 초청 연사로 참석해 주실 것을 요청하기 위해 이 편지를 씁니다.", "source": "모의"}
+      ]
     },
     {
       "en": "exquisite",
       "ipa": "/ɪkˈskwɪzɪt/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "정교한",
-            "우아한"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "quis(quir)",
-          "mean": "구하다 (seek)"
-        },
-        {
-          "part": "-ite",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "밖으로 찾아낸 → 정교한"
+      "meanings": [{"pos": "형", "defs": ["매우 아름다운; 정교한", "(느낌이) 강렬한, (감각이) 예리한"]}],
+      "parts": [{"part": "ex-", "mean": "밖으로 (out)"}, {"part": "quis(quir)", "mean": "구하다 (seek)"}, {"part": "-ite", "mean": "형용사형 접미사"}],
+      "origin": "밖으로 찾아낸 → 정교한",
+      "synonyms": ["elegant", "delicate", "acute"],
+      "examples": [
+        {"en": "The detail on this watch face is exquisite.", "ko": "이 시계 앞면(다이얼)의 세부 장식은 아주 정교하다."}
+      ]
     },
     {
       "en": "conduct",
-      "ipa": "/kənˈdʌkt/",
+      "ipa": "/kənˈdʌkt/ · /ˈkɑːndʌkt/",
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "수행하다",
-            "지휘하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "행동"
-          ]
-        }
+        {"pos": "동", "defs": ["(조사·연구 등을) 하다, 실시하다", "인도하다, 안내하다, 이끌다", "지휘하다", "(+oneself) 처신하다"]},
+        {"pos": "명", "defs": ["처신, 행동", "수행, 실시"]}
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "duct(duc)",
-          "mean": "이끌다 (lead)"
-        }
+      "parts": [{"part": "con-(com-)", "mean": "함께 (together)"}, {"part": "duct(duc)", "mean": "이끌다 (lead)"}],
+      "origin": "함께 이끌다 → 수행하다",
+      "synonyms": ["carry out", "behavior"],
+      "derivatives": [
+        {"en": "conductor", "pos": "명", "defs": ["[음악] 지휘자", "(열차·버스 등의) 차장"]}
       ],
-      "origin": "함께 이끌다 → 수행하다"
+      "examples": [
+        {"en": "The second interview will be conducted in English.", "ko": "2차 면접은 영어로 실시될 것이다."}
+      ]
     },
     {
       "en": "deduct",
       "ipa": "/dɪˈdʌkt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "빼다",
-            "공제하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["빼다, 공제하다"]}],
+      "parts": [{"part": "de-", "mean": "아래로 (down)"}, {"part": "duct(duc)", "mean": "이끌다 (lead)"}],
+      "origin": "아래로 이끌어 빼다 → 공제하다",
+      "synonyms": ["subtract"],
+      "derivatives": [
+        {"en": "deduction", "pos": "명", "defs": ["공제(액)"]}
       ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "아래로 (down)"
-        },
-        {
-          "part": "duct(duc)",
-          "mean": "이끌다 (lead)"
-        }
+      "phrases": [
+        {"en": "be deducted from", "ko": "…에서 빼다, 제하다"}
       ],
-      "origin": "아래로 이끌어 빼다 → 공제하다"
+      "examples": [
+        {"en": "Taxes are deducted from my monthly salary.", "ko": "세금은 내 월급에서 공제된다."}
+      ]
     },
     {
       "en": "educate",
       "ipa": "/ˈedʒukeɪt/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "교육하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["교육하다, 가르치다"]}],
+      "parts": [{"part": "e-(ex-)", "mean": "밖으로 (out)"}, {"part": "duc", "mean": "이끌다 (lead)"}, {"part": "-ate", "mean": "동사형 접미사"}],
+      "origin": "밖으로 이끌어내다 → 교육하다",
+      "derivatives": [
+        {"en": "education", "pos": "명", "defs": ["교육"]},
+        {"en": "educational", "pos": "형", "defs": ["교육의, 교육적인"]},
+        {"en": "educator", "pos": "명", "defs": ["교육자, 교사"]}
       ],
-      "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "duc",
-          "mean": "이끌다 (lead)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
-      ],
-      "origin": "밖으로 이끌어내다 → 교육하다"
+      "examples": [
+        {"en": "We must educate students about environmental issues.", "ko": "우리는 학생들에게 환경 문제에 대해 교육해야 한다."},
+        {"en": "You must keep in mind that education is a long-term investment of time, money, and effort into humans.", "ko": "교육은 인간에 대한 시간, 돈, 노력의 장기적인 투자라는 점을 명심해야 한다.", "source": "모의"}
+      ]
     },
     {
       "en": "deduce",
       "ipa": "/dɪˈduːs/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "추론하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["추론하다, 연역하다"]}],
+      "parts": [{"part": "de-", "mean": "아래로 (down)"}, {"part": "duce(duc)", "mean": "이끌다 (lead)"}],
+      "origin": "아래로 이끌어내다 → 추론하다",
+      "synonyms": ["infer"],
+      "antonyms": ["induce"],
+      "derivatives": [
+        {"en": "deduction", "pos": "명", "defs": ["추론, 연역(법)"]}
       ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "아래로 (down)"
-        },
-        {
-          "part": "duce(duc)",
-          "mean": "이끌다 (lead)"
-        }
-      ],
-      "origin": "아래로 이끌어내다 → 추론하다"
+      "examples": [
+        {"en": "From the size of this footprint, we deduced that the criminal was an adult male.", "ko": "이 발자국의 크기로 우리는 범인이 성인 남자라고 추론했다."}
+      ]
     },
     {
       "en": "induce",
       "ipa": "/ɪnˈduːs/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "유도하다",
-            "귀납하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["설득하여 …하게 하다, 유도하다", "야기하다, 일으키다", "귀납하다"]}],
+      "parts": [{"part": "in-", "mean": "안으로 (into)"}, {"part": "duce(duc)", "mean": "이끌다 (lead)"}],
+      "origin": "안으로 이끌다 → 유도하다",
+      "antonyms": ["deduction"],
+      "derivatives": [
+        {"en": "induction", "pos": "명", "defs": ["도입, 유발", "귀납(법)"]},
+        {"en": "inducement", "pos": "명", "defs": ["권유, 유도[유인](하는 것)"]}
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로 (into)"
-        },
-        {
-          "part": "duce(duc)",
-          "mean": "이끌다 (lead)"
-        }
+      "phrases": [
+        {"en": "induce A to-v", "ko": "A가 …하게 설득하다, 유도하다"}
       ],
-      "origin": "안으로 이끌다 → 유도하다"
+      "examples": [
+        {"en": "What induced them to give such a large donation?", "ko": "무엇이 그들로 하여금 그렇게 많은 기부금을 내게 했나요?"}
+      ]
     },
     {
       "en": "reduce",
       "ipa": "/rɪˈduːs/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "줄이다",
-            "감소시키다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["감소시키다, 줄이다, 낮추다"]}],
+      "parts": [{"part": "re-", "mean": "뒤로 (back)"}, {"part": "duce(duc)", "mean": "이끌다 (lead)"}],
+      "origin": "뒤로 이끌다 → 줄이다",
+      "synonyms": ["decrease", "diminish", "lessen"],
+      "antonyms": ["increase"],
+      "derivatives": [
+        {"en": "reduction", "pos": "명", "defs": ["감소, 축소, 삭감(액)"]}
       ],
-      "parts": [
-        {
-          "part": "re-",
-          "mean": "뒤로 (back)"
-        },
-        {
-          "part": "duce(duc)",
-          "mean": "이끌다 (lead)"
-        }
-      ],
-      "origin": "뒤로 이끌다 → 줄이다"
+      "examples": [
+        {"en": "How do you reduce stress?", "ko": "당신은 어떻게 스트레스를 줄이나요?"},
+        {"en": "Technological advances have led to a dramatic reduction in the cost of processing and transmitting information.", "ko": "기술적 발전은 정보를 처리하고 전송하는 비용을 급감시켰다.", "source": "모의"}
+      ]
     },
     {
       "en": "introduce",
       "ipa": "/ˌɪntrəˈduːs/",
-      "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "소개하다",
-            "도입하다"
-          ]
-        }
+      "meanings": [{"pos": "동", "defs": ["(…에게 ~을) 소개하다", "(제도·물건 등을) 도입하다, 들여오다"]}],
+      "parts": [{"part": "intro-", "mean": "안으로 (inward)"}, {"part": "duce(duc)", "mean": "이끌다 (lead)"}],
+      "origin": "안으로 이끌어 들이다 → 소개하다",
+      "derivatives": [
+        {"en": "introduction", "pos": "명", "defs": ["소개", "도입", "(책의) 서론; (학문의) 개론[입문]서"]}
       ],
-      "parts": [
-        {
-          "part": "intro-",
-          "mean": "안으로 (inward)"
-        },
-        {
-          "part": "duce(duc)",
-          "mean": "이끌다 (lead)"
-        }
-      ],
-      "origin": "안으로 이끌어 들이다 → 소개하다"
+      "examples": [
+        {"en": "Can you introduce your sister to me?", "ko": "나에게 네 여동생을 소개해줄 수 있니?"},
+        {"en": "Some schools have introduced tablet-based textbooks in the classroom.", "ko": "일부 학교는 교실에 태블릿 기반 교과서를 도입했다."},
+        {"en": "introduction of robots into factories", "ko": "공장 내 로봇의 도입", "source": "수능"}
+      ]
     }
   ]
 }

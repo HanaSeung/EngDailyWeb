@@ -8,24 +8,51 @@
         {
           "pos": "명",
           "defs": [
-            "신호",
-            "징후"
+            "징후, 조짐",
+            "신호, 표시",
+            "표지판; 기호"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "서명하다"
+            "서명하다; 계약하다",
+            "신호를 보내다"
           ]
         }
       ],
       "parts": [
         {
           "part": "sign",
-          "mean": "표시 (mark, sign)"
+          "mean": "표시 (mark)"
         }
       ],
-      "origin": "표시 → 신호, 서명"
+      "origin": "라틴어 signum(=mark)에서 온 말 → 표시하는 것",
+      "derivatives": [
+        {
+          "en": "signature",
+          "pos": "명",
+          "defs": [
+            "서명; 특징"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "sign language",
+          "ko": "수화"
+        },
+        {
+          "en": "sign up",
+          "ko": "참가하다, 가입하다, 등록하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Once you've completed the document, please sign your name at the bottom.",
+          "ko": "서류 작성을 완료하시면, 아래에 서명해 주세요."
+        }
+      ]
     },
     {
       "en": "signal",
@@ -40,7 +67,7 @@
         {
           "pos": "동",
           "defs": [
-            "신호를 보내다"
+            "신호를 보내다, 암시하다"
           ]
         }
       ],
@@ -51,10 +78,24 @@
         },
         {
           "part": "-al",
-          "mean": "명사/형용사형 접미사"
+          "mean": "명접"
         }
       ],
-      "origin": "표시하는 것 → 신호"
+      "origin": "표시해서 알려줌",
+      "synonyms": [
+        "sign",
+        "cue"
+      ],
+      "examples": [
+        {
+          "en": "At an agreed signal, everyone in the auditorium started clapping their hands.",
+          "ko": "합의된 신호에 따라 강당에 있던 모든 사람이 박수를 치기 시작했다."
+        },
+        {
+          "en": "When the director was ready, he signaled for the actors to begin.",
+          "ko": "감독은 준비되자, 배우들에게 시작하라고 신호를 보냈다."
+        }
+      ]
     },
     {
       "en": "significant",
@@ -63,8 +104,9 @@
         {
           "pos": "형",
           "defs": [
-            "중요한",
-            "상당한"
+            "중대한, 중요한",
+            "(수·양 등이) 상당한, 현저한",
+            "(표정·행동 등이) 의미심장한"
           ]
         }
       ],
@@ -82,7 +124,46 @@
           "mean": "형용사형 접미사"
         }
       ],
-      "origin": "표시를 만들 만한 → 중요한"
+      "origin": "(식별할 수 있게) 표시를 만드는 → 표시를 만들 만큼 중요한",
+      "antonyms": [
+        "insignificant"
+      ],
+      "derivatives": [
+        {
+          "en": "significantly",
+          "pos": "부",
+          "defs": [
+            "상당히; 중요하게"
+          ]
+        },
+        {
+          "en": "significance",
+          "pos": "명",
+          "defs": [
+            "중요성, 중대성",
+            "(말·행동 등의) 의미"
+          ]
+        },
+        {
+          "en": "signify",
+          "pos": "동",
+          "defs": [
+            "의미하다, 나타내다",
+            "중요하다, 영향을 끼치다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her most significant achievement was translating Isaac Newton's book into French.",
+          "ko": "그녀의 가장 중요한 업적은 아이작 뉴턴의 책을 프랑스어로 번역한 것이다.",
+          "source": "모의"
+        },
+        {
+          "en": "Although the event signified the end of an era, few people noted the significance.",
+          "ko": "그 사건은 한 시대의 종말을 의미했지만, 그 중요성을 알아차린 사람은 거의 없었다."
+        }
+      ]
     },
     {
       "en": "assign",
@@ -91,69 +172,118 @@
         {
           "pos": "동",
           "defs": [
-            "배정하다",
-            "할당하다"
+            "(임무·역할 등에) 임명[선임]하다",
+            "(일·사물 등을) 할당하다, 부여하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "as-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "as",
+          "mean": "ad:to"
         },
         {
           "part": "sign",
           "mean": "표시 (mark)"
         }
       ],
-      "origin": "~쪽에 표시하다 → 배정하다"
+      "origin": "…의 몫으로 표시하다 → 할당하다",
+      "synonyms": [
+        "allot",
+        "allocate"
+      ],
+      "derivatives": [
+        {
+          "en": "assignment",
+          "pos": "명",
+          "defs": [
+            "임무, 과제, 숙제",
+            "할당받은 것"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I was assigned the task of ordering samples.",
+          "ko": "나는 견본을 주문하는 업무를 부여받았다."
+        }
+      ]
     },
     {
       "en": "design",
       "ipa": "/dɪˈzaɪn/",
       "meanings": [
         {
-          "pos": "명",
+          "pos": "동",
           "defs": [
-            "디자인",
-            "설계"
+            "디자인하다",
+            "설계[고안]하다"
           ]
         },
         {
-          "pos": "동",
+          "pos": "명",
           "defs": [
-            "설계하다"
+            "디자인(된 형태)",
+            "설계(도), 도안; 계획"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "완전히 (completely)"
+          "part": "de",
+          "mean": "out"
         },
         {
           "part": "sign",
           "mean": "표시 (mark)"
         }
       ],
-      "origin": "완전히 표시하다 → 설계하다"
+      "origin": "윤곽(outline)을 표시해서 형태를 알려주다 → 디자인하다 → 설계하다",
+      "derivatives": [
+        {
+          "en": "designer",
+          "pos": "명/형",
+          "defs": [
+            "디자이너, 설계자",
+            "유명 디자이너가 만든"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "It is important to design spaces where unwanted noise can be eliminated.",
+          "ko": "원치 않는 소음이 제거될 수 있는 공간을 설계하는 것이 중요하다.",
+          "source": "모의"
+        },
+        {
+          "en": "Designers draw on their design experience when approaching a new project.",
+          "ko": "디자이너들은 새 프로젝트에 착수할 때 그들의 디자인 경험을 기반으로 한다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "designate",
-      "ipa": "/ˈdezɪɡneɪt/",
+      "ipa": "/ˈdezɪɡneɪt/ · /ˈdezɪɡnət/",
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "지정하다",
-            "지명하다"
+            "지정[지명]하다",
+            "표시하다, 나타내다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "(명사 뒤에 쓰여) 지정[지명]된"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "완전히 (completely)"
+          "part": "de",
+          "mean": "out"
         },
         {
           "part": "sign",
@@ -164,7 +294,28 @@
           "mean": "동사형 접미사"
         }
       ],
-      "origin": "완전히 표시하여 정하다 → 지정하다"
+      "origin": "표시하여 드러내다 → 지정하다",
+      "derivatives": [
+        {
+          "en": "designation",
+          "pos": "명",
+          "defs": [
+            "지정, 지명",
+            "명칭, 호칭"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "There are two locations designated for donations: the library and the community center.",
+          "ko": "기부를 위해 지정된 두 장소가 있는데, 도서관과 시민회관이다.",
+          "source": "모의"
+        },
+        {
+          "en": "After the cave's designation as a national monument, tourism increased 200%.",
+          "ko": "그 동굴이 국가 기념물로 지정된 후에 관광이 200% 증가했다."
+        }
+      ]
     },
     {
       "en": "resign",
@@ -173,48 +324,82 @@
         {
           "pos": "동",
           "defs": [
-            "사임하다",
-            "물러나다"
+            "사임[사직]하다",
+            "(+oneself to) 포기하고 …을 받아들이다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "되돌려 (back)"
+          "part": "re",
+          "mean": "back"
         },
         {
           "part": "sign",
-          "mean": "표시, 서명 (sign)"
+          "mean": "서명하다"
         }
       ],
-      "origin": "서명을 되돌리다 → 사임하다"
+      "origin": "서명을 되돌리다 → 서명을 취소하다 → 사임하다, 물러나다",
+      "derivatives": [
+        {
+          "en": "resignation",
+          "pos": "명",
+          "defs": [
+            "사직, 사임",
+            "체념"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She resigned from her post yesterday.",
+          "ko": "그녀는 어제 자신의 직위[직책]에서 사임했다."
+        },
+        {
+          "en": "I accepted the bad news with quiet resignation.",
+          "ko": "나는 그 나쁜 소식을 조용히 체념하며 받아들였다."
+        }
+      ]
     },
     {
       "en": "seal",
       "ipa": "/siːl/",
       "meanings": [
         {
-          "pos": "명",
+          "pos": "동",
           "defs": [
-            "인장",
-            "바다표범"
+            "(편지를) 봉하다",
+            "밀폐[밀봉]하다",
+            "확정하다"
           ]
         },
         {
-          "pos": "동",
+          "pos": "명",
           "defs": [
-            "봉인하다"
+            "인장, 도장",
+            "봉인",
+            "바다표범, 물개"
           ]
         }
       ],
       "parts": [
         {
-          "part": "seal(sign)",
-          "mean": "표시, 인장 (mark, seal)"
+          "part": "sea",
+          "mean": "sign"
+        },
+        {
+          "part": "l",
+          "mean": "lum:'작은 것'"
         }
       ],
-      "origin": "표시를 찍다 → 봉인하다"
+      "origin": "(나를 나타내는) 작은 표시 → 인장, 도장 → (인장을 찍어) 편지를 봉하다. ※ 편지를 봉인하고, 보내는 사람이 누구인지 나타내기 위해 봉투에 왁스를 녹여 인장을 찍던 풍습에서 유래",
+      "examples": [
+        {
+          "en": "I folded the letter twice and sealed it in an envelope.",
+          "ko": "나는 편지를 두 번 접어 그것을 봉투 안에 봉했다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "correct",
@@ -223,27 +408,62 @@
         {
           "pos": "형",
           "defs": [
-            "옳은"
+            "옳은, 올바른",
+            "적당한"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "바로잡다"
+            "바로잡다, 정정하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "cor-(com-)",
-          "mean": "완전히 (completely)"
+          "part": "cor",
+          "mean": "com:'강조'"
         },
         {
           "part": "rect",
-          "mean": "바르게 하다 (make right)"
+          "mean": "바르게 이끌다 (lead straight)"
         }
       ],
-      "origin": "완전히 바르게 하다 → 옳은, 바로잡다"
+      "origin": "매우 바르게 이끌어진 → 올바른",
+      "synonyms": [
+        "right",
+        "accurate",
+        "proper"
+      ],
+      "antonyms": [
+        "incorrect"
+      ],
+      "derivatives": [
+        {
+          "en": "correctly",
+          "pos": "부",
+          "defs": [
+            "바르게, 정확하게"
+          ]
+        },
+        {
+          "en": "correction",
+          "pos": "명",
+          "defs": [
+            "정정[수정]한 것; 교정"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "First impressions are not always correct.",
+          "ko": "첫인상이 항상 옳은 것은 아니다."
+        },
+        {
+          "en": "If you find anything incorrect, please make the corrections yourself.",
+          "ko": "만약에 틀린 점을 발견하면, 직접 수정해 주세요."
+        }
+      ]
     },
     {
       "en": "direct",
@@ -252,56 +472,115 @@
         {
           "pos": "형",
           "defs": [
-            "직접적인"
+            "직접의, 직접적인",
+            "직행의, 직통의"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "지시하다"
+            "(주의·노력 등을) (…로) 돌리다, 향하게 하다",
+            "지도[감독]하다, (연극·영화 등을) 연출[감독]하다",
+            "길을 가르쳐주다",
+            "명령하다, 지시하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "di-",
-          "mean": "떨어져 (apart)"
+          "part": "di",
+          "mean": "dis:apart"
         },
         {
           "part": "rect",
-          "mean": "바르게 이끌다 (guide right)"
+          "mean": "바르게 이끌다 (lead straight)"
         }
       ],
-      "origin": "곧바로 이끌다 → 직접적인, 지시하다"
+      "origin": "(각각 떨어져서) 구분되도록 바르게 이끌다 → 지도하다, 지시하다 / 영화·연극을 만들기 위해 지도하다 → 연출[감독]하다 / 어디로 가야 할지 알려주며 지도하다 → 길을 알려주다 / 어디에 집중해야 할지 알려주며 지도하다 → 돌리다, 향하게 하다 / 직접 나서서 지도하다 → 직접적인, 직행의",
+      "synonyms": [
+        "command"
+      ],
+      "antonyms": [
+        "indirect"
+      ],
+      "derivatives": [
+        {
+          "en": "directly",
+          "pos": "부",
+          "defs": [
+            "곧장, 똑바로",
+            "직접적으로",
+            "즉시, 바로, 곧"
+          ]
+        },
+        {
+          "en": "direction",
+          "pos": "명",
+          "defs": [
+            "방향",
+            "지도, 지시",
+            "(연극·영화의) 연출, 감독"
+          ]
+        },
+        {
+          "en": "director",
+          "pos": "명",
+          "defs": [
+            "감독자, 연출자, 지도자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Is there a direct flight to Chicago?",
+          "ko": "시카고로 가는 직항 노선이 있습니까?"
+        },
+        {
+          "en": "The stage director must gain the audience's attention and direct their eyes to a particular spot or actor.",
+          "ko": "무대 연출자는 관객의 주의를 끌고 그들의 시선이 특정 지점이나 배우에게 향하게 해야 한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "erect",
       "ipa": "/ɪˈrekt/",
       "meanings": [
         {
-          "pos": "동",
-          "defs": [
-            "세우다"
-          ]
-        },
-        {
           "pos": "형",
           "defs": [
             "똑바로 선"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "(똑바로) 세우다, (건물 등을) 짓다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out, up)"
+          "part": "e",
+          "mean": "ex:up"
         },
         {
           "part": "rect",
-          "mean": "바르게 하다 (right)"
+          "mean": "바르게 이끌다 (lead straight)"
         }
       ],
-      "origin": "바르게 위로 하다 → 세우다"
+      "origin": "위쪽으로 똑바로 이끌어 세운",
+      "synonyms": [
+        "upright",
+        "set up",
+        "build"
+      ],
+      "examples": [
+        {
+          "en": "They erected a monument in the middle of the park.",
+          "ko": "그들은 그 공원의 중앙에 기념비를 세웠다."
+        }
+      ]
     },
     {
       "en": "rectangular",
@@ -310,25 +589,40 @@
         {
           "pos": "형",
           "defs": [
-            "직사각형의"
+            "직사각형의, 직각의"
           ]
         }
       ],
       "parts": [
         {
           "part": "rect",
-          "mean": "바른 (right)"
+          "mean": "바르게 이끌다 (lead straight)"
         },
         {
-          "part": "angle",
-          "mean": "각 (angle)"
+          "part": "angul",
+          "mean": "각도 (angle)"
         },
         {
           "part": "-ar",
           "mean": "형용사형 접미사"
         }
       ],
-      "origin": "바른 각의 → 직사각형의"
+      "origin": "직선이 만나 직각을 이룬 → 직사각형의",
+      "derivatives": [
+        {
+          "en": "rectangle",
+          "pos": "명",
+          "defs": [
+            "직사각형"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Most classroom doors are rectangular in shape.",
+          "ko": "대부분의 교실 문은 직사각형 모양이다."
+        }
+      ]
     },
     {
       "en": "region",
@@ -337,14 +631,14 @@
         {
           "pos": "명",
           "defs": [
-            "지역",
-            "지방"
+            "지역, 지방, 지대",
+            "(신체의) 부분"
           ]
         }
       ],
       "parts": [
         {
-          "part": "reg(rect)",
+          "part": "reg",
           "mean": "다스리다 (rule)"
         },
         {
@@ -352,7 +646,26 @@
           "mean": "명사형 접미사"
         }
       ],
-      "origin": "다스리는 범위 → 지역"
+      "origin": "통치[통제]가 가능한 지역[부분]",
+      "synonyms": [
+        "area",
+        "part"
+      ],
+      "derivatives": [
+        {
+          "en": "regional",
+          "pos": "형",
+          "defs": [
+            "지역적인"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The southern region suffers from heavy rains.",
+          "ko": "남부 지역은 폭우로 고통 받는다."
+        }
+      ]
     },
     {
       "en": "regular",
@@ -361,22 +674,61 @@
         {
           "pos": "형",
           "defs": [
-            "규칙적인",
-            "정기적인"
+            "규칙적인, 정기적인",
+            "보통의, 표준적인"
           ]
         }
       ],
       "parts": [
         {
-          "part": "reg(rect)",
+          "part": "regul",
           "mean": "다스리다 (rule)"
         },
         {
-          "part": "-ular",
+          "part": "-ar",
           "mean": "형용사형 접미사"
         }
       ],
-      "origin": "규칙에 따라 다스리는 → 규칙적인"
+      "origin": "(시간적으로) 통치[통제]가 되는 → 규칙적인",
+      "synonyms": [
+        "standard"
+      ],
+      "antonyms": [
+        "irregular"
+      ],
+      "derivatives": [
+        {
+          "en": "regularly",
+          "pos": "부",
+          "defs": [
+            "정기적으로, 규칙적으로"
+          ]
+        },
+        {
+          "en": "regularity",
+          "pos": "명",
+          "defs": [
+            "정기적임, 규칙적임; 규칙성"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "on a regular basis",
+          "ko": "정기적으로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Regular exercise and a healthy diet help you lose weight.",
+          "ko": "규칙적인 운동과 건강한 식단은 체중 감량에 도움을 준다."
+        },
+        {
+          "en": "We offer a regularly scheduled tour every Saturday.",
+          "ko": "우리는 매주 토요일 정기적으로 예정된 투어를 운영한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "regulate",
@@ -385,22 +737,41 @@
         {
           "pos": "동",
           "defs": [
-            "규제하다",
-            "조절하다"
+            "(법률·규칙으로) 규제[통제]하다, 규정하다",
+            "(속도·온도·압력 등을) 조정하다, 조절하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "reg(rect)",
+          "part": "regul",
           "mean": "다스리다 (rule)"
         },
         {
-          "part": "-ulate",
+          "part": "-ate",
           "mean": "동사형 접미사"
         }
       ],
-      "origin": "규칙으로 다스리다 → 규제하다"
+      "origin": "통치[통제]하다 → 규제하다",
+      "synonyms": [
+        "control"
+      ],
+      "derivatives": [
+        {
+          "en": "regulation",
+          "pos": "명",
+          "defs": [
+            "규칙, 규정",
+            "규제, 단속"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The volume of economic activity is regulated by the supply of money.",
+          "ko": "경제 활동 규모는 통화 공급량에 의해 조정된다."
+        }
+      ]
     },
     {
       "en": "royal",
@@ -409,22 +780,37 @@
         {
           "pos": "형",
           "defs": [
-            "국왕의",
-            "왕실의"
+            "왕의, 왕실의; 왕립의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "roy(reg)",
-          "mean": "왕, 다스리다 (king, rule)"
+          "part": "roy",
+          "mean": "다스리다 (rule)"
         },
         {
           "part": "-al",
           "mean": "형용사형 접미사"
         }
       ],
-      "origin": "왕의 → 왕실의"
+      "origin": "통치자의 → 왕의",
+      "derivatives": [
+        {
+          "en": "royalty",
+          "pos": "명",
+          "defs": [
+            "왕족",
+            "인세, 사용료, 로열티"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The country is paying more and more royalties every year for intellectual property.",
+          "ko": "그 나라는 지적 소유권에 대해 매년 점점 더 많은 사용료[로열티]를 지불하고 있다."
+        }
+      ]
     },
     {
       "en": "rule",
@@ -433,14 +819,16 @@
         {
           "pos": "명",
           "defs": [
-            "규칙",
-            "지배"
+            "규칙, 원칙",
+            "통치, 지배"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "지배하다"
+            "통치[지배]하다",
+            "(공식적으로) 결정[판결]하다",
+            "(자를 대고 줄을) 긋다"
           ]
         }
       ],
@@ -450,7 +838,33 @@
           "mean": "다스리다 (rule, govern)"
         }
       ],
-      "origin": "다스리다 → 규칙, 지배"
+      "origin": "라틴어 regula(=straight stick)에서 온 말. (기준이 되는) 곧은 막대기 → 규칙 → 규칙을 가지고 다스리다 → 통치[지배]하다",
+      "synonyms": [
+        "regulation",
+        "law",
+        "government"
+      ],
+      "derivatives": [
+        {
+          "en": "ruler",
+          "pos": "명",
+          "defs": [
+            "통치자",
+            "(길이를 측정하는) 자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Before we start the tour, I'd like to remind you of some rules you need to follow in the gallery.",
+          "ko": "투어를 시작하기 전에, 미술관에서 준수해야 할 몇 가지 규칙을 다시 한 번 알려드리겠습니다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Many great pharaohs ruled over Egypt in the past.",
+          "ko": "많은 위대한 파라오(고대 이집트의 최고 통치자)가 과거에 이집트를 지배했다."
+        }
+      ]
     },
     {
       "en": "form",
@@ -459,24 +873,59 @@
         {
           "pos": "명",
           "defs": [
-            "형태",
-            "서식"
+            "형태, 모양",
+            "형식, 양식",
+            "종류, 유형"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "형성하다"
+            "형성하다; 형성되다"
           ]
         }
       ],
       "parts": [
         {
           "part": "form",
-          "mean": "형태 (shape, form)"
+          "mean": "형태 (form, shape)"
         }
       ],
-      "origin": "형태 → 형성하다"
+      "origin": "라틴어 forma(=form, shape)에서 온 말",
+      "synonyms": [
+        "shape",
+        "type",
+        "kind"
+      ],
+      "derivatives": [
+        {
+          "en": "formal",
+          "pos": "형",
+          "defs": [
+            "격식을 차린",
+            "공식적인, 정식의"
+          ]
+        },
+        {
+          "en": "formation",
+          "pos": "명",
+          "defs": [
+            "형성, 구성",
+            "구조"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can you complete this form and return it by Monday?",
+          "ko": "이 양식을 작성하여 월요일까지 돌려줄 수 있습니까?"
+        },
+        {
+          "en": "Human beings are driven by a natural desire to form and maintain interpersonal relationships.",
+          "ko": "인간은 대인 관계를 형성하고 유지하려는 자연스러운 욕구로 움직인다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "inform",
@@ -485,22 +934,57 @@
         {
           "pos": "동",
           "defs": [
-            "알리다",
-            "통지하다"
+            "알리다, 통지하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안에 (in)"
+          "part": "in",
+          "mean": "안으로 (into)"
         },
         {
           "part": "form",
-          "mean": "형태를 만들다 (form, shape)"
+          "mean": "형태"
         }
       ],
-      "origin": "마음 안에 형태를 만들다 → 알리다"
+      "origin": "(마음 속에) 개념을 형성시키다 → 가르쳐주다 → (어떤 것을) 알려주다",
+      "synonyms": [
+        "notify"
+      ],
+      "derivatives": [
+        {
+          "en": "information",
+          "pos": "명",
+          "defs": [
+            "정보, 지식"
+          ]
+        },
+        {
+          "en": "informative",
+          "pos": "형",
+          "defs": [
+            "유익한, 정보를 제공하는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "inform A of B",
+          "ko": "A에게 B를 알리다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The police informed us of the accident.",
+          "ko": "경찰이 우리에게 그 사고를 알려주었다."
+        },
+        {
+          "en": "The Internet has made vast amounts of free information available on any topic.",
+          "ko": "인터넷은 어떤 주제에 대해서든 무료로 이용할 수 있는 엄청난 양의 정보를 제공해 왔다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "reform",
@@ -509,27 +993,45 @@
         {
           "pos": "동",
           "defs": [
-            "개혁하다"
+            "개혁하다, 개선하다; 개혁되다, 개선되다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "개혁"
+            "개혁, 개선"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
+          "part": "re",
           "mean": "다시 (again)"
         },
         {
           "part": "form",
-          "mean": "형태 (form)"
+          "mean": "구성"
         }
       ],
-      "origin": "다시 형태를 만들다 → 개혁하다"
+      "origin": "(더 나은 형태로) 다시 구성",
+      "synonyms": [
+        "improvement"
+      ],
+      "derivatives": [
+        {
+          "en": "reformer",
+          "pos": "명",
+          "defs": [
+            "개혁가, 개혁론자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new government has promised to reform the educational system.",
+          "ko": "새로운 정부는 교육 제도를 개선하기로 약속했다."
+        }
+      ]
     },
     {
       "en": "formula",
@@ -538,22 +1040,42 @@
         {
           "pos": "명",
           "defs": [
-            "공식",
-            "방식"
+            "방식, 방법",
+            "[수학·화학] 공식, 식"
           ]
         }
       ],
       "parts": [
         {
           "part": "form",
-          "mean": "형태 (form)"
+          "mean": "형식"
         },
         {
           "part": "-ula",
-          "mean": "작은 것 (diminutive)"
+          "mean": "작은 것"
         }
       ],
-      "origin": "작은 형태 → 공식"
+      "origin": "작은 형식 → 공식",
+      "derivatives": [
+        {
+          "en": "formulate",
+          "pos": "동",
+          "defs": [
+            "만들어내다, 공식화하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The only magic formula for a successful marriage is good communication.",
+          "ko": "성공적인 결혼의 유일한 비법은 원활한 소통이다."
+        },
+        {
+          "en": "The chemical formula for water is H₂O.",
+          "ko": "물의 화학식은 H₂O이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "technique",
@@ -562,22 +1084,58 @@
         {
           "pos": "명",
           "defs": [
-            "기법",
-            "기술"
+            "(학문·과학 등의) (전문) 기술, 기법, 테크닉",
+            "(예술·스포츠 등의) 기교, 솜씨"
           ]
         }
       ],
       "parts": [
         {
           "part": "techn",
-          "mean": "기술 (skill, craft)"
+          "mean": "기술 (skill)"
         },
         {
           "part": "-ique",
           "mean": "명사형 접미사"
         }
       ],
-      "origin": "기술 → 기법"
+      "origin": "기술 → 기법",
+      "derivatives": [
+        {
+          "en": "technical",
+          "pos": "형",
+          "defs": [
+            "기술적인",
+            "전문적인"
+          ]
+        },
+        {
+          "en": "technically",
+          "pos": "부",
+          "defs": [
+            "엄밀히 말하면",
+            "기술적으로"
+          ]
+        },
+        {
+          "en": "technician",
+          "pos": "명",
+          "defs": [
+            "기술자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Each technician had a different technique for assembling the engines.",
+          "ko": "각 기술자는 엔진을 조립하는 데 필요한 서로 다른 기술을 가지고 있었다."
+        },
+        {
+          "en": "What is commonly known as \"average life expectancy\" is technically \"life expectancy at birth.\"",
+          "ko": "'평균 기대 수명'이라고 보통 알려진 것은 엄밀히 말하면 '출생 시 기대 수명'이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "technology",
@@ -596,11 +1154,37 @@
           "mean": "기술 (skill)"
         },
         {
-          "part": "logy",
+          "part": "-logy",
           "mean": "학문 (study)"
         }
       ],
-      "origin": "기술에 대한 학문 → 과학 기술"
+      "origin": "기술에 관한 학문",
+      "derivatives": [
+        {
+          "en": "technological",
+          "pos": "형",
+          "defs": [
+            "과학 기술의"
+          ]
+        },
+        {
+          "en": "technologist",
+          "pos": "명",
+          "defs": [
+            "과학 기술자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "This product is made using the latest technology.",
+          "ko": "이 제품은 최첨단 과학 기술을 이용해 만든 것이다."
+        },
+        {
+          "en": "With recent technological advances, people can now work, study, and even get medical services at home.",
+          "ko": "최근 과학 기술의 발전 덕분에, 사람들은 이제 집에서 일하고, 공부하고, 심지어는 의료 서비스를 받을 수도 있다."
+        }
+      ]
     }
   ]
 }
