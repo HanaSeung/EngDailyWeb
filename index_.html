@@ -141,9 +141,9 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;text-align:center;margin-bottom:6px}
 .card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:'Noto Sans',sans-serif}
 .card-meanings{width:100%}
-.meaning-group{width:100%;margin-bottom:10px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}.meaning-group:last-child{margin-bottom:0}
-.pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;flex-shrink:0}
-.def-inline{font-size:1rem;line-height:1.6;color:var(--text)}
+.meaning-group{width:100%;margin-bottom:10px}.meaning-group:last-child{margin-bottom:0}
+.pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;vertical-align:middle;margin-right:6px}
+.def-inline{font-size:1rem;line-height:1.6;color:var(--text)}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;margin-right:2px;color:var(--text)}.def-numbered{display:block;margin-left:40px}
 
 /* Navigation */
 .card-nav{display:flex;gap:8px;margin-bottom:12px}
@@ -292,6 +292,13 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
         <option value="scroll" selected>모두 펼치기</option>
         <option value="accordion">접이식</option>
         <option value="tab">탭 전환</option>
+      </select>
+    </div>
+    <div class="setting-row">
+      <div class="setting-label">카드 넘김 시 뒤집기 상태<span>다음/이전 카드 이동 시</span></div>
+      <select class="setting-select" id="keepFlip">
+        <option value="reset" selected>앞면으로 초기화</option>
+        <option value="keep">현재 상태 유지</option>
       </select>
     </div>
     <button class="btn-reload" onclick="toggleFullscreen()" id="btnFullscreen">🖥️ 전체화면 모드</button>
@@ -691,6 +698,7 @@ function saveSettings() {
   localStorage.setItem('engvoca_wordOrder', document.getElementById('wordOrder').value);
   localStorage.setItem('engvoca_slowSpeed', document.getElementById('slowSpeed').value);
   localStorage.setItem('engvoca_cardLayout', document.getElementById('cardLayout').value);
+  localStorage.setItem('engvoca_keepFlip', document.getElementById('keepFlip').value);
   const vIdx = parseInt(document.getElementById('voiceSelect').value);
   if (vIdx >= 0 && voices[vIdx]) {
     localStorage.setItem('engvoca_voice', voices[vIdx].name);
@@ -705,6 +713,8 @@ function restoreSettings() {
   if (savedSpeed) document.getElementById('slowSpeed').value = savedSpeed;
   const savedLayout = localStorage.getItem('engvoca_cardLayout');
   if (savedLayout) document.getElementById('cardLayout').value = savedLayout;
+  const savedKeepFlip = localStorage.getItem('engvoca_keepFlip');
+  if (savedKeepFlip) document.getElementById('keepFlip').value = savedKeepFlip;
   // 음성은 loadVoices에서 복원
 }
 restoreSettings();
@@ -1096,10 +1106,10 @@ function buildExamplesHtml(word) {
   const pattern = new RegExp(patterns.join('|'), 'gi');
   let h = '';
   word.examples.forEach(ex => {
-    const enText = ex.en.replace(pattern, '<b>$&</b>');
+    const enText = ex.en.replace(/\n/g, '<br>').replace(pattern, '<b>$&</b>');
     h += '<div class="example-item">';
     h += `<div class="example-en">${enText}</div>`;
-    h += `<div class="example-ko">${ex.ko}`;
+    h += `<div class="example-ko">${ex.ko.replace(/\n/g, '<br>')}`;
     if (ex.source) h += ` <span class="example-source">${ex.source}</span>`;
     h += '</div></div>';
   });
@@ -1110,7 +1120,7 @@ function buildDerivativesHtml(word) {
   if (!word.derivatives || word.derivatives.length === 0) return '';
   let h = '';
   word.derivatives.forEach(d => {
-    h += `<div class="deriv-item"><span class="deriv-word">${d.en}</span><span class="deriv-pos">${d.pos}</span><span class="deriv-def">${d.defs.join(', ')}</span></div>`;
+    h += `<div class="deriv-item"><span class="deriv-word">${d.en}</span><span class="deriv-pos">${d.pos}</span><span class="deriv-def">${d.defs.map(dd => formatDef(dd)).join(' ')}</span></div>`;
   });
   return h;
 }
@@ -1191,7 +1201,6 @@ function toggleAcc(header) {
   const card = header.closest('.card-extras');
   card.querySelectorAll('.acc-body.open').forEach(b => { b.classList.remove('open'); b.previousElementSibling.classList.remove('open'); });
   if (!isOpen) { body.classList.add('open'); header.classList.add('open'); }
-  updateCardHeight();
 }
 
 function switchExtrasTab(idx) {
@@ -1213,10 +1222,18 @@ function updateCardHeight() {
   });
 }
 
+// ResizeObserver: 카드 뒷면 크기 변화 자동 감지
+const cardBackObserver = new ResizeObserver(() => {
+  if (isFlipped) updateCardHeight();
+});
+cardBackObserver.observe(document.getElementById('cardBack'));
+
 function showCard() {
   const word = studyWords[currentIndex]; if (!word) return;
   speakCount = 0;
-  resetFlip();
+  if (document.getElementById('keepFlip').value !== 'keep') {
+    resetFlip();
+  }
   document.getElementById('cardFlipInner').style.minHeight = '';
 
   // 별표 상태
@@ -1231,7 +1248,8 @@ function showCard() {
   // 뜻 HTML 생성
   let meaningsHtml = '';
   word.meanings.forEach(m => {
-    meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> <span class="def-inline">${m.defs.join(', ')}</span></div>`;
+    const defsHtml = m.defs.map(d => formatDef(d)).join(' ');
+    meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> <span class="def-inline">${defsHtml}</span></div>`;
   });
 
   if (viewMode === 'all') {
@@ -1254,7 +1272,7 @@ function showCard() {
       });
       partsHtml += '</div>';
       if (word.origin) {
-        partsHtml += `<div class="ety-origin">💡 ${word.origin}</div>`;
+        partsHtml += `<div class="ety-origin">💡 ${word.origin.replace(/\n/g, '<br>')}</div>`;
       }
       etyEl.innerHTML = partsHtml;
       document.getElementById('frontHint').textContent = '탭하여 어원 보기';
@@ -1312,6 +1330,9 @@ function showCard() {
   document.getElementById('btnLast').disabled = !wasCompleted || currentIndex >= studyWords.length - 1;
   // 퀴즈 버튼: 100% 완료 Day에서만 표시
   document.getElementById('btnQuiz').style.display = wasCompleted ? 'block' : 'none';
+
+  // 뒤집힌 상태 유지 시 새 카드 높이 재계산
+  if (isFlipped) updateCardHeight();
 }
 
 function goFirst() { playSound('nav'); currentIndex = 0; showCard(); }
@@ -1389,16 +1410,42 @@ function retryWrongOnly() {
   showQuizQuestion();
 }
 
+// def 문자열에서 번호와 *를 제거한 순수 텍스트 반환
+function stripDef(d) {
+  return d.replace(/^\d+\s*/, '').replace(/\*([^*]*)\*?/g, '$1');
+}
+
+// def 문자열을 HTML로 변환 (번호 + 붉은볼드 처리)
+function formatDef(d) {
+  const numMatch = d.match(/^(\d+)\s+(.*)/);
+  if (numMatch) {
+    const num = numMatch[1];
+    let text = numMatch[2];
+    const cls = num === '1' ? '' : 'def-numbered';
+    if (text.startsWith('*') && text.indexOf('*', 1) === -1) {
+      text = text.substring(1);
+      return `<span class="${cls}"><span class="def-num">${num}</span> <span class="def-highlight">${text}</span></span>`;
+    }
+    text = text.replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
+    return `<span class="${cls}"><span class="def-num">${num}</span> ${text}</span>`;
+  }
+  if (d.startsWith('*') && d.indexOf('*', 1) === -1) {
+    return `<span class="def-highlight">${d.substring(1)}</span>`;
+  }
+  const replaced = d.replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
+  return replaced;
+}
+
 // 단어의 모든 뜻을 하나의 문자열로 결합
 function getDefsText(word) {
-  return word.meanings.map(m => m.defs.join(', ')).join(' / ');
+  return word.meanings.map(m => m.defs.map(d => stripDef(d)).join(', ')).join(' / ');
 }
 
 // 단어의 모든 뜻을 개별 배열로
 function getAllDefs(word) {
   const defs = [];
   word.meanings.forEach(m => m.defs.forEach(d => {
-    d.split(',').forEach(s => { if (s.trim()) defs.push(s.trim()); });
+    stripDef(d).split(',').forEach(s => { if (s.trim()) defs.push(s.trim()); });
   }));
   return defs;
 }
@@ -1406,7 +1453,14 @@ function getAllDefs(word) {
 function expandDefs(defs) {
   const result = [];
   defs.forEach(d => {
-    const m = d.match(/^(.+?)\((.+?)\)(.*)$/);
+    // 맨 앞 괄호는 부연 설명 → 제거만
+    const leading = d.match(/^[\(\[](.+?)[\)\]]\s*(.+)$/);
+    if (leading) {
+      result.push(leading[2].trim());
+      return;
+    }
+    // 중간/끝 괄호는 대체 표현 → 두 변형 생성
+    const m = d.match(/^(.+?)[\(\[](.+?)[\)\]](.*)$/);
     if (m) {
       const withoutParen = (m[1] + m[3]).trim();
       const withParen = (m[2] + m[3]).trim();
@@ -1802,6 +1856,7 @@ document.getElementById('wordOrder').addEventListener('change', function() { pla
 document.getElementById('voiceSelect').addEventListener('change', function() { playSound('mode'); saveSettings(); });
 document.getElementById('slowSpeed').addEventListener('change', function() { playSound('mode'); saveSettings(); });
 document.getElementById('cardLayout').addEventListener('change', function() { playSound('mode'); saveSettings(); if (document.getElementById('studyScreen').style.display !== 'none') showCard(); });
+document.getElementById('keepFlip').addEventListener('change', function() { playSound('mode'); saveSettings(); });
 
 document.addEventListener('keydown', function(e) {
   if (document.getElementById('settingsPanel').classList.contains('open')) return;
