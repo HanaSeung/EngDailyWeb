@@ -139,7 +139,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .extras-tab-content{display:none}
 .extras-tab-content.active{display:block}
 .card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;text-align:center;margin-bottom:6px}
-.card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:'Noto Sans',sans-serif}
+.card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:Arial,Helvetica,sans-serif}
 .card-meanings{width:100%}
 .meaning-group{width:100%;margin-bottom:10px}.meaning-group:last-child{margin-bottom:0}
 .pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;vertical-align:middle;margin-right:6px}
@@ -181,7 +181,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .quiz-question{font-size:1.8rem;font-weight:700;margin-bottom:4px}
 .quiz-question.en{font-family:'DM Serif Display',serif;letter-spacing:1px}
 .quiz-question.kr{font-size:1.2rem;line-height:1.6}
-.quiz-ipa{font-size:.9rem;color:var(--text-dim);font-family:'Noto Sans',sans-serif}
+.quiz-ipa{font-size:.9rem;color:var(--text-dim);font-family:Arial,Helvetica,sans-serif}
 
 .quiz-choices{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
 .quiz-choice{padding:14px 18px;border:1.5px solid rgba(0,0,0,.08);border-radius:14px;background:var(--surface);color:var(--text);font-family:'Noto Sans KR',sans-serif;font-size:.92rem;cursor:pointer;transition:all .2s;box-shadow:var(--shadow);text-align:left}
@@ -1280,7 +1280,7 @@ function showCard() {
   if (viewMode === 'all') {
     // 전체보기: 앞면=영어+IPA+뜻, 뒷면=단어 구조 분석
     document.getElementById('cardWord').textContent = word.en;
-    document.getElementById('cardIpa').textContent = word.ipa || '';
+    document.getElementById('cardIpa').textContent = Array.isArray(word.ipa) ? word.ipa.join('  ') : (word.ipa || '');
     document.getElementById('cardMeanings').innerHTML = meaningsHtml;
     document.getElementById('cardWordBack').textContent = word.en;
     document.getElementById('cardIpaBack').textContent = '';
@@ -1319,7 +1319,7 @@ function showCard() {
   } else if (viewMode === 'en') {
     // 영어보기: 앞면=영어+IPA, 뒷면=뜻
     document.getElementById('cardWord').textContent = word.en;
-    document.getElementById('cardIpa').textContent = word.ipa || '';
+    document.getElementById('cardIpa').textContent = Array.isArray(word.ipa) ? word.ipa.join('  ') : (word.ipa || '');
     document.getElementById('cardMeanings').innerHTML = '';
     document.getElementById('frontHint').textContent = '탭하여 뜻 보기';
     document.getElementById('cardWordBack').textContent = '';
@@ -1337,7 +1337,7 @@ function showCard() {
     document.getElementById('cardMeanings').innerHTML = meaningsHtml;
     document.getElementById('frontHint').textContent = '탭하여 단어 보기';
     document.getElementById('cardWordBack').textContent = word.en;
-    document.getElementById('cardIpaBack').textContent = word.ipa || '';
+    document.getElementById('cardIpaBack').textContent = Array.isArray(word.ipa) ? word.ipa.join('  ') : (word.ipa || '');
     document.getElementById('cardMeaningsBack').innerHTML = '';
     document.getElementById('cardEtymology').innerHTML = '';
     document.getElementById('cardExtras').innerHTML = '';
@@ -1661,7 +1661,7 @@ function showQuizQuestion() {
     document.getElementById('quizLabel').textContent = isMultipleChoice ? '다음 영어 단어의 뜻은?' : '다음 영어 단어의 뜻을 쓰세요';
     document.getElementById('quizQuestion').textContent = q.en;
     document.getElementById('quizQuestion').className = 'quiz-question en';
-    document.getElementById('quizIpa').textContent = q.ipa || '';
+    document.getElementById('quizIpa').textContent = Array.isArray(q.ipa) ? q.ipa.join('  ') : (q.ipa || '');
   } else {
     document.getElementById('quizLabel').textContent = isMultipleChoice ? '다음 뜻에 해당하는 영어 단어는?' : '다음 뜻에 해당하는 영어 단어를 쓰세요';
     document.getElementById('quizQuestion').textContent = getDefsText(q);
