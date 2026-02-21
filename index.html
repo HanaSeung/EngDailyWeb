@@ -1033,6 +1033,7 @@ function updateDayTitle() {
 }
 
 function startStudy() {
+  resetFlip();
   const order = document.getElementById('wordOrder').value;
   let pool = [...dayData[currentDayIndex].words];
   if (order === 'random') pool = shuffle(pool);
