@@ -1,374 +1,507 @@
 {
-  "title": "inter- ~사이에,상호간/ trans- 이쪽에서 서쪽으로,~을 통해/ ex- 밖으로,'강조',이전에/ dia- ~사이에,가로질러/ mis- 잘못된,나쁜",
+  "title": "inter- ~사이에,상호간/ trans- 이쪽에서 저쪽으로,~을 통해/ ex- 밖으로,'강조',이전에/ dia- ~사이에,가로질러/ mis- 잘못된,나쁜",
   "words": [
     {
-      "en":"international","ipa":"/ˌɪntərˈnæʃnəl/",
-      "meanings":[{"pos":"형","defs":["국제적인, 국가 간의"]}],
-      "parts":[{"part":"inter-","mean":"사이에 (between)"},{"part":"nation","mean":"국가 (nation)"},{"part":"-al","mean":"형용사형 접미사"}],
-      "origin":"국가 사이의 → 국제적인",
-      "antonyms":["domestic"],
-      "examples":[
-        {"en":"I majored in international trade.","ko":"나는 국제 무역을 전공했다."},
-        {"en":"What are the roles of the OECD in solving international conflicts?","ko":"국제적인 갈등을 해결하는 데 있어 OECD의 역할은 무엇입니까?","source":"수능"}
+      "en": "international",
+      "ipa": "/ìntərnǽʃənəl/",
+      "meanings": [
+        {"pos": "형", "defs": ["국제적인, 국가 간의"]}
+      ],
+      "parts": [
+        {"part": "inter", "mean": "between"},
+        {"part": "national", "mean": "국가의"}
+      ],
+      "origin": "국가와 국가 사이의",
+      "antonyms": ["domestic(국내의)"],
+      "examples": [
+        {"en": "I majored in international trade.", "ko": "나는 국제 무역을 전공했다.", "source": ""},
+        {"en": "What are the roles of the OECD in solving international conflicts?", "ko": "국제적인 갈등을 해결하는 데 있어 OECD의 역할은 무엇입니까?", "source": "수능"}
       ]
     },
-
     {
-      "en":"interpret","ipa":"/ɪnˈtɜːrprət/",
-      "meanings":[{"pos":"동","defs":["통역하다","(~의 의미로) 이해[해석]하다, 파악하다","(자기 해석에 따라) 연주[연기]하다"]}],
-      "parts":[{"part":"inter-","mean":"사이에서 (between)"},{"part":"pret","mean":"설명하다 (explain)"}],
-      "origin":"사이에서 설명하다 → 해석하다, 통역하다",
-      "synonyms":["translate"],
-      "derivatives":[
-        {"en":"interpretation","pos":"명","defs":["해석, 설명"]},
-        {"en":"interpreter","pos":"명","defs":["통역관"]}
+      "en": "interpret",
+      "ipa": "/intə́ːrprit/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 통역하다", "2 (…의 의미로) *이해[해석]하다, 파악하다*", "3 (자기 해석에 따라) 연주[연기]하다"]}
       ],
-      "phrases":[
-        {"en":"cf. misinterpret","ko":"오해하다, 잘못 이해[해석]하다"},
-        {"en":"cf. reinterpret","ko":"재해석하다"}
+      "parts": [
+        {"part": "inter", "mean": "between"},
+        {"part": "pret", "mean": "= price"}
       ],
-      "examples":[
-        {"en":"I'll interpret the speech for you.","ko":"제가 당신을 위해 연설을 통역해 드리겠습니다."},
-        {"en":"I interpreted his silence as a refusal.","ko":"나는 그의 침묵을 거절로 이해했다."},
-        {"en":"There are various interpretations of the law.","ko":"그 법률에 대한 다양한 해석이 있다."}
+      "origin": "[원뜻] 중간에서 양측의 가격을 설명하다\n→ 통역하다",
+      "synonyms": ["translate", "understand"],
+      "derivatives": [
+        {"en": "interpretation", "pos": "명", "defs": ["해석, 설명"]},
+        {"en": "interpreter", "pos": "명", "defs": ["통역관"]}
+      ],
+      "phrases": [
+        {"en": "cf. misinterpret", "ko": "오해하다, 잘못 이해[해석]하다"},
+        {"en": "reinterpret", "ko": "재해석하다"}
+      ],
+      "examples": [
+        {"en": "I'll interpret the speech for you.", "ko": "제가 당신을 위해 연설을 통역해 드리겠습니다.", "source": ""},
+        {"en": "I interpreted his silence as a refusal.", "ko": "나는 그의 침묵을 거절로 이해했다.", "source": ""},
+        {"en": "There are various interpretations of the law.", "ko": "그 법률에 대한 다양한 해석이 있다.", "source": ""}
       ]
     },
-
     {
-      "en":"interval","ipa":"/ˈɪntərvl/",
-      "meanings":[{"pos":"명","defs":["(장소·시간의) 간격","(연극·공연 등의) 중간 휴식 시간"]}],
-      "parts":[{"part":"inter-","mean":"사이에 (between)"},{"part":"val","mean":"벽, 공간 (wall, space)"}],
-      "origin":"사이의 공간 → 간격, 틈",
-      "examples":[
-        {"en":"We have already seen that learning is much more efficient when done at regular intervals.","ko":"우리는 이미 학습이 규칙적인 간격으로 이루어질 때 훨씬 더 효율적이라는 것을 확인했다.","source":"모의"}
+      "en": "interval",
+      "ipa": "/íntərvəl/",
+      "meanings": [
+        {"pos": "명", "defs": ["1 *(장소·시간의) 간격*", "2 (BrE) (연극·공연 등의) 중간 휴식 시간"]}
+      ],
+      "parts": [
+        {"part": "inter", "mean": "between"},
+        {"part": "val", "mean": "= wall 벽"}
+      ],
+      "origin": "벽과 벽의 사이 → 간격",
+      "examples": [
+        {"en": "We have already seen that learning is much more efficient when done at regular intervals.", "ko": "우리는 이미 학습이 규칙적인 간격으로 이루어질 때 훨씬 더 효율적이라는 것을 확인했다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"interfere","ipa":"/ˌɪntərˈfɪr/",
-      "meanings":[{"pos":"동","defs":["(+ in) 간섭하다","(+ with) 방해하다"]}],
-      "parts":[{"part":"inter-","mean":"사이에 (between)"},{"part":"fere","mean":"치다, 부딪치다 (strike)"}],
-      "origin":"사이에서 부딪치다 → 방해하다, 간섭하다",
-      "synonyms":["meddle in","intrude"],
-      "derivatives":[
-        {"en":"interference","pos":"명","defs":["간섭, 방해"]}
+      "en": "interfere",
+      "ipa": "/ìntərfíər/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 (+ in) 간섭하다", "2 (+ with) *방해하다*"]}
       ],
-      "phrases":[
-        {"en":"interfere in","ko":"~에 간섭하다"},
-        {"en":"interfere with","ko":"~을 방해하다"}
+      "parts": [
+        {"part": "inter", "mean": "each other"},
+        {"part": "fere", "mean": "= strike"}
       ],
-      "examples":[
-        {"en":"Sean interfered in their business as if it was his own.","ko":"Sean은 그들의 일이 자신의 일인 것처럼 간섭했다.","source":"수능"},
-        {"en":"The noise from outside interfered with my ability to concentrate on the test.","ko":"밖에서 나는 소음이 내가 시험에 집중하는 것을 방해했다."}
+      "origin": "서로 치다 → 간섭하다",
+      "synonyms": ["meddle in", "intrude", "get in the way of", "obstruct"],
+      "derivatives": [
+        {"en": "interference", "pos": "명", "defs": ["간섭, 방해"]}
+      ],
+      "examples": [
+        {"en": "Sean interfered in their business as if it was his own.", "ko": "Sean은 그들의 일이 자신의 일인 것처럼 간섭했다.", "source": "수능"},
+        {"en": "The noise from outside interfered with my ability to concentrate on the test.", "ko": "밖에서 나는 소음이 내가 시험에 집중하는 것을 방해했다.", "source": ""}
       ]
     },
-
     {
-      "en":"interaction","ipa":"/ˌɪntərˈækʃn/",
-      "meanings":[{"pos":"명","defs":["상호 작용, 상호 영향"]}],
-      "parts":[{"part":"inter-","mean":"서로 (between, mutual)"},{"part":"action","mean":"행동 (action)"}],
-      "origin":"서로 간의 행동 → 상호 작용",
-      "derivatives":[
-        {"en":"interact","pos":"동","defs":["(+ with) 상호 작용하다, 서로 영향을 주다"]},
-        {"en":"interactive","pos":"형","defs":["상호 작용하는, 쌍방향의"]}
+      "en": "interaction",
+      "ipa": "/ìntərǽkʃən/",
+      "meanings": [
+        {"pos": "명", "defs": ["상호 작용, 상호 영향"]}
       ],
-      "examples":[
-        {"en":"Good interaction between teachers and students is essential for learning.","ko":"교사와 학생 간의 좋은 상호 작용은 배움에 있어 필수적이다."},
-        {"en":"I prefer interactive classes to one-sided lectures.","ko":"나는 일방적인 강의보다는 (교사·학생이 서로 주고 받는) 쌍방향 수업을 선호한다."}
+      "parts": [
+        {"part": "inter", "mean": "each other"},
+        {"part": "action", "mean": "행동"}
+      ],
+      "origin": "서로에게 영향을 미치는 행동",
+      "derivatives": [
+        {"en": "interact", "pos": "동", "defs": ["(+ with) 상호 작용하다, 서로 영향을 주다"]},
+        {"en": "interactive", "pos": "형", "defs": ["상호 작용하는, 쌍방향의"]}
+      ],
+      "examples": [
+        {"en": "Good interaction between teachers and students is essential for learning.", "ko": "교사와 학생 간의 좋은 상호 작용은 배움에 있어 필수적이다.", "source": ""},
+        {"en": "I prefer interactive classes to one-sided lectures.", "ko": "나는 일방적인 강의보다는 (교사·학생이 서로 주고 받는) 쌍방향 수업을 선호한다.", "source": ""}
       ]
     },
-
     {
-      "en":"transfer","ipa":"/trænsˈfɜːr/ · /ˈtrænsfɜːr/",
-      "meanings":[{"pos":"동","defs":["이동시키다, 옮기다, 전달하다; 전근[전학]하다","갈아타다","(파일·데이터 등을) 전송하다"]},{"pos":"명","defs":["이동, 전달; 전근, 전학","갈아타기","(파일) 전송"]}],
-      "parts":[{"part":"trans-","mean":"가로질러 (across)"},{"part":"fer","mean":"옮기다 (carry)"}],
-      "origin":"가로질러 옮기다 → 이동하다, 갈아타다",
-      "synonyms":["move","transport"],
-      "antonyms":["retain"],
-      "examples":[
-        {"en":"How long does it take to transfer money internationally?","ko":"나라 간 돈을 송금하는 데 얼마나 걸리나요?"},
-        {"en":"She's going to be transferred to the marketing department.","ko":"그녀는 마케팅 부서로 옮겨질 예정이다."},
-        {"en":"Over time, as more books were printed, the oral traditions of knowledge transfer began to fade.","ko":"시간이 지남에 따라 더 많은 책이 인쇄되면서 지식 전달의 구전 전통은 사라지기 시작했다.","source":"모의"}
+      "en": "transfer",
+      "ipa": "/trænsfə́ːr/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *이동시키다, 옮기다, 전달하다; 전근[전학]하다*", "2 갈아타다", "3 (파일·데이터 등을) 전송하다"]},
+        {"pos": "명", "defs": ["1 이동, 전달; 전근, 전학", "2 갈아타기", "3 (파일) 전송"]}
+      ],
+      "parts": [
+        {"part": "trans", "mean": "across"},
+        {"part": "fer", "mean": "= carry"}
+      ],
+      "origin": "이쪽에서 저쪽으로 나르다\n→ 이동시키다, 옮기다",
+      "synonyms": ["move", "transport"],
+      "antonyms": ["retain"],
+      "examples": [
+        {"en": "How long does it take to transfer money internationally?", "ko": "나라 간 돈을 송금하는 데 얼마나 걸리나요?", "source": ""},
+        {"en": "She's going to be transferred to the marketing department.", "ko": "그녀는 마케팅 부서로 옮겨질 예정이다.", "source": ""},
+        {"en": "Over time, as more books were printed, the oral traditions of knowledge transfer began to fade.", "ko": "시간이 지남에 따라 더 많은 책이 인쇄되면서 지식 전달의 구전 전통은 사라지기 시작했다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"transform","ipa":"/trænsˈfɔːrm/",
-      "meanings":[{"pos":"동","defs":["변형[변화]시키다"]}],
-      "parts":[{"part":"trans-","mean":"가로질러, 넘어 (across, beyond)"},{"part":"form","mean":"형태 (form, shape)"}],
-      "origin":"형태를 넘어 바꾸다 → 변형시키다",
-      "synonyms":["change","convert","alter"],
-      "derivatives":[
-        {"en":"transformation","pos":"명","defs":["변형, 변화"]},
-        {"en":"transformative","pos":"형","defs":["변화시키는, 변화시키는 힘이 있는"]}
+      "en": "transform",
+      "ipa": "/trænsfɔ́ːrm/",
+      "meanings": [
+        {"pos": "동", "defs": ["변형[변화]시키다"]}
       ],
-      "phrases":[
-        {"en":"transform A into B","ko":"A를 B로 바꾸다"}
+      "parts": [
+        {"part": "trans", "mean": "across"},
+        {"part": "form", "mean": "형성하다"}
       ],
-      "examples":[
-        {"en":"Scientists are finding new ways to transform solar power into electricity.","ko":"과학자들은 태양 에너지를 전기로 바꿀 새로운 방법들을 찾고 있다."},
-        {"en":"The introduction of electricity was key to the transformation from an industrial age to a post-industrial age.","ko":"전기의 도입은 산업화 시대에서 탈산업화 시대로의 전환에 중요한 역할을 했다.","source":"모의"}
+      "origin": "형태를 이쪽에서 저쪽으로 바꾸다",
+      "synonyms": ["change", "convert", "alter"],
+      "derivatives": [
+        {"en": "transformation", "pos": "명", "defs": ["변형, 변화"]},
+        {"en": "transformative", "pos": "형", "defs": ["변화시키는, 변화시키는 힘이 있는"]}
+      ],
+      "phrases": [
+        {"en": "transform A into B", "ko": "A를 B로 바꾸다"}
+      ],
+      "examples": [
+        {"en": "Scientists are finding new ways to transform solar power into electricity.", "ko": "과학자들은 태양 에너지를 전기로 바꿀 새로운 방법들을 찾고 있다.", "source": ""},
+        {"en": "The introduction of electricity was key to the transformation from an industrial age to a post-industrial age.", "ko": "전기의 도입은 산업화 시대에서 탈산업화 시대로의 전환에 중요한 역할을 했다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"transplant","ipa":"/trænsˈplænt/ · /ˈtrænsplænt/",
-      "meanings":[{"pos":"동","defs":["옮겨 심다","(기관·조직 등을) 이식하다"]},{"pos":"명","defs":["[외과] 이식(수술)"]}],
-      "parts":[{"part":"trans-","mean":"가로질러 (across)"},{"part":"plant","mean":"심다 (plant)"}],
-      "origin":"옮겨 심다 → 이식하다",
-      "derivatives":[
-        {"en":"transplantation","pos":"명","defs":["[외과] 이식"]}
+      "en": "transplant",
+      "ipa": "/trènsplǽnt/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 옮겨 심다", "2 (기관·조직 등을) 이식하다"]},
+        {"pos": "명", "defs": ["[외과] *이식(수술)*"]}
       ],
-      "examples":[
-        {"en":"I transplanted the flowers to a pot.","ko":"나는 그 꽃을 화분에 옮겨 심었다."},
-        {"en":"Organ transplants can save lives.","ko":"장기 이식은 생명을 구할 수 있다."}
+      "parts": [
+        {"part": "trans", "mean": "across"},
+        {"part": "plant", "mean": "심다; 식물"}
+      ],
+      "origin": "이쪽에서 저쪽으로 (옮겨) 심다 → 이식하다",
+      "derivatives": [
+        {"en": "transplantation", "pos": "명", "defs": ["[외과] 이식"]}
+      ],
+      "examples": [
+        {"en": "I transplanted the flowers to a pot.", "ko": "나는 그 꽃을 화분에 옮겨 심었다.", "source": ""},
+        {"en": "Organ transplants can save lives.", "ko": "장기 이식은 생명을 구할 수 있다.", "source": ""}
       ]
     },
-
     {
-      "en":"expand","ipa":"/ɪkˈspænd/",
-      "meanings":[{"pos":"동","defs":["커지다, 팽창하다; 넓히다, 확대[팽창]시키다","(사업·조직 등을) 확장[확대]하다"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"pand","mean":"펼치다 (spread)"}],
-      "origin":"밖으로 펼치다 → 확장하다, 팽창하다",
-      "synonyms":["widen"],
-      "antonyms":["contract","shrink"],
-      "derivatives":[
-        {"en":"expansion","pos":"명","defs":["팽창","확장"]}
+      "en": "expand",
+      "ipa": "/ikspǽnd/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *커지다, 팽창하다; 넓히다, 확대[팽창]시키다*", "2 (사업·조직 등을) 확장[확대]하다"]}
       ],
-      "examples":[
-        {"en":"The balloon expanded as we filled it with air.","ko":"공기를 넣자 풍선이 부풀었다."},
-        {"en":"Our plan to expand the business ended in failure.","ko":"사업을 확장하려던 우리의 계획은 실패로 끝났다."}
+      "parts": [
+        {"part": "ex", "mean": "out"},
+        {"part": "pand", "mean": "= spread"}
+      ],
+      "origin": "밖으로 펼쳐지다",
+      "synonyms": ["widen"],
+      "antonyms": ["contract(수축하다)", "shrink"],
+      "derivatives": [
+        {"en": "expansion", "pos": "명", "defs": ["1 팽창", "2 확장"]}
+      ],
+      "examples": [
+        {"en": "The balloon expanded as we filled it with air.", "ko": "공기를 넣자 풍선이 부풀었다.", "source": ""},
+        {"en": "Our plan to expand the business ended in failure.", "ko": "사업을 확장하려던 우리의 계획은 실패로 끝났다.", "source": ""}
       ]
     },
-
     {
-      "en":"explore","ipa":"/ɪkˈsplɔːr/",
-      "meanings":[{"pos":"동","defs":["탐험하다","탐구하다, 연구하다"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"plore","mean":"울다, 외치다 (cry out)"}],
-      "origin":"밖으로 나가 외치며 찾다 → 탐험하다",
-      "derivatives":[
-        {"en":"explorer","pos":"명","defs":["탐험가, 답사자"]},
-        {"en":"exploration","pos":"명","defs":["탐험, 답사"]}
+      "en": "explore",
+      "ipa": "/iksplɔ́ːr/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 탐험하다", "2 탐구하다, 연구하다"]}
       ],
-      "examples":[
-        {"en":"Humans have yet to fully explore the depths of the ocean.","ko":"인간은 아직 심해를 완전히 탐구하지 못했다."},
-        {"en":"space exploration","ko":"우주 탐험"}
+      "parts": [
+        {"part": "ex", "mean": "out"},
+        {"part": "plore", "mean": "= cry"}
+      ],
+      "origin": "(사냥감을 찾았다고) 크게 외치다 → search out (조사 등으로) 찾아내다, 탐색하다",
+      "derivatives": [
+        {"en": "explorer", "pos": "명", "defs": ["탐험가, 답사자"]},
+        {"en": "exploration", "pos": "명", "defs": ["탐험, 답사"]}
+      ],
+      "examples": [
+        {"en": "Humans have yet to fully explore the depths of the ocean.", "ko": "인간은 아직 심해를 완전히 탐구하지 못했다.", "source": ""},
+        {"en": "space exploration", "ko": "우주 탐험", "source": ""}
       ]
     },
-
     {
-      "en":"explain","ipa":"/ɪkˈspleɪn/",
-      "meanings":[{"pos":"동","defs":["설명하다, 해명하다"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"plain","mean":"평평한, 분명한 (flat, clear)"}],
-      "origin":"밖으로 드러내어 분명하게 하다 → 설명하다",
-      "synonyms":["account for","describe"],
-      "derivatives":[
-        {"en":"explanation","pos":"명","defs":["설명, 해명"]}
+      "en": "explain",
+      "ipa": "/ikspléin/",
+      "meanings": [
+        {"pos": "동", "defs": ["설명하다, 해명하다"]}
       ],
-      "examples":[
-        {"en":"Would you please explain why you are late today?","ko":"오늘 당신이 왜 늦었는지 설명해주시겠어요?"},
-        {"en":"There are numerous explanations for the fall of the Roman empire.","ko":"로마 제국의 몰락에 대한 수많은 설명이 있다.","source":"수능"}
+      "parts": [
+        {"part": "ex", "mean": "out"},
+        {"part": "plain", "mean": "분명한"}
+      ],
+      "origin": "밖으로 드러내어 분명하게 하다",
+      "synonyms": ["account for", "describe"],
+      "derivatives": [
+        {"en": "explanation", "pos": "명", "defs": ["설명, 해명"]}
+      ],
+      "examples": [
+        {"en": "Would you please explain why you are late today?", "ko": "오늘 당신이 왜 늦었는지 설명해주시겠어요?", "source": ""},
+        {"en": "There are numerous explanations for the fall of the Roman empire.", "ko": "로마 제국의 몰락에 대한 수많은 설명이 있다.", "source": "수능"}
       ]
     },
-
     {
-      "en":"explicit","ipa":"/ɪkˈsplɪsɪt/",
-      "meanings":[{"pos":"형","defs":["분명한, 명백한, 뚜렷한","노골적인, 숨김없는"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"plic","mean":"접다 (fold)"},{"part":"-it","mean":"형용사형 접미사"}],
-      "origin":"밖으로 펼쳐진 → 명백한",
-      "antonyms":["implicit","vague"],
-      "derivatives":[
-        {"en":"explicitly","pos":"부","defs":["명백하게"]}
+      "en": "explicit",
+      "ipa": "/iksplísit/",
+      "meanings": [
+        {"pos": "형", "defs": ["1 분명한, 명백한, 뚜렷한", "2 노골적인, 숨김없는"]}
       ],
-      "examples":[
-        {"en":"She gave me explicit directions on how to do the work.","ko":"그녀는 나에게 그 일을 하는 방법에 대한 명확한 지침을 주었다."}
+      "parts": [
+        {"part": "ex", "mean": "out"},
+        {"part": "plic", "mean": "= fold"},
+        {"part": "it", "mean": "형접"}
+      ],
+      "origin": "접은 것을 밖으로 펼쳐 보이는",
+      "antonyms": ["implicit(암시된)", "vague", "frank"],
+      "derivatives": [
+        {"en": "explicitly", "pos": "부", "defs": ["명백하게"]}
+      ],
+      "examples": [
+        {"en": "She gave me explicit directions on how to do the work.", "ko": "그녀는 나에게 그 일을 하는 방법에 대한 명확한 지침을 주었다.", "source": ""}
       ]
     },
-
     {
-      "en":"exhaust","ipa":"/ɪɡˈzɔːst/",
-      "meanings":[{"pos":"동","defs":["지치게 하다","다 써 버리다, 고갈시키다"]},{"pos":"명","defs":["(자동차 등의) 배기가스"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"haust","mean":"끌어내다 (draw)"}],
-      "origin":"밖으로 모두 끌어내다 → 기진맥진하게 하다, 다 써버리다",
-      "synonyms":["tire out","use up"],
-      "derivatives":[
-        {"en":"exhausted","pos":"형","defs":["기진맥진한","다 써 버린, 소모된, 고갈된"]},
-        {"en":"exhaustion","pos":"명","defs":["기진맥진","소모, 고갈"]}
+      "en": "exhaust",
+      "ipa": "/igzɔ́ːst/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *지치게 하다*", "2 다 써 버리다, 고갈시키다"]},
+        {"pos": "명", "defs": ["(자동차 등의) 배기가스"]}
       ],
-      "examples":[
-        {"en":"car exhaust emission standards","ko":"자동차 배기가스 배출 기준"},
-        {"en":"Exercising gives you more energy and keeps you from feeling exhausted.","ko":"운동은 당신에게 더 많은 에너지를 공급하고 피로를 느끼지 않게 해준다.","source":"모의"}
+      "parts": [
+        {"part": "ex", "mean": "out"},
+        {"part": "haust", "mean": "= drain 물을 퍼내다"}
+      ],
+      "origin": "밖으로 (에너지를) 완전히 퍼내다",
+      "synonyms": ["tire out", "use up"],
+      "derivatives": [
+        {"en": "exhausted", "pos": "형", "defs": ["1 기진맥진한", "2 다 써 버린, 소모된, 고갈된"]},
+        {"en": "exhaustion", "pos": "명", "defs": ["1 기진맥진", "2 소모, 고갈"]}
+      ],
+      "examples": [
+        {"en": "car exhaust emission standards", "ko": "자동차 배기가스 배출 기준", "source": ""},
+        {"en": "Exercising gives you more energy and keeps you from feeling exhausted.", "ko": "운동은 당신에게 더 많은 에너지를 공급하고 피로를 느끼지 않게 해준다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"expose","ipa":"/ɪkˈspoʊz/",
-      "meanings":[{"pos":"동","defs":["(햇볕·위험·특정 환경 등에) 노출시키다","(가려진 것을) 드러내다; 폭로하다"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"pose","mean":"놓다 (put, place)"}],
-      "origin":"밖으로 내놓다 → 노출시키다, 드러내다",
-      "synonyms":["reveal","disclose"],
-      "derivatives":[
-        {"en":"exposure","pos":"명","defs":["노출","폭로, 탄로"]},
-        {"en":"exposition","pos":"명","defs":["설명, 해설","전시[박람]회 (줄여서 expo)"]}
+      "en": "expose",
+      "ipa": "/ikspóuz/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *(햇볕·위험·특정 환경 등에) 노출시키다*", "2 (가려진 것을) 드러내다; 폭로하다"]}
       ],
-      "examples":[
-        {"en":"It is harmful to expose yourself to the sun for too long.","ko":"햇볕에 자신을 너무 오래 노출되게 하는 것은 해롭다."},
-        {"en":"The magician exposed the secrets behind a trick to the public.","ko":"그 마술사는 마술 뒤에 숨겨진 비밀을 대중에게 공개했다.","source":"모의"},
-        {"en":"The public exposure of people's personal genetic information will cause serious legal and ethical problems.","ko":"개인 유전자 정보의 공개적인 노출은 심각한 법적, 윤리적 문제를 야기할 것이다.","source":"모의"}
+      "parts": [
+        {"part": "ex", "mean": "out"},
+        {"part": "pose", "mean": "= place"}
+      ],
+      "origin": "밖으로 내놓다",
+      "synonyms": ["reveal", "disclose"],
+      "derivatives": [
+        {"en": "exposure", "pos": "명", "defs": ["1 노출", "2 폭로, 탄로"]},
+        {"en": "exposition", "pos": "명", "defs": ["1 설명, 해설", "2 전시[박람]회 (줄여서 expo)"]}
+      ],
+      "examples": [
+        {"en": "It is harmful to expose yourself to the sun for too long.", "ko": "햇볕에 자신을 너무 오래 노출되게 하는 것은 해롭다.", "source": ""},
+        {"en": "The magician exposed the secrets behind a trick to the public.", "ko": "그 마술사는 마술 뒤에 숨겨진 비밀을 대중에게 공개했다.", "source": "모의"},
+        {"en": "The public exposure of people's personal genetic information will cause serious legal and ethical problems.", "ko": "개인 유전자 정보의 공개적인 노출은 심각한 법적, 윤리적 문제를 야기할 것이다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"examine","ipa":"/ɪɡˈzæmɪn/",
-      "meanings":[{"pos":"동","defs":["조사[검사]하다","시험하다","진찰하다"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"amine","mean":"저울질하다 (weigh)"}],
-      "origin":"밖으로 꺼내 저울질하다 → 조사하다, 검사하다",
-      "synonyms":["inspect"],
-      "derivatives":[
-        {"en":"examination","pos":"명","defs":["조사, 검사","시험 (줄여서 exam)"]}
+      "en": "examine",
+      "ipa": "/igzǽmin/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *조사[검사]하다*", "2 시험하다", "3 진찰하다"]}
       ],
-      "examples":[
-        {"en":"The scientist examined the data carefully before writing the report.","ko":"그 과학자는 보고서를 작성하기 전에 데이터를 꼼꼼히 조사했다."},
-        {"en":"A close examination of the painting revealed another image hidden beneath the portrait.","ko":"그 그림을 면밀히 조사하자 초상화 아래 숨겨진 다른 이미지가 드러났다.","source":"교과서"}
+      "parts": [
+        {"part": "ex", "mean": "out"},
+        {"part": "amine", "mean": "= drive 움직이게 하다"}
+      ],
+      "origin": "밖으로 움직이게 하다 → 밖으로 나오게 하여 조사하다",
+      "synonyms": ["inspect"],
+      "derivatives": [
+        {"en": "examination", "pos": "명", "defs": ["1 조사, 검사", "2 시험 (줄여서 exam)"]}
+      ],
+      "examples": [
+        {"en": "The scientist examined the data carefully before writing the report.", "ko": "그 과학자는 보고서를 작성하기 전에 데이터를 꼼꼼히 조사했다.", "source": ""},
+        {"en": "A close examination of the painting revealed another image hidden beneath the portrait.", "ko": "그 그림을 면밀히 조사하자 초상화 아래 숨겨진 다른 이미지가 드러났다.", "source": "교과서"}
       ]
     },
-
     {
-      "en":"exaggerate","ipa":"/ɪɡˈzædʒəreɪt/",
-      "meanings":[{"pos":"동","defs":["과장하다, 과장해서 말하다"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"agger","mean":"쌓다 (heap up)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"밖으로 지나치게 쌓다 → 과장하다",
-      "synonyms":["overstate","magnify"],
-      "derivatives":[
-        {"en":"exaggeration","pos":"명","defs":["과장"]}
+      "en": "exaggerate",
+      "ipa": "/igzǽdʒərèit/",
+      "meanings": [
+        {"pos": "동", "defs": ["과장하다, 과장해서 말하다"]}
       ],
-      "examples":[
-        {"en":"The report seems to exaggerate the real-world water shortage problem that we face.","ko":"그 보고서는 우리가 직면한 실제 물 부족 문제를 과장하는 것처럼 보인다.","source":"모의"}
+      "parts": [
+        {"part": "ex", "mean": "'강조'"},
+        {"part": "agger", "mean": "= heap 쌓다"},
+        {"part": "ate", "mean": "동접"}
+      ],
+      "origin": "(보다) 크게 쌓아올리다 → 과장하다",
+      "synonyms": ["overstate", "magnify"],
+      "derivatives": [
+        {"en": "exaggeration", "pos": "명", "defs": ["과장"]}
+      ],
+      "examples": [
+        {"en": "The report seems to exaggerate the real-world water shortage problem that we face.", "ko": "그 보고서는 우리가 직면한 실제 물 부족 문제를 과장하는 것처럼 보인다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"exchange","ipa":"/ɪksˈtʃeɪndʒ/",
-      "meanings":[{"pos":"명","defs":["교환, 주고받기","환전"]},{"pos":"동","defs":["교환하다"]}],
-      "parts":[{"part":"ex-","mean":"밖으로 (out)"},{"part":"change","mean":"바꾸다 (change)"}],
-      "origin":"밖으로 내어 바꾸다 → 교환하다",
-      "synonyms":["trade","barter"],
-      "phrases":[
-        {"en":"in exchange for","ko":"~의 대가로, ~ 대신에"}
+      "en": "exchange",
+      "ipa": "/ikstʃéindʒ/",
+      "meanings": [
+        {"pos": "명", "defs": ["1 *교환, 주고받기*", "2 환전"]},
+        {"pos": "동", "defs": ["*교환하다*"]}
       ],
-      "examples":[
-        {"en":"What's the current won-dollar exchange rate?","ko":"현재 원 달러의 환율은 얼마입니까?"},
-        {"en":"The bride and groom exchanged rings during the wedding ceremony.","ko":"신랑과 신부는 결혼식에서 반지를 교환했다."}
+      "parts": [
+        {"part": "ex", "mean": "'강조'"},
+        {"part": "change", "mean": "바꾸다"}
+      ],
+      "origin": "서로 완전히 바꾸기",
+      "synonyms": ["trade", "barter"],
+      "phrases": [
+        {"en": "in exchange for", "ko": "…의 대가로, … 대신에"}
+      ],
+      "examples": [
+        {"en": "What's the current won-dollar exchange rate?", "ko": "현재 원 달러의 환율은 얼마입니까?", "source": ""},
+        {"en": "The bride and groom exchanged rings during the wedding ceremony.", "ko": "신랑과 신부는 결혼식에서 반지를 교환했다.", "source": ""}
       ]
     },
-
     {
-      "en":"escape","ipa":"/ɪˈskeɪp/",
-      "meanings":[{"pos":"동","defs":["도망치다, 탈출하다; 벗어나다"]},{"pos":"명","defs":["도망, 탈출; 도피"]}],
-      "parts":[{"part":"es-(ex-)","mean":"밖으로 (out)"},{"part":"cape","mean":"망토 (cloak)"}],
-      "origin":"망토를 벗고 빠져나가다 → 탈출하다",
-      "synonyms":["get away","run away"],
-      "examples":[
-        {"en":"In contrast to mice, bats can fly, which is why they can escape from danger much faster.","ko":"쥐와는 달리 박쥐는 날 수 있는데, 이것이 그들이 위험에서 훨씬 더 빨리 도망칠 수 있는 이유이다.","source":"모의"}
+      "en": "escape",
+      "ipa": "/iskéip/",
+      "meanings": [
+        {"pos": "동", "defs": ["도망치다, 탈출하다; 벗어나다"]},
+        {"pos": "명", "defs": ["도망, 탈출; 도피"]}
+      ],
+      "parts": [
+        {"part": "es", "mean": "out"},
+        {"part": "cape", "mean": "망토"}
+      ],
+      "origin": "망토에서 벗어나다 → 망토만 남기고\n(추적자를) 피하다 → 도망치다",
+      "synonyms": ["get away", "run away"],
+      "examples": [
+        {"en": "In contrast to mice, bats can fly, which is why they can escape from danger much faster.", "ko": "쥐와는 달리 박쥐는 날 수 있는데, 이것이 그들이 위험에서 훨씬 더 빨리 도망칠 수 있는 이유이다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"evaporate","ipa":"/ɪˈvæpəreɪt/",
-      "meanings":[{"pos":"동","defs":["증발하다; 증발시키다"]}],
-      "parts":[{"part":"e-(ex-)","mean":"밖으로 (out)"},{"part":"vapor","mean":"증기 (vapor)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"밖으로 증기가 되다 → 증발하다",
-      "derivatives":[
-        {"en":"evaporation","pos":"명","defs":["증발; 발산"]}
+      "en": "evaporate",
+      "ipa": "/ivǽpərèit/",
+      "meanings": [
+        {"pos": "동", "defs": ["증발하다; 증발시키다"]}
       ],
-      "phrases":[
-        {"en":"vapor (또는 vapour)","ko":"증기; 증발하다, 발산하다"}
+      "parts": [
+        {"part": "e", "mean": "out"},
+        {"part": "vapor", "mean": "증기"},
+        {"part": "ate", "mean": "동접"}
       ],
-      "examples":[
-        {"en":"When seawater evaporates, it leaves behind salt that can be harvested for use.","ko":"바닷물이 증발할 때 거뒤들여 사용할 수 있는 소금을 남긴다."}
+      "origin": "증기를 밖으로 내보내는 것",
+      "derivatives": [
+        {"en": "evaporation", "pos": "명", "defs": ["증발; 발산"]}
+      ],
+      "phrases": [
+        {"en": "vapor(또는 vapour)", "ko": "증기; 증발하다, 발산하다"}
+      ],
+      "examples": [
+        {"en": "When seawater evaporates, it leaves behind salt that can be harvested for use.", "ko": "바닷물이 증발할 때 거둬들여 사용할 수 있는 소금을 남긴다.", "source": ""}
       ]
     },
-
     {
-      "en":"dialogue","ipa":"/ˈdaɪəlɔːɡ/",
-      "meanings":[{"pos":"명","defs":["대화, 문답, 회화"]}],
-      "parts":[{"part":"dia-","mean":"가로질러, 사이에 (across, between)"},{"part":"logue","mean":"말 (speech, word)"}],
-      "origin":"서로 간에 말을 주고받다 → 대화",
-      "synonyms":["conversation"],
-      "examples":[
-        {"en":"The dialogue between the two characters was full of emotion.","ko":"두 등장인물 사이의 대화는 감정으로 가득했다."}
+      "en": "dialogue",
+      "ipa": "/dáiəlɔ̀ːg/",
+      "meanings": [
+        {"pos": "명", "defs": ["대화, 문답, 회화"]}
+      ],
+      "parts": [
+        {"part": "dia", "mean": "between"},
+        {"part": "logue", "mean": "= speech"}
+      ],
+      "origin": "서로 간에 이야기하는 것",
+      "synonyms": ["conversation"],
+      "examples": [
+        {"en": "The dialogue between the two characters was full of emotion.", "ko": "두 등장인물 사이의 대화는 감정으로 가득했다.", "source": ""}
       ]
     },
-
     {
-      "en":"dialect","ipa":"/ˈdaɪəlekt/",
-      "meanings":[{"pos":"명","defs":["방언, 사투리"]}],
-      "parts":[{"part":"dia-","mean":"가로질러, 사이에 (across)"},{"part":"lect","mean":"말하다 (speak)"}],
-      "origin":"지역 사이에서 다르게 말하는 것 → 방언, 사투리",
-      "phrases":[
-        {"en":"cf. accent","ko":"(지역) 말투[사투리]"},
-        {"en":"cf. direct","ko":"직접적인 (혼동어휘)"}
+      "en": "dialect",
+      "ipa": "/dáiəlèkt/",
+      "meanings": [
+        {"pos": "명", "defs": ["방언, 사투리 ('특정 지역에서 쓰는 언어'라는 중립적인 뜻)"]}
       ],
-      "examples":[
-        {"en":"In this region, the dialect sounds a lot like German.","ko":"이 지역 방언은 독일어와 꽤 유사하게 들린다."}
+      "parts": [
+        {"part": "dia", "mean": "between"},
+        {"part": "lect", "mean": "= speak"}
+      ],
+      "origin": "(특정 지역의 사람들) 사이에서 쓰이는 말\n→ 방언",
+      "phrases": [
+        {"en": "cf. accent", "ko": "(지역) 말투[사투리]"},
+        {"en": "cf. direct", "ko": "직접적인"}
+      ],
+      "examples": [
+        {"en": "In this region, the dialect sounds a lot like German.", "ko": "이 지역 방언은 독일어와 꽤 유사하게 들린다.", "source": ""},
+        {"en": "He has a strong Irish accent.", "ko": "그는 아일랜드 말투를 심하게 쓴다.", "source": ""}
       ]
     },
-
     {
-      "en":"diameter","ipa":"/daɪˈæmɪtər/",
-      "meanings":[{"pos":"명","defs":["지름, 직경"]}],
-      "parts":[{"part":"dia-","mean":"가로질러 (across)"},{"part":"meter","mean":"재다, 측정 (measure)"}],
-      "origin":"가로질러 잰 길이 → 지름, 직경",
-      "phrases":[
-        {"en":"cf. diagonal","ko":"사선의; 대각선"}
+      "en": "diameter",
+      "ipa": "/daiǽmitər/",
+      "meanings": [
+        {"pos": "명", "defs": ["지름, 직경"]}
       ],
-      "examples":[
-        {"en":"This circle is five centimeters in diameter.","ko":"이 원은 지름이 5cm이다."}
+      "parts": [
+        {"part": "dia", "mean": "across"},
+        {"part": "meter", "mean": "= measure"}
+      ],
+      "origin": "가로질러 잰 치수 → 지름",
+      "phrases": [
+        {"en": "cf. diagonal", "ko": "사선의; 대각선"}
+      ],
+      "examples": [
+        {"en": "This circle is five centimeters in diameter.", "ko": "이 원은 지름이 5cm이다.", "source": ""}
       ]
     },
-
     {
-      "en":"mistake","ipa":"/mɪˈsteɪk/",
-      "meanings":[{"pos":"명","defs":["실수, 잘못"]},{"pos":"동","defs":["오해하다, 잘못 판단하다"]}],
-      "parts":[{"part":"mis-","mean":"잘못 (wrong)"},{"part":"take","mean":"잡다, 취하다 (take)"}],
-      "origin":"잘못 잡다 → 실수",
-      "derivatives":[
-        {"en":"mistakenly","pos":"부","defs":["실수로, 틀리게"]}
+      "en": "mistake",
+      "ipa": "/mistéik/",
+      "meanings": [
+        {"pos": "명", "defs": ["실수, 잘못"]},
+        {"pos": "동", "defs": ["오해하다, 잘못 판단하다"]}
       ],
-      "phrases":[
-        {"en":"make a mistake","ko":"실수하다"},
-        {"en":"by mistake","ko":"실수로"}
+      "parts": [
+        {"part": "mis", "mean": "wrong"},
+        {"part": "take", "mean": "취하다"}
       ],
-      "examples":[
-        {"en":"It was a big mistake to forget the test date.","ko":"시험 날짜를 잊은 것은 큰 실수였다."},
-        {"en":"Reading on, Steven realized the letter had been delivered mistakenly.","ko":"편지를 계속 읽어나가던 Steven은 편지가 잘못 배달되었다는 것을 깨달았다.","source":"모의"}
+      "origin": "잘못 취한 것 → 실수",
+      "derivatives": [
+        {"en": "mistakenly", "pos": "부", "defs": ["실수로, 틀리게"]}
+      ],
+      "phrases": [
+        {"en": "make a mistake", "ko": "실수하다"},
+        {"en": "by mistake", "ko": "실수로"}
+      ],
+      "examples": [
+        {"en": "It was a big mistake to forget the test date.", "ko": "시험 날짜를 잊은 것은 큰 실수였다.", "source": ""},
+        {"en": "Reading on, Steven realized the letter had been delivered mistakenly.", "ko": "편지를 계속 읽어나가던 Steven은 편지가 잘못 배달되었다는 것을 깨달았다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"misleading","ipa":"/ˌmɪsˈliːdɪŋ/",
-      "meanings":[{"pos":"형","defs":["오도하는, 오해의 소지가 있는"]}],
-      "parts":[{"part":"mis-","mean":"잘못 (wrong)"},{"part":"lead","mean":"이끌다 (lead)"},{"part":"-ing","mean":"형용사형 접미사"}],
-      "origin":"잘못 이끄는 → 오해의 소지가 있는",
-      "synonyms":["deceptive"],
-      "derivatives":[
-        {"en":"mislead","pos":"동","defs":["잘못 인도하다","속이다, 오해하게 하다"]}
+      "en": "misleading",
+      "ipa": "/mislíːdiŋ/",
+      "meanings": [
+        {"pos": "형", "defs": ["오도하는, 오해의 소지가 있는"]}
       ],
-      "examples":[
-        {"en":"Because people don't always check facts, misleading information can spread quickly online.","ko":"사람들이 사실을 항상 확인하지 않기 때문에, 오해를 불러일으키는 정보가 온라인에서 빠르게 퍼질 수 있다.","source":"교과서"},
-        {"en":"I didn't mean to mislead readers about my book.","ko":"나는 독자들이 내 책에 대해 오해하게 만들 의도는 없었다."}
+      "parts": [
+        {"part": "mis", "mean": "wrong"},
+        {"part": "lead", "mean": "이끌다"},
+        {"part": "ing", "mean": "형용사 어미"}
+      ],
+      "origin": "(남을) 잘못 이끄는",
+      "synonyms": ["deceptive"],
+      "derivatives": [
+        {"en": "mislead", "pos": "동", "defs": ["1 잘못 인도하다", "2 속이다, 오해하게 하다"]}
+      ],
+      "examples": [
+        {"en": "Because people don't always check facts, misleading information can spread quickly online.", "ko": "사람들이 사실을 항상 확인하지 않기 때문에, 오해를 불러일으키는 정보가 온라인에서 빠르게 퍼질 수 있다.", "source": "교과서"},
+        {"en": "I didn't mean to mislead readers about my book.", "ko": "나는 독자들이 내 책에 대해 오해하게 만들 의도는 없었다.", "source": ""}
       ]
     },
-
     {
-      "en":"misfortune","ipa":"/ˌmɪsˈfɔːrtʃən/",
-      "meanings":[{"pos":"명","defs":["불운, 불행, 역경"]}],
-      "parts":[{"part":"mis-","mean":"나쁜, 잘못 (bad, wrong)"},{"part":"fortune","mean":"운 (fortune, luck)"}],
-      "origin":"나쁜 운 → 불운, 불행",
-      "synonyms":["adversity"],
-      "antonyms":["fortune"],
-      "examples":[
-        {"en":"The farmer bore his misfortunes with patience.","ko":"그 농부는 인내심을 갖고 역경을 견뎠다."}
+      "en": "misfortune",
+      "ipa": "/misfɔ́ːrtʃən/",
+      "meanings": [
+        {"pos": "명", "defs": ["불운, 불행, 역경"]}
+      ],
+      "parts": [
+        {"part": "mis", "mean": "bad"},
+        {"part": "fortune", "mean": "운"}
+      ],
+      "origin": "나쁜 운 → 불운, 불행",
+      "synonyms": ["adversity"],
+      "antonyms": ["fortune"],
+      "examples": [
+        {"en": "The farmer bore his misfortunes with patience.", "ko": "그 농부는 인내심을 갖고 역경을 견뎠다.", "source": ""}
       ]
     }
   ]
