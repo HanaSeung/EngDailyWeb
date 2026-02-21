@@ -144,6 +144,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .meaning-group{width:100%;margin-bottom:10px}.meaning-group:last-child{margin-bottom:0}
 .pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;vertical-align:middle;margin-right:6px}
 .def-inline{font-size:1rem;line-height:1.6;color:var(--text)}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;color:var(--text);flex-shrink:0;width:1.2em}.def-numbered-first{display:inline-flex}.def-numbered{display:flex;margin-left:40px}
+.def-prefixed-grid{display:inline-grid;grid-template-columns:auto auto 1fr;column-gap:5px;line-height:1.6;font-size:1rem}.def-prefixed-grid .pf-num{font-weight:700}
 
 /* Navigation */
 .card-nav{display:flex;gap:8px;margin-bottom:12px}
@@ -1249,8 +1250,31 @@ function showCard() {
   // 뜻 HTML 생성
   let meaningsHtml = '';
   word.meanings.forEach(m => {
-    const defsHtml = m.defs.map(d => formatDef(d)).join(' ');
-    meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> <span class="def-inline">${defsHtml}</span></div>`;
+    const parsed = m.defs.map(d => formatDef(d));
+    const hasPrefix = parsed.some(p => p.includes('def-prefixed'));
+    if (hasPrefix) {
+      let gridHtml = '<span class="def-prefixed-grid">';
+      m.defs.forEach(d => {
+        const pm = d.match(/^(.+?\)\s*)(\d+)\s+(.*)/);
+        if (pm) {
+          let text = pm[3].replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
+          gridHtml += `<span>${pm[1]}</span><span class="pf-num">${pm[2]}</span><span>${text}</span>`;
+        } else {
+          const nm = d.match(/^(\d+)\s+(.*)/);
+          if (nm) {
+            let text = nm[2].replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
+            gridHtml += `<span></span><span class="pf-num">${nm[1]}</span><span>${text}</span>`;
+          } else {
+            gridHtml += `<span></span><span></span><span>${d}</span>`;
+          }
+        }
+      });
+      gridHtml += '</span>';
+      meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> ${gridHtml}</div>`;
+    } else {
+      const defsHtml = parsed.join(' ');
+      meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> <span class="def-inline">${defsHtml}</span></div>`;
+    }
   });
 
   if (viewMode === 'all') {
@@ -1418,6 +1442,14 @@ function stripDef(d) {
 
 // def 문자열을 HTML로 변환 (번호 + 붉은볼드 처리)
 function formatDef(d) {
+  const prefixMatch = d.match(/^(.+?\)\s*)(\d+)\s+(.*)/);
+  if (prefixMatch) {
+    const prefix = prefixMatch[1];
+    const num = prefixMatch[2];
+    let text = prefixMatch[3];
+    text = text.replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
+    return `<span class="def-prefixed">${prefix}<b>${num}</b> ${text}</span>`;
+  }
   const numMatch = d.match(/^(\d+)\s+(.*)/);
   if (numMatch) {
     const num = numMatch[1];

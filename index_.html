@@ -143,7 +143,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-meanings{width:100%}
 .meaning-group{width:100%;margin-bottom:10px}.meaning-group:last-child{margin-bottom:0}
 .pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;vertical-align:middle;margin-right:6px}
-.def-inline{font-size:1rem;line-height:1.6;color:var(--text)}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;margin-right:2px;color:var(--text)}.def-numbered{display:block;margin-left:40px}
+.def-inline{font-size:1rem;line-height:1.6;color:var(--text)}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;color:var(--text);flex-shrink:0;width:1.2em}.def-numbered-first{display:inline-flex}.def-numbered{display:flex;margin-left:40px}
 
 /* Navigation */
 .card-nav{display:flex;gap:8px;margin-bottom:12px}
@@ -1033,6 +1033,7 @@ function updateDayTitle() {
 }
 
 function startStudy() {
+  resetFlip();
   const order = document.getElementById('wordOrder').value;
   let pool = [...dayData[currentDayIndex].words];
   if (order === 'random') pool = shuffle(pool);
@@ -1421,13 +1422,13 @@ function formatDef(d) {
   if (numMatch) {
     const num = numMatch[1];
     let text = numMatch[2];
-    const cls = num === '1' ? '' : 'def-numbered';
+    const cls = num === '1' ? 'def-numbered-first' : 'def-numbered';
     if (text.startsWith('*') && text.indexOf('*', 1) === -1) {
       text = text.substring(1);
-      return `<span class="${cls}"><span class="def-num">${num}</span> <span class="def-highlight">${text}</span></span>`;
+      return `<span class="${cls}"><span class="def-num">${num}</span><span class="def-highlight">${text}</span></span>`;
     }
     text = text.replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
-    return `<span class="${cls}"><span class="def-num">${num}</span> ${text}</span>`;
+    return `<span class="${cls}"><span class="def-num">${num}</span><span>${text}</span></span>`;
   }
   if (d.startsWith('*') && d.indexOf('*', 1) === -1) {
     return `<span class="def-highlight">${d.substring(1)}</span>`;
