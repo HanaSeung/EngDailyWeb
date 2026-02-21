@@ -3,12 +3,12 @@
   "words": [
     {
       "en": "forehead",
-      "ipa": "/fɔ́ːrhed/",
+      "ipa": ["[fɔ́ːrhed]"],
       "meanings": [
         {"pos": "명", "defs": ["이마"]}
       ],
       "parts": [
-        {"part": "fore", "mean": "before"},
+        {"part": "fore", "mean": "= before"},
         {"part": "head", "mean": "머리"}
       ],
       "origin": "머리의 앞쪽",
@@ -19,12 +19,12 @@
     },
     {
       "en": "forefather",
-      "ipa": "/fɔ́ːrfɑːðər/",
+      "ipa": ["[fɔ́ːrfɑ̀ːðər]"],
       "meanings": [
         {"pos": "명", "defs": ["선조, 조상"]}
       ],
       "parts": [
-        {"part": "fore", "mean": "before"},
+        {"part": "fore", "mean": "= before"},
         {"part": "father", "mean": "아버지"}
       ],
       "origin": "아버지보다 앞서 계셨던 분",
@@ -36,12 +36,12 @@
     },
     {
       "en": "foresee",
-      "ipa": "/fɔːrsíː/",
+      "ipa": ["[fɔːrsíː]"],
       "meanings": [
         {"pos": "동", "defs": ["예견[예지]하다"]}
       ],
       "parts": [
-        {"part": "fore", "mean": "before"},
+        {"part": "fore", "mean": "= before"},
         {"part": "see", "mean": "보다"}
       ],
       "origin": "(앞으로의 일을) 먼저 보다",
@@ -49,19 +49,21 @@
       "derivatives": [
         {"en": "foreseeable", "pos": "형", "defs": ["예견할 수 있는"]}
       ],
+      "phrases": [
+        {"en": "in the foreseeable future", "ko": "가까운 미래에"}
+      ],
       "examples": [
-        {"en": "What he had foreseen in a dream came true.", "ko": "그가 꿈속에서 예견했던 일이 실제로 일어났다.", "source": ""},
-        {"en": "in the foreseeable future", "ko": "가까운 미래에", "source": "모의"}
+        {"en": "What he had foreseen in a dream came true.", "ko": "그가 꿈속에서 예견했던 일이 실제로 일어났다.", "source": ""}
       ]
     },
     {
       "en": "foremost",
-      "ipa": "/fɔ́ːrmoʊst/",
+      "ipa": ["[fɔ́ːrmòust]"],
       "meanings": [
         {"pos": "형", "defs": ["1 가장 중요한, 최고의", "2 선두의, 맨 앞[먼저]의"]}
       ],
       "parts": [
-        {"part": "fore", "mean": "before"},
+        {"part": "fore", "mean": "= before"},
         {"part": "most", "mean": "〈최상급〉"}
       ],
       "origin": "가장 먼저인",
@@ -75,12 +77,12 @@
     },
     {
       "en": "former",
-      "ipa": "/fɔ́ːrmər/",
+      "ipa": ["[fɔ́ːrmər]"],
       "meanings": [
         {"pos": "형", "defs": ["1 이전의, 예전의", "2 (둘 중에서) 앞의, 전자의"]}
       ],
       "parts": [
-        {"part": "form", "mean": "before"},
+        {"part": "form", "mean": "= before"},
         {"part": "er", "mean": "〈비교급〉"}
       ],
       "origin": "더 이전의",
@@ -91,7 +93,7 @@
     },
     {
       "en": "overcome",
-      "ipa": "/òʊvərkʌ́m/",
+      "ipa": ["[òuvərkʌ́m]"],
       "meanings": [
         {"pos": "동", "defs": ["1 (곤란·장애 등을) 극복하다, 이겨내다", "2 (남을) 이기다"]}
       ],
@@ -107,16 +109,16 @@
     },
     {
       "en": "overlook",
-      "ipa": "/òʊvərlúk/",
+      "ipa": ["[òuvərlúk]"],
       "meanings": [
-        {"pos": "동", "defs": ["1 *간과하다, 못 보고 넘어가다", "2 눈감아 주다", "3 (건물 등이) …을 내려다보다"]}
+        {"pos": "동", "defs": ["1 *간과하다, 못 보고 넘어가다*", "2 눈감아 주다", "3 (건물 등이) …을 내려다보다"]}
       ],
       "parts": [
         {"part": "over", "mean": "넘어; 위에"},
         {"part": "look", "mean": "보다"}
       ],
-      "origin": "넘어서[건너뛰어] 보다 → 간과하다\n위에서 보다 → 내려다보다",
-      "synonyms": ["miss", "neglect", "disregard"],
+      "origin": "├ 넘어서[건너뛰어] 보다 → 간과하다\n└ 위에서 보다 → 내려다보다",
+      "synonyms": ["miss", "neglect", "disregard", "excuse", "forgive"],
       "examples": [
         {"en": "It's easy to overlook the invisible energy usage involved in running the network.", "ko": "네트워크 운영과 관련된 눈에 보이지 않는 에너지 사용량을 간과하기 쉽다.", "source": "모의"},
         {"en": "The new café overlooked the park, so the customers were able to see what was happening outside.", "ko": "새 카페는 공원을 내려다보고 있어서 고객들이 밖에서 무슨 일이 벌어지는지 볼 수 있었다.", "source": "교과서"}
@@ -124,9 +126,9 @@
     },
     {
       "en": "overseas",
-      "ipa": "/òʊvərsíːz/",
+      "ipa": ["부 [òuvərsíːz]", "형 [óuvərsìːz]"],
       "meanings": [
-        {"pos": "부", "defs": ["*해외로, 해외에(서)"]},
+        {"pos": "부", "defs": ["*해외로, 해외에(서)*"]},
         {"pos": "형", "defs": ["해외에 있는, 외국의"]}
       ],
       "parts": [
@@ -141,12 +143,12 @@
     },
     {
       "en": "overwhelm",
-      "ipa": "/òʊvərwélm/",
+      "ipa": ["[òuvərwélm]"],
       "meanings": [
         {"pos": "동", "defs": ["(주로 수동태로) 1 *압도하다*", "2 당황하게 하다, 어쩔 줄 모르게 하다"]}
       ],
       "parts": [
-        {"part": "over", "mean": "above"},
+        {"part": "over", "mean": "= above"},
         {"part": "whelm", "mean": "짓누르다"}
       ],
       "origin": "위에서 짓누르다 → 압도하다",
@@ -155,22 +157,22 @@
         {"en": "overwhelmed", "pos": "형", "defs": ["압도된"]}
       ],
       "phrases": [
-        {"en": "be overwhelmed by[with]", "ko": "1 …에 압도되다 2 …에 당황하다"}
+        {"en": "be overwhelmed by[with]", "ko": "1 …에 압도되다  2 …에 당황하다"},
+        {"en": "overwhelming majority", "ko": "압도적인 다수"}
       ],
       "examples": [
-        {"en": "I was overwhelmed by his power and couldn't say a word.", "ko": "나는 그의 기세에 압도되어 한마디도 할 수 없었다.", "source": ""},
-        {"en": "overwhelming majority", "ko": "압도적인 다수", "source": ""}
+        {"en": "I was overwhelmed by his power and couldn't say a word.", "ko": "나는 그의 기세에 압도되어 한마디도 할 수 없었다.", "source": ""}
       ]
     },
     {
       "en": "overall",
-      "ipa": "/òʊvərɔ́ːl/",
+      "ipa": ["[òuvərɔ́ːl]"],
       "meanings": [
         {"pos": "형", "defs": ["전반적인"]},
         {"pos": "부", "defs": ["전반적으로"]}
       ],
       "parts": [
-        {"part": "over", "mean": "above"},
+        {"part": "over", "mean": "= above"},
         {"part": "all", "mean": "모든 것"}
       ],
       "origin": "모든 것의 위에 있는 → 전반적인",
@@ -180,13 +182,13 @@
     },
     {
       "en": "overhead",
-      "ipa": "/òʊvərhéd/",
+      "ipa": ["부 [òuvərhéd]", "형 [óuvərhèd]"],
       "meanings": [
         {"pos": "부", "defs": ["머리 위에, (하늘) 높이"]},
         {"pos": "형", "defs": ["머리 위의, 머리 위를 지나는"]}
       ],
       "parts": [
-        {"part": "over", "mean": "above"},
+        {"part": "over", "mean": "= above"},
         {"part": "head", "mean": "머리"}
       ],
       "origin": "over one's head 머리 위로",
@@ -196,12 +198,12 @@
     },
     {
       "en": "overtake",
-      "ipa": "/òʊvərtéɪk/",
+      "ipa": ["[òuvərtéik]"],
       "meanings": [
         {"pos": "동", "defs": ["1 (생산·득점 등에서) 능가하다; (BrE) 추월하다, 따라잡다", "2 (재난·감정 등이) 덮치다, 압도하다"]}
       ],
       "parts": [
-        {"part": "over", "mean": "above"},
+        {"part": "over", "mean": "= above"},
         {"part": "take", "mean": "= catch 잡다"}
       ],
       "origin": "따라잡다",
@@ -213,13 +215,13 @@
     },
     {
       "en": "overlap",
-      "ipa": "/òʊvərléɪp/",
+      "ipa": ["동 [òuvərlǽp]", "명 [óuvərlæ̀p]"],
       "meanings": [
-        {"pos": "동", "defs": ["1 겹치다, 포개지다", "2 *중복되다, 부분적으로 일치하다"]},
+        {"pos": "동", "defs": ["1 겹치다, 포개지다", "2 *중복되다, 부분적으로 일치하다*"]},
         {"pos": "명", "defs": ["겹침, 중복"]}
       ],
       "parts": [
-        {"part": "over", "mean": "above"},
+        {"part": "over", "mean": "= above"},
         {"part": "lap", "mean": "감싸다"}
       ],
       "origin": "위에 (한 번 더) 감싸다 → 겹치다",
@@ -229,17 +231,17 @@
     },
     {
       "en": "overflow",
-      "ipa": "/òʊvərflóʊ/",
+      "ipa": ["동 [òuvərflóu]", "명 [óuvərflòu]"],
       "meanings": [
         {"pos": "동", "defs": ["1 넘치다, 범람하다", "2 …로 넘쳐나다"]},
         {"pos": "명", "defs": ["1 넘침, 범람", "2 과잉, 초과"]}
       ],
       "parts": [
-        {"part": "over", "mean": "too much"},
+        {"part": "over", "mean": "= too much"},
         {"part": "flow", "mean": "흐르다"}
       ],
       "origin": "과도하게 흐르다 → 넘치다",
-      "synonyms": ["spill over"],
+      "synonyms": ["spill over", "flood", "excess"],
       "examples": [
         {"en": "The drain in the sink isn't working very well, so be careful and don't let it overflow.", "ko": "싱크대의 배수관이 제대로 작동하지 않으니까 조심해서 넘치지 않게 해.", "source": ""},
         {"en": "There are two rooms next to the auditorium to accommodate an overflow.", "ko": "강당 옆에 초과 인원을 수용하기 위한 방이 두 개 있다.", "source": ""}
@@ -247,12 +249,12 @@
     },
     {
       "en": "extraordinary",
-      "ipa": "/ikstrɔ́ːrdnèri/",
+      "ipa": ["[ikstrɔ́ːrdnèri]"],
       "meanings": [
-        {"pos": "형", "defs": ["1 이상한", "2 *비범한, 대단한"]}
+        {"pos": "형", "defs": ["1 이상한", "2 *비범한, 대단한*"]}
       ],
       "parts": [
-        {"part": "extra", "mean": "beyond"},
+        {"part": "extra", "mean": "= beyond"},
         {"part": "ordinary", "mean": "보통의"}
       ],
       "origin": "보통을 넘어선",
@@ -265,12 +267,12 @@
     },
     {
       "en": "extracurricular",
-      "ipa": "/èkstrəkəríkjələr/",
+      "ipa": ["[èkstrəkəríkjələr]"],
       "meanings": [
         {"pos": "형", "defs": ["정규 교과 과정 이외의, (클럽 활동 등) 과외의"]}
       ],
       "parts": [
-        {"part": "extra", "mean": "outside"},
+        {"part": "extra", "mean": "= outside"},
         {"part": "curricular", "mean": "교과과정의"}
       ],
       "origin": "교과 과정 밖의",
@@ -280,13 +282,13 @@
     },
     {
       "en": "extraterrestrial",
-      "ipa": "/èkstrətəréstriəl/",
+      "ipa": ["[èkstrətəréstriəl]"],
       "meanings": [
         {"pos": "형", "defs": ["지구 밖의, 외계의"]},
         {"pos": "명", "defs": ["외계인, 우주인"]}
       ],
       "parts": [
-        {"part": "extra", "mean": "outside"},
+        {"part": "extra", "mean": "= outside"},
         {"part": "terrestri", "mean": "= terra:earth"},
         {"part": "al", "mean": "형접"}
       ],
@@ -300,15 +302,15 @@
     },
     {
       "en": "extrovert",
-      "ipa": "/ékstrəvə̀ːrt/",
+      "ipa": ["[ékstrəvə̀ːrt]"],
       "meanings": [
         {"pos": "명", "defs": ["외향적인 사람"]}
       ],
       "parts": [
-        {"part": "extro", "mean": "outside"},
+        {"part": "extro", "mean": "= outside"},
         {"part": "vert", "mean": "= turn 돌리다"}
       ],
-      "origin": "바깥쪽으로 돌 → 외향적인 사람",
+      "origin": "바깥쪽으로 돎 → 외향적인 사람",
       "antonyms": ["introvert"],
       "derivatives": [
         {"en": "extroverted", "pos": "형", "defs": ["외향적인, 외향성의"]}
@@ -319,12 +321,12 @@
     },
     {
       "en": "external",
-      "ipa": "/ikstə́ːrnl/",
+      "ipa": ["[ikstə́ːrnl]"],
       "meanings": [
         {"pos": "형", "defs": ["외부의, 밖의"]}
       ],
       "parts": [
-        {"part": "extern", "mean": "outside"},
+        {"part": "extern", "mean": "= outside"},
         {"part": "al", "mean": "형접"}
       ],
       "origin": "바깥의",
@@ -341,7 +343,7 @@
     },
     {
       "en": "undergo",
-      "ipa": "/ʌ̀ndərgóʊ/",
+      "ipa": ["[ʌ̀ndərgóu]"],
       "meanings": [
         {"pos": "동", "defs": ["(변화·곤란함 등을) 겪다, 경험하다"]}
       ],
@@ -360,23 +362,23 @@
     },
     {
       "en": "undertake",
-      "ipa": "/ʌ̀ndərtéɪk/",
+      "ipa": ["[ʌ̀ndərtéik]"],
       "meanings": [
-        {"pos": "동", "defs": ["1 *(떠)맡다, …의 책임을 지다", "2 착수하다", "3 (+ to-v) (…하겠다고) 약속하다"]}
+        {"pos": "동", "defs": ["1 *(떠)맡다, …의 책임을 지다*", "2 착수하다", "3 (+ to-v) (…하겠다고) 약속하다"]}
       ],
       "parts": [
         {"part": "under", "mean": "아래에"},
         {"part": "take", "mean": "받다"}
       ],
       "origin": "아래에서 (짐을) 받다 → 떠맡다",
-      "synonyms": ["take on"],
+      "synonyms": ["take on", "promise"],
       "examples": [
         {"en": "To undertake that kind of work is to take on a great responsibility.", "ko": "그런 종류의 일을 맡는 것은 큰 책임을 떠안는 것이다.", "source": ""}
       ]
     },
     {
       "en": "undergraduate",
-      "ipa": "/ʌ̀ndərgrǽdʒuɪt/",
+      "ipa": ["[ʌ̀ndərgrǽdʒuit]"],
       "meanings": [
         {"pos": "명", "defs": ["대학생(의), 학부생(의)"]},
         {"pos": "형", "defs": ["대학생(의), 학부생(의)"]}
@@ -387,7 +389,7 @@
       ],
       "origin": "졸업생보다 아래에 있는 상태",
       "phrases": [
-        {"en": "cf. graduate", "ko": "(대학) 졸업생, 학사(p.204)"}
+        {"en": "cf. graduate", "ko": "(대학) 졸업생, 학사"}
       ],
       "examples": [
         {"en": "After completing their undergraduate studies, college students may apply to graduate school.", "ko": "대학생들은 학부 과정을 마친 후에 대학원에 지원할 수 있다.", "source": ""}
@@ -395,7 +397,7 @@
     },
     {
       "en": "underlying",
-      "ipa": "/ʌ̀ndərláiɪŋ/",
+      "ipa": ["[ʌ̀ndərlàiiŋ]"],
       "meanings": [
         {"pos": "형", "defs": ["근본적인, 근원적인"]}
       ],
