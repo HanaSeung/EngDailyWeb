@@ -2,390 +2,531 @@
   "title": "un- '부정','반대'/ dis- '부정','반대',떨어져,분리된/ in²- '부정','반대'",
   "words": [
     {
-      "en":"uneasy","ipa":"/ʌnˈiːzi/",
-      "meanings":[{"pos":"형","defs":["불안한, 걱정스러운","편치 않은, 불편한"]}],
-      "parts":[{"part":"un-","mean":"~이 아닌 (not)"},{"part":"easy","mean":"쉬운, 편한 (easy)"}],
-      "origin":"편하지 않은 → 불안한, 불편한",
-      "synonyms":["worried","anxious","uncomfortable"],
-      "derivatives":[
-        {"en":"ease","pos":"명","defs":["편안함, 안락함","쉬움, 용이함"]},
-        {"en":"ease","pos":"동","defs":["편하게 하다","완화하다"]}
+      "en": "uneasy",
+      "ipa": "/ʌníːzi/",
+      "meanings": [
+        {"pos": "형", "defs": ["1 불안한, 걱정스러운", "2 편치 않은, 불편한"]}
       ],
-      "phrases":[
-        {"en":"at ease","ko":"편안한"},
-        {"en":"ill at ease","ko":"불편[불안]한"}
+      "parts": [
+        {"part": "un", "mean": "= not"},
+        {"part": "easy", "mean": "편한"}
       ],
-      "examples":[
-        {"en":"I always feel uneasy when I talk with strangers.","ko":"나는 낯선 사람들과 이야기할 때면 항상 마음이 편치 않다고 느낀다."},
-        {"en":"Interior designers often paint darker colors below brighter colors to put the viewer at ease.","ko":"인테리어 디자이너는 종종 보는 이를 편안하게 해주기 위해 밝은 색 아래에 어두운 색을 칠한다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"unfair","ipa":"/ˌʌnˈfer/",
-      "meanings":[{"pos":"형","defs":["불공평한, 부당한"]}],
-      "parts":[{"part":"un-","mean":"~이 아닌 (not)"},{"part":"fair","mean":"공정한 (fair)"}],
-      "origin":"공정하지 않은 → 불공평한",
-      "synonyms":["unjust","biased"],
-      "antonyms":["fair","just"],
-      "derivatives":[
-        {"en":"unfairness","pos":"명","defs":["불공평함, 편파적임"]}
+      "origin": "(마음이) 편치 않은",
+      "synonyms": ["worried", "anxious", "uncomfortable"],
+      "derivatives": [
+        {"en": "ease", "pos": "명", "defs": ["1 편안함, 안락함", "2 쉬움, 용이함"]},
+        {"en": "ease", "pos": "동", "defs": ["1 편하게 하다", "2 완화하다"]}
       ],
-      "examples":[
-        {"en":"They complained that the referee's decision was unfair.","ko":"그들은 그 심판의 결정이 부당하다고 불평했다."}
-      ]
-    },
-
-    {
-      "en":"unfortunate","ipa":"/ʌnˈfɔːrtʃənət/",
-      "meanings":[{"pos":"형","defs":["불운한, 불행한","유감스러운"]}],
-      "parts":[{"part":"un-","mean":"~이 아닌 (not)"},{"part":"fortunate","mean":"운 좋은 (fortunate)"}],
-      "origin":"운이 좋지 않은 → 불행한",
-      "synonyms":["unlucky","regrettable"],
-      "antonyms":["fortunate"],
-      "derivatives":[
-        {"en":"unfortunately","pos":"부","defs":["불행하게도"]}
+      "phrases": [
+        {"en": "at ease", "ko": "편안한"},
+        {"en": "ill at ease", "ko": "불편[불안]한"}
       ],
-      "examples":[
-        {"en":"He lost both his legs in an unfortunate accident.","ko":"그는 불운한 사고로 양쪽 다리를 잃었다."},
-        {"en":"Unfortunately, the delivery of your desk will take longer than expected due to a delay in shipment.","ko":"안타깝게도, 선적 지연으로 인해 책상의 배송이 예상보다 늦어질 예정입니다.","source":"모의"}
+      "examples": [
+        {"en": "I always feel uneasy when I talk with strangers.", "ko": "나는 낯선 사람들과 이야기할 때면 항상 마음이 편치 않다고 느낀다.", "source": ""},
+        {"en": "Interior designers often paint darker colors below brighter colors to put the viewer at ease.", "ko": "인테리어 디자이너는 종종 보는 이를 편안하게 해주기 위해 밝은 색 아래에 어두운 색을 칠한다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"unlikely","ipa":"/ʌnˈlaɪkli/",
-      "meanings":[{"pos":"형","defs":["~할 것 같지 않은, 가망 없는"]}],
-      "parts":[{"part":"un-","mean":"~이 아닌 (not)"},{"part":"likely","mean":"있을 법한 (likely)"}],
-      "origin":"있을 법하지 않은 → ~할 것 같지 않은",
-      "synonyms":["improbable"],
-      "antonyms":["likely"],
-      "phrases":[
-        {"en":"be likely to-v","ko":"~할 것 같다, ~할 가능성이 있다"}
+      "en": "unfair",
+      "ipa": "/ʌ̀nféər/",
+      "meanings": [
+        {"pos": "형", "defs": ["불공평한, 부당한"]}
       ],
-      "examples":[
-        {"en":"The work is unlikely to be completed in a year.","ko":"그 일은 1년 안에 끝날 것 같지 않다."}
-      ]
-    },
-
-    {
-      "en":"unusual","ipa":"/ʌnˈjuːʒuəl/",
-      "meanings":[{"pos":"형","defs":["보통이 아닌, 흔치 않은","유별난, 색다른"]}],
-      "parts":[{"part":"un-","mean":"~이 아닌 (not)"},{"part":"usual","mean":"보통의 (usual)"}],
-      "origin":"보통이 아닌 → 유별난",
-      "synonyms":["uncommon","unique","extraordinary"],
-      "antonyms":["ordinary","common"],
-      "derivatives":[
-        {"en":"unusually","pos":"부","defs":["평소와 다르게, 특이하게","몹시, 대단히"]}
+      "parts": [
+        {"part": "un", "mean": "= not"},
+        {"part": "fair", "mean": "공평한"}
       ],
-      "examples":[
-        {"en":"In England in the 1680s, it was unusual to live to the age of fifty.","ko":"1680년대 잉글랜드에서는 50세까지 사는 것이 흔치 않은 일이었다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"unknown","ipa":"/ˌʌnˈnoʊn/",
-      "meanings":[{"pos":"형","defs":["알려지지 않은","무명의, 이름이 없는"]},{"pos":"명","defs":["미지의 것"]}],
-      "parts":[{"part":"un-","mean":"~이 아닌 (not)"},{"part":"known","mean":"알려진 (known)"}],
-      "origin":"알려지지 않은",
-      "antonyms":["known","famous"],
-      "examples":[
-        {"en":"The explorer went to an unknown land, and no one heard from him again.","ko":"그 탐험가는 알려지지 않은 땅으로 갔고, 아무도 다시 그의 소식을 듣지 못했다."}
-      ]
-    },
-
-    {
-      "en":"unbearable","ipa":"/ʌnˈberəbl/",
-      "meanings":[{"pos":"형","defs":["참을 수 없는, 견딜 수 없는"]}],
-      "parts":[{"part":"un-","mean":"~이 아닌 (not)"},{"part":"bear","mean":"견디다 (bear)"},{"part":"-able","mean":"~할 수 있는"}],
-      "origin":"견딜 수 없는 → 참을 수 없는",
-      "synonyms":["intolerable"],
-      "antonyms":["bearable","tolerable"],
-      "examples":[
-        {"en":"The heat was so strong that it became unbearable.","ko":"더위가 너무 심해서 참을 수 없게 되었다."}
-      ]
-    },
-
-    {
-      "en":"unlock","ipa":"/ˌʌnˈlɑːk/",
-      "meanings":[{"pos":"동","defs":["(문·상자 등 잠긴 것을) 열다"]}],
-      "parts":[{"part":"un-","mean":"반대로 (reverse)"},{"part":"lock","mean":"잠그다 (lock)"}],
-      "origin":"잠근 것을 반대로 → (자물쇠를) 열다",
-      "antonyms":["lock"],
-      "examples":[
-        {"en":"You can button your shirt or unlock the front door even in the dark.","ko":"당신은 어두운 곳에서도 셔츠 단추를 채우거나 현관문을 열 수 있다.","source":"수능"}
-      ]
-    },
-
-    {
-      "en":"disagree","ipa":"/ˌdɪsəˈɡriː/",
-      "meanings":[{"pos":"동","defs":["(+ with) (~와) (의견이) 다르다; (+ with/about/on/over) (~에) 동의하지 않다","(결과·수치·진술 등의) 내용이 일치하지 않다"]}],
-      "parts":[{"part":"dis-","mean":"~이 아닌 (not)"},{"part":"agree","mean":"동의하다 (agree)"}],
-      "origin":"동의하지 않다",
-      "synonyms":["differ with"],
-      "derivatives":[
-        {"en":"disagreement","pos":"명","defs":["의견 차이, 논쟁","(수치·진술 등의) 불일치"]},
-        {"en":"disagreeable","pos":"형","defs":["불쾌한, 싫은"]}
+      "origin": "공평하지 않은",
+      "synonyms": ["unjust", "biased"],
+      "antonyms": ["fair", "just"],
+      "derivatives": [
+        {"en": "unfairness", "pos": "명", "defs": ["불공평함, 편파적임"]}
       ],
-      "examples":[
-        {"en":"Ammal disagreed with the deforestation taking place in an effort to grow more food.","ko":"Ammal은 더 많은 식량을 재배하기 위해 시행되는 삼림 개간에 동의하지 않았다.","source":"모의"}
+      "examples": [
+        {"en": "They complained that the referee's decision was unfair.", "ko": "그들은 그 심판의 결정이 부당하다고 불평했다.", "source": ""}
       ]
     },
-
     {
-      "en":"disorder","ipa":"/dɪsˈɔːrdər/",
-      "meanings":[{"pos":"명","defs":["무질서, 혼란","(심신의) 이상, 장애"]}],
-      "parts":[{"part":"dis-","mean":"~이 아닌 (not)"},{"part":"order","mean":"질서 (order)"}],
-      "origin":"질서가 없는 → 무질서, 장애",
-      "synonyms":["chaos"],
-      "phrases":[
-        {"en":"in disorder","ko":"혼란하게, 무질서하게"}
+      "en": "unfortunate",
+      "ipa": "/ʌnfɔ́ːrtʃənit/",
+      "meanings": [
+        {"pos": "형", "defs": ["1 *불운한, 불행한*", "2 유감스러운"]}
       ],
-      "examples":[
-        {"en":"Her mother accused her of leaving the room in disorder.","ko":"그녀의 어머니는 그녀가 방을 어질러 놓았다고 나무랐다."},
-        {"en":"mental[eating] disorder","ko":"정신[식이] 장애"}
-      ]
-    },
-
-    {
-      "en":"disappear","ipa":"/ˌdɪsəˈpɪr/",
-      "meanings":[{"pos":"동","defs":["(시야에서) 사라지다, 안 보이다","(존재가) 없어지다, 소멸하다"]}],
-      "parts":[{"part":"dis-","mean":"~이 아닌 (not)"},{"part":"appear","mean":"나타나다 (appear)"}],
-      "origin":"나타나지 않다 → 사라지다",
-      "synonyms":["vanish"],
-      "antonyms":["appear","show[turn] up"],
-      "derivatives":[
-        {"en":"disappearance","pos":"명","defs":["사라짐, 소멸; 실종"]}
+      "parts": [
+        {"part": "un", "mean": "= not"},
+        {"part": "fortunate", "mean": "운이 좋은"}
       ],
-      "examples":[
-        {"en":"His smile quickly disappeared when he was told that the restaurant was fully reserved.","ko":"식당의 예약이 꽉 찼다는 말을 듣자 그의 미소는 금세 사라졌다.","source":"수능"}
-      ]
-    },
-
-    {
-      "en":"discount","ipa":"/ˈdɪskaʊnt/ · /dɪsˈkaʊnt/",
-      "meanings":[{"pos":"명","defs":["(주로 + on 상품/off 가격) 할인"]},{"pos":"동","defs":["할인하다","중요하지 않게 생각하다"]}],
-      "parts":[{"part":"dis-","mean":"떼어내다 (away)"},{"part":"count","mean":"세다 (count)"}],
-      "origin":"셈에서 떼어내다 → 할인",
-      "synonyms":["reduction"],
-      "examples":[
-        {"en":"Local residents can get a 10% discount off the entrance fee.","ko":"지역 주민은 입장료 10% 할인을 받을 수 있다.","source":"모의"},
-        {"en":"You will also be invited to all new exhibition openings this year at discounted prices.","ko":"당신은 또한 올해 새롭게 열리는 모든 전시회에 할인된 가격으로 초대될 것입니다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"discourage","ipa":"/dɪsˈkɜːrɪdʒ/",
-      "meanings":[{"pos":"동","defs":["그만두게 하다, 단념시키다","낙담[실망]시키다, 용기를 잃게 하다"]}],
-      "parts":[{"part":"dis-","mean":"반대 (opposite)"},{"part":"courage","mean":"용기 (courage)"}],
-      "origin":"용기를 꺾다 → 낙담시키다",
-      "antonyms":["encourage"],
-      "derivatives":[
-        {"en":"discouraged","pos":"형","defs":["낙담한, 의기소침한"]}
+      "origin": "운이 좋지 않은",
+      "synonyms": ["unlucky", "regrettable"],
+      "antonyms": ["fortunate"],
+      "derivatives": [
+        {"en": "unfortunately", "pos": "부", "defs": ["불행하게도"]}
       ],
-      "examples":[
-        {"en":"Don't let the opinions of others discourage you from doing what you want.","ko":"다른 사람의 의견 때문에 네가 원하는 일을 하는 것을 그만두지 마라."}
+      "examples": [
+        {"en": "He lost both his legs in an unfortunate accident.", "ko": "그는 불운한 사고로 양쪽 다리를 잃었다.", "source": ""},
+        {"en": "Unfortunately, the delivery of your desk will take longer than expected due to a delay in shipment.", "ko": "안타깝게도, 선적 지연으로 인해 책상의 배송이 예상보다 늦어질 예정입니다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"dismiss","ipa":"/dɪsˈmɪs/",
-      "meanings":[{"pos":"동","defs":["(의견·생각 등을) 묵살[일축]하다","해고하다, 내쫓다","(모임 등을) 해산시키다"]}],
-      "parts":[{"part":"dis-","mean":"떨어져 (away)"},{"part":"miss","mean":"보내다 (send)"}],
-      "origin":"떨어져 보내다 → 해고하다, 묵살하다",
-      "synonyms":["fire","discharge"],
-      "derivatives":[
-        {"en":"dismissal","pos":"명","defs":["해고, 퇴학","해산"]}
+      "en": "unlikely",
+      "ipa": "/ʌnláikli/",
+      "meanings": [
+        {"pos": "형", "defs": ["…할 것 같지 않은, 가망 없는"]}
       ],
-      "examples":[
-        {"en":"The government dismissed the criticism that its educational policy had many problems.","ko":"정부는 교육 정책에 많은 문제점이 있다는 비판을 묵살했다."},
-        {"en":"Because of the crisis, the company had to dismiss workers and close its factories.","ko":"위기로 인해 회사는 직원을 해고하고 공장을 폐쇄해야 했다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"dispose","ipa":"/dɪsˈpoʊz/",
-      "meanings":[{"pos":"동","defs":["(물건·군대 등을) 배치[배열]하다","(+ of) (~을) 처분하다, 없애다","(+ of) (문제 등을) 처리[해결]하다","경향을 갖게 하다"]}],
-      "parts":[{"part":"dis-","mean":"떨어져 (apart)"},{"part":"pose","mean":"놓다 (put, place)"}],
-      "origin":"떨어뜨려 놓다 → 배치하다, 처분하다",
-      "derivatives":[
-        {"en":"disposal","pos":"명","defs":["처리, 처분, 폐기"]},
-        {"en":"disposable","pos":"형","defs":["일회용(의)"]},
-        {"en":"disposition","pos":"명","defs":["(사람의) 기질","배치, 배열"]}
+      "parts": [
+        {"part": "un", "mean": "= not"},
+        {"part": "likely", "mean": "…할 것 같은"}
       ],
-      "phrases":[
-        {"en":"be disposed of","ko":"처리[처분]되다"}
+      "origin": "…할 것 같지 않은",
+      "synonyms": ["improbable"],
+      "antonyms": ["likely"],
+      "phrases": [
+        {"en": "be likely to-v", "ko": "…할 것 같다, …할 가능성이 있다"}
       ],
-      "examples":[
-        {"en":"For example, some cities have required households to dispose of all waste in special trash bags.","ko":"예를 들어, 몇몇 도시에서는 각 가정에서 모든 쓰레기를 특수 쓰레기 봉투에 담아 버리도록 요구하고 있다.","source":"수능"},
-        {"en":"The company has strict rules about the disposal of old records to protect customer information.","ko":"그 회사는 고객 정보를 보호하기 위해 오래된 기록의 폐기에 대해 엄격한 규정을 두고 있다."}
+      "examples": [
+        {"en": "The work is unlikely to be completed in a year.", "ko": "그 일은 1년 안에 끝날 것 같지 않다.", "source": ""}
       ]
     },
-
     {
-      "en":"display","ipa":"/dɪˈspleɪ/",
-      "meanings":[{"pos":"동","defs":["전시[진열]하다","(감정 등을) 보이다, 표현하다","[컴퓨터] (정보 등을 화면에) 표시하다"]},{"pos":"명","defs":["전시, 진열","보이기, 표현","[컴퓨터] 디스플레이, 영상 출력 장치"]}],
-      "parts":[{"part":"dis-","mean":"펼쳐 (apart)"},{"part":"play","mean":"접다 (fold)"}],
-      "origin":"접힌 것을 펼치다 → 전시하다",
-      "synonyms":["exhibit"],
-      "phrases":[
-        {"en":"on display","ko":"진열[전시]된"}
+      "en": "unusual",
+      "ipa": "/ʌnjúːʒuəl/",
+      "meanings": [
+        {"pos": "형", "defs": ["1 보통이 아닌, 흔치 않은", "2 유별난, 색다른"]}
       ],
-      "examples":[
-        {"en":"Works of art are displayed in the museum.","ko":"그 박물관에는 예술 작품들이 전시되어 있다."}
-      ]
-    },
-
-    {
-      "en":"discard","ipa":"/dɪˈskɑːrd/",
-      "meanings":[{"pos":"동","defs":["(불필요한 것을) 버리다"]}],
-      "parts":[{"part":"dis-","mean":"떨어져 (away)"},{"part":"card","mean":"카드 (card)"}],
-      "origin":"카드를 내던지다 → 버리다, 폐기하다",
-      "synonyms":["get rid of","throw away"],
-      "examples":[
-        {"en":"After reading the secret message, he quickly discarded the paper.","ko":"비밀 메시지를 읽은 후, 그는 재빨리 종이를 버렸다."}
-      ]
-    },
-
-    {
-      "en":"disability","ipa":"/ˌdɪsəˈbɪləti/",
-      "meanings":[{"pos":"명","defs":["(신체적·정신적) 장애, 결함"]}],
-      "parts":[{"part":"dis-","mean":"~이 아닌 (not)"},{"part":"ability","mean":"능력 (ability)"}],
-      "origin":"능력이 없는 상태 → 장애",
-      "synonyms":["disorder"],
-      "examples":[
-        {"en":"Having a visual disability doesn't necessarily mean a person can't see at all.","ko":"시각 장애를 가지고 있다고 해서 반드시 아무것도 볼 수 없는 것은 아니다.","source":"교과서"}
-      ]
-    },
-
-    {
-      "en":"differ","ipa":"/ˈdɪfər/",
-      "meanings":[{"pos":"동","defs":["(+ from) (~와) 다르다","(+ with) (의견 등이) 일치하지 않다"]}],
-      "parts":[{"part":"dif-(dis-)","mean":"떨어져 (apart)"},{"part":"fer","mean":"옮기다 (carry)"}],
-      "origin":"떨어져 옮기다 → 다르다",
-      "synonyms":["disagree with"],
-      "derivatives":[
-        {"en":"difference","pos":"명","defs":["차이(점)","의견의 차이, 불화"]},
-        {"en":"different","pos":"형","defs":["다른","여러가지의, (각양)각색의"]},
-        {"en":"differentiate","pos":"동","defs":["구분 짓다, 구별하다"]}
+      "parts": [
+        {"part": "un", "mean": "= not"},
+        {"part": "usual", "mean": "보통의"}
       ],
-      "phrases":[
-        {"en":"make no difference","ko":"차이가 없다, 상관없다"},
-        {"en":"tell the difference","ko":"차이를 구별하다"}
+      "origin": "보통이 아닌",
+      "synonyms": ["uncommon", "unique", "extraordinary"],
+      "antonyms": ["ordinary", "common"],
+      "derivatives": [
+        {"en": "unusually", "pos": "부", "defs": ["1 평소와 다르게, 특이하게", "2 몹시, 대단히"]}
       ],
-      "examples":[
-        {"en":"Adolescents differ from adults in the way they behave, solve problems, and make decisions.","ko":"청소년은 행동하고, 문제를 해결하고, 결정을 내리는 방식이 성인과는 다르다.","source":"모의"},
-        {"en":"It is sometimes hard to differentiate real news from fake news.","ko":"진짜 뉴스와 가짜 뉴스를 구별하는 것은 때때로 어렵다."}
+      "examples": [
+        {"en": "In England in the 1680s, it was unusual to live to the age of fifty.", "ko": "1680년대 잉글랜드에서는 50세까지 사는 것이 흔치 않은 일이었다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"independent","ipa":"/ˌɪndɪˈpendənt/",
-      "meanings":[{"pos":"형","defs":["(국가·조직이) 독립된, 자주의","독립심이 강한"]}],
-      "parts":[{"part":"in-","mean":"~이 아닌 (not)"},{"part":"dependent","mean":"의존하는 (dependent)"}],
-      "origin":"의존하지 않는 → 독립적인",
-      "antonyms":["dependent"],
-      "derivatives":[
-        {"en":"independence","pos":"명","defs":["(~로부터의) 독립","자립(심)"]},
-        {"en":"independently","pos":"부","defs":["독립하여, 자주적으로"]}
+      "en": "unknown",
+      "ipa": "/ʌnnóun/",
+      "meanings": [
+        {"pos": "형", "defs": ["1 알려지지 않은", "2 무명의, 이름이 없는"]},
+        {"pos": "명", "defs": ["미지의 것"]}
       ],
-      "examples":[
-        {"en":"India became an independent nation in 1947.","ko":"인도는 1947년에 독립국이 되었다."},
-        {"en":"She was independent of her parents at the age of 18.","ko":"그녀는 18세에 부모로부터 독립했다."},
-        {"en":"Independence Day","ko":"독립 기념일"}
-      ]
-    },
-
-    {
-      "en":"inevitable","ipa":"/ɪnˈevɪtəbl/",
-      "meanings":[{"pos":"형","defs":["피할 수 없는, 불가피한"]}],
-      "parts":[{"part":"in-","mean":"~이 아닌 (not)"},{"part":"evit","mean":"피하다 (avoid)"},{"part":"-able","mean":"~할 수 있는"}],
-      "origin":"피할 수 없는",
-      "synonyms":["unavoidable","inescapable"],
-      "derivatives":[
-        {"en":"inevitably","pos":"부","defs":["필연적으로, 반드시"]}
+      "parts": [
+        {"part": "un", "mean": "= not"},
+        {"part": "known", "mean": "알려진"}
       ],
-      "examples":[
-        {"en":"Whether it's washing dishes or taking out the trash, these house chores are an inevitable part of daily life.","ko":"설거지든 쓰레기 버리기든, 이러한 집안일은 일상 생활의 피할 수 없는 일부이다.","source":"모의"}
+      "origin": "알려지지 않은",
+      "antonyms": ["known", "famous"],
+      "examples": [
+        {"en": "The explorer went to an unknown land, and no one heard from him again.", "ko": "그 탐험가는 알려지지 않은 땅으로 갔고, 아무도 다시 그의 소식을 듣지 못했다.", "source": ""}
       ]
     },
-
     {
-      "en":"inexpensive","ipa":"/ˌɪnɪkˈspensɪv/",
-      "meanings":[{"pos":"형","defs":["저렴한, 비싸지 않은"]}],
-      "parts":[{"part":"in-","mean":"~이 아닌 (not)"},{"part":"expensive","mean":"비싼 (expensive)"}],
-      "origin":"비싸지 않은 → 저렴한",
-      "synonyms":["cheap","low-priced"],
-      "antonyms":["expensive"],
-      "examples":[
-        {"en":"The furniture is inexpensive but well made.","ko":"그 가구는 저렴하지만, 잘 만들어졌다."}
-      ]
-    },
-
-    {
-      "en":"illegal","ipa":"/ɪˈliːɡl/",
-      "meanings":[{"pos":"형","defs":["불법의"]}],
-      "parts":[{"part":"il-(in-)","mean":"~이 아닌 (not)"},{"part":"legal","mean":"합법적인 (legal)"}],
-      "origin":"합법적이지 않은 → 불법의",
-      "antonyms":["legal"],
-      "derivatives":[
-        {"en":"illegally","pos":"부","defs":["불법적으로"]}
+      "en": "unbearable",
+      "ipa": "/ʌnbéərəbəl/",
+      "meanings": [
+        {"pos": "형", "defs": ["참을 수 없는, 견딜 수 없는"]}
       ],
-      "examples":[
-        {"en":"Making copies of software is illegal.","ko":"소프트웨어를 복제하는 것은 불법이다."}
-      ]
-    },
-
-    {
-      "en":"immoral","ipa":"/ɪˈmɔːrəl/",
-      "meanings":[{"pos":"형","defs":["부도덕한"]}],
-      "parts":[{"part":"im-(in-)","mean":"~이 아닌 (not)"},{"part":"moral","mean":"도덕적인 (moral)"}],
-      "origin":"도덕적이지 않은 → 부도덕한",
-      "synonyms":["unethical"],
-      "antonyms":["moral"],
-      "phrases":[
-        {"en":"cf. moral","ko":"도덕상의, 도덕에 관한"},
-        {"en":"cf. morality","ko":"도덕, 도덕성"}
+      "parts": [
+        {"part": "un", "mean": "= not"},
+        {"part": "bear", "mean": "견디다"},
+        {"part": "able", "mean": "형접"}
       ],
-      "examples":[
-        {"en":"He was punished for his immoral acts.","ko":"그는 부도덕한 행동으로 처벌받았다."}
+      "origin": "견딜 수 없는",
+      "synonyms": ["intolerable"],
+      "antonyms": ["bearable", "tolerable"],
+      "examples": [
+        {"en": "The heat was so strong that it became unbearable.", "ko": "더위가 너무 심해서 참을 수 없게 되었다.", "source": ""}
       ]
     },
-
     {
-      "en":"immune","ipa":"/ɪˈmjuːn/",
-      "meanings":[{"pos":"형","defs":["(+ to) 면역성을 가진","면제된"]}],
-      "parts":[{"part":"im-(in-)","mean":"~이 아닌 (not)"},{"part":"mune","mean":"의무, 봉사 (service, duty)"}],
-      "origin":"의무가 면제된 → 면역력이 있는, 면제되는",
-      "derivatives":[
-        {"en":"immunity","pos":"명","defs":["면역력","면제"]}
+      "en": "unlock",
+      "ipa": "/ʌnlɑ́ːk/",
+      "meanings": [
+        {"pos": "동", "defs": ["(문·상자 등 잠긴 것을) 열다"]}
       ],
-      "examples":[
-        {"en":"Not everyone is immune to the virus yet.","ko":"모든 사람이 아직 그 바이러스에 면역성을 가진 것은 아니다."},
-        {"en":"immune system","ko":"면역력"},
-        {"en":"The man was granted immunity in exchange for information about the crime.","ko":"그 남자는 범죄에 대한 정보 제공을 대가로 (처벌을) 면제받았다."}
+      "parts": [
+        {"part": "un", "mean": "= opposite"},
+        {"part": "lock", "mean": "잠그다"}
+      ],
+      "origin": "'잠그다'의 반대 행위 → 열다",
+      "antonyms": ["lock"],
+      "examples": [
+        {"en": "You can button your shirt or unlock the front door even in the dark.", "ko": "당신은 어두운 곳에서도 셔츠 단추를 채우거나 현관문을 열 수 있다.", "source": "수능"}
       ]
     },
-
     {
-      "en":"irrelevant","ipa":"/ɪˈreləvənt/",
-      "meanings":[{"pos":"형","defs":["(주로 + to) (~와) 관계가 없는, 상관없는"]}],
-      "parts":[{"part":"ir-(in-)","mean":"~이 아닌 (not)"},{"part":"relevant","mean":"관련 있는 (relevant)"}],
-      "origin":"관련이 없는 → 상관없는",
-      "antonyms":["relevant"],
-      "examples":[
-        {"en":"Your comment is irrelevant to the subject of today's discussion.","ko":"네 의견은 오늘의 토론 주제와 무관하다."},
-        {"en":"If a person can do the job well, his or her age is irrelevant.","ko":"일만 잘 할 수 있다면, 그 사람의 나이는 상관없다."}
+      "en": "disagree",
+      "ipa": "/dìsəgríː/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 (+ with) *(…와) (의견이) 다르다*;\n(+ with/about/on/over) (…에) 동의하지 않다", "2 (결과·수치·진술 등의) 내용이 일치하지 않다"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= not"},
+        {"part": "agree", "mean": "동의하다"}
+      ],
+      "origin": "동의하지 않다",
+      "synonyms": ["differ with"],
+      "derivatives": [
+        {"en": "disagreement", "pos": "명", "defs": ["1 의견 차이, 논쟁", "2 (수치·진술 등의) 불일치"]},
+        {"en": "disagreeable", "pos": "형", "defs": ["불쾌한, 싫은"]}
+      ],
+      "examples": [
+        {"en": "Ammal disagreed with the deforestation taking place in an effort to grow more food.", "ko": "Ammal은 더 많은 식량을 재배하기 위해 시행되는 삼림 개간에 동의하지 않았다.", "source": "모의"}
       ]
     },
-
     {
-      "en":"irrational","ipa":"/ɪˈræʃənl/",
-      "meanings":[{"pos":"형","defs":["비이성적인, 이성을 잃은"]}],
-      "parts":[{"part":"ir-(in-)","mean":"~이 아닌 (not)"},{"part":"rational","mean":"이성적인 (rational)"}],
-      "origin":"이성적이지 않은 → 비이성적인",
-      "antonyms":["rational"],
-      "examples":[
-        {"en":"A coincidence that is statistically impossible may seem like an irrational event, and some even define it as a miracle.","ko":"통계적으로 일어날 수 없는 우연은 우리에게 비이성적인 사건처럼 보일 수 있으며, 일부는 그것을 기적이라고까지 정의한다.","source":"모의"}
+      "en": "disorder",
+      "ipa": "/disɔ́ːrdər/",
+      "meanings": [
+        {"pos": "명", "defs": ["1 무질서, 혼란", "2 *(심신의) 이상, 장애*"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= not"},
+        {"part": "order", "mean": "순서"}
+      ],
+      "origin": "순서가 없음 → 무질서",
+      "synonyms": ["chaos"],
+      "phrases": [
+        {"en": "in disorder", "ko": "혼란하게, 무질서하게"}
+      ],
+      "examples": [
+        {"en": "Her mother accused her of leaving the room in disorder.", "ko": "그녀의 어머니는 그녀가 방을 어질러 놓았다고 나무랐다.", "source": ""},
+        {"en": "mental[eating] disorder", "ko": "정신[식이] 장애", "source": ""}
+      ]
+    },
+    {
+      "en": "disappear",
+      "ipa": "/dìsəpíər/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 (시야에서) 사라지다, 안 보이다", "2 *(존재가) 없어지다, 소멸하다*"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= opposite"},
+        {"part": "appear", "mean": "나타나다"}
+      ],
+      "origin": "'나타나다'의 반대 행위 → 사라지다",
+      "synonyms": ["vanish"],
+      "antonyms": ["appear", "show[turn] up"],
+      "derivatives": [
+        {"en": "disappearance", "pos": "명", "defs": ["사라짐, 소멸; 실종"]}
+      ],
+      "examples": [
+        {"en": "His smile quickly disappeared when he was told that the restaurant was fully reserved.", "ko": "식당의 예약이 꽉 찼다는 말을 듣자 그의 미소는 금세 사라졌다.", "source": "수능"}
+      ]
+    },
+    {
+      "en": "discount",
+      "ipa": "/dískaunt/",
+      "meanings": [
+        {"pos": "명", "defs": ["(주로 + on 상품/off 가격) 할인"]},
+        {"pos": "동", "defs": ["1 할인하다", "2 중요하지 않게 생각하다"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= away, apart"},
+        {"part": "count", "mean": "계산하다"}
+      ],
+      "origin": "(금액이) 떨어지게 계산함 → 할인",
+      "synonyms": ["reduction", "reduce"],
+      "examples": [
+        {"en": "Local residents can get a 10% discount off the entrance fee.", "ko": "지역 주민은 입장료 10% 할인을 받을 수 있다.", "source": "모의"},
+        {"en": "You will also be invited to all new exhibition openings this year at discounted prices.", "ko": "당신은 또한 올해 새롭게 열리는 모든 전시회에 할인된 가격으로 초대될 것입니다.", "source": "모의"}
+      ]
+    },
+    {
+      "en": "discourage",
+      "ipa": "/diskə́ːridʒ/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *그만두게 하다, 단념시키다*", "2 낙담[실망]시키다, 용기를 잃게 하다"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= away, apart"},
+        {"part": "courage", "mean": "용기"}
+      ],
+      "origin": "용기에서 멀어지게 하다\n→ (용기를 잃어) 그만두게 하다",
+      "antonyms": ["encourage"],
+      "derivatives": [
+        {"en": "discouraged", "pos": "형", "defs": ["낙담한, 의기소침한"]}
+      ],
+      "examples": [
+        {"en": "Don't let the opinions of others discourage you from doing what you want.", "ko": "다른 사람의 의견 때문에 네가 원하는 일을 하는 것을 그만두지 마라.", "source": ""}
+      ]
+    },
+    {
+      "en": "dismiss",
+      "ipa": "/dismís/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *(의견·생각 등을) 묵살[일축]하다*", "2 해고하다, 내쫓다", "3 (모임 등을) 해산시키다"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= away, apart"},
+        {"part": "miss", "mean": "= mit:send"}
+      ],
+      "origin": "send away → 떠나게 하다",
+      "synonyms": ["fire", "discharge"],
+      "derivatives": [
+        {"en": "dismissal", "pos": "명", "defs": ["1 해고, 퇴학", "2 해산"]}
+      ],
+      "examples": [
+        {"en": "The government dismissed the criticism that its educational policy had many problems.", "ko": "정부는 교육 정책에 많은 문제점이 있다는 비판을 묵살했다.", "source": ""},
+        {"en": "Because of the crisis, the company had to dismiss workers and close its factories.", "ko": "위기로 인해 회사는 직원을 해고하고 공장을 폐쇄해야 했다.", "source": "모의"}
+      ]
+    },
+    {
+      "en": "dispose",
+      "ipa": "/dispóuz/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 (물건·군대 등을) 배치[배열]하다", "2 (+ of) *(…을) 처분하다, 없애다*", "3 (+ of) (문제 등을) 처리[해결]하다", "4 경향을 갖게 하다"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= away, apart"},
+        {"part": "pose", "mean": "= place"}
+      ],
+      "origin": "멀리 (다른 곳에) 두다 →\n배치[배열]하다\n(물건을) 멀리 치우다 → 처분하다, 없애다\n(문제를) 멀리 치우다 → 처리[해결]하다\n(관심을) 다른 곳에 두게 하다\n→ 경향을 갖게 하다",
+      "derivatives": [
+        {"en": "disposal", "pos": "명", "defs": ["처리, 처분, 폐기"]},
+        {"en": "disposable", "pos": "형", "defs": ["일회용(의)"]},
+        {"en": "disposition", "pos": "명", "defs": ["1 (사람의) 기질", "2 배치, 배열"]}
+      ],
+      "phrases": [
+        {"en": "be disposed of", "ko": "처리[처분]되다"}
+      ],
+      "examples": [
+        {"en": "For example, some cities have required households to dispose of all waste in special trash bags.", "ko": "예를 들어, 몇몇 도시에서는 각 가정에서 모든 쓰레기를 특수 쓰레기 봉투에 담아 버리도록 요구하고 있다.", "source": "수능"},
+        {"en": "The company has strict rules about the disposal of old records to protect customer information.", "ko": "그 회사는 고객 정보를 보호하기 위해 오래된 기록의 폐기에 대해 엄격한 규정을 두고 있다.", "source": ""}
+      ]
+    },
+    {
+      "en": "display",
+      "ipa": "/displéi/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 *전시[진열]하다*", "2 *(감정 등을) 보이다, 표현하다*", "3 [컴퓨터] (정보 등을 화면에) 표시하다"]},
+        {"pos": "명", "defs": ["1 전시, 진열", "2 보이기, 표현", "3 [컴퓨터] 디스플레이, 영상 출력 장치"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= away, apart"},
+        {"part": "play", "mean": "= plic:fold"}
+      ],
+      "origin": "접혀진 것이 떨어지도록 펼쳐 놓다",
+      "synonyms": ["exhibit", "exhibition"],
+      "phrases": [
+        {"en": "on display", "ko": "진열[전시]된"}
+      ],
+      "examples": [
+        {"en": "Works of art are displayed in the museum.", "ko": "그 박물관에는 예술 작품들이 전시되어 있다.", "source": ""}
+      ]
+    },
+    {
+      "en": "discard",
+      "ipa": "/diskɑ́ːrd/",
+      "meanings": [
+        {"pos": "동", "defs": ["(불필요한 것을) 버리다"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= away, apart"},
+        {"part": "card", "mean": "카드"}
+      ],
+      "origin": "[원뜻] 카드 게임에서 나눠 받은 카드 중\n불필요한 카드를 버리다",
+      "synonyms": ["get rid of", "throw away"],
+      "examples": [
+        {"en": "After reading the secret message, he quickly discarded the paper.", "ko": "비밀 메시지를 읽은 후, 그는 재빨리 종이를 버렸다.", "source": ""}
+      ]
+    },
+    {
+      "en": "disability",
+      "ipa": "/dìsəbíləti/",
+      "meanings": [
+        {"pos": "명", "defs": ["(신체적·정신적) 장애, 결함"]}
+      ],
+      "parts": [
+        {"part": "dis", "mean": "= away, apart"},
+        {"part": "ability", "mean": "능력"}
+      ],
+      "origin": "능력으로부터 멀리 떨어짐 → 장애",
+      "synonyms": ["disorder(장애)"],
+      "examples": [
+        {"en": "Having a visual disability doesn't necessarily mean a person can't see at all.", "ko": "시각 장애를 가지고 있다고 해서 반드시 아무것도 볼 수 없는 것은 아니다.", "source": "교과서"}
+      ]
+    },
+    {
+      "en": "differ",
+      "ipa": "/dífər/",
+      "meanings": [
+        {"pos": "동", "defs": ["1 (+ from) *(…와) 다르다*", "2 (+ with) (의견 등이) 일치하지 않다"]}
+      ],
+      "parts": [
+        {"part": "dif", "mean": "= away, apart"},
+        {"part": "fer", "mean": "= carry 지니다"}
+      ],
+      "origin": "동떨어진[다른] 것을 지니다 → 다르다",
+      "synonyms": ["disagree with"],
+      "derivatives": [
+        {"en": "difference", "pos": "명", "defs": ["1 차이(점)", "2 의견의 차이, 불화"]},
+        {"en": "different", "pos": "형", "defs": ["1 다른", "2 여러가지의, (각양)각색의"]},
+        {"en": "differentiate", "pos": "동", "defs": ["구분 짓다, 구별하다"]}
+      ],
+      "phrases": [
+        {"en": "make no difference", "ko": "차이가 없다, 상관없다"},
+        {"en": "tell the difference", "ko": "차이를 구별하다"}
+      ],
+      "examples": [
+        {"en": "Adolescents differ from adults in the way they behave, solve problems, and make decisions.", "ko": "청소년은 행동하고, 문제를 해결하고, 결정을 내리는 방식이 성인과는 다르다.", "source": "모의"},
+        {"en": "It is sometimes hard to differentiate real news from fake news.", "ko": "진짜 뉴스와 가짜 뉴스를 구별하는 것은 때때로 어렵다.", "source": ""}
+      ]
+    },
+    {
+      "en": "independent",
+      "ipa": "/ìndipéndənt/",
+      "meanings": [
+        {"pos": "형", "defs": ["1 *(국가·조직이) 독립된, 자주의*", "2 독립심이 강한"]}
+      ],
+      "parts": [
+        {"part": "in", "mean": "= not"},
+        {"part": "depend", "mean": "의존하다"},
+        {"part": "ent", "mean": "형접"}
+      ],
+      "origin": "의존하지 않는",
+      "antonyms": ["dependent"],
+      "derivatives": [
+        {"en": "independence", "pos": "명", "defs": ["1 (…로부터의) 독립", "2 자립(심)"]},
+        {"en": "independently", "pos": "부", "defs": ["독립하여, 자주적으로"]}
+      ],
+      "examples": [
+        {"en": "India became an independent nation in 1947.", "ko": "인도는 1947년에 독립국이 되었다.", "source": ""},
+        {"en": "She was independent of her parents at the age of 18.", "ko": "그녀는 18세에 부모로부터 독립했다.", "source": ""},
+        {"en": "Independence Day", "ko": "독립 기념일", "source": ""}
+      ]
+    },
+    {
+      "en": "inevitable",
+      "ipa": "/inévətəbəl/",
+      "meanings": [
+        {"pos": "형", "defs": ["피할 수 없는, 불가피한"]}
+      ],
+      "parts": [
+        {"part": "in", "mean": "= not"},
+        {"part": "evitable", "mean": "= avoidable 피할 수 있는"}
+      ],
+      "origin": "피할 수 없는",
+      "synonyms": ["unavoidable", "inescapable"],
+      "derivatives": [
+        {"en": "inevitably", "pos": "부", "defs": ["필연적으로, 반드시"]}
+      ],
+      "examples": [
+        {"en": "Whether it's washing dishes or taking out the trash, these house chores are an inevitable part of daily life.", "ko": "설거지든 쓰레기 버리기든, 이러한 집안일은 일상 생활의 피할 수 없는 일부이다.", "source": "모의"}
+      ]
+    },
+    {
+      "en": "inexpensive",
+      "ipa": "/ìnikspénsiv/",
+      "meanings": [
+        {"pos": "형", "defs": ["저렴한, 비싸지 않은"]}
+      ],
+      "parts": [
+        {"part": "in", "mean": "= not"},
+        {"part": "expensive", "mean": "값비싼"}
+      ],
+      "origin": "비싸지 않은",
+      "synonyms": ["cheap", "low-priced"],
+      "antonyms": ["expensive"],
+      "examples": [
+        {"en": "The furniture is inexpensive but well made.", "ko": "그 가구는 저렴하지만, 잘 만들어졌다.", "source": ""}
+      ]
+    },
+    {
+      "en": "illegal",
+      "ipa": "/ilíːgəl/",
+      "meanings": [
+        {"pos": "형", "defs": ["불법의"]}
+      ],
+      "parts": [
+        {"part": "il", "mean": "= not"},
+        {"part": "legal", "mean": "합법적인"}
+      ],
+      "origin": "합법적이지 않은",
+      "antonyms": ["legal"],
+      "derivatives": [
+        {"en": "illegally", "pos": "부", "defs": ["불법적으로"]}
+      ],
+      "examples": [
+        {"en": "Making copies of software is illegal.", "ko": "소프트웨어를 복제하는 것은 불법이다.", "source": ""}
+      ]
+    },
+    {
+      "en": "immoral",
+      "ipa": "/imɔ́ːrəl/",
+      "meanings": [
+        {"pos": "형", "defs": ["부도덕한"]}
+      ],
+      "parts": [
+        {"part": "im", "mean": "= not"},
+        {"part": "moral", "mean": "도덕적인"}
+      ],
+      "origin": "도덕적이지 않은",
+      "synonyms": ["unethical"],
+      "antonyms": ["moral"],
+      "phrases": [
+        {"en": "cf. moral", "ko": "도덕상의, 도덕에 관한"},
+        {"en": "morality", "ko": "도덕, 도덕성"}
+      ],
+      "examples": [
+        {"en": "He was punished for his immoral acts.", "ko": "그는 부도덕한 행동으로 처벌받았다.", "source": ""}
+      ]
+    },
+    {
+      "en": "immune",
+      "ipa": "/imjúːn/",
+      "meanings": [
+        {"pos": "형", "defs": ["1 (+ to) 면역성을 가진", "2 면제된"]}
+      ],
+      "parts": [
+        {"part": "im", "mean": "= not"},
+        {"part": "mune", "mean": "= task"}
+      ],
+      "origin": "일에서 제외된 → 면제된\n→ 질병에서 면제된",
+      "derivatives": [
+        {"en": "immunity", "pos": "명", "defs": ["1 면역력", "2 면제"]}
+      ],
+      "examples": [
+        {"en": "Not everyone is immune to the virus yet.", "ko": "모든 사람이 아직 그 바이러스에 면역성을 가진 것은 아니다.", "source": ""},
+        {"en": "immune system", "ko": "면역력", "source": ""},
+        {"en": "The man was granted immunity in exchange for information about the crime.", "ko": "그 남자는 범죄에 대한 정보 제공을 대가로 (처벌을) 면제받았다.", "source": ""}
+      ]
+    },
+    {
+      "en": "irrelevant",
+      "ipa": "/iréləvənt/",
+      "meanings": [
+        {"pos": "형", "defs": ["(주로 + to) (…와) 관계가 없는, 상관없는"]}
+      ],
+      "parts": [
+        {"part": "ir", "mean": "= not"},
+        {"part": "relevant", "mean": "관계가 있는"}
+      ],
+      "origin": "관계가 없는",
+      "antonyms": ["relevant"],
+      "examples": [
+        {"en": "Your comment is irrelevant to the subject of today's discussion.", "ko": "네 의견은 오늘의 토론 주제와 무관하다.", "source": ""},
+        {"en": "If a person can do the job well, his or her age is irrelevant.", "ko": "일만 잘 할 수 있다면, 그 사람의 나이는 상관없다.", "source": ""}
+      ]
+    },
+    {
+      "en": "irrational",
+      "ipa": "/irǽʃənəl/",
+      "meanings": [
+        {"pos": "형", "defs": ["비이성적인, 이성을 잃은"]}
+      ],
+      "parts": [
+        {"part": "ir", "mean": "= not"},
+        {"part": "rational", "mean": "이성적인"}
+      ],
+      "origin": "이성적이지 않은",
+      "antonyms": ["rational"],
+      "examples": [
+        {"en": "A coincidence that is statistically impossible may seem like an irrational event, and some even define it as a miracle.", "ko": "통계적으로 일어날 수 없는 우연은 우리에게 비이성적인 사건처럼 보일 수 있으며, 일부는 그것을 기적이라고까지 정의한다.", "source": "모의"}
       ]
     }
   ]

@@ -8,7 +8,7 @@
         {"pos": "형", "defs": ["국제적인, 국가 간의"]}
       ],
       "parts": [
-        {"part": "inter", "mean": "between"},
+        {"part": "inter", "mean": "= between"},
         {"part": "national", "mean": "국가의"}
       ],
       "origin": "국가와 국가 사이의",
@@ -25,7 +25,7 @@
         {"pos": "동", "defs": ["1 통역하다", "2 (…의 의미로) *이해[해석]하다, 파악하다*", "3 (자기 해석에 따라) 연주[연기]하다"]}
       ],
       "parts": [
-        {"part": "inter", "mean": "between"},
+        {"part": "inter", "mean": "= between"},
         {"part": "pret", "mean": "= price"}
       ],
       "origin": "[원뜻] 중간에서 양측의 가격을 설명하다\n→ 통역하다",
@@ -51,7 +51,7 @@
         {"pos": "명", "defs": ["1 *(장소·시간의) 간격*", "2 (BrE) (연극·공연 등의) 중간 휴식 시간"]}
       ],
       "parts": [
-        {"part": "inter", "mean": "between"},
+        {"part": "inter", "mean": "= between"},
         {"part": "val", "mean": "= wall 벽"}
       ],
       "origin": "벽과 벽의 사이 → 간격",
@@ -66,7 +66,7 @@
         {"pos": "동", "defs": ["1 (+ in) 간섭하다", "2 (+ with) *방해하다*"]}
       ],
       "parts": [
-        {"part": "inter", "mean": "each other"},
+        {"part": "inter", "mean": "= each other"},
         {"part": "fere", "mean": "= strike"}
       ],
       "origin": "서로 치다 → 간섭하다",
@@ -86,7 +86,7 @@
         {"pos": "명", "defs": ["상호 작용, 상호 영향"]}
       ],
       "parts": [
-        {"part": "inter", "mean": "each other"},
+        {"part": "inter", "mean": "= each other"},
         {"part": "action", "mean": "행동"}
       ],
       "origin": "서로에게 영향을 미치는 행동",
@@ -107,7 +107,7 @@
         {"pos": "명", "defs": ["1 이동, 전달; 전근, 전학", "2 갈아타기", "3 (파일) 전송"]}
       ],
       "parts": [
-        {"part": "trans", "mean": "across"},
+        {"part": "trans", "mean": "= across"},
         {"part": "fer", "mean": "= carry"}
       ],
       "origin": "이쪽에서 저쪽으로 나르다\n→ 이동시키다, 옮기다",
@@ -126,7 +126,7 @@
         {"pos": "동", "defs": ["변형[변화]시키다"]}
       ],
       "parts": [
-        {"part": "trans", "mean": "across"},
+        {"part": "trans", "mean": "= across"},
         {"part": "form", "mean": "형성하다"}
       ],
       "origin": "형태를 이쪽에서 저쪽으로 바꾸다",
@@ -151,7 +151,7 @@
         {"pos": "명", "defs": ["[외과] *이식(수술)*"]}
       ],
       "parts": [
-        {"part": "trans", "mean": "across"},
+        {"part": "trans", "mean": "= across"},
         {"part": "plant", "mean": "심다; 식물"}
       ],
       "origin": "이쪽에서 저쪽으로 (옮겨) 심다 → 이식하다",
@@ -170,7 +170,7 @@
         {"pos": "동", "defs": ["1 *커지다, 팽창하다; 넓히다, 확대[팽창]시키다*", "2 (사업·조직 등을) 확장[확대]하다"]}
       ],
       "parts": [
-        {"part": "ex", "mean": "out"},
+        {"part": "ex", "mean": "= out"},
         {"part": "pand", "mean": "= spread"}
       ],
       "origin": "밖으로 펼쳐지다",
@@ -191,7 +191,7 @@
         {"pos": "동", "defs": ["1 탐험하다", "2 탐구하다, 연구하다"]}
       ],
       "parts": [
-        {"part": "ex", "mean": "out"},
+        {"part": "ex", "mean": "= out"},
         {"part": "plore", "mean": "= cry"}
       ],
       "origin": "(사냥감을 찾았다고) 크게 외치다 → search out (조사 등으로) 찾아내다, 탐색하다",
@@ -211,7 +211,7 @@
         {"pos": "동", "defs": ["설명하다, 해명하다"]}
       ],
       "parts": [
-        {"part": "ex", "mean": "out"},
+        {"part": "ex", "mean": "= out"},
         {"part": "plain", "mean": "분명한"}
       ],
       "origin": "밖으로 드러내어 분명하게 하다",
@@ -231,7 +231,7 @@
         {"pos": "형", "defs": ["1 분명한, 명백한, 뚜렷한", "2 노골적인, 숨김없는"]}
       ],
       "parts": [
-        {"part": "ex", "mean": "out"},
+        {"part": "ex", "mean": "= out"},
         {"part": "plic", "mean": "= fold"},
         {"part": "it", "mean": "형접"}
       ],
@@ -252,7 +252,7 @@
         {"pos": "명", "defs": ["(자동차 등의) 배기가스"]}
       ],
       "parts": [
-        {"part": "ex", "mean": "out"},
+        {"part": "ex", "mean": "= out"},
         {"part": "haust", "mean": "= drain 물을 퍼내다"}
       ],
       "origin": "밖으로 (에너지를) 완전히 퍼내다",
@@ -273,7 +273,7 @@
         {"pos": "동", "defs": ["1 *(햇볕·위험·특정 환경 등에) 노출시키다*", "2 (가려진 것을) 드러내다; 폭로하다"]}
       ],
       "parts": [
-        {"part": "ex", "mean": "out"},
+        {"part": "ex", "mean": "= out"},
         {"part": "pose", "mean": "= place"}
       ],
       "origin": "밖으로 내놓다",
@@ -295,7 +295,7 @@
         {"pos": "동", "defs": ["1 *조사[검사]하다*", "2 시험하다", "3 진찰하다"]}
       ],
       "parts": [
-        {"part": "ex", "mean": "out"},
+        {"part": "ex", "mean": "= out"},
         {"part": "amine", "mean": "= drive 움직이게 하다"}
       ],
       "origin": "밖으로 움직이게 하다 → 밖으로 나오게 하여 조사하다",
@@ -357,7 +357,7 @@
         {"pos": "명", "defs": ["도망, 탈출; 도피"]}
       ],
       "parts": [
-        {"part": "es", "mean": "out"},
+        {"part": "es", "mean": "= out"},
         {"part": "cape", "mean": "망토"}
       ],
       "origin": "망토에서 벗어나다 → 망토만 남기고\n(추적자를) 피하다 → 도망치다",
@@ -373,7 +373,7 @@
         {"pos": "동", "defs": ["증발하다; 증발시키다"]}
       ],
       "parts": [
-        {"part": "e", "mean": "out"},
+        {"part": "e", "mean": "= out"},
         {"part": "vapor", "mean": "증기"},
         {"part": "ate", "mean": "동접"}
       ],
@@ -395,7 +395,7 @@
         {"pos": "명", "defs": ["대화, 문답, 회화"]}
       ],
       "parts": [
-        {"part": "dia", "mean": "between"},
+        {"part": "dia", "mean": "= between"},
         {"part": "logue", "mean": "= speech"}
       ],
       "origin": "서로 간에 이야기하는 것",
@@ -411,7 +411,7 @@
         {"pos": "명", "defs": ["방언, 사투리 ('특정 지역에서 쓰는 언어'라는 중립적인 뜻)"]}
       ],
       "parts": [
-        {"part": "dia", "mean": "between"},
+        {"part": "dia", "mean": "= between"},
         {"part": "lect", "mean": "= speak"}
       ],
       "origin": "(특정 지역의 사람들) 사이에서 쓰이는 말\n→ 방언",
@@ -431,7 +431,7 @@
         {"pos": "명", "defs": ["지름, 직경"]}
       ],
       "parts": [
-        {"part": "dia", "mean": "across"},
+        {"part": "dia", "mean": "= across"},
         {"part": "meter", "mean": "= measure"}
       ],
       "origin": "가로질러 잰 치수 → 지름",
@@ -450,7 +450,7 @@
         {"pos": "동", "defs": ["오해하다, 잘못 판단하다"]}
       ],
       "parts": [
-        {"part": "mis", "mean": "wrong"},
+        {"part": "mis", "mean": "= wrong"},
         {"part": "take", "mean": "취하다"}
       ],
       "origin": "잘못 취한 것 → 실수",
@@ -473,7 +473,7 @@
         {"pos": "형", "defs": ["오도하는, 오해의 소지가 있는"]}
       ],
       "parts": [
-        {"part": "mis", "mean": "wrong"},
+        {"part": "mis", "mean": "= wrong"},
         {"part": "lead", "mean": "이끌다"},
         {"part": "ing", "mean": "형용사 어미"}
       ],
@@ -494,7 +494,7 @@
         {"pos": "명", "defs": ["불운, 불행, 역경"]}
       ],
       "parts": [
-        {"part": "mis", "mean": "bad"},
+        {"part": "mis", "mean": "= bad"},
         {"part": "fortune", "mean": "운"}
       ],
       "origin": "나쁜 운 → 불운, 불행",

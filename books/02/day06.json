@@ -2,315 +2,1064 @@
   "title": "super- 위에,초월해서/ up- 위로/ sub- ~의 아래에/ anti- ~에 대항(반대)하여/ ante- 앞,전에",
   "words": [
     {
-      "en":"superior","ipa":"/suːˈpɪriər/",
-      "meanings":[{"pos":"형","defs":["우수한, 보다 나은","(~보다) 상위[상급]의"]},{"pos":"명","defs":["상급자"]}],
-      "parts":[{"part":"super-","mean":"위의 (above)"},{"part":"-ior","mean":"비교급 접미사"}],
-      "origin":"위에 있는 → 우수한, 상급의",
-      "synonyms":["senior"],
-      "antonyms":["inferior"],
-      "derivatives":[
-        {"en":"superiority","pos":"명","defs":["우수(성), 탁월, 우월"]}
+      "en": "superior",
+      "ipa": "/suːpíəriər/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *우수한, 보다 나은*",
+            "2 (…보다) 상위[상급]의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 상급자"
+          ]
+        }
       ],
-      "phrases":[
-        {"en":"superior[inferior] to","ko":"(품질·지위 등이) ~보다 나은[못한]"},
-        {"en":"a sense of superiority[inferiority]","ko":"우월감[열등감]"}
+      "parts": [
+        {
+          "part": "super",
+          "mean": "= above"
+        },
+        {
+          "part": "ior",
+          "mean": "〈비교급〉"
+        }
       ],
-      "examples":[
-        {"en":"They are not interested in trying to appear or feel superior to others.","ko":"그들은 다른 사람보다 우월해 보이거나 우월하다고 느끼는데 관심이 없다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"superb","ipa":"/suːˈpɜːrb/",
-      "meanings":[{"pos":"형","defs":["뛰어난, 멋진; 최고의"]}],
-      "parts":[{"part":"super-","mean":"위의, 넘어 (above, beyond)"},{"part":"-b","mean":"형용사형 어미"}],
-      "origin":"위를 넘어서는 → 최고의, 뛰어난",
-      "synonyms":["excellent","outstanding","terrific"],
-      "examples":[
-        {"en":"The hotel offers superb views of the lake.","ko":"그 호텔은 호수의 멋진 광경을 보여준다."}
-      ]
-    },
-
-    {
-      "en":"superficial","ipa":"/ˌsuːpərˈfɪʃl/",
-      "meanings":[{"pos":"형","defs":["표면의, 외관상","피상적인"]}],
-      "parts":[{"part":"super-","mean":"위의 (above)"},{"part":"fic","mean":"얼굴, 표면 (face)"},{"part":"-ial","mean":"형용사형 접미사"}],
-      "origin":"표면 위의 → 피상적인, 표면적인",
-      "antonyms":["profound"],
-      "examples":[
-        {"en":"a superficial wound","ko":"외상(外傷)"},
-        {"en":"superficial knowledge","ko":"피상적인 지식"},
-        {"en":"A superficial resemblance doesn't necessarily mean you are part of the family.","ko":"외관상의 유사함이 꼭 당신이 가족의 일원이라는 것을 뜻하지는 않는다."}
-      ]
-    },
-
-    {
-      "en":"surface","ipa":"/ˈsɜːrfɪs/",
-      "meanings":[{"pos":"명","defs":["표면","외관"]},{"pos":"동","defs":["(수면으로) 올라오다","드러나다, 나타나다"]}],
-      "parts":[{"part":"sur-(super-)","mean":"위의 (above)"},{"part":"face","mean":"얼굴, 면 (face)"}],
-      "origin":"위의 면 → 표면",
-      "synonyms":["emerge"],
-      "examples":[
-        {"en":"Mirrors and other smooth, shiny surfaces reflect light.","ko":"거울이나 다른 매끄럽고 반짝이는 표면은 빛을 반사한다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"sovereign","ipa":"/ˈsɑːvrɪn/",
-      "meanings":[{"pos":"형","defs":["주권이 있는","자주의, 독립의","최고 권력의"]},{"pos":"명","defs":["주권자, 군주"]}],
-      "parts":[{"part":"sover-(super-)","mean":"위의 (above, over)"},{"part":"-eign","mean":"지배 (reign)"}],
-      "origin":"위에서 지배하는 → 통치자, 주권이 있는",
-      "synonyms":["autonomous","emperor","monarch"],
-      "derivatives":[
-        {"en":"sovereignty","pos":"명","defs":["주권"]}
+      "origin": "… 보다 위의",
+      "antonyms": [
+        "inferior"
       ],
-      "examples":[
-        {"en":"A sovereign nation makes its own laws.","ko":"주권을 가진 나라는 스스로 법을 만든다."}
-      ]
-    },
-
-    {
-      "en":"uphold","ipa":"/ʌpˈhoʊld/",
-      "meanings":[{"pos":"동","defs":["(법·제도·판결 등을) 지지하다, 옹호하다, 유지하다"]}],
-      "parts":[{"part":"up-","mean":"위로 (up)"},{"part":"hold","mean":"잡다, 유지하다 (hold)"}],
-      "origin":"위로 잡아 유지하다 → 지지하다",
-      "synonyms":["support","sustain"],
-      "examples":[
-        {"en":"Citizens must uphold the laws of their country.","ko":"국민들은 자국의 법을 지지해야 한다."}
-      ]
-    },
-
-    {
-      "en":"upright","ipa":"/ˈʌpraɪt/",
-      "meanings":[{"pos":"형","defs":["똑바른; 수직으로 세운","(도덕적으로) 올바른, 정직한"]},{"pos":"부","defs":["똑바로, 수직으로"]}],
-      "parts":[{"part":"up-","mean":"위로 (up)"},{"part":"right","mean":"바른 (right, straight)"}],
-      "origin":"위로 바르게 → 똑바른",
-      "synonyms":["erect"],
-      "examples":[
-        {"en":"The books were placed upright on the shelf.","ko":"책들은 선반 위에 똑바로 꽂혀 있었다."}
-      ]
-    },
-
-    {
-      "en":"upset","ipa":"/ʌpˈset/",
-      "meanings":[{"pos":"형","defs":["기분이 상한, 화난","(위장 등이) 탈이 난"]},{"pos":"동","defs":["(마음을) 상하게 하다","뒤집어엎다"]}],
-      "parts":[{"part":"up-","mean":"위로 (up)"},{"part":"set","mean":"놓다 (set, place)"}],
-      "origin":"위로 뒤집어 놓다 → 화난, 뒤엎다",
-      "synonyms":["distress","turn over"],
-      "examples":[
-        {"en":"She was upset about her flight being delayed.","ko":"그녀는 비행기가 지연되는 것에 기분이 상했다."},
-        {"en":"An upset stomach is another common symptom of caffeine overload.","ko":"복통은 카페인 과다 섭취의 또 다른 흔한 증상이다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"upside","ipa":"/ˈʌpsaɪd/",
-      "meanings":[{"pos":"명","defs":["위쪽, 윗면"]}],
-      "parts":[{"part":"up-","mean":"위 (up)"},{"part":"side","mean":"면, 쪽 (side)"}],
-      "origin":"위쪽 면 → 위쪽, 긍정적인 면",
-      "antonyms":["downside"],
-      "phrases":[
-        {"en":"upside down","ko":"거꾸로, 뒤집혀"}
+      "synonyms": [
+        "senior"
       ],
-      "examples":[
-        {"en":"Don't hold the box upside down.","ko":"그 상자를 거꾸로 들지 마세요."}
-      ]
-    },
-
-    {
-      "en":"submarine","ipa":"/ˌsʌbməˈriːn/",
-      "meanings":[{"pos":"명","defs":["잠수함"]},{"pos":"형","defs":["해저의"]}],
-      "parts":[{"part":"sub-","mean":"아래에 (under)"},{"part":"marine","mean":"바다의 (sea)"}],
-      "origin":"바다 아래의 → 잠수함",
-      "examples":[
-        {"en":"A submarine floated to the surface of the water.","ko":"잠수함이 물의 표면으로 떠올랐다."}
-      ]
-    },
-
-    {
-      "en":"suffer","ipa":"/ˈsʌfər/",
-      "meanings":[{"pos":"동","defs":["(고통 등을) 겪다","(+ from) ~로 괴로워하다, (병 등을) 앓다"]}],
-      "parts":[{"part":"suf-(sub-)","mean":"아래에서 (under)"},{"part":"fer","mean":"옮기다, 견디다 (carry, bear)"}],
-      "origin":"아래에서 짊어지다 → 겪다, 고통받다",
-      "synonyms":["undergo","go through"],
-      "derivatives":[
-        {"en":"suffering","pos":"명","defs":["(육체적·정신적) 고통"]}
+      "derivatives": [
+        {
+          "en": "superiority",
+          "pos": "명",
+          "defs": [
+            "우수(성), 탁월, 우월"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"Thousands of children are suffering from hunger and disease at this moment.","ko":"지금 이 순간에도 수천 명의 아이들이 배고픔과 질병으로 고통받고 있다."}
-      ]
-    },
-
-    {
-      "en":"suggest","ipa":"/səˈdʒest/",
-      "meanings":[{"pos":"동","defs":["제안[제의]하다","암시[시사]하다"]}],
-      "parts":[{"part":"sug-(sub-)","mean":"아래에서 (under)"},{"part":"gest","mean":"옮기다, 가져오다 (carry, bring)"}],
-      "origin":"아래에서 가져오다 → 제안하다, 암시하다",
-      "synonyms":["propose","imply","indicate"],
-      "derivatives":[
-        {"en":"suggestion","pos":"명","defs":["제안","암시, 시사"]}
+      "phrases": [
+        {
+          "en": "superior[inferior] to",
+          "ko": "(품질·지위 등이) …보다 나은[못한]"
+        },
+        {
+          "en": "a sense of superiority[inferiority]",
+          "ko": "우월감[열등감]"
+        }
       ],
-      "phrases":[
-        {"en":"suggest v-ing","ko":"~하는 것을 제안하다"}
+      "examples": [
+        {
+          "en": "They are not interested in trying to appear or feel superior to others.",
+          "ko": "그들은 다른 사람보다 우월해 보이거나 우월하다고 느끼는데 관심이 없다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "superb",
+      "ipa": "/suːpə́ːrb/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "뛰어난, 멋진; 최고의"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"I suggest finishing your homework before going out.","ko":"외출하기 전에 너의 숙제를 끝내는 것이 좋겠다."},
-        {"en":"These findings suggest that pride responses are innate.","ko":"이러한 연구 결과는 자부심(을 드러내는) 반응이 선천적이라는 것을 시사한다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"support","ipa":"/səˈpɔːrt/",
-      "meanings":[{"pos":"동","defs":["(의견·정책·사람 등을) 지지[옹호]하다","(금전적으로) 부양하다","받치다"]},{"pos":"명","defs":["지지, 지원","부양","받침"]}],
-      "parts":[{"part":"sup-(sub-)","mean":"아래에서 (under)"},{"part":"port","mean":"옮기다 (carry)"}],
-      "origin":"아래에서 받쳐 옮기다 → 지지하다, 부양하다",
-      "examples":[
-        {"en":"We are kindly asking you to support us by coming to our fundraising concert.","ko":"저희의 기금 마련 콘서트에 참석하셔서 저희를 지지해 주시기를 정중히 부탁드립니다.","source":"모의"},
-        {"en":"My mother worked two jobs to support us.","ko":"어머니께서는 우리를 부양하기 위해 두 가지 일을 하셨다."},
-        {"en":"A wooden beam acts as a support for the ceiling.","ko":"나무 기둥은 천장을 받치는 지지대 역할을 한다."}
-      ]
-    },
-
-    {
-      "en":"suppress","ipa":"/səˈpres/",
-      "meanings":[{"pos":"동","defs":["진압하다","억제하다; (감정 등을) 참다, 억누르다"]}],
-      "parts":[{"part":"sup-(sub-)","mean":"아래로 (under, down)"},{"part":"press","mean":"누르다 (press)"}],
-      "origin":"아래로 누르다 → 억제하다, 진압하다",
-      "synonyms":["put down","restrain"],
-      "derivatives":[
-        {"en":"suppression","pos":"명","defs":["진압, 억제"]}
+      "parts": [
+        {
+          "part": "super",
+          "mean": "= above"
+        },
+        {
+          "part": "b",
+          "mean": "= be"
+        }
       ],
-      "examples":[
-        {"en":"The new government quickly suppressed the uprising.","ko":"새 정부는 반란을 빠르게 진압했다."},
-        {"en":"If you had a bad day at work, you may suppress your feelings at the office and release them when you get home.","ko":"직장에서 안 좋은 하루를 보냈다면, 당신은 사무실에서는 감정을 억누르고 집에 돌아와서 감정을 표출할지도 모른다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"antibiotic","ipa":"/ˌæntibaɪˈɑːtɪk/",
-      "meanings":[{"pos":"명","defs":["항생제, 항생 물질"]}],
-      "parts":[{"part":"anti-","mean":"반대, 대항 (against)"},{"part":"bio","mean":"생명 (life)"},{"part":"-tic","mean":"형용사형 접미사"}],
-      "origin":"생명(세균)에 대항하는 → 항생제",
-      "examples":[
-        {"en":"Antibiotics are used to kill harmful bacteria.","ko":"항생제는 해로운 세균을 죽이기 위해 사용된다."}
-      ]
-    },
-
-    {
-      "en":"antibody","ipa":"/ˈæntibɑːdi/",
-      "meanings":[{"pos":"명","defs":["항체"]}],
-      "parts":[{"part":"anti-","mean":"반대, 대항 (against)"},{"part":"body","mean":"몸, 물질 (body)"}],
-      "origin":"외부 물질에 대항하는 것 → 항체",
-      "phrases":[
-        {"en":"cf. antigen","ko":"항원(체내에 들어가 항체를 형성하게 하는 물질)"}
+      "origin": "(다른 것보다) 위에 있는",
+      "synonyms": [
+        "excellent",
+        "outstanding",
+        "terrific"
       ],
-      "examples":[
-        {"en":"Antibodies help the body fight off infections.","ko":"항체는 몸이 감염과 싸우는 데 도움을 준다."}
+      "examples": [
+        {
+          "en": "The hotel offers superb views of the lake.",
+          "ko": "그 호텔은 호수의 멋진 광경을 보여준다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"Antarctic","ipa":"/ænˈtɑːrktɪk/",
-      "meanings":[{"pos":"형","defs":["남극의"]},{"pos":"명","defs":["(the Antarctic) 남극 (지방)"]}],
-      "parts":[{"part":"ant-(anti-)","mean":"반대 (opposite)"},{"part":"arctic","mean":"북극의 (arctic)"}],
-      "origin":"북극의 반대쪽 → 남극",
-      "antonyms":["Arctic"],
-      "phrases":[
-        {"en":"Antarctica","ko":"남극 대륙"}
+      "en": "superficial",
+      "ipa": "/sùːpərfíʃəl/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 표면의, 외관상",
+            "2 피상적인"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"Mammals are able to live in an incredible variety of habitats, from Arctic tundra to Antarctic pack ice.","ko":"포유류는 북극의 툰드라부터 남극의 빙산에 이르기까지, 놀라울 정도로 다양한 서식지에서 살 수 있다.","source":"모의"}
+      "parts": [
+        {
+          "part": "super",
+          "mean": "= above"
+        },
+        {
+          "part": "fic",
+          "mean": "= face 표면"
+        },
+        {
+          "part": "ial",
+          "mean": "형접"
+        }
+      ],
+      "origin": "표면 위에 있는 → 표면상의",
+      "antonyms": [
+        "profound(심오한)"
+      ],
+      "examples": [
+        {
+          "en": "A superficial resemblance doesn't necessarily mean you are part of the family.",
+          "ko": "외관상의 유사함이 꼭 당신이 가족의 일원이라는 것을 뜻하지는 않는다.(외모가 비슷해야지만 가족인 것은 아니다.)",
+          "source": ""
+        }
+      ],
+      "phrases": [
+        {
+          "en": "a superficial wound",
+          "ko": "외상(外傷)"
+        },
+        {
+          "en": "superficial knowledge",
+          "ko": "피상적인 지식"
+        }
       ]
     },
-
     {
-      "en":"anticipate","ipa":"/ænˈtɪsɪpeɪt/",
-      "meanings":[{"pos":"동","defs":["예상하다, 예측하다","기대하다"]}],
-      "parts":[{"part":"ante-","mean":"미리, 전에 (before)"},{"part":"cip","mean":"잡다 (take)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"미리 잡다 → 예상하다, 기대하다",
-      "synonyms":["expect","predict","foresee","look forward to"],
-      "derivatives":[
-        {"en":"anticipation","pos":"명","defs":["예상","기대"]}
+      "en": "surface",
+      "ipa": "/sə́ːrfis/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *표면*",
+            "2 외관"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 (수면으로) 올라오다",
+            "2 드러나다, 나타나다"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"The management is seeking ways to anticipate customers' needs.","ko":"경영진은 고객의 수요를 예측하는 방법들을 찾고 있다."}
+      "parts": [
+        {
+          "part": "sur",
+          "mean": "= above"
+        },
+        {
+          "part": "face",
+          "mean": "얼굴, 표면"
+        }
+      ],
+      "origin": "얼굴[표면]의 윗면",
+      "synonyms": [
+        "emerge"
+      ],
+      "examples": [
+        {
+          "en": "Mirrors and other smooth, shiny surfaces reflect light.",
+          "ko": "거울이나 다른 매끄럽고 반짝이는 표면은 빛을 반사한다.",
+          "source": "모의"
+        }
       ]
     },
-
     {
-      "en":"antique","ipa":"/ænˈtiːk/",
-      "meanings":[{"pos":"형","defs":["고대의, 옛날의"]},{"pos":"명","defs":["골동품"]}],
-      "parts":[{"part":"ante-","mean":"이전의 (before)"},{"part":"-ique","mean":"형용사형 접미사"}],
-      "origin":"이전 시대의 → 골동품의",
-      "synonyms":["ancient"],
-      "examples":[
-        {"en":"The shop sells antiques like old clocks and furniture.","ko":"그 가게는 오래된 시계나 가구 같은 골동품을 판다."}
+      "en": "sovereign",
+      "ipa": "/sɑ́ːvərin/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 주권이 있는",
+            "2 자주의, 독립의",
+            "3 최고 권력의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "주권자, 군주"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sover",
+          "mean": "= beyond"
+        },
+        {
+          "part": "eign",
+          "mean": "= an:형접"
+        }
+      ],
+      "origin": "초월하는 → 최고 권력의",
+      "synonyms": [
+        "autonomous",
+        "emperor",
+        "monarch"
+      ],
+      "derivatives": [
+        {
+          "en": "sovereignty",
+          "pos": "명",
+          "defs": [
+            "주권"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "A sovereign nation makes its own laws.",
+          "ko": "주권을 가진 나라는 스스로 법을 만든다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"advantage","ipa":"/ədˈvæntɪdʒ/",
-      "meanings":[{"pos":"명","defs":["유리한 조건[입장]","이점, 장점"]}],
-      "parts":[{"part":"ad-(ante-)","mean":"앞에 (before, ahead)"},{"part":"vantage","mean":"유리한 위치 (vantage)"}],
-      "origin":"앞서 유리한 위치에 있는 → 장점",
-      "antonyms":["disadvantage"],
-      "derivatives":[
-        {"en":"advantageous","pos":"형","defs":["유리한, 이익이 되는"]}
+      "en": "uphold",
+      "ipa": "/ʌphóuld/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(법·제도·판결 등을) 지지하다, 옹호하다, 유지하다"
+          ]
+        }
       ],
-      "phrases":[
-        {"en":"take advantage of","ko":"~을 이용하다"}
+      "parts": [
+        {
+          "part": "up",
+          "mean": "위로"
+        },
+        {
+          "part": "hold",
+          "mean": "잡고[받치고] 있다"
+        }
       ],
-      "examples":[
-        {"en":"Animals with long necks, like giraffes, had an advantage in feeding on the leaves of tall trees.","ko":"기린처럼 긴 목을 가진 동물들은 높은 나무의 잎을 먹기에 유리했다.","source":"모의"},
-        {"en":"You should take full advantage of this opportunity.","ko":"너는 이 기회를 최대한 이용해야 한다."}
+      "origin": "hold up 떠받치다",
+      "synonyms": [
+        "support",
+        "sustain"
+      ],
+      "examples": [
+        {
+          "en": "Citizens must uphold the laws of their country.",
+          "ko": "국민들은 자국의 법을 지지해야 한다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"ancestor","ipa":"/ˈænsestər/",
-      "meanings":[{"pos":"명","defs":["조상, 선조"]}],
-      "parts":[{"part":"ante-","mean":"이전의 (before)"},{"part":"ces","mean":"가다 (go)"},{"part":"-tor","mean":"사람 접미사"}],
-      "origin":"이전에 간 사람 → 조상, 선조",
-      "synonyms":["forefather"],
-      "antonyms":["descendant"],
-      "derivatives":[
-        {"en":"ancestral","pos":"형","defs":["조상의","대대로 내려오는"]}
+      "en": "upright",
+      "ipa": "/ʌ́pràit/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 똑바른; 수직으로 세운",
+            "2 (도덕적으로) 올바른, 정직한"
+          ]
+        },
+        {
+          "pos": "부",
+          "defs": [
+            "똑바로, 수직으로"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"The descendants honor their ancestors at a memorial ceremony on the first day of the New Year.","ko":"후손들은 새해 첫날 차례에서 그들의 조상들을 기린다."}
+      "parts": [
+        {
+          "part": "up",
+          "mean": "위로"
+        },
+        {
+          "part": "right",
+          "mean": "똑바른"
+        }
+      ],
+      "origin": "똑바로 선",
+      "synonyms": [
+        "erect"
+      ],
+      "examples": [
+        {
+          "en": "The books were placed upright on the shelf.",
+          "ko": "책들은 선반 위에 똑바로 꽂혀 있었다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"ancient","ipa":"/ˈeɪnʃənt/",
-      "meanings":[{"pos":"형","defs":["고대의, 옛날의"]}],
-      "parts":[{"part":"ante-","mean":"이전의 (before)"},{"part":"-ient","mean":"형용사형 접미사"}],
-      "origin":"이전의 → 고대의, 아주 오래된",
-      "antonyms":["modern"],
-      "examples":[
-        {"en":"The drama is based on ancient Korean history.","ko":"그 드라마는 한국 고대사를 바탕으로 한다."},
-        {"en":"ancient Greek[Egyptian]","ko":"고대 그리스의[이집트의]"}
+      "en": "upset",
+      "ipa": "/ʌpsét/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *기분이 상한, 화난*",
+            "2 (위장 등이) 탈이 난"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 (마음을) 상하게 하다",
+            "2 뒤집어엎다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "up",
+          "mean": "위로"
+        },
+        {
+          "part": "set",
+          "mean": "놓다"
+        }
+      ],
+      "origin": "(아랫 부분이) 위가 되게 놓은\n→ 뒤집힌",
+      "synonyms": [
+        "distress",
+        "turn over"
+      ],
+      "examples": [
+        {
+          "en": "She was upset about her flight being delayed.",
+          "ko": "그녀는 비행기가 지연되는 것에 기분이 상했다.",
+          "source": ""
+        },
+        {
+          "en": "An upset stomach is another common symptom of caffeine overload.",
+          "ko": "복통은 카페인 과다 섭취의 또 다른 흔한 증상이다.",
+          "source": "모의"
+        }
       ]
     },
-
     {
-      "en":"advance","ipa":"/ədˈvæns/",
-      "meanings":[{"pos":"명","defs":["전진","진보"]},{"pos":"동","defs":["전진하다","진보하다; 진보시키다"]}],
-      "parts":[{"part":"ad-(ante-)","mean":"앞으로 (forward, before)"},{"part":"vance","mean":"가다 (go)"}],
-      "origin":"앞으로 가다 → 전진하다, 나아가다",
-      "synonyms":["progress","develop"],
-      "antonyms":["retreat"],
-      "derivatives":[
-        {"en":"advanced","pos":"형","defs":["진보한, 매우 앞선","고급[상급]의, 고등의"]},
-        {"en":"advancement","pos":"명","defs":["진보, 발전","승진"]}
+      "en": "upside",
+      "ipa": "/ʌ́psàid/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "위쪽, 윗면"
+          ]
+        }
       ],
-      "phrases":[
-        {"en":"in advance","ko":"앞서서, 미리"}
+      "parts": [
+        {
+          "part": "up",
+          "mean": "위로"
+        },
+        {
+          "part": "side",
+          "mean": "쪽, 면"
+        }
       ],
-      "examples":[
-        {"en":"IT has advanced dramatically since the 1960s.","ko":"IT 기술은 1960년대부터 급격하게 진보해왔다."},
-        {"en":"Booking is required at least 10 days in advance.","ko":"최소 10일 이전에 예약해야 한다.","source":"모의"},
-        {"en":"an advanced country","ko":"선진국"}
+      "origin": "윗면",
+      "antonyms": [
+        "downside"
+      ],
+      "phrases": [
+        {
+          "en": "upside down",
+          "ko": "거꾸로, 뒤집혀"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't hold the box upside down.",
+          "ko": "그 상자를 거꾸로 들지 마세요.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "submarine",
+      "ipa": "/sʌ́bmərìːn/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "잠수함"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "해저의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sub",
+          "mean": "= under"
+        },
+        {
+          "part": "marine",
+          "mean": "바다의"
+        }
+      ],
+      "origin": "바다 아래로 다니는 것; 바다 아래의",
+      "examples": [
+        {
+          "en": "A submarine floated to the surface of the water.",
+          "ko": "잠수함이 물의 표면으로 떠올랐다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "suffer",
+      "ipa": "/sʌ́fər/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (고통 등을) 겪다",
+            "2 (+ from) …로 괴로워하다, (병 등을) 앓다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "suf",
+          "mean": "= under"
+        },
+        {
+          "part": "fer",
+          "mean": "= bear 견디다"
+        }
+      ],
+      "origin": "(고통) 밑에서 견디다",
+      "synonyms": [
+        "undergo",
+        "go through"
+      ],
+      "derivatives": [
+        {
+          "en": "suffering",
+          "pos": "명",
+          "defs": [
+            "(육체적·정신적) 고통"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Thousands of children are suffering from hunger and disease at this moment.",
+          "ko": "지금 이 순간에도 수천 명의 아이들이 배고픔과 질병으로 고통받고 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "suggest",
+      "ipa": "/səgdʒést/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 제안[제의]하다",
+            "2 *암시[시사]하다*"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sug",
+          "mean": "= under"
+        },
+        {
+          "part": "gest",
+          "mean": "= bring"
+        }
+      ],
+      "origin": "(생각을) 아래로 가져오다 → 암시하다",
+      "synonyms": [
+        "propose",
+        "imply",
+        "indicate"
+      ],
+      "derivatives": [
+        {
+          "en": "suggestion",
+          "pos": "명",
+          "defs": [
+            "1 제안",
+            "2 암시, 시사"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "suggest v-ing",
+          "ko": "…하는 것을 제안하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I suggest finishing your homework before going out.",
+          "ko": "외출하기 전에 너의 숙제를 끝내는 것이 좋겠다.",
+          "source": ""
+        },
+        {
+          "en": "These findings suggest that pride responses are innate.",
+          "ko": "이러한 연구 결과는 자부심(을 드러내는) 반응이 선천적이라는 것을 시사한다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "support",
+      "ipa": "/səpɔ́ːrt/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *(의견·정책·사람 등을) 지지[옹호]하다*",
+            "2 (금전적으로) 부양하다",
+            "3 받치다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *지지, 지원*",
+            "2 부양",
+            "3 받침"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sup",
+          "mean": "= from below"
+        },
+        {
+          "part": "port",
+          "mean": "= carry"
+        }
+      ],
+      "origin": "아래에서 (위로) 나르다 →\n(힘 따위를) 건네주다 →\n(정신적으로) → 지지(하다)\n(경제적으로) → 부양(하다)\n(물리적으로) → 받치다; 받침",
+      "examples": [
+        {
+          "en": "We are kindly asking you to support us by coming to our fundraising concert.",
+          "ko": "저희의 기금 마련 콘서트에 참석하셔서 저희를 지지해 주시기를 정중히 부탁드립니다.",
+          "source": "모의"
+        },
+        {
+          "en": "My mother worked two jobs to support us.",
+          "ko": "어머니께서는 우리를 부양하기 위해 두 가지 일을 하셨다.",
+          "source": ""
+        },
+        {
+          "en": "A wooden beam acts as a support for the ceiling.",
+          "ko": "나무 기둥은 천장을 받치는 지지대 역할을 한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "suppress",
+      "ipa": "/səprés/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 진압하다",
+            "2 *억제하다; (감정 등을) 참다, 억누르다*"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "sup",
+          "mean": "= down"
+        },
+        {
+          "part": "press",
+          "mean": "누르다"
+        }
+      ],
+      "origin": "아래로 누르다",
+      "synonyms": [
+        "put down",
+        "restrain"
+      ],
+      "derivatives": [
+        {
+          "en": "suppression",
+          "pos": "명",
+          "defs": [
+            "진압, 억제"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new government quickly suppressed the uprising.",
+          "ko": "새 정부는 반란을 빠르게 진압했다.",
+          "source": ""
+        },
+        {
+          "en": "If you had a bad day at work, you may suppress your feelings at the office and release them when you get home.",
+          "ko": "직장에서 안 좋은 하루를 보냈다면, 당신은 사무실에서는 감정을 억누르고 집에 돌아와서 감정을 표출할지도 모른다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "antibiotic",
+      "ipa": "/æ̀ntibaiɑ́ːtik/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "항생제, 항생 물질"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anti",
+          "mean": "= against"
+        },
+        {
+          "part": "biotic",
+          "mean": "생물의"
+        }
+      ],
+      "origin": "(미)생물의 번식을 억제하는 →\n미생물의 번식을 억제하는 물질",
+      "examples": [
+        {
+          "en": "Antibiotics are used to kill harmful bacteria.",
+          "ko": "항생제는 해로운 세균을 죽이기 위해 사용된다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "antibody",
+      "ipa": "/ǽntibɑ̀ːdi/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "항체"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anti",
+          "mean": "= against"
+        },
+        {
+          "part": "body",
+          "mean": "몸"
+        }
+      ],
+      "origin": "몸에 들어온 병원균에 대항하는 것",
+      "phrases": [
+        {
+          "en": "cf. antigen",
+          "ko": "항원(체내에 들어가 항체를 형성하게 하는 물질)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Antibodies help the body fight off infections.",
+          "ko": "항체는 몸이 감염과 싸우는 데 도움을 준다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "Antarctic",
+      "ipa": "/æntɑ́ːrktik/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "남극의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "(the Antarctic) 남극 (지방)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ant",
+          "mean": "= opposite"
+        },
+        {
+          "part": "arctic",
+          "mean": "북극, 북극의"
+        }
+      ],
+      "origin": "북극 반대쪽의",
+      "antonyms": [
+        "Arctic(북극의)",
+        "the Arctic(북극 (지방))"
+      ],
+      "phrases": [
+        {
+          "en": "Antarctica",
+          "ko": "남극 대륙"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Mammals are able to live in an incredible variety of habitats, from Arctic tundra to Antarctic pack ice.",
+          "ko": "포유류는 북극의 툰드라부터 남극의 빙산에 이르기까지, 놀라울 정도로 다양한 서식지에서 살 수 있다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "anticipate",
+      "ipa": "/æntísəpèit/",
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *예상하다, 예측하다*",
+            "2 기대하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anti",
+          "mean": "= before"
+        },
+        {
+          "part": "cip",
+          "mean": "= cap:take"
+        },
+        {
+          "part": "ate",
+          "mean": "동접"
+        }
+      ],
+      "origin": "미리 잡아내다[파악하다]",
+      "synonyms": [
+        "expect",
+        "predict",
+        "foresee",
+        "look forward to"
+      ],
+      "derivatives": [
+        {
+          "en": "anticipation",
+          "pos": "명",
+          "defs": [
+            "1 예상",
+            "2 기대"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The management is seeking ways to anticipate customers' needs.",
+          "ko": "경영진은 고객의 수요를 예측하는 방법들을 찾고 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "antique",
+      "ipa": "/æntíːk/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고대의, 옛날의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "골동품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anti",
+          "mean": "= before"
+        },
+        {
+          "part": "ique",
+          "mean": "= ic:형접"
+        }
+      ],
+      "origin": "이전의, 옛날의",
+      "synonyms": [
+        "ancient"
+      ],
+      "examples": [
+        {
+          "en": "The shop sells antiques like old clocks and furniture.",
+          "ko": "그 가게는 오래된 시계나 가구 같은 골동품을 판다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "advantage",
+      "ipa": "/ədvǽntidʒ/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 유리한 조건[입장]",
+            "2 *이점, 장점*"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "adv",
+          "mean": "= ab:from"
+        },
+        {
+          "part": "ant",
+          "mean": "= before"
+        },
+        {
+          "part": "age",
+          "mean": "명접"
+        }
+      ],
+      "origin": "(남보다) 앞서는 것 → 유리함",
+      "antonyms": [
+        "disadvantage"
+      ],
+      "derivatives": [
+        {
+          "en": "advantageous",
+          "pos": "형",
+          "defs": [
+            "유리한, 이익이 되는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "take advantage of",
+          "ko": "…을 이용하다 (= make use of, utilize)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Animals with long necks, like giraffes, had an advantage in feeding on the leaves of tall trees.",
+          "ko": "기린처럼 긴 목을 가진 동물들은 높은 나무의 잎을 먹기에 유리했다.",
+          "source": "모의"
+        },
+        {
+          "en": "You should take full advantage of this opportunity.",
+          "ko": "너는 이 기회를 최대한 이용해야 한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "ancestor",
+      "ipa": "/ǽnsèstər/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "조상, 선조"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "an",
+          "mean": "= before"
+        },
+        {
+          "part": "cest",
+          "mean": "= cede:go"
+        },
+        {
+          "part": "or",
+          "mean": "명접'사람'"
+        }
+      ],
+      "origin": "앞서간 사람 → 조상",
+      "synonyms": [
+        "forefather"
+      ],
+      "antonyms": [
+        "descendant"
+      ],
+      "derivatives": [
+        {
+          "en": "ancestral",
+          "pos": "형",
+          "defs": [
+            "1 조상의",
+            "2 대대로 내려오는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The descendants honor their ancestors at a memorial ceremony on the first day of the New Year.",
+          "ko": "후손들은 새해 첫날 차례에서 그들의 조상들을 기린다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "ancient",
+      "ipa": "/éinʃənt/",
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "고대의, 옛날의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "anci",
+          "mean": "= before"
+        },
+        {
+          "part": "ent",
+          "mean": "형접"
+        }
+      ],
+      "origin": "이전의",
+      "antonyms": [
+        "modern"
+      ],
+      "examples": [
+        {
+          "en": "The drama is based on ancient Korean history.",
+          "ko": "그 드라마는 한국 고대사를 바탕으로 한다.",
+          "source": ""
+        },
+        {
+          "en": "ancient Greek[Egyptian]",
+          "ko": "고대 그리스의[이집트의]",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "advance",
+      "ipa": "/ədvǽns/",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 전진",
+            "2 *진보*"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 전진하다",
+            "2 진보하다; 진보시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "adv",
+          "mean": "= ab:from"
+        },
+        {
+          "part": "ance",
+          "mean": "= before"
+        }
+      ],
+      "origin": "…에서 앞으로 나아감",
+      "synonyms": [
+        "progress",
+        "develop"
+      ],
+      "antonyms": [
+        "retreat"
+      ],
+      "derivatives": [
+        {
+          "en": "advanced",
+          "pos": "형",
+          "defs": [
+            "1 진보한, 매우 앞선",
+            "2 고급[상급]의, 고등의"
+          ]
+        },
+        {
+          "en": "advancement",
+          "pos": "명",
+          "defs": [
+            "1 진보, 발전",
+            "2 승진"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "in advance",
+          "ko": "앞서서, 미리 (= beforehand)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "IT has advanced dramatically since the 1960s.",
+          "ko": "IT 기술은 1960년대부터 급격하게 진보해왔다.",
+          "source": ""
+        },
+        {
+          "en": "Booking is required at least 10 days in advance.",
+          "ko": "최소 10일 이전에 예약해야 한다.",
+          "source": "모의"
+        },
+        {
+          "en": "an advanced country (= a developed country)",
+          "ko": "선진국",
+          "source": ""
+        }
       ]
     }
   ]
