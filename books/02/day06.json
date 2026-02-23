@@ -3,7 +3,9 @@
   "words": [
     {
       "en": "superior",
-      "ipa": "/suːpíəriər/",
+      "ipa": [
+        "[suːpíəriər]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -57,7 +59,7 @@
       ],
       "examples": [
         {
-          "en": "They are not interested in trying to appear or feel superior to others.",
+          "en": "They are not interested in trying to appear or feel **superior** to others.",
           "ko": "그들은 다른 사람보다 우월해 보이거나 우월하다고 느끼는데 관심이 없다.",
           "source": "모의"
         }
@@ -65,7 +67,9 @@
     },
     {
       "en": "superb",
-      "ipa": "/suːpə́ːrb/",
+      "ipa": [
+        "[suːpə́ːrb]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -92,7 +96,7 @@
       ],
       "examples": [
         {
-          "en": "The hotel offers superb views of the lake.",
+          "en": "The hotel offers **superb** views of the lake.",
           "ko": "그 호텔은 호수의 멋진 광경을 보여준다.",
           "source": ""
         }
@@ -100,7 +104,9 @@
     },
     {
       "en": "superficial",
-      "ipa": "/sùːpərfíʃəl/",
+      "ipa": [
+        "[sùːpərfíʃəl]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -130,7 +136,7 @@
       ],
       "examples": [
         {
-          "en": "A superficial resemblance doesn't necessarily mean you are part of the family.",
+          "en": "A **superficial** resemblance doesn't necessarily mean you are part of the family.",
           "ko": "외관상의 유사함이 꼭 당신이 가족의 일원이라는 것을 뜻하지는 않는다.(외모가 비슷해야지만 가족인 것은 아니다.)",
           "source": ""
         }
@@ -148,7 +154,9 @@
     },
     {
       "en": "surface",
-      "ipa": "/sə́ːrfis/",
+      "ipa": [
+        "[sə́ːrfis]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -181,7 +189,7 @@
       ],
       "examples": [
         {
-          "en": "Mirrors and other smooth, shiny surfaces reflect light.",
+          "en": "Mirrors and other smooth, shiny **surfaces** reflect light.",
           "ko": "거울이나 다른 매끄럽고 반짝이는 표면은 빛을 반사한다.",
           "source": "모의"
         }
@@ -189,7 +197,9 @@
     },
     {
       "en": "sovereign",
-      "ipa": "/sɑ́ːvərin/",
+      "ipa": [
+        "[sɑ́ːvərin]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -233,7 +243,7 @@
       ],
       "examples": [
         {
-          "en": "A sovereign nation makes its own laws.",
+          "en": "A **sovereign** nation makes its own laws.",
           "ko": "주권을 가진 나라는 스스로 법을 만든다.",
           "source": ""
         }
@@ -241,7 +251,9 @@
     },
     {
       "en": "uphold",
-      "ipa": "/ʌphóuld/",
+      "ipa": [
+        "[ʌphóuld]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -267,7 +279,7 @@
       ],
       "examples": [
         {
-          "en": "Citizens must uphold the laws of their country.",
+          "en": "Citizens must **uphold** the laws of their country.",
           "ko": "국민들은 자국의 법을 지지해야 한다.",
           "source": ""
         }
@@ -275,7 +287,9 @@
     },
     {
       "en": "upright",
-      "ipa": "/ʌ́pràit/",
+      "ipa": [
+        "[ʌ́pràit]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -307,7 +321,7 @@
       ],
       "examples": [
         {
-          "en": "The books were placed upright on the shelf.",
+          "en": "The books were placed **upright** on the shelf.",
           "ko": "책들은 선반 위에 똑바로 꽂혀 있었다.",
           "source": ""
         }
@@ -315,7 +329,9 @@
     },
     {
       "en": "upset",
-      "ipa": "/ʌpsét/",
+      "ipa": [
+        "[ʌpsét]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -349,12 +365,12 @@
       ],
       "examples": [
         {
-          "en": "She was upset about her flight being delayed.",
+          "en": "She was **upset** about her flight being delayed.",
           "ko": "그녀는 비행기가 지연되는 것에 기분이 상했다.",
           "source": ""
         },
         {
-          "en": "An upset stomach is another common symptom of caffeine overload.",
+          "en": "An **upset** stomach is another common symptom of caffeine overload.",
           "ko": "복통은 카페인 과다 섭취의 또 다른 흔한 증상이다.",
           "source": "모의"
         }
@@ -362,7 +378,9 @@
     },
     {
       "en": "upside",
-      "ipa": "/ʌ́psàid/",
+      "ipa": [
+        "[ʌ́psàid]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -393,7 +411,7 @@
       ],
       "examples": [
         {
-          "en": "Don't hold the box upside down.",
+          "en": "Don't hold the box **upside down**.",
           "ko": "그 상자를 거꾸로 들지 마세요.",
           "source": ""
         }
@@ -401,7 +419,9 @@
     },
     {
       "en": "submarine",
-      "ipa": "/sʌ́bmərìːn/",
+      "ipa": [
+        "[sʌ́bmərìːn]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -429,7 +449,7 @@
       "origin": "바다 아래로 다니는 것; 바다 아래의",
       "examples": [
         {
-          "en": "A submarine floated to the surface of the water.",
+          "en": "A **submarine** floated to the surface of the water.",
           "ko": "잠수함이 물의 표면으로 떠올랐다.",
           "source": ""
         }
@@ -437,7 +457,9 @@
     },
     {
       "en": "suffer",
-      "ipa": "/sʌ́fər/",
+      "ipa": [
+        "[sʌ́fər]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -473,7 +495,7 @@
       ],
       "examples": [
         {
-          "en": "Thousands of children are suffering from hunger and disease at this moment.",
+          "en": "Thousands of children are **suffering from** hunger and disease at this moment.",
           "ko": "지금 이 순간에도 수천 명의 아이들이 배고픔과 질병으로 고통받고 있다.",
           "source": ""
         }
@@ -481,7 +503,9 @@
     },
     {
       "en": "suggest",
-      "ipa": "/səgdʒést/",
+      "ipa": [
+        "[səgdʒést]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -525,12 +549,12 @@
       ],
       "examples": [
         {
-          "en": "I suggest finishing your homework before going out.",
+          "en": "I **suggest finishing** your homework before going out.",
           "ko": "외출하기 전에 너의 숙제를 끝내는 것이 좋겠다.",
           "source": ""
         },
         {
-          "en": "These findings suggest that pride responses are innate.",
+          "en": "These findings **suggest** that pride responses are innate.",
           "ko": "이러한 연구 결과는 자부심(을 드러내는) 반응이 선천적이라는 것을 시사한다.",
           "source": "모의"
         }
@@ -538,7 +562,9 @@
     },
     {
       "en": "support",
-      "ipa": "/səpɔ́ːrt/",
+      "ipa": [
+        "[səpɔ́ːrt]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -567,20 +593,20 @@
           "mean": "= carry"
         }
       ],
-      "origin": "아래에서 (위로) 나르다 →\n(힘 따위를) 건네주다 →\n(정신적으로) → 지지(하다)\n(경제적으로) → 부양(하다)\n(물리적으로) → 받치다; 받침",
+      "origin": "아래에서 (위로) 나르다 →\n(힘 따위를) 건네주다 →\n├ (정신적으로) → 지지(하다)\n├ (경제적으로) → 부양(하다)\n└ (물리적으로) → 받치다; 받침",
       "examples": [
         {
-          "en": "We are kindly asking you to support us by coming to our fundraising concert.",
+          "en": "We are kindly asking you to **support** us by coming to our fundraising concert.",
           "ko": "저희의 기금 마련 콘서트에 참석하셔서 저희를 지지해 주시기를 정중히 부탁드립니다.",
           "source": "모의"
         },
         {
-          "en": "My mother worked two jobs to support us.",
+          "en": "My mother worked two jobs to **support** us.",
           "ko": "어머니께서는 우리를 부양하기 위해 두 가지 일을 하셨다.",
           "source": ""
         },
         {
-          "en": "A wooden beam acts as a support for the ceiling.",
+          "en": "A wooden beam acts as a **support** for the ceiling.",
           "ko": "나무 기둥은 천장을 받치는 지지대 역할을 한다.",
           "source": ""
         }
@@ -588,7 +614,9 @@
     },
     {
       "en": "suppress",
-      "ipa": "/səprés/",
+      "ipa": [
+        "[səprés]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -624,12 +652,12 @@
       ],
       "examples": [
         {
-          "en": "The new government quickly suppressed the uprising.",
+          "en": "The new government quickly **suppressed** the uprising.",
           "ko": "새 정부는 반란을 빠르게 진압했다.",
           "source": ""
         },
         {
-          "en": "If you had a bad day at work, you may suppress your feelings at the office and release them when you get home.",
+          "en": "If you had a bad day at work, you may **suppress** your feelings at the office and release them when you get home.",
           "ko": "직장에서 안 좋은 하루를 보냈다면, 당신은 사무실에서는 감정을 억누르고 집에 돌아와서 감정을 표출할지도 모른다.",
           "source": "모의"
         }
@@ -637,7 +665,9 @@
     },
     {
       "en": "antibiotic",
-      "ipa": "/æ̀ntibaiɑ́ːtik/",
+      "ipa": [
+        "[æ̀ntibaiɑ́ːtik]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -659,7 +689,7 @@
       "origin": "(미)생물의 번식을 억제하는 →\n미생물의 번식을 억제하는 물질",
       "examples": [
         {
-          "en": "Antibiotics are used to kill harmful bacteria.",
+          "en": "**Antibiotics** are used to kill harmful bacteria.",
           "ko": "항생제는 해로운 세균을 죽이기 위해 사용된다.",
           "source": ""
         }
@@ -667,7 +697,9 @@
     },
     {
       "en": "antibody",
-      "ipa": "/ǽntibɑ̀ːdi/",
+      "ipa": [
+        "[ǽntibɑ̀ːdi]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -695,7 +727,7 @@
       ],
       "examples": [
         {
-          "en": "Antibodies help the body fight off infections.",
+          "en": "**Antibodies** help the body fight off infections.",
           "ko": "항체는 몸이 감염과 싸우는 데 도움을 준다.",
           "source": ""
         }
@@ -703,7 +735,9 @@
     },
     {
       "en": "Antarctic",
-      "ipa": "/æntɑ́ːrktik/",
+      "ipa": [
+        "[æntɑ́ːrktik]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -730,8 +764,7 @@
       ],
       "origin": "북극 반대쪽의",
       "antonyms": [
-        "Arctic(북극의)",
-        "the Arctic(북극 (지방))"
+        "Arctic(북극의)"
       ],
       "phrases": [
         {
@@ -741,7 +774,7 @@
       ],
       "examples": [
         {
-          "en": "Mammals are able to live in an incredible variety of habitats, from Arctic tundra to Antarctic pack ice.",
+          "en": "Mammals are able to live in an incredible variety of habitats, from Arctic tundra to **Antarctic** pack ice.",
           "ko": "포유류는 북극의 툰드라부터 남극의 빙산에 이르기까지, 놀라울 정도로 다양한 서식지에서 살 수 있다.",
           "source": "모의"
         }
@@ -749,7 +782,9 @@
     },
     {
       "en": "anticipate",
-      "ipa": "/æntísəpèit/",
+      "ipa": [
+        "[æntísəpèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -777,8 +812,7 @@
       "synonyms": [
         "expect",
         "predict",
-        "foresee",
-        "look forward to"
+        "foresee"
       ],
       "derivatives": [
         {
@@ -792,7 +826,7 @@
       ],
       "examples": [
         {
-          "en": "The management is seeking ways to anticipate customers' needs.",
+          "en": "The management is seeking ways to **anticipate** customers' needs.",
           "ko": "경영진은 고객의 수요를 예측하는 방법들을 찾고 있다.",
           "source": ""
         }
@@ -800,7 +834,9 @@
     },
     {
       "en": "antique",
-      "ipa": "/æntíːk/",
+      "ipa": [
+        "[æntíːk]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -831,7 +867,7 @@
       ],
       "examples": [
         {
-          "en": "The shop sells antiques like old clocks and furniture.",
+          "en": "The shop sells **antiques** like old clocks and furniture.",
           "ko": "그 가게는 오래된 시계나 가구 같은 골동품을 판다.",
           "source": ""
         }
@@ -839,7 +875,9 @@
     },
     {
       "en": "advantage",
-      "ipa": "/ədvǽntidʒ/",
+      "ipa": [
+        "[ədvǽntidʒ]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -884,12 +922,12 @@
       ],
       "examples": [
         {
-          "en": "Animals with long necks, like giraffes, had an advantage in feeding on the leaves of tall trees.",
+          "en": "Animals with long necks, like giraffes, had an **advantage** in feeding on the leaves of tall trees.",
           "ko": "기린처럼 긴 목을 가진 동물들은 높은 나무의 잎을 먹기에 유리했다.",
           "source": "모의"
         },
         {
-          "en": "You should take full advantage of this opportunity.",
+          "en": "You should **take** full **advantage of** this opportunity.",
           "ko": "너는 이 기회를 최대한 이용해야 한다.",
           "source": ""
         }
@@ -897,7 +935,9 @@
     },
     {
       "en": "ancestor",
-      "ipa": "/ǽnsèstər/",
+      "ipa": [
+        "[ǽnsèstər]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -939,7 +979,7 @@
       ],
       "examples": [
         {
-          "en": "The descendants honor their ancestors at a memorial ceremony on the first day of the New Year.",
+          "en": "The descendants honor their **ancestors** at a memorial ceremony on the first day of the New Year.",
           "ko": "후손들은 새해 첫날 차례에서 그들의 조상들을 기린다.",
           "source": ""
         }
@@ -947,7 +987,9 @@
     },
     {
       "en": "ancient",
-      "ipa": "/éinʃənt/",
+      "ipa": [
+        "[éinʃənt]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -972,20 +1014,18 @@
       ],
       "examples": [
         {
-          "en": "The drama is based on ancient Korean history.",
+          "en": "The drama is based on **ancient** Korean history.",
           "ko": "그 드라마는 한국 고대사를 바탕으로 한다.",
           "source": ""
-        },
-        {
-          "en": "ancient Greek[Egyptian]",
-          "ko": "고대 그리스의[이집트의]",
-          "source": ""
         }
-      ]
+      ],
+      "phrases": []
     },
     {
       "en": "advance",
-      "ipa": "/ədvǽns/",
+      "ipa": [
+        "[ədvǽns]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -1014,8 +1054,7 @@
       ],
       "origin": "…에서 앞으로 나아감",
       "synonyms": [
-        "progress",
-        "develop"
+        "progress"
       ],
       "antonyms": [
         "retreat"
@@ -1046,17 +1085,17 @@
       ],
       "examples": [
         {
-          "en": "IT has advanced dramatically since the 1960s.",
+          "en": "IT has **advanced** dramatically since the 1960s.",
           "ko": "IT 기술은 1960년대부터 급격하게 진보해왔다.",
           "source": ""
         },
         {
-          "en": "Booking is required at least 10 days in advance.",
+          "en": "Booking is required at least 10 days **in advance**.",
           "ko": "최소 10일 이전에 예약해야 한다.",
           "source": "모의"
         },
         {
-          "en": "an advanced country (= a developed country)",
+          "en": "an **advanced** country (= a developed country)",
           "ko": "선진국",
           "source": ""
         }

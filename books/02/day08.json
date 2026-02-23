@@ -2,352 +2,1231 @@
   "title": "en- ~이 되게 하다,~안에/ per- 완전히,두루/ a- ~에,'강조','완료','부정'",
   "words": [
     {
-      "en":"enable","ipa":"/ɪˈneɪbl/",
-      "meanings":[{"pos":"동","defs":["~할 수 있게 하다, 가능하게 하다"]}],
-      "parts":[{"part":"en-","mean":"~하게 하다 (make)"},{"part":"able","mean":"할 수 있는 (able)"}],
-      "origin":"할 수 있게 하다 → 가능하게 하다",
-      "phrases":[
-        {"en":"enable A to-v","ko":"(주로 사물이 주어로 쓰여) A가 ~할 수 있게 하다"}
+      "en": "enable",
+      "ipa": [
+        "[inéibəl]"
       ],
-      "examples":[
-        {"en":"Muscles in our faces enable us to move them into lots of different positions.","ko":"우리 얼굴의 근육은 얼굴을 다양한 위치로 움직일 수 있게 해준다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"enforce","ipa":"/ɪnˈfɔːrs/",
-      "meanings":[{"pos":"동","defs":["(법률 등을) 시행[집행]하다","강요하다"]}],
-      "parts":[{"part":"en-","mean":"~하게 하다 (make)"},{"part":"force","mean":"힘 (force)"}],
-      "origin":"힘을 가하게 하다 → 집행하다, 강요하다",
-      "synonyms":["force","compel"],
-      "derivatives":[
-        {"en":"enforcement","pos":"명","defs":["(법률 등의) 시행, 집행","강제"]}
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "…할 수 있게 하다, 가능하게 하다"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"The police often have to use force to enforce the law.","ko":"경찰은 법을 집행하기 위해 종종 무력을 사용해야 한다."}
-      ]
-    },
-
-    {
-      "en":"enhance","ipa":"/ɪnˈhæns/",
-      "meanings":[{"pos":"동","defs":["(질·가치를) 향상시키다"]}],
-      "parts":[{"part":"en-","mean":"~하게 하다 (make)"},{"part":"hance","mean":"높은 (high)"}],
-      "origin":"높게 만들다 → 향상시키다",
-      "synonyms":["improve"],
-      "derivatives":[
-        {"en":"enhancement","pos":"명","defs":["향상"]}
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= make"
+        },
+        {
+          "part": "able",
+          "mean": "…할 수 있는"
+        }
       ],
-      "examples":[
-        {"en":"Adding some pepper would really enhance the flavor of this soup.","ko":"후추를 조금 넣으면 수프의 풍미가 훨씬 좋아질 것이다."},
-        {"en":"After the recent enhancement, the app runs faster.","ko":"최근의 (기능) 향상 이후, 앱이 더 빠르게 작동한다."}
-      ]
-    },
-
-    {
-      "en":"enrich","ipa":"/ɪnˈrɪtʃ/",
-      "meanings":[{"pos":"동","defs":["(질·가치·빛깔·맛 등을) 높이다, 풍부하게 하다","부유하게 하다"]}],
-      "parts":[{"part":"en-","mean":"~하게 하다 (make)"},{"part":"rich","mean":"풍부한 (rich)"}],
-      "origin":"풍부하게 만들다 → 풍부하게 하다",
-      "examples":[
-        {"en":"We believe that allowing people to live with their pets enriches their lives.","ko":"우리는 사람들이 반려동물과 함께 살 수 있게 하는 것이 그들의 삶을 풍요롭게 만든다고 믿는다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"enlarge","ipa":"/ɪnˈlɑːrdʒ/",
-      "meanings":[{"pos":"동","defs":["크게 하다, 확장하다; 확장되다"]}],
-      "parts":[{"part":"en-","mean":"~하게 하다 (make)"},{"part":"large","mean":"큰 (large)"}],
-      "origin":"크게 만들다 → 확장하다",
-      "synonyms":["broaden","expand"],
-      "antonyms":["diminish"],
-      "examples":[
-        {"en":"You can click on the image to enlarge it.","ko":"이미지를 확대하려면 클릭하세요."},
-        {"en":"The company plans to enlarge its headquarters next year.","ko":"그 회사는 내년에 본사를 확장할 계획이다."}
-      ]
-    },
-
-    {
-      "en":"entitle","ipa":"/ɪnˈtaɪtl/",
-      "meanings":[{"pos":"동","defs":["(주로 수동태로) 자격[권리]을 주다","제목[명칭]을 붙이다"]}],
-      "parts":[{"part":"en-","mean":"~하게 하다 (make)"},{"part":"title","mean":"직함, 제목 (title)"}],
-      "origin":"직함을 부여하다 → 권리를 주다, 제목을 붙이다",
-      "examples":[
-        {"en":"All customers are entitled to receive a full refund within 2 months.","ko":"모든 고객은 2개월 이내에 전액 환불을 받을 권리가 있다.","source":"모의"},
-        {"en":"He wrote a brief introduction to economics entitled The Economic Organization.","ko":"그는 <경제 조직>이라는 제목의 짧은 경제학 입문서를 썼다.","source":"수능"}
-      ]
-    },
-
-    {
-      "en":"ensure","ipa":"/ɪnˈʃʊr/",
-      "meanings":[{"pos":"동","defs":["반드시 ~하게 하다","보장하다"]}],
-      "parts":[{"part":"en-","mean":"~하게 하다 (make)"},{"part":"sure","mean":"확실한 (sure)"}],
-      "origin":"확실하게 하다 → 보장하다",
-      "synonyms":["make sure"],
-      "examples":[
-        {"en":"Acquiring a range of skills for a project does not ensure success.","ko":"프로젝트를 위해 다양한 기술을 습득하는 것이 성공을 보장하지는 않는다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"enclose","ipa":"/ɪnˈkloʊz/",
-      "meanings":[{"pos":"동","defs":["(물건·장소를) 둘러싸다","동봉하다"]}],
-      "parts":[{"part":"en-","mean":"안에 (in)"},{"part":"close","mean":"닫다 (close)"}],
-      "origin":"안에 넣고 닫다 → 에워싸다, 동봉하다",
-      "synonyms":["surround","include"],
-      "derivatives":[
-        {"en":"enclosure","pos":"명","defs":["울타리를 친 장소","포위, 둘러쌈","동봉된 것"]}
+      "origin": "…할 수 있게 만들다",
+      "phrases": [
+        {
+          "en": "enable A to-v",
+          "ko": "(주로 사물이 주어로 쓰여) A가 …할 수 있게 하다"
+        }
       ],
-      "examples":[
-        {"en":"The documents you requested are enclosed.","ko":"귀하께서 요청하신 자료가 동봉되어 있습니다."}
+      "examples": [
+        {
+          "en": "Muscles in our faces **enable** us **to move** them into lots of different positions.",
+          "ko": "우리 얼굴의 근육은 얼굴을 다양한 위치로 움직일 수 있게 해준다.",
+          "source": "모의"
+        }
       ]
     },
-
     {
-      "en":"encounter","ipa":"/ɪnˈkaʊntər/",
-      "meanings":[{"pos":"동","defs":["(문제·일에) 직면하다","우연히 만나다"]},{"pos":"명","defs":["(주로 + with) (예상 밖의) 만남"]}],
-      "parts":[{"part":"en-","mean":"안에 (in)"},{"part":"counter","mean":"맞서다 (against)"}],
-      "origin":"안에서 맞닥뜨리다 → 마주치다",
-      "synonyms":["face","come across"],
-      "examples":[
-        {"en":"Consider the feeling of encountering a diary that you wrote many years ago.","ko":"당신이 수년 전에 썼던 일기를 다시 마주했을 때의 기분을 떠올려 보세요.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"engage","ipa":"/ɪnˈɡeɪdʒ/",
-      "meanings":[{"pos":"동","defs":["(+ in/with) 참여[관여]하다, 종사하다","(주의를) 끌다, 사로잡다","약속하다","약혼하다"]}],
-      "parts":[{"part":"en-","mean":"안에 (in)"},{"part":"gage","mean":"서약, 담보 (pledge)"}],
-      "origin":"서약 안에 들다 → 관여하다, 약속하다",
-      "antonyms":["disengage"],
-      "derivatives":[
-        {"en":"engaged","pos":"형","defs":["(+ in/on) ~에 열중인, 바쁜","(+ to) 약혼한"]},
-        {"en":"engaging","pos":"형","defs":["관심을 끄는, 매력적인"]},
-        {"en":"engagement","pos":"명","defs":["약속; 약혼","참여"]}
+      "en": "enforce",
+      "ipa": [
+        "[infɔ́ːrs]"
       ],
-      "phrases":[
-        {"en":"be engaged in","ko":"1 ~에 관련되다, 종사하다 2 ~하느라 바쁘다"}
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (법률 등을) 시행[집행]하다",
+            "2 강요하다"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"His daughter loves to engage in conversation with new people.","ko":"그의 딸은 새로운 사람들과의 대화에 참여하는 것을 매우 좋아한다."},
-        {"en":"People who are engaged in service to others, such as volunteering, tend to be happier.","ko":"봉사활동처럼 사람들을 대하는 서비스업에 종사하는 사람은 더 행복한 경향이 있다.","source":"모의"},
-        {"en":"Daniel and Ava are engaged.","ko":"Daniel과 Ava는 약혼한 사이다."},
-        {"en":"I missed the party because I had an important engagement.","ko":"나는 중요한 약속이 있어서 그 파티에 가지 못했다."}
-      ]
-    },
-
-    {
-      "en":"embrace","ipa":"/ɪmˈbreɪs/",
-      "meanings":[{"pos":"동","defs":["껴안다","수락하다, 받아들이다"]},{"pos":"명","defs":["포옹","수락, 받아들임"]}],
-      "parts":[{"part":"em-(en-)","mean":"안에 (in)"},{"part":"brace","mean":"두 팔 (arms)"}],
-      "origin":"두 팔 안에 넣다 → 껴안다, 받아들이다",
-      "synonyms":["hug","accept","adopt"],
-      "examples":[
-        {"en":"He embraced me like I was a brother.","ko":"그는 내가 남동생인 것처럼 나를 안아주었다."},
-        {"en":"People with a growth mindset embrace challenges and try to learn from their mistakes.","ko":"성장형 마음가짐을 가진 사람들은 도전을 받아들이며 실수로부터 배우려고 노력한다.","source":"교과서"}
-      ]
-    },
-
-    {
-      "en":"perfect","ipa":"/ˈpɜːrfɪkt/ · /pərˈfekt/",
-      "meanings":[{"pos":"형","defs":["완전(무결)한, 완벽한"]},{"pos":"동","defs":["완전하게 하다, 완성하다"]}],
-      "parts":[{"part":"per-","mean":"완전히 (thoroughly)"},{"part":"fect","mean":"만들다 (make, do)"}],
-      "origin":"완전히 만들어진 → 완벽한",
-      "antonyms":["imperfect"],
-      "derivatives":[
-        {"en":"perfectly","pos":"부","defs":["나무랄 데 없이, 완벽하게, 완전히"]},
-        {"en":"perfection","pos":"명","defs":["완벽(함)"]}
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= make"
+        },
+        {
+          "part": "force",
+          "mean": "힘"
+        }
       ],
-      "examples":[
-        {"en":"Though I'm far from perfect, I always aim for perfection.","ko":"저는 결코 완벽하지 않지만, 항상 완벽함을 목표로 삼아요."},
-        {"en":"They still need more data to perfect their decision.","ko":"그들은 결정을 마무리하기 위해 아직 더 많은 데이터가 필요하다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"permanent","ipa":"/ˈpɜːrmənənt/",
-      "meanings":[{"pos":"형","defs":["영구적인, 불변의","오랫동안 지속되는; 정규(직)의"]}],
-      "parts":[{"part":"per-","mean":"완전히 (throughout)"},{"part":"man","mean":"머무르다 (stay, remain)"},{"part":"-ent","mean":"형용사형 접미사"}],
-      "origin":"끝까지 머무르는 → 영구적인",
-      "synonyms":["everlasting"],
-      "antonyms":["temporary"],
-      "derivatives":[
-        {"en":"permanently","pos":"부","defs":["영구적으로"]}
+      "origin": "힘을 써서 (강제로) …하게 하다",
+      "synonyms": [
+        "force",
+        "compel"
       ],
-      "examples":[
-        {"en":"a permanent tooth","ko":"영구치"},
-        {"en":"I'm looking for a permanent job, not a temporary one.","ko":"나는 임시직이 아닌 정규직을 찾고 있다."}
-      ]
-    },
-
-    {
-      "en":"persist","ipa":"/pərˈsɪst/",
-      "meanings":[{"pos":"동","defs":["(+ in/with) (어려움·반대에도 불구하고) 계속 ~하다, 고집하다","(주로 좋지 않은 것이) 지속하다, 존속하다"]}],
-      "parts":[{"part":"per-","mean":"완전히 (thoroughly)"},{"part":"sist","mean":"서다 (stand)"}],
-      "origin":"끝까지 서 있다 → 고집하다, 지속되다",
-      "synonyms":["continue"],
-      "derivatives":[
-        {"en":"persistent","pos":"형","defs":["지속적인","고집하는, 끈질긴"]},
-        {"en":"persistence","pos":"명","defs":["고집","영속, 지속성"]}
+      "derivatives": [
+        {
+          "en": "enforcement",
+          "pos": "명",
+          "defs": [
+            "1 (법률 등의) 시행, 집행",
+            "2 강제"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"He persisted in his ways till the day he died.","ko":"그는 죽는 날까지 자신의 방식을 고집했다."},
-        {"en":"You have to see a doctor if the symptoms persist.","ko":"증상이 지속된다면 병원에 가야 합니다."}
+      "examples": [
+        {
+          "en": "The police often have to use force to **enforce** the law.",
+          "ko": "경찰은 법을 집행하기 위해 종종 무력을 사용해야 한다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"persevere","ipa":"/ˌpɜːrsəˈvɪr/",
-      "meanings":[{"pos":"동","defs":["(끈질기게) 노력하다, 인내하다, 견디다"]}],
-      "parts":[{"part":"per-","mean":"완전히 (thoroughly)"},{"part":"severe","mean":"엄격한, 심한 (strict, severe)"}],
-      "origin":"끝까지 엄격히 버티다 → 인내하다",
-      "synonyms":["persist"],
-      "derivatives":[
-        {"en":"perseverance","pos":"명","defs":["끈기, 인내(심)"]}
+      "en": "enhance",
+      "ipa": [
+        "[inhǽns]"
       ],
-      "examples":[
-        {"en":"To succeed, you must persevere until the end.","ko":"성공하기 위해서는 마지막 순간까지 노력해야 한다."}
-      ]
-    },
-
-    {
-      "en":"persuade","ipa":"/pərˈsweɪd/",
-      "meanings":[{"pos":"동","defs":["설득하다, 권해서 ~하게 하다","믿게 하다, 납득시키다"]}],
-      "parts":[{"part":"per-","mean":"완전히 (thoroughly)"},{"part":"suade","mean":"권하다 (urge, advise)"}],
-      "origin":"완전히 권하다 → 설득하다",
-      "synonyms":["convince"],
-      "derivatives":[
-        {"en":"persuasion","pos":"명","defs":["설득","확신, 신념"]},
-        {"en":"persuasive","pos":"형","defs":["설득력이 있는"]}
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(질·가치를) 향상시키다"
+          ]
+        }
       ],
-      "phrases":[
-        {"en":"persuade A to-v","ko":"A가 ~하도록 설득하다"}
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= make"
+        },
+        {
+          "part": "hance",
+          "mean": "= high"
+        }
       ],
-      "examples":[
-        {"en":"He persuaded his parents to let him study abroad.","ko":"그는 부모님을 설득해 유학을 허락받았다."},
-        {"en":"How can I persuade you that I am innocent?","ko":"어떻게 하면 너에게 내가 결백하다는 것을 납득시킬 수 있을까?"}
-      ]
-    },
-
-    {
-      "en":"perspective","ipa":"/pərˈspektɪv/",
-      "meanings":[{"pos":"명","defs":["(+ on) 관점, 시각, 견해","원근법"]}],
-      "parts":[{"part":"per-","mean":"통하여 (through)"},{"part":"spect","mean":"보다 (look)"},{"part":"-ive","mean":"명사/형용사형 접미사"}],
-      "origin":"통하여 보는 것 → 관점, 원근법",
-      "synonyms":["viewpoint on"],
-      "examples":[
-        {"en":"What's your perspective on that issue?","ko":"그 문제에 대한 당신의 견해는 무엇입니까?"}
-      ]
-    },
-
-    {
-      "en":"aboard","ipa":"/əˈbɔːrd/",
-      "meanings":[{"pos":"동","defs":["(배·열차·항공기 등에) 탑승[승선]하여"]},{"pos":"전","defs":["(배·열차·항공기 등의) 안에서[으로]"]}],
-      "parts":[{"part":"a-","mean":"~위에 (on)"},{"part":"board","mean":"판, 갑판 (board)"}],
-      "origin":"갑판 위에 → 배(비행기) 위에",
-      "synonyms":["on board"],
-      "examples":[
-        {"en":"There were already many people aboard the train when it arrived.","ko":"기차가 도착했을 때 이미 많은 사람이 안에 타고 있었다."}
-      ]
-    },
-
-    {
-      "en":"abroad","ipa":"/əˈbrɔːd/",
-      "meanings":[{"pos":"부","defs":["외국에, 해외로","(격식체) (소문 등이) 널리 퍼져"]}],
-      "parts":[{"part":"a-","mean":"~으로 (on, to)"},{"part":"broad","mean":"넓은 (broad, wide)"}],
-      "origin":"넓은 곳으로 → 해외로",
-      "synonyms":["overseas"],
-      "examples":[
-        {"en":"Some national treasures were taken abroad but have now been returned to Korea.","ko":"일부 국보가 해외로 반출되었지만, 현재 한국으로 반환되었다.","source":"교과서"}
-      ]
-    },
-
-    {
-      "en":"alike","ipa":"/əˈlaɪk/",
-      "meanings":[{"pos":"형","defs":["(명사 앞에 쓰지 않음) (아주) 비슷한, 서로 같은"]},{"pos":"부","defs":["마찬가지로, 같게, 동등하게"]}],
-      "parts":[{"part":"a-","mean":"~의 상태로 (in the state of)"},{"part":"like","mean":"같은 (like)"}],
-      "origin":"같은 상태의 → 비슷한",
-      "synonyms":["similar"],
-      "examples":[
-        {"en":"They don't look alike even though they are sisters.","ko":"그들은 자매임에도 불구하고 (외모가) 닮아 보이지 않는다."}
-      ]
-    },
-
-    {
-      "en":"arise","ipa":"/əˈraɪz/",
-      "meanings":[{"pos":"동","defs":["(문제·사건 등이) 발생하다, 일어나다","(결과로서) 일어나다, 기인하다","(문어체) (잠에서) 깨다, 일어나다"]}],
-      "parts":[{"part":"a-","mean":"위로 (up)"},{"part":"rise","mean":"오르다 (rise)"}],
-      "origin":"위로 일어나다 → 발생하다",
-      "synonyms":["happen","occur"],
-      "examples":[
-        {"en":"Problems often arise if an exotic species is suddenly introduced to an ecosystem.","ko":"생태계에 외래종이 갑자기 유입되면 보통 문제가 발생한다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"arouse","ipa":"/əˈraʊz/",
-      "meanings":[{"pos":"동","defs":["(감정을) (불러) 일으키다","(문어체) (잠에서) 깨우다"]}],
-      "parts":[{"part":"a-","mean":"위로 (up)"},{"part":"rouse","mean":"깨우다 (wake up)"}],
-      "origin":"위로 깨우다 → 깨우다, 유발하다",
-      "synonyms":["stir up"],
-      "examples":[
-        {"en":"Her behavior aroused the suspicions of the police.","ko":"그녀의 행동은 경찰의 의혹을 불러 일으켰다."}
-      ]
-    },
-
-    {
-      "en":"ashamed","ipa":"/əˈʃeɪmd/",
-      "meanings":[{"pos":"형","defs":["부끄러워하는, 창피한"]}],
-      "parts":[{"part":"a-","mean":"~의 상태로 (in the state of)"},{"part":"shamed","mean":"수치스러운 (shamed)"}],
-      "origin":"수치스러운 상태의 → 부끄러워하는",
-      "phrases":[
-        {"en":"be ashamed of","ko":"~을 부끄러워하다"}
+      "origin": "높아지게 만들다",
+      "synonyms": [
+        "improve"
       ],
-      "examples":[
-        {"en":"Teenagers often compare themselves to others and are ashamed of their flaws.","ko":"십대들은 자주 다른 사람과 자신을 비교하며 자신의 결점을 부끄러워한다.","source":"교과서"}
+      "derivatives": [
+        {
+          "en": "enhancement",
+          "pos": "명",
+          "defs": [
+            "향상"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Adding some pepper would really **enhance** the flavor of this soup.",
+          "ko": "후추를 조금 넣으면 수프의 풍미가 훨씬 좋아질 것이다.",
+          "source": ""
+        },
+        {
+          "en": "After the recent **enhancement**, the app runs faster.",
+          "ko": "최근의 (기능) 향상 이후, 앱이 더 빠르게 작동한다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"amaze","ipa":"/əˈmeɪz/",
-      "meanings":[{"pos":"동","defs":["깜짝 놀라게 하다"]}],
-      "parts":[{"part":"a-","mean":"~의 상태로 (into)"},{"part":"maze","mean":"혼란, 미로 (confusion, maze)"}],
-      "origin":"혼란 상태에 빠뜨리다 → 놀라게 하다",
-      "synonyms":["astonish","surprise"],
-      "derivatives":[
-        {"en":"amazing","pos":"형","defs":["놀라운, 경탄할 만한"]},
-        {"en":"amazement","pos":"명","defs":["놀람"]}
+      "en": "enrich",
+      "ipa": [
+        "[inrítʃ]"
       ],
-      "examples":[
-        {"en":"He was amazed by how smart his dog was.","ko":"그는 그의 개가 얼마나 똑똑한지 깜짝 놀랐다."},
-        {"en":"I stared in amazement at your performance.","ko":"나는 네 연기에 깜짝 놀라 빤히 쳐다봤어."}
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *(질·가치·빛깔·맛 등을) 높이다, 풍부하게 하다*",
+            "2 부유하게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= make"
+        },
+        {
+          "part": "rich",
+          "mean": "부유한"
+        }
+      ],
+      "origin": "부유하게 만들다",
+      "examples": [
+        {
+          "en": "We believe that allowing people to live with their pets **enriches** their lives.",
+          "ko": "우리는 사람들이 반려동물과 함께 살 수 있게 하는 것이 그들의 삶을 풍요롭게 만든다고 믿는다.",
+          "source": "모의"
+        }
       ]
     },
-
     {
-      "en":"afford","ipa":"/əˈfɔːrd/",
-      "meanings":[{"pos":"동","defs":["(수동태로 쓰지 않음) (주로 can[be able to] +) ~할 여유가 있다"]}],
-      "parts":[{"part":"a-","mean":"~으로 (to)"},{"part":"ford","mean":"제공하다 (provide, further)"}],
-      "origin":"제공할 수 있다 → ~할 여유가 있다",
-      "derivatives":[
-        {"en":"affordable","pos":"형","defs":["감당할 수 있는"]}
+      "en": "enlarge",
+      "ipa": [
+        "[inlɑ́ːrdʒ]"
       ],
-      "examples":[
-        {"en":"Many students were struggling to afford the high tuition.","ko":"많은 학생들이 높은 수업료를 감당하기 어려워하고 있었다.","source":"교과서"},
-        {"en":"We cannot afford a new car this year.","ko":"우리는 올해 새 차를 살 여유가 없다."},
-        {"en":"This apartment is the most affordable in this neighborhood.","ko":"이 아파트가 이 동네에서 가장 감당할 만하다[감당할 수 있는 가격이다]."}
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "크게 하다, 확장하다; 확장되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= make"
+        },
+        {
+          "part": "large",
+          "mean": "큰"
+        }
+      ],
+      "origin": "크게 만들다",
+      "synonyms": [
+        "broaden",
+        "expand"
+      ],
+      "antonyms": [
+        "diminish"
+      ],
+      "examples": [
+        {
+          "en": "You can click on the image to **enlarge** it.",
+          "ko": "이미지를 확대하려면 클릭하세요.",
+          "source": ""
+        },
+        {
+          "en": "The company plans to **enlarge** its headquarters next year.",
+          "ko": "그 회사는 내년에 본사를 확장할 계획이다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"atom","ipa":"/ˈætəm/",
-      "meanings":[{"pos":"명","defs":["원자"]}],
-      "parts":[{"part":"a-","mean":"~이 아닌 (not)"},{"part":"tom","mean":"자르다 (cut)"}],
-      "origin":"더 이상 자를 수 없는 것 → 원자",
-      "derivatives":[
-        {"en":"atomic","pos":"형","defs":["원자의, 원자력의"]}
+      "en": "entitle",
+      "ipa": [
+        "[intáitl]"
       ],
-      "examples":[
-        {"en":"That tells us that a water molecule is made up of two hydrogen atoms and one oxygen atom.","ko":"이것은 물 분자가 두 개의 수소 원자와 하나의 산소 원자로 이루어져 있음을 알려준다.","source":"모의"}
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(주로 수동태로) 1 자격[권리]을 주다",
+            "2 제목[명칭]을 붙이다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= make"
+        },
+        {
+          "part": "title",
+          "mean": "제목; 자격"
+        }
+      ],
+      "origin": "제목·자격을 만들어 주다",
+      "examples": [
+        {
+          "en": "All customers are **entitled** to receive a full refund within 2 months.",
+          "ko": "모든 고객은 2개월 이내에 전액 환불을 받을 권리가 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "He wrote a brief introduction to economics **entitled** The Economic Organization.",
+          "ko": "그는 《경제 조직》이라는 제목의 짧은 경제학 입문서를 썼다.",
+          "source": "수능"
+        }
+      ]
+    },
+    {
+      "en": "ensure",
+      "ipa": [
+        "[inʃúər]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 반드시 …하게 하다",
+            "2 보장하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= make"
+        },
+        {
+          "part": "sure",
+          "mean": "확실한"
+        }
+      ],
+      "origin": "확실하게 만들다",
+      "synonyms": [
+        "make sure"
+      ],
+      "examples": [
+        {
+          "en": "Acquiring a range of skills for a project does not **ensure** success.",
+          "ko": "프로젝트를 위해 다양한 기술을 습득하는 것이 성공을 보장하지는 않는다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "enclose",
+      "ipa": [
+        "[inklóuz]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (물건·장소를) 둘러싸다",
+            "2 동봉하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= in"
+        },
+        {
+          "part": "close",
+          "mean": "닫다"
+        }
+      ],
+      "origin": "안에 넣고 닫다",
+      "synonyms": [
+        "surround",
+        "include"
+      ],
+      "derivatives": [
+        {
+          "en": "enclosure",
+          "pos": "명",
+          "defs": [
+            "1 울타리를 친 장소",
+            "2 포위, 둘러쌈",
+            "3 동봉된 것"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The documents you requested are **enclosed**.",
+          "ko": "귀하께서 요청하신 자료가 동봉되어 있습니다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "encounter",
+      "ipa": [
+        "[inkáuntər]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (문제·일에) 직면하다",
+            "2 *우연히 만나다*"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "(주로 + with) *(예상 밖의) 만남*"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= in"
+        },
+        {
+          "part": "counter",
+          "mean": "= contra:against"
+        }
+      ],
+      "origin": "in front of → 맞은편에 나타나다\n→ 마주치다",
+      "synonyms": [
+        "face",
+        "come across"
+      ],
+      "examples": [
+        {
+          "en": "Consider the feeling of **encountering** a diary that you wrote many years ago.",
+          "ko": "당신이 수년 전에 썼던 일기를 다시 마주했을 때의 기분을 떠올려 보세요.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "engage",
+      "ipa": [
+        "[ingéidʒ]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (+ in/with) 참여[관여]하다, 종사하다",
+            "2 (주의를) 끌다, 사로잡다",
+            "3 약속하다",
+            "4 약혼하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= in"
+        },
+        {
+          "part": "gage",
+          "mean": "= pledge 서약"
+        }
+      ],
+      "origin": "서약 안에 있다 →\n├ (서약 안으로 들어가다) → 참여하다, 관여하다\n├ (서약 안으로 들어오게 하다) → (주의를) 끌다, 사로잡다\n├ (서약에 들어가기로 하다) → 약속하다\n└ (결혼하기로 서약하다) → 약혼하다",
+      "antonyms": [
+        "disengage from(풀다, 떼다)"
+      ],
+      "derivatives": [
+        {
+          "en": "engaged",
+          "pos": "형",
+          "defs": [
+            "1 (+ in/on) …에 열중인, 바쁜",
+            "2 (+ to) 약혼한"
+          ]
+        },
+        {
+          "en": "engaging",
+          "pos": "형",
+          "defs": [
+            "관심을 끄는, 매력적인"
+          ]
+        },
+        {
+          "en": "engagement",
+          "pos": "명",
+          "defs": [
+            "1 약속; 약혼",
+            "2 참여"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be engaged in",
+          "ko": "1 …에 관련되다, 종사하다 2 …하느라 바쁘다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "His daughter loves to **engage in** conversation with new people.",
+          "ko": "그의 딸은 새로운 사람들과의 대화에 참여하는 것을 매우 좋아한다.",
+          "source": ""
+        },
+        {
+          "en": "People who **are engaged in** service to others, such as volunteering, tend to be happier.",
+          "ko": "봉사활동처럼 사람들을 대하는 서비스업에 종사하는 사람은 더 행복한 경향이 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "Daniel and Ava are **engaged**.",
+          "ko": "Daniel과 Ava는 약혼한 사이다.",
+          "source": ""
+        },
+        {
+          "en": "I missed the party because I had an important **engagement**.",
+          "ko": "나는 중요한 약속이 있어서 그 파티에 가지 못했다.",
+          "source": ""
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "en": "embrace",
+      "ipa": [
+        "[imbréis]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 껴안다",
+            "2 수락하다, 받아들이다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 포옹",
+            "2 수락, 받아들임"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "em",
+          "mean": "= in"
+        },
+        {
+          "part": "brace",
+          "mean": "= arms"
+        }
+      ],
+      "origin": "두 팔 안에 넣다",
+      "synonyms": [
+        "hug",
+        "accept",
+        "adopt"
+      ],
+      "examples": [
+        {
+          "en": "He **embraced** me like I was a brother.",
+          "ko": "그는 내가 남동생인 것처럼 나를 안아주었다.",
+          "source": ""
+        },
+        {
+          "en": "People with a growth mindset **embrace** challenges and try to learn from their mistakes.",
+          "ko": "성장형 마음가짐을 가진 사람들은 도전을 받아들이며 실수로부터 배우려고 노력한다.",
+          "source": "교과서"
+        }
+      ]
+    },
+    {
+      "en": "perfect",
+      "ipa": [
+        "형 [pə́ːrfikt]",
+        "동 [pərfékt]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "*완전(무결)한, 완벽한*"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "완전하게 하다, 완성하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per",
+          "mean": "= thoroughly"
+        },
+        {
+          "part": "fect",
+          "mean": "= fac:do"
+        }
+      ],
+      "origin": "완전한; 완벽하게 하다",
+      "antonyms": [
+        "imperfect"
+      ],
+      "derivatives": [
+        {
+          "en": "perfectly",
+          "pos": "부",
+          "defs": [
+            "나무랄 데 없이, 완벽하게, 완전히"
+          ]
+        },
+        {
+          "en": "perfection",
+          "pos": "명",
+          "defs": [
+            "완벽(함)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Though I'm far from **perfect**, I always aim for **perfection**.",
+          "ko": "저는 결코 완벽하지 않지만, 항상 완벽함을 목표로 삼아요.",
+          "source": ""
+        },
+        {
+          "en": "They still need more data to **perfect** their decision.",
+          "ko": "그들은 결정을 마무리하기 위해 아직 더 많은 데이터가 필요하다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "permanent",
+      "ipa": [
+        "[pə́ːrmənənt]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *영구적인, 불변의*",
+            "2 오랫동안 지속되는; 정규(직)의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per",
+          "mean": "= thoroughly"
+        },
+        {
+          "part": "man",
+          "mean": "= remain"
+        },
+        {
+          "part": "ent",
+          "mean": "형접"
+        }
+      ],
+      "origin": "끝까지 남아 있는",
+      "synonyms": [
+        "everlasting"
+      ],
+      "antonyms": [
+        "temporary"
+      ],
+      "derivatives": [
+        {
+          "en": "permanently",
+          "pos": "부",
+          "defs": [
+            "영구적으로"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "a **permanent** tooth",
+          "ko": "영구치",
+          "source": ""
+        },
+        {
+          "en": "I'm looking for a **permanent** job, not a temporary one.",
+          "ko": "나는 임시직이 아닌 정규직을 찾고 있다.",
+          "source": ""
+        }
+      ],
+      "phrases": [
+        {
+          "en": "permanent",
+          "ko": "(AmE) 파마 (줄여서 perm)"
+        }
+      ]
+    },
+    {
+      "en": "persist",
+      "ipa": [
+        "[pərsíst]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (+ in/with) (어려움·반대에도 불구하고) 계속 …하다, 고집하다",
+            "2 (주로 좋지 않은 것이) 지속하다, 존속하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per",
+          "mean": "= thoroughly"
+        },
+        {
+          "part": "sist",
+          "mean": "= stand"
+        }
+      ],
+      "origin": "끝까지 버티며 서 있다",
+      "synonyms": [
+        "continue"
+      ],
+      "derivatives": [
+        {
+          "en": "persistent",
+          "pos": "형",
+          "defs": [
+            "1 지속적인",
+            "2 고집하는, 끈질긴"
+          ]
+        },
+        {
+          "en": "persistence",
+          "pos": "명",
+          "defs": [
+            "1 고집",
+            "2 영속, 지속성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **persisted in** his ways till the day he died.",
+          "ko": "그는 죽는 날까지 자신의 방식을 고집했다.",
+          "source": ""
+        },
+        {
+          "en": "You have to see a doctor if the symptoms **persist**.",
+          "ko": "증상이 지속된다면 병원에 가야 합니다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "persevere",
+      "ipa": [
+        "[pə̀ːrsəvíər]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(끈질기게) 노력하다, 인내하다, 견디다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per",
+          "mean": "= thoroughly"
+        },
+        {
+          "part": "severe",
+          "mean": "엄격한, 진지한"
+        }
+      ],
+      "origin": "매우 진지한 → 진지하게 계속하다",
+      "synonyms": [
+        "persist"
+      ],
+      "derivatives": [
+        {
+          "en": "perseverance",
+          "pos": "명",
+          "defs": [
+            "끈기, 인내(심)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "To succeed, you must **persevere** until the end.",
+          "ko": "성공하기 위해서는 마지막 순간까지 노력해야 한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "persuade",
+      "ipa": [
+        "[pərswéid]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *설득하다, 권해서 …하게 하다*",
+            "2 믿게 하다, 납득시키다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per",
+          "mean": "= thoroughly"
+        },
+        {
+          "part": "suade",
+          "mean": "= urge 촉구하다, 권하다"
+        }
+      ],
+      "origin": "끝까지 권하다 → 설득하다",
+      "synonyms": [
+        "convince"
+      ],
+      "derivatives": [
+        {
+          "en": "persuasion",
+          "pos": "명",
+          "defs": [
+            "1 설득",
+            "2 확신, 신념"
+          ]
+        },
+        {
+          "en": "persuasive",
+          "pos": "형",
+          "defs": [
+            "설득력이 있는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "persuade A to-v",
+          "ko": "A가 …하도록 설득하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **persuaded** his parents **to let** him study abroad.",
+          "ko": "그는 부모님을 설득해 유학을 허락받았다.",
+          "source": ""
+        },
+        {
+          "en": "How can I **persuade** you that I am innocent?",
+          "ko": "어떻게 하면 너에게 내가 결백하다는 것을 납득시킬 수 있을까?",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "perspective",
+      "ipa": [
+        "[pərspéktiv]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *(+ on) 관점, 시각, 견해*",
+            "2 원근법"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "per",
+          "mean": "= through"
+        },
+        {
+          "part": "spect",
+          "mean": "= look"
+        },
+        {
+          "part": "ive",
+          "mean": "명접"
+        }
+      ],
+      "origin": "전체를 두루 봄",
+      "synonyms": [
+        "viewpoint on"
+      ],
+      "examples": [
+        {
+          "en": "What's your **perspective on** that issue?",
+          "ko": "그 문제에 대한 당신의 견해는 무엇입니까?",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "aboard",
+      "ipa": [
+        "[əbɔ́ːrd]"
+      ],
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "(배·열차·항공기 등에) 탑승[승선]하여"
+          ]
+        },
+        {
+          "pos": "전",
+          "defs": [
+            "(배·열차·항공기 등의) 안에서[으로]"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "= on"
+        },
+        {
+          "part": "board",
+          "mean": "판, 갑판"
+        }
+      ],
+      "origin": "갑판 위에 올라탄",
+      "synonyms": [
+        "on board"
+      ],
+      "examples": [
+        {
+          "en": "There were already many people **aboard** the train when it arrived.",
+          "ko": "기차가 도착했을 때 이미 많은 사람이 안에 타고 있었다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "abroad",
+      "ipa": [
+        "[əbrɔ́ːd]"
+      ],
+      "meanings": [
+        {
+          "pos": "부",
+          "defs": [
+            "1 *외국에, 해외로*",
+            "2 (격식체) (소문 등이) 널리 퍼져"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "= on, in"
+        },
+        {
+          "part": "broad",
+          "mean": "넓은"
+        }
+      ],
+      "origin": "넓은 곳에 퍼져 있는 → 널리, 사방에",
+      "synonyms": [
+        "overseas"
+      ],
+      "examples": [
+        {
+          "en": "Some national treasures were taken **abroad** but have now been returned to Korea.",
+          "ko": "일부 국보가 해외로 반출되었지만, 현재 한국으로 반환되었다.",
+          "source": "교과서"
+        }
+      ]
+    },
+    {
+      "en": "alike",
+      "ipa": [
+        "[əláik]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "(명사 앞에 쓰지 않음) (아주) 비슷한, 서로 같은"
+          ]
+        },
+        {
+          "pos": "부",
+          "defs": [
+            "*마찬가지로, 같게, 동등하게*"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "'강조'"
+        },
+        {
+          "part": "like",
+          "mean": "닮은"
+        }
+      ],
+      "origin": "아주 닮은",
+      "synonyms": [
+        "similar"
+      ],
+      "examples": [
+        {
+          "en": "They don't look **alike** even though they are sisters.",
+          "ko": "그들은 자매임에도 불구하고 (외모가) 닮아 보이지 않는다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "arise",
+      "ipa": [
+        "[əráiz]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *(문제·사건 등이) 발생하다, 일어나다*",
+            "2 (결과로서) 일어나다, 기인하다",
+            "3 (문어체) (잠에서) 깨다, 일어나다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "'강조'"
+        },
+        {
+          "part": "rise",
+          "mean": "오르다"
+        }
+      ],
+      "origin": "강하게 일어나다 → 솟아오르다, 발생하다",
+      "synonyms": [
+        "happen",
+        "occur"
+      ],
+      "examples": [
+        {
+          "en": "Problems often **arise** if an exotic species is suddenly introduced to an ecosystem.",
+          "ko": "생태계에 외래종이 갑자기 유입되면 보통 문제가 발생한다.",
+          "source": "모의"
+        }
+      ],
+      "antonyms": []
+    },
+    {
+      "en": "arouse",
+      "ipa": [
+        "[əráuz]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *(감정을) (불러) 일으키다*",
+            "2 (문어체) (잠에서) 깨우다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "'강조'"
+        },
+        {
+          "part": "rouse",
+          "mean": "각성시키다, 자극하다"
+        }
+      ],
+      "origin": "강하게 자극하다 → 깨우다",
+      "synonyms": [
+        "stir up"
+      ],
+      "examples": [
+        {
+          "en": "Her behavior **aroused** the suspicions of the police.",
+          "ko": "그녀의 행동은 경찰의 의혹을 불러 일으켰다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "ashamed",
+      "ipa": [
+        "[əʃéimd]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "부끄러워하는, 창피한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "'강조'"
+        },
+        {
+          "part": "shame",
+          "mean": "부끄럽게 하다"
+        },
+        {
+          "part": "ed",
+          "mean": "형접"
+        }
+      ],
+      "origin": "매우 부끄러운",
+      "phrases": [
+        {
+          "en": "be ashamed of",
+          "ko": "…을 부끄러워하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Teenagers often compare themselves to others and **are ashamed of** their flaws.",
+          "ko": "십대들은 자주 다른 사람과 자신을 비교하며 자신의 결점을 부끄러워한다.",
+          "source": "교과서"
+        }
+      ]
+    },
+    {
+      "en": "amaze",
+      "ipa": [
+        "[əméiz]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "깜짝 놀라게 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "'강조'"
+        },
+        {
+          "part": "maze",
+          "mean": "당황"
+        }
+      ],
+      "origin": "크게 당황하게 하다",
+      "synonyms": [
+        "astonish",
+        "surprise"
+      ],
+      "derivatives": [
+        {
+          "en": "amazing",
+          "pos": "형",
+          "defs": [
+            "놀라운, 경탄할 만한"
+          ]
+        },
+        {
+          "en": "amazement",
+          "pos": "명",
+          "defs": [
+            "놀람"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He was **amazed** by how smart his dog was.",
+          "ko": "그는 그의 개가 얼마나 똑똒한지 깜짝 놀랐다.",
+          "source": ""
+        },
+        {
+          "en": "I stared in **amazement** at your performance.",
+          "ko": "나는 네 연기에 깜짝 놀라 빤히 쳐다봤어.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "afford",
+      "ipa": [
+        "[əfɔ́ːrd]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(수동태로 쓰지 않음) (주로 can[be able to] +) …할 여유가 있다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "'완료'"
+        },
+        {
+          "part": "ford",
+          "mean": "= manage 해내다"
+        }
+      ],
+      "origin": "해낼 수 있게 되었다",
+      "derivatives": [
+        {
+          "en": "affordable",
+          "pos": "형",
+          "defs": [
+            "감당할 수 있는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Many students were struggling to **afford** the high tuition.",
+          "ko": "많은 학생들이 높은 수업료를 감당하기 어려워하고 있었다.",
+          "source": "교과서"
+        },
+        {
+          "en": "We **cannot afford** a new car this year.",
+          "ko": "우리는 올해 새 차를 살 여유가 없다.",
+          "source": ""
+        },
+        {
+          "en": "This apartment is the most **affordable** in this neighborhood.",
+          "ko": "이 아파트가 이 동네에서 가장 감당할 만하다[감당할 수 있는 가격이다].",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "atom",
+      "ipa": [
+        "[ǽtəm]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "원자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "= not"
+        },
+        {
+          "part": "tom",
+          "mean": "= cut 자르다"
+        }
+      ],
+      "origin": "(더 이상) 자를 수 없는 것\n→ (물질의 가장 작은 단위인) 원자",
+      "derivatives": [
+        {
+          "en": "atomic",
+          "pos": "형",
+          "defs": [
+            "원자의, 원자력의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "That tells us that a water molecule is made up of two hydrogen **atoms** and one oxygen **atom**.",
+          "ko": "이것은 물 분자가 두 개의 수소 원자와 하나의 산소 원자로 이루어져 있음을 알려준다.",
+          "source": "모의"
+        }
       ]
     }
   ]
