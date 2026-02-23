@@ -302,6 +302,14 @@ body.fullscreen-mode{overscroll-behavior-y:contain}
         <option value="keep">현재 상태 유지</option>
       </select>
     </div>
+    <div class="setting-row">
+      <div class="setting-label">스와이프로 카드 넘기기<span>좌우 밀어서 이전/다음</span></div>
+      <select class="setting-select" id="swipeMode">
+        <option value="off" selected>사용 안 함</option>
+        <option value="back">뒷면에서만</option>
+        <option value="all">전체 사용</option>
+      </select>
+    </div>
     <button class="btn-reload" onclick="toggleFullscreen()" id="btnFullscreen">🖥️ 전체화면 모드</button>
     <div style="font-size:.7rem;color:var(--text-dim);text-align:center;margin-top:4px">※ iOS(아이폰/아이패드)에서는 지원되지 않습니다</div>
     <button class="btn-reload" onclick="changeBook()">📚 교재 변경</button>
@@ -627,7 +635,12 @@ function updateModeButtons() {
   document.getElementById('btnModeBack').textContent = VIEW_LABELS[viewMode] + counter;
 }
 
+// 스와이프 감지용 변수
+let _swipeDetected = false;
+
 function flipCard(e) {
+  // 스와이프 후 뒤집기 방지
+  if (_swipeDetected) { _swipeDetected = false; return; }
   // 버튼 클릭 시 뒤집기 방지
   if (e && e.target.closest('.card-btn')) return;
   if (e && e.target.closest('.card-extras')) return;
@@ -650,6 +663,32 @@ function resetFlip() {
   isFlipped = false;
   document.getElementById('cardFlipInner').classList.remove('flipped');
 }
+
+// 스와이프 제스처
+(function() {
+  let touchStartX = 0, touchStartY = 0, touchStartTime = 0;
+  const wrapper = document.getElementById('cardFlipWrapper');
+  if (!wrapper) return;
+  wrapper.addEventListener('touchstart', function(e) {
+    touchStartX = e.changedTouches[0].clientX;
+    touchStartY = e.changedTouches[0].clientY;
+    touchStartTime = Date.now();
+  }, { passive: true });
+  wrapper.addEventListener('touchend', function(e) {
+    const mode = document.getElementById('swipeMode').value;
+    if (mode === 'off') return;
+    if (mode === 'back' && !isFlipped) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    const dt = Date.now() - touchStartTime;
+    if (dt > 500) return;
+    if (Math.abs(dx) < 50) return;
+    if (Math.abs(dx) < Math.abs(dy)) return;
+    _swipeDetected = true;
+    e.preventDefault();
+    if (dx < 0) { goNext(); } else { goPrev(); }
+  });
+})();
 
 // 중요 단어
 function getStarredWords() {
@@ -700,6 +739,7 @@ function saveSettings() {
   localStorage.setItem('engvoca_slowSpeed', document.getElementById('slowSpeed').value);
   localStorage.setItem('engvoca_cardLayout', document.getElementById('cardLayout').value);
   localStorage.setItem('engvoca_keepFlip', document.getElementById('keepFlip').value);
+  localStorage.setItem('engvoca_swipeMode', document.getElementById('swipeMode').value);
   const vIdx = parseInt(document.getElementById('voiceSelect').value);
   if (vIdx >= 0 && voices[vIdx]) {
     localStorage.setItem('engvoca_voice', voices[vIdx].name);
@@ -716,6 +756,8 @@ function restoreSettings() {
   if (savedLayout) document.getElementById('cardLayout').value = savedLayout;
   const savedKeepFlip = localStorage.getItem('engvoca_keepFlip');
   if (savedKeepFlip) document.getElementById('keepFlip').value = savedKeepFlip;
+  const savedSwipe = localStorage.getItem('engvoca_swipeMode');
+  if (savedSwipe) document.getElementById('swipeMode').value = savedSwipe;
   // 음성은 loadVoices에서 복원
 }
 restoreSettings();
