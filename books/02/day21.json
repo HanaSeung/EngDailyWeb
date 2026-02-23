@@ -3,7 +3,9 @@
   "words": [
     {
       "en": "complicate",
-      "ipa": "/ˈkɑːmplɪkeɪt/",
+      "ipa": [
+        "[kɑ́ːmplәkèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -14,612 +16,1250 @@
       ],
       "parts": [
         {
-          "part": "com-",
-          "mean": "함께 (together)"
+          "part": "com",
+          "mean": "= together"
         },
         {
           "part": "plic",
-          "mean": "접다 (fold)"
+          "mean": "= fold"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "함께 접다 → 복잡하게 하다"
+      "origin": "함께 접히다 → 엮히다 → 복잡하게 하다",
+      "derivatives": [
+        {
+          "en": "complicated",
+          "pos": "형",
+          "defs": [
+            "복잡한, 뒤엉힌"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Your comments have only **complicated** the situation.",
+          "ko": "너의 말은 상황을 복잡하게 만들 뿐이었다."
+        },
+        {
+          "en": "The immune system is so **complicated** that it would take a whole book to explain it.",
+          "ko": "면역 체계는 매우 복잡해서 이를 설명하려면 한 권의 책이 필요할 정도이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "simplicity",
-      "ipa": "/sɪmˈplɪsəti/",
+      "ipa": [
+        "[simplísәti]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "단순함",
-            "소박함"
+            "단순, 간단"
           ]
         }
       ],
       "parts": [
         {
-          "part": "sim-",
-          "mean": "하나 (one)"
+          "part": "sim",
+          "mean": "= one"
         },
         {
           "part": "plic",
-          "mean": "접다 (fold)"
+          "mean": "= fold"
         },
         {
-          "part": "-ity",
-          "mean": "명사형 접미사"
+          "part": "ity",
+          "mean": "명접"
         }
       ],
-      "origin": "한 번만 접힌 → 단순함"
+      "origin": "한 겹 → 간단함",
+      "antonyms": [
+        "complexity"
+      ],
+      "derivatives": [
+        {
+          "en": "simplify",
+          "pos": "동",
+          "defs": [
+            "단순화하다, 간단하게 하다"
+          ]
+        },
+        {
+          "en": "simplification",
+          "pos": "명",
+          "defs": [
+            "단순화, 간소화"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "His style is characterized by **simplicity**.",
+          "ko": "그의 문체는 간결함으로 특징지어진다."
+        }
+      ]
     },
     {
       "en": "complex",
-      "ipa": "/kəmˈpleks/",
+      "ipa": [
+        "형 [kәmpléks]",
+        "명 [kɑ́ːmpleks]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "복잡한"
+            "1 *복잡한",
+            "2 복합의, 합성의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "복합 건물",
-            "콤플렉스"
+            "1 *건물 단지, 복합건물",
+            "2 복합체, 합성물",
+            "3 (정신적) 콤플렉스, 강박관념"
           ]
         }
       ],
       "parts": [
         {
-          "part": "com-",
-          "mean": "함께 (together)"
+          "part": "com",
+          "mean": "= together"
         },
         {
-          "part": "plex(plic)",
-          "mean": "접다 (fold)"
+          "part": "plex",
+          "mean": "= weave"
         }
       ],
-      "origin": "함께 접힌 → 복잡한"
+      "origin": "함께 엮인 (것) → 서로 얽혀 복잡해진 (것)",
+      "synonyms": [
+        "complicated"
+      ],
+      "antonyms": [
+        "simple"
+      ],
+      "derivatives": [
+        {
+          "en": "complexity",
+          "pos": "명",
+          "defs": [
+            "복잡성, 복잡함"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Solving the puzzle was more **complex** than I expected.",
+          "ko": "퍼즐을 푸는 것은 내가 예상했던 것보다 더 복잡했다."
+        },
+        {
+          "en": "The **complexity** of the situation prevented them from finding an easy solution to their problem.",
+          "ko": "상황의 복잡함 때문에 그들은 문제의 쉬운 해결책을 찾을 수 없었다."
+        }
+      ]
     },
     {
       "en": "perplex",
-      "ipa": "/pərˈpleks/",
+      "ipa": [
+        "[pәrpléks]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "당혹하게 하다"
+            "(사람을) 당황[난처]하게 하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "per-",
-          "mean": "완전히 (thoroughly)"
+          "part": "per",
+          "mean": "= thoroughly"
         },
         {
-          "part": "plex(plic)",
-          "mean": "접다 (fold)"
+          "part": "plex",
+          "mean": "= weave"
         }
       ],
-      "origin": "완전히 뒤엉키게 접다 → 당혹하게 하다"
+      "origin": "(상황을) 완전히 복잡하게 엮이게 하다\n→ 당황하게 하다",
+      "synonyms": [
+        "puzzle"
+      ],
+      "examples": [
+        {
+          "en": "His sudden reaction **perplexed** everyone in the room.",
+          "ko": "그의 갑작스러운 반응은 방 안의 모두를 당황하게 했다."
+        }
+      ]
     },
     {
       "en": "imply",
-      "ipa": "/ɪmˈplaɪ/",
+      "ipa": [
+        "[impláí]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "암시하다",
-            "내포하다"
+            "내포[함축]하다; 암시하다, 넌지시 비추다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "im-(in-)",
-          "mean": "안에 (in)"
+          "part": "im",
+          "mean": "= in"
         },
         {
-          "part": "ply(plic)",
-          "mean": "접다 (fold)"
+          "part": "ply",
+          "mean": "= fold"
         }
       ],
-      "origin": "안에 접어 넣다 → 암시하다"
+      "origin": "fold in (뜻을) … 안으로 접어 넣다\n→ 내포하다, 함축하다",
+      "synonyms": [
+        "suggest"
+      ],
+      "derivatives": [
+        {
+          "en": "implicit",
+          "pos": "형",
+          "defs": [
+            "암시된, 내포된"
+          ]
+        },
+        {
+          "en": "implication",
+          "pos": "명",
+          "defs": [
+            "1 (주로 복수형) (행동·결정의) 영향",
+            "2 함축, 암시"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "What a text **implies** is often of great interest to us. And our work of figuring out a text's **implications** tests our analytical powers.",
+          "ko": "글이 암시하는 바는 종종 우리에게 큰 흥미를 불러일으킨다. 그리고 글의 함의를 파악하려는 우리의 노력은 우리의 분석 능력을 시험한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "apply",
-      "ipa": "/əˈplaɪ/",
+      "ipa": [
+        "[әplái]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "지원하다",
-            "적용하다",
-            "바르다"
+            "1 (+ for/to) 지원하다, 신청하다",
+            "2 *(방법·이론·규칙 등을) 적용하다, 응용하다",
+            "3 (+ to) *적용되다, 해당되다*",
+            "4 (연고·물감 등을) 바르다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ap-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "ap",
+          "mean": "= ad:to"
         },
         {
-          "part": "ply(plic)",
-          "mean": "접다 (fold)"
+          "part": "ply",
+          "mean": "= fold"
         }
       ],
-      "origin": "~쪽으로 접어 붙이다 → 적용하다"
+      "origin": "핵심 다의어\n…에 포개다 → 대보다 →\n├ 사물을 맞춰보다 → 적용[응용]하다 → 바르다\n└ 자신을 맞춰보다 → 지원하다",
+      "derivatives": [
+        {
+          "en": "application",
+          "pos": "명",
+          "defs": [
+            "1 지원(서), 신청(서)",
+            "2 적용, 응용",
+            "3 붙임, 바름",
+            "4 [컴퓨터] 응용프로그램, 앱"
+          ]
+        },
+        {
+          "en": "applicant",
+          "pos": "명",
+          "defs": [
+            "지원자, 신청자, 응모자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "If you want to **apply for** volunteer work, complete an **application** form and email it to the manager.",
+          "ko": "만약 자원봉사에 지원하고 싶으면, 신청서를 작성해서 매니저에게 이메일로 보내세요.",
+          "source": "모의"
+        },
+        {
+          "en": "The ban on smoking **applies to** restaurants and bars.",
+          "ko": "금연(정책)은 식당과 술집에 적용된다."
+        },
+        {
+          "en": "He was the only **applicant** for the position.",
+          "ko": "그는 그 일자리의 유일한 지원자였다."
+        }
+      ]
     },
     {
       "en": "employ",
-      "ipa": "/ɪmˈplɔɪ/",
+      "ipa": [
+        "[implɔ́i]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "고용하다",
-            "(도구 등을) 쓰다"
+            "1 (사람을) 고용하다",
+            "2 *(기술·물건을) 사용하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "em-(in-)",
-          "mean": "안에 (in)"
+          "part": "em",
+          "mean": "= en:in"
         },
         {
-          "part": "ploy(plic)",
-          "mean": "접다, 엮다 (fold, involve)"
+          "part": "ploy",
+          "mean": "= fold"
         }
       ],
-      "origin": "안으로 엮어 넣다 → 고용하다"
+      "origin": "안으로 접어 넣다 → (안에) 받아들이다\n→ 고용하다, 사용하다",
+      "synonyms": [
+        "hire"
+      ],
+      "derivatives": [
+        {
+          "en": "employer",
+          "pos": "명",
+          "defs": [
+            "고용주, 사용자, 주인"
+          ]
+        },
+        {
+          "en": "employee",
+          "pos": "명",
+          "defs": [
+            "피고용인, 종업원"
+          ]
+        },
+        {
+          "en": "employment",
+          "pos": "명",
+          "defs": [
+            "고용(률), 일자리"
+          ]
+        },
+        {
+          "en": "unemployment",
+          "pos": "명",
+          "defs": [
+            "실업(률), 실직"
+          ]
+        },
+        {
+          "en": "unemployed",
+          "pos": "형",
+          "defs": [
+            "실직한, 일이 없는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Unemployment** is getting worse. **Employers** are reducing their staff, and they're not **employing** any new people.",
+          "ko": "실업 문제가 점점 더 심각해지고 있다. 고용주들이 직원을 줄이면서, 새로운 사람들을 고용하지는 않고 있다."
+        }
+      ]
     },
     {
       "en": "diplomatic",
-      "ipa": "/ˌdɪpləˈmætɪk/",
+      "ipa": [
+        "[dìplәmǽtik]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "외교의",
-            "외교 수완이 있는"
+            "1 외교(상)의",
+            "2 외교에 능한, 외교적 수완이 있는"
           ]
         }
       ],
       "parts": [
         {
-          "part": "diplo-",
-          "mean": "두 배, 접힌 (double, folded)"
+          "part": "di",
+          "mean": "= two"
         },
         {
-          "part": "ma",
-          "mean": "문서 (document)"
+          "part": "plo",
+          "mean": "= fold"
         },
         {
-          "part": "-tic",
-          "mean": "형용사형 접미사"
+          "part": "matic",
+          "mean": "형접"
         }
       ],
-      "origin": "접힌 공식 문서(외교 문서)의 → 외교의"
+      "origin": "둘을 합쳐서 접은 것 → (두 나라 간의) 공문서\n→ 국제 관계에 적용되는",
+      "derivatives": [
+        {
+          "en": "diplomat",
+          "pos": "명",
+          "defs": [
+            "외교관"
+          ]
+        },
+        {
+          "en": "diplomacy",
+          "pos": "명",
+          "defs": [
+            "1 외교",
+            "2 외교술, 외교적 수완"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two countries established **diplomatic** relations in 1962.",
+          "ko": "두 나라는 1962년에 외교 관계를 맺었다[수교했다]."
+        }
+      ]
     },
     {
       "en": "exploit",
-      "ipa": "/ɪkˈsplɔɪt/",
+      "ipa": [
+        "동 [iksplɔ́it]",
+        "명 [éksplɔit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "이용하다",
-            "착취하다"
+            "1 (사람·상황 등을 부당하게) 이용하다, (노동력을) 착취하다",
+            "2 *(자연·자원 등을) 개발하다, 활용[이용]하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "공훈",
-            "업적"
+            "위업, 공적"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
-          "part": "ploit(plic)",
-          "mean": "접다, 펼치다 (fold, unfold)"
+          "part": "ploit",
+          "mean": "= fold"
         }
       ],
-      "origin": "밖으로 펼쳐 쓰다 → 이용하다"
+      "origin": "접힌 것을 펼쳐 밖으로 선보이다 → 위업,\n성취 → (성취하기 위해) 최대한 이용하다",
+      "synonyms": [
+        "utilize"
+      ],
+      "derivatives": [
+        {
+          "en": "exploitation",
+          "pos": "명",
+          "defs": [
+            "1 착취",
+            "2 개발"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Solar energy can be **exploited** to produce electricity.",
+          "ko": "태양 에너지는 전기를 생산하는 데 활용될 수 있다."
+        }
+      ]
     },
     {
       "en": "inject",
-      "ipa": "/ɪnˈdʒekt/",
+      "ipa": [
+        "[indʒékt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "주입하다",
-            "주사하다"
+            "주입하다, 주사하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안으로 (into)"
+          "part": "in",
+          "mean": "= in"
         },
         {
           "part": "ject",
-          "mean": "던지다 (throw)"
+          "mean": "= throw"
         }
       ],
-      "origin": "안으로 던지다 → 주입하다"
+      "origin": "안으로 던지다 → 주입하다",
+      "derivatives": [
+        {
+          "en": "injection",
+          "pos": "명",
+          "defs": [
+            "주입, 주사"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "give A an injection",
+          "ko": "A에게 주사를 놓다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The nurse **injected** the patient with the drug.",
+          "ko": "간호사가 환자에게 약물을 주사했다."
+        },
+        {
+          "en": "He underwent hundreds of **injections**, but the pain remained.",
+          "ko": "그는 수백 번의 주사를 맞았지만, 통증은 여전히 남아있었다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "object",
-      "ipa": "/ˈɑːbdʒekt/",
+      "ipa": [
+        "명 [ɑ́ːbdʒekt]",
+        "동 [әbdʒékt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "물체",
-            "목적",
-            "대상"
+            "1 *물체, 사물",
+            "2 목적, 목표",
+            "3 (감정·행동의) 대상",
+            "4 [문법] 목적어"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "반대하다"
+            "(+ to) 반대하다, 반박하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ob-",
-          "mean": "맞서 (against)"
+          "part": "ob",
+          "mean": "= toward"
         },
         {
           "part": "ject",
-          "mean": "던지다 (throw)"
+          "mean": "= throw"
         }
       ],
-      "origin": "맞서 던지다 → 반대하다"
+      "origin": "핵심 다의어\n… 쪽으로 던지다 →\n├ … 앞에 놓이게 된 것 → 사물\n├ 던져서 맞추고자 하는 것 → 목적, 대상\n└ … 앞에 던져져 마주보게 되다\n→ 반대하다",
+      "synonyms": [
+        "purpose",
+        "goal",
+        "aim"
+      ],
+      "derivatives": [
+        {
+          "en": "objective",
+          "pos": "명/형",
+          "defs": [
+            "목적, 목표 / 객관적인"
+          ]
+        },
+        {
+          "en": "objection",
+          "pos": "명",
+          "defs": [
+            "반대, 이의, 거부"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "What's that black **object** under the water?",
+          "ko": "물속의 저 검은 물체는 뭐지?"
+        },
+        {
+          "en": "The **object** of the game is to improve your math skills.",
+          "ko": "그 게임의 목적은 수학 능력을 향상하는 것이다."
+        },
+        {
+          "en": "I **object to** being an **object** of ridicule.",
+          "ko": "나는 조롱의 대상이 되는 것에 반대한다."
+        },
+        {
+          "en": "Let's get an **objective** opinion from the counselor.",
+          "ko": "전문 상담가에게 객관적인 의견을 얻도록 하자."
+        }
+      ]
     },
     {
       "en": "reject",
-      "ipa": "/rɪˈdʒekt/",
+      "ipa": [
+        "동 [ridʒékt]",
+        "명 [ríːdʒekt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "거절하다",
-            "거부하다"
+            "*거절[거부]하다; 불합격시키다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "불합격품[자], 거부된 것[사람]"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
           "part": "ject",
-          "mean": "던지다 (throw)"
+          "mean": "= throw"
         }
       ],
-      "origin": "뒤로 던지다 → 거절하다"
+      "origin": "(받아들이지 않고) 도로 던져 버리다",
+      "synonyms": [
+        "refuse",
+        "turn down"
+      ],
+      "antonyms": [
+        "accept"
+      ],
+      "derivatives": [
+        {
+          "en": "rejection",
+          "pos": "명",
+          "defs": [
+            "거절, 거부"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Adams got inspired and submitted some cartoons, but he was quickly **rejected**.",
+          "ko": "Adams는 영감을 받아 몇 개의 만화를 제출했지만 바로 거절당했다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "subject",
-      "ipa": "/ˈsʌbdʒɪkt/",
+      "ipa": [
+        "명형 [sʌ́bdʒikt]",
+        "동 [sәbdʒékt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "주제",
-            "과목",
-            "피실험자"
+            "1 *(토론·연구 등의) 주제",
+            "2 학과, 과목",
+            "3 [문법] 주어",
+            "4 (실험·연구 등에서) 피실험자, 대상",
+            "5 국민"
           ]
         },
         {
           "pos": "형",
           "defs": [
-            "~하기 쉬운"
+            "1 (+ to) *(…에) 영향받기 쉬운*",
+            "2 (…의) 지배를 받는",
+            "3 (승인 등을) 받아야 하는"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "복종시키다"
+            "지배하다, 복종시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "sub-",
-          "mean": "아래에 (under)"
+          "part": "sub",
+          "mean": "= under"
         },
         {
           "part": "ject",
-          "mean": "던지다 (throw)"
+          "mean": "= throw"
         }
       ],
-      "origin": "아래에 던지다 → 복종시키다, 주제"
+      "origin": "핵심 다의어\n아래에 던져 두다 → 통치[지배]하다 →\n├ 군주의 지배를 받는 사람 → 국민, 백성\n├ …아래에 던져진 → 영향을 받기 쉬운\n├ 연구거리로 밑에 놓인 것 → 주제\n│ ├ 학과, 과목\n│ └ 피실험자",
+      "derivatives": [
+        {
+          "en": "subjective",
+          "pos": "형",
+          "defs": [
+            "주관적인"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "What is the **subject** of today's discussion?",
+          "ko": "오늘의 토론 주제는 무엇입니까?"
+        },
+        {
+          "en": "Flight schedules are **subject to** change due to weather conditions.",
+          "ko": "항공 (운행) 일정은 기상 조건에 따라 변경되기 쉽다."
+        }
+      ]
     },
     {
       "en": "project",
-      "ipa": "/ˈprɑːdʒekt/",
+      "ipa": [
+        "명 [prɑ́ːdʒekt]",
+        "동 [prәdʒékt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "계획",
-            "프로젝트"
+            "*프로젝트, 계획"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "발사하다",
-            "투영하다"
+            "1 계획하다",
+            "2 예상[추정]하다",
+            "3 투영하다, 비추다",
+            "4 돌출되다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
+          "part": "pro",
+          "mean": "= forward"
         },
         {
           "part": "ject",
-          "mean": "던지다 (throw)"
+          "mean": "= throw"
         }
       ],
-      "origin": "앞으로 던지다 → 계획, 투영하다"
+      "origin": "핵심 다의어\n앞쪽으로 던지다 →\n├ 실행을 위해 앞으로 내놓다 → 계획(하다)\n├ (빛·영상을) 내던지다 → 투영하다\n├ … 앞으로 던져지다\n│ → 튀어나오다, 돌출되다",
+      "synonyms": [
+        "plan"
+      ],
+      "derivatives": [
+        {
+          "en": "projection",
+          "pos": "명",
+          "defs": [
+            "1 예상, 추정",
+            "2 투영; 영상",
+            "3 돌기, 돌출부"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The team presented their **project** by **projecting** some slides onto the screen.",
+          "ko": "그 팀은 스크린에 여러 슬라이드를 비추면서 자신들의 계획을 발표했다."
+        },
+        {
+          "en": "They **project** an increase in profits this quarter.",
+          "ko": "그들은 이번 분기에 수익 증가를 예상한다."
+        },
+        {
+          "en": "The rock climber grabbed the **projecting** rock.",
+          "ko": "그 암벽 등반가는 돌출된 바위를 잡았다."
+        }
+      ]
     },
     {
       "en": "rate",
-      "ipa": "/reɪt/",
+      "ipa": [
+        "[reit]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "비율",
-            "요금",
-            "속도"
+            "1 *비율",
+            "2 *속도",
+            "3 요금, 가격",
+            "4 등급"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "평가하다"
+            "1 평가하다; 평가되다",
+            "2 간주하다; 간주되다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "rat",
-          "mean": "계산하다 (reckon, calculate)"
+          "part": "rate",
+          "mean": "= calculate"
         }
       ],
-      "origin": "계산하다 → 비율, 평가하다"
+      "origin": "계산하여 (값이) 결정된 것",
+      "synonyms": [
+        "ratio"
+      ],
+      "examples": [
+        {
+          "en": "birth[crime] **rate**",
+          "ko": "출생[범죄]율"
+        },
+        {
+          "en": "heart **rate**",
+          "ko": "심박동수"
+        },
+        {
+          "en": "Interviewers tend to **rate** applicants more negatively when it is rainy.",
+          "ko": "면접관은 비가 오는 날 지원자를 더 부정적으로 평가하는 경향이 있다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "ratio",
-      "ipa": "/ˈreɪʃioʊ/",
+      "ipa": [
+        "[réiʃiòu]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "비율",
-            "비"
+            "비율, 비"
           ]
         }
       ],
       "parts": [
         {
           "part": "rat",
-          "mean": "계산하다 (reckon)"
+          "mean": "= calculate"
         },
         {
-          "part": "-io",
-          "mean": "명사형 접미사"
+          "part": "io",
+          "mean": "명사형 어미"
         }
       ],
-      "origin": "계산한 것 → 비율"
+      "origin": "(수치를) 계산한 값 → 비율",
+      "synonyms": [
+        "rate"
+      ],
+      "phrases": [
+        {
+          "en": "ratio of A to B",
+          "ko": "A와 B의 비율, B에 대한 A의 비율"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The **ratio of** nurses **to** doctors is five to one at this hospital.",
+          "ko": "이 병원의 간호사와 의사의 비율은 5 대 1이다."
+        },
+        {
+          "en": "Productivity is the **ratio of** costs **to** output.",
+          "ko": "생산성은 산출물에 대한 비용의 비율이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "rational",
-      "ipa": "/ˈræʃnəl/",
+      "ipa": [
+        "[rǽʃәnәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "이성적인",
-            "합리적인"
+            "1 이성적인",
+            "2 분별 있는, 이치에 맞는"
           ]
         }
       ],
       "parts": [
         {
           "part": "rat",
-          "mean": "이성, 계산 (reason)"
+          "mean": "= reason"
         },
         {
-          "part": "-ional",
-          "mean": "형용사형 접미사"
+          "part": "ion",
+          "mean": "명접"
+        },
+        {
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "이성에 따른 → 합리적인"
+      "origin": "논리적으로 생각하는",
+      "synonyms": [
+        "reasonable",
+        "sensible"
+      ],
+      "antonyms": [
+        "irrational"
+      ],
+      "derivatives": [
+        {
+          "en": "rationally",
+          "pos": "부",
+          "defs": [
+            "이성적으로"
+          ]
+        },
+        {
+          "en": "rationality",
+          "pos": "명",
+          "defs": [
+            "합리성"
+          ]
+        },
+        {
+          "en": "rationalize",
+          "pos": "동",
+          "defs": [
+            "합리화하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Humans are **rational** beings.",
+          "ko": "인간은 이성적인 존재이다."
+        },
+        {
+          "en": "His excuse seems **rational**.",
+          "ko": "그의 변명은 합리적으로 보인다."
+        }
+      ]
     },
     {
       "en": "reason",
-      "ipa": "/ˈriːzn/",
+      "ipa": [
+        "[ríːzәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "이유",
-            "이성"
+            "1 *이유",
+            "2 이성, 판단력"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "추론하다"
+            "추리하다, 추론하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "reas(rat)",
-          "mean": "계산하다, 생각하다 (reckon, think)"
-        },
-        {
-          "part": "-on",
-          "mean": "명사형 접미사"
+          "part": "reason",
+          "mean": "라틴어 reri(=think)에서 온 말"
         }
       ],
-      "origin": "생각해 낸 것 → 이유, 이성"
+      "origin": "이성적으로 생각하다 → 이성 → 이유",
+      "derivatives": [
+        {
+          "en": "reasonable",
+          "pos": "형",
+          "defs": [
+            "1 합리적인, 이성적인",
+            "2 적당한, (가격이) 알맞은"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "reasonable vs rational",
+          "ko": "reasonable: 일반적인 상황에서 '이성적인'\nrational: 학문적·논리적으로 '이성적인'"
+        }
+      ],
+      "examples": [
+        {
+          "en": "What's the **reason** you are asking so much?",
+          "ko": "당신이 그렇게 많이 요구하는 이유는 무엇입니까?"
+        },
+        {
+          "en": "If you book this package, you will enjoy all this at a **reasonable** price.",
+          "ko": "이 패키지를 예약하시면, 합리적인 가격으로 이 모든 것을 즐길 수 있습니다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "fort",
-      "ipa": "/fɔːrt/",
+      "ipa": [
+        "[fɔːrt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "요새",
-            "보루"
+            "요새, 성채, 보루"
           ]
         }
       ],
       "parts": [
         {
           "part": "fort",
-          "mean": "강한 (strong)"
+          "mean": "= strong"
         }
       ],
-      "origin": "강한 곳 → 요새"
+      "origin": "라틴어 fortis(=strong)에서 온 말\n→ 튼튼하게 강화된 곳",
+      "derivatives": [
+        {
+          "en": "fortress",
+          "pos": "명",
+          "defs": [
+            "(fort보다 대규모의) 요새, 요새 도시"
+          ]
+        },
+        {
+          "en": "fortify",
+          "pos": "동",
+          "defs": [
+            "1 요새화하다",
+            "2 강화하다; 기운을 북돋우다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The troops strengthened the **fort** for the battle.",
+          "ko": "그 군대는 전투에 대비해 요새를 강화했다."
+        },
+        {
+          "en": "UNESCO recognized Hwaseong **Fortress** as a World Heritage Site.",
+          "ko": "유네스코가 수원 화성을 세계 문화 유산으로 지정했다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "effort",
-      "ipa": "/ˈefərt/",
+      "ipa": [
+        "[éfәrt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "노력",
-            "수고"
+            "노력, 수고"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ef-(ex-)",
-          "mean": "밖으로 (out)"
+          "part": "ef",
+          "mean": "= ex:out"
         },
         {
           "part": "fort",
-          "mean": "강한 (strong)"
+          "mean": "= strong"
         }
       ],
-      "origin": "밖으로 힘을 쓰다 → 노력"
+      "origin": "(강한) 힘을 밖으로 냄 → 노력",
+      "synonyms": [
+        "endeavor"
+      ],
+      "phrases": [
+        {
+          "en": "make an effort",
+          "ko": "노력하다, 애쓰다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'll **make an effort** to manage my time more effectively.",
+          "ko": "나는 시간을 더 효율적으로 관리하기 위해 노력할 것이다."
+        }
+      ]
     },
     {
       "en": "comfort",
-      "ipa": "/ˈkʌmfərt/",
+      "ipa": [
+        "[kʌ́mfәrt]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "편안함",
-            "위로"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "위로하다"
+            "1 위로하다",
+            "2 편안하게 하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *편안함, 안락",
+            "2 위로"
           ]
         }
       ],
       "parts": [
         {
-          "part": "com-",
-          "mean": "함께 (together)"
+          "part": "com",
+          "mean": "「강조」"
         },
         {
           "part": "fort",
-          "mean": "강한 (strong)"
+          "mean": "= strong"
         }
       ],
-      "origin": "함께 힘을 주다 → 위로하다"
+      "origin": "(마음을) 강하게 하다 → 기운을 북돋우다\n→ 위로하다",
+      "synonyms": [
+        "console"
+      ],
+      "antonyms": [
+        "discomfort"
+      ],
+      "derivatives": [
+        {
+          "en": "comfortable",
+          "pos": "형",
+          "defs": [
+            "편안한, 안락한"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Infants are **comforted** by rocking because this motion is similar to what they experienced in the womb.",
+          "ko": "신생아는 흔들림에서 편안함을 느끼는데, 이는 이 움직임이 자궁에서 경험한 것과 비슷하기 때문이다.",
+          "source": "모의"
+        },
+        {
+          "en": "Parents should provide their children with **comfort** and care.",
+          "ko": "부모들은 자녀들에게 편안함과 보살핌을 줘야 한다."
+        }
+      ]
     },
     {
       "en": "force",
-      "ipa": "/fɔːrs/",
+      "ipa": [
+        "[fɔːrs]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "힘",
-            "군대"
+            "1 *(물리적) 힘",
+            "2 폭력",
+            "3 영향력",
+            "4 (복수형) 병력, 군대"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "강요하다"
+            "*억지로 …하게 하다, 강요하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "forc(fort)",
-          "mean": "강한 (strong)"
+          "mean": "라틴어 fortis(=strong)에서 온 말"
         }
       ],
-      "origin": "강한 것 → 힘, 강요하다"
+      "origin": "→ 강한 힘 → (힘을 사용해서)\n억지로 …하게 하다",
+      "synonyms": [
+        "compel",
+        "oblige"
+      ],
+      "derivatives": [
+        {
+          "en": "forceful",
+          "pos": "형",
+          "defs": [
+            "(사람·말 등이) 강력한, 힘이 있는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "force A to-v[into N/v-ing]",
+          "ko": "A가 …하도록 강요하다 (= compel[oblige] A to-v)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The CEO was **forced to resign** because of the financial scandal.",
+          "ko": "그 최고 경영자는 금전상의 스캔들 때문에 사임해야 했다."
+        }
+      ]
     },
     {
       "en": "reinforce",
-      "ipa": "/ˌriːɪnˈfɔːrs/",
+      "ipa": [
+        "[rìːinfɔ́ːrs]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "강화하다",
-            "증강하다"
+            "강화하다, 증강[보강]하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
-          "part": "in-",
-          "mean": "안에 (in)"
+          "part": "in",
+          "mean": "= en:make"
         },
         {
-          "part": "force(fort)",
-          "mean": "강한 (strong)"
+          "part": "force",
+          "mean": "= strong"
         }
       ],
-      "origin": "다시 안에서 강하게 하다 → 강화하다"
+      "origin": "다시 강하게 만들다",
+      "derivatives": [
+        {
+          "en": "reinforcement",
+          "pos": "명",
+          "defs": [
+            "강화, 증강, 보강"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her success **reinforced** my belief in hard work.",
+          "ko": "그녀의 성공은 노력의 중요성에 대한 내 믿음을 강화시켰다."
+        }
+      ]
     }
   ]
 }
