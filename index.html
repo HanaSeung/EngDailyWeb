@@ -141,10 +141,11 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-word{font-family:'DM Serif Display',serif;font-size:2.6rem;letter-spacing:1px;text-align:center;margin-bottom:6px}
 .card-ipa{font-size:.95rem;color:var(--text-dim);text-align:center;margin-bottom:20px;font-family:Arial,Helvetica,sans-serif}
 .card-meanings{width:100%}
-.meaning-group{width:100%;margin-bottom:10px}.meaning-group:last-child{margin-bottom:0}
-.pos-tag{display:inline-block;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;vertical-align:middle;margin-right:6px}
-.def-inline{font-size:1rem;line-height:1.6;color:var(--text)}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;color:var(--text);flex-shrink:0;width:1.2em}.def-numbered-first{display:inline-flex}.def-numbered{display:flex;margin-left:40px}
-.def-prefixed-grid{display:inline-grid;grid-template-columns:auto auto 1fr;column-gap:5px;line-height:1.6;font-size:1rem}.def-prefixed-grid .pf-num{font-weight:700}
+.meaning-group{display:flex;align-items:flex-start;gap:6px;width:100%;margin-bottom:10px}.meaning-group:last-child{margin-bottom:0}
+.pos-tag{flex-shrink:0;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-top:2px}
+.meaning-defs{flex:1;min-width:0}
+.def-inline{font-size:1rem;line-height:1.6;color:var(--text)}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;color:var(--text);flex-shrink:0;width:1.2em}.def-numbered-first{display:flex}.def-numbered{display:flex}
+.def-prefixed-grid{display:grid;grid-template-columns:auto auto 1fr;column-gap:5px;line-height:1.6;font-size:1rem}.def-prefixed-grid .pf-num{font-weight:700}
 
 /* Navigation */
 .card-nav{display:flex;gap:8px;margin-bottom:12px}
@@ -1297,7 +1298,7 @@ function showCard() {
     const parsed = m.defs.map(d => formatDef(d));
     const hasPrefix = parsed.some(p => p.includes('def-prefixed'));
     if (hasPrefix) {
-      let gridHtml = '<span class="def-prefixed-grid">';
+      let gridHtml = '<div class="def-prefixed-grid">';
       m.defs.forEach(d => {
         const pm = d.match(/^(.+?\)\s*)(\d+)\s+(.*)/);
         if (pm) {
@@ -1313,11 +1314,11 @@ function showCard() {
           }
         }
       });
-      gridHtml += '</span>';
-      meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> ${gridHtml}</div>`;
+      gridHtml += '</div>';
+      meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><div class="meaning-defs">${gridHtml}</div></div>`;
     } else {
       const defsHtml = parsed.join(' ');
-      meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span> <span class="def-inline">${defsHtml}</span></div>`;
+      meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><div class="meaning-defs"><span class="def-inline">${defsHtml}</span></div></div>`;
     }
   });
 
