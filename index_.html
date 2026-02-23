@@ -1108,7 +1108,9 @@ function buildExamplesHtml(word) {
   const pattern = new RegExp(patterns.join('|'), 'gi');
   let h = '';
   word.examples.forEach(ex => {
-    const enText = ex.en.replace(/\n/g, '<br>').replace(pattern, '<b>$&</b>');
+    const enText = ex.en.includes('**')
+      ? ex.en.replace(/\n/g, '<br>').replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+      : ex.en.replace(/\n/g, '<br>').replace(pattern, '<b>$&</b>');
     h += '<div class="example-item">';
     h += `<div class="example-en">${enText}</div>`;
     h += `<div class="example-ko">${ex.ko.replace(/\n/g, '<br>')}`;
