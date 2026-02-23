@@ -2,339 +2,1182 @@
   "title": "contra- ~에 반대(대항)하여/ with- 뒤쪽으로,~에 대항하여/ ad- ~에,~로,~을 향해/ tele- 멀리/ auto- 자신의,스스로의",
   "words": [
     {
-      "en":"contrary","ipa":"/ˈkɑːntreri/",
-      "meanings":[{"pos":"형","defs":["(주로 + to) (~와) 반대의"]},{"pos":"명","defs":["(the +) (정)반대, 반대되는 것"]}],
-      "parts":[{"part":"contra-","mean":"반대 (against)"},{"part":"-ary","mean":"형용사형 접미사"}],
-      "origin":"반대되는 → 반대의",
-      "synonyms":["opposite"],
-      "phrases":[
-        {"en":"on the contrary","ko":"그와는 반대로, 오히려"}
+      "en": "contrary",
+      "ipa": [
+        "[kɑ́ːntrèri]"
       ],
-      "examples":[
-        {"en":"The actual result of the research was contrary to what he expected.","ko":"그 연구의 실제 결과는 그가 예상했던 것과 반대였다."},
-        {"en":"His views are the contrary of mine.","ko":"그의 의견은 내 의견과 반대이다."}
-      ]
-    },
-
-    {
-      "en":"contrast","ipa":"/ˈkɑːntræst/ · /kənˈtræst/",
-      "meanings":[{"pos":"명","defs":["대조, 대비","(대조에 의해 나타나는) 차이","정반대의 물건[사람]"]},{"pos":"동","defs":["대조[대비]하다","대조를 이루다"]}],
-      "parts":[{"part":"contra-","mean":"반대 (against)"},{"part":"st(stand)","mean":"서다 (stand)"}],
-      "origin":"반대쪽에 서다 → 대조",
-      "phrases":[
-        {"en":"by[in] contrast (to/with)","ko":"(~와) 대조적으로"},
-        {"en":"contrast A with B","ko":"A와 B를 대조하다"}
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "(주로 + to) (…와) 반대의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "(the +) (정)반대, 반대되는 것"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"By contrast, many present-day stories have a less definitive ending.","ko":"대조적으로, 많은 현대의 이야기는 덜 확정적인 결말[열린 결말]이다.","source":"모의"},
-        {"en":"In this book, the writer contrasts Europe with America.","ko":"이 책에서, 저자는 유럽과 미국을 대조하고 있다."}
-      ]
-    },
-
-    {
-      "en":"controversy","ipa":"/ˈkɑːntrəvɜːrsi/",
-      "meanings":[{"pos":"명","defs":["논쟁, 언쟁, 논란"]}],
-      "parts":[{"part":"contra-","mean":"반대 (against)"},{"part":"vers","mean":"돌리다 (turn)"},{"part":"-y","mean":"명사형 접미사"}],
-      "origin":"반대로 돌리다 → 논란",
-      "derivatives":[
-        {"en":"controversial","pos":"형","defs":["논란의 여지가 있는, 논쟁의"]}
+      "parts": [
+        {
+          "part": "contra",
+          "mean": "= opposite"
+        },
+        {
+          "part": "ry",
+          "mean": "형접"
+        }
       ],
-      "examples":[
-        {"en":"a heated controversy over educational policies","ko":"교육 정책에 대한 열띤 논쟁"},
-        {"en":"The idea was initially controversial, but fortunately it was supported by a compelling experiment.","ko":"그 아이디어는 처음에는 논란의 여지가 있었지만, 다행히도 설득력 있는 실험에 의해 지지되었다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"counterattack","ipa":"/ˈkaʊntərəˌtæk/",
-      "meanings":[{"pos":"명/동","defs":["반격(하다), 역습(하다)"]}],
-      "parts":[{"part":"counter-","mean":"반대로, 맞서 (against)"},{"part":"attack","mean":"공격 (attack)"}],
-      "origin":"맞서 공격하다 → 반격",
-      "examples":[
-        {"en":"Our army attacked the enemy first, and then they counterattacked.","ko":"아군이 먼저 적군을 공격하자 그들이 반격했다."}
-      ]
-    },
-
-    {
-      "en":"counterfeit","ipa":"/ˈkaʊntərfɪt/",
-      "meanings":[{"pos":"형","defs":["위조의, 가짜의"]},{"pos":"동","defs":["(화폐·문서 등을) 위조하다"]}],
-      "parts":[{"part":"counter-","mean":"반대로, 대항하여 (against)"},{"part":"feit","mean":"만들다 (make)"}],
-      "origin":"대항하여(몰래) 만들다 → 위조품, 가짜의",
-      "synonyms":["fake"],
-      "antonyms":["genuine"],
-      "phrases":[
-        {"en":"counterfeit note[money/currency/bill]","ko":"위조지폐 (= fake money)"}
+      "origin": "반대의",
+      "synonyms": [
+        "opposite"
       ],
-      "examples":[
-        {"en":"Someone passed me a counterfeit $20 bill.","ko":"누군가 내게 20달러짜리 위조지폐를 건넸다."},
-        {"en":"The counterfeiting of documents is a serious crime.","ko":"문서를 위조하는 것은 심각한 범죄이다."}
-      ]
-    },
-
-    {
-      "en":"counterpart","ipa":"/ˈkaʊntərpɑːrt/",
-      "meanings":[{"pos":"명","defs":["(직위·목적 등이) 대응하는 사람[것], 상대(방)"]}],
-      "parts":[{"part":"counter-","mean":"맞은편 (opposite)"},{"part":"part","mean":"부분, 역할 (part, role)"}],
-      "origin":"맞은편의 역할 → 상대방, 대응물",
-      "examples":[
-        {"en":"A meeting was scheduled between the Korean president and his Japanese counterpart.","ko":"한국 대통령과 일본 측 상대방(수상)과의 회담이 예정되어 있었다."}
-      ]
-    },
-
-    {
-      "en":"withdraw","ipa":"/wɪðˈdrɔː/",
-      "meanings":[{"pos":"동","defs":["(원조·약속·지원 등을) 철회[취소]하다","(직장·조직·학교 등을) 그만두다","(예금을) 인출하다","(군대 등이) 물러나다, 철수하다"]}],
-      "parts":[{"part":"with-","mean":"뒤로, 반대로 (back, against)"},{"part":"draw","mean":"끌다 (draw, pull)"}],
-      "origin":"뒤로 끌다 → 철회하다, 인출하다",
-      "synonyms":["retreat"],
-      "derivatives":[
-        {"en":"withdrawal","pos":"명","defs":["(군대의) 철수, 물러남","(원조·서비스 등의) 철회, 취소","(예금 등의) 인출"]}
+      "phrases": [
+        {
+          "en": "on the contrary",
+          "ko": "그와는 반대로, 오히려"
+        }
       ],
-      "examples":[
-        {"en":"I'll withdraw my complaint if you admit you were wrong.","ko":"당신이 잘못을 인정하면 고소를 철회하겠습니다."},
-        {"en":"A woman said to a bank clerk that she wanted to withdraw all her money.","ko":"한 여성이 은행원에게 모든 돈을 인출하고 싶다고 말했다.","source":"교과서"},
-        {"en":"the withdrawal of forces","ko":"병력의 철수"}
+      "examples": [
+        {
+          "en": "The actual result of the research was **contrary to** what he expected.",
+          "ko": "그 연구의 실제 결과는 그가 예상했던 것과 반대였다.",
+          "source": ""
+        },
+        {
+          "en": "His views are **the contrary** of mine.",
+          "ko": "그의 의견은 내 의견과 반대이다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"withhold","ipa":"/wɪðˈhoʊld/",
-      "meanings":[{"pos":"동","defs":["(꼭 쥐고) 주지 않다","(지원·승낙 등을) 유보하다"]}],
-      "parts":[{"part":"with-","mean":"뒤로, 반대로 (back, against)"},{"part":"hold","mean":"잡다 (hold)"}],
-      "origin":"뒤로 잡아두다 → 주지 않다, 보류하다",
-      "examples":[
-        {"en":"The company is withholding the workers' pay.","ko":"그 회사는 근로자들의 임금을 주지 않고 있다."}
-      ]
-    },
-
-    {
-      "en":"withstand","ipa":"/wɪðˈstænd/",
-      "meanings":[{"pos":"동","defs":["저항하다","견디다"]}],
-      "parts":[{"part":"with-","mean":"반대로, 맞서 (against)"},{"part":"stand","mean":"서다 (stand)"}],
-      "origin":"맞서 서다 → 저항하다, 견디다",
-      "synonyms":["resist","endure","put up with"],
-      "phrases":[
-        {"en":"notwithstanding","ko":"~에도 불구하고; 그럼에도 불구하고"}
+      "en": "contrast",
+      "ipa": [
+        "명 [kɑ́ːntræst]",
+        "동 [kəntrǽst]"
       ],
-      "examples":[
-        {"en":"Though the general ordered his army to resist, they couldn't withstand the enemy attack.","ko":"장군은 자신의 군대에게 저항할 것을 명령했지만, 그들은 적의 공격을 견뎌낼 수 없었다."}
-      ]
-    },
-
-    {
-      "en":"adjust","ipa":"/əˈdʒʌst/",
-      "meanings":[{"pos":"동","defs":["맞추다, 조정[조절]하다","(주로 + to) 적응[순응]하다"]}],
-      "parts":[{"part":"ad-","mean":"~쪽으로 (toward)"},{"part":"just","mean":"바른, 정당한 (right, just)"}],
-      "origin":"바른 쪽으로 맞추다 → 조절하다, 적응하다",
-      "synonyms":["modify","adapt to"],
-      "derivatives":[
-        {"en":"adjustment","pos":"명","defs":["수정, 조절","적응, 순응"]}
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *대조, 대비*",
+            "2 (대조에 의해 나타나는) 차이",
+            "3 정반대의 물건[사람]"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 대조[대비]하다",
+            "2 대조를 이루다"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"Adjust the volume level by moving the joystick left or right.","ko":"조종간을 좌우로 움직여 음량을 조절하세요."},
-        {"en":"I made a few minor adjustments to the basic design.","ko":"나는 기본 디자인에 몇 개의 작은 수정을 가했다."}
-      ]
-    },
-
-    {
-      "en":"accompany","ipa":"/əˈkʌmpəni/",
-      "meanings":[{"pos":"동","defs":["~와 동행하다","(주로 수동태로) (현상 등이) ~에 수반하여 일어나다","[음악] 반주하다"]}],
-      "parts":[{"part":"ac-(ad-)","mean":"~쪽으로 (toward)"},{"part":"com-","mean":"함께 (together)"},{"part":"pan","mean":"빵 (bread)"}],
-      "origin":"함께 빵을 나누러 가다 → 동행하다",
-      "synonyms":["escort"],
-      "phrases":[
-        {"en":"be accompanied by","ko":"~을 동반하다; ~을 수반하다"}
+      "parts": [
+        {
+          "part": "contra",
+          "mean": "= opposite"
+        },
+        {
+          "part": "st",
+          "mean": "= sta:stand"
+        }
       ],
-      "examples":[
-        {"en":"Children under ten must be accompanied by an adult.","ko":"10세 미만의 어린이들은 어른을 동반해야 한다.","source":"모의"},
-        {"en":"Adventure is always accompanied by risk.","ko":"모험은 항상 위험을 수반한다."}
-      ]
-    },
-
-    {
-      "en":"accustomed","ipa":"/əˈkʌstəmd/",
-      "meanings":[{"pos":"형","defs":["(~에) 익숙해진, 습관이 된"]}],
-      "parts":[{"part":"ac-(ad-)","mean":"~쪽으로 (toward)"},{"part":"custom","mean":"습관 (custom)"},{"part":"-ed","mean":"형용사형 접미사"}],
-      "origin":"습관 쪽으로 된 → 익숙한",
-      "synonyms":["habitual"],
-      "derivatives":[
-        {"en":"accustom","pos":"동","defs":["(+ to) 익숙하게 하다"]}
+      "origin": "정반대(의 위치)에 서 있는 것",
+      "phrases": [
+        {
+          "en": "by[in] contrast (to/with)",
+          "ko": "(…와) 대조적으로"
+        },
+        {
+          "en": "contrast A with B",
+          "ko": "A와 B를 대조하다"
+        }
       ],
-      "phrases":[
-        {"en":"be accustomed to N/v-ing","ko":"~에 익숙하다 (= be used to N/v-ing)"}
+      "examples": [
+        {
+          "en": "**By contrast**, many present-day stories have a less definitive ending.",
+          "ko": "대조적으로, 많은 현대의 이야기는 덜 확정적인 결말[열린 결말]이다.",
+          "source": "모의"
+        },
+        {
+          "en": "In this book, the writer **contrasts** Europe **with** America.",
+          "ko": "이 책에서, 저자는 유럽과 미국을 대조하고 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "controversy",
+      "ipa": [
+        "[kɑ́ːntrəvə̀ːrsi]"
       ],
-      "examples":[
-        {"en":"You'll soon be accustomed to the new environment.","ko":"당신은 곧 새로운 환경에 익숙해질 것입니다."}
-      ]
-    },
-
-    {
-      "en":"account","ipa":"/əˈkaʊnt/",
-      "meanings":[{"pos":"명","defs":["계좌","보고(서), 설명","계정","이유, 원인","계산서"]},{"pos":"동","defs":["(+ for) ~의 이유를 밝히다, ~을 설명하다","~의 원인이 되다","(~의 비율을) 차지하다"]}],
-      "parts":[{"part":"ac-(ad-)","mean":"~쪽으로 (toward)"},{"part":"count","mean":"세다 (count)"}],
-      "origin":"~쪽으로 세다 → 계좌, 설명",
-      "synonyms":["reason","bill","explain"],
-      "derivatives":[
-        {"en":"accountant","pos":"명","defs":["회계사"]}
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "논쟁, 언쟁, 논란"
+          ]
+        }
       ],
-      "phrases":[
-        {"en":"take A into account","ko":"A를 고려하다 (= take account of A)"},
-        {"en":"on account of","ko":"~ 때문에 (= because of)"},
-        {"en":"of no[little] account","ko":"중요치 않은"}
+      "parts": [
+        {
+          "part": "contro",
+          "mean": "= opposite"
+        },
+        {
+          "part": "vers",
+          "mean": "= turn"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
+        }
       ],
-      "examples":[
-        {"en":"I'd like to open a new account.","ko":"계좌를 신설하고 싶습니다."},
-        {"en":"Can you account for your behavior today?","ko":"오늘 네 행동에 대해 설명해줄래?"},
-        {"en":"Subscriptions account for almost 90 percent of total newspaper sales.","ko":"구독이 전체 신문 판매의 거의 90%를 차지한다.","source":"수능"},
-        {"en":"They took the weather into account when planning the trip.","ko":"그들은 여행을 계획할 때 날씨를 고려했다."}
-      ]
-    },
-
-    {
-      "en":"accumulate","ipa":"/əˈkjuːmjəleɪt/",
-      "meanings":[{"pos":"동","defs":["(돈·재산·물건 등을) 모으다, 축적하다; 모이다, 축적되다"]}],
-      "parts":[{"part":"ac-(ad-)","mean":"~쪽으로 (toward)"},{"part":"cumul","mean":"쌓다, 더미 (heap)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"한쪽으로 쌓다 → 축적하다",
-      "synonyms":["pile up","collect"],
-      "derivatives":[
-        {"en":"accumulation","pos":"명","defs":["축적, 쌓아올림"]}
+      "origin": "(서로) 반대로 돌아서는 것 → 논쟁",
+      "derivatives": [
+        {
+          "en": "controversial",
+          "pos": "형",
+          "defs": [
+            "논란의 여지가 있는, 논쟁의"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"How did he accumulate that much money?","ko":"그는 어떻게 그 많은 돈을 모았습니까?"}
+      "examples": [
+        {
+          "en": "a heated **controversy** over educational policies",
+          "ko": "교육 정책에 대한 열띤 논쟁",
+          "source": ""
+        },
+        {
+          "en": "The idea was initially **controversial**, but fortunately it was supported by a compelling experiment.",
+          "ko": "그 아이디어는 처음에는 논란의 여지가 있었지만, 다행히도 설득력 있는 실험에 의해 지지되었다.",
+          "source": "모의"
+        }
       ]
     },
-
     {
-      "en":"appoint","ipa":"/əˈpɔɪnt/",
-      "meanings":[{"pos":"동","defs":["임명[지정]하다","(시간·장소를) 정하다"]}],
-      "parts":[{"part":"ap-(ad-)","mean":"~쪽으로 (toward)"},{"part":"point","mean":"가리키다 (point)"}],
-      "origin":"~을 가리켜 정하다 → 임명하다",
-      "synonyms":["nominate","assign","fix","arrange"],
-      "derivatives":[
-        {"en":"appointment","pos":"명","defs":["(회의·예약 등의) 약속","임명, 지명"]}
+      "en": "counterattack",
+      "ipa": [
+        "[káuntərətæ̀k]"
       ],
-      "phrases":[
-        {"en":"make an appointment","ko":"(회의·예약 등의) 약속을 정하다"},
-        {"en":"have an appointment","ko":"(회의·예약 등의) 약속이 있다"}
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "반격(하다), 역습(하다)"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "반격(하다), 역습(하다)"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"Later in his life, he was appointed the U.S. Ambassador to the Republic of Seychelles.","ko":"말년에, 그는 세이셸 공화국의 미국 대사로 임명되었다.","source":"모의"},
-        {"en":"She made an appointment with her hairdresser for next Monday.","ko":"그녀는 다음 주 월요일에 자신의 미용사와 약속을 잡았다."}
-      ]
-    },
-
-    {
-      "en":"approach","ipa":"/əˈproʊtʃ/",
-      "meanings":[{"pos":"동","defs":["~에 접근하다[다가가다]; 다가오다","(부탁·교섭 등을 위해) (~에게) 이야기를 꺼내다","(문제 등을) 다루다"]},{"pos":"명","defs":["접근법, 해결 방법","가까워짐, 접근"]}],
-      "parts":[{"part":"ap-(ad-)","mean":"~쪽으로 (toward)"},{"part":"proach","mean":"가까이 (near)"}],
-      "origin":"가까이 다가가다 → 접근하다",
-      "synonyms":["come up[near] (to)","deal with"],
-      "examples":[
-        {"en":"What a chilly wind! Winter must be approaching.","ko":"바람이 몹시 찬데! 겨울이 다가오고 있음이 틀림없어."},
-        {"en":"His innovative approach to art inspired many great artists who came after him.","ko":"예술에 대한 그의 혁신적인 접근 방식은 그 이후에 등장한 많은 위대한 예술가들에게 영감을 주었다.","source":"교과서"}
-      ]
-    },
-
-    {
-      "en":"await","ipa":"/əˈweɪt/",
-      "meanings":[{"pos":"동","defs":["기다리다, 대기하다"]}],
-      "parts":[{"part":"a-(ad-)","mean":"~쪽으로 (toward)"},{"part":"wait","mean":"기다리다 (wait)"}],
-      "origin":"~을 향해 기다리다 → 기다리다",
-      "synonyms":["wait for"],
-      "examples":[
-        {"en":"When he was young, he eagerly awaited the weekly arrival of Life magazine.","ko":"어렸을 때 그는 매주 Life 잡지가 도착하는 것을 간절히 기다렸다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"abandon","ipa":"/əˈbændən/",
-      "meanings":[{"pos":"동","defs":["(사람·장소 등을) 버리다, 떠나다","(계획·생각·신념 등을) 포기하다"]}],
-      "parts":[{"part":"a-(ad-)","mean":"~쪽으로 (to)"},{"part":"bandon","mean":"지배, 관할 (control, jurisdiction)"}],
-      "origin":"관할에서 내놓다 → 버리다, 포기하다",
-      "synonyms":["leave","desert","give up"],
-      "examples":[
-        {"en":"The poor little kitten was abandoned.","ko":"그 불쌍한 새끼 고양이는 버려졌다."},
-        {"en":"I'll never abandon my dreams nor give up hope.","ko":"나는 결코 내 꿈을 버리거나 희망을 포기하지도 않을 것이다."}
-      ]
-    },
-
-    {
-      "en":"arrogant","ipa":"/ˈærəɡənt/",
-      "meanings":[{"pos":"형","defs":["거만한, 오만한"]}],
-      "parts":[{"part":"ar-(ad-)","mean":"~쪽으로 (toward)"},{"part":"rog","mean":"요구하다 (ask)"},{"part":"-ant","mean":"형용사형 접미사"}],
-      "origin":"자기 쪽으로 요구하는 → 오만한",
-      "antonyms":["modest","humble"],
-      "derivatives":[
-        {"en":"arrogance","pos":"명","defs":["거만, 오만"]}
+      "parts": [
+        {
+          "part": "counter",
+          "mean": "= against"
+        },
+        {
+          "part": "attack",
+          "mean": "공격"
+        }
       ],
-      "examples":[
-        {"en":"I can't stand his arrogant attitude.","ko":"나는 그의 거만한 태도를 참을 수 없다."}
+      "origin": "대항해 공격(하다)",
+      "examples": [
+        {
+          "en": "Our army attacked the enemy first, and then they **counterattacked**.",
+          "ko": "아군이 먼저 적군을 공격하자 그들이 반격했다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"telescope","ipa":"/ˈtelɪskoʊp/",
-      "meanings":[{"pos":"명","defs":["망원경"]}],
-      "parts":[{"part":"tele-","mean":"멀리 (far)"},{"part":"scope","mean":"보다 (look, view)"}],
-      "origin":"멀리 보는 것 → 망원경",
-      "phrases":[
-        {"en":"cf. microscope","ko":"현미경"}
+      "en": "counterfeit",
+      "ipa": [
+        "[káuntərfìt]"
       ],
-      "examples":[
-        {"en":"He bought a telescope to gaze at the stars.","ko":"그는 별을 보려고 망원경을 샀다."}
-      ]
-    },
-
-    {
-      "en":"telegraph","ipa":"/ˈtelɪɡræf/",
-      "meanings":[{"pos":"명","defs":["전보, 전신"]},{"pos":"동","defs":["~에게 전보를 치다, 전보로 알리다","(몸짓·눈짓 등으로) ~을 넌지시 알리다[표현하다]"]}],
-      "parts":[{"part":"tele-","mean":"멀리 (far)"},{"part":"graph","mean":"쓰다 (write)"}],
-      "origin":"멀리 글을 보내다 → 전신, 전보",
-      "examples":[
-        {"en":"We don't send telegraphs to communicate anymore.","ko":"우리는 더 이상 전보를 보내서 소통하지 않는다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"telecommute","ipa":"/ˌtelikəˈmjuːt/",
-      "meanings":[{"pos":"동","defs":["(컴퓨터 등의 통신 시설을 이용하여) 재택근무하다"]}],
-      "parts":[{"part":"tele-","mean":"멀리 (far)"},{"part":"commute","mean":"통근하다 (commute)"}],
-      "origin":"멀리서 통근하다 → 재택근무하다",
-      "examples":[
-        {"en":"Many employees now telecommute at least one day a week.","ko":"많은 직원들이 이제 일주일에 적어도 하루는 재택근무를 한다."}
-      ]
-    },
-
-    {
-      "en":"autograph","ipa":"/ˈɔːtəɡræf/",
-      "meanings":[{"pos":"명","defs":["사인, 자필 서명"]},{"pos":"동","defs":["자필 서명하다"]}],
-      "parts":[{"part":"auto-","mean":"스스로 (self)"},{"part":"graph","mean":"쓰다 (write)"}],
-      "origin":"스스로 쓴 것 → 서명, 사인",
-      "examples":[
-        {"en":"I'm a big fan of yours. Can I get your autograph?","ko":"당신의 열렬한 팬이에요. 사인 좀 받을 수 있을까요?"}
-      ]
-    },
-
-    {
-      "en":"autobiography","ipa":"/ˌɔːtəbaɪˈɑːɡrəfi/",
-      "meanings":[{"pos":"명","defs":["자서전"]}],
-      "parts":[{"part":"auto-","mean":"스스로 (self)"},{"part":"bio","mean":"생명, 삶 (life)"},{"part":"graphy","mean":"기록 (writing)"}],
-      "origin":"스스로 쓴 삶의 기록 → 자서전",
-      "phrases":[
-        {"en":"cf. biography","ko":"(주로 자신이 아닌 다른 사람이 쓴) 전기, 일대기"}
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "위조의, 가짜의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "(화폐·문서 등을) 위조하다"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"Have you ever read Benjamin Franklin's autobiography?","ko":"벤저민 프랭클린의 자서전을 읽어본 적이 있습니까?"}
+      "parts": [
+        {
+          "part": "counter",
+          "mean": "= against"
+        },
+        {
+          "part": "feit",
+          "mean": "= fac:make"
+        }
+      ],
+      "origin": "진품에 대항해 만든",
+      "synonyms": [
+        "fake"
+      ],
+      "antonyms": [
+        "genuine"
+      ],
+      "phrases": [
+        {
+          "en": "counterfeit note[money/currency/bill]",
+          "ko": "위조지폐 (= fake money)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Someone passed me a **counterfeit** $20 bill.",
+          "ko": "누군가 내게 20달러짜리 위조지폐를 건넸다.",
+          "source": ""
+        },
+        {
+          "en": "The **counterfeiting** of documents is a serious crime.",
+          "ko": "문서를 위조하는 것은 심각한 범죄이다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"automobile","ipa":"/ˈɔːtəmoʊbiːl/",
-      "meanings":[{"pos":"명/형","defs":["자동차(의)"]}],
-      "parts":[{"part":"auto-","mean":"스스로 (self)"},{"part":"mobile","mean":"움직이는 (moving)"}],
-      "origin":"스스로 움직이는 것 → 자동차",
-      "examples":[
-        {"en":"The automobile industry has led the country's economic growth.","ko":"자동차 산업이 그 나라의 경제 성장을 이끌었다."}
+      "en": "counterpart",
+      "ipa": [
+        "[káuntərpɑ̀ːrt]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "(직위·목적 등이) 대응하는 사람[것], 상대(방)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "counter",
+          "mean": "= against"
+        },
+        {
+          "part": "part",
+          "mean": "부분, 역할"
+        }
+      ],
+      "origin": "어떤 사람[대상]과 대응되는 역할[사람/것]",
+      "examples": [
+        {
+          "en": "A meeting was scheduled between the Korean president and his Japanese **counterpart**.",
+          "ko": "한국 대통령과 일본 측 상대방(수상)과의 회담이 예정되어 있었다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "withdraw",
+      "ipa": [
+        "[wiðdrɔ́ː]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *(원조·약속·지원 등을) 철회[취소]하다*",
+            "2 (직장·조직·학교 등을) 그만두다",
+            "3 (예금을) 인출하다",
+            "4 (군대 등이) 물러나다, 철수하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "with",
+          "mean": "= back"
+        },
+        {
+          "part": "draw",
+          "mean": "당기다"
+        }
+      ],
+      "origin": "뒤로 당기다 →\n├ (약속·지원 등을) 되가져오다 → 취소하다\n├ (조직에서) 나오다 → 그만두다\n├ (돈을) 되찾다 → 인출하다\n└ (병력을) 뒤로 빼내다 → 철수하다",
+      "synonyms": [
+        "retreat"
+      ],
+      "derivatives": [
+        {
+          "en": "withdrawal",
+          "pos": "명",
+          "defs": [
+            "1 (군대의) 철수, 물러남",
+            "2 (원조·서비스 등의) 철회, 취소",
+            "3 (예금 등의) 인출"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'll **withdraw** my complaint if you admit you were wrong.",
+          "ko": "당신이 잘못을 인정하면 고소를 철회하겠습니다.",
+          "source": ""
+        },
+        {
+          "en": "A woman said to a bank clerk that she wanted to **withdraw** all her money.",
+          "ko": "한 여성이 은행원에게 모든 돈을 인출하고 싶다고 말했다.",
+          "source": "교과서"
+        },
+        {
+          "en": "the **withdrawal** of forces",
+          "ko": "병력의 철수",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "withhold",
+      "ipa": [
+        "[wiðhóuld]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (꼭 쥐고) 주지 않다",
+            "2 (지원·승낙 등을) 유보하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "with",
+          "mean": "= back"
+        },
+        {
+          "part": "hold",
+          "mean": "갖고 있다"
+        }
+      ],
+      "origin": "(주지 않고) 뒤에 둔 채로 갖고 있다",
+      "examples": [
+        {
+          "en": "The company is **withholding** the workers' pay.",
+          "ko": "그 회사는 근로자들의 임금을 주지 않고 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "withstand",
+      "ipa": [
+        "[wiðstǽnd]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 저항하다",
+            "2 견디다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "with",
+          "mean": "= against"
+        },
+        {
+          "part": "stand",
+          "mean": "서다, 견디다"
+        }
+      ],
+      "origin": "대항하여 서다[견디다]",
+      "synonyms": [
+        "resist",
+        "endure",
+        "put up with"
+      ],
+      "phrases": [
+        {
+          "en": "notwithstanding",
+          "ko": "…에도 불구하고; 그럼에도 불구하고"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Though the general ordered his army to resist, they couldn't **withstand** the enemy attack.",
+          "ko": "장군은 자신의 군대에게 저항할 것을 명령했지만, 그들은 적의 공격을 견뎌낼 수 없었다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "adjust",
+      "ipa": [
+        "[ədʒʌ́st]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *맞추다, 조정[조절]하다*",
+            "2 (주로 + to) 적응[순응]하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ad",
+          "mean": "= to"
+        },
+        {
+          "part": "just",
+          "mean": "올바른"
+        }
+      ],
+      "origin": "…의 목적에 맞게 하다, 바로잡다",
+      "synonyms": [
+        "modify",
+        "adapt to"
+      ],
+      "derivatives": [
+        {
+          "en": "adjustment",
+          "pos": "명",
+          "defs": [
+            "1 수정, 조절",
+            "2 적응, 순응"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Adjust** the volume level by moving the joystick left or right.",
+          "ko": "조종간을 좌우로 움직여 음량을 조절하세요.",
+          "source": ""
+        },
+        {
+          "en": "I made a few minor **adjustments** to the basic design.",
+          "ko": "나는 기본 디자인에 몇 개의 작은 수정을 가했다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "accompany",
+      "ipa": [
+        "[əkʌ́mpəni]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *…와 동행하다*",
+            "2 (주로 수동태로) (현상 등이) …에 수반하여 일어나다",
+            "3 [음악] 반주하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac",
+          "mean": "= to"
+        },
+        {
+          "part": "company",
+          "mean": "동행, 일행"
+        }
+      ],
+      "origin": "…로 가는 길의 일행이 되다",
+      "synonyms": [
+        "escort"
+      ],
+      "phrases": [
+        {
+          "en": "be accompanied by",
+          "ko": "…을 동반하다; …을 수반하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Children under ten must **be accompanied by** an adult.",
+          "ko": "10세 미만의 어린이들은 어른을 동반해야 한다.",
+          "source": "모의"
+        },
+        {
+          "en": "Adventure **is** always **accompanied by** risk.",
+          "ko": "모험은 항상 위험을 수반한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "accustomed",
+      "ipa": [
+        "[əkʌ́stəmd]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "(…에) 익숙해진, 습관이 된"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac",
+          "mean": "= to"
+        },
+        {
+          "part": "custom",
+          "mean": "습관, 관습"
+        },
+        {
+          "part": "ed",
+          "mean": "〈과거분사〉"
+        }
+      ],
+      "origin": "…에 습관이 배인",
+      "synonyms": [
+        "habitual"
+      ],
+      "derivatives": [
+        {
+          "en": "accustom",
+          "pos": "동",
+          "defs": [
+            "(+ to) 익숙하게 하다"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be accustomed to N/v-ing",
+          "ko": "…에 익숙하다 (= be used to N/v-ing)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "You'll soon **be accustomed to** the new environment.",
+          "ko": "당신은 곧 새로운 환경에 익숙해질 것입니다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "account",
+      "ipa": [
+        "[əkáunt]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *계좌*",
+            "2 *보고(서), 설명*",
+            "3 계정",
+            "4 이유, 원인",
+            "5 계산서"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "(+ for) 1 *…의 이유를 밝히다, …을 설명하다*",
+            "2 …의 원인이 되다",
+            "3 *(…의 비율을) 차지하다*"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac",
+          "mean": "= to"
+        },
+        {
+          "part": "count",
+          "mean": "계산하다"
+        }
+      ],
+      "origin": "계산해서 …에게 보고하다 →\n├ 계산 결과 → 계산서\n├ → 은행 계좌 → (은행 등의 개인별) 계정\n├ 보고할 내용 → 보고서, 설명\n└ → (보고서에 담긴) 이유, 원인",
+      "synonyms": [
+        "reason",
+        "explain",
+        "bill"
+      ],
+      "derivatives": [
+        {
+          "en": "accountant",
+          "pos": "명",
+          "defs": [
+            "회계사"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "take A into account",
+          "ko": "A를 고려하다 (= take account of A)"
+        },
+        {
+          "en": "on account of",
+          "ko": "… 때문에 (= because of)"
+        },
+        {
+          "en": "of no[little] account",
+          "ko": "중요치 않은"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'd like to open a new **account**.",
+          "ko": "계좌를 신설하고 싶습니다.",
+          "source": ""
+        },
+        {
+          "en": "Can you **account for** your behavior today?",
+          "ko": "오늘 네 행동에 대해 설명해줄래?",
+          "source": ""
+        },
+        {
+          "en": "Subscriptions **account for** almost 90 percent of total newspaper sales.",
+          "ko": "구독이 전체 신문 판매의 거의 90%를 차지한다.",
+          "source": "수능"
+        },
+        {
+          "en": "They **took** the weather **into account** when planning the trip.",
+          "ko": "그들은 여행을 계획할 때 날씨를 고려했다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "accumulate",
+      "ipa": [
+        "[əkjúːmjəlèit]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(돈·재산·물건 등을) 모으다, 축적하다; 모이다, 축적되다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ac",
+          "mean": "= to"
+        },
+        {
+          "part": "cumulate",
+          "mean": "쌓다"
+        }
+      ],
+      "origin": "…에 (추가하여) 쌓아올리다",
+      "synonyms": [
+        "pile up",
+        "collect"
+      ],
+      "derivatives": [
+        {
+          "en": "accumulation",
+          "pos": "명",
+          "defs": [
+            "축적, 쌓아올림"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "How did he **accumulate** that much money?",
+          "ko": "그는 어떻게 그 많은 돈을 모았습니까?",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "appoint",
+      "ipa": [
+        "[əpɔ́int]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *임명[지정]하다*",
+            "2 (시간·장소를) 정하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap",
+          "mean": "= to"
+        },
+        {
+          "part": "point",
+          "mean": "가리키다"
+        }
+      ],
+      "origin": "어떤 지점을 가리키다 → 콕 집어 정하다",
+      "synonyms": [
+        "nominate",
+        "assign",
+        "fix",
+        "arrange"
+      ],
+      "derivatives": [
+        {
+          "en": "appointment",
+          "pos": "명",
+          "defs": [
+            "1 (회의·예약 등의) 약속",
+            "2 임명, 지명"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "make an appointment",
+          "ko": "(회의·예약 등의) 약속을 정하다"
+        },
+        {
+          "en": "have an appointment",
+          "ko": "(회의·예약 등의) 약속이 있다"
+        },
+        {
+          "en": "※ 회의·예약 등의 약속을 의미할 때에는 promise를 쓰지 않는다.",
+          "ko": ""
+        }
+      ],
+      "examples": [
+        {
+          "en": "Later in his life, he was **appointed** the U.S. Ambassador to the Republic of Seychelles.",
+          "ko": "말년에, 그는 세이셸 공화국의 미국 대사로 임명되었다.",
+          "source": "모의"
+        },
+        {
+          "en": "She **made an appointment** with her hairdresser for next Monday.",
+          "ko": "그녀는 다음 주 월요일에 자신의 미용사와 약속을 잡았다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "approach",
+      "ipa": [
+        "[əpróutʃ]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *…에 접근하다[다가가다]; 다가오다*",
+            "2 (부탁·교섭 등을 위해) (…에게) 이야기를 꺼내다",
+            "3 (문제 등을) 다루다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *접근법, 해결 방법*",
+            "2 가까워짐, 접근"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ap",
+          "mean": "= to"
+        },
+        {
+          "part": "proach",
+          "mean": "= near"
+        }
+      ],
+      "origin": "…에 가까이 가다",
+      "synonyms": [
+        "come up[near] (to)",
+        "deal with"
+      ],
+      "examples": [
+        {
+          "en": "What a chilly wind! Winter must be **approaching**.",
+          "ko": "바람이 몹시 차네! 겨울이 다가오고 있음이 틀림없어.",
+          "source": ""
+        },
+        {
+          "en": "His innovative **approach** to art inspired many great artists who came after him.",
+          "ko": "예술에 대한 그의 혁신적인 접근 방식은 그 이후에 등장한 많은 위대한 예술가들에게 영감을 주었다.",
+          "source": "교과서"
+        }
+      ]
+    },
+    {
+      "en": "await",
+      "ipa": [
+        "[əwéit]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "기다리다, 대기하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "= to"
+        },
+        {
+          "part": "wait",
+          "mean": "기다리다"
+        }
+      ],
+      "origin": "…을 기다리다",
+      "synonyms": [
+        "wait for"
+      ],
+      "examples": [
+        {
+          "en": "When he was young, he eagerly **awaited** the weekly arrival of *Life* magazine.",
+          "ko": "어렸을 때 그는 매주 Life 잡지가 도착하는 것을 간절히 기다렸다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "abandon",
+      "ipa": [
+        "[əbǽndən]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (사람·장소 등을) 버리다, 떠나다",
+            "2 (계획·생각·신념 등을) 포기하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "= to"
+        },
+        {
+          "part": "bandon",
+          "mean": "힘, 통제"
+        }
+      ],
+      "origin": "…에게 힘[통제권]을 (내어)주다 → 포기하다",
+      "synonyms": [
+        "leave",
+        "desert",
+        "give up"
+      ],
+      "examples": [
+        {
+          "en": "The poor little kitten was **abandoned**.",
+          "ko": "그 불쌍한 새끼 고양이는 버려졌다.",
+          "source": ""
+        },
+        {
+          "en": "I'll never **abandon** my dreams nor give up hope.",
+          "ko": "나는 결코 내 꿈을 버리거나 희망을 포기하지도 않을 것이다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "arrogant",
+      "ipa": [
+        "[ǽrəgənt]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "거만한, 오만한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ar",
+          "mean": "= toward"
+        },
+        {
+          "part": "rog",
+          "mean": "= ask"
+        },
+        {
+          "part": "ant",
+          "mean": "형접"
+        }
+      ],
+      "origin": "(권리도 없는데) …을 향해 요구하는\n→ 건방진",
+      "antonyms": [
+        "modest",
+        "humble"
+      ],
+      "derivatives": [
+        {
+          "en": "arrogance",
+          "pos": "명",
+          "defs": [
+            "거만, 오만"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I can't stand his **arrogant** attitude.",
+          "ko": "나는 그의 거만한 태도를 참을 수 없다.",
+          "source": ""
+        }
+      ],
+      "synonyms": []
+    },
+    {
+      "en": "telescope",
+      "ipa": [
+        "[téləskòup]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "망원경"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tele",
+          "mean": "= far off"
+        },
+        {
+          "part": "scope",
+          "mean": "= spect:look"
+        }
+      ],
+      "origin": "먼 곳까지 볼 수 있는 것",
+      "phrases": [
+        {
+          "en": "cf. microscope",
+          "ko": "현미경"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He bought a **telescope** to gaze at the stars.",
+          "ko": "그는 별을 보려고 망원경을 샀다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "telegraph",
+      "ipa": [
+        "[téləgræ̀f]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "전보, 전신"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 …에게 전보를 치다, 전보로 알리다",
+            "2 (몸짓·눈짓 등으로) …을 넌지시 알리다[표현하다]"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tele",
+          "mean": "= far off"
+        },
+        {
+          "part": "graph",
+          "mean": "= write"
+        }
+      ],
+      "origin": "멀리서 쓰는 것 → 멀리서 전달되는 편지",
+      "examples": [
+        {
+          "en": "We don't send **telegraphs** to communicate anymore.",
+          "ko": "우리는 더 이상 전보를 보내서 소통하지 않는다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "telecommute",
+      "ipa": [
+        "[tèlikəmjúːt]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(컴퓨터 등의 통신 시설을 이용하여) 재택근무하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tele",
+          "mean": "= far off"
+        },
+        {
+          "part": "commute",
+          "mean": "통근하다"
+        }
+      ],
+      "origin": "멀리서 통근하다 → (출근하지 않고) 멀리서 근무하다",
+      "examples": [
+        {
+          "en": "Many employees now **telecommute** at least one day a week.",
+          "ko": "많은 직원들이 이제 일주일에 적어도 하루는 재택근무를 한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "autograph",
+      "ipa": [
+        "[ɔ́ːtəgræ̀f]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "사인, 자필 서명"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "자필 서명하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "auto",
+          "mean": "= self"
+        },
+        {
+          "part": "graph",
+          "mean": "= write"
+        }
+      ],
+      "origin": "write with one's own hand\n자필로 쓴 것 → 자필 서명",
+      "examples": [
+        {
+          "en": "I'm a big fan of yours. Can I get your **autograph**?",
+          "ko": "당신의 열렬한 팬이에요. 사인 좀 받을 수 있을까요?",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "autobiography",
+      "ipa": [
+        "[ɔ̀ːtəbaiɑ́ːgrəfi]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자서전"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "auto",
+          "mean": "= self"
+        },
+        {
+          "part": "bio",
+          "mean": "= life 생명, 삶"
+        },
+        {
+          "part": "graphy",
+          "mean": "= write"
+        }
+      ],
+      "origin": "자신의 삶에 대해 스스로(직접) 쓴 것",
+      "phrases": [
+        {
+          "en": "cf. biography",
+          "ko": "(주로 자신이 아닌 다른 사람이 쓴) 전기, 일대기"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Have you ever read Benjamin Franklin's **autobiography**?",
+          "ko": "벤저민 프랭클린의 자서전을 읽어본 적이 있습니까?",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "automobile",
+      "ipa": [
+        "[ɔ̀ːtəməbíːl]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "자동차(의)"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "자동차(의)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "auto",
+          "mean": "= self"
+        },
+        {
+          "part": "mobile",
+          "mean": "= moving"
+        }
+      ],
+      "origin": "self-moving 자동으로 움직이는 것",
+      "examples": [
+        {
+          "en": "The **automobile** industry has led the country's economic growth.",
+          "ko": "자동차 산업이 그 나라의 경제 성장을 이끌었다.",
+          "source": ""
+        }
       ]
     }
   ]

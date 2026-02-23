@@ -3,547 +3,1411 @@
   "words": [
     {
       "en": "structure",
-      "ipa": "/strʌ́ktʃər/",
+      "ipa": [
+        "[strʌ́ktʃər]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["1 *구조, 조직, 체계", "2 건축물, 구조물"]},
-        {"pos": "동", "defs": ["구성하다, 조직화하다"]}
+        {
+          "pos": "명",
+          "defs": [
+            "1 *구조, 조직, 체계",
+            "2 건축물, 구조물"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "구성하다, 조직화하다"
+          ]
+        }
       ],
       "parts": [
-        {"part": "struct", "mean": "build"},
-        {"part": "ure", "mean": "명접"}
+        {
+          "part": "struct",
+          "mean": "= build"
+        },
+        {
+          "part": "ure",
+          "mean": "명접"
+        }
       ],
       "origin": "세워진 것",
-      "synonyms": ["arrange", "organize"],
+      "synonyms": [
+        "arrange",
+        "organize"
+      ],
       "derivatives": [
-        {"en": "structural", "pos": "형", "defs": ["구조상의, 조직상의"]}
+        {
+          "en": "structural",
+          "pos": "형",
+          "defs": [
+            "구조상의, 조직상의"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "the social[political/economic] structure", "ko": "사회[정치/경제] 구조"}
+        {
+          "en": "the social[political/economic] structure",
+          "ko": "사회[정치/경제] 구조"
+        }
       ],
       "examples": [
-        {"en": "The human body is an incredibly complex structure.", "ko": "인체는 믿을 수 없을 정도로 복잡한 조직체이다.", "source": ""}
+        {
+          "en": "The human body is an incredibly complex structure.",
+          "ko": "인체는 믿을 수 없을 정도로 복잡한 조직체이다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "infrastructure",
-      "ipa": "/ínfrəstrʌ̀ktʃər/",
+      "ipa": [
+        "[ínfrəstrʌ̀ktʃər]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["사회 기반 시설 (교통·통신, 수도·전기 시설 등 국가 경제와 국민 생활에 필수적인 시설)"]}
+        {
+          "pos": "명",
+          "defs": [
+            "사회 기반 시설 (교통·통신, 수도·전기 시설 등 국가 경제와 국민 생활에 필수적인 시설)"
+          ]
+        }
       ],
       "parts": [
-        {"part": "infra", "mean": "under"},
-        {"part": "struct", "mean": "build"},
-        {"part": "ure", "mean": "명접"}
+        {
+          "part": "infra",
+          "mean": "= under"
+        },
+        {
+          "part": "struct",
+          "mean": "= build"
+        },
+        {
+          "part": "ure",
+          "mean": "명접"
+        }
       ],
       "origin": "아래에 세워진 것 → (사회의) 기반 시설",
       "examples": [
-        {"en": "The city needs better infrastructure to handle traffic.", "ko": "그 도시는 교통 문제를 처리하기 위해 더 나은 기반 시설이 필요하다.", "source": ""}
+        {
+          "en": "The city needs better infrastructure to handle traffic.",
+          "ko": "그 도시는 교통 문제를 처리하기 위해 더 나은 기반 시설이 필요하다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "construct",
-      "ipa": "/kənstrʌ́kt/",
+      "ipa": [
+        "동 [kənstrʌ́kt]",
+        "명 [kɑ́ːnstrʌkt]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["1 *건설하다, 세우다", "2 (문장·글 등을) 만들다, 구성하다"]},
-        {"pos": "명", "defs": ["1 건축물, 구조물", "2 (복잡한) 생각"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 *건설하다, 세우다",
+            "2 (문장·글 등을) 만들다, 구성하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 건축물, 구조물",
+            "2 (복잡한) 생각"
+          ]
+        }
       ],
       "parts": [
-        {"part": "con", "mean": "com:together"},
-        {"part": "struct", "mean": "build"}
+        {
+          "part": "con",
+          "mean": "= com:together"
+        },
+        {
+          "part": "struct",
+          "mean": "= build"
+        }
       ],
       "origin": "(순서와 위치에 맞게) 함께 쌓다 → 건설하다",
-      "antonyms": ["demolish"],
+      "antonyms": [
+        "demolish"
+      ],
       "derivatives": [
-        {"en": "construction", "pos": "명", "defs": ["1 건설, 건축 (공사)", "2 구조", "3 건축물, 구조물"]},
-        {"en": "constructive", "pos": "형", "defs": ["(의견·비판 등이) 건설적인, 유용한"]}
+        {
+          "en": "construction",
+          "pos": "명",
+          "defs": [
+            "1 건설, 건축 (공사)",
+            "2 구조",
+            "3 건축물, 구조물"
+          ]
+        },
+        {
+          "en": "constructive",
+          "pos": "형",
+          "defs": [
+            "(의견·비판 등이) 건설적인, 유용한"
+          ]
+        }
       ],
       "examples": [
-        {"en": "A: When are they going to construct a new bridge?\nB: It's already under construction.", "ko": "A: 그들은 언제 새로운 다리를 건설할 예정입니까?\nB: 이미 건설 중에 있습니다.", "source": ""},
-        {"en": "Leaders should give their employees honest and constructive feedback on their performance.", "ko": "리더들은 직원들의 업무 성과에 대해 솔직하고 건설적인 피드백을 제공해야 한다.", "source": "모의"}
+        {
+          "en": "A: When are they going to construct a new bridge?\nB: It's already under construction.",
+          "ko": "A: 그들은 언제 새로운 다리를 건설할 예정입니까?\nB: 이미 건설 중에 있습니다.",
+          "source": ""
+        },
+        {
+          "en": "Leaders should give their employees honest and constructive feedback on their performance.",
+          "ko": "리더들은 직원들의 업무 성과에 대해 솔직하고 건설적인 피드백을 제공해야 한다.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "instruct",
-      "ipa": "/instrʌ́kt/",
+      "ipa": [
+        "[instrʌ́kt]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["1 (…하라고) 지시하다", "2 (+ in) 가르치다, 교육하다"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 (…하라고) 지시하다",
+            "2 (+ in) 가르치다, 교육하다"
+          ]
+        }
       ],
       "parts": [
-        {"part": "in", "mean": "on"},
-        {"part": "struct", "mean": "build"}
+        {
+          "part": "in",
+          "mean": "= on"
+        },
+        {
+          "part": "struct",
+          "mean": "= build"
+        }
       ],
-      "origin": "(지식 등을) 쌓아올리도록 하다 → 교육하다",
-      "synonyms": ["order", "teach", "train"],
+      "origin": "(지식 등을) 쌓아올리도록 하다\n→ 교육하다",
+      "synonyms": [
+        "order",
+        "teach",
+        "train"
+      ],
       "derivatives": [
-        {"en": "instruction", "pos": "명", "defs": ["1 (복수형) 지시, 지침서, 설명서", "2 가르침, 교육"]},
-        {"en": "instructor", "pos": "명", "defs": ["교사, 강사, 지도자, (AmE) (대학의) 전임 강사"]},
-        {"en": "instructive", "pos": "형", "defs": ["유익한, 교육적인"]}
+        {
+          "en": "instruction",
+          "pos": "명",
+          "defs": [
+            "1 (복수형) 지시, 지침서, 설명서",
+            "2 가르침, 교육"
+          ]
+        },
+        {
+          "en": "instructor",
+          "pos": "명",
+          "defs": [
+            "교사, 강사, 지도자, (AmE) (대학의) 전임 강사"
+          ]
+        },
+        {
+          "en": "instructive",
+          "pos": "형",
+          "defs": [
+            "유익한, 교육적인"
+          ]
+        }
       ],
       "examples": [
-        {"en": "I've instructed everyone to wait here until the instructor arrives.", "ko": "나는 선생님이 도착할 때까지 여기에서 기다리라고 모두에게 지시했다.", "source": ""},
-        {"en": "Follow the instructions of the guides at all times.", "ko": "항상 가이드의 지시를 따르세요.", "source": "모의"}
+        {
+          "en": "I've instructed everyone to wait here until the instructor arrives.",
+          "ko": "나는 선생님이 도착할 때까지 여기에서 기다리라고 모두에게 지시했다.",
+          "source": ""
+        },
+        {
+          "en": "Follow the instructions of the guides at all times.",
+          "ko": "항상 가이드의 지시를 따르세요.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "instrument",
-      "ipa": "/ínstrəmənt/",
+      "ipa": [
+        "[ínstrəmənt]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["1 기구, 도구", "2 *악기* (= musical instrument)"]}
+        {
+          "pos": "명",
+          "defs": [
+            "1 기구, 도구",
+            "2 *악기* (= musical instrument)"
+          ]
+        }
       ],
       "parts": [
-        {"part": "in", "mean": "on"},
-        {"part": "stru(ct)", "mean": "build"},
-        {"part": "ment", "mean": "명접"}
+        {
+          "part": "in",
+          "mean": "= on"
+        },
+        {
+          "part": "stru(ct)",
+          "mean": "= build"
+        },
+        {
+          "part": "ment",
+          "mean": "명접"
+        }
       ],
-      "origin": "※ instruct와 어원이 같음\n쌓아올릴 때 쓰는 것 → 기구, 도구\n(음악을 만들기 위한) 도구 → 악기",
-      "synonyms": ["tool", "implement"],
+      "origin": "※ instruct와 어원이 같음\n├ 쌓아올릴 때 쓰는 것 → 기구, 도구\n└ (음악을 만들기 위한) 도구 → 악기",
+      "synonyms": [
+        "tool",
+        "implement"
+      ],
       "derivatives": [
-        {"en": "instrumental", "pos": "형", "defs": ["도움이 되는, 중요한"]}
+        {
+          "en": "instrumental",
+          "pos": "형",
+          "defs": [
+            "도움이 되는, 중요한"
+          ]
+        }
       ],
       "examples": [
-        {"en": "She plays several musical instruments, including the piano and flute.", "ko": "그녀는 피아노와 플룻을 포함한 몇 가지 악기를 연주한다.", "source": ""}
+        {
+          "en": "She plays several musical instruments, including the piano and flute.",
+          "ko": "그녀는 피아노와 플룻을 포함한 몇 가지 악기를 연주한다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "industry",
-      "ipa": "/índəstri/",
+      "ipa": [
+        "[índəstri]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["1 *산업; 공업, 제조업", "2 근면"]}
+        {
+          "pos": "명",
+          "defs": [
+            "1 *산업; 공업, 제조업",
+            "2 근면"
+          ]
+        }
       ],
       "parts": [
-        {"part": "indu", "mean": "in"},
-        {"part": "str", "mean": "build"},
-        {"part": "y", "mean": "명접"}
+        {
+          "part": "indu",
+          "mean": "= in"
+        },
+        {
+          "part": "str",
+          "mean": "= build"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
+        }
       ],
       "origin": "(만들어서) 안에 쌓아둠 → 공업, 산업",
-      "synonyms": ["diligence"],
+      "synonyms": [
+        "diligence"
+      ],
       "derivatives": [
-        {"en": "industrial", "pos": "형", "defs": ["산업의, 산업이 발달한"]},
-        {"en": "industrialize", "pos": "동", "defs": ["산업화하다"]},
-        {"en": "industrialization", "pos": "명", "defs": ["산업화"]}
+        {
+          "en": "industrial",
+          "pos": "형",
+          "defs": [
+            "산업의, 산업이 발달한"
+          ]
+        },
+        {
+          "en": "industrialize",
+          "pos": "동",
+          "defs": [
+            "산업화하다"
+          ]
+        },
+        {
+          "en": "industrialization",
+          "pos": "명",
+          "defs": [
+            "산업화"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "fashion[film/food] industry", "ko": "패션[영화/식품] 산업"}
+        {
+          "en": "fashion[film/food] industry",
+          "ko": "패션[영화/식품] 산업"
+        }
       ],
       "examples": [
-        {"en": "Today, agriculture remains a vital industry that feeds the world's population.", "ko": "오늘날, 농업은 여전히 세계 인구를 먹여 살리는 필수적인 산업이다.", "source": "모의"}
+        {
+          "en": "Today, agriculture remains a vital industry that feeds the world's population.",
+          "ko": "오늘날, 농업은 여전히 세계 인구를 먹여 살리는 필수적인 산업이다.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "destroy",
-      "ipa": "/distróːi/",
+      "ipa": [
+        "[distrɔ́i]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["1 *파괴하다, 손상시키다", "2 (삶·계획 등을) 망치다"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 *파괴하다, 손상시키다",
+            "2 (삶·계획 등을) 망치다"
+          ]
+        }
       ],
       "parts": [
-        {"part": "de", "mean": "「반대」"},
-        {"part": "stroy", "mean": "build"}
+        {
+          "part": "de",
+          "mean": "「반대」"
+        },
+        {
+          "part": "stroy",
+          "mean": "= build"
+        }
       ],
-      "origin": "'쌓아올리다'의 반대 행위 → 무너뜨리다\n※ destroy: 완전히 부숴서 없애거나 복구할 수 없게 만들다\nruin: 특징·유용성·모습 등에 손상을 입혀서 제 기능을 못하게 만들다\nspoil: 상태가 나빠지거나 상하다. '아이의 버릇을 망치다'의 뜻으로도 쓰임",
-      "synonyms": ["devastate", "demolish"],
-      "antonyms": ["build", "construct"],
+      "origin": "'쌓아올리다'의 반대 행위 → 무너뜨리다",
+      "synonyms": [
+        "devastate",
+        "demolish"
+      ],
+      "antonyms": [
+        "build",
+        "construct"
+      ],
       "derivatives": [
-        {"en": "destruction", "pos": "명", "defs": ["파괴"]},
-        {"en": "destructive", "pos": "형", "defs": ["파괴적인, 부정적인"]}
+        {
+          "en": "destruction",
+          "pos": "명",
+          "defs": [
+            "파괴"
+          ]
+        },
+        {
+          "en": "destructive",
+          "pos": "형",
+          "defs": [
+            "파괴적인, 부정적인"
+          ]
+        }
       ],
       "examples": [
-        {"en": "The fire destroyed several houses in the village.", "ko": "그 화재는 마을의 여러 집을 파괴했다.", "source": ""},
-        {"en": "It is clear that humans are a major contributor to the destruction of nature.", "ko": "인간이 자연 파괴의 주요 원인 중 하나라는 것은 분명하다.", "source": "교과서"}
+        {
+          "en": "The fire destroyed several houses in the village.",
+          "ko": "그 화재는 마을의 여러 집을 파괴했다.",
+          "source": ""
+        },
+        {
+          "en": "It is clear that humans are a major contributor to the destruction of nature.",
+          "ko": "인간이 자연 파괴의 주요 원인 중 하나라는 것은 분명하다.",
+          "source": "교과서"
+        }
       ]
     },
     {
       "en": "vary",
-      "ipa": "/véəri/",
+      "ipa": [
+        "[véəri]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["1 (크기·모양 등이) 다르다; (상황에 따라) 달라지다", "2 다르게 하다, 차이를 주다"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 (크기·모양 등이) 다르다; (상황에 따라) 달라지다",
+            "2 다르게 하다, 차이를 주다"
+          ]
+        }
       ],
       "parts": [
-        {"part": "vary", "mean": "change"}
+        {
+          "part": "vary",
+          "mean": "= change"
+        }
       ],
       "origin": "변화시키다 → 다르다, 다르게 하다",
-      "synonyms": ["differ"],
+      "synonyms": [
+        "differ"
+      ],
       "derivatives": [
-        {"en": "varied", "pos": "형", "defs": ["다양한, 다채로운"]},
-        {"en": "variety", "pos": "명", "defs": ["다양성, 다양함"]}
+        {
+          "en": "varied",
+          "pos": "형",
+          "defs": [
+            "다양한, 다채로운"
+          ]
+        },
+        {
+          "en": "variety",
+          "pos": "명",
+          "defs": [
+            "다양성, 다양함"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "a variety of", "ko": "다양한 …"}
+        {
+          "en": "a variety of",
+          "ko": "다양한 …"
+        }
       ],
       "examples": [
-        {"en": "The amount of salt used in this recipe varies from chef to chef.", "ko": "이 조리법에서 사용되는 소금의 양은 요리사마다 다르다.", "source": ""},
-        {"en": "Such varied rhythms in a song help keep the listener's attention.", "ko": "노래 속의 다채로운 리듬은 듣는 사람의 주의를 집중시키는 데 도움이 된다.", "source": ""},
-        {"en": "This supermarket has a variety of fresh produce.", "ko": "이 슈퍼마켓은 다양한 농산물이 있다.", "source": ""}
+        {
+          "en": "The amount of salt used in this recipe **varies** from chef to chef.",
+          "ko": "이 조리법에서 사용되는 소금의 양은 요리사마다 다르다.",
+          "source": ""
+        },
+        {
+          "en": "Such varied rhythms in a song help keep the listener's attention.",
+          "ko": "노래 속의 다채로운 리듬은 듣는 사람의 주의를 집중시키는 데 도움이 된다.",
+          "source": ""
+        },
+        {
+          "en": "This supermarket has **a variety of** fresh produce.",
+          "ko": "이 슈퍼마켓은 다양한 농산물이 있다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "various",
-      "ipa": "/véəriəs/",
+      "ipa": [
+        "[véəriəs]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["다양한, 가지각색의"]}
+        {
+          "pos": "형",
+          "defs": [
+            "다양한, 가지각색의"
+          ]
+        }
       ],
       "parts": [
-        {"part": "vari", "mean": "change"},
-        {"part": "ous", "mean": "형접"}
+        {
+          "part": "vari",
+          "mean": "= change"
+        },
+        {
+          "part": "ous",
+          "mean": "형접"
+        }
       ],
       "origin": "변화하는 → 다양한",
-      "synonyms": ["diverse"],
+      "synonyms": [
+        "diverse"
+      ],
       "examples": [
-        {"en": "I've had many opportunities to try various foreign foods.", "ko": "나는 다양한 외국 음식을 먹을 기회가 많이 있었다.", "source": "교과서"}
+        {
+          "en": "I've had many opportunities to try various foreign foods.",
+          "ko": "나는 다양한 외국 음식을 먹을 기회가 많이 있었다.",
+          "source": "교과서"
+        }
       ]
     },
     {
       "en": "variable",
-      "ipa": "/véəriəbl/",
+      "ipa": [
+        "[véəriəbəl]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["변동이 심한, 변덕스러운; 바뀔 수 있는"]},
-        {"pos": "명", "defs": ["변수"]}
+        {
+          "pos": "형",
+          "defs": [
+            "변동이 심한, 변덕스러운; 바뀔 수 있는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "변수"
+          ]
+        }
       ],
       "parts": [
-        {"part": "vari", "mean": "change"},
-        {"part": "able", "mean": "…할 수 있는"}
+        {
+          "part": "vari",
+          "mean": "= change"
+        },
+        {
+          "part": "able",
+          "mean": "…할 수 있는"
+        }
       ],
       "origin": "※ various에서 온 말\n변화할 수 있는 → 바꿀 수 있는",
-      "synonyms": ["fluctuating"],
-      "antonyms": ["constant"],
+      "synonyms": [
+        "fluctuating"
+      ],
+      "antonyms": [
+        "constant"
+      ],
       "derivatives": [
-        {"en": "invariable", "pos": "형/명", "defs": ["변하지 않는 (것), 불변의 (것)"]},
-        {"en": "variance", "pos": "명", "defs": ["차이, 불일치, 격차"]},
-        {"en": "variant", "pos": "명/형", "defs": ["변종, 변형", "상이한, 다른; 갖가지(의)"]},
-        {"en": "variability", "pos": "명", "defs": ["가변성(변할 수 있음); 다양성"]}
+        {
+          "en": "invariable",
+          "pos": "형/명",
+          "defs": [
+            "변하지 않는 (것), 불변의 (것)"
+          ]
+        },
+        {
+          "en": "variance",
+          "pos": "명",
+          "defs": [
+            "차이, 불일치, 격차"
+          ]
+        },
+        {
+          "en": "variant",
+          "pos": "명/형",
+          "defs": [
+            "변종, 변형",
+            "상이한, 다른; 갖가지(의)"
+          ]
+        },
+        {
+          "en": "variability",
+          "pos": "명",
+          "defs": [
+            "가변성(변할 수 있음); 다양성"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "at variance with", "ko": "1 …와 불일치하는  2 …와 사이가 좋지 않은"}
+        {
+          "en": "at variance with",
+          "ko": "1 …와 불일치하는  2 …와 사이가 좋지 않은"
+        }
       ],
       "examples": [
-        {"en": "Rates for housing loans are usually fixed or variable.", "ko": "주택대출의 이자율은 보통 고정이거나 변동이다.", "source": ""},
-        {"en": "It's difficult to control so many variables in an experiment.", "ko": "그렇게 많은 변수를 한 실험에서 통제하기는 어렵다.", "source": ""},
-        {"en": "Unlike other fields, mathematics contains certain invariable rules.", "ko": "다른 분야와 달리, 수학은 어떤 불변의 규칙을 포함한다.", "source": ""},
-        {"en": "One of his statements was somewhat at variance with the truth.", "ko": "그의 진술 중 하나는 사실과 다소 불일치했다.", "source": "수능"},
-        {"en": "The dish has many regional variants.", "ko": "그 요리는 지역마다 다양한 변형이 있다.", "source": ""}
+        {
+          "en": "Rates for housing loans are usually fixed or variable.",
+          "ko": "주택대출의 이자율은 보통 고정이거나 변동이다.",
+          "source": ""
+        },
+        {
+          "en": "It's difficult to control so many variables in an experiment.",
+          "ko": "그렇게 많은 변수를 한 실험에서 통제하기는 어렵다.",
+          "source": ""
+        },
+        {
+          "en": "Unlike other fields, mathematics contains certain invariable rules.",
+          "ko": "다른 분야와 달리, 수학은 어떤 불변의 규칙을 포함한다.",
+          "source": ""
+        },
+        {
+          "en": "One of his statements was somewhat **at variance with** the truth.",
+          "ko": "그의 진술 중 하나는 사실과 다소 불일치했다.",
+          "source": "수능"
+        },
+        {
+          "en": "The dish has many regional **variants**.",
+          "ko": "그 요리는 지역마다 다양한 변형이 있다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "variation",
-      "ipa": "/vèəriéiʃən/",
+      "ipa": [
+        "[vèəriéiʃən]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["(양·정도의) 차이, 변화(량/율); 변형; 변주(곡)"]}
+        {
+          "pos": "명",
+          "defs": [
+            "(양·정도의) 차이, 변화(량/율); 변형; 변주(곡)"
+          ]
+        }
       ],
       "parts": [
-        {"part": "vari", "mean": "change"},
-        {"part": "ation", "mean": "명접"}
+        {
+          "part": "vari",
+          "mean": "= change"
+        },
+        {
+          "part": "ation",
+          "mean": "명접"
+        }
       ],
       "origin": "※ various에서 온 말\n변화되는 것 → 차이, 변화량",
       "examples": [
-        {"en": "There is a slight variation in color between the two shirts.", "ko": "두 셔츠의 색상 사이에 약간의 차이가 있다.", "source": ""}
+        {
+          "en": "There is a slight variation in color between the two shirts.",
+          "ko": "두 셔츠의 색상 사이에 약간의 차이가 있다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "similar",
-      "ipa": "/símələr/",
+      "ipa": [
+        "[símələr]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["비슷한, 유사한"]}
+        {
+          "pos": "형",
+          "defs": [
+            "비슷한, 유사한"
+          ]
+        }
       ],
       "parts": [
-        {"part": "simil", "mean": "like"},
-        {"part": "ar", "mean": "형접"}
+        {
+          "part": "simil",
+          "mean": "= like"
+        },
+        {
+          "part": "ar",
+          "mean": "형접"
+        }
       ],
       "origin": "비슷한",
-      "synonyms": ["alike"],
-      "antonyms": ["different"],
+      "synonyms": [
+        "alike"
+      ],
+      "antonyms": [
+        "different"
+      ],
       "derivatives": [
-        {"en": "similarity", "pos": "명", "defs": ["비슷함, 닮음; 유사점"]},
-        {"en": "similarly", "pos": "부", "defs": ["유사하게, 마찬가지로"]}
+        {
+          "en": "similarity",
+          "pos": "명",
+          "defs": [
+            "비슷함, 닮음; 유사점"
+          ]
+        },
+        {
+          "en": "similarly",
+          "pos": "부",
+          "defs": [
+            "유사하게, 마찬가지로"
+          ]
+        }
       ],
       "examples": [
-        {"en": "The similarity is not limited to their appearance. The twins are similar in every respect.", "ko": "비슷한 점은 외모뿐만이 아니다. 그 쌍둥이는 모든 면에서 비슷하다.", "source": ""}
+        {
+          "en": "The similarity is not limited to their appearance. The twins are similar in every respect.",
+          "ko": "비슷한 점은 외모뿐만이 아니다. 그 쌍둥이는 모든 면에서 비슷하다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "resemble",
-      "ipa": "/rizémbl/",
+      "ipa": [
+        "[rizémbəl]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["…을 닮다, 유사하다"]}
+        {
+          "pos": "동",
+          "defs": [
+            "…을 닮다, 유사하다"
+          ]
+        }
       ],
       "parts": [
-        {"part": "re", "mean": "「강조」"},
-        {"part": "sembl", "mean": "like"}
+        {
+          "part": "re",
+          "mean": "「강조」"
+        },
+        {
+          "part": "semble",
+          "mean": "= like"
+        }
       ],
       "origin": "매우 비슷하다 → 닮다",
-      "synonyms": ["take after"],
+      "synonyms": [
+        "take after"
+      ],
       "derivatives": [
-        {"en": "resemblance", "pos": "명", "defs": ["유사함"]}
+        {
+          "en": "resemblance",
+          "pos": "명",
+          "defs": [
+            "유사함"
+          ]
+        }
       ],
       "examples": [
-        {"en": "The smell closely resembles the scent of fresh roses.", "ko": "그 냄새는 신선한 장미의 향기와 아주 유사하다.", "source": ""},
-        {"en": "The link between music and emotion is one of resemblance.", "ko": "음악과 감정 사이의 연관성은 유사함이라는 것이다.", "source": "모의"}
+        {
+          "en": "The smell closely resembles the scent of fresh roses.",
+          "ko": "그 냄새는 신선한 장미의 향기와 아주 유사하다.",
+          "source": ""
+        },
+        {
+          "en": "The link between music and emotion is one of resemblance.",
+          "ko": "음악과 감정 사이의 연관성은 유사함이라는 것이다.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "assemble",
-      "ipa": "/əsémbl/",
+      "ipa": [
+        "[əsémbəl]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["1 *모으다; 모이다", "2 조립하다"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 *모으다; 모이다",
+            "2 조립하다"
+          ]
+        }
       ],
       "parts": [
-        {"part": "as", "mean": "ad:to"},
-        {"part": "sembl", "mean": "together"}
+        {
+          "part": "as",
+          "mean": "= ad:to"
+        },
+        {
+          "part": "semble",
+          "mean": "= together"
+        }
       ],
       "origin": "…에 함께 두다 → 모으다",
-      "synonyms": ["collect", "gather"],
-      "antonyms": ["disassemble"],
+      "synonyms": [
+        "collect",
+        "gather"
+      ],
+      "antonyms": [
+        "disassemble"
+      ],
       "derivatives": [
-        {"en": "assembly", "pos": "명", "defs": ["1 (입법) 의회, 입법부; 모임", "2 조립"]}
+        {
+          "en": "assembly",
+          "pos": "명",
+          "defs": [
+            "1 (입법) 의회, 입법부; 모임",
+            "2 조립"
+          ]
+        }
       ],
       "examples": [
-        {"en": "Wait until all the guests are assembled.", "ko": "손님들이 모두 모일 때까지 기다려라.", "source": ""},
-        {"en": "Robots were introduced to replace humans in assembly lines.", "ko": "로봇이 조립 라인에서 인간을 대체하기 위해 도입되었다.", "source": "수능"}
+        {
+          "en": "Wait until all the guests are assembled.",
+          "ko": "손님들이 모두 모일 때까지 기다려라.",
+          "source": ""
+        },
+        {
+          "en": "Robots were introduced to replace humans in assembly lines.",
+          "ko": "로봇이 조립 라인에서 인간을 대체하기 위해 도입되었다.",
+          "source": "수능"
+        }
       ]
     },
     {
       "en": "seemingly",
-      "ipa": "/síːmiŋli/",
+      "ipa": [
+        "[síːmiŋli]"
+      ],
       "meanings": [
-        {"pos": "부", "defs": ["겉보기에는, 표면상은"]}
+        {
+          "pos": "부",
+          "defs": [
+            "겉보기에는, 표면상은"
+          ]
+        }
       ],
       "parts": [
-        {"part": "seem", "mean": "same"},
-        {"part": "ing", "mean": "형용사 어미"},
-        {"part": "ly", "mean": "부접"}
+        {
+          "part": "seem",
+          "mean": "= same"
+        },
+        {
+          "part": "ing",
+          "mean": "형용사 어미"
+        },
+        {
+          "part": "ly",
+          "mean": "부접"
+        }
       ],
       "origin": "…해 보이는",
-      "synonyms": ["apparently"],
+      "synonyms": [
+        "apparently"
+      ],
       "examples": [
-        {"en": "The couple seemingly doesn't have any problems.", "ko": "그 부부는 겉보기에는 아무 문제가 없다.", "source": ""}
+        {
+          "en": "The couple seemingly doesn't have any problems.",
+          "ko": "그 부부는 겉보기에는 아무 문제가 없다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "simulation",
-      "ipa": "/sìmjəléiʃən/",
+      "ipa": [
+        "[sìmjəléiʃən]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["흉내, 모의실험, 시뮬레이션"]}
+        {
+          "pos": "명",
+          "defs": [
+            "흉내, 모의실험, 시뮬레이션"
+          ]
+        }
       ],
       "parts": [
-        {"part": "simul", "mean": "same"},
-        {"part": "ation", "mean": "명접"}
+        {
+          "part": "simul",
+          "mean": "= same"
+        },
+        {
+          "part": "ation",
+          "mean": "명접"
+        }
       ],
       "origin": "똑같이 하는 것 → 흉내",
       "derivatives": [
-        {"en": "simulate", "pos": "동", "defs": ["1 가장하다, …인 체하다", "2 모의실험 하다"]}
+        {
+          "en": "simulate",
+          "pos": "동",
+          "defs": [
+            "1 가장하다, …인 체하다",
+            "2 모의실험 하다"
+          ]
+        }
       ],
       "examples": [
-        {"en": "They carried out a simulation of a tsunami disaster.", "ko": "그들은 쓰나미 재난에 대한 모의 실험을 실시했다.", "source": ""},
-        {"en": "Amy found it hard to simulate grief.", "ko": "Amy는 슬픔을 가장하는 것이 어렵다는 것을 깨달았다.", "source": ""}
+        {
+          "en": "They carried out a simulation of a tsunami disaster.",
+          "ko": "그들은 쓰나미 재난에 대한 모의 실험을 실시했다.",
+          "source": ""
+        },
+        {
+          "en": "Amy found it hard to simulate grief.",
+          "ko": "Amy는 슬픔을 가장하는 것이 어렵다는 것을 깨달았다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "simultaneously",
-      "ipa": "/sàiməltéiniəsli/",
+      "ipa": [
+        "[sàiməltéiniəsli]"
+      ],
       "meanings": [
-        {"pos": "부", "defs": ["동시에, 일제히"]}
+        {
+          "pos": "부",
+          "defs": [
+            "동시에, 일제히"
+          ]
+        }
       ],
       "parts": [
-        {"part": "simul", "mean": "same"},
-        {"part": "taneous", "mean": "어미"},
-        {"part": "ly", "mean": "부접"}
+        {
+          "part": "simul",
+          "mean": "= same"
+        },
+        {
+          "part": "taneous",
+          "mean": "어미"
+        },
+        {
+          "part": "ly",
+          "mean": "부접"
+        }
       ],
       "origin": "같이, 같은 때에",
-      "synonyms": ["at the same time"],
+      "synonyms": [
+        "at the same time"
+      ],
       "derivatives": [
-        {"en": "simultaneous", "pos": "형", "defs": ["동시의"]}
+        {
+          "en": "simultaneous",
+          "pos": "형",
+          "defs": [
+            "동시의"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "혼동어휘 · spontaneously", "ko": "자발적으로; 즉흥적으로"}
+        {
+          "en": "혼동어휘 · spontaneously",
+          "ko": "자발적으로; 즉흥적으로"
+        }
       ],
       "examples": [
-        {"en": "She worked as a journalist while simultaneously trying to establish herself as a fiction writer.", "ko": "그녀는 기자로 일하면서 동시에 소설가로 자리매김하려고 노력했다.", "source": "수능"}
+        {
+          "en": "She worked as a journalist while simultaneously trying to establish herself as a fiction writer.",
+          "ko": "그녀는 기자로 일하면서 동시에 소설가로 자리매김하려고 노력했다.",
+          "source": "수능"
+        }
       ]
     },
     {
       "en": "prime",
-      "ipa": "/praim/",
+      "ipa": [
+        "[praim]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["*가장 중요한, 최상의"]},
-        {"pos": "명", "defs": ["전성기"]}
+        {
+          "pos": "형",
+          "defs": [
+            "*가장 중요한, 최상의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "전성기"
+          ]
+        }
       ],
       "parts": [
-        {"part": "prime", "mean": "라틴어 primus(=first)에서 온 말"}
+        {
+          "part": "prime",
+          "mean": "라틴어 primus(=first)에서 온 말"
+        }
       ],
-      "origin": "제1의, 최초의",
-      "synonyms": ["primary", "main", "chief"],
+      "origin": "라틴어 primus(=first)에서 온 말",
+      "synonyms": [
+        "primary",
+        "main",
+        "chief"
+      ],
       "phrases": [
-        {"en": "prime minister", "ko": "수상, (국무) 총리"},
-        {"en": "prime number", "ko": "소수 (1과 자신만을 약수로 갖는 수)"}
+        {
+          "en": "prime minister",
+          "ko": "수상, (국무) 총리"
+        },
+        {
+          "en": "prime number",
+          "ko": "소수 (1과 자신만을 약수로 갖는 수)"
+        }
       ],
       "examples": [
-        {"en": "Protecting the environment is of prime importance for future generations.", "ko": "환경을 보호하는 것은 미래 세대를 위한 가장 중요한 일이다.", "source": ""},
-        {"en": "Who will be the next prime minister?", "ko": "다음 수상은 누가 될까?", "source": ""}
+        {
+          "en": "Protecting the environment is of prime importance for future generations.",
+          "ko": "환경을 보호하는 것은 미래 세대를 위한 가장 중요한 일이다.",
+          "source": ""
+        },
+        {
+          "en": "Who will be the next prime minister?",
+          "ko": "다음 수상은 누가 될까?",
+          "source": ""
+        }
       ]
     },
     {
       "en": "primary",
-      "ipa": "/práimèri/",
+      "ipa": [
+        "[práimèri]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["1 *제1의, 주요한", "2 최초의, 처음의, 초기의", "3 초등의, 초급의"]}
+        {
+          "pos": "형",
+          "defs": [
+            "1 *제1의, 주요한",
+            "2 최초의, 처음의, 초기의",
+            "3 초등의, 초급의"
+          ]
+        }
       ],
       "parts": [
-        {"part": "prim", "mean": "first"},
-        {"part": "ary", "mean": "형접"}
+        {
+          "part": "prim",
+          "mean": "= first"
+        },
+        {
+          "part": "ary",
+          "mean": "형접"
+        }
       ],
       "origin": "처음의",
-      "synonyms": ["prime", "main", "chief", "elementary"],
+      "synonyms": [
+        "prime",
+        "main",
+        "chief",
+        "elementary"
+      ],
       "derivatives": [
-        {"en": "primarily", "pos": "부", "defs": ["첫째로, 주로, 본래"]}
+        {
+          "en": "primarily",
+          "pos": "부",
+          "defs": [
+            "첫째로, 주로, 본래"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "a(n) primary[elementary/grade] school", "ko": "초등학교"}
+        {
+          "en": "a(n) primary[elementary/grade] school",
+          "ko": "초등학교"
+        }
       ],
       "examples": [
-        {"en": "The primary source of electricity generation in the 1970s was coal.", "ko": "1970년대 전기 생산의 주요 원천은 석탄이었다.", "source": "수능"}
+        {
+          "en": "The primary source of electricity generation in the 1970s was coal.",
+          "ko": "1970년대 전기 생산의 주요 원천은 석탄이었다.",
+          "source": "수능"
+        }
       ]
     },
     {
       "en": "primitive",
-      "ipa": "/prímətiv/",
+      "ipa": [
+        "[prímətiv]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["원시(시대)의, 원시적인"]}
+        {
+          "pos": "형",
+          "defs": [
+            "원시(시대)의, 원시적인"
+          ]
+        }
       ],
       "parts": [
-        {"part": "prim", "mean": "first"},
-        {"part": "itive", "mean": "형접"}
+        {
+          "part": "prim",
+          "mean": "= first"
+        },
+        {
+          "part": "itive",
+          "mean": "형접"
+        }
       ],
       "origin": "최초의, 원시의",
-      "antonyms": ["modern"],
+      "antonyms": [
+        "modern"
+      ],
       "derivatives": [
-        {"en": "primeval", "pos": "형", "defs": ["원시시대의, 태고의"]}
+        {
+          "en": "primeval",
+          "pos": "형",
+          "defs": [
+            "원시시대의, 태고의"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "혼동어휘 · primate", "ko": "영장류"}
+        {
+          "en": "혼동어휘 · primate",
+          "ko": "영장류"
+        }
       ],
       "examples": [
-        {"en": "The Brazilian rain forest is home to many primitive tribes.", "ko": "브라질의 열대우림은 많은 원시 부족의 보금자리이다.", "source": ""}
+        {
+          "en": "The Brazilian rain forest is home to many primitive tribes.",
+          "ko": "브라질의 열대우림은 많은 원시 부족의 보금자리이다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "principal",
-      "ipa": "/prínsəpəl/",
+      "ipa": [
+        "[prínsəpəl]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["주요한, 으뜸가는"]},
-        {"pos": "명", "defs": ["1 *교장, 학장", "2 (단체의) 우두머리, 장"]}
+        {
+          "pos": "형",
+          "defs": [
+            "주요한, 으뜸가는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *교장, 학장",
+            "2 (단체의) 우두머리, 장"
+          ]
+        }
       ],
       "parts": [
-        {"part": "prin", "mean": "first"},
-        {"part": "cip", "mean": "cap:take"},
-        {"part": "al", "mean": "형접"}
+        {
+          "part": "prin",
+          "mean": "= first"
+        },
+        {
+          "part": "cip",
+          "mean": "= cap:take"
+        },
+        {
+          "part": "al",
+          "mean": "형접"
+        }
       ],
       "origin": "첫째 자리를 취하는 → 주요한 (사람)\n→ (학교 등의) 장",
-      "synonyms": ["prime", "main", "chief"],
+      "synonyms": [
+        "prime",
+        "main",
+        "chief"
+      ],
       "examples": [
-        {"en": "The principal reason for the delay was bad weather.", "ko": "지연의 주된 이유는 나쁜 날씨였다.", "source": ""},
-        {"en": "Who is the principal of your high school?", "ko": "너희 고등학교 교장 선생님은 누구시니?", "source": ""}
+        {
+          "en": "The principal reason for the delay was bad weather.",
+          "ko": "지연의 주된 이유는 나쁜 날씨였다.",
+          "source": ""
+        },
+        {
+          "en": "Who is the principal of your high school?",
+          "ko": "너희 고등학교 교장 선생님은 누구시니?",
+          "source": ""
+        }
       ]
     },
     {
       "en": "principle",
-      "ipa": "/prínsəpəl/",
+      "ipa": [
+        "[prínsəpəl]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["1 원리, 원칙", "2 신념, 주의; 방침"]}
+        {
+          "pos": "명",
+          "defs": [
+            "1 원리, 원칙",
+            "2 신념, 주의; 방침"
+          ]
+        }
       ],
       "parts": [
-        {"part": "prin", "mean": "first"},
-        {"part": "cip", "mean": "cap:take"},
-        {"part": "le", "mean": "명접"}
+        {
+          "part": "prin",
+          "mean": "= first"
+        },
+        {
+          "part": "cip",
+          "mean": "= cap:take"
+        },
+        {
+          "part": "le",
+          "mean": "명접"
+        }
       ],
       "origin": "처음을 차지하는 것 → 근본, 원리",
       "phrases": [
-        {"en": "in principle", "ko": "원칙적으로"}
+        {
+          "en": "in principle",
+          "ko": "원칙적으로"
+        }
       ],
       "examples": [
-        {"en": "principles of demand and supply", "ko": "수요와 공급의 원리", "source": ""},
-        {"en": "He always acts according to his moral principles.", "ko": "그는 항상 자신의 도덕적 신념에 따라 행동한다.", "source": ""},
-        {"en": "I support the idea in principle.", "ko": "나는 원칙적으로는 그 생각에 동의한다.", "source": ""}
+        {
+          "en": "principles of demand and supply",
+          "ko": "수요와 공급의 원리",
+          "source": ""
+        },
+        {
+          "en": "He always acts according to his moral principles.",
+          "ko": "그는 항상 자신의 도덕적 신념에 따라 행동한다.",
+          "source": ""
+        },
+        {
+          "en": "I support the idea **in principle**.",
+          "ko": "나는 원칙적으로는 그 생각에 동의한다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "prior",
-      "ipa": "/práiər/",
+      "ipa": [
+        "[práiər]"
+      ],
       "meanings": [
-        {"pos": "형", "defs": ["1 *먼저의, 이전의", "2 …에 우선하는, (…보다) 중요한"]}
+        {
+          "pos": "형",
+          "defs": [
+            "1 *먼저의, 이전의",
+            "2 …에 우선하는, (…보다) 중요한"
+          ]
+        }
       ],
       "parts": [
-        {"part": "pri", "mean": "first"},
-        {"part": "or", "mean": "〈비교급〉"}
+        {
+          "part": "pri",
+          "mean": "= first"
+        },
+        {
+          "part": "or",
+          "mean": "〈비교급〉"
+        }
       ],
       "origin": "더 먼저인",
-      "synonyms": ["previous"],
+      "synonyms": [
+        "previous"
+      ],
       "derivatives": [
-        {"en": "priority", "pos": "명", "defs": ["우선순위; 우선(권)"]},
-        {"en": "prioritize", "pos": "동", "defs": ["우선순위를 매기다, 우선시키다"]}
+        {
+          "en": "priority",
+          "pos": "명",
+          "defs": [
+            "우선순위; 우선(권)"
+          ]
+        },
+        {
+          "en": "prioritize",
+          "pos": "동",
+          "defs": [
+            "우선순위를 매기다, 우선시키다"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "prior to", "ko": "… 전에, 앞서"}
+        {
+          "en": "prior to",
+          "ko": "… 전에, 앞서"
+        }
       ],
       "examples": [
-        {"en": "She decided to prioritize the prior agreement over the new proposal.", "ko": "그녀는 새로운 제안보다 이전의 합의를 우선시하기로 결정했다.", "source": ""},
-        {"en": "Prior to low-cost printing, ideas could spread by word of mouth.", "ko": "값싼 인쇄 기술이 등장하기 전에는, 아이디어는 사람들의 입(말)을 통해 퍼질 수 있었다.", "source": "수능"},
-        {"en": "My first priority is to finish my homework.", "ko": "나의 최우선 순위는 과제를 끝내는 것이다.", "source": ""}
+        {
+          "en": "She decided to prioritize the prior agreement over the new proposal.",
+          "ko": "그녀는 새로운 제안보다 이전의 합의를 우선시하기로 결정했다.",
+          "source": ""
+        },
+        {
+          "en": "**Prior to** low-cost printing, ideas could spread by word of mouth.",
+          "ko": "값싼 인쇄 기술이 등장하기 전에는, 아이디어는 사람들의 입(말)을 통해 퍼질 수 있었다.",
+          "source": "수능"
+        },
+        {
+          "en": "My first priority is to finish my homework.",
+          "ko": "나의 최우선 순위는 과제를 끝내는 것이다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "option",
-      "ipa": "/ɑ́ːpʃən/",
+      "ipa": [
+        "[ɑ́ːpʃən]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["1 *선택(권), 선택지; 선택의 자유", "2 (BrE) (학교의) 선택 과목", "3 (제품 따위의) 옵션 (표준 사양 이외에 추가·교환 가능한 부품이나 기능)"]}
+        {
+          "pos": "명",
+          "defs": [
+            "1 *선택(권), 선택지; 선택의 자유",
+            "2 (BrE) (학교의) 선택 과목",
+            "3 (제품 따위의) 옵션 (표준 사양 이외에 추가·교환 가능한 부품이나 기능)"
+          ]
+        }
       ],
       "parts": [
-        {"part": "opt", "mean": "choose"},
-        {"part": "ion", "mean": "명접"}
+        {
+          "part": "opt",
+          "mean": "= choose"
+        },
+        {
+          "part": "ion",
+          "mean": "명접"
+        }
       ],
       "origin": "선택하는 것",
-      "synonyms": ["choice"],
+      "synonyms": [
+        "choice"
+      ],
       "derivatives": [
-        {"en": "optional", "pos": "형", "defs": ["선택적인"]}
+        {
+          "en": "optional",
+          "pos": "형",
+          "defs": [
+            "선택적인"
+          ]
+        }
       ],
       "examples": [
-        {"en": "The more options we have, the harder our decision-making process will be.", "ko": "선택지가 많을수록, 우리의 의사 결정 과정은 더 어려워질 것이다.", "source": "모의"}
+        {
+          "en": "The more options we have, the harder our decision-making process will be.",
+          "ko": "선택지가 많을수록, 우리의 의사 결정 과정은 더 어려워질 것이다.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "adopt",
-      "ipa": "/ədɑ́ːpt/",
+      "ipa": [
+        "[ədɑ́ːpt]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["1 입양하다, 양자로 삼다", "2 *(의견·방법·계획 등을) 채택하다, 취하다"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 입양하다, 양자로 삼다",
+            "2 *(의견·방법·계획 등을) 채택하다, 취하다"
+          ]
+        }
       ],
       "parts": [
-        {"part": "ad", "mean": "to"},
-        {"part": "opt", "mean": "choose"}
+        {
+          "part": "ad",
+          "mean": "= to"
+        },
+        {
+          "part": "opt",
+          "mean": "= choose"
+        }
       ],
       "origin": "선택하여 …쪽으로 가져오다 → 채택하다\n선택하여 내 쪽으로 데려오다 → 입양하다",
-      "synonyms": ["foster"],
+      "synonyms": [
+        "foster"
+      ],
       "derivatives": [
-        {"en": "adoption", "pos": "명", "defs": ["채택; 입양"]}
+        {
+          "en": "adoption",
+          "pos": "명",
+          "defs": [
+            "채택; 입양"
+          ]
+        }
       ],
       "phrases": [
-        {"en": "혼동어휘 · adapt", "ko": "적응시키다; 적응하다; 각색하다"}
+        {
+          "en": "혼동어휘 · adapt",
+          "ko": "적응시키다; 적응하다; 각색하다"
+        }
       ],
       "examples": [
-        {"en": "Consider adopting a pet with medical or behavioral needs.", "ko": "의료적 또는 행동적 도움이 필요한 반려동물들의 입양을 고려해주세요.", "source": "모의"},
-        {"en": "The school adopted a new method of teaching.", "ko": "그 학교는 새로운 교수법을 채택했다.", "source": ""}
+        {
+          "en": "Consider adopting a pet with medical or behavioral needs.",
+          "ko": "의료적 또는 행동적 도움이 필요한 반려동물들의 입양을 고려해주세요.",
+          "source": "모의"
+        },
+        {
+          "en": "The school adopted a new method of teaching.",
+          "ko": "그 학교는 새로운 교수법을 채택했다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "opinion",
-      "ipa": "/əpínjən/",
+      "ipa": [
+        "[əpínjən]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["의견, 생각, 견해"]}
+        {
+          "pos": "명",
+          "defs": [
+            "의견, 생각, 견해"
+          ]
+        }
       ],
       "parts": [
-        {"part": "opin", "mean": "choose"},
-        {"part": "ion", "mean": "명접"}
+        {
+          "part": "opin",
+          "mean": "= choose"
+        },
+        {
+          "part": "ion",
+          "mean": "명접"
+        }
       ],
       "origin": "개인이 선택한 생각 → 의견\n※ 라틴어 opinio(=think)에서 유래한 것으로 보기도 함",
-      "synonyms": ["view"],
+      "synonyms": [
+        "view"
+      ],
       "examples": [
-        {"en": "Public opinion is against[with] him.", "ko": "여론은 그에게 불리하다[유리하다].", "source": ""}
+        {
+          "en": "Public opinion is against[with] him.",
+          "ko": "여론은 그에게 불리하다[유리하다].",
+          "source": ""
+        }
       ]
     }
   ]

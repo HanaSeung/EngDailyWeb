@@ -2,307 +2,1099 @@
   "title": "geo- 지구이,땅의/ multi- 많은/ mono,uni- 하나의,혼자의/ bi,du,twi- 둘의/ tri- 셋의",
   "words": [
     {
-      "en":"geography","ipa":"/dʒiˈɑːɡrəfi/",
-      "meanings":[{"pos":"명","defs":["지리학","(특정 지역의) 지리, 지세"]}],
-      "parts":[{"part":"geo-","mean":"땅 (earth)"},{"part":"graphy","mean":"기록 (writing, description)"}],
-      "origin":"땅에 대한 기록 → 지리(학)",
-      "derivatives":[
-        {"en":"geographical","pos":"형","defs":["지리학(상)의","지리적인"]}
+      "en": "geography",
+      "ipa": [
+        "[dʒiɑ́ːgrəfi]"
       ],
-      "examples":[
-        {"en":"He knows a lot about geography, especially mountains and rivers.","ko":"그는 지리에 대해 많이 아는데, 특히 산과 강에 대해 잘 안다."}
-      ]
-    },
-
-    {
-      "en":"geology","ipa":"/dʒiˈɑːlədʒi/",
-      "meanings":[{"pos":"명","defs":["지질학","(어떤 지역의) 지질학적 특징, 지질"]}],
-      "parts":[{"part":"geo-","mean":"땅 (earth)"},{"part":"logy","mean":"학문 (study)"}],
-      "origin":"땅에 대한 학문 → 지질학",
-      "examples":[
-        {"en":"Because I am interested in rocks, I decided to major in geology.","ko":"나는 암석에 관심이 많아서, 지질학을 전공하기로 결정했다."}
-      ]
-    },
-
-    {
-      "en":"geometry","ipa":"/dʒiˈɑːmətri/",
-      "meanings":[{"pos":"명","defs":["기하학 (점, 선, 면, 부피, 위치 등을 연구하는 수학의 한 분야)"]}],
-      "parts":[{"part":"geo-","mean":"땅 (earth)"},{"part":"metry","mean":"측정 (measurement)"}],
-      "origin":"땅을 측정하다 → 기하학",
-      "examples":[
-        {"en":"You need geometry to measure the distance to nearby stars.","ko":"가까이 있는 별들까지의 거리를 측정하기 위해서는 기하학이 필요하다."}
-      ]
-    },
-
-    {
-      "en":"multiple","ipa":"/ˈmʌltɪpl/",
-      "meanings":[{"pos":"형","defs":["다수의, 다양한","배수의"]},{"pos":"명","defs":["배수"]}],
-      "parts":[{"part":"multi-","mean":"많은 (many)"},{"part":"ple","mean":"겹 (fold)"}],
-      "origin":"여러 겹의 → 다수의",
-      "synonyms":["numerous","many"],
-      "derivatives":[
-        {"en":"multiply","pos":"동","defs":["증가하다; 증가시키다","곱하다","번식하다"]}
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *지리학*",
+            "2 (특정 지역의) 지리, 지세"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"There were multiple witnesses to the accident.","ko":"그 사건에 대한 다수의 목격자가 있었다.","source":"모의"},
-        {"en":"Cybercrimes have multiplied greatly over the past five years.","ko":"지난 5년 동안 사이버 범죄가 크게 증가했다."}
-      ]
-    },
-
-    {
-      "en":"multimedia","ipa":"/ˌmʌltiˈmiːdiə/",
-      "meanings":[{"pos":"명/형","defs":["멀티미디어(의) (음성, 문자, 영상 등의 매체를 사용한 디지털 방식의 표현)"]}],
-      "parts":[{"part":"multi-","mean":"많은 (many)"},{"part":"media","mean":"매체 (media)"}],
-      "origin":"많은 매체를 사용하는 → 멀티미디어",
-      "examples":[
-        {"en":"The museum uses multimedia equipment to help visitors learn about the art.","ko":"그 박물관은 관람객들이 작품을 이해할 수 있도록 돕고자 멀티미디어 장비를 사용한다."}
-      ]
-    },
-
-    {
-      "en":"multitude","ipa":"/ˈmʌltɪtuːd/",
-      "meanings":[{"pos":"명","defs":["다수","(문어체) 군중"]}],
-      "parts":[{"part":"multi-","mean":"많은 (many)"},{"part":"-tude","mean":"상태 접미사 (state)"}],
-      "origin":"많은 상태 → 다수, 군중",
-      "synonyms":["a lot","crowd"],
-      "phrases":[
-        {"en":"a multitude of","ko":"수많은 ~, 다수의 ~"}
+      "parts": [
+        {
+          "part": "geo",
+          "mean": "지구의"
+        },
+        {
+          "part": "graph",
+          "mean": "= write"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
+        }
       ],
-      "examples":[
-        {"en":"I saw a multitude of stars in the sky last night.","ko":"나는 어젯밤에 하늘에 떠 있는 수많은 별을 봤다."}
-      ]
-    },
-
-    {
-      "en":"monologue","ipa":"/ˈmɑːnəlɔːɡ/",
-      "meanings":[{"pos":"명","defs":["(혼자서만 하는) 긴 이야기","(배우의) 독백"]}],
-      "parts":[{"part":"mono-","mean":"하나 (one, single)"},{"part":"logue","mean":"말 (speech, word)"}],
-      "origin":"혼자 하는 말 → 독백",
-      "examples":[
-        {"en":"I especially liked her closing monologue.","ko":"난 특히 그녀의 마지막 독백을 좋아했다."}
-      ]
-    },
-
-    {
-      "en":"monoculture","ipa":"/ˈmɑːnəkʌltʃər/",
-      "meanings":[{"pos":"명","defs":["단작, 단일 재배","단일 문화 (사회)"]}],
-      "parts":[{"part":"mono-","mean":"하나 (one, single)"},{"part":"culture","mean":"재배, 경작 (cultivation)"}],
-      "origin":"하나만 재배하는 것 → 단일 재배",
-      "examples":[
-        {"en":"The soil of a farm field is forced to be the perfect environment for monoculture growth.","ko":"농지의 토양은 단일 재배를 위한 완벽한 환경이 되도록 강제된다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"union","ipa":"/ˈjuːniən/",
-      "meanings":[{"pos":"명","defs":["(노동) 조합","(동일한 관심사나 목표를 가진) 단체, 클럽","결합, 연합"]}],
-      "parts":[{"part":"uni-","mean":"하나 (one)"},{"part":"-on","mean":"명사형 접미사"}],
-      "origin":"하나로 합침 → 결합, 노동조합",
-      "synonyms":["alliance"],
-      "examples":[
-        {"en":"The labor union held a vote to decide whether they should go on strike.","ko":"노동 조합은 파업을 할지 결정하기 위해 투표를 진행했다."},
-        {"en":"the student union","ko":"학생회"},
-        {"en":"the European Union (EU)","ko":"유럽 연합"}
-      ]
-    },
-
-    {
-      "en":"unique","ipa":"/juˈniːk/",
-      "meanings":[{"pos":"형","defs":["보통이 아닌, 특별한, 독특한","유일(무이)한, 하나밖에 없는","(+ to) (특정 장소·사람·사물에서) 특유의, 고유의"]}],
-      "parts":[{"part":"uni-","mean":"하나 (one)"},{"part":"-que","mean":"형용사형 접미사"}],
-      "origin":"하나뿐인 → 독특한, 유일한",
-      "synonyms":["unusual","sole","only","single"],
-      "antonyms":["usual","common"],
-      "examples":[
-        {"en":"The artist has a unique painting style and story.","ko":"그 화가는 독특한 그림체와 스토리를 가지고 있다.","source":"교과서"},
-        {"en":"Each product has its own unique code number.","ko":"각 상품은 고유의 코드 번호를 가지고 있다."}
-      ]
-    },
-
-    {
-      "en":"unify","ipa":"/ˈjuːnɪfaɪ/",
-      "meanings":[{"pos":"동","defs":["(갈라져 있던 것을) 통일하다, 통합하다"]}],
-      "parts":[{"part":"uni-","mean":"하나 (one)"},{"part":"fy","mean":"만들다 (make)"}],
-      "origin":"하나로 만들다 → 통일하다",
-      "synonyms":["unite"],
-      "antonyms":["divide"],
-      "derivatives":[
-        {"en":"unification","pos":"명","defs":["통일, 통합"]}
+      "origin": "지구에 대해 쓴 것",
+      "derivatives": [
+        {
+          "en": "geographical",
+          "pos": "형",
+          "defs": [
+            "1 지리학(상)의",
+            "2 지리적인"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"Genghis Khan unified the Mongol tribes in 1206.","ko":"칭기즈 칸은 1206년에 몽골 부족들을 통일했다."}
+      "examples": [
+        {
+          "en": "He knows a lot about **geography**, especially mountains and rivers.",
+          "ko": "그는 지리에 대해 많이 아는데, 특히 산과 강에 대해 잘 안다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"unite","ipa":"/juˈnaɪt/",
-      "meanings":[{"pos":"동","defs":["(본래 개별적인 것들을 하나로) 결합[통합]하다, 연합하다"]}],
-      "parts":[{"part":"uni-","mean":"하나 (one)"},{"part":"-te","mean":"동사형 접미사"}],
-      "origin":"하나로 하다 → 결합하다, 단결하다",
-      "synonyms":["join","unify"],
-      "derivatives":[
-        {"en":"unity","pos":"명","defs":["통합, 통일","단일성, 조화"]}
+      "en": "geology",
+      "ipa": [
+        "[dʒiɑ́ːlədʒi]"
       ],
-      "examples":[
-        {"en":"One founder of a famous social media company believed social media would unite us.","ko":"한 유명한 소셜미디어 회사의 창업자는 소셜미디어가 우리를 통합할 것이라고 믿었다.","source":"모의"},
-        {"en":"A common language builds a sense of unity.","ko":"공통된 언어는 일체감을 형성한다."}
-      ]
-    },
-
-    {
-      "en":"unit","ipa":"/ˈjuːnɪt/",
-      "meanings":[{"pos":"명","defs":["구성 단위, 측정 단위, 유닛","단일체, 한 개","(병원·군대 등의) 부문, 부(部)"]}],
-      "parts":[{"part":"uni-","mean":"하나 (one)"},{"part":"-t","mean":"명사형 접미사"}],
-      "origin":"하나의 것 → 단위, 한 개",
-      "examples":[
-        {"en":"a monetary unit","ko":"화폐 단위"},
-        {"en":"We completed the first unit of our textbook today.","ko":"우리는 오늘 교과서 첫 번째 과를 마쳤다."},
-        {"en":"an intensive care unit (ICU)","ko":"중환자실"}
-      ]
-    },
-
-    {
-      "en":"universe","ipa":"/ˈjuːnɪvɜːrs/",
-      "meanings":[{"pos":"명","defs":["우주, 만물","전 세계"]}],
-      "parts":[{"part":"uni-","mean":"하나 (one)"},{"part":"verse","mean":"돌리다 (turn)"}],
-      "origin":"하나로 돌아가는 전체 → 우주",
-      "synonyms":["cosmos","world"],
-      "derivatives":[
-        {"en":"universal","pos":"형","defs":["만인의, 전 인류의, 전 세계의","보편[일반]적인"]},
-        {"en":"university","pos":"명","defs":["(종합) 대학교 (줄여서 Univ.)"]}
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 지질학",
+            "2 (어떤 지역의) 지질학적 특징, 지질"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"Scientists hope this new telescope will reveal even more secrets of the universe.","ko":"과학자들은 이 새로운 망원경이 더 많은 우주의 비밀을 밝혀줄 것이라고 기대한다.","source":"교과서"},
-        {"en":"universal standards","ko":"보편적 기준"}
-      ]
-    },
-
-    {
-      "en":"uniform","ipa":"/ˈjuːnɪfɔːrm/",
-      "meanings":[{"pos":"명","defs":["제복, 군복, 교복, 유니폼"]},{"pos":"형","defs":["(크기·모양·형식 등이) 동일한, 똑같은","일관된, 한결 같은"]}],
-      "parts":[{"part":"uni-","mean":"하나 (one)"},{"part":"form","mean":"형태 (form, shape)"}],
-      "origin":"하나의 형태 → 제복, 균일한",
-      "synonyms":["costume","identical","constant"],
-      "examples":[
-        {"en":"Grandpa Joe stood proudly in a baseball uniform.","ko":"Joe 할아버지는 야구 유니폼을 입고 자랑스럽게 서 있었다.","source":"모의"},
-        {"en":"Their decisions were not uniform.","ko":"그들의 결정은 일관되지 않았다.","source":"모의"}
-      ]
-    },
-
-    {
-      "en":"bilingual","ipa":"/ˌbaɪˈlɪŋɡwəl/",
-      "meanings":[{"pos":"형","defs":["2개 국어를 구사할 수 있는","2개 국어를 사용하는"]},{"pos":"명","defs":["2개 국어 구사자"]}],
-      "parts":[{"part":"bi-","mean":"둘 (two)"},{"part":"lingual","mean":"언어의 (language)"}],
-      "origin":"두 언어의 → 2개 국어 구사자(의)",
-      "examples":[
-        {"en":"She is bilingual in English and Spanish.","ko":"그녀는 영어와 스페인어 2개 국어를 구사할 수 있다."}
-      ]
-    },
-
-    {
-      "en":"balance","ipa":"/ˈbæləns/",
-      "meanings":[{"pos":"명","defs":["(양·무게·몸 등의) 균형, 평형","잔고, 잔액","저울"]},{"pos":"동","defs":["균형을 잡다","상쇄하다","(+ against) (~와) 견주어 보다"]}],
-      "parts":[{"part":"bi-","mean":"둘 (two)"},{"part":"lance","mean":"접시 (plate, pan)"}],
-      "origin":"두 접시(저울) → 균형",
-      "antonyms":["imbalance"],
-      "synonyms":["offset"],
-      "phrases":[
-        {"en":"off[out of] balance","ko":"균형을 잃은"}
+      "parts": [
+        {
+          "part": "geo",
+          "mean": "땅의"
+        },
+        {
+          "part": "logy",
+          "mean": "명접:'학문'"
+        }
       ],
-      "examples":[
-        {"en":"balance between work and leisure","ko":"일과 여가 사이의 균형","source":"모의"},
-        {"en":"The balance in your account is 1.4 million won.","ko":"귀하의 계좌의 잔액은 140만 원입니다."},
-        {"en":"You need to balance your diet with grains, protein, and vegetables.","ko":"당신은 곡물, 단백질, 그리고 채소로 식단의 균형을 맞출 필요가 있다."}
+      "origin": "땅에 관한 학문",
+      "examples": [
+        {
+          "en": "Because I am interested in rocks, I decided to major in **geology**.",
+          "ko": "나는 암석에 관심이 많아서, 지질학을 전공하기로 결정했다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"duplicate","ipa":"/ˈduːplɪkeɪt/ · /ˈduːplɪkɪt/",
-      "meanings":[{"pos":"동","defs":["(서류 등을) 복사[복제]하다","(똑같이) 되풀이하다"]},{"pos":"형","defs":["복사의, 복제의"]},{"pos":"명","defs":["복사본, 복제품"]}],
-      "parts":[{"part":"du-","mean":"둘 (two)"},{"part":"plic","mean":"접다 (fold)"},{"part":"-ate","mean":"동사형 접미사"}],
-      "origin":"두 번 접다 → 복사하다",
-      "synonyms":["copy","reproduce","repeat"],
-      "derivatives":[
-        {"en":"duplication","pos":"명","defs":["복사, 복제","이중, 중복"]}
+      "en": "geometry",
+      "ipa": [
+        "[dʒiɑ́ːmətri]"
       ],
-      "examples":[
-        {"en":"They duplicated the key so both roommates could have one.","ko":"그들은 두 룸메이트가 각각 하나씩 가질 수 있도록 열쇠를 복제했다."}
-      ]
-    },
-
-    {
-      "en":"dual","ipa":"/ˈduːəl/",
-      "meanings":[{"pos":"형","defs":["둘의","두 부분으로 된, 이중의"]}],
-      "parts":[{"part":"du-","mean":"둘 (two)"},{"part":"-al","mean":"형용사형 접미사"}],
-      "origin":"둘의 → 이중의",
-      "synonyms":["double"],
-      "examples":[
-        {"en":"This device serves a dual purpose: heating and cooling.","ko":"이 기기는 난방과 냉방, 두 가지 기능을 제공한다."},
-        {"en":"She has dual citizenship.","ko":"그녀는 이중 국적을 가지고 있다."}
-      ]
-    },
-
-    {
-      "en":"twilight","ipa":"/ˈtwaɪlaɪt/",
-      "meanings":[{"pos":"명","defs":["황혼, 땅거미, 어스름","(전성기 뒤의) 황혼기, 쇠퇴기"]}],
-      "parts":[{"part":"twi-","mean":"둘 (two)"},{"part":"light","mean":"빛 (light)"}],
-      "origin":"두 빛 사이(낮과 밤) → 황혼",
-      "synonyms":["dusk","decline"],
-      "antonyms":["peak"],
-      "phrases":[
-        {"en":"cf. dawn","ko":"새벽, 동 틀 무렵"}
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "기하학 (점, 선, 면, 부피, 위치 등을 연구하는 수학의 한 분야)"
+          ]
+        }
       ],
-      "examples":[
-        {"en":"I saw a dark figure moving in the twilight.","ko":"나는 황혼 속에서 어두운 형체가 움직이는 것을 보았다."},
-        {"en":"the twilight of life","ko":"인생의 황혼기"}
-      ]
-    },
-
-    {
-      "en":"twist","ipa":"/twɪst/",
-      "meanings":[{"pos":"명","defs":["비틀기, 꼬임","(도로·강 등의) 굴곡"]},{"pos":"동","defs":["(철사·실 등을) 꼬다, 감다, 비틀다, (몸을) 틀다, 삐다","(사실·의미 등을) 왜곡하다"]}],
-      "parts":[{"part":"twi-","mean":"둘 (two)"},{"part":"st","mean":"실, 줄 (string)"}],
-      "origin":"두 줄을 꼬다 → 비틀다",
-      "synonyms":["distort"],
-      "examples":[
-        {"en":"She twisted the thread around her finger.","ko":"그녀는 자신의 손가락에 실을 감았다."},
-        {"en":"Sean fell over a rock and twisted his ankle.","ko":"Sean은 바위에 걸려 넘어져서 발목을 삐었다.","source":"수능"},
-        {"en":"He always twists the facts.","ko":"그는 항상 사실을 왜곡한다."}
-      ]
-    },
-
-    {
-      "en":"triangle","ipa":"/ˈtraɪæŋɡl/",
-      "meanings":[{"pos":"명","defs":["삼각형 (모양)","[악기] 트라이앵글","삼각관계"]}],
-      "parts":[{"part":"tri-","mean":"셋 (three)"},{"part":"angle","mean":"각 (angle)"}],
-      "origin":"세 개의 각 → 삼각형",
-      "derivatives":[
-        {"en":"triangular","pos":"형","defs":["삼각형의","삼자[국] 간의"]}
+      "parts": [
+        {
+          "part": "geo",
+          "mean": "땅의"
+        },
+        {
+          "part": "metr",
+          "mean": "= measure 측정하다"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
+        }
       ],
-      "examples":[
-        {"en":"Do you see that big triangle of bright stars there?","ko":"저기 큰 삼각형 모양의 밝은 별들이 보이시나요?","source":"모의"},
-        {"en":"Sharks have a triangular fin on their back.","ko":"상어는 등에 삼각형 모양의 지느러미가 있다."}
+      "origin": "지면을 측정하는 것",
+      "examples": [
+        {
+          "en": "You need **geometry** to measure the distance to nearby stars.",
+          "ko": "가까이 있는 별들까지의 거리를 측정하기 위해서는 기하학이 필요하다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"tribe","ipa":"/traɪb/",
-      "meanings":[{"pos":"명","defs":["부족, 종족"]}],
-      "parts":[{"part":"tri-","mean":"셋 (three)"},{"part":"-be","mean":"존재 (being)"}],
-      "origin":"로마의 세 부족에서 유래 → 부족, 종족",
-      "examples":[
-        {"en":"How many different Native American tribes are there in North America?","ko":"북미에는 각기 다른 원주민 부족들이 얼마나 많이 있습니까?"}
+      "en": "multiple",
+      "ipa": [
+        "[mʌ́ltəpəl]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *다수의, 다양한*",
+            "2 배수의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "배수"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "multi",
+          "mean": "= many"
+        },
+        {
+          "part": "ple",
+          "mean": "겹, 배수의"
+        }
+      ],
+      "origin": "여러 겹의, 많은 수의",
+      "synonyms": [
+        "numerous",
+        "many"
+      ],
+      "derivatives": [
+        {
+          "en": "multiply",
+          "pos": "동",
+          "defs": [
+            "1 증가하다; 증가시키다",
+            "2 곱하다",
+            "3 번식하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "There were **multiple** witnesses to the accident.",
+          "ko": "그 사건에 대한 다수의 목격자가 있었다.",
+          "source": "모의"
+        },
+        {
+          "en": "Cybercrimes have **multiplied** greatly over the past five years.",
+          "ko": "지난 5년 동안 사이버 범죄가 크게 증가했다.",
+          "source": ""
+        }
       ]
     },
-
     {
-      "en":"trivial","ipa":"/ˈtrɪviəl/",
-      "meanings":[{"pos":"형","defs":["사소한, 하찮은"]}],
-      "parts":[{"part":"tri-","mean":"셋 (three)"},{"part":"vi","mean":"길 (road)"},{"part":"-al","mean":"형용사형 접미사"}],
-      "origin":"세 갈래 길(교차로)에서 떠도는 흔한 이야기 → 사소한",
-      "synonyms":["insignificant","trifling"],
-      "examples":[
-        {"en":"I didn't want to be bothered with such a trivial demand.","ko":"나는 그런 사소한 요구에 신경 쓰고 싶지 않았다.","source":"모의"}
+      "en": "multimedia",
+      "ipa": [
+        "[mʌ̀ltimíːdiə]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "멀티미디어(의) (음성, 문자, 영상 등의 매체를 사용한 디지털 방식의 표현)"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "멀티미디어(의)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "multi",
+          "mean": "= many"
+        },
+        {
+          "part": "media",
+          "mean": "매체"
+        }
+      ],
+      "origin": "여러 매체(의)",
+      "examples": [
+        {
+          "en": "The museum uses **multimedia** equipment to help visitors learn about the art.",
+          "ko": "그 박물관은 관람객들이 작품을 이해할 수 있도록 돕고자 멀티미디어 장비를 사용한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "multitude",
+      "ipa": [
+        "[mʌ́ltətùːd]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 다수",
+            "2 (문어체) 군중"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "multi",
+          "mean": "= many"
+        },
+        {
+          "part": "tude",
+          "mean": "명접"
+        }
+      ],
+      "origin": "많은 상태",
+      "synonyms": [
+        "a lot",
+        "crowd"
+      ],
+      "phrases": [
+        {
+          "en": "a multitude of",
+          "ko": "수많은 …, 다수의 …"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I saw **a multitude of** stars in the sky last night.",
+          "ko": "나는 어젯밤에 하늘에 떠 있는 수많은 별을 봤다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "monologue",
+      "ipa": [
+        "[mɑ́ːnəlɔ̀ːg]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 (혼자서만 하는) 긴 이야기",
+            "2 (배우의) 독백"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mono",
+          "mean": "= alone"
+        },
+        {
+          "part": "logue",
+          "mean": "= speech"
+        }
+      ],
+      "origin": "혼자 말하기",
+      "examples": [
+        {
+          "en": "I especially liked her closing **monologue**.",
+          "ko": "난 특히 그녀의 마지막 독백을 좋아했다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "monoculture",
+      "ipa": [
+        "[mɑ́ːnoukʌ̀ltʃər]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 단작, 단일 재배",
+            "2 단일 문화 (사회)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mono",
+          "mean": "= one"
+        },
+        {
+          "part": "culture",
+          "mean": "경작; 문화"
+        }
+      ],
+      "origin": "├ 하나만 기르는 것\n└ 하나만 유지되는 문화",
+      "examples": [
+        {
+          "en": "The soil of a farm field is forced to be the perfect environment for **monoculture** growth.",
+          "ko": "농지의 토양은 단일 재배를 위한 완벽한 환경이 되도록 강제된다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "union",
+      "ipa": [
+        "[júːnjən]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 (노동) 조합",
+            "2 (동일한 관심사나 목표를 가진) 단체, 클럽",
+            "3 결합, 연합"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni",
+          "mean": "= one"
+        },
+        {
+          "part": "on",
+          "mean": "명접"
+        }
+      ],
+      "origin": "하나가 됨",
+      "synonyms": [
+        "alliance"
+      ],
+      "examples": [
+        {
+          "en": "The labor **union** held a vote to decide whether they should go on strike.",
+          "ko": "노동 조합은 파업을 할지 결정하기 위해 투표를 진행했다.",
+          "source": ""
+        },
+        {
+          "en": "the student **union**",
+          "ko": "학생회",
+          "source": ""
+        },
+        {
+          "en": "the European **Union** (EU)",
+          "ko": "유럽 연합",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "unique",
+      "ipa": [
+        "[juːníːk]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *보통이 아닌, 특별한, 독특한*",
+            "2 유일(무이)한, 하나밖에 없는",
+            "3 (+ to) (특정 장소·사람·사물에서) 특유의, 고유의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni",
+          "mean": "= one"
+        },
+        {
+          "part": "ique",
+          "mean": "= ic:형접"
+        }
+      ],
+      "origin": "하나인, 하나만 있는",
+      "synonyms": [
+        "unusual"
+      ],
+      "antonyms": [
+        "usual",
+        "common",
+        "sole",
+        "only",
+        "single"
+      ],
+      "examples": [
+        {
+          "en": "The artist has a **unique** painting style and story.",
+          "ko": "그 화가는 독특한 그림체와 스토리를 가지고 있다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Each product has its own **unique** code number.",
+          "ko": "각 상품은 고유의 코드 번호를 가지고 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "unify",
+      "ipa": [
+        "[júːnəfài]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(갈라져 있던 것을) 통일하다, 통합하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni",
+          "mean": "= one"
+        },
+        {
+          "part": "fy",
+          "mean": "= fac:make"
+        }
+      ],
+      "origin": "하나로 만들다",
+      "synonyms": [
+        "unite"
+      ],
+      "antonyms": [
+        "divide"
+      ],
+      "derivatives": [
+        {
+          "en": "unification",
+          "pos": "명",
+          "defs": [
+            "통일, 통합"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Genghis Khan **unified** the Mongol tribes in 1206.",
+          "ko": "칭기즈 칸은 1206년에 몽골 부족들을 통일했다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "unite",
+      "ipa": [
+        "[juːnáit]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(본래 개별적인 것들을 하나로) 결합[통합]하다, 연합하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni",
+          "mean": "= one"
+        },
+        {
+          "part": "te",
+          "mean": "= ate:동접"
+        }
+      ],
+      "origin": "한 개로 만들다",
+      "synonyms": [
+        "join",
+        "unify"
+      ],
+      "derivatives": [
+        {
+          "en": "unity",
+          "pos": "명",
+          "defs": [
+            "1 통합, 통일",
+            "2 단일성, 조화"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "One founder of a famous social media company believed social media would **unite** us.",
+          "ko": "한 유명한 소셜미디어 회사의 창업자는 소셜미디어가 우리를 통합할 것이라고 믿었다.",
+          "source": "모의"
+        },
+        {
+          "en": "A common language builds a sense of **unity**.",
+          "ko": "공통된 언어는 일체감을 형성한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "unit",
+      "ipa": [
+        "[júːnit]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *구성 단위, 측정 단위, 유닛*",
+            "2 단일체, 한 개",
+            "3 (병원·군대 등의) 부문, 부(部)"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni",
+          "mean": "= one"
+        },
+        {
+          "part": "t",
+          "mean": "어미"
+        }
+      ],
+      "origin": "한 개인 것",
+      "examples": [
+        {
+          "en": "a monetary **unit**",
+          "ko": "화폐 단위",
+          "source": ""
+        },
+        {
+          "en": "We completed the first **unit** of our textbook today.",
+          "ko": "우리는 오늘 교과서 첫 번째 과를 마쳤다.",
+          "source": ""
+        },
+        {
+          "en": "an intensive care **unit** (ICU)",
+          "ko": "중환자실",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "universe",
+      "ipa": [
+        "[júːnəvə̀ːrs]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *우주, 만물*",
+            "2 전 세계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni",
+          "mean": "= one"
+        },
+        {
+          "part": "verse",
+          "mean": "= turn"
+        }
+      ],
+      "origin": "turned into one 한 덩어리가 된 것",
+      "synonyms": [
+        "cosmos",
+        "world"
+      ],
+      "derivatives": [
+        {
+          "en": "universal",
+          "pos": "형",
+          "defs": [
+            "1 만인의, 전 인류의, 전 세계의",
+            "2 보편[일반]적인"
+          ]
+        },
+        {
+          "en": "university",
+          "pos": "명",
+          "defs": [
+            "(종합) 대학교 (줄여서 Univ.)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Scientists hope this new telescope will reveal even more secrets of the **universe**.",
+          "ko": "과학자들은 이 새로운 망원경이 더 많은 우주의 비밀을 밝혀줄 것이라고 기대한다.",
+          "source": "교과서"
+        },
+        {
+          "en": "**universal** standards",
+          "ko": "보편적 기준",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "uniform",
+      "ipa": [
+        "[júːnəfɔ̀ːrm]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "제복, 군복, 교복, 유니폼"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "1 (크기·모양·형식 등이) 동일한, 똑같은",
+            "2 일관된, 한결 같은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "uni",
+          "mean": "= one"
+        },
+        {
+          "part": "form",
+          "mean": "형태"
+        }
+      ],
+      "origin": "(모두가 같은) 하나의 형태를 가진 (것)",
+      "synonyms": [
+        "costume",
+        "identical",
+        "constant"
+      ],
+      "examples": [
+        {
+          "en": "Grandpa Joe stood proudly in a baseball **uniform**.",
+          "ko": "Joe 할아버지는 야구 유니폼을 입고 자랑스럽게 서 있었다.",
+          "source": "모의"
+        },
+        {
+          "en": "Their decisions were not **uniform**.",
+          "ko": "그들의 결정은 일관되지 않았다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "bilingual",
+      "ipa": [
+        "[bailíŋgwəl]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 2개 국어를 구사할 수 있는",
+            "2 2개 국어를 사용하는"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "2개 국어 구사자"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "bi",
+          "mean": "= two"
+        },
+        {
+          "part": "ling",
+          "mean": "= tongue"
+        },
+        {
+          "part": "ual",
+          "mean": "형접"
+        }
+      ],
+      "origin": "두 개의 혀를 가진 → 두 개의 언어를 구사할 수 있는",
+      "examples": [
+        {
+          "en": "She is **bilingual** in English and Spanish.",
+          "ko": "그녀는 영어와 스페인어 2개 국어를 구사할 수 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "balance",
+      "ipa": [
+        "[bǽləns]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *(양·무게·몸 등의) 균형, 평형*",
+            "2 잔고, 잔액",
+            "3 저울"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 *균형을 잡다*",
+            "2 상쇄하다",
+            "3 (+ against) (…와) 견주어 보다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ba",
+          "mean": "= two"
+        },
+        {
+          "part": "lance",
+          "mean": "= dish"
+        }
+      ],
+      "origin": "두 개의 접시가 있는 것 → 저울\n→ (저울의) 균형",
+      "antonyms": [
+        "imbalance"
+      ],
+      "synonyms": [],
+      "phrases": [
+        {
+          "en": "off[out of] balance",
+          "ko": "균형을 잃은"
+        }
+      ],
+      "examples": [
+        {
+          "en": "**balance** between work and leisure",
+          "ko": "일과 여가 사이의 균형",
+          "source": "모의"
+        },
+        {
+          "en": "The **balance** in your account is 1.4 million won.",
+          "ko": "귀하의 계좌의 잔액은 140만 원입니다.",
+          "source": ""
+        },
+        {
+          "en": "You need to **balance** your diet with grains, protein, and vegetables.",
+          "ko": "당신은 곡물, 단백질, 그리고 채소로 식단의 균형을 맞출 필요가 있다.",
+          "source": ""
+        }
+      ],
+      "derivatives": []
+    },
+    {
+      "en": "duplicate",
+      "ipa": [
+        "동 [djúːpləkèit]",
+        "형·명 [djúːpləkit]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (서류 등을) 복사[복제]하다",
+            "2 (똑같이) 되풀이하다"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "복사의, 복제의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "복사본, 복제품"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "du",
+          "mean": "= two"
+        },
+        {
+          "part": "plic",
+          "mean": "= fold"
+        },
+        {
+          "part": "ate",
+          "mean": "동접"
+        }
+      ],
+      "origin": "어떤 것을 둘이 되도록 접다 →\n두 배로 만들다 → 복사[복제]하다",
+      "synonyms": [
+        "copy",
+        "reproduce",
+        "repeat",
+        "copy"
+      ],
+      "derivatives": [
+        {
+          "en": "duplication",
+          "pos": "명",
+          "defs": [
+            "1 복사, 복제",
+            "2 이중, 중복"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "They **duplicated** the key so both roommates could have one.",
+          "ko": "그들은 두 룸메이트가 각각 하나씩 가질 수 있도록 열쇠를 복제했다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "dual",
+      "ipa": [
+        "[djúːəl]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 둘의",
+            "2 두 부분으로 된, 이중의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "du",
+          "mean": "= two"
+        },
+        {
+          "part": "al",
+          "mean": "형접"
+        }
+      ],
+      "origin": "두 개의, 이중의",
+      "synonyms": [
+        "double"
+      ],
+      "examples": [
+        {
+          "en": "This device serves a **dual** purpose: heating and cooling.",
+          "ko": "이 기기는 난방과 냉방, 두 가지 기능을 제공한다.",
+          "source": ""
+        },
+        {
+          "en": "She has **dual** citizenship.",
+          "ko": "그녀는 이중 국적을 가지고 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "twilight",
+      "ipa": [
+        "[twáilàit]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 황혼, 땅거미, 어스름",
+            "2 (전성기 뒤의) 황혼기, 쇠퇴기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "twi",
+          "mean": "= two"
+        },
+        {
+          "part": "light",
+          "mean": "빛"
+        }
+      ],
+      "origin": "light between (night and day)\n낮과 밤 두 시간대 사이의 빛",
+      "synonyms": [
+        "dusk"
+      ],
+      "antonyms": [
+        "peak"
+      ],
+      "phrases": [
+        {
+          "en": "cf. dawn",
+          "ko": "새벽, 동 틀 무렵"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I saw a dark figure moving in the **twilight**.",
+          "ko": "나는 황혼 속에서 어두운 형체가 움직이는 것을 보았다.",
+          "source": ""
+        },
+        {
+          "en": "the **twilight** of life",
+          "ko": "인생의 황혼기",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "twist",
+      "ipa": [
+        "[twist]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 비틀기, 꼬임",
+            "2 (도로·강 등의) 굴곡"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 *(철사·실 등을) 꼬다, 감다, 비틀다, (몸을) 틀다, 삐다*",
+            "2 (사실·의미 등을) 왜곡하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "twi",
+          "mean": "= two"
+        },
+        {
+          "part": "st",
+          "mean": "어미"
+        }
+      ],
+      "origin": "두 가닥으로 된 것",
+      "synonyms": [
+        "distort"
+      ],
+      "examples": [
+        {
+          "en": "She **twisted** the thread around her finger.",
+          "ko": "그녀는 자신의 손가락에 실을 감았다.",
+          "source": ""
+        },
+        {
+          "en": "Sean fell over a rock and **twisted** his ankle.",
+          "ko": "Sean은 바위에 걸려 넘어져서 발목을 삐었다.",
+          "source": "수능"
+        },
+        {
+          "en": "He always **twists** the facts.",
+          "ko": "그는 항상 사실을 왜곡한다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "triangle",
+      "ipa": [
+        "[tráiæ̀ŋgəl]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 삼각형 (모양)",
+            "2 [악기] 트라이앵글",
+            "3 삼각관계"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tri",
+          "mean": "= three"
+        },
+        {
+          "part": "angle",
+          "mean": "각, 각도"
+        }
+      ],
+      "origin": "세 개의 각을 가진 것",
+      "derivatives": [
+        {
+          "en": "triangular",
+          "pos": "형",
+          "defs": [
+            "1 삼각형의",
+            "2 삼자[국] 간의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Do you see that big **triangle** of bright stars there?",
+          "ko": "저기 큰 삼각형 모양의 밝은 별들이 보이시나요?",
+          "source": "모의"
+        },
+        {
+          "en": "Sharks have a **triangular** fin on their back.",
+          "ko": "상어는 등에 삼각형 모양의 지느러미가 있다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "tribe",
+      "ipa": [
+        "[traib]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "부족, 종족"
+          ]
+        }
+      ],
+      "parts": [],
+      "origin": "라틴어 tribus(로마의 세 민족)에서 온 말\n→ 민족적·정치적 단위의 집단",
+      "examples": [
+        {
+          "en": "How many different Native American **tribes** are there in North America?",
+          "ko": "북미에는 각기 다른 원주민 부족들이 얼마나 많이 있습니까?",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "trivial",
+      "ipa": [
+        "[tríviəl]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "사소한, 하찮은"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "tri",
+          "mean": "= three"
+        },
+        {
+          "part": "via",
+          "mean": "= way"
+        },
+        {
+          "part": "al",
+          "mean": "형접"
+        }
+      ],
+      "origin": "세 길이 만나는 곳의 → 누구나 모이는 곳의, 누구나 아는 → 평범한, 대단치 않은",
+      "synonyms": [
+        "insignificant",
+        "trifling"
+      ],
+      "examples": [
+        {
+          "en": "I didn't want to be bothered with such a **trivial** demand.",
+          "ko": "나는 그런 사소한 요구에 신경 쓰고 싶지 않았다.",
+          "source": "모의"
+        }
       ]
     }
   ]

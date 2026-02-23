@@ -3,368 +3,1466 @@
   "words": [
     {
       "en": "move",
-      "ipa": "/muːv/",
+      "ipa": [
+        "[muːv]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["움직이다, 이동하다", "이사하다", "진행[진척]되다", "감동시키다"]},
-        {"pos": "명", "defs": ["움직임, 이동", "조치, 행동"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 *움직이다, 이동하다*",
+            "2 이사하다",
+            "3 진행[진척]되다",
+            "4 감동시키다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 움직임, 이동",
+            "2 조치, 행동"
+          ]
+        }
       ],
-      "parts": [{"part": "mov", "mean": "움직이다 (move)"}],
-      "origin": "움직이다",
-      "synonyms": ["progress"],
+      "parts": [],
+      "origin": "라틴어 movere(=move)에서 온 말\n움직이다, 이동하다 →\n├ (거처를 옮겨) 이사하다\n├ (상황·일 등이 움직여) 진행되다\n└ (마음 등을 움직여) 감동시키다",
+      "synonyms": [
+        "progress"
+      ],
+      "antonyms": [],
       "derivatives": [
-        {"en": "movement", "pos": "명", "defs": ["움직임, 이동", "진전", "(개인·단체의 조직적인) 운동"]},
-        {"en": "moving", "pos": "형", "defs": ["감동시키는", "움직이는, 이동하는"]}
+        {
+          "en": "movement",
+          "pos": "명",
+          "defs": [
+            "1 움직임, 이동",
+            "2 진전",
+            "3 (개인·단체의 조직적인) 운동"
+          ]
+        },
+        {
+          "en": "moving",
+          "pos": "형",
+          "defs": [
+            "1 감동시키는",
+            "2 움직이는, 이동하는"
+          ]
+        }
       ],
+      "phrases": [],
       "examples": [
-        {"en": "The subway was so crowded that I could hardly move.", "ko": "지하철이 너무 붐벼서 나는 거의 움직일 수 없었다."},
-        {"en": "The audience was moved to tears.", "ko": "관객은 감동해서 눈물을 흘렸다."},
-        {"en": "The dancer's movements were smooth and graceful.", "ko": "무용수의 움직임은 부드럽고 우아했다."}
+        {
+          "en": "The subway was so crowded that I could hardly **move**.",
+          "ko": "지하철이 너무 붐벼서 나는 거의 움직일 수 없었다.",
+          "source": ""
+        },
+        {
+          "en": "The audience was **moved** to tears.",
+          "ko": "관객은 감동해서 눈물을 흘렸다.",
+          "source": ""
+        },
+        {
+          "en": "The dancer's **movements** were smooth and graceful.",
+          "ko": "무용수의 움직임은 부드럽고 우아했다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "motive",
-      "ipa": "/ˈmoʊtɪv/",
-      "meanings": [
-        {"pos": "명", "defs": ["(행위의) 동기, 자극"]},
-        {"pos": "형", "defs": ["움직이게 하는, 원동력이 되는"]}
+      "ipa": [
+        "[móutiv]"
       ],
-      "parts": [{"part": "mot(mov)", "mean": "움직이다 (move)"}, {"part": "-ive", "mean": "명사/형용사형 접미사"}],
-      "origin": "움직이게 하는 것 → 동기",
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "*(행위의) 동기, 자극*"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "움직이게 하는, 원동력이 되는"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mot",
+          "mean": "= move"
+        },
+        {
+          "part": "ive",
+          "mean": "형접"
+        }
+      ],
+      "origin": "움직이게 하는 → 동기를 부여하는",
+      "synonyms": [],
+      "antonyms": [],
       "derivatives": [
-        {"en": "motivate", "pos": "동", "defs": ["동기를 부여하다, 자극하다"]},
-        {"en": "motivation", "pos": "명", "defs": ["동기 부여, 자극; 열의"]}
+        {
+          "en": "motivate",
+          "pos": "동",
+          "defs": [
+            "동기를 부여하다, 자극하다"
+          ]
+        },
+        {
+          "en": "motivation",
+          "pos": "명",
+          "defs": [
+            "동기 부여, 자극; 열의"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "motif",
+          "ko": "(복수형 motifs) 1 (예술 등의) 주제 2 무늬"
+        }
       ],
       "examples": [
-        {"en": "Police don't know the motive for the crime.", "ko": "경찰은 그 범행의 동기를 알지 못한다."},
-        {"en": "Curiosity can motivate us to investigate unfamiliar topics and ideas.", "ko": "호기심은 우리가 낯선 주제나 개념을 탐구하도록 동기를 부여할 수 있다.", "source": "교과서"}
+        {
+          "en": "Police don't know the **motive** for the crime.",
+          "ko": "경찰은 그 범행의 동기를 알지 못한다.",
+          "source": ""
+        },
+        {
+          "en": "Curiosity can **motivate** us to investigate unfamiliar topics and ideas.",
+          "ko": "호기심은 우리가 낯선 주제나 개념을 탐구하도록 동기를 부여할 수 있다.",
+          "source": "교과서"
+        }
       ]
     },
     {
       "en": "motion",
-      "ipa": "/ˈmoʊʃn/",
-      "meanings": [
-        {"pos": "명", "defs": ["움직임, 흔들림", "동작"]},
-        {"pos": "동", "defs": ["동작을 하다"]}
+      "ipa": [
+        "[móuʃən]"
       ],
-      "parts": [{"part": "mot(mov)", "mean": "움직이다 (move)"}, {"part": "-ion", "mean": "명사형 접미사"}],
-      "origin": "움직임 → 운동, 동작",
-      "synonyms": ["gesture"],
-      "derivatives": [{"en": "motionless", "pos": "형", "defs": ["움직임이 없는, 가만히 있는"]}],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 움직임, 흔들림",
+            "2 동작"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "동작을 하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mot",
+          "mean": "= move"
+        },
+        {
+          "part": "ion",
+          "mean": "명접"
+        }
+      ],
+      "origin": "움직이는 것",
+      "synonyms": [
+        "gesture"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "motionless",
+          "pos": "형",
+          "defs": [
+            "움직임이 없는, 가만히 있는"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "The motion of the boat made Nate feel dizzy.", "ko": "배의 움직임 때문에 Nate는 어지러움을 느꼈다."},
-        {"en": "Everyone stood motionless and watched as the building collapsed.", "ko": "그 건물이 무너졌을 때 사람들은 모두 움직임 없이 서서 보고 있었다."}
+        {
+          "en": "The **motion** of the boat made Nate feel dizzy.",
+          "ko": "배의 움직임 때문에 Nate는 어지러움을 느꼈다.",
+          "source": ""
+        },
+        {
+          "en": "Everyone stood **motionless** and watched as the building collapsed.",
+          "ko": "그 건물이 무너졌을 때 사람들은 모두 움직임 없이 서서 보고 있었다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "emotion",
-      "ipa": "/ɪˈmoʊʃn/",
-      "meanings": [{"pos": "명", "defs": ["감정, 정서"]}],
-      "parts": [{"part": "e-(ex-)", "mean": "밖으로 (out)"}, {"part": "mot(mov)", "mean": "움직이다 (move)"}, {"part": "-ion", "mean": "명사형 접미사"}],
-      "origin": "밖으로 움직여 나오는 것 → 감정",
-      "synonyms": ["feeling"],
-      "derivatives": [{"en": "emotional", "pos": "형", "defs": ["감정의; 감정적인, 정서적인"]}],
-      "examples": [{"en": "I focus on capturing human emotions through facial expressions.", "ko": "나는 표정을 통해 인간의 감정을 포착하는 데 집중한다.", "source": "교과서"}]
+      "ipa": [
+        "[imóuʃən]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "감정, 정서"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "e",
+          "mean": "'강조'"
+        },
+        {
+          "part": "mot",
+          "mean": "= move"
+        },
+        {
+          "part": "ion",
+          "mean": "명접"
+        }
+      ],
+      "origin": "심하게 동요되는 것 → 감정",
+      "synonyms": [
+        "feeling"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "emotional",
+          "pos": "형",
+          "defs": [
+            "감정의; 감정적인, 정서적인"
+          ]
+        }
+      ],
+      "phrases": [],
+      "examples": [
+        {
+          "en": "I focus on capturing human **emotions** through facial expressions.",
+          "ko": "나는 표정을 통해 인간의 감정을 포착하는 데 집중한다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "promote",
-      "ipa": "/prəˈmoʊt/",
-      "meanings": [{"pos": "동", "defs": ["장려하다, 촉진하다", "(주로 수동태로) 승진[승격]시키다", "(상품·행사 등을) 홍보하다"]}],
-      "parts": [{"part": "pro-", "mean": "앞으로 (forward)"}, {"part": "mote(mov)", "mean": "움직이다 (move)"}],
-      "origin": "앞으로 움직이게 하다 → 촉진하다, 승진시키다",
-      "synonyms": ["encourage"],
-      "derivatives": [{"en": "promotion", "pos": "명", "defs": ["승진, 승격", "판촉, 홍보", "촉진, 장려"]}],
+      "ipa": [
+        "[prəmóut]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *장려하다, 촉진하다*",
+            "2 (주로 수동태로) 승진[승격]시키다",
+            "3 (상품·행사 등을) 홍보하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro",
+          "mean": "= forward"
+        },
+        {
+          "part": "mote",
+          "mean": "= move"
+        }
+      ],
+      "origin": "앞으로 움직이게 하다 → 승진·촉진시키다",
+      "synonyms": [
+        "encourage"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "promotion",
+          "pos": "명",
+          "defs": [
+            "1 승진, 승격",
+            "2 판촉, 홍보",
+            "3 촉진, 장려"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "The activity promoted team spirit among the students.", "ko": "그 활동은 학생들 간의 협동심을 증진시켰다."},
-        {"en": "Susan was promoted to supervisor.", "ko": "Susan은 관리자로 승진했다."}
+        {
+          "en": "The activity **promoted** team spirit among the students.",
+          "ko": "그 활동은 학생들 간의 협동심을 증진시켰다.",
+          "source": ""
+        },
+        {
+          "en": "Susan was **promoted** to supervisor.",
+          "ko": "Susan은 관리자로 승진했다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "remote",
-      "ipa": "/rɪˈmoʊt/",
-      "meanings": [{"pos": "형", "defs": ["(위치상) 동떨어진, 외진", "(시간·관계 등이) 먼", "(가능성이) 희박한", "원격 조정의"]}],
-      "parts": [{"part": "re-", "mean": "뒤로 (back)"}, {"part": "mote(mov)", "mean": "움직이다 (move)"}],
-      "origin": "뒤로 멀리 움직인 → 먼, 외딴",
-      "synonyms": ["isolated", "distant"],
+      "ipa": [
+        "[rimóut]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *(위치상) 동떨어진, 외진*",
+            "2 *(시간·관계 등이) 먼*",
+            "3 (가능성이) 희박한",
+            "4 원격 조정의"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "re",
+          "mean": "= away"
+        },
+        {
+          "part": "mote",
+          "mean": "= move"
+        }
+      ],
+      "origin": "moved away 멀리 옮겨간",
+      "synonyms": [
+        "isolated",
+        "distant",
+        "far",
+        "slight"
+      ],
+      "antonyms": [],
+      "derivatives": [],
+      "phrases": [],
       "examples": [
-        {"en": "She grew up in a remote area with no Internet access.", "ko": "그녀는 인터넷 접속도 안 되는 외딴 지역에서 자랐다."},
-        {"en": "His idea has a remote link to the topic.", "ko": "그의 생각은 주제와 거의 관련이 없다."}
+        {
+          "en": "She grew up in a **remote** area with no Internet access.",
+          "ko": "그녀는 인터넷 접속도 안 되는 외딴 지역에서 자랐다.",
+          "source": ""
+        },
+        {
+          "en": "His idea has a **remote** link to the topic.",
+          "ko": "그의 생각은 주제와 거의 관련이 없다.",
+          "source": ""
+        },
+        {
+          "en": "a **remote** control",
+          "ko": "원격 조정(리모컨)",
+          "source": ""
+        }
       ]
     },
     {
       "en": "moment",
-      "ipa": "/ˈmoʊmənt/",
-      "meanings": [{"pos": "명", "defs": ["순간, 찰나", "(특정한) 때, 시기"]}],
-      "parts": [{"part": "mom(mov)", "mean": "움직이다 (move)"}, {"part": "-ment", "mean": "명사형 접미사"}],
-      "origin": "움직이는 찰나 → 순간",
-      "synonyms": ["instant"],
-      "derivatives": [
-        {"en": "momentary", "pos": "형", "defs": ["순간의, 찰나의"]},
-        {"en": "momentarily", "pos": "부", "defs": ["잠깐, 금방"]}
+      "ipa": [
+        "[móumənt]"
       ],
-      "phrases": [{"en": "at the moment", "ko": "바로 지금 (= now)"}],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 순간, 찰나",
+            "2 (특정한) 때, 시기"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mo",
+          "mean": "= move"
+        },
+        {
+          "part": "ment",
+          "mean": "명접"
+        }
+      ],
+      "origin": "움직인 그때 → 순간",
+      "synonyms": [
+        "instant"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "momentary",
+          "pos": "형",
+          "defs": [
+            "순간의, 찰나의"
+          ]
+        },
+        {
+          "en": "momentarily",
+          "pos": "부",
+          "defs": [
+            "잠깐, 금방"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "at the moment",
+          "ko": "바로 지금 (= now)"
+        }
+      ],
       "examples": [
-        {"en": "In my opinion, inspiration doesn't have to come from a special moment.", "ko": "내 생각에는, 영감은 꼭 특별한 순간에서 비롯될 필요는 없다.", "source": "교과서"},
-        {"en": "Her anxiety was only momentary; it soon passed.", "ko": "그녀의 불안감은 단지 순간적이었다. 그것은 곧 사라졌다."}
+        {
+          "en": "In my opinion, inspiration doesn't have to come from a special **moment**.",
+          "ko": "내 생각에는, 영감은 꼭 특별한 순간에서 비롯될 필요는 없다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Her anxiety was only **momentary**; it soon passed.",
+          "ko": "그녀의 불안감은 단지 순간적이었다. 그것은 곧 사라졌다.",
+          "source": ""
+        },
+        {
+          "en": "I'm not busy **at the moment**.",
+          "ko": "나는 지금 바쁘지 않다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "mobile",
-      "ipa": "/ˈmoʊbl/",
-      "meanings": [
-        {"pos": "형", "defs": ["이동성의, 이동식의", "(직업·지역·계층 등이) 유동적인"]},
-        {"pos": "명", "defs": ["움직이는 조각, (실내 장식용) 모빌"]}
+      "ipa": [
+        "[móubəl]"
       ],
-      "parts": [{"part": "mob(mov)", "mean": "움직이다 (move)"}, {"part": "-ile", "mean": "형용사형 접미사"}],
-      "origin": "움직일 수 있는 → 이동식의",
-      "derivatives": [{"en": "mobility", "pos": "명", "defs": ["(사회적) 유동성", "이동성"]}],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *이동성의, 이동식의*",
+            "2 (직업·지역·계층 등이) 유동적인"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 움직이는 조각, (실내 장식용) 모빌",
+            "2 (BrE) 휴대전화"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "mo",
+          "mean": "= move"
+        },
+        {
+          "part": "bile",
+          "mean": "= able …할 수 있는"
+        }
+      ],
+      "origin": "움직일 수 있는, 유동적인",
+      "synonyms": [
+        "mobile phone"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "mobility",
+          "pos": "명",
+          "defs": [
+            "1 (사회적) 유동성",
+            "2 이동성"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "The mobile clinic visits rural areas weekly.", "ko": "그 이동식 진료소는 매주 시골 지역을 방문한다."},
-        {"en": "The injury limited his mobility.", "ko": "그 부상은 그의 이동성을 제한했다."}
+        {
+          "en": "The **mobile** clinic visits rural areas weekly.",
+          "ko": "그 이동식 진료소는 매주 시골 지역을 방문한다.",
+          "source": ""
+        },
+        {
+          "en": "The injury limited his **mobility**.",
+          "ko": "그 부상은 그의 이동성을 제한했다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "conserve",
-      "ipa": "/kənˈsɜːrv/",
-      "meanings": [{"pos": "동", "defs": ["보존하다, 보호하다"]}],
-      "parts": [{"part": "con-(com-)", "mean": "함께 (together)"}, {"part": "serve", "mean": "지키다 (keep, save)"}],
-      "origin": "함께 지키다 → 보존하다",
-      "synonyms": ["preserve"],
-      "derivatives": [
-        {"en": "conservation", "pos": "명", "defs": ["보존, 보호"]},
-        {"en": "conservative", "pos": "형", "defs": ["보수적인"]}
+      "ipa": [
+        "[kənsə́ːrv]"
       ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "보존하다, 보호하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "con",
+          "mean": "= com:'강조'"
+        },
+        {
+          "part": "serve",
+          "mean": "= keep"
+        }
+      ],
+      "origin": "잘 보존하다",
+      "synonyms": [
+        "preserve"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "conservation",
+          "pos": "명",
+          "defs": [
+            "보존, 보호"
+          ]
+        },
+        {
+          "en": "conservative",
+          "pos": "형",
+          "defs": [
+            "보수적인"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "We must conserve energy and use it more efficiently.", "ko": "우리는 에너지를 보존하고 더 효율적으로 사용해야 한다."},
-        {"en": "Conservative politicians opposed the new policy.", "ko": "보수적인 정치인들은 그 새로운 정책에 반대했다."}
+        {
+          "en": "We must **conserve** energy and use it more efficiently.",
+          "ko": "우리는 에너지를 보존하고 더 효율적으로 사용해야 한다.",
+          "source": ""
+        },
+        {
+          "en": "**Conservative** politicians opposed the new policy.",
+          "ko": "보수적인 정치인들은 그 새로운 정책에 반대했다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "deserve",
-      "ipa": "/dɪˈzɜːrv/",
-      "meanings": [{"pos": "동", "defs": ["~을 받을 만하다"]}],
-      "parts": [{"part": "de-", "mean": "완전히 (completely)"}, {"part": "serve", "mean": "봉사하다 (serve)"}],
-      "origin": "완전히 봉사할 만한 → ~할 가치가 있다",
-      "synonyms": ["be worthy of"],
-      "phrases": [{"en": "deserve to-v", "ko": "~할 자격이 있다, 마땅히 ~할 만하다"}],
+      "ipa": [
+        "[dizə́ːrv]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "…을 받을 만하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de",
+          "mean": "'강조'"
+        },
+        {
+          "part": "serve",
+          "mean": "= keep"
+        }
+      ],
+      "origin": "충분히 지키다 → 자격이 있다",
+      "synonyms": [
+        "be worthy of"
+      ],
+      "antonyms": [],
+      "derivatives": [],
+      "phrases": [
+        {
+          "en": "deserve to-v",
+          "ko": "…할 자격이 있다, 마땅히 …할 만하다"
+        }
+      ],
       "examples": [
-        {"en": "Those who work hard and play by the rules will earn the rewards they deserve.", "ko": "열심히 일하고 규칙을 지키는 사람들은 자신이 받을 자격이 있는 보상을 얻게 될 것이다.", "source": "모의"},
-        {"en": "They deserve to know the truth.", "ko": "그들은 진실을 알 자격이 있다."}
+        {
+          "en": "Those who work hard and play by the rules will earn the rewards they **deserve**.",
+          "ko": "열심히 일하고 규칙을 지키는 사람들은 자신이 받을 자격이 있는 보상을 얻게 될 것이다.",
+          "source": "모의"
+        },
+        {
+          "en": "They **deserve to know** the truth.",
+          "ko": "그들은 진실을 알 자격이 있다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "preserve",
-      "ipa": "/prɪˈzɜːrv/",
-      "meanings": [{"pos": "동", "defs": ["보호하다, 보존하다", "유지하다"]}],
-      "parts": [{"part": "pre-", "mean": "미리 (before)"}, {"part": "serve", "mean": "지키다 (keep)"}],
-      "origin": "미리 지키다 → 보존하다",
-      "synonyms": ["protect", "conserve", "maintain", "keep"],
-      "derivatives": [
-        {"en": "preservation", "pos": "명", "defs": ["보호, 보존", "유지"]},
-        {"en": "preservative", "pos": "명", "defs": ["방부제"]}
+      "ipa": [
+        "[prizə́ːrv]"
       ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *보호하다, 보존하다*",
+            "2 유지하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pre",
+          "mean": "= before"
+        },
+        {
+          "part": "serve",
+          "mean": "= keep"
+        }
+      ],
+      "origin": "(해를 입기 전에) 미리 지켜내다",
+      "synonyms": [
+        "protect",
+        "conserve",
+        "maintain",
+        "keep"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "preservation",
+          "pos": "명",
+          "defs": [
+            "1 보호, 보존",
+            "2 유지"
+          ]
+        },
+        {
+          "en": "preservative",
+          "pos": "명",
+          "defs": [
+            "방부제"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "The purpose of this fundraising event is to preserve our cultural heritage.", "ko": "이 모금 행사의 목적은 우리의 문화유산을 보존하는 것이다."},
-        {"en": "The preservation of traditions is important.", "ko": "전통을 유지하는 것은 중요하다."}
+        {
+          "en": "The purpose of this fundraising event is to **preserve** our cultural heritage.",
+          "ko": "이 모금 행사의 목적은 우리의 문화유산을 보존하는 것이다.",
+          "source": ""
+        },
+        {
+          "en": "The **preservation** of traditions is important.",
+          "ko": "전통을 유지하는 것은 중요하다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "reserve",
-      "ipa": "/rɪˈzɜːrv/",
+      "ipa": [
+        "[rizə́ːrv]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["예약하다", "남겨 두다, 비축하다"]},
-        {"pos": "명", "defs": ["(주로 복수형) 비축[예비](품)"]}
+        {
+          "pos": "동",
+          "defs": [
+            "1 예약하다",
+            "2 남겨 두다, 비축하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "(주로 복수형) *비축[예비](품)*"
+          ]
+        }
       ],
-      "parts": [{"part": "re-", "mean": "뒤로 (back)"}, {"part": "serve", "mean": "지키다 (keep)"}],
-      "origin": "뒤로 보관해 두다 → 예약하다, 비축하다",
-      "synonyms": ["book", "set aside", "keep"],
+      "parts": [
+        {
+          "part": "re",
+          "mean": "= back"
+        },
+        {
+          "part": "serve",
+          "mean": "= keep"
+        }
+      ],
+      "origin": "뒤에 보관해 두다 → 나중을 위해 남겨두다",
+      "synonyms": [
+        "book",
+        "set aside",
+        "keep"
+      ],
+      "antonyms": [],
       "derivatives": [
-        {"en": "reservation", "pos": "명", "defs": ["예약"]},
-        {"en": "reserved", "pos": "형", "defs": ["내성적인"]}
+        {
+          "en": "reservation",
+          "pos": "명",
+          "defs": [
+            "예약"
+          ]
+        },
+        {
+          "en": "reserved",
+          "pos": "형",
+          "defs": [
+            "내성적인"
+          ]
+        }
       ],
-      "phrases": [{"en": "make a reservation", "ko": "예약하다"}],
+      "phrases": [
+        {
+          "en": "make a reservation",
+          "ko": "예약하다"
+        }
+      ],
       "examples": [
-        {"en": "We reserved a table by the window.", "ko": "우리는 창가 테이블을 예약했다."},
-        {"en": "The receptionist couldn't find her reservation under the name \"Katie.\"", "ko": "그 접수원은 'Katie'라는 이름으로 된 그녀의 예약을 찾을 수 없었다.", "source": "모의"}
+        {
+          "en": "We **reserved** a table by the window.",
+          "ko": "우리는 창가 테이블을 예약했다.",
+          "source": ""
+        },
+        {
+          "en": "foreign exchange **reserves**",
+          "ko": "외환 보유고",
+          "source": ""
+        },
+        {
+          "en": "The receptionist couldn't find her **reservation** under the name \"Katie.\"",
+          "ko": "그 접수원은 'Katie'라는 이름으로 된 그녀의 예약을 찾을 수 없었다.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "observe",
-      "ipa": "/əbˈzɜːrv/",
-      "meanings": [{"pos": "동", "defs": ["(~을 보고) 알아채다", "관찰[주시]하다", "(법·관습 등을) 지키다, 준수하다", "(관찰한 바를) 말하다, 진술하다"]}],
-      "parts": [{"part": "ob-", "mean": "~쪽으로 (toward)"}, {"part": "serve", "mean": "주의를 기울이다 (watch)"}],
-      "origin": "~쪽으로 주의를 기울이다 → 관찰하다",
-      "synonyms": ["notice", "perceive", "watch", "monitor", "obey", "comment"],
-      "derivatives": [
-        {"en": "observer", "pos": "명", "defs": ["관찰자, 감시자", "(회의의) 참관인"]},
-        {"en": "observation", "pos": "명", "defs": ["관찰, 관측"]},
-        {"en": "observance", "pos": "명", "defs": ["(법·관습 등의) 준수"]},
-        {"en": "observatory", "pos": "명", "defs": ["관측소, 기상대"]}
+      "ipa": [
+        "[əbzə́ːrv]"
       ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 (…을 보고) 알아채다",
+            "2 *관찰[주시]하다*",
+            "3 (법·관습 등을) 지키다, 준수하다",
+            "4 (관찰한 바를) 말하다, 진술하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ob",
+          "mean": "= to"
+        },
+        {
+          "part": "serve",
+          "mean": "= watch"
+        }
+      ],
+      "origin": "…을 주의 깊게 보다 → 관찰하다\n├ (관찰하여) 알아채다\n├ (관찰한 것을) 말하다\n└ (법을 주의 깊게 보고) 준수하다",
+      "synonyms": [
+        "notice",
+        "perceive",
+        "watch",
+        "monitor",
+        "obey",
+        "comment"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "observer",
+          "pos": "명",
+          "defs": [
+            "1 관찰자, 감시자",
+            "2 (회의의) 참관인"
+          ]
+        },
+        {
+          "en": "observation",
+          "pos": "명",
+          "defs": [
+            "관찰, 관측"
+          ]
+        },
+        {
+          "en": "observance",
+          "pos": "명",
+          "defs": [
+            "(법·관습 등의) 준수"
+          ]
+        },
+        {
+          "en": "observatory",
+          "pos": "명",
+          "defs": [
+            "관측소, 기상대"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "After observing the behavior of the ants carefully, he noticed that they observed strict social rules.", "ko": "개미의 행동을 주의 깊게 관찰한 뒤에, 그는 개미들이 엄격한 사회 규칙을 지킨다는 것을 알아냈다."}
+        {
+          "en": "After **observing** the behavior of the ants carefully, he noticed that they **observed** strict social rules.",
+          "ko": "개미의 행동을 주의 깊게 관찰한 뒤에, 그는 개미들이 엄격한 사회 규칙을 지킨다는 것을 알아냈다.",
+          "source": ""
+        },
+        {
+          "en": "an acute power of **observation**",
+          "ko": "예리한 관찰력",
+          "source": ""
+        },
+        {
+          "en": "strict **observance** of discipline",
+          "ko": "규율의 엄격한 준수",
+          "source": ""
+        }
       ]
     },
     {
       "en": "spectacle",
-      "ipa": "/ˈspektəkl/",
-      "meanings": [{"pos": "명", "defs": ["구경거리, 장관", "(복수형) 안경"]}],
-      "parts": [{"part": "spect", "mean": "보다 (look)"}, {"part": "-acle", "mean": "명사형 접미사"}],
-      "origin": "볼 만한 것 → 광경, 구경거리",
-      "derivatives": [
-        {"en": "spectacular", "pos": "형/명", "defs": ["장관(의), 구경거리(의)"]},
-        {"en": "spectator", "pos": "명", "defs": ["(스포츠 경기 등의) 관중, 구경꾼"]}
+      "ipa": [
+        "[spéktəkəl]"
       ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 구경거리, 장관",
+            "2 (복수형) 안경"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "specta",
+          "mean": "= look"
+        },
+        {
+          "part": "cle",
+          "mean": "명접"
+        }
+      ],
+      "origin": "볼 만한 것",
+      "synonyms": [],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "spectacular",
+          "pos": "명",
+          "defs": [
+            "장관(의), 구경거리(의)"
+          ]
+        },
+        {
+          "en": "spectator",
+          "pos": "명",
+          "defs": [
+            "(스포츠 경기 등의) 관중, 구경꾼"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "Jake put on his spectacles to view the strange spectacle.", "ko": "Jake는 그 기묘한 구경거리를 제대로 보려고 안경을 썼다."},
-        {"en": "A spectator several rows in front stood up to get a better view.", "ko": "몇 줄 앞에 앉아 있던 한 관객이 더 잘 보기 위해 일어났다.", "source": "모의"}
+        {
+          "en": "Jake put on his **spectacles** to view the strange **spectacle** properly.",
+          "ko": "Jake는 그 기묘한 구경거리를 제대로 보려고 안경을 썼다.",
+          "source": ""
+        },
+        {
+          "en": "A **spectator** several rows in front stood up to get a better view.",
+          "ko": "몇 줄 앞에 앉아 있던 한 관객이 더 잘 보기 위해 일어났다.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "aspect",
-      "ipa": "/ˈæspekt/",
-      "meanings": [{"pos": "명", "defs": ["(상황·문제 등의) 측면, 국면; (사물 등의) 방향, 면", "모습, 외관"]}],
-      "parts": [{"part": "a-(ad-)", "mean": "~쪽으로 (toward)"}, {"part": "spect", "mean": "보다 (look)"}],
-      "origin": "~쪽에서 바라본 것 → 측면, 양상",
-      "examples": [{"en": "Try to find the positive aspects of any situation.", "ko": "어떤 상황에서든 긍정적인 면을 찾도록 노력해라."}]
+      "ipa": [
+        "[ǽspekt]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *(상황·문제 등의) 측면, 국면; (사물 등의) 방향, 면*",
+            "2 모습, 외관"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "a",
+          "mean": "= ad:to, at"
+        },
+        {
+          "part": "spect",
+          "mean": "= look"
+        }
+      ],
+      "origin": "looked at 바라본 (모양) → 외관, 양상",
+      "synonyms": [],
+      "antonyms": [],
+      "derivatives": [],
+      "phrases": [],
+      "examples": [
+        {
+          "en": "Try to find the positive **aspects** of any situation.",
+          "ko": "어떤 상황에서든 긍정적인 면을 찾도록 노력해라.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "expect",
-      "ipa": "/ɪkˈspekt/",
-      "meanings": [{"pos": "동", "defs": ["기대하다, 예기[예상]하다, 기다리다", "(~라고) 생각하다"]}],
-      "parts": [{"part": "ex-", "mean": "밖으로 (out)"}, {"part": "spect", "mean": "보다 (look)"}],
-      "origin": "밖을 내다보다 → 기대하다",
-      "synonyms": ["anticipate", "look forward to", "think", "suppose"],
-      "derivatives": [
-        {"en": "expectation", "pos": "명", "defs": ["기대, 예상"]},
-        {"en": "unexpected", "pos": "형", "defs": ["예기치 않은, 뜻밖의"]}
+      "ipa": [
+        "[ikspékt]"
       ],
-      "phrases": [{"en": "expect A to-v", "ko": "A가 ~하기를 기대하다"}, {"en": "meet expectations", "ko": "기대에 응하다, 만족시키다"}],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 기대하다, 예기[예상]하다, 기다리다",
+            "2 (…라고) 생각하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "ex",
+          "mean": "= out"
+        },
+        {
+          "part": "(s)pect",
+          "mean": "= look"
+        }
+      ],
+      "origin": "밖을 내다보다 → 기대하다",
+      "synonyms": [
+        "anticipate",
+        "look forward to",
+        "think",
+        "suppose"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "expectation",
+          "pos": "명",
+          "defs": [
+            "기대, 예상"
+          ]
+        },
+        {
+          "en": "unexpected",
+          "pos": "형",
+          "defs": [
+            "예기치 않은, 뜻밖의"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "expect A to-v",
+          "ko": "A가 …하기를 기대하다"
+        },
+        {
+          "en": "meet expectations",
+          "ko": "기대에 응하다, 만족시키다"
+        }
+      ],
       "examples": [
-        {"en": "We expect the train to arrive soon.", "ko": "우리는 기차가 곧 도착할 거라고 예상한다."},
-        {"en": "The concert was far beyond her expectations.", "ko": "그 콘서트는 그녀의 기대를 훨씬 뛰어넘었다.", "source": "모의"},
-        {"en": "Their success was completely unexpected.", "ko": "그들의 성공은 전혀 예상 밖이었다."}
+        {
+          "en": "We **expect** the train **to arrive** soon.",
+          "ko": "우리는 기차가 곧 도착할 거라고 예상한다.",
+          "source": ""
+        },
+        {
+          "en": "The concert was far beyond her **expectations**.",
+          "ko": "그 콘서트는 그녀의 기대를 훨씬 뛰어넘었다.",
+          "source": "모의"
+        },
+        {
+          "en": "Their success was completely **unexpected**.",
+          "ko": "그들의 성공은 전혀 예상 밖이었다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "inspect",
-      "ipa": "/ɪnˈspekt/",
-      "meanings": [{"pos": "동", "defs": ["조사하다, 검사하다", "(건물·기구 등을) 사찰하다, 감사하다"]}],
-      "parts": [{"part": "in-", "mean": "안으로 (into)"}, {"part": "spect", "mean": "보다 (look)"}],
-      "origin": "안을 들여다보다 → 점검하다",
-      "synonyms": ["examine", "investigate", "look into"],
-      "derivatives": [
-        {"en": "inspection", "pos": "명", "defs": ["조사, 검사", "사찰, 감사"]},
-        {"en": "inspector", "pos": "명", "defs": ["조사자, 검열관"]}
+      "ipa": [
+        "[inspékt]"
       ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 조사하다, 검사하다",
+            "2 (건물·기구 등을) 사찰하다, 감사하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "in",
+          "mean": "= into"
+        },
+        {
+          "part": "spect",
+          "mean": "= look"
+        }
+      ],
+      "origin": "look into …안을 들여다보다\n→ 조사하다, 검사하다",
+      "synonyms": [
+        "examine",
+        "investigate",
+        "look into"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "inspection",
+          "pos": "명",
+          "defs": [
+            "1 조사, 검사",
+            "2 사찰, 감사"
+          ]
+        },
+        {
+          "en": "inspector",
+          "pos": "명",
+          "defs": [
+            "조사자, 검열관"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "Customs officers inspected the luggage at the airport.", "ko": "세관 직원들이 공항에서 짐을 검사했다."},
-        {"en": "You may discover, on close inspection, some flaws in your design.", "ko": "자세히 살펴보면, 당신의 디자인에서 몇몇 결점을 발견할지도 모른다.", "source": "모의"}
+        {
+          "en": "Customs officers **inspected** the luggage at the airport.",
+          "ko": "세관 직원들이 공항에서 짐을 검사했다.",
+          "source": ""
+        },
+        {
+          "en": "You may discover, on close **inspection**, some flaws in your design.",
+          "ko": "자세히 살펴보면, 당신의 디자인에서 몇몇 결점을 발견할지도 모른다.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "prospect",
-      "ipa": "/ˈprɑːspekt/",
-      "meanings": [{"pos": "명", "defs": ["(장래의) 전망, 예상, 기대", "(복수형) (성공할) 가능성", "조망, 경치"]}],
-      "parts": [{"part": "pro-", "mean": "앞으로 (forward)"}, {"part": "spect", "mean": "보다 (look)"}],
-      "origin": "앞을 내다보다 → 전망",
-      "synonyms": ["likelihood"],
-      "derivatives": [{"en": "prospective", "pos": "형", "defs": ["기대되는, 장래의", "곧 있을, 다가오는"]}],
+      "ipa": [
+        "[prɑ́ːspèkt]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 *(장래의) 전망, 예상, 기대*",
+            "2 (복수형) (성공할) 가능성",
+            "3 조망, 경치"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "pro",
+          "mean": "= forward"
+        },
+        {
+          "part": "spect",
+          "mean": "= look"
+        }
+      ],
+      "origin": "앞(미래)을 바라봄",
+      "synonyms": [
+        "likelihood"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "prospective",
+          "pos": "형",
+          "defs": [
+            "1 기대되는, 장래의",
+            "2 곧 있을, 다가오는"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "The prospects for continued growth aren't favorable.", "ko": "지속적인 성장에 대한 전망은 밝지 않다."},
-        {"en": "Come to our annual campus visit event for prospective students on Thursday.", "ko": "목요일에 예비 입학생들을 위한 우리 학교의 연례 캠퍼스 방문 행사에 오세요.", "source": "모의"}
+        {
+          "en": "The **prospects** for continued growth aren't favorable.",
+          "ko": "지속적인 성장에 대한 전망은 밝지 않다.",
+          "source": ""
+        },
+        {
+          "en": "Come to our annual campus visit event for **prospective** students on Thursday.",
+          "ko": "목요일에 예비 입학생들을 위한 우리 학교의 연례 캠퍼스 방문 행사에 오세요.",
+          "source": "모의"
+        }
       ]
     },
     {
       "en": "respect",
-      "ipa": "/rɪˈspekt/",
+      "ipa": [
+        "[rispékt]"
+      ],
       "meanings": [
-        {"pos": "명", "defs": ["존경, 존중", "측면, 점, 사항"]},
-        {"pos": "동", "defs": ["존경하다, 존중하다", "(법 등을) 준수하다, 지키다"]}
+        {
+          "pos": "명",
+          "defs": [
+            "1 *존경, 존중*",
+            "2 측면, 점, 사항"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 *존경하다, 존중하다*",
+            "2 (법 등을) 준수하다, 지키다"
+          ]
+        }
       ],
-      "parts": [{"part": "re-", "mean": "다시 (again)"}, {"part": "spect", "mean": "보다 (look)"}],
-      "origin": "다시 돌아보다 → 존경하다",
-      "synonyms": ["look up to"],
-      "antonyms": ["disrespect", "look down on", "despise"],
+      "parts": [
+        {
+          "part": "re",
+          "mean": "= back"
+        },
+        {
+          "part": "spect",
+          "mean": "= look"
+        }
+      ],
+      "origin": "(…을 다시) 뒤돌아보다 → 주의 깊게 보다",
+      "synonyms": [
+        "look up to"
+      ],
+      "antonyms": [
+        "disrespect",
+        "look down on",
+        "despise"
+      ],
       "derivatives": [
-        {"en": "respectful", "pos": "형", "defs": ["존경[존중]하는, 공손한"]},
-        {"en": "respectable", "pos": "형", "defs": ["존경할 만한, 훌륭한", "꽤 괜찮은"]},
-        {"en": "respective", "pos": "형", "defs": ["각각의, 저마다의, 각자의"]}
+        {
+          "en": "respectful",
+          "pos": "형",
+          "defs": [
+            "존경[존중]하는, 공손한"
+          ]
+        },
+        {
+          "en": "respectable",
+          "pos": "형",
+          "defs": [
+            "1 존경할 만한, 훌륭한",
+            "2 꽤 괜찮은"
+          ]
+        },
+        {
+          "en": "respective",
+          "pos": "형",
+          "defs": [
+            "각각의, 저마다의, 각자의"
+          ]
+        }
       ],
-      "phrases": [{"en": "in respect of", "ko": "~에 대한 (= in terms of, with regard to, concerning)"}],
+      "phrases": [
+        {
+          "en": "in respect of",
+          "ko": "…에 대한 (= in terms of, with regard to, concerning)"
+        }
+      ],
       "examples": [
-        {"en": "Our main virtue is respect for elders.", "ko": "우리의 주요 미덕은 웃어른에 대한 공경이다."},
-        {"en": "She earns a respectable salary.", "ko": "그녀는 꽤 괜찮은 급여를 받는다."},
-        {"en": "Please be respectful of other people's opinions when you debate.", "ko": "토론을 할 때에는 다른 사람들의 의견을 존중해 주세요.", "source": "교과서"}
+        {
+          "en": "Our main virtue is **respect** for elders.",
+          "ko": "우리의 주요 미덕은 웃어른에 대한 공경이다.",
+          "source": ""
+        },
+        {
+          "en": "She earns a **respectable** salary.",
+          "ko": "그녀는 꽤 괜찮은 급여를 받는다.",
+          "source": ""
+        },
+        {
+          "en": "Please be **respectful** of other people's opinions when you debate.",
+          "ko": "토론을 할 때에는 다른 사람들의 의견을 존중해 주세요.",
+          "source": "교과서"
+        },
+        {
+          "en": "the **respective** merits of the candidates",
+          "ko": "후보들 각자의 장점",
+          "source": ""
+        },
+        {
+          "en": "The two contracts differ **in respect of** payment terms.",
+          "ko": "두 계약서는 지불 조건에 관해서 다르다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "suspect",
-      "ipa": "/səˈspekt/ · /ˈsʌspekt/",
+      "ipa": [
+        "동 [səspékt]",
+        "명 [sʌ́spekt]"
+      ],
       "meanings": [
-        {"pos": "동", "defs": ["의심하다, 혐의를 두다, ~라고 생각하다"]},
-        {"pos": "명", "defs": ["용의자, 요주의 인물"]}
+        {
+          "pos": "동",
+          "defs": [
+            "*의심하다, 혐의를 두다, …라고 생각하다*"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "용의자, 요주의 인물"
+          ]
+        }
       ],
-      "parts": [{"part": "sus-(sub-)", "mean": "아래에서 (under)"}, {"part": "spect", "mean": "보다 (look)"}],
-      "origin": "아래에서 올려다보다 → 의심하다",
+      "parts": [
+        {
+          "part": "su",
+          "mean": "= sub:from below, up"
+        },
+        {
+          "part": "spect",
+          "mean": "= look"
+        }
+      ],
+      "origin": "아래에서 위로 훑어보다 → 의심하다",
+      "synonyms": [],
+      "antonyms": [],
       "derivatives": [
-        {"en": "suspicion", "pos": "명", "defs": ["의심, 혐의"]},
-        {"en": "suspicious", "pos": "형", "defs": ["의심스러운, 수상한"]}
+        {
+          "en": "suspicion",
+          "pos": "명",
+          "defs": [
+            "의심, 혐의"
+          ]
+        },
+        {
+          "en": "suspicious",
+          "pos": "형",
+          "defs": [
+            "의심스러운, 수상한"
+          ]
+        }
       ],
+      "phrases": [],
       "examples": [
-        {"en": "A: Who do the police suspect in the robbery?\nB: The suspect is a tall, thin man called \"Big Mike.\"", "ko": "A: 경찰이 그 강도 사건에서 의심하고 있는 것은 누구입니까?\nB: 용의자는 'Big Mike'라고 불리는 키가 크고 마른 남자입니다."}
+        {
+          "en": "A: Who do the police **suspect** in the robbery?\nB: The **suspect** is a tall, thin man called \"Big Mike.\"",
+          "ko": "A: 경찰이 그 강도 사건에서 의심하고 있는 것은 누구입니까?\nB: 용의자는 'Big Mike'라고 불리는 키가 크고 마른 남자입니다.",
+          "source": ""
+        }
       ]
     },
     {
       "en": "species",
-      "ipa": "/ˈspiːʃiːz/",
-      "meanings": [{"pos": "명", "defs": ["(복수형 species) (생물 분류상의) 종(種)", "(일반적으로) 종류"]}],
-      "parts": [{"part": "spec", "mean": "보다 (look)"}, {"part": "-ies", "mean": "명사형 접미사"}],
-      "origin": "보이는 외형으로 나눈 것 → 종",
-      "synonyms": ["kind", "sort"],
-      "examples": [{"en": "The government passed a new law to protect endangered species.", "ko": "정부는 멸종 위기에 처한 종을 보호하기 위해 새로운 법을 통과시켰다."}]
+      "ipa": [
+        "[spíːʃiːz]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "(복수형 species) 1 *(생물 분류상의) 종(種)*",
+            "2 (일반적으로) 종류"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "spec",
+          "mean": "= look"
+        },
+        {
+          "part": "ies",
+          "mean": "명접"
+        }
+      ],
+      "origin": "(겉으로 보이는) 각 모습 → 특정 종류",
+      "synonyms": [
+        "kind",
+        "sort"
+      ],
+      "antonyms": [],
+      "derivatives": [],
+      "phrases": [],
+      "examples": [
+        {
+          "en": "The government passed a new law to protect endangered **species**.",
+          "ko": "정부는 멸종 위기에 처한 종을 보호하기 위해 새로운 법을 통과시켰다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "specific",
-      "ipa": "/spəˈsɪfɪk/",
-      "meanings": [{"pos": "형", "defs": ["특정한", "구체적인, 자세한"]}],
-      "parts": [{"part": "spec", "mean": "보다 (look)"}, {"part": "-ific", "mean": "만드는 (making)"}],
-      "origin": "보이게 만드는 → 구체적인",
-      "synonyms": ["particular", "precise"],
-      "antonyms": ["vague"],
-      "derivatives": [
-        {"en": "specifically", "pos": "부", "defs": ["특히, 특별히", "구체적으로"]},
-        {"en": "specification", "pos": "명", "defs": ["열거, 명세 사항", "(상세한) 설명서"]}
+      "ipa": [
+        "[spisífik]"
       ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 *특정한*",
+            "2 구체적인, 자세한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "speci(es)",
+          "mean": "종류"
+        },
+        {
+          "part": "fic",
+          "mean": "= fac:make"
+        }
+      ],
+      "origin": "(특정한) 종류를 만드는 → 특수한",
+      "synonyms": [
+        "particular",
+        "precise"
+      ],
+      "antonyms": [
+        "vague"
+      ],
+      "derivatives": [
+        {
+          "en": "specifically",
+          "pos": "부",
+          "defs": [
+            "1 특히, 특별히",
+            "2 구체적으로"
+          ]
+        },
+        {
+          "en": "specification",
+          "pos": "명",
+          "defs": [
+            "1 열거, 명세 사항",
+            "2 (상세한) 설명서"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "There was no specific reason for the quarrel.", "ko": "그 말다툼에는 특별한 이유가 없었다."},
-        {"en": "Can you be more specific?", "ko": "좀 더 자세히 말해줄래?"}
+        {
+          "en": "There was no **specific** reason for the quarrel.",
+          "ko": "그 말다툼에는 특별한 이유가 없었다.",
+          "source": ""
+        },
+        {
+          "en": "Can you be more **specific**?",
+          "ko": "좀 더 자세히 말해줄래?",
+          "source": ""
+        }
       ]
     },
     {
       "en": "special",
-      "ipa": "/ˈspeʃl/",
-      "meanings": [{"pos": "형", "defs": ["특별한"]}],
-      "parts": [{"part": "spec", "mean": "보다, 외형 (look, appearance)"}, {"part": "-ial", "mean": "형용사형 접미사"}],
-      "origin": "외형이 남다른 → 특별한",
-      "synonyms": ["exceptional"],
-      "derivatives": [
-        {"en": "specialist", "pos": "명", "defs": ["전문가"]},
-        {"en": "specialize", "pos": "동", "defs": ["(+in) (~을) 전문으로 하다, 전공하다"]},
-        {"en": "specially", "pos": "부", "defs": ["(특정 목적을 위해) 특별히, 특별하게"]}
+      "ipa": [
+        "[spéʃəl]"
       ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "특별한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "speci(es)",
+          "mean": "종류"
+        },
+        {
+          "part": "al",
+          "mean": "형접"
+        }
+      ],
+      "origin": "특정 종류에 속하는",
+      "synonyms": [
+        "exceptional"
+      ],
+      "antonyms": [],
+      "derivatives": [
+        {
+          "en": "specialist",
+          "pos": "명",
+          "defs": [
+            "전문가"
+          ]
+        },
+        {
+          "en": "specialize",
+          "pos": "동",
+          "defs": [
+            "(+ in) (…을) 전문으로 하다, 전공하다"
+          ]
+        },
+        {
+          "en": "specially",
+          "pos": "부",
+          "defs": [
+            "(특정 목적을 위해) 특별히, 특별하게"
+          ]
+        }
+      ],
+      "phrases": [],
       "examples": [
-        {"en": "Special care is required when transferring money online.", "ko": "온라인으로 송금 시에는 각별한 주의가 요구된다."},
-        {"en": "She was a notable zoologist who specialized in reptiles.", "ko": "그녀는 파충류를 전문으로 하는 유명한 동물학자였다.", "source": "교과서"}
+        {
+          "en": "**Special** care is required when transferring money online.",
+          "ko": "온라인으로 송금 시에는 각별한 주의가 요구된다.",
+          "source": ""
+        },
+        {
+          "en": "She was a notable zoologist who **specialized in** reptiles.",
+          "ko": "그녀는 파충류를 전문으로 하는 유명한 동물학자였다.",
+          "source": "교과서"
+        }
       ]
     },
     {
       "en": "despite",
-      "ipa": "/dɪˈspaɪt/",
-      "meanings": [{"pos": "전", "defs": ["~에도 불구하고"]}],
-      "parts": [{"part": "de-", "mean": "아래로 (down)"}, {"part": "spite(spect)", "mean": "보다 (look)"}],
-      "origin": "아래로 깔보다 → 무시하고 → ~에도 불구하고",
-      "synonyms": ["in spite of", "regardless of", "notwithstanding"],
-      "examples": [{"en": "I admire him for pursuing his dream despite the difficulties he faced.", "ko": "나는 그가 직면한 어려움에도 불구하고 꿈을 추구한 것에 대해 그를 존경한다.", "source": "교과서"}]
+      "ipa": [
+        "[dispáit]"
+      ],
+      "meanings": [
+        {
+          "pos": "전",
+          "defs": [
+            "…에도 불구하고"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "de",
+          "mean": "= down"
+        },
+        {
+          "part": "spite",
+          "mean": "= look"
+        }
+      ],
+      "origin": "낮추어 봄, 업신여김, 경멸\n→ (…에 대한 경멸에도) 불구하고",
+      "synonyms": [
+        "in spite of",
+        "regardless of",
+        "notwithstanding"
+      ],
+      "antonyms": [],
+      "derivatives": [],
+      "phrases": [],
+      "examples": [
+        {
+          "en": "I admire him for pursuing his dream **despite** the difficulties he faced.",
+          "ko": "나는 그가 직면한 어려움에도 불구하고 꿈을 추구한 것에 대해 그를 존경한다.",
+          "source": "교과서"
+        }
+      ]
     }
   ]
 }
