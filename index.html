@@ -1334,13 +1334,16 @@ function showCard() {
 
     // 어원 분석 렌더링
     const etyEl = document.getElementById('cardEtymology');
-    if (word.parts && word.parts.length > 0) {
-      let partsHtml = '<div class="ety-parts">';
-      word.parts.forEach((p, i) => {
-        if (i > 0) partsHtml += '<div class="ety-plus">+</div>';
-        partsHtml += `<div class="ety-part"><span class="part-text">${p.part}</span><span class="part-mean">${p.mean}</span></div>`;
-      });
-      partsHtml += '</div>';
+    {
+      let partsHtml = '';
+      if (word.parts && word.parts.length > 0) {
+        partsHtml += '<div class="ety-parts">';
+        word.parts.forEach((p, i) => {
+          if (i > 0) partsHtml += '<div class="ety-plus">+</div>';
+          partsHtml += `<div class="ety-part"><span class="part-text">${p.part}</span><span class="part-mean">${p.mean}</span></div>`;
+        });
+        partsHtml += '</div>';
+      }
       if (word.origin) {
         const lines = word.origin.split('\n');
         let rootLine = '';
@@ -1391,20 +1394,22 @@ function showCard() {
           partsHtml += `<div class="ety-origin">💡 ${word.origin.replace(/\n/g, '<br>')}</div>`;
         }
       }
-      etyEl.innerHTML = partsHtml;
-      document.getElementById('frontHint').textContent = '탭하여 어원 보기';
-      document.getElementById('backHint').textContent = '탭하여 돌아가기';
-      document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
-    } else {
-      etyEl.innerHTML = '';
-      if (hasExtras(word)) {
-        document.getElementById('frontHint').textContent = '탭하여 상세 보기';
+      if (partsHtml) {
+        etyEl.innerHTML = partsHtml;
+        document.getElementById('frontHint').textContent = '탭하여 어원 보기';
         document.getElementById('backHint').textContent = '탭하여 돌아가기';
         document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
       } else {
-        document.getElementById('frontHint').textContent = '';
-        document.getElementById('backHint').textContent = '';
-        document.getElementById('cardFlipWrapper').style.cursor = 'default';
+        etyEl.innerHTML = '';
+        if (hasExtras(word)) {
+          document.getElementById('frontHint').textContent = '탭하여 상세 보기';
+          document.getElementById('backHint').textContent = '탭하여 돌아가기';
+          document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
+        } else {
+          document.getElementById('frontHint').textContent = '';
+          document.getElementById('backHint').textContent = '';
+          document.getElementById('cardFlipWrapper').style.cursor = 'default';
+        }
       }
     }
     renderExtras(word);
