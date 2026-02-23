@@ -1,655 +1,1253 @@
 {
-  "title": "vert 돌리다/ nat 태어난/ rot 바퀴,두리마리/ part 부분/ flect 굽히다",
+  "title": "vert 돌리다/ nat 태어난/ rot 바퀴,두루마리/ part 부분/ flect 굽히다",
   "words": [
     {
       "en": "advertise",
-      "ipa": "/ˈædvərtaɪz/",
+      "ipa": [
+        "[ǽdvәrtàiz]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "광고하다"
+            "광고하다, 선전하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
+          "part": "ad",
+          "mean": "= to"
         },
         {
           "part": "vert",
-          "mean": "돌리다 (turn)"
+          "mean": "= turn"
         },
         {
-          "part": "-ise",
-          "mean": "동사형 접미사"
+          "part": "ise",
+          "mean": "동접"
         }
       ],
-      "origin": "~쪽으로 관심을 돌리다 → 광고하다"
+      "origin": "(관심을) … 쪽으로 향하게 하다\n→ 주목하게 하다 → 알리다, 광고하다",
+      "derivatives": [
+        {
+          "en": "advertisement",
+          "pos": "명",
+          "defs": [
+            "광고 (줄여서 ad)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Companies **advertise** their new products on TV.",
+          "ko": "기업은 신제품을 TV에서 광고한다."
+        },
+        {
+          "en": "Many **advertisements** cite statistical surveys.",
+          "ko": "많은 광고가 통계적 설문조사를 인용한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "convert",
-      "ipa": "/kənˈvɜːrt/",
+      "ipa": [
+        "[kәnvə́ːrt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "전환하다",
-            "개조하다"
+            "1 *바꾸다, 변화시키다, 개조하다",
+            "2 (다른 종교·이념 등으로) 개종[전향]하다; 개종[전향]시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
+          "part": "con",
+          "mean": "= com:「강조」"
         },
         {
           "part": "vert",
-          "mean": "돌리다 (turn)"
+          "mean": "= turn"
         }
       ],
-      "origin": "완전히 돌리다 → 전환하다"
+      "origin": "(방향·생각·형태 등을) 완전히 돌려 바꾸다",
+      "synonyms": [
+        "change",
+        "transform"
+      ],
+      "derivatives": [
+        {
+          "en": "conversion",
+          "pos": "명",
+          "defs": [
+            "1 전환, 변형, 개조",
+            "2 (종교·이념 등의) 개종, 전향"
+          ]
+        },
+        {
+          "en": "convertible",
+          "pos": "형/명",
+          "defs": [
+            "(다른 형태·용도로) 바꿀 수 있는 / 컨버터블 (지붕을 접을 수 있는 자동차)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The warehouse was **converted** into apartments.",
+          "ko": "그 창고는 아파트로 개조되었다."
+        },
+        {
+          "en": "I'm looking for a **convertible** sofa bed.\n(= I'm looking for a sofa that **converts** into a bed.)",
+          "ko": "저는 침대 겸용 소파를 찾고 있어요."
+        }
+      ]
     },
     {
       "en": "vertical",
-      "ipa": "/ˈvɜːrtɪkl/",
+      "ipa": [
+        "[və́ːrtikәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "수직의",
-            "세로의"
+            "*수직의, 세로의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "(the +) 수직(선)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "vert",
-          "mean": "돌리다, 꼭대기 (turn, top)"
-        },
-        {
-          "part": "-ical",
-          "mean": "형용사형 접미사"
+          "part": "vertical",
+          "mean": "'선이 (다른 선과 만나) 꺾이는 점, 꼭지점'이라는\n의미의 라틴어 vertex(=highest point)에서\n온 말"
         }
       ],
-      "origin": "꼭대기를 향한 → 수직의"
+      "origin": "※ 꼭지점에서 선을 아래로 내려 그으면 수직\n선, 세로선이 됨",
+      "antonyms": [
+        "horizontal"
+      ],
+      "derivatives": [
+        {
+          "en": "vertically",
+          "pos": "부",
+          "defs": [
+            "수직으로"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Vertical** stripes on clothing make people look taller.",
+          "ko": "옷의 세로 줄무늬는 사람의 키를 더 커 보이게 한다."
+        },
+        {
+          "en": "The windows are arranged along **the vertical**.",
+          "ko": "창문들이 수직으로 배치되어 있다."
+        }
+      ]
     },
     {
       "en": "converse",
-      "ipa": "/kənˈvɜːrs/",
+      "ipa": [
+        "동/형 [kәnvə́ːrs]",
+        "명 [kɔ́nvәːrs]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "대화하다"
+            "(…와) 대화하다, 담화하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "정반대"
+            "정반대의, 역(逆)의"
           ]
         },
         {
           "pos": "형",
           "defs": [
-            "역의"
+            "정반대, 역(逆)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
-          "part": "verse(vert)",
-          "mean": "돌리다 (turn)"
+          "part": "verse",
+          "mean": "= turn"
         }
       ],
-      "origin": "함께 번갈아 돌리다 → 대화하다"
+      "origin": "├ 함께 방향을 돌리다 → 마주보고 돌아가며 말하다\n├ 모두 방향을 돌린 (상태) → 정반대(의 상태)",
+      "synonyms": [
+        "opposite"
+      ],
+      "derivatives": [
+        {
+          "en": "conversation",
+          "pos": "명",
+          "defs": [
+            "대화, 담화"
+          ]
+        },
+        {
+          "en": "conversely",
+          "pos": "부",
+          "defs": [
+            "반대로"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "All squares are rectangles, but the **converse**—that all rectangles are squares—is not true.",
+          "ko": "모든 정사각형은 사각형이지만 반대로 모든 사각형은 정사각형이라는 것은 사실이 아니다."
+        },
+        {
+          "en": "After a short **conversation**, I found out that her grandson is the same age as me.",
+          "ko": "짧은 대화 후에, 나는 그녀의 손자가 나와 같은 나이라는 것을 알게 되었다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "diverse",
-      "ipa": "/daɪˈvɜːrs/",
+      "ipa": [
+        "[divə́ːrs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "다양한"
+            "다양한, 가지각색의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
+          "part": "di",
+          "mean": "= dis:aside"
         },
         {
-          "part": "verse(vert)",
-          "mean": "돌리다 (turn)"
+          "part": "verse",
+          "mean": "= turn"
         }
       ],
-      "origin": "여러 방향으로 돌린 → 다양한"
+      "origin": "옆길로 돈 → 다른 방향으로 전환한\n→ 다양한",
+      "synonyms": [
+        "various"
+      ],
+      "derivatives": [
+        {
+          "en": "diversity",
+          "pos": "명",
+          "defs": [
+            "다양성"
+          ]
+        },
+        {
+          "en": "diversify",
+          "pos": "동",
+          "defs": [
+            "다양화하다, 다각화하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "A person of **diverse** interests can talk about many subjects.",
+          "ko": "다양한 관심사를 가진 사람은 많은 주제에 관해 이야기할 수 있다."
+        },
+        {
+          "en": "Cultural **diversity** makes a society more open and accepting.",
+          "ko": "문화적 다양성은 사회를 더 개방적이고 포용적으로 만든다."
+        }
+      ]
     },
     {
       "en": "reverse",
-      "ipa": "/rɪˈvɜːrs/",
+      "ipa": [
+        "[rivə́ːrs]"
+      ],
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "뒤바꾸다"
-          ]
-        },
         {
           "pos": "형",
           "defs": [
-            "반대의"
+            "1 (명사 앞) *반대의, 거꾸로의*",
+            "2 뒤의, 뒷면의"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 *뒤집다, 거꾸로 하다",
+            "2 후진하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "후진"
+            "1 반대, 역(逆)",
+            "2 뒤, 뒷면",
+            "3 후진"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "verse(vert)",
-          "mean": "돌리다 (turn)"
+          "part": "verse",
+          "mean": "= turn"
         }
       ],
-      "origin": "뒤로 돌리다 → 뒤바꾸다"
+      "origin": "뒷면으로 돌려진 → 뒤집어진 → 반대의",
+      "synonyms": [
+        "opposite"
+      ],
+      "phrases": [
+        {
+          "en": "in reverse",
+          "ko": "반대로, 역으로, 거꾸로 (= backwards)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "When you look at yourself in a mirror, the image is **reversed**.",
+          "ko": "거울 속의 스스로를 볼 때, 그 모습은 (좌우가) 반대로 되어 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "I drove my car **in reverse**.",
+          "ko": "나는 차를 후진했다."
+        }
+      ]
     },
     {
       "en": "adversity",
-      "ipa": "/ədˈvɜːrsəti/",
+      "ipa": [
+        "[әdvə́ːrsәti]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "역경",
-            "불운"
+            "역경, 불행, 불운"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
+          "part": "ad",
+          "mean": "= toward"
         },
         {
-          "part": "vers(vert)",
-          "mean": "돌리다 (turn)"
+          "part": "vers",
+          "mean": "= turn"
         },
         {
-          "part": "-ity",
-          "mean": "명사형 접미사"
+          "part": "ity",
+          "mean": "명접"
         }
       ],
-      "origin": "맞서 돌아온 것 → 역경"
+      "origin": "…를 향해 돌기 → 맞은편에 서기 →\n(행운의 맞은편) 불행, 역경",
+      "synonyms": [
+        "misfortune"
+      ],
+      "derivatives": [
+        {
+          "en": "adverse",
+          "pos": "형",
+          "defs": [
+            "부정적인, 불리한"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The team remained united despite the **adversity** they faced.",
+          "ko": "그 팀은 그들이 직면한 어려움에도 불구하고 단결된 상태를 유지했다."
+        }
+      ]
     },
     {
       "en": "verse",
-      "ipa": "/vɜːrs/",
+      "ipa": [
+        "[vәːrs]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "운문",
-            "(시의) 연",
-            "(노래의) 절"
+            "1 *(시의) 연, (노래의) 절",
+            "2 시, 운문"
           ]
         }
       ],
       "parts": [
         {
-          "part": "verse(vert)",
-          "mean": "돌리다 (turn)"
+          "part": "verse",
+          "mean": "= turn"
         }
       ],
-      "origin": "줄을 돌려 쓰는 것 → 운문"
+      "origin": "(글의) 진행 방향을 돌려서 바꿈\n→ (시의 한) 행 → (행이 모여 이룬) 연",
+      "synonyms": [
+        "poetry"
+      ],
+      "phrases": [
+        {
+          "en": "cf. prose",
+          "ko": "산문"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tune is his, but the **verses** are his mother's.",
+          "ko": "곡은 그가 썼지만 가사는 그의 어머니가 썼다."
+        }
+      ]
     },
     {
       "en": "version",
-      "ipa": "/ˈvɜːrʒn/",
+      "ipa": [
+        "[və́ːrʒәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "버전",
-            "판",
-            "설명"
+            "1 *(어떤 것의) 변형, 판(版), 버전",
+            "2 (사건 등에 대한) 소견, 해석, 설명"
           ]
         }
       ],
       "parts": [
         {
-          "part": "vers(vert)",
-          "mean": "돌리다 (turn)"
+          "part": "vers",
+          "mean": "= turn"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "돌려서 바꾼 것 → 버전"
+      "origin": "(방향을) 돌림 → 바꾼 것",
+      "examples": [
+        {
+          "en": "The book is a modern **version** of *Romeo and Juliet*.",
+          "ko": "그 책은 현대판 《로미오와 줄리엣》이다."
+        },
+        {
+          "en": "The two news media gave different **versions** of what happened.",
+          "ko": "두 뉴스 매체는 일어난 일에 대해 다른 해석을 내놓았다."
+        }
+      ]
     },
     {
       "en": "divorce",
-      "ipa": "/dɪˈvɔːrs/",
+      "ipa": [
+        "[dәvɔ́ːrs]"
+      ],
       "meanings": [
         {
-          "pos": "명",
+          "pos": "명/동",
           "defs": [
-            "이혼"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "이혼하다"
+            "1 (…와) 이혼(하다)",
+            "2 분리(하다), 단절(하다)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
+          "part": "di",
+          "mean": "= dis:apart"
         },
         {
-          "part": "vorce(vert)",
-          "mean": "돌리다 (turn)"
+          "part": "vorce",
+          "mean": "= turn"
         }
       ],
-      "origin": "서로 다른 방향으로 돌리다 → 이혼"
+      "origin": "서로 방향을 돌려 멀어짐\n→ 분리, 단절; 헤어짐, 이혼",
+      "examples": [
+        {
+          "en": "The couple decided to get counseling before getting **divorced**.",
+          "ko": "그 부부는 이혼을 하기 전에 상담을 받기로 결정했다."
+        }
+      ]
     },
     {
       "en": "native",
-      "ipa": "/ˈneɪtɪv/",
+      "ipa": [
+        "[néitiv]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "태생의",
-            "토착의"
+            "1 *출생지의; 원주민의; 토박이의",
+            "2 (명사 앞) 선천적인, 타고난"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "현지인"
+            "원주민, 본토박이"
           ]
         }
       ],
       "parts": [
         {
           "part": "nat",
-          "mean": "태어나다 (born)"
+          "mean": "= born"
         },
         {
-          "part": "-ive",
-          "mean": "형용사형 접미사"
+          "part": "ive",
+          "mean": "형접"
         }
       ],
-      "origin": "태어난 곳의 → 토착의"
+      "origin": "태어난, 타고난",
+      "synonyms": [
+        "innate",
+        "inborn",
+        "natural"
+      ],
+      "examples": [
+        {
+          "en": "The number of **native** speakers of English is smaller than that of Spanish.",
+          "ko": "영어를 모국어로 말하는 사람의 수는 스페인어를 모국어로 말하는 사람의 수 보다 적다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "nation",
-      "ipa": "/ˈneɪʃn/",
+      "ipa": [
+        "[néiʃәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "국가",
-            "국민"
+            "1 *국가, 나라",
+            "2 (집합적) 국민, 민족"
           ]
         }
       ],
       "parts": [
         {
           "part": "nat",
-          "mean": "태어나다 (born)"
+          "mean": "= born"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "태어난 사람들의 집단 → 국가"
+      "origin": "├ 태어난 곳 → 국가\n└ (…에서) 태어난 사람들 → 국민",
+      "derivatives": [
+        {
+          "en": "national",
+          "pos": "형",
+          "defs": [
+            "1 국가의, 국가적인",
+            "2 국립의, 국영의"
+          ]
+        },
+        {
+          "en": "nationality",
+          "pos": "명",
+          "defs": [
+            "1 국적",
+            "2 국민성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Athletes from 60 **nations** competed in the Olympic taekwondo event.",
+          "ko": "60개국에서 온 선수들이 올림픽 태권도 대회에서 겨루었다.",
+          "source": "모의"
+        },
+        {
+          "en": "Soccer brought our **nation** together at that time.",
+          "ko": "그 당시에 축구는 전 국민을 하나로 묶어주었다."
+        },
+        {
+          "en": "the **National** Museum",
+          "ko": "국립 박물관"
+        }
+      ]
     },
     {
       "en": "nature",
-      "ipa": "/ˈneɪtʃər/",
+      "ipa": [
+        "[néitʃәr]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "자연",
-            "성질",
-            "본성"
+            "1 자연(계)",
+            "2 성질, 특징, 천성"
           ]
         }
       ],
       "parts": [
         {
           "part": "nat",
-          "mean": "태어나다 (born)"
+          "mean": "= born"
         },
         {
-          "part": "-ure",
-          "mean": "명사형 접미사"
+          "part": "ure",
+          "mean": "명접"
         }
       ],
-      "origin": "태어날 때부터의 것 → 자연, 본성"
+      "origin": "태어남, 존재함 → 태어날 때부터\n자연스럽게 가지고 있는 것",
+      "derivatives": [
+        {
+          "en": "natural",
+          "pos": "형",
+          "defs": [
+            "1 자연의, 천연의",
+            "2 자연스러운",
+            "3 선천적인, 타고난"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "by nature",
+          "ko": "선천적으로, 천성적으로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "**nature** conservation[preservation]",
+          "ko": "자연 보호"
+        },
+        {
+          "en": "She believed that human **nature** is pretty much the same the whole world over.",
+          "ko": "그녀는 인간의 본성은 전 세계적으로 거의 같다고 믿었다.",
+          "source": "수능"
+        },
+        {
+          "en": "He's a gentle person **by nature**.",
+          "ko": "그는 천성적으로 온화한 사람이다."
+        },
+        {
+          "en": "**natural** resources",
+          "ko": "천연자원"
+        },
+        {
+          "en": "a **natural** athlete",
+          "ko": "타고난 운동선수"
+        }
+      ]
     },
     {
       "en": "innate",
-      "ipa": "/ɪˈneɪt/",
+      "ipa": [
+        "[ìnéit]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "타고난",
-            "천성의"
+            "선천적인, 타고난"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안에 (in)"
+          "part": "in",
+          "mean": "= in"
         },
         {
-          "part": "nate(nat)",
-          "mean": "태어나다 (born)"
+          "part": "nate",
+          "mean": "= born"
         }
       ],
-      "origin": "안에 태어날 때부터 있는 → 타고난"
+      "origin": "안에 지니고 태어난 → 타고난",
+      "synonyms": [
+        "native",
+        "inborn"
+      ],
+      "examples": [
+        {
+          "en": "My sister has an **innate** talent for drawing.",
+          "ko": "내 여동생은 그림 그리기에 타고난 재능이 있다."
+        }
+      ]
     },
     {
       "en": "rotate",
-      "ipa": "/ˈroʊteɪt/",
+      "ipa": [
+        "[róuteit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "회전하다",
-            "교대하다"
+            "1 *회전하다; 회전시키다",
+            "2 교대하다; 교대시키다"
           ]
         }
       ],
       "parts": [
         {
           "part": "rot",
-          "mean": "바퀴 (wheel)"
+          "mean": "= wheel"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "바퀴처럼 돌다 → 회전하다"
+      "origin": "바퀴처럼 돌다",
+      "synonyms": [
+        "spin"
+      ],
+      "derivatives": [
+        {
+          "en": "rotation",
+          "pos": "명",
+          "defs": [
+            "1 회전, 순환; (천체의) 자전",
+            "2 교대"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The helicopter's blades **rotate** more rapidly during takeoff.",
+          "ko": "헬리콥터의 날개는 이륙 중에 더 빠르게 회전한다."
+        },
+        {
+          "en": "The guards **rotate** every two hours.",
+          "ko": "경비원들은 두 시간마다 교대 근무한다."
+        }
+      ]
     },
     {
       "en": "control",
-      "ipa": "/kənˈtroʊl/",
+      "ipa": [
+        "[kәntróul]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "통제하다",
-            "조절하다"
+            "1 *지배하다, 통제하다",
+            "2 억제하다",
+            "3 조절하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "지배"
+            "1 *지배, 통제",
+            "2 억제",
+            "3 조절"
           ]
         }
       ],
       "parts": [
         {
-          "part": "contra-",
-          "mean": "반대 (against)"
+          "part": "cont",
+          "mean": "= contra:\nagainst"
         },
         {
-          "part": "rol(rot)",
-          "mean": "바퀴, 목록 (roll)"
+          "part": "rol",
+          "mean": "= roll\n두루마리로 된 문서"
         }
       ],
-      "origin": "대조 목록으로 점검하다 → 통제하다"
+      "origin": "원본 문서(roll)에 대응하는 것 → 사본\n→ [원뜻] 원본과 사본을 대조하여 확인하다\n→ 원본에 맞추어 사본 내용을 조정[통제]하다",
+      "phrases": [
+        {
+          "en": "have control of[over]",
+          "ko": "…을 제어하다"
+        },
+        {
+          "en": "out of[beyond] control",
+          "ko": "통제할 수 없는"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They tried to find new measures to **control** inflation.",
+          "ko": "그들은 물가 상승률을 통제하기 위한 새로운 방책을 찾으려 노력했다."
+        },
+        {
+          "en": "Can I **control** my emotions when I get angry?",
+          "ko": "나는 화가 났을 때 내 감정을 조절할 수 있는가?",
+          "source": "교과서"
+        },
+        {
+          "en": "The situation is **out of control**.",
+          "ko": "상황이 통제할 수 없다."
+        }
+      ]
     },
     {
       "en": "enroll",
-      "ipa": "/ɪnˈroʊl/",
+      "ipa": [
+        "[inróul]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "등록하다",
-            "입학하다"
+            "등록하다, 명부에 올리다, 가입하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "en-",
-          "mean": "안에 (in)"
+          "part": "en",
+          "mean": "= in"
         },
         {
-          "part": "roll(rot)",
-          "mean": "두루마리 (roll)"
+          "part": "roll",
+          "mean": "두루마리"
         }
       ],
-      "origin": "두루마리 명부에 넣다 → 등록하다"
+      "origin": "두루마리로 된 문서에 써 넣다",
+      "synonyms": [
+        "register"
+      ],
+      "derivatives": [
+        {
+          "en": "enrollment",
+          "pos": "명",
+          "defs": [
+            "(또는 enrolment) 등록, 가입"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm planning to **enroll** in an online English class next semester.",
+          "ko": "나는 다음 학기에 온라인 영어 수업에 등록할 예정이다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "partial",
-      "ipa": "/ˈpɑːrʃl/",
+      "ipa": [
+        "[pɑ́ːrʃәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "부분적인",
-            "편파적인"
+            "1 부분적인",
+            "2 불공평한, 편파적인",
+            "3 편애하는, (어떤 것을 특히) 좋아하는"
           ]
         }
       ],
       "parts": [
         {
           "part": "part",
-          "mean": "부분 (part)"
+          "mean": "부분"
         },
         {
-          "part": "-ial",
-          "mean": "형용사형 접미사"
+          "part": "ial",
+          "mean": "형접"
         }
       ],
-      "origin": "부분의 → 부분적인"
+      "origin": "부분의",
+      "antonyms": [
+        "complete",
+        "entire",
+        "whole",
+        "impartial(공평한)"
+      ],
+      "derivatives": [
+        {
+          "en": "partially",
+          "pos": "부",
+          "defs": [
+            "부분적으로, 어느 정도"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The event was a **partial** success.",
+          "ko": "그 행사는 부분적인 성공이었다."
+        },
+        {
+          "en": "A judge should not be **partial**.",
+          "ko": "심판은 편파적이어서는 안 된다."
+        },
+        {
+          "en": "The accident was **partially** her fault.",
+          "ko": "그 사고는 어느 정도 그녀의 과실이었다."
+        }
+      ]
     },
     {
       "en": "particle",
-      "ipa": "/ˈpɑːrtɪkl/",
+      "ipa": [
+        "[pɑ́ːrtikәl]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "입자",
-            "아주 작은 조각"
+            "1 소량, 미량, 작은 조각",
+            "2 [물리] 입자, 소립자"
           ]
         }
       ],
       "parts": [
         {
           "part": "part",
-          "mean": "부분 (part)"
+          "mean": "부분"
         },
         {
-          "part": "-icle",
-          "mean": "작은 것 (diminutive)"
+          "part": "cle",
+          "mean": "명접"
         }
       ],
-      "origin": "작은 부분 → 입자"
+      "origin": "작은 부분",
+      "phrases": [
+        {
+          "en": "cf. atom",
+          "ko": "원자 (화학적 원소의 기본 단위)"
+        },
+        {
+          "en": "molecule",
+          "ko": "분자 (두 개 이상의 원자가 결합한 단위)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Because most of the plastic **particles** in the ocean are so small, there is no practical way to clean up the ocean.",
+          "ko": "해양에 존재하는 플라스틱 입자의 대부분이 매우 작기 때문에, 해양을 청소할 실질적인 방법은 없다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "particular",
-      "ipa": "/pərˈtɪkjələr/",
+      "ipa": [
+        "[pәrtíkjәlәr]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "특정한",
-            "까다로운"
+            "1 *특정한",
+            "2 *특별한, 특유의",
+            "3 (성격·식성 등이) 까다로운"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "(주로 복수형) 상세, 명세, 자세한 내용"
           ]
         }
       ],
       "parts": [
         {
-          "part": "part",
-          "mean": "부분 (part)"
+          "part": "particul",
+          "mean": "= particle 입자"
         },
         {
-          "part": "-icular",
-          "mean": "형용사형 접미사"
+          "part": "ar",
+          "mean": "형접「…에 관한」"
         }
       ],
-      "origin": "한 부분에 해당하는 → 특정한"
+      "origin": "입자(아주 작은 것)에 관한 → 특유의, 개개의",
+      "synonyms": [
+        "specific",
+        "special",
+        "fussy",
+        "picky",
+        "detail"
+      ],
+      "derivatives": [
+        {
+          "en": "particularly",
+          "pos": "부",
+          "defs": [
+            "특히, 그 중에서도"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I have no **particular** plan.",
+          "ko": "특별한 계획은 없습니다."
+        },
+        {
+          "en": "He didn't **particularly** want to go to Germany.",
+          "ko": "그는 독일에 가는 것을 특별히 원하지 않았다."
+        }
+      ]
     },
     {
       "en": "apart",
-      "ipa": "/əˈpɑːrt/",
+      "ipa": [
+        "[әpɑ́ːrt]"
+      ],
       "meanings": [
         {
-          "pos": "부",
+          "pos": "부/형",
           "defs": [
-            "떨어져서"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "분리된"
+            "1 (시간·공간적으로) (…와) 떨어져[진]",
+            "2 *따로따로(인), 별개로[의]"
           ]
         }
       ],
       "parts": [
         {
-          "part": "a-",
-          "mean": "~으로 (to)"
+          "part": "a",
+          "mean": "= ad:to"
         },
         {
           "part": "part",
-          "mean": "부분 (part)"
+          "mean": "부분"
         }
       ],
-      "origin": "부분으로 나뉘어 → 떨어져서"
+      "origin": "to one part or side 한쪽으로, 떨어져서\n→ 따로",
+      "phrases": [
+        {
+          "en": "apart from",
+          "ko": "…을 제외하고; …뿐만 아니라"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They have lived **apart** since last year.",
+          "ko": "그들은 작년부터 따로 살아왔다."
+        },
+        {
+          "en": "Their relationship fell **apart**.",
+          "ko": "그들의 관계는 깨졌다."
+        },
+        {
+          "en": "**Apart from** math, I enjoy all my classes.",
+          "ko": "수학을 제외하고는, 나는 모든 수업을 즐긴다."
+        }
+      ]
     },
     {
       "en": "portion",
-      "ipa": "/ˈpɔːrʃn/",
+      "ipa": [
+        "[pɔ́ːrʃәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "부분",
-            "1인분"
+            "1 *부분, 일부",
+            "2 몫, 할당",
+            "3 [음식] 1인분"
           ]
         }
       ],
       "parts": [
         {
-          "part": "port(part)",
-          "mean": "부분 (part)"
+          "part": "port",
+          "mean": "= part"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "나뉜 부분 → 1인분"
+      "origin": "(큰 것의) 일부분",
+      "synonyms": [
+        "serving"
+      ],
+      "examples": [
+        {
+          "en": "A **portion** of the money went to charity.",
+          "ko": "그 돈의 일부는 자선 단체에 기부되었다."
+        },
+        {
+          "en": "The **portions** at this restaurant are small.",
+          "ko": "이 레스토랑은 음식양이 적다."
+        }
+      ]
     },
     {
       "en": "proportion",
-      "ipa": "/prəˈpɔːrʃn/",
+      "ipa": [
+        "[prәpɔ́ːrʃәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "비율",
-            "균형"
+            "1 *비율, (…에 대비한) 크기[양/정도]",
+            "2 균형, 조화"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pro-",
-          "mean": "앞에 (for)"
+          "part": "pro",
+          "mean": "= for"
         },
         {
-          "part": "portion(part)",
-          "mean": "부분 (part)"
+          "part": "portion",
+          "mean": "부분"
         }
       ],
-      "origin": "각 부분의 비 → 비율"
+      "origin": "for (its or one's) portion 각자의\n몫에 대한 것",
+      "synonyms": [
+        "percentage"
+      ],
+      "phrases": [
+        {
+          "en": "in proportion to[as]",
+          "ko": "…에 비례하여"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The **proportion** of carbon in the atmosphere has increased since the Industrial Revolution.",
+          "ko": "산업혁명 이후, 대기 중 탄소의 비율이 증가했다.",
+          "source": "모의"
+        },
+        {
+          "en": "**In proportion to** her salary, Lynn spends a lot on clothes.",
+          "ko": "Lynn은 자기 월급에 비해서 옷에 많은 돈을 쓴다."
+        },
+        {
+          "en": "a sense of **proportion**",
+          "ko": "균형 감각"
+        }
+      ]
     },
     {
       "en": "reflect",
-      "ipa": "/rɪˈflekt/",
+      "ipa": [
+        "[riflékt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "반사하다",
-            "반영하다",
-            "숙고하다"
+            "1 (열·빛 등을) 반사하다, (거울·유리 등에) 비치다",
+            "2 *반영하다, 나타내다",
+            "3 (+ on) 숙고하다, 곰곰이 생각하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
           "part": "flect",
-          "mean": "굽히다 (bend)"
+          "mean": "= bend"
         }
       ],
-      "origin": "뒤로 굽히다 → 반사하다"
+      "origin": "(빛이) 다시 굽다",
+      "derivatives": [
+        {
+          "en": "reflection",
+          "pos": "명",
+          "defs": [
+            "1 반사, 반영",
+            "2 (거울 등에 비친) 상, 모습",
+            "3 (심사)숙고"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "My face was **reflected** in the window.",
+          "ko": "나의 얼굴이 창문에 비쳤다."
+        },
+        {
+          "en": "The results of the survey **reflect** public opinion.",
+          "ko": "그 설문의 결과는 여론을 반영한다."
+        },
+        {
+          "en": "You should take some time to **reflect on** yourself.",
+          "ko": "너는 스스로 되돌아보는 시간을 가져야 한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "flexible",
-      "ipa": "/ˈfleksəbl/",
+      "ipa": [
+        "[fléksәbәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "유연한",
-            "융통성 있는"
+            "1 *(사람·상황 등이) 융통성 있는, 탄력적인",
+            "2 구부리기 쉬운, (신체 등이) 유연한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "flex(flect)",
-          "mean": "굽히다 (bend)"
+          "part": "flex",
+          "mean": "= bend"
         },
         {
-          "part": "-ible",
-          "mean": "~할 수 있는"
+          "part": "ible",
+          "mean": "형접「적합한,\n…하기 쉬운」"
         }
       ],
-      "origin": "굽힐 수 있는 → 유연한"
+      "origin": "구부리기 쉬운",
+      "antonyms": [
+        "inflexible",
+        "stiff"
+      ],
+      "derivatives": [
+        {
+          "en": "flexibility",
+          "pos": "명",
+          "defs": [
+            "융통성, 탄력성, 유연성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "a **flexible** personality",
+          "ko": "융통성 있는 성격"
+        },
+        {
+          "en": "What NASA needed was a spacesuit made of more **flexible** materials.",
+          "ko": "NASA가 필요로 했던 것은 더 유연한 소재로 만들어진 우주복이었다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Children's bodies are more **flexible** than those of adults.",
+          "ko": "아이들의 몸은 어른들의 몸보다 유연하다."
+        }
+      ]
     }
   ]
 }

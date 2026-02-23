@@ -3,643 +3,1307 @@
   "words": [
     {
       "en": "current",
-      "ipa": "/ˈkɜːrənt/",
+      "ipa": [
+        "[kə́ːrәnt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "현재의"
+            "*지금의, 현재의; 현행의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "흐름",
-            "해류",
-            "전류"
+            "1 *(물·공기·전기 등의) 흐름",
+            "2 (생각 등의) 경향, 풍조"
           ]
         }
       ],
       "parts": [
         {
-          "part": "cur",
-          "mean": "달리다, 흐르다 (run, flow)"
+          "part": "curr",
+          "mean": "= run"
         },
         {
-          "part": "-rent",
-          "mean": "형용사형 접미사"
+          "part": "ent",
+          "mean": "형접·명접"
         }
       ],
-      "origin": "흐르고 있는 → 현재의, 흐름"
+      "origin": "핵심 다의어\n흐르고 있는 (것) →\n├ 지금의, 현재의\n├ 물·공기·전기의 흐름 → 해류, 기류, 전류\n└ 생각, 유행의 흐름 → 경향",
+      "derivatives": [
+        {
+          "en": "currently",
+          "pos": "부",
+          "defs": [
+            "지금, 현재"
+          ]
+        },
+        {
+          "en": "currency",
+          "pos": "명",
+          "defs": [
+            "1 (유통) 화폐, 통화",
+            "2 (화폐 등의) 유통"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Currently**, children are not allowed near the river because the **current** is very strong.",
+          "ko": "현재 어린이들이 강 근처에 가는 것이 금지되어 있는데 물살이 매우 세기 때문입니다."
+        },
+        {
+          "en": "foreign **currency**",
+          "ko": "외화"
+        }
+      ]
     },
     {
       "en": "curriculum",
-      "ipa": "/kəˈrɪkjələm/",
+      "ipa": [
+        "[kәríkjәlәm]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "교육 과정",
-            "커리큘럼"
+            "(복수형 curricula 또는 curriculums) 교과[이수] 과정, 교과목"
           ]
         }
       ],
       "parts": [
         {
-          "part": "cur",
-          "mean": "달리다 (run)"
+          "part": "curri",
+          "mean": "= flow"
         },
         {
-          "part": "-riculum",
-          "mean": "명사형 접미사"
+          "part": "culum",
+          "mean": "= c(u)le:명접"
         }
       ],
-      "origin": "달려야 할 과정 → 교육 과정"
+      "origin": "(수업의) 흐름 → 교과 과정",
+      "derivatives": [
+        {
+          "en": "curricular",
+          "pos": "형",
+          "defs": [
+            "교과[이수] 과정의"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "cf. extracurricular",
+          "ko": "정규 교과 과정 이외의"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Many schools are updating their **curriculums** to include AI and coding.",
+          "ko": "많은 학교들이 인공지능과 코딩을 포함하도록 교육 과정을 바꾸고 있다."
+        }
+      ]
     },
     {
       "en": "occur",
-      "ipa": "/əˈkɜːr/",
+      "ipa": [
+        "[әkə́ːr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "일어나다",
-            "발생하다",
-            "(생각이) 떠오르다"
+            "1 *발생하다, 일어나다",
+            "2 (+ to) (생각 등이) 떠오르다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "oc-(ob-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "oc",
+          "mean": "= ob:to"
         },
         {
           "part": "cur",
-          "mean": "달리다 (run)"
+          "mean": "= run"
         }
       ],
-      "origin": "~쪽으로 달려오다 → 발생하다"
+      "origin": "…로 달리다 → 달려가서 만나다 →\n사건을 마주치다",
+      "synonyms": [
+        "happen",
+        "take place"
+      ],
+      "derivatives": [
+        {
+          "en": "occurrence",
+          "pos": "명",
+          "defs": [
+            "1 (사건 등의) 발생",
+            "2 사건, 일어난 일"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "When did the accident **occur**?",
+          "ko": "언제 그 사고가 발생한 거죠?"
+        },
+        {
+          "en": "However, a question **occurred to** her one day.",
+          "ko": "그러나, 어느 날 그녀에게 한 가지 의문이 떠올랐다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "excursion",
-      "ipa": "/ɪkˈskɜːrʒn/",
+      "ipa": [
+        "[ikskə́ːrʒәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "소풍",
-            "짧은 여행"
+            "1 (특정 목적을 위한) 짧은 여행, 소풍",
+            "2 옆길로 빗나감, 탈선"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
-          "part": "curs(cur)",
-          "mean": "달리다 (run)"
+          "part": "cur",
+          "mean": "= run"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "sion",
+          "mean": "명접"
         }
       ],
-      "origin": "밖으로 달려나감 → 소풍"
+      "origin": "(정해진 것) 밖으로 달려가는 것",
+      "examples": [
+        {
+          "en": "Our class went on an **excursion** to the museum.",
+          "ko": "우리 반은 박물관으로 견학을 갔다."
+        }
+      ]
     },
     {
       "en": "cure",
-      "ipa": "/kjʊr/",
+      "ipa": [
+        "[kjuәr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "치료하다"
+            "1 *치료하다",
+            "2 (문제 등을) 해결하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "치료(약)",
-            "해결책"
+            "1 *치료(법), 치료약",
+            "2 해결책"
           ]
         }
       ],
       "parts": [
         {
-          "part": "cur",
-          "mean": "돌보다, 주의 (care)"
+          "part": "cure",
+          "mean": "= care"
         }
       ],
-      "origin": "돌보다 → 치료하다"
+      "origin": "(병이 낫도록) 돌보다 → 치료하다",
+      "synonyms": [
+        "heal",
+        "remedy"
+      ],
+      "derivatives": [
+        {
+          "en": "curable",
+          "pos": "형",
+          "defs": [
+            "고칠 수 있는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "For many years it was thought that there would be \"one\" **cure** for cancer.",
+          "ko": "수년 동안 암에 대한 '단 하나의' 치료법만 있을 것이라고 생각되었다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "curious",
-      "ipa": "/ˈkjʊriəs/",
+      "ipa": [
+        "[kjúәriәs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "호기심 많은",
-            "이상한"
+            "1 *호기심이 강한, …을 알고 싶어 하는",
+            "2 이상한, 묘한"
           ]
         }
       ],
       "parts": [
         {
           "part": "cur",
-          "mean": "돌보다, 주의 (care)"
+          "mean": "= care"
         },
         {
-          "part": "-ious",
-          "mean": "형용사형 접미사"
+          "part": "ous",
+          "mean": "형접"
         }
       ],
-      "origin": "주의를 기울이는 → 호기심 많은"
+      "origin": "관심 있는 → 알고 싶은 → 호기심 많은",
+      "antonyms": [
+        "indifferent",
+        "uninterested"
+      ],
+      "derivatives": [
+        {
+          "en": "curiosity",
+          "pos": "명",
+          "defs": [
+            "1 호기심",
+            "2 진기함, 진기한 것[사람]"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm **curious** about how vaccines help prevent some diseases.",
+          "ko": "나는 백신이 어떻게 질병을 예방하는 것을 돕는지 궁금하다.",
+          "source": "교과서"
+        },
+        {
+          "en": "**Curiosity** makes us view a tough problem as an interesting challenge to take on.",
+          "ko": "호기심은 우리가 어려운 문제를 흥미로운 도전으로 받아들이도록 만든다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "accurate",
-      "ipa": "/ˈækjərət/",
+      "ipa": [
+        "[ǽkjәrit]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "정확한",
-            "정밀한"
+            "(정보·수치·기계 등이) 정확한, 정밀한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "ac",
+          "mean": "= ad:to"
         },
         {
           "part": "cur",
-          "mean": "돌보다 (care)"
+          "mean": "= care"
         },
         {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
+          "part": "ate",
+          "mean": "형접"
         }
       ],
-      "origin": "주의를 기울인 → 정확한"
+      "origin": "done with care 주의를 기울여 처리한\n→ 정확한",
+      "synonyms": [
+        "exact",
+        "precise"
+      ],
+      "antonyms": [
+        "inaccurate"
+      ],
+      "derivatives": [
+        {
+          "en": "accuracy",
+          "pos": "명",
+          "defs": [
+            "정확(성), 정밀(도)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Scientists try to conduct highly **accurate** research.",
+          "ko": "과학자들은 고도로 정밀한 연구를 수행하려고 노력한다."
+        }
+      ]
     },
     {
       "en": "divide",
-      "ipa": "/dɪˈvaɪd/",
+      "ipa": [
+        "[dәváid]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "나누다",
-            "분리하다"
+            "나누다, 분할하다, 분열되다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
+          "part": "di",
+          "mean": "= dis:apart"
         },
         {
-          "part": "vid",
-          "mean": "분리하다 (separate)"
+          "part": "vide",
+          "mean": "= separate"
         }
       ],
-      "origin": "떨어뜨려 나누다 → 분리하다"
+      "origin": "멀어지게 나누다",
+      "synonyms": [
+        "separate",
+        "split"
+      ],
+      "antonyms": [
+        "unite",
+        "unify"
+      ],
+      "derivatives": [
+        {
+          "en": "division",
+          "pos": "명",
+          "defs": [
+            "1 분할, 분열",
+            "2 [수학] 나눗셈, 나누기",
+            "3 부(部), 부분"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The teacher **divided** the students into three groups.",
+          "ko": "선생님은 학생들을 세 그룹으로 나누었다."
+        },
+        {
+          "en": "The National Assembly was **divided** on approving the bill.",
+          "ko": "국회는 그 법안의 승인 여부를 놓고 분열되었다."
+        },
+        {
+          "en": "Adam Smith explained how the **division** of labor could make production more efficient.",
+          "ko": "애덤 스미스는 어떻게 분업이 생산을 더 효율적으로 만드는지 설명했다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "individual",
-      "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+      "ipa": [
+        "[ìndәvídʒuәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "개인의",
-            "개별적인"
+            "1 *개별의, 개개의",
+            "2 독특한, 특유의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "개인"
+            "*개인, 개체; 사람"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
+          "part": "in",
+          "mean": "= not"
         },
         {
-          "part": "dividu(vid)",
-          "mean": "나누다 (divide)"
+          "part": "di",
+          "mean": "= dis:apart"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "vid",
+          "mean": "= separate"
+        },
+        {
+          "part": "ual",
+          "mean": "형접"
         }
       ],
-      "origin": "더 이상 나눌 수 없는 → 개인"
+      "origin": "(더 이상) 나뉘지 않는 (존재)",
+      "synonyms": [
+        "distinctive"
+      ],
+      "derivatives": [
+        {
+          "en": "individually",
+          "pos": "부",
+          "defs": [
+            "개별적으로"
+          ]
+        },
+        {
+          "en": "individuality",
+          "pos": "명",
+          "defs": [
+            "개성, 특성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rights of the **individual** are important in democracy.",
+          "ko": "민주주의 사회에서는 개인의 권리가 중요하다."
+        }
+      ]
     },
     {
       "en": "devise",
-      "ipa": "/dɪˈvaɪz/",
+      "ipa": [
+        "[diváiz]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "고안하다",
-            "궁리하다"
+            "(방법·장치 등을) 고안하다, 궁리하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "vise(vid)",
-          "mean": "나누다, 보다 (divide, see)"
+          "part": "devise",
+          "mean": "라틴어 dividere(=divide 나누다)의 반복적\n의미를 나타내는 divisare(여러 번 나누다)에서\n온 말"
         }
       ],
-      "origin": "완전히 나누어 살피다 → 고안하다"
+      "origin": "→ (생각·계획 등을 여러 번 나누어)\n궁리하다",
+      "synonyms": [
+        "invent"
+      ],
+      "derivatives": [
+        {
+          "en": "device",
+          "pos": "명",
+          "defs": [
+            "1 (기계적) 장치, 고안물",
+            "2 (어떤 일을 성취하기 위한) (특별한) 방법, 방책, 계획"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Because of problems with the current **device**, engineers are **devising** a new model.",
+          "ko": "현재 사용하고 있는 (기계) 장치의 문제들 때문에, 기술자들은 새로운 모델을 고안하고 있다."
+        }
+      ]
     },
     {
       "en": "widow",
-      "ipa": "/ˈwɪdoʊ/",
+      "ipa": [
+        "[wídou]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "과부",
-            "미망인"
+            "미망인, 과부"
           ]
         }
       ],
       "parts": [
         {
-          "part": "wid(vid)",
-          "mean": "분리된 (separated)"
+          "part": "wid",
+          "mean": "= separate"
         },
         {
-          "part": "-ow",
-          "mean": "명사형 접미사"
+          "part": "ow",
+          "mean": "어미"
         }
       ],
-      "origin": "(배우자와) 분리된 사람 → 과부"
+      "origin": "(남편과) 헤어져 떨어진 (여자) → 미망인",
+      "phrases": [
+        {
+          "en": "cf. widower",
+          "ko": "홀아비"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Mrs. Jones became a **widow** after her husband died of cancer.",
+          "ko": "Jones 부인은 남편이 암으로 죽은 후 미망인이 되었다."
+        }
+      ]
     },
     {
       "en": "territory",
-      "ipa": "/ˈterətɔːri/",
+      "ipa": [
+        "[térәtɔ̀ːri]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "영토",
-            "영역"
+            "1 영토",
+            "2 지방, 지역, 구역",
+            "3 영역, 분야"
           ]
         }
       ],
       "parts": [
         {
-          "part": "terr",
-          "mean": "땅 (earth, land)"
+          "part": "terri",
+          "mean": "= land"
         },
         {
-          "part": "-itory",
-          "mean": "명사형 접미사"
+          "part": "tory",
+          "mean": "명접"
         }
       ],
-      "origin": "땅의 범위 → 영토"
+      "origin": "토지, 영토",
+      "derivatives": [
+        {
+          "en": "territorial",
+          "pos": "형",
+          "defs": [
+            "영토의, 영토와 관련된"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "disputed territory",
+          "ko": "분쟁 지역"
+        },
+        {
+          "en": "cf. terrain",
+          "ko": "지형, 지표면의 형태"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The acquisition of new **territory** was a major preoccupation of the US government during the 19th century.",
+          "ko": "새 영토의 획득은 19세기 동안 미 정부의 주된 관심사였다."
+        }
+      ]
     },
     {
       "en": "terrestrial",
-      "ipa": "/təˈrestriəl/",
+      "ipa": [
+        "[tәréstriәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "지구의",
-            "지상의",
-            "육생의"
+            "지구(상)의, 지상의, 육지의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "terr",
-          "mean": "땅 (earth)"
+          "part": "terra",
+          "mean": "= land"
         },
         {
-          "part": "-estrial",
-          "mean": "형용사형 접미사"
+          "part": "st",
+          "mean": "= sta:stand"
+        },
+        {
+          "part": "rial",
+          "mean": "형접"
         }
       ],
-      "origin": "땅의 → 지구의, 지상의"
+      "origin": "땅에 서 있는 → 육지의; 지구상의",
+      "phrases": [
+        {
+          "en": "cf. extraterrestrial",
+          "ko": "지구 밖의, 외계의; 외계인"
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Terrestrial** plants grow on land but not in water.",
+          "ko": "육상 식물은 육지에서 자라지만, 수중에서는 그렇지 않다."
+        }
+      ]
     },
     {
       "en": "mediterranean",
-      "ipa": "/ˌmedɪtəˈreɪniən/",
+      "ipa": [
+        "[mèditәréiniәn]"
+      ],
       "meanings": [
         {
-          "pos": "명",
+          "pos": "명/형",
           "defs": [
-            "지중해"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "지중해의"
+            "지중해(의)"
           ]
         }
       ],
       "parts": [
         {
           "part": "medi",
-          "mean": "중간 (middle)"
+          "mean": "= middle"
         },
         {
-          "part": "terr",
-          "mean": "땅 (earth, land)"
+          "part": "terra",
+          "mean": "= land"
         },
         {
-          "part": "-anean",
-          "mean": "형용사형 접미사"
+          "part": "nean",
+          "mean": "= an:형접"
         }
       ],
-      "origin": "땅의 중간에 있는 바다 → 지중해"
+      "origin": "땅(대륙)의 중간에 있는 바다 → 지중해",
+      "examples": [
+        {
+          "en": "The **Mediterranean** is between Europe and Africa.",
+          "ko": "지중해는 유럽과 아프리카 사이에 있다."
+        }
+      ]
     },
     {
       "en": "attend",
-      "ipa": "/əˈtend/",
+      "ipa": [
+        "[әténd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "참석하다",
-            "주의를 기울이다",
-            "돌보다"
+            "1 *(…에) 출석[참석]하다",
+            "2 돌보다, 간호하다, 수행하다",
+            "3 (+ to) 다루다, 처리하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "at-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "at",
+          "mean": "= ad:to"
         },
         {
           "part": "tend",
-          "mean": "뻗다 (stretch)"
+          "mean": "= stretch"
         }
       ],
-      "origin": "~쪽으로 마음을 뻗다 → 참석하다"
+      "origin": "핵심 다의어\n… 쪽으로 뻗다 →\n├ (발길을) 향하다 → 출석하다\n├ (손길을) 뻗다 → 돌보다, 간호하다\n├ (마음을) 향하다 → 관심을 갖고 대하다\n → 다루다, 처리하다",
+      "derivatives": [
+        {
+          "en": "attendant",
+          "pos": "명",
+          "defs": [
+            "1 시중드는 사람",
+            "2 수행원"
+          ]
+        },
+        {
+          "en": "attendance",
+          "pos": "명",
+          "defs": [
+            "출석(수), 참석(수)"
+          ]
+        },
+        {
+          "en": "attention",
+          "pos": "명",
+          "defs": [
+            "1 주목, 주의",
+            "2 관심",
+            "3 시중, 돌봄"
+          ]
+        },
+        {
+          "en": "attentive",
+          "pos": "형",
+          "defs": [
+            "주의 깊은, 세심한"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "pay attention to",
+          "ko": "…에 주의를 기울이다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A: Sue always **attends** this class.\nB: Yeah, but she never **pays attention to** the teacher.",
+          "ko": "A: Sue는 항상 이 수업에 출석하지.\nB: 그렇기는 하지만 결코 선생님한테 주의를 기울이지 않아."
+        },
+        {
+          "en": "Our brains evolved to help us **attend to** threats.",
+          "ko": "우리의 뇌는 우리가 위험에 주의를 기울일 수 있도록 진화해왔다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "pretend",
-      "ipa": "/prɪˈtend/",
+      "ipa": [
+        "[priténd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "~인 척하다"
+            "(+ to-v/that) …인 체하다, 속이다, 가장하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pre-",
-          "mean": "앞에 (before)"
+          "part": "pre",
+          "mean": "= before"
         },
         {
           "part": "tend",
-          "mean": "뻗다 (stretch)"
+          "mean": "= stretch"
         }
       ],
-      "origin": "앞에 내세우다 → ~인 척하다"
+      "origin": "앞에 (핑계·가짓 등을) 펼쳐 놓다",
+      "examples": [
+        {
+          "en": "Although Mark was awake, he **pretended to be** in a deep sleep.",
+          "ko": "깨어 있었음에도 불구하고, Mark는 깊게 잠든 척했다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "extend",
-      "ipa": "/ɪkˈstend/",
+      "ipa": [
+        "[iksténd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "연장하다",
-            "확장하다"
+            "1 *연장하다, 확장하다; 연장되다, 확장되다",
+            "2 뻗다, 내밀다",
+            "3 (도움·친절 등을) 베풀다, 제공하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
           "part": "tend",
-          "mean": "뻗다 (stretch)"
+          "mean": "= stretch"
         }
       ],
-      "origin": "밖으로 뻗다 → 연장하다"
+      "origin": "바깥쪽으로 뻗다 → 확장[연장]하다",
+      "synonyms": [
+        "reach"
+      ],
+      "derivatives": [
+        {
+          "en": "extent",
+          "pos": "명",
+          "defs": [
+            "1 넓이, 크기",
+            "2 범위, 한도, 정도"
+          ]
+        },
+        {
+          "en": "extension",
+          "pos": "명",
+          "defs": [
+            "1 (기간·범위 등의) 연장, 널힘",
+            "2 (전화) 내선"
+          ]
+        },
+        {
+          "en": "extensive",
+          "pos": "형",
+          "defs": [
+            "아주 넓은, 광범위한"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "to some[a certain] extent",
+          "ko": "어느 [특정] 정도까지는, 다소"
+        },
+        {
+          "en": "to a large[great] extent",
+          "ko": "대체로, 대부분, 크게"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We **extended** our rental agreement for another year.",
+          "ko": "우리는 임대계약을 1년 더 연장했다."
+        },
+        {
+          "en": "This road **extends** to the port.",
+          "ko": "이 길은 항구까지 뻗어 있다."
+        },
+        {
+          "en": "Some critics are concerned about the **extensive** use of computers in the art-making process.",
+          "ko": "일부 비평가들은 예술 창작 과정에서의 컴퓨터의 광범위한 사용에 대해 우려한다.",
+          "source": "모의"
+        },
+        {
+          "en": "I agree with him **to some extent**, but not entirely.",
+          "ko": "나는 그에게 어느 정도는 동의하지만, 전적으로는 아니다."
+        }
+      ]
     },
     {
       "en": "intend",
-      "ipa": "/ɪnˈtend/",
+      "ipa": [
+        "[inténd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "의도하다",
-            "~하려고 생각하다"
+            "1 (+ to-v/that) …할 작정이다",
+            "2 *의도하다, 고의로 하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~쪽으로 (toward)"
+          "part": "in",
+          "mean": "= toward"
         },
         {
           "part": "tend",
-          "mean": "뻗다 (stretch)"
+          "mean": "= stretch"
         }
       ],
-      "origin": "~쪽으로 마음을 뻗다 → 의도하다"
+      "origin": "(마음을) … 쪽으로 뻗다",
+      "derivatives": [
+        {
+          "en": "intent",
+          "pos": "명/형",
+          "defs": [
+            "의도, 목적 / 열의가 있는, 전념하는"
+          ]
+        },
+        {
+          "en": "intention",
+          "pos": "명",
+          "defs": [
+            "의도, 의향, 목적"
+          ]
+        },
+        {
+          "en": "intentional",
+          "pos": "형",
+          "defs": [
+            "의도적인, 고의의"
+          ]
+        },
+        {
+          "en": "intentionally",
+          "pos": "부",
+          "defs": [
+            "의도적으로, 고의로"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **intends to study** abroad next year.",
+          "ko": "그는 내년에 유학 갈 작정이다."
+        },
+        {
+          "en": "It wasn't my **intention** to start a fight.",
+          "ko": "싸움을 시작한 것은 나의 의도가 아니었다."
+        },
+        {
+          "en": "Some people make few **intentional** changes in life.",
+          "ko": "어떤 사람들은 살면서 의도적인 변화를 거의 하지 않는다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "tend",
-      "ipa": "/tend/",
+      "ipa": [
+        "[tend]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "~하는 경향이 있다",
-            "돌보다"
+            "1 (+ to-v) *…하는 경향이 있다, …하기 쉽다*",
+            "2 (격식체) 돌보다, 보살피다"
           ]
         }
       ],
       "parts": [
         {
           "part": "tend",
-          "mean": "뻗다, 향하다 (stretch, aim)"
+          "mean": "= stretch"
         }
       ],
-      "origin": "~쪽으로 향하다 → 경향이 있다"
+      "origin": "(특정 방향으로) 뻗다",
+      "synonyms": [
+        "be apt[likely] to-v",
+        "look after"
+      ],
+      "derivatives": [
+        {
+          "en": "tendency",
+          "pos": "명",
+          "defs": [
+            "1 성향",
+            "2 경향, 추세"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **tends to get** angry when people oppose his plans.",
+          "ko": "그는 사람들이 자기 계획에 반대하면 화를 내는 경향이 있다."
+        },
+        {
+          "en": "She **tended** her garden lovingly throughout the summer.",
+          "ko": "그녀는 여름 내내 사랑으로 정원을 돌보았다."
+        }
+      ]
     },
     {
       "en": "tender",
-      "ipa": "/ˈtendər/",
+      "ipa": [
+        "[téndәr]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "부드러운",
-            "연약한"
+            "*(음식·성질·성격 등이) 부드러운, 연한, 다정한"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 (격식체) 제공[제출]하다",
+            "2 (공사 등에) 입찰하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "tend",
-          "mean": "뻗다 (stretch)"
-        },
-        {
-          "part": "-er",
-          "mean": "형용사형 접미사"
+          "part": "tender",
+          "mean": "= stretch(ed)"
         }
       ],
-      "origin": "뻗어서 얇아진 → 부드러운"
+      "origin": "├ 늘려져서 얇고 부드러운\n└ (손을 뻗어서) 주다 → 제출하다",
+      "synonyms": [
+        "bid"
+      ],
+      "derivatives": [
+        {
+          "en": "tenderness",
+          "pos": "명",
+          "defs": [
+            "유연함, 민감함, 상냥함, 친절"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "My steak is **tender**. How's yours?",
+          "ko": "내 스테이크는 부드러워. 네 것은 어때?"
+        },
+        {
+          "en": "The chief officer **tendered** his resignation immediately.",
+          "ko": "그 최고 책임자는 즉시 사직서를 제출했다."
+        }
+      ]
     },
     {
       "en": "tense",
-      "ipa": "/tens/",
+      "ipa": [
+        "[tens]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "긴장된"
+            "1 *긴장한",
+            "2 팽팽하게 당겨진"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "시제"
+            "[문법] 시제"
           ]
         }
       ],
       "parts": [
         {
-          "part": "tens(tend)",
-          "mean": "뻗다, 당기다 (stretch)"
+          "part": "tense",
+          "mean": "= stretched"
         }
       ],
-      "origin": "팽팽하게 당겨진 → 긴장된"
+      "origin": "팽팽히 당겨진 → 긴장한",
+      "derivatives": [
+        {
+          "en": "tension",
+          "pos": "명",
+          "defs": [
+            "1 긴장 (상태)",
+            "2 팽팽함"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm always so **tense** the night before an exam.",
+          "ko": "나는 시험 전날 밤에 항상 그렇게 긴장을 한다."
+        },
+        {
+          "en": "the present[past/future] **tense**",
+          "ko": "현재[과거/미래] 시제"
+        },
+        {
+          "en": "**Tensions** between the two countries are rising.",
+          "ko": "양국 간의 긴장감이 고조되고 있다."
+        }
+      ]
     },
     {
       "en": "intense",
-      "ipa": "/ɪnˈtens/",
+      "ipa": [
+        "[inténs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "강렬한",
-            "치열한"
+            "1 강렬한, 심한",
+            "2 열렬한, 열심인"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안으로 (into)"
+          "part": "in",
+          "mean": "= toward"
         },
         {
-          "part": "tense(tend)",
-          "mean": "뻗다, 당기다 (stretch)"
+          "part": "tense",
+          "mean": "= stretched"
         }
       ],
-      "origin": "안으로 강하게 당겨진 → 강렬한"
+      "origin": "(관심·신경 등이) … 쪽으로 한껏 뻗은",
+      "synonyms": [
+        "extreme"
+      ],
+      "derivatives": [
+        {
+          "en": "intensive",
+          "pos": "형",
+          "defs": [
+            "강한, 집중적인; 철저한"
+          ]
+        },
+        {
+          "en": "intensity",
+          "pos": "명",
+          "defs": [
+            "강렬함, 열렬함"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "These singing birds are in the middle of an **intense** competition for territory.",
+          "ko": "이 노래하는 새들은 영토를 차지하기 위한 치열한 경쟁의 한가운데에 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "an **intensive** training course",
+          "ko": "집중 훈련 과정"
+        }
+      ]
     },
     {
       "en": "possible",
-      "ipa": "/ˈpɑːsəbl/",
+      "ipa": [
+        "[pɑ́ːsәbәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "가능한"
+            "가능한, 있을 수 있는"
           ]
         }
       ],
       "parts": [
         {
           "part": "poss",
-          "mean": "할 수 있는 (able, powerful)"
+          "mean": "= be able"
         },
         {
-          "part": "-ible",
-          "mean": "~할 수 있는"
+          "part": "ible",
+          "mean": "형접「가능」"
         }
       ],
-      "origin": "할 수 있는 → 가능한"
+      "origin": "가능한",
+      "antonyms": [
+        "impossible"
+      ],
+      "derivatives": [
+        {
+          "en": "possibility",
+          "pos": "명",
+          "defs": [
+            "가능성, 가망"
+          ]
+        },
+        {
+          "en": "possibly",
+          "pos": "부",
+          "defs": [
+            "아마도, 어쩌면, 혹시"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "as … as possible",
+          "ko": "가능한 한 …하게"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A: Do you think there is a **possibility** of life on Mars?\nB: Yes, I think it is **possible**.",
+          "ko": "A: 화성에 생명체가 있을 가능성이 있다고 생각하니?\nB: 응, 나는 그게 가능하다고 생각해."
+        },
+        {
+          "en": "Please speak as clearly as **possible**.",
+          "ko": "가능한 한 명확하게 말해주세요."
+        }
+      ]
     },
     {
       "en": "possess",
-      "ipa": "/pəˈzes/",
+      "ipa": [
+        "[pәzés]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "소유하다",
-            "갖추다"
+            "1 *가지다, 소유하다",
+            "2 (감정·생각 등이) 사로잡다, 지배하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pos(poss)",
-          "mean": "할 수 있는, 힘 (power)"
+          "part": "poss",
+          "mean": "= be able"
         },
         {
           "part": "sess",
-          "mean": "앉다 (sit)"
+          "mean": "= sit 앉다"
         }
       ],
-      "origin": "힘을 가지고 앉다 → 소유하다"
+      "origin": "(마음대로) 앉을 수 있다 → … 위에 앉아\n소유를 표시하다 → 소유하다",
+      "synonyms": [
+        "own",
+        "have"
+      ],
+      "derivatives": [
+        {
+          "en": "possession",
+          "pos": "명",
+          "defs": [
+            "1 (주로 복수형) 소유(물), 소지품, 재산",
+            "2 소지, 소유, 점유",
+            "3 속국, 점령지"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "take possession of",
+          "ko": "…을 점유[점령]하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They **possess** a great fortune.",
+          "ko": "그들은 많은 재산을 소유하고 있다."
+        },
+        {
+          "en": "When she couldn't pay her debts, the bank **took possession of** her property.",
+          "ko": "그녀가 빚을 갚을 수 없게 되자, 은행은 그녀의 재산을 압류했다."
+        }
+      ]
     },
     {
       "en": "potential",
-      "ipa": "/pəˈtenʃl/",
+      "ipa": [
+        "[pәténʃәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "잠재적인",
-            "가능성 있는"
+            "잠재적인, 가능성 있는"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "잠재력"
+            "*잠재력, 가능성"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pot(poss)",
-          "mean": "할 수 있는, 힘 (power)"
+          "part": "pot",
+          "mean": "= be able"
         },
         {
-          "part": "-ential",
-          "mean": "형용사형 접미사"
+          "part": "ent",
+          "mean": "형접"
+        },
+        {
+          "part": "ial",
+          "mean": "형접"
         }
       ],
-      "origin": "힘이 있는 → 잠재적인"
+      "origin": "할 수 있는 (가능성)",
+      "examples": [
+        {
+          "en": "His job is examining satellite images to track forest fires and informing people of **potential** dangers.",
+          "ko": "그의 역할은 산불을 추적하기 위해 위성 이미지를 분석하고 사람들에게 잠재적인 위험에 대해 경고하는 것이다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Many people never achieve their full **potential**.",
+          "ko": "많은 사람들이 자신의 잠재력을 최대한으로 발휘하지 못한다."
+        }
+      ]
     }
   ]
 }

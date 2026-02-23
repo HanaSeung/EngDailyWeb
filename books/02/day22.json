@@ -3,602 +3,1178 @@
   "words": [
     {
       "en": "strict",
-      "ipa": "/strɪkt/",
+      "ipa": [
+        "[strikt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "엄격한",
-            "엄한"
+            "1 *엄격한, 엄한",
+            "2 정확한, 엄밀한"
           ]
         }
       ],
       "parts": [
         {
           "part": "strict",
-          "mean": "당기다, 조이다 (draw tight)"
+          "mean": "= draw tight"
         }
       ],
-      "origin": "조여진 → 엄격한"
+      "origin": "팽팽하게 당겨진 → 틈이 없는, 허용 범위가\n좁은 → 엄격한",
+      "synonyms": [
+        "stern",
+        "tough"
+      ],
+      "derivatives": [
+        {
+          "en": "strictly",
+          "pos": "부",
+          "defs": [
+            "엄격히, 엄하게; 정확히"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "We live in a society where gender roles are not as **strict** as in prior generations.",
+          "ko": "우리는 이전 세대만큼 성 역할이 엄격하지 않은 사회에서 살고 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "The movie was not successful in the **strict** sense of the word.",
+          "ko": "엄밀히 말하면 그 영화는 성공적이지 못했다."
+        }
+      ]
     },
     {
       "en": "restrict",
-      "ipa": "/rɪˈstrɪkt/",
+      "ipa": [
+        "[ristríkt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "제한하다",
-            "한정하다"
+            "제한하다, 한정하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
           "part": "strict",
-          "mean": "당기다 (draw tight)"
+          "mean": "= draw tight"
         }
       ],
-      "origin": "뒤로 당겨 조이다 → 제한하다"
+      "origin": "뒤로 팽팽히 당기다 → (일정 범위 밖으로\n나갈 수 없게) 제한하다",
+      "synonyms": [
+        "limit",
+        "confine"
+      ],
+      "derivatives": [
+        {
+          "en": "restriction",
+          "pos": "명",
+          "defs": [
+            "(행동·크기·범위 등의) 제한, 한정"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "a **restricted** area",
+          "ko": "제한 구역"
+        },
+        {
+          "en": "The **restriction** on importing costly cars was eased recently.",
+          "ko": "값비싼 차들에 대한 수입 제한이 최근에 완화되었다."
+        }
+      ]
     },
     {
       "en": "district",
-      "ipa": "/ˈdɪstrɪkt/",
+      "ipa": [
+        "[dístrikt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "지구",
-            "구역"
+            "(행정·사법·교육 등의) 지구, 구역; 지역"
           ]
         }
       ],
       "parts": [
         {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
+          "part": "di",
+          "mean": "= dis:apart"
         },
         {
           "part": "strict",
-          "mean": "당기다 (draw)"
+          "mean": "= bind"
         }
       ],
-      "origin": "구분하여 나눈 곳 → 지구, 구역"
+      "origin": "따로따로 묶다 → 통제력이 각각 미치는 범위\n→ 관할 구역",
+      "examples": [
+        {
+          "en": "an election **district**",
+          "ko": "선거구"
+        },
+        {
+          "en": "a school **district**",
+          "ko": "학군"
+        },
+        {
+          "en": "I enjoyed walking around the theater **district** in New York.",
+          "ko": "나는 뉴욕의 극장가를 돌아다니는 것을 즐겼다."
+        }
+      ]
     },
     {
       "en": "strain",
-      "ipa": "/streɪn/",
+      "ipa": [
+        "[strein]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "긴장",
-            "부담"
+            "1 긴장(감), 피로",
+            "2 부담, 중압",
+            "3 노력, 분투"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "잡아당기다",
-            "애쓰다"
+            "1 노력하다, 애쓰다",
+            "2 (근육·신체 일부를) 혹사시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "strain(strict)",
-          "mean": "당기다 (draw tight)"
+          "part": "strain",
+          "mean": "라틴어 stringere(=draw tight 꽉\n잡아당기다)에서 온 말"
         }
       ],
-      "origin": "당기다 → 긴장, 부담"
+      "origin": "꽉 잡아당기다",
+      "examples": [
+        {
+          "en": "Their relationship has been under a lot of **strain** lately.",
+          "ko": "그들의 관계는 최근에 많은 긴장감 속에 있다."
+        }
+      ]
     },
     {
       "en": "restrain",
-      "ipa": "/rɪˈstreɪn/",
+      "ipa": [
+        "[ristréin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "저지하다",
-            "억제하다"
+            "1 (+ from) (…을) 제지하다, 못하게 하다",
+            "2 *(감정·행동 등을) 억누르다, 억제하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "strain(strict)",
-          "mean": "당기다 (draw tight)"
+          "part": "strain",
+          "mean": "= draw tight"
         }
       ],
-      "origin": "뒤로 잡아당기다 → 억제하다"
+      "origin": "뒤로 잡아당겨 두다 → 억누르다,\n억제하다",
+      "derivatives": [
+        {
+          "en": "restraint",
+          "pos": "명",
+          "defs": [
+            "억제, 규제, 자제"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "restrain oneself from",
+          "ko": "…하는 것을 자제하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It's hard for children to **restrain themselves from** making noise.",
+          "ko": "아이들이 떠드는 것을 자제하기는 어렵다."
+        },
+        {
+          "en": "Being upset, I couldn't **restrain** my anger.",
+          "ko": "화가 나서, 나는 분노를 억누를 수 없었다."
+        }
+      ]
     },
     {
       "en": "constrain",
-      "ipa": "/kənˈstreɪn/",
+      "ipa": [
+        "[kәnstréin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "강요하다",
-            "억제하다"
+            "1 …하게 만들다, 강요하다",
+            "2 억누르다, 억제하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= together"
         },
         {
-          "part": "strain(strict)",
-          "mean": "당기다 (draw tight)"
+          "part": "strain",
+          "mean": "= bind"
         }
       ],
-      "origin": "함께 조이다 → 강요하다"
+      "origin": "같이 꽉 묶어두다\n→ (강제로) …을 하게 만들다",
+      "synonyms": [
+        "compel"
+      ],
+      "derivatives": [
+        {
+          "en": "constraint",
+          "pos": "명",
+          "defs": [
+            "제한, 제약"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lack of money **constrained** their plans.",
+          "ko": "자금 부족이 그들의 계획을 제한했다."
+        },
+        {
+          "en": "Virtual meeting platforms put more **constraints** on communication than face-to-face settings.",
+          "ko": "가상 회의 플랫폼은 대면 환경보다 의사소통에 더 많은 제약을 가한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "strait",
-      "ipa": "/streɪt/",
+      "ipa": [
+        "[streit]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "해협",
-            "(경제적) 궁핍"
+            "1 (주로 복수형) 해협",
+            "2 (복수형) (특히 경제적인) 곤경, 궁핍"
           ]
         }
       ],
       "parts": [
         {
-          "part": "strait(strict)",
-          "mean": "당기다, 좁은 (tight, narrow)"
+          "part": "strait",
+          "mean": "= draw tight"
         }
       ],
-      "origin": "좁게 조여진 곳 → 해협"
+      "origin": "├ (지리적으로) 꽉 잡아당겨 좁은 (곳)\n│ → 해협\n└ (경제적으로) 꽉 잡아당겨진 (상태)\n→ 궁핍",
+      "synonyms": [
+        "difficulty"
+      ],
+      "examples": [
+        {
+          "en": "The same amount of water flows faster and stronger through a narrow **strait** than across the open sea.",
+          "ko": "같은 양의 물은 넓은 바다를 통과할 때 보다 좁은 해협을 통과할 때 더 빠르고 강하게 흐른다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "distress",
-      "ipa": "/dɪˈstres/",
+      "ipa": [
+        "[distrés]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "고통",
-            "곤경"
+            "1 *고통, 고뇌, 고민",
+            "2 곤경, 빈곤"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "괴롭히다"
+            "괴롭히다, 곤란하게 하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
+          "part": "di",
+          "mean": "= dis:apart"
         },
         {
-          "part": "stress(strict)",
-          "mean": "당기다 (draw tight)"
+          "part": "stress",
+          "mean": "= draw tight"
         }
       ],
-      "origin": "사방으로 조여지다 → 고통"
+      "origin": "팽팽히 당겨 멀어지게 하다 → 괴롭게 하다\n→ 괴로움",
+      "synonyms": [
+        "hardship"
+      ],
+      "phrases": [
+        {
+          "en": "in distress",
+          "ko": "고통[곤궁] 속에 있는, 도움이 필요한"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Stressful events can cause a lot of **distress**.",
+          "ko": "스트레스를 주는 사건은 많은 고통을 야기할 수 있다."
+        }
+      ]
     },
     {
       "en": "stress",
-      "ipa": "/stres/",
+      "ipa": [
+        "[stres]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "스트레스",
-            "강조"
+            "1 *긴장, 스트레스",
+            "2 압력, 압박",
+            "3 (중요성의) 강조",
+            "4 강세"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "강조하다"
+            "1 *강조하다",
+            "2 (발음) 강세를 두다",
+            "3 *스트레스를 주다[받다]"
           ]
         }
       ],
       "parts": [
         {
-          "part": "stress(strict)",
-          "mean": "당기다, 조이다 (draw tight)"
+          "part": "stress",
+          "mean": "라틴어 strictus(=draw tight 꽉 당겨진)에\n서 온 말"
         }
       ],
-      "origin": "조이는 것 → 스트레스, 강조"
+      "origin": "핵심 다의어\n├ (신경이) 꽉 당겨짐 → 긴장\n├ (힘을 주어) 꽉 당김 → 압박\n└ 힘을 실어서 강조하다\n※ distress(고통, 고뇌)의 축약형으로 보\n기도 함",
+      "synonyms": [
+        "emphasis"
+      ],
+      "examples": [
+        {
+          "en": "Too much **stress** can ruin your health.",
+          "ko": "과도한 스트레스는 건강을 해칠 수 있다."
+        },
+        {
+          "en": "The speaker **stressed** the importance of eating a good breakfast.",
+          "ko": "강연자는 질 좋은 아침 식사의 중요성을 강조했다."
+        }
+      ]
     },
     {
       "en": "prestige",
-      "ipa": "/preˈstiːʒ/",
+      "ipa": [
+        "[prestíːʒ]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "명성",
-            "위신"
+            "명성, 위신"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "명성이 있는, 명문의, 일류의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pre-",
-          "mean": "미리 (before)"
+          "part": "pre",
+          "mean": "= before"
         },
         {
-          "part": "stige(strict)",
-          "mean": "당기다, 묶다 (bind)"
+          "part": "stige",
+          "mean": "= bind"
         }
       ],
-      "origin": "눈을 미리 사로잡다 → 명성"
+      "origin": "(눈) 앞에 묶기 → 눈을 가리기 → 너무\n빛이 나서 눈을 가려야 하는 것 → 명망",
+      "derivatives": [
+        {
+          "en": "prestigious",
+          "pos": "형",
+          "defs": [
+            "명성이 있는, 명문의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our school baseball team enhanced our school's **prestige** by winning the national championship.",
+          "ko": "우리 학교 야구부는 전국 선수권 대회에서 승리하여 학교의 위상을 높였다."
+        },
+        {
+          "en": "a **prestigious** school",
+          "ko": "명문 학교"
+        }
+      ]
     },
     {
       "en": "fund",
-      "ipa": "/fʌnd/",
+      "ipa": [
+        "[fʌnd]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "자금",
-            "기금"
+            "(종종 복수형) *기금, 자금*"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "자금을 제공하다"
+            "(사업·행사 등을 위해) 자금을 제공하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "fund",
-          "mean": "바닥, 기초 (bottom, foundation)"
+          "mean": "라틴어 fundus(=bottom, foundation)\n에서 온 말"
         }
       ],
-      "origin": "기초가 되는 것 → 자금"
+      "origin": "→ (상인의) 토대[기반]가 되는\n토(土)와 물건 → 자본, 자금",
+      "phrases": [
+        {
+          "en": "raise funds",
+          "ko": "자금을 모으다"
+        },
+        {
+          "en": "fundraising",
+          "ko": "모금, 자금 조달"
+        },
+        {
+          "en": "crowdfunding",
+          "ko": "크라우드 펀딩 (인터넷 등을 통해 일반 개인들로부터 투자 자금 따위를 모으는 방식)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We must raise the necessary **funds** by next week.",
+          "ko": "우리는 다음 주까지 필요한 자금을 조달해야 한다."
+        }
+      ]
     },
     {
       "en": "fundamental",
-      "ipa": "/ˌfʌndəˈmentl/",
+      "ipa": [
+        "[fʌ̀ndәméntl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "근본적인",
-            "필수의"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "기본 원칙"
+            "1 *근본적인, 기본적인",
+            "2 중요한, 필수적인"
           ]
         }
       ],
       "parts": [
         {
-          "part": "fund",
-          "mean": "바닥, 기초 (bottom)"
+          "part": "funda",
+          "mean": "= bottom"
         },
         {
-          "part": "-ament",
-          "mean": "명사형 접미사"
+          "part": "ment",
+          "mean": "명접「상태」"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "기초의 → 근본적인"
+      "origin": "바닥(기본)이 되는",
+      "synonyms": [
+        "basic",
+        "essential"
+      ],
+      "derivatives": [
+        {
+          "en": "fundamentally",
+          "pos": "부",
+          "defs": [
+            "1 근본적으로, 기본적으로",
+            "2 필수적으로"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Honesty is a **fundamental** part of every strong relationship.",
+          "ko": "정직함은 모든 돈독한 관계의 기본적인 요소이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "found",
-      "ipa": "/faʊnd/",
+      "ipa": [
+        "[faund]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "설립하다",
-            "~에 기초를 두다"
+            "1 *설립하다",
+            "2 …에 기초[근거]를 두다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "found(fund)",
-          "mean": "바닥, 기초 (bottom, foundation)"
+          "part": "found",
+          "mean": "= bottom"
         }
       ],
-      "origin": "기초를 놓다 → 설립하다"
+      "origin": "바닥(기초)를 다지다 → 설립하다",
+      "synonyms": [
+        "establish",
+        "set up"
+      ],
+      "derivatives": [
+        {
+          "en": "foundation",
+          "pos": "명",
+          "defs": [
+            "1 (종종 복수형) 기초, 기반",
+            "2 설립",
+            "3 재단"
+          ]
+        },
+        {
+          "en": "founder",
+          "pos": "명",
+          "defs": [
+            "설립자, 창립자"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "well founded",
+          "ko": "근거가 충분한"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The museum was **founded** in 1932.",
+          "ko": "그 박물관은 1932년에 건립되었다."
+        },
+        {
+          "en": "For construction in soft soil, the **foundations** should be sufficiently deep, wide, and strong.",
+          "ko": "연약한 지반 위에 건설 시, (건물의) 토대는 충분히 깊고 넓으며 강해야 한다.",
+          "source": "모의"
+        },
+        {
+          "en": "a scholarship **foundation**",
+          "ko": "장학 재단"
+        }
+      ]
     },
     {
       "en": "profound",
-      "ipa": "/prəˈfaʊnd/",
+      "ipa": [
+        "[prәfáund]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "심오한",
-            "깊은"
+            "1 *(영향·효과 등이) 강한",
+            "2 (사상·의미 등이) 심오한",
+            "3 깊은"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
+          "part": "pro",
+          "mean": "= forward"
         },
         {
-          "part": "found(fund)",
-          "mean": "바닥 (bottom)"
+          "part": "found",
+          "mean": "= bottom"
         }
       ],
-      "origin": "바닥까지 깊은 → 심오한"
+      "origin": "바닥으로 향하여 나아간 → 깊은",
+      "antonyms": [
+        "superficial"
+      ],
+      "synonyms": [
+        "deep"
+      ],
+      "examples": [
+        {
+          "en": "The recent changes in the finance sector had **profound** effects on the economy.",
+          "ko": "금융 부문의 최근 변화들은 경제에 강한 영향을 끼쳤다."
+        }
+      ]
     },
     {
       "en": "pressure",
-      "ipa": "/ˈpreʃər/",
+      "ipa": [
+        "[préʃәr]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "압력",
-            "압박"
+            "압력, 압박(감)"
           ]
         }
       ],
       "parts": [
         {
           "part": "press",
-          "mean": "누르다 (press)"
+          "mean": "누르다"
         },
         {
-          "part": "-ure",
-          "mean": "명사형 접미사"
+          "part": "ure",
+          "mean": "명접"
         }
       ],
-      "origin": "누르는 것 → 압력"
+      "origin": "누르기 → 압력\n※ press는 라틴어 pressare(=누르다)에서\n온 말",
+      "examples": [
+        {
+          "en": "The strong **pressure** of competition forced companies to innovate.",
+          "ko": "경쟁에 대한 강한 압박으로 회사들은 변화해야 했다."
+        },
+        {
+          "en": "high blood **pressure**",
+          "ko": "고혈압"
+        }
+      ]
     },
     {
       "en": "express",
-      "ipa": "/ɪkˈspres/",
+      "ipa": [
+        "[iksprés]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "표현하다"
+            "*(감정·생각을) 표현하다, 나타내다"
           ]
         },
         {
           "pos": "형",
           "defs": [
-            "급행의"
+            "1 명시된, 명확한, 뚜렷한",
+            "2 *(열차 등이) 급행의*; (우편) 속달의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "급행열차"
+            "급행열차, 고속버스; (우편) 속달"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
           "part": "press",
-          "mean": "누르다 (press)"
+          "mean": "누르다"
         }
       ],
-      "origin": "밖으로 눌러 짜내다 → 표현하다"
+      "origin": "핵심 다의어\n├ (생각을) 밖으로 밀어내다 → 표현하다\n├ 바깥으로 명확하게 표현한 → 뚜렷한 →\n│ 뚜렷한 목적으로 만들어져 빠르게 사용할\n│ 수 있는 → 급행의; 속달의",
+      "derivatives": [
+        {
+          "en": "expression",
+          "pos": "명",
+          "defs": [
+            "1 표현(법)",
+            "2 (얼굴) 표정",
+            "3 [수학] 식"
+          ]
+        },
+        {
+          "en": "expressive",
+          "pos": "형",
+          "defs": [
+            "표현이 풍부한, (감정 등을) 표현하는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Facial **expressions** cannot always **express** one's emotions.",
+          "ko": "얼굴 표정으로써 항상 사람의 감정을 표현할 수 있는 것은 아니다."
+        },
+        {
+          "en": "We took an **express** train[bus] to Busan.",
+          "ko": "우리는 부산행 급행열차[고속버스]를 탔다."
+        }
+      ]
     },
     {
       "en": "impress",
-      "ipa": "/ɪmˈpres/",
+      "ipa": [
+        "[imprés]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "깊은 인상을 주다",
-            "감명시키다"
+            "1 *깊은 인상을 주다, 감동시키다",
+            "2 (도장 등을) 찍다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "im-(in-)",
-          "mean": "안에 (in)"
+          "part": "im",
+          "mean": "= in:on"
         },
         {
           "part": "press",
-          "mean": "누르다 (press)"
+          "mean": "누르다"
         }
       ],
-      "origin": "안에 눌러 새기다 → 인상을 주다"
+      "origin": "(마음에) 눌러서 자국을 내다",
+      "derivatives": [
+        {
+          "en": "impression",
+          "pos": "명",
+          "defs": [
+            "1 인상, 느낌, 감명",
+            "2 자국"
+          ]
+        },
+        {
+          "en": "impressed",
+          "pos": "형",
+          "defs": [
+            "인상 깊게 생각하는, 감동을 받은"
+          ]
+        },
+        {
+          "en": "impressive",
+          "pos": "형",
+          "defs": [
+            "인상적인, 감명을 주는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "His speech **impressed** everyone in the room.",
+          "ko": "그의 연설은 방 안의 모든 사람들에게 감동을 주었다."
+        },
+        {
+          "en": "What was your first **impression** of him?",
+          "ko": "그 남자 첫인상은 어땠어요?"
+        },
+        {
+          "en": "I was **impressed** by the latest book you wrote about the environment.",
+          "ko": "나는 당신이 최근에 환경에 관해 쓴 책에 깊은 감명을 받았습니다.",
+          "source": "모의"
+        },
+        {
+          "en": "an **impressive** scene",
+          "ko": "인상적인 장면"
+        }
+      ]
     },
     {
       "en": "oppress",
-      "ipa": "/əˈpres/",
+      "ipa": [
+        "[әprés]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "억압하다"
+            "억압하다, 탄압하다, 박해하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "op-(ob-)",
-          "mean": "맞서 (against)"
+          "part": "op",
+          "mean": "= ob:against"
         },
         {
           "part": "press",
-          "mean": "누르다 (press)"
+          "mean": "누르다"
         }
       ],
-      "origin": "맞서 누르다 → 억압하다"
+      "origin": "…에 대항해 압력을 가하다",
+      "derivatives": [
+        {
+          "en": "oppression",
+          "pos": "명",
+          "defs": [
+            "억압, 억제"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The more we are **oppressed**, the more we will resist that **oppression**.",
+          "ko": "우리가 억압받으면 받을수록, 그 억압에 더욱 저항할 것이다."
+        }
+      ]
     },
     {
       "en": "conclude",
-      "ipa": "/kənˈkluːd/",
+      "ipa": [
+        "[kәnklúːd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "결론을 내리다",
-            "끝내다"
+            "1 *결론을 내리다",
+            "2 끝나다; 끝내다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
+          "part": "con",
+          "mean": "= com:「강조」"
         },
         {
-          "part": "clude(clud)",
-          "mean": "닫다 (close)"
+          "part": "clude",
+          "mean": "= close"
         }
       ],
-      "origin": "완전히 닫다 → 끝내다, 결론 내리다"
+      "origin": "완전히 닫다 → 끝내다",
+      "derivatives": [
+        {
+          "en": "conclusion",
+          "pos": "명",
+          "defs": [
+            "1 결론",
+            "2 결말, 종결",
+            "3 (조약 등의) 체결"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "draw a conclusion",
+          "ko": "결론을 도출하다"
+        },
+        {
+          "en": "in conclusion",
+          "ko": "마지막으로, 끝으로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "What did you **conclude** from reading the report?",
+          "ko": "그 보고서를 읽고 어떤 결론을 내렸습니까?"
+        },
+        {
+          "en": "We **drew a conclusion** after looking at all the data.",
+          "ko": "우리는 모든 데이터를 본 후에 결론을 도출했다."
+        }
+      ]
     },
     {
       "en": "include",
-      "ipa": "/ɪnˈkluːd/",
+      "ipa": [
+        "[inklúːd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "포함하다"
+            "1 *포함하다, 함유하다",
+            "2 넣다, (전체의 일부로서) 포함시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안에 (in)"
+          "part": "in",
+          "mean": "= in"
         },
         {
-          "part": "clude(clud)",
-          "mean": "닫다 (close)"
+          "part": "clude",
+          "mean": "= shut"
         }
       ],
-      "origin": "안에 넣고 닫다 → 포함하다"
+      "origin": "안에 넣고 (밖에서) 닫다",
+      "synonyms": [
+        "contain"
+      ],
+      "antonyms": [
+        "exclude"
+      ],
+      "derivatives": [
+        {
+          "en": "inclusion",
+          "pos": "명",
+          "defs": [
+            "포함, 함유(물)"
+          ]
+        },
+        {
+          "en": "inclusive",
+          "pos": "형",
+          "defs": [
+            "1 (가격·경비에) 포함된",
+            "2 포괄적인, 폭넓은"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The facility **includes** gardens, stores, a gym, a playground, and a preschool.",
+          "ko": "그 시설은 정원, 상점, 체육관, 놀이터 그리고 유치원을 포함한다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Don't forget to **include** me on your invitation list.",
+          "ko": "초대 명단에 내 이름 넣는 거 잊지 마."
+        }
+      ]
     },
     {
       "en": "exclude",
-      "ipa": "/ɪkˈskluːd/",
+      "ipa": [
+        "[iksklúːd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "제외하다",
-            "배제하다"
+            "1 *(고의로) 제외하다, 배제하다, 배척하다",
+            "2 (참여·입장 등을) 막다",
+            "3 추방하다, 쫓아내다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
-          "part": "clude(clud)",
-          "mean": "닫다 (close)"
+          "part": "clude",
+          "mean": "= shut"
         }
       ],
-      "origin": "밖으로 내고 닫다 → 제외하다"
+      "origin": "밖에 두고 못 들어오게 닫다",
+      "synonyms": [
+        "expel"
+      ],
+      "antonyms": [
+        "include"
+      ],
+      "derivatives": [
+        {
+          "en": "exclusion",
+          "pos": "명",
+          "defs": [
+            "제외, 배제, 배척"
+          ]
+        },
+        {
+          "en": "exclusive",
+          "pos": "형/명",
+          "defs": [
+            "1 독점적인",
+            "2 배타적인",
+            "3 고급의, 고가의 / (신문 기사의) 독점, 특종"
+          ]
+        },
+        {
+          "en": "exclusively",
+          "pos": "부",
+          "defs": [
+            "독점적으로, 오로지"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Some products are **excluded** from the sale.",
+          "ko": "일부 제품은 세일 품목에서 제외됩니다."
+        },
+        {
+          "en": "The actor appeared in an **exclusive** interview.",
+          "ko": "그 배우는 독점 인터뷰 자리에 모습을 나타냈다."
+        }
+      ]
     },
     {
       "en": "closet",
-      "ipa": "/ˈklɑːzɪt/",
+      "ipa": [
+        "[klɑ́ːzit]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "벽장"
+            "(AmE) (붙박이형) 벽장 (BrE: wardrobe)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "clos(clud)",
-          "mean": "닫다 (close)"
+          "part": "clos",
+          "mean": "= close"
         },
         {
-          "part": "-et",
-          "mean": "작은 것 (diminutive)"
+          "part": "et",
+          "mean": "명접"
         }
       ],
-      "origin": "닫힌 작은 공간 → 벽장"
+      "origin": "(사방이) 닫혀 있는 작은 곳",
+      "examples": [
+        {
+          "en": "I found my mom's old wedding dress in the **closet**.",
+          "ko": "나는 옷장에서 엄마의 오래된 웨딩드레스를 찾았다."
+        }
+      ]
     },
     {
       "en": "disclose",
-      "ipa": "/dɪsˈkloʊz/",
+      "ipa": [
+        "[disklóuz]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "드러내다",
-            "폭로하다"
+            "1 (비밀 따위를) 들추어내다, 폭로하다",
+            "2 드러내다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "dis-",
-          "mean": "반대 (opposite)"
+          "part": "dis",
+          "mean": "「반대」"
         },
         {
-          "part": "close(clud)",
-          "mean": "닫다 (close)"
+          "part": "close",
+          "mean": "닫다"
         }
       ],
-      "origin": "닫힌 것을 열다 → 드러내다"
+      "origin": "'닫다, 덮다'의 반대 행위",
+      "synonyms": [
+        "reveal",
+        "expose"
+      ],
+      "antonyms": [
+        "conceal"
+      ],
+      "derivatives": [
+        {
+          "en": "disclosure",
+          "pos": "명",
+          "defs": [
+            "폭로, 탄로; 폭로된 비밀"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He requested that his identity not be **disclosed**.",
+          "ko": "그는 자신의 신원이 노출되지 않게 해줄 것을 요구했다."
+        }
+      ]
     },
     {
       "en": "biography",
-      "ipa": "/baɪˈɑːɡrəfi/",
+      "ipa": [
+        "[baiɑ́ːgrәfi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "전기",
-            "일대기"
+            "전기, 일대기"
           ]
         }
       ],
       "parts": [
         {
           "part": "bio",
-          "mean": "생명, 삶 (life)"
+          "mean": "= life"
         },
         {
-          "part": "graphy",
-          "mean": "기록 (writing)"
+          "part": "graph",
+          "mean": "= write"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "삶의 기록 → 전기"
+      "origin": "일생에 관해 쓴 것",
+      "derivatives": [
+        {
+          "en": "biographer",
+          "pos": "명",
+          "defs": [
+            "전기 작가"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "cf. autobiography",
+          "ko": "자서전"
+        }
+      ],
+      "examples": [
+        {
+          "en": "His **biography** shows how he overcame many hardships.",
+          "ko": "그의 전기[일대기]는 그가 많은 어려움을 어떻게 극복했는지를 보여준다."
+        }
+      ]
     },
     {
       "en": "biology",
-      "ipa": "/baɪˈɑːlədʒi/",
+      "ipa": [
+        "[baiɑ́ːlәdʒi]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -610,38 +1186,71 @@
       "parts": [
         {
           "part": "bio",
-          "mean": "생명 (life)"
+          "mean": "= life"
         },
         {
           "part": "logy",
-          "mean": "학문 (study)"
+          "mean": "명접「학문」"
         }
       ],
-      "origin": "생명에 대한 학문 → 생물학"
+      "origin": "생명체를 연구하는 학문",
+      "derivatives": [
+        {
+          "en": "biological",
+          "pos": "형",
+          "defs": [
+            "생물학적인"
+          ]
+        },
+        {
+          "en": "biologist",
+          "pos": "명",
+          "defs": [
+            "생물학자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "marine **biology**",
+          "ko": "해양 생물학"
+        },
+        {
+          "en": "**Biological** warfare is the use of infectious diseases against the enemy.",
+          "ko": "생물학전[세균전](戰)은 적을 상대로 전염병을 이용하는 것이다."
+        }
+      ]
     },
     {
       "en": "microbe",
-      "ipa": "/ˈmaɪkroʊb/",
+      "ipa": [
+        "[máikroub]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "미생물",
-            "세균"
+            "미생물"
           ]
         }
       ],
       "parts": [
         {
-          "part": "micro-",
-          "mean": "작은 (small)"
+          "part": "micro",
+          "mean": "= small"
         },
         {
-          "part": "be(bio)",
-          "mean": "생명 (life)"
+          "part": "be",
+          "mean": "= life"
         }
       ],
-      "origin": "작은 생명 → 미생물"
+      "origin": "작은 생명체 → 미생물",
+      "examples": [
+        {
+          "en": "Doctors tried to identify the **microbe** responsible for the disease.",
+          "ko": "의사들은 그 질병을 일으킨 미생물을 밝혀내려 했다."
+        }
+      ]
     }
   ]
 }

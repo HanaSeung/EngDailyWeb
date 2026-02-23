@@ -1185,7 +1185,7 @@ function buildPhrasesHtml(word) {
   if (!word.phrases || word.phrases.length === 0) return '';
   let h = '';
   word.phrases.forEach(p => {
-    h += `<div class="phrase-item"><span class="phrase-en">${p.en}</span> ${p.ko}</div>`;
+    h += `<div class="phrase-item"><span class="phrase-en">${p.en}</span> ${p.ko.replace(/\n/g, '<br>')}</div>`;
   });
   return h;
 }
