@@ -120,8 +120,9 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .syn-tag{background:rgba(46,170,127,.08);border:1px solid rgba(46,170,127,.2);color:var(--green)}
 .ant-tag{background:rgba(217,83,79,.08);border:1px solid rgba(217,83,79,.2);color:var(--red)}
 .syn-label,.ant-label{font-size:.58rem;font-weight:700;margin-right:2px}
-.phrase-item{font-size:.82rem;margin-bottom:4px;color:var(--text)}
-.phrase-en{font-weight:600;color:var(--accent)}
+.phrase-item{font-size:.82rem;margin-bottom:4px;color:var(--text);display:flex;align-items:baseline}
+.phrase-en{font-weight:600;color:var(--accent);white-space:nowrap;margin-right:6px;flex-shrink:0}
+.phrase-ko-block{display:flex;flex-direction:column}
 
 /* 아코디언 */
 .acc-section{border:1px solid rgba(0,0,0,.06);border-radius:12px;margin-bottom:8px;overflow:hidden}
@@ -1185,7 +1186,9 @@ function buildPhrasesHtml(word) {
   if (!word.phrases || word.phrases.length === 0) return '';
   let h = '';
   word.phrases.forEach(p => {
-    h += `<div class="phrase-item"><span class="phrase-en">${p.en}</span> ${p.ko.replace(/\n/g, '<br>')}</div>`;
+    const koDefs = p.ko.split(/\n/).map(s => s.trim()).filter(Boolean);
+    const koHtml = koDefs.map(d => `<div>${d}</div>`).join('');
+    h += `<div class="phrase-item"><span class="phrase-en">${p.en}</span><div class="phrase-ko-block">${koHtml}</div></div>`;
   });
   return h;
 }

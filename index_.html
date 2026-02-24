@@ -99,7 +99,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .card-etymology .ety-part .part-text{font-family:'DM Serif Display',serif;font-size:1.1rem;font-weight:600;color:var(--accent);letter-spacing:.5px}
 .card-etymology .ety-part .part-mean{font-size:.7rem;color:var(--text-dim);margin-top:2px}
 .card-etymology .ety-plus{display:flex;align-items:center;color:var(--text-dim);font-size:1rem;font-weight:700;padding:0 2px}
-.card-etymology .ety-origin{font-size:.82rem;color:var(--text);line-height:1.6;padding:10px 14px;border-radius:10px;background:rgba(46,170,127,.05);border:1px solid rgba(46,170,127,.12)}.tree-root{margin-bottom:4px;text-align:center}.tree-wrap{text-align:left;width:fit-content;margin:0 auto}.tree-list{list-style:none;padding:0;margin:0}.tree-item{position:relative;padding-left:20px;padding-top:1px;padding-bottom:1px}.tree-item::after{content:'';position:absolute;left:0;width:2px;background:rgba(108,92,231,0.45)}.tree-item:first-child::after{top:0.65em;bottom:0}.tree-item:not(:first-child):not(:last-child)::after{top:0;bottom:0}.tree-item:last-child::after{top:0;height:0.65em}.tree-item::before{content:'';position:absolute;left:0;top:0.65em;width:16px;border-top:2px solid rgba(108,92,231,0.45)}.tree-item:only-child::after{display:none}.tree-sub{padding-left:20px}.tree-item{position:relative;padding-left:20px;padding-top:1px;padding-bottom:1px}.tree-item::after{content:'';position:absolute;left:0;width:2px;background:rgba(108,92,231,0.45)}.tree-item:first-child::after{top:0.65em;bottom:0}.tree-item:not(:first-child):not(:last-child)::after{top:0;bottom:0}.tree-item:last-child::after{top:0;height:0.65em}.tree-item::before{content:'';position:absolute;left:0;top:0.65em;width:16px;border-top:2px solid rgba(108,92,231,0.45)}.tree-item:only-child::after{display:none}.tree-sub{padding-left:32px;margin-left:12px}.tree-item>.tree-list{margin-top:2px}
+.card-etymology .ety-origin{font-size:.82rem;color:var(--text);line-height:1.6;padding:10px 14px;border-radius:10px;background:rgba(46,170,127,.05);border:1px solid rgba(46,170,127,.12)}.tree-root{margin-bottom:4px;text-align:center}.tree-wrap{text-align:left;width:fit-content;margin:0 auto}.tree-list{list-style:none;padding:0;margin:0}.tree-item{position:relative;padding-left:20px;padding-top:1px;padding-bottom:1px}.tree-item::after{content:'';position:absolute;left:0;width:2px;background:rgba(108,92,231,0.45)}.tree-item:first-child::after{top:0.65em;bottom:0}.tree-item:not(:first-child):not(:last-child)::after{top:0;bottom:0}.tree-item:last-child::after{top:0;height:0.65em}.tree-item::before{content:'';position:absolute;left:0;top:0.65em;width:16px;border-top:2px solid rgba(108,92,231,0.45)}.tree-item:only-child::after{display:none}.tree-sub{padding-left:20px}.tree-item{position:relative;padding-left:20px;padding-top:1px;padding-bottom:1px}.tree-item::after{content:'';position:absolute;left:0;width:2px;background:rgba(108,92,231,0.45)}.tree-item:first-child::after{top:0.65em;bottom:0}.tree-item:not(:first-child):not(:last-child)::after{top:0;bottom:0}.tree-item:last-child::after{top:0;height:0.65em}.tree-item::before{content:'';position:absolute;left:0;top:0.65em;width:16px;border-top:2px solid rgba(108,92,231,0.45)}.tree-item:only-child::after{display:none}.tree-sub{padding-left:32px;margin-left:12px}.tree-item>.tree-list{margin-top:2px}.tree-item-has-children{display:flex;align-items:flex-start}.tree-item-has-children>.tree-list{margin-top:0;flex-shrink:0;margin-left:6px}
 
 /* ── Card Extras (예문, 파생어, 동의어, 숙어) ── */
 .card-extras{width:100%;margin-top:16px;text-align:left}
@@ -1185,7 +1185,7 @@ function buildPhrasesHtml(word) {
   if (!word.phrases || word.phrases.length === 0) return '';
   let h = '';
   word.phrases.forEach(p => {
-    h += `<div class="phrase-item"><span class="phrase-en">${p.en}</span> ${p.ko}</div>`;
+    h += `<div class="phrase-item"><span class="phrase-en">${p.en}</span> ${p.ko.replace(/\n/g, '<br>')}</div>`;
   });
   return h;
 }
@@ -1334,13 +1334,16 @@ function showCard() {
 
     // 어원 분석 렌더링
     const etyEl = document.getElementById('cardEtymology');
-    if (word.parts && word.parts.length > 0) {
-      let partsHtml = '<div class="ety-parts">';
-      word.parts.forEach((p, i) => {
-        if (i > 0) partsHtml += '<div class="ety-plus">+</div>';
-        partsHtml += `<div class="ety-part"><span class="part-text">${p.part}</span><span class="part-mean">${p.mean}</span></div>`;
-      });
-      partsHtml += '</div>';
+    {
+      let partsHtml = '';
+      if (word.parts && word.parts.length > 0) {
+        partsHtml += '<div class="ety-parts">';
+        word.parts.forEach((p, i) => {
+          if (i > 0) partsHtml += '<div class="ety-plus">+</div>';
+          partsHtml += `<div class="ety-part"><span class="part-text">${p.part}</span><span class="part-mean">${p.mean}</span></div>`;
+        });
+        partsHtml += '</div>';
+      }
       if (word.origin) {
         const lines = word.origin.split('\n');
         let rootLine = '';
@@ -1352,9 +1355,19 @@ function showCard() {
           while (temp.startsWith('│')) { d++; temp = temp.substring(1).trimStart(); }
           if (temp.startsWith('├') || temp.startsWith('└') || temp.startsWith('┊')) {
             treeStarted = true;
-            items.push({ depth: d, text: temp.replace(/^[├└┊]\s*/, '') });
+            const text = temp.replace(/^[├└┊]\s*/, '');
+            if (d === 0) {
+              items.push({ text, children: [] });
+            } else if (d > 0 && items.length > 0) {
+              items[items.length - 1].children.push({ text, children: [] });
+            }
           } else if (d > 0 && treeStarted && items.length > 0) {
-            items[items.length - 1].text += '<br>' + temp;
+            const parent = items[items.length - 1];
+            if (parent.children.length > 0) {
+              parent.children[parent.children.length - 1].text += '<br>' + temp;
+            } else {
+              parent.text += '<br>' + temp;
+            }
           } else if (treeStarted && items.length > 0) {
             items[items.length - 1].text += '<br>' + trimmed;
           } else {
@@ -1362,42 +1375,41 @@ function showCard() {
           }
         }
         if (items.length > 0) {
-          const buildTree = (startIdx, curDepth) => {
-            let html = '<ul class="tree-list">', i = startIdx;
-            while (i < items.length && items[i].depth >= curDepth) {
-              if (items[i].depth === curDepth) {
-                html += `<li class="tree-item">${items[i].text}`;
-                if (i + 1 < items.length && items[i + 1].depth > curDepth) {
-                  const sub = buildTree(i + 1, items[i + 1].depth);
-                  html += sub.html; i = sub.nextIdx;
-                } else { i++; }
-                html += '</li>';
-              } else { break; }
+          const buildTree = (list) => {
+            let html = '<ul class="tree-list">';
+            for (const item of list) {
+              const hasCh = item.children.length > 0;
+              html += `<li class="tree-item${hasCh ? ' tree-item-has-children' : ''}">`;
+              html += `<span>${item.text}</span>`;
+              if (hasCh) html += buildTree(item.children);
+              html += '</li>';
             }
             html += '</ul>';
-            return { html, nextIdx: i };
+            return html;
           };
           let treeHtml = `<div class="tree-root">💡 ${rootLine}</div>`;
-          treeHtml += '<div class="tree-wrap">' + buildTree(0, 0).html + '</div>';
+          treeHtml += '<div class="tree-wrap">' + buildTree(items) + '</div>';
           partsHtml += `<div class="ety-origin">${treeHtml}</div>`;
         } else {
           partsHtml += `<div class="ety-origin">💡 ${word.origin.replace(/\n/g, '<br>')}</div>`;
         }
       }
-      etyEl.innerHTML = partsHtml;
-      document.getElementById('frontHint').textContent = '탭하여 어원 보기';
-      document.getElementById('backHint').textContent = '탭하여 돌아가기';
-      document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
-    } else {
-      etyEl.innerHTML = '';
-      if (hasExtras(word)) {
-        document.getElementById('frontHint').textContent = '탭하여 상세 보기';
+      if (partsHtml) {
+        etyEl.innerHTML = partsHtml;
+        document.getElementById('frontHint').textContent = '탭하여 어원 보기';
         document.getElementById('backHint').textContent = '탭하여 돌아가기';
         document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
       } else {
-        document.getElementById('frontHint').textContent = '';
-        document.getElementById('backHint').textContent = '';
-        document.getElementById('cardFlipWrapper').style.cursor = 'default';
+        etyEl.innerHTML = '';
+        if (hasExtras(word)) {
+          document.getElementById('frontHint').textContent = '탭하여 상세 보기';
+          document.getElementById('backHint').textContent = '탭하여 돌아가기';
+          document.getElementById('cardFlipWrapper').style.cursor = 'pointer';
+        } else {
+          document.getElementById('frontHint').textContent = '';
+          document.getElementById('backHint').textContent = '';
+          document.getElementById('cardFlipWrapper').style.cursor = 'default';
+        }
       }
     }
     renderExtras(word);

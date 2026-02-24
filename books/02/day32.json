@@ -3,388 +3,789 @@
   "words": [
     {
       "en": "cause",
-      "ipa": "/kɔːz/",
+      "ipa": [
+        "[kɔːz]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "원인",
-            "이유"
+            "원인, 이유"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "야기하다"
+            "야기하다, 초래하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "cause",
-          "mean": "이유 (reason, cause)"
+          "mean": "= reason"
         }
       ],
-      "origin": "이유 → 원인, 야기하다"
+      "origin": "어떤 일에 대한 이유",
+      "derivatives": [
+        {
+          "en": "causal",
+          "pos": "형",
+          "defs": [
+            "인과 관계의"
+          ]
+        },
+        {
+          "en": "causality",
+          "pos": "명",
+          "defs": [
+            "인과 관계"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "cause and effect",
+          "ko": "원인과 결과, 인과 관계"
+        },
+        {
+          "en": "cause A to-v",
+          "ko": "A가 …하도록 (야기)하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The slippery roads were the **cause** of the car accident.",
+          "ko": "미끄러운 도로가 그 교통사고의 원인이었다."
+        },
+        {
+          "en": "Simply knowing they are being observed may **cause** people **to behave** differently.",
+          "ko": "단지 누군가가 자신을 지켜보고 있다는 것을 아는 것 만으로도, 사람들은 평소와 다르게 행동할 수 있다.",
+          "source": "수능"
+        },
+        {
+          "en": "Even though two variables seem to be related, there may not be a **causal** relationship.",
+          "ko": "두 변수가 관계가 있는 것처럼 보여도, 인과 관계가 없을 수도 있다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "accuse",
-      "ipa": "/əˈkjuːz/",
+      "ipa": [
+        "[әkjúːz]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "고발하다",
-            "비난하다"
+            "1 (범죄 등의 혐의로) 고발하다, 기소하다",
+            "2 비난하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "ac",
+          "mean": "= ad:to"
         },
         {
-          "part": "cuse(cause)",
-          "mean": "이유, 원인 (cause)"
+          "part": "cuse",
+          "mean": "= cause"
         }
       ],
-      "origin": "원인을 ~에게 돌리다 → 고발하다"
+      "origin": "…에 대한 (특정한) 이유로 (고발하다)",
+      "synonyms": [
+        "charge"
+      ],
+      "derivatives": [
+        {
+          "en": "accusation",
+          "pos": "명",
+          "defs": [
+            "비난; 고발"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "accuse A of B",
+          "ko": "1 A를 B의 혐의로 고발[기소]하다 (= charge A with B)\n2 A를 B에 관해 비난하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He was **accused of** theft.",
+          "ko": "그는 절도죄로 기소됐다."
+        },
+        {
+          "en": "If you know the truth, you can't **accuse** her **of** anything.",
+          "ko": "당신이 진실을 안다면, 무엇에 대해서도 그녀를 비난할 수 없을 거예요."
+        }
+      ]
     },
     {
       "en": "excuse",
-      "ipa": "/ɪkˈskjuːs/",
+      "ipa": [
+        "동 [ikskjúːz]",
+        "명 [ikskjúːs]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "변명",
-            "이유"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "용서하다"
+            "1 용서하다, 봐주다",
+            "2 변명하다; (…에 대한) 변명이 되다",
+            "3 양해를 구하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "변명, 이유"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
-          "part": "cuse(cause)",
-          "mean": "이유 (cause)"
+          "part": "cuse",
+          "mean": "= cause"
         }
       ],
-      "origin": "이유 밖으로 빼주다 → 용서하다"
+      "origin": "원인 밖으로 제외시키다 → 용서하다",
+      "synonyms": [
+        "justify"
+      ],
+      "derivatives": [
+        {
+          "en": "excusable",
+          "pos": "형",
+          "defs": [
+            "변명이 되는, 용서할 수 있는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Could you **excuse** me for a moment?",
+          "ko": "잠시만 양해를 구해도 될까요?"
+        },
+        {
+          "en": "People make **excuses** in order to avoid doing something they don't want to do.",
+          "ko": "사람들은 그들이 하기 싫은 일을 하지 않으려고 변명을 만들어낸다."
+        }
+      ]
     },
     {
       "en": "via",
-      "ipa": "/ˈvaɪə/",
+      "ipa": [
+        "[váiә]"
+      ],
       "meanings": [
         {
           "pos": "전",
           "defs": [
-            "~을 통하여",
-            "~을 경유하여"
+            "1 …을 경유하여, …을 거쳐",
+            "2 *…을 매개로 하여, …을 통해서"
           ]
         }
       ],
       "parts": [
         {
           "part": "via",
-          "mean": "길 (way, road)"
+          "mean": "라틴어 via(=way)에서 온 말"
         }
       ],
-      "origin": "길을 통해 → ~을 경유하여"
+      "origin": "",
+      "synonyms": [
+        "by way of",
+        "by means of"
+      ],
+      "examples": [
+        {
+          "en": "This flight goes to Houston **via** Miami.",
+          "ko": "이 비행기는 마이애미를 경유해서 휴스턴으로 간다."
+        },
+        {
+          "en": "It is fully charged in 30 minutes **via** USB-cable.",
+          "ko": "이것은 USB 케이블을 통해 30분이면 완전히 충전된다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "obvious",
-      "ipa": "/ˈɑːbviəs/",
+      "ipa": [
+        "[ɑ́ːbviәs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "명백한",
-            "분명한"
+            "분명한, 명백한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ob-",
-          "mean": "맞서, 앞에 (in front)"
+          "part": "ob",
+          "mean": "= against"
         },
         {
-          "part": "vi(via)",
-          "mean": "길 (way)"
+          "part": "vi",
+          "mean": "= way"
         },
         {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
+          "part": "ous",
+          "mean": "형접"
         }
       ],
-      "origin": "길 앞에 있는 → 명백한"
+      "origin": "길 앞에 마주하고 있어 (모습이 잘 드러난)\n→ 분명한, 쉽게 알 수 있는",
+      "synonyms": [
+        "clear",
+        "evident"
+      ],
+      "antonyms": [
+        "ambiguous",
+        "obscure"
+      ],
+      "derivatives": [
+        {
+          "en": "obviously",
+          "pos": "부",
+          "defs": [
+            "명백히, 뚜렷이"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "People do not argue against an **obvious** fact for no reason.",
+          "ko": "사람들은 아무 이유없이 분명한 사실에 대해 언쟁하지는 않는다.",
+          "source": "모의"
+        },
+        {
+          "en": "He was **obviously** lying.",
+          "ko": "그는 명백히 거짓말을 하고 있었다."
+        }
+      ]
     },
     {
       "en": "previous",
-      "ipa": "/ˈpriːviəs/",
+      "ipa": [
+        "[príːviәs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "이전의",
-            "앞선"
+            "이전의, 앞의, 사전의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pre-",
-          "mean": "앞에 (before)"
+          "part": "pre",
+          "mean": "= before"
         },
         {
-          "part": "vi(via)",
-          "mean": "길 (way)"
+          "part": "vi",
+          "mean": "= way"
         },
         {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
+          "part": "ous",
+          "mean": "형접"
         }
       ],
-      "origin": "앞선 길의 → 이전의"
+      "origin": "길을 앞서가는 → 앞의",
+      "synonyms": [
+        "earlier",
+        "former"
+      ],
+      "derivatives": [
+        {
+          "en": "previously",
+          "pos": "부",
+          "defs": [
+            "이전에, 미리"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "a **previous** engagement[appointment]",
+          "ko": "선약"
+        },
+        {
+          "en": "Some of the dollars **previously** spent on newspaper advertising have migrated to the Internet.",
+          "ko": "이전에 신문 광고에 사용되던 비용의 일부가 인터넷으로 이동했다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "convey",
-      "ipa": "/kənˈveɪ/",
+      "ipa": [
+        "[kәnvéi]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "전달하다",
-            "운반하다"
+            "1 *(생각·감정 등을) 전하다",
+            "2 나르다, 수송하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
-          "part": "vey(via)",
-          "mean": "길 (way)"
+          "part": "vey",
+          "mean": "= way"
         }
       ],
-      "origin": "함께 길을 가다 → 운반하다"
+      "origin": "(물건·사람과) 함께 길을 가다\n→ 수송하다, 옮기다",
+      "synonyms": [
+        "express",
+        "carry",
+        "transport"
+      ],
+      "examples": [
+        {
+          "en": "The new logo will **convey** our brand message.",
+          "ko": "새 로고는 우리 브랜드의 메시지를 전달할 것이다.",
+          "source": "모의"
+        },
+        {
+          "en": "This pipeline **conveys** oil across the country.",
+          "ko": "이 수송관은 전국으로 석유를 수송한다."
+        }
+      ]
     },
     {
       "en": "voyage",
-      "ipa": "/ˈvɔɪɪdʒ/",
+      "ipa": [
+        "[vɔ́iiʤ]"
+      ],
       "meanings": [
         {
-          "pos": "명",
+          "pos": "명/동",
           "defs": [
-            "항해",
-            "여행"
+            "항해(하다), 여행(하다)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "voy(via)",
-          "mean": "길 (way)"
+          "part": "voy",
+          "mean": "= way"
         },
         {
-          "part": "-age",
-          "mean": "명사형 접미사"
+          "part": "age",
+          "mean": "어미"
         }
       ],
-      "origin": "길을 떠남 → 항해"
+      "origin": "길을 떠남 → 여행, 항해",
+      "examples": [
+        {
+          "en": "Nelly Bly completed her **voyage** around the world in 1890.",
+          "ko": "Nelly Bly는 1890년에 세계 일주를 끝마쳤다."
+        }
+      ]
     },
     {
       "en": "range",
-      "ipa": "/reɪndʒ/",
+      "ipa": [
+        "[reindʒ]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "범위",
-            "산맥"
+            "1 (특정 종류 내에서의) 다양한 것들",
+            "2 *범위",
+            "3 산맥"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "~에 걸쳐 있다"
+            "1 *(범위가) …에 이르다",
+            "2 배열하다, 배치하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "rang",
-          "mean": "줄, 열 (row, line)"
+          "part": "range",
+          "mean": "고대 프랑스어 rangier(차례로 놓다)에서 온 말"
         }
       ],
-      "origin": "줄지어 선 범위 → 범위"
+      "origin": "",
+      "phrases": [
+        {
+          "en": "a (wide/broad) range of",
+          "ko": "(아주) 다양한, 여러 종류의"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A: How high are the mountains in this **range**?\nB: The peaks **range** in height from 1,000 to 3,000 meters.",
+          "ko": "A: 이 산맥의 산들은 얼마나 높습니까?\nB: 봉우리들은 높이가 1,000에서 3,000미터에 이르지요."
+        }
+      ]
     },
     {
       "en": "arrange",
-      "ipa": "/əˈreɪndʒ/",
+      "ipa": [
+        "[әréindʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "배열하다",
-            "마련하다"
+            "1 *(미리) 계획하다, 마련하다",
+            "2 배열[정돈]하다",
+            "3 [음악] 편곡하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ar-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "ar",
+          "mean": "= ad:to"
         },
         {
-          "part": "range(rang)",
-          "mean": "줄 (row)"
+          "part": "range",
+          "mean": "= line"
         }
       ],
-      "origin": "줄에 맞추다 → 배열하다"
+      "origin": "put in a line 한 줄로 놓다",
+      "derivatives": [
+        {
+          "en": "arrangement",
+          "pos": "명",
+          "defs": [
+            "1 (복수형) 준비, 계획",
+            "2 배열, 정리",
+            "3 협정, 합의",
+            "4 편곡"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "To celebrate our company's 20th anniversary, we have **arranged** a small event.",
+          "ko": "우리 회사의 20주년을 기념하기 위해 작은 행사를 마련했습니다.",
+          "source": "모의"
+        },
+        {
+          "en": "Everything has been well **arranged**.",
+          "ko": "모든 것이 잘 정리되었다."
+        },
+        {
+          "en": "The **arrangement** of the furniture makes the room look bigger.",
+          "ko": "가구의 배치는 방을 더 넓어 보이게 한다."
+        }
+      ]
     },
     {
       "en": "rank",
-      "ipa": "/ræŋk/",
+      "ipa": [
+        "[ræŋk]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "계급",
-            "지위"
+            "1 계급, 지위",
+            "2 열, 줄, 정렬"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "등급을 매기다"
+            "1 *(…에) 위치하다; 위치시키다",
+            "2 등급을 매기다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "rank(rang)",
-          "mean": "줄, 열 (row, line)"
+          "part": "rank",
+          "mean": "고대 프랑스어 ranc(=line 줄, 열)에서 온 말\n→ 열 내에서의 위치 → 계급, 지위"
         }
       ],
-      "origin": "줄에서의 위치 → 계급"
+      "origin": "",
+      "examples": [
+        {
+          "en": "Korea is **ranked** number one in the world for archery.",
+          "ko": "한국은 양궁 분야에서 세계 1위이다."
+        }
+      ]
     },
     {
       "en": "depend",
-      "ipa": "/dɪˈpend/",
+      "ipa": [
+        "[dipénd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "의존하다",
-            "~에 달려 있다"
+            "1 (+ (up)on) 의지[의존]하다, 믿다",
+            "2 …에 달려 있다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "아래로 (down)"
+          "part": "de",
+          "mean": "= down"
         },
         {
           "part": "pend",
-          "mean": "매달다 (hang)"
+          "mean": "= hang"
         }
       ],
-      "origin": "아래에 매달리다 → 의존하다"
+      "origin": "아래에 매달려 있다 → 의지하다",
+      "synonyms": [
+        "rely (up)on"
+      ],
+      "derivatives": [
+        {
+          "en": "dependent",
+          "pos": "형",
+          "defs": [
+            "1 (+ (up)on) (…에) 의지하는",
+            "2 (…에 의해) 결정되는, 좌우되는"
+          ]
+        },
+        {
+          "en": "dependence",
+          "pos": "명",
+          "defs": [
+            "의존, 종속"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "It depends.",
+          "ko": "상황[경우]에 따라 다르다."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Your happiness **depends on** how you think.",
+          "ko": "너의 행복은 네가 어떻게 생각하는가에 달려 있다."
+        },
+        {
+          "en": "The country's economy is **dependent on** tourism.",
+          "ko": "그 나라의 경제는 관광 산업에 의존한다."
+        }
+      ]
     },
     {
       "en": "suspend",
-      "ipa": "/səˈspend/",
+      "ipa": [
+        "[sәspénd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "매달다",
-            "중단하다",
-            "정직시키다"
+            "1 *(활동·대화·일 등을) 일시 중지[중단]하다",
+            "2 정직(停職)시키다, 정학시키다",
+            "3 매달다, 걸다",
+            "4 (판단·결정을) 연기하다, 유보하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "sus-(sub-)",
-          "mean": "아래에 (under)"
+          "part": "sus",
+          "mean": "= sub:down"
         },
         {
           "part": "pend",
-          "mean": "매달다 (hang)"
+          "mean": "= hang"
         }
       ],
-      "origin": "아래에 매달다 → 중단하다"
+      "origin": "아래로 매달다 → 걸어두다 → 잠시 멈추다",
+      "derivatives": [
+        {
+          "en": "suspension",
+          "pos": "명",
+          "defs": [
+            "1 일시적 중지",
+            "2 정직(停職), 정학"
+          ]
+        },
+        {
+          "en": "suspense",
+          "pos": "명",
+          "defs": [
+            "불안, 걱정, 긴장감"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The following flights will be **suspended** until further notice.",
+          "ko": "다음 비행들은 추후 공고가 있을 때까지 운항이 잠시 중단됩니다."
+        },
+        {
+          "en": "The employee was **suspended** without pay.",
+          "ko": "그 직원은 무임금 정직 처분을 받았다."
+        },
+        {
+          "en": "The lamp was **suspended** from the ceiling.",
+          "ko": "램프가 천장에 매달려 있었다."
+        },
+        {
+          "en": "Don't keep me in **suspense** any longer.",
+          "ko": "더 이상 나를 불안하게 하지 마."
+        }
+      ]
     },
     {
       "en": "expend",
-      "ipa": "/ɪkˈspend/",
+      "ipa": [
+        "[ikspénd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "(시간·노력 등을) 들이다",
-            "쓰다"
+            "(돈·시간·노력 등을) 쓰다, 들이다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
           "part": "pend",
-          "mean": "달다, 무게를 재다 (weigh)"
+          "mean": "= weigh"
         }
       ],
-      "origin": "밖으로 달아내다 → 쓰다"
+      "origin": "weigh out 무게를 달다 →\n무게를 달아 값을 지불하다",
+      "synonyms": [
+        "spend"
+      ],
+      "derivatives": [
+        {
+          "en": "expenditure",
+          "pos": "명",
+          "defs": [
+            "지출, 소비, 소모"
+          ]
+        },
+        {
+          "en": "expense",
+          "pos": "명",
+          "defs": [
+            "비용, 경비"
+          ]
+        },
+        {
+          "en": "expensive",
+          "pos": "형",
+          "defs": [
+            "비싼"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "at the expense of",
+          "ko": "…을 희생하여"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't **expend** your energy on things that don't matter.",
+          "ko": "중요하지 않은 일에 에너지를 낭비하지 마라."
+        },
+        {
+          "en": "Unfortunately, he couldn't afford all the **expenses** for his treatment.",
+          "ko": "불행히도, 그는 치료에 드는 모든 비용을 감당할 수 없었다."
+        },
+        {
+          "en": "Farmers in Kenya are encouraged to grow tea or coffee **at the expense of** basic food production.",
+          "ko": "케냐의 농부들은 기초 식량 생산을 희생하여 차나 커피를 재배하도록 장려된다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "compensate",
-      "ipa": "/ˈkɑːmpenseɪt/",
+      "ipa": [
+        "[kɑ́ːmpәnsèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "보상하다",
-            "보충하다"
+            "1 (손실·결점 등을) 보완하다, 상쇄하다",
+            "2 (+ (A) for) (A에게) (손해·부상 등을) 보상하다, 배상하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "com-",
-          "mean": "함께 (together)"
+          "part": "com",
+          "mean": "= together"
         },
         {
-          "part": "pens(pend)",
-          "mean": "달다, 무게를 재다 (weigh)"
+          "part": "pens",
+          "mean": "= weigh"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "함께 무게를 맞추다 → 보상하다"
+      "origin": "서로 무게를 달아 치지는 쪽을 보충하다",
+      "synonyms": [
+        "make up for"
+      ],
+      "derivatives": [
+        {
+          "en": "compensation",
+          "pos": "명",
+          "defs": [
+            "1 보충, 보완",
+            "2 보상, 배상"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He was **compensated for** the extra hours he worked.",
+          "ko": "그는 초과 근무에 대해 보상 받았다."
+        },
+        {
+          "en": "Is there any form of **compensation** if the package is lost during shipping?",
+          "ko": "배송 중에 물건이 분실되면 어떤 보상이 있나요?"
+        }
+      ]
     },
     {
       "en": "pension",
-      "ipa": "/ˈpenʃn/",
+      "ipa": [
+        "[pénʃәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -395,187 +796,343 @@
       ],
       "parts": [
         {
-          "part": "pens(pend)",
-          "mean": "달다, 지불하다 (weigh, pay)"
+          "part": "pens",
+          "mean": "= weigh"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "정기적으로 지불하는 것 → 연금"
+      "origin": "무게 달기 → (노동의) 무게를 달아\n지불하는 것 → 연금",
+      "examples": [
+        {
+          "en": "His army disability **pension** allowed him to make art without worrying about an income.",
+          "ko": "그의 군인 장해 연금 덕분에, 그는 수입에 대한 걱정 없이 예술 활동을 할 수 있었다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "ponder",
-      "ipa": "/ˈpɑːndər/",
+      "ipa": [
+        "[pɑ́ːndәr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "숙고하다",
-            "곰곰이 생각하다"
+            "깊이[곰곰이] 생각하다, 심사숙고하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pond(pend)",
-          "mean": "달다, 무게를 재다 (weigh)"
-        },
-        {
-          "part": "-er",
-          "mean": "동사형 접미사"
+          "part": "ponder",
+          "mean": "= weigh"
         }
       ],
-      "origin": "무게를 재다 → 숙고하다"
+      "origin": "저울질해 보다 → 잘 생각해 보다",
+      "synonyms": [
+        "consider",
+        "reflect"
+      ],
+      "examples": [
+        {
+          "en": "It's important to **ponder** both the pros and cons before making a big decision.",
+          "ko": "중요한 결정을 내리기 전에 장단점을 모두 곰곰이 생각하는 것이 중요하다."
+        }
+      ]
     },
     {
       "en": "apt",
-      "ipa": "/æpt/",
+      "ipa": [
+        "[æpt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "적절한",
-            "~하기 쉬운"
+            "1 *…하는 경향이 있는, …하기 쉬운",
+            "2 적절한"
           ]
         }
       ],
       "parts": [
         {
           "part": "apt",
-          "mean": "적합한 (fit, suitable)"
+          "mean": "= fit"
         }
       ],
-      "origin": "적합한 → 적절한"
+      "origin": "적합한",
+      "synonyms": [
+        "likely",
+        "liable",
+        "appropriate"
+      ],
+      "derivatives": [
+        {
+          "en": "aptitude",
+          "pos": "명",
+          "defs": [
+            "1 재능, 소질, 적성",
+            "2 경향, 습성"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be apt to-v",
+          "ko": "…하는 경향이 있다, …하기 쉽다\n(= be inclined[prone] to-v, tend to-v)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "People who gain prosperity **are apt to forget** their early days.",
+          "ko": "부귀영화를 얻은 사람들은 그들의 지난 시절을 잊는 경향이 있다."
+        },
+        {
+          "en": "an **aptitude** test",
+          "ko": "적성 검사"
+        }
+      ]
     },
     {
       "en": "adapt",
-      "ipa": "/əˈdæpt/",
+      "ipa": [
+        "[әdǽpt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "적응시키다",
-            "각색하다"
+            "1 (주로 + to) *적응시키다, 적합하게 하다; 적응하다*",
+            "2 (소설·극 등을) 각색하다, 개작하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
+          "part": "ad",
+          "mean": "= to"
         },
         {
           "part": "apt",
-          "mean": "적합한 (fit)"
+          "mean": "= fit"
         }
       ],
-      "origin": "~에 맞게 적합하게 하다 → 적응시키다"
+      "origin": "…에 적합하게 하다",
+      "synonyms": [
+        "adjust to"
+      ],
+      "derivatives": [
+        {
+          "en": "adaptation",
+          "pos": "명",
+          "defs": [
+            "1 각색, 개작(물)",
+            "2 적응, 적합"
+          ]
+        },
+        {
+          "en": "adaptive",
+          "pos": "형",
+          "defs": [
+            "적응할 수 있는, 조정하는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Impalas have the ability to **adapt to** different environments.",
+          "ko": "임팔라는 다양한 환경에 적응하는 능력을 가지고 있다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "attitude",
-      "ipa": "/ˈætɪtuːd/",
+      "ipa": [
+        "[ǽtәtùːd]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "태도",
-            "자세"
+            "1 *(…에 대해 내비치는) 태도, 의견, 심정, 마음가짐",
+            "2 자세"
           ]
         }
       ],
       "parts": [
         {
-          "part": "apt",
-          "mean": "적합한 (fit)"
+          "part": "att",
+          "mean": "= fit"
         },
         {
-          "part": "-itude",
-          "mean": "상태 접미사"
+          "part": "tude",
+          "mean": "명접"
         }
       ],
-      "origin": "적합한 상태 → 태도"
+      "origin": "…에 적합한 (마음가짐) → 태도",
+      "examples": [
+        {
+          "en": "His positive **attitude** towards life brought him his current success.",
+          "ko": "그의 삶에 대한 긍정적인 태도가 그에게 현재의 성공을 가져다주었다."
+        }
+      ]
     },
     {
       "en": "respond",
-      "ipa": "/rɪˈspɑːnd/",
+      "ipa": [
+        "[rispɑ́ːnd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "응답하다",
-            "반응하다"
+            "(주로 + to) 1 *(말·행동·치료 등에) 반응하다*",
+            "2 (질문 등에) 대답[응답]하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back, in turn"
         },
         {
           "part": "spond",
-          "mean": "약속하다 (promise, pledge)"
+          "mean": "= promise"
         }
       ],
-      "origin": "뒤로 약속하다 → 응답하다"
+      "origin": "답례로 약속하다",
+      "synonyms": [
+        "react",
+        "reply"
+      ],
+      "derivatives": [
+        {
+          "en": "response",
+          "pos": "명",
+          "defs": [
+            "1 반응",
+            "2 대답, 응답"
+          ]
+        },
+        {
+          "en": "respondent",
+          "pos": "명",
+          "defs": [
+            "응답자"
+          ]
+        },
+        {
+          "en": "responsive",
+          "pos": "형",
+          "defs": [
+            "1 (긍정적으로) 즉각 반응[대응]하는",
+            "2 호응하는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The police quickly **responded to** the emergency call.",
+          "ko": "경찰은 긴급 전화에 신속히 대응했다."
+        },
+        {
+          "en": "In one study, **respondents** were presented with a set of questions.",
+          "ko": "한 연구에서 응답자들은 일련의 질문을 제시받았다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "responsible",
-      "ipa": "/rɪˈspɑːnsəbl/",
+      "ipa": [
+        "[rispɑ́ːnsәbәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "책임이 있는"
+            "1 (+ for) …을 책임지고 있는, 맡고 있는",
+            "2 (+ for) …에 책임이 있는, 원인이 되는",
+            "3 책임감 있는"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back,\nin turn"
         },
         {
-          "part": "spons(spond)",
-          "mean": "약속 (pledge)"
+          "part": "spons",
+          "mean": "= promise"
         },
         {
-          "part": "-ible",
-          "mean": "~할 수 있는"
+          "part": "ible",
+          "mean": "형접"
         }
       ],
-      "origin": "약속에 응할 수 있는 → 책임이 있는"
+      "origin": "답례로 약속하여 → 약속한 바 책임을 지는",
+      "antonyms": [
+        "irresponsible"
+      ],
+      "derivatives": [
+        {
+          "en": "responsibility",
+          "pos": "명",
+          "defs": [
+            "책임, 의무"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "A: He was **responsible for** the accident.\nB: But I don't think he should take all the **responsibility**.",
+          "ko": "A: 그는 그 사고에 대한 책임이 있었어.\nB: 하지만 나는 그가 모든 책임을 져야 한다고 생각하지는 않아."
+        }
+      ]
     },
     {
       "en": "sponsor",
-      "ipa": "/ˈspɑːnsər/",
+      "ipa": [
+        "[spɑ́ːnsәr]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "후원자"
+            "후원자, 스폰서"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "후원하다"
+            "*(행사·활동·자선 단체 등을) 후원하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "spons(spond)",
-          "mean": "약속하다 (pledge)"
+          "part": "spons",
+          "mean": "= promise"
         },
         {
-          "part": "-or",
-          "mean": "사람 접미사"
+          "part": "or",
+          "mean": "명접「사람」"
         }
       ],
-      "origin": "약속하는 사람 → 후원자"
+      "origin": "(후원을) 약속한 사람",
+      "examples": [
+        {
+          "en": "The company **sponsors** a baseball team.",
+          "ko": "그 회사는 야구팀을 후원한다."
+        }
+      ]
     }
   ]
 }

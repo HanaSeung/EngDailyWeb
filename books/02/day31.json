@@ -3,649 +3,1370 @@
   "words": [
     {
       "en": "capital",
-      "ipa": "/ˈkæpɪtl/",
+      "ipa": [
+        "[kǽpәtl]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "수도",
-            "자본",
-            "대문자"
+            "1 수도, 중심지",
+            "2 대문자",
+            "3 *자본(금)"
           ]
         },
         {
           "pos": "형",
           "defs": [
-            "주요한",
-            "사형의"
+            "1 *대문자의",
+            "2 주요한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "capit(cap)",
-          "mean": "머리 (head)"
+          "part": "capi",
+          "mean": "= head"
         },
         {
-          "part": "-al",
-          "mean": "명사/형용사형 접미사"
+          "part": "al",
+          "mean": "명접"
         }
       ],
-      "origin": "머리가 되는 → 수도, 주요한"
+      "origin": "핵심 다의어\n머리 →\n├ 국가의 머리 → 수도(首都)\n├ 문장의 앞머리 → 대문자\n└ 짐승의 머릿수(예전의 재산) → 자본",
+      "derivatives": [
+        {
+          "en": "capitalism",
+          "pos": "명",
+          "defs": [
+            "자본주의"
+          ]
+        },
+        {
+          "en": "capitalist",
+          "pos": "명",
+          "defs": [
+            "1 자본주의자",
+            "2 자본가"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "capital punishment",
+          "ko": "사형, 극형 (법정 최고형)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Milan is one of the fashion **capitals** of the world.",
+          "ko": "밀라노는 전 세계의 패션 중심지들 중에 하나이다."
+        },
+        {
+          "en": "He invested both time and **capital** into building his business.",
+          "ko": "그는 자신의 사업을 키우기 위해 시간과 자본을 모두 투자했다."
+        },
+        {
+          "en": "Be sure to use **capital** letters for proper nouns in your writing.",
+          "ko": "글을 쓸 때 고유 명사는 반드시 대문자를 사용하세요."
+        }
+      ]
     },
     {
       "en": "chief",
-      "ipa": "/tʃiːf/",
+      "ipa": [
+        "[tʃiːf]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "우두머리",
-            "장"
+            "*(조직·단체의) 우두머리, 장(長)"
           ]
         },
         {
           "pos": "형",
           "defs": [
-            "주요한",
-            "최고의"
+            "1 주요한, 중요한",
+            "2 (지위·계급 등에 있어) 최고의, 우두머리의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "chief(cap)",
-          "mean": "머리 (head)"
+          "part": "chief",
+          "mean": "= head"
         }
       ],
-      "origin": "머리가 되는 사람 → 우두머리"
+      "origin": "머리, 수뇌",
+      "synonyms": [
+        "main",
+        "major",
+        "principal"
+      ],
+      "derivatives": [
+        {
+          "en": "chiefly",
+          "pos": "부",
+          "defs": [
+            "대게, 주로"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "chief executive officer (CEO)",
+          "ko": "최고 경영자"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The **chiefs** of several government agencies met today.",
+          "ko": "몇몇 정부 기관의 장(長)들이 오늘 만났다."
+        },
+        {
+          "en": "The **chief** reason we canceled the event was the bad weather.",
+          "ko": "우리가 행사를 취소한 주된 이유는 악천후 때문이었다."
+        }
+      ]
     },
     {
       "en": "achieve",
-      "ipa": "/əˈtʃiːv/",
+      "ipa": [
+        "[әtʃíːv]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "성취하다",
-            "이루다"
+            "(일·목적 등을 노력하여) 이루다, 성취하다, 달성하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "a-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "a",
+          "mean": "= ad:to"
         },
         {
-          "part": "chieve(cap)",
-          "mean": "머리, 끝 (head, end)"
+          "part": "chieve",
+          "mean": "= head"
         }
       ],
-      "origin": "끝까지 이르다 → 성취하다"
+      "origin": "머리(정점; 목표)까지 도달하다",
+      "synonyms": [
+        "attain",
+        "accomplish",
+        "carry out"
+      ],
+      "derivatives": [
+        {
+          "en": "achievement",
+          "pos": "명",
+          "defs": [
+            "1 업적, 공적",
+            "2 성취, 달성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "It's only through practice and action that you will **achieve** your desired goal.",
+          "ko": "오직 실천과 행동을 통해서만 당신이 원하는 목표를 달성할 수 있을 것이다.",
+          "source": "모의"
+        },
+        {
+          "en": "Her scientific **achievements** have been recognized worldwide.",
+          "ko": "그녀의 과학적 업적은 전 세계적으로 인정받았다."
+        }
+      ]
     },
     {
       "en": "assume",
-      "ipa": "/əˈsuːm/",
+      "ipa": [
+        "[әsúːm]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "가정하다",
-            "(책임을) 떠맡다"
+            "1 *가정하다, 추측하다",
+            "2 (책임·임무 등을) (떠)맡다",
+            "3 …인 체하다, 가장하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "as-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "as",
+          "mean": "= ad:to"
         },
         {
-          "part": "sume(sum)",
-          "mean": "취하다 (take)"
+          "part": "sume",
+          "mean": "= take"
         }
       ],
-      "origin": "자기 쪽으로 취하다 → 가정하다, 떠맡다"
+      "origin": "핵심 다의어\n어떤 방향으로 …을 취하다 →\n├ (생각을) 취하다 → 가정하다\n├ (일을) 취하다 → 맡다\n└ (태도를) 취하다 → 가장하다",
+      "synonyms": [
+        "presume"
+      ],
+      "derivatives": [
+        {
+          "en": "assumption",
+          "pos": "명",
+          "defs": [
+            "가정, 추측, 추정"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "People often **assume** that synthetic food ingredients are more harmful than natural ones, but this is not always the case.",
+          "ko": "사람들은 흔히 합성 식품 성분이 자연 식품 성분보다 더 해롭다고 생각하지만, 항상 그런 것은 아니다.",
+          "source": "수능"
+        },
+        {
+          "en": "He **assumed** the office of the presidency in May.",
+          "ko": "그는 5월에 대통령직을 맡았다."
+        }
+      ]
     },
     {
       "en": "consume",
-      "ipa": "/kənˈsuːm/",
+      "ipa": [
+        "[kәnsúːm]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "소비하다",
-            "다 써버리다"
+            "1 (시간·돈·에너지 등을) 소비하다, 쓰다",
+            "2 *먹다, 마시다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
+          "part": "con",
+          "mean": "= com:「강조」"
         },
         {
-          "part": "sume(sum)",
-          "mean": "취하다 (take)"
+          "part": "sume",
+          "mean": "= take"
         }
       ],
-      "origin": "완전히 취하다 → 소비하다"
+      "origin": "완전히 취하다 → 다 써버리다",
+      "derivatives": [
+        {
+          "en": "consumer",
+          "pos": "명",
+          "defs": [
+            "소비자"
+          ]
+        },
+        {
+          "en": "consumption",
+          "pos": "명",
+          "defs": [
+            "1 소비(량[액]), 사용",
+            "2 (음식) 섭취(량)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "This car **consumes** less gas than others.",
+          "ko": "이 차는 다른 차들보다 연료를 덜 소비한다."
+        },
+        {
+          "en": "When people **consume** a variety of foods, they tend to overeat.",
+          "ko": "사람들은 다양한 음식을 먹을 때 과식하는 경향이 있다.",
+          "source": "수능"
+        },
+        {
+          "en": "a **consumer** price index",
+          "ko": "소비자 물가 지수"
+        },
+        {
+          "en": "People should try to lower their daily **consumption** of cholesterol.",
+          "ko": "사람들은 일일 콜레스테롤 섭취를 낮추도록 노력해야 한다."
+        }
+      ]
     },
     {
       "en": "presume",
-      "ipa": "/prɪˈzuːm/",
+      "ipa": [
+        "[prizúːm]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "추정하다",
-            "간주하다"
+            "가정하다, 추측하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pre-",
-          "mean": "미리 (before)"
+          "part": "pre",
+          "mean": "= before"
         },
         {
-          "part": "sume(sum)",
-          "mean": "취하다 (take)"
+          "part": "sume",
+          "mean": "= take"
         }
       ],
-      "origin": "미리 취하다(판단하다) → 추정하다"
+      "origin": "(확실한 근거를 갖기 전에) 미리 …라고\n받아들이다",
+      "synonyms": [
+        "assume"
+      ],
+      "derivatives": [
+        {
+          "en": "presumption",
+          "pos": "명",
+          "defs": [
+            "가정, 추측"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The ten missing passengers are **presumed** dead.",
+          "ko": "실종된 10명의 승객들은 사망한 것으로 추정된다."
+        }
+      ]
     },
     {
       "en": "resume",
-      "ipa": "/rɪˈzuːm/",
+      "ipa": [
+        "[rizúːm]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "다시 시작하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "이력서"
+            "1 *(일시적으로 중단된 후) 다시 시작하다, 재개하다",
+            "2 (자리·지위 등을) 되찾다, 다시 차지하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
-          "part": "sume(sum)",
-          "mean": "취하다 (take)"
+          "part": "sume",
+          "mean": "= take"
         }
       ],
-      "origin": "다시 취하다 → 다시 시작하다"
+      "origin": "(중단했던 것을) 다시 취하다",
+      "synonyms": [
+        "reopen",
+        "restart"
+      ],
+      "derivatives": [
+        {
+          "en": "resumption",
+          "pos": "명",
+          "defs": [
+            "재개, 회수, 되찾음"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Soon after the match **resumed**, his opponent made a critical mistake.",
+          "ko": "경기가 재개된 직후, 그의 상대가 치명적인 실수를 저질렀다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "equal",
-      "ipa": "/ˈiːkwəl/",
+      "ipa": [
+        "[íːkwәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "동일한",
-            "평등한"
+            "*(수·양·크기·가치·기회 등이) 같은, 평등한"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "~와 같다"
+            "…와 같다, …에 필적하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "equ",
-          "mean": "같은 (equal)"
+          "mean": "= same"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "같은 → 동일한, 평등한"
+      "origin": "정도가 같은",
+      "antonyms": [
+        "unequal"
+      ],
+      "derivatives": [
+        {
+          "en": "equally",
+          "pos": "부",
+          "defs": [
+            "동등하게, 평등하게, 균등하게"
+          ]
+        },
+        {
+          "en": "equality",
+          "pos": "명",
+          "defs": [
+            "평등"
+          ]
+        },
+        {
+          "en": "equate",
+          "pos": "동",
+          "defs": [
+            "(+ with) 동일시하다; 일치하다"
+          ]
+        },
+        {
+          "en": "equation",
+          "pos": "명",
+          "defs": [
+            "[수학] 방정식"
+          ]
+        },
+        {
+          "en": "equator",
+          "pos": "명",
+          "defs": [
+            "(the +) 적도"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "the principle of **equal** opportunity",
+          "ko": "기회 균등의 원칙"
+        },
+        {
+          "en": "The new policy affects all employees **equally**.",
+          "ko": "새 정책은 모든 직원들에게 똑같이 영향을 미친다."
+        },
+        {
+          "en": "Our constitution is based on the **equality** of all individuals.",
+          "ko": "우리 헌법은 모든 개인의 평등에 기초한다."
+        }
+      ]
     },
     {
       "en": "equivalent",
-      "ipa": "/ɪˈkwɪvələnt/",
+      "ipa": [
+        "[ikwívәlәnt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "상응하는",
-            "동등한"
+            "1 (양·가치·중요성 등이) 동등한, 대등한",
+            "2 (+ to) …에 상당하는"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "맞먹는 것"
+            "동등한 것"
           ]
         }
       ],
       "parts": [
         {
-          "part": "equ",
-          "mean": "같은 (equal)"
+          "part": "equi",
+          "mean": "= same"
         },
         {
           "part": "val",
-          "mean": "가치 (worth)"
+          "mean": "= worth"
         },
         {
-          "part": "-ent",
-          "mean": "형용사형 접미사"
+          "part": "ent",
+          "mean": "형접·명접"
         }
       ],
-      "origin": "같은 가치의 → 동등한"
+      "origin": "같은 가치의 (것)",
+      "examples": [
+        {
+          "en": "The cost of the damage caused by the typhoon was **equivalent to** about one million dollars.",
+          "ko": "태풍으로 인한 피해액은 대략 100만 달러에 상당했다."
+        }
+      ]
     },
     {
       "en": "adequate",
-      "ipa": "/ˈædɪkwət/",
+      "ipa": [
+        "[ǽdәkwit]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "적절한",
-            "충분한"
+            "1 *(어떤 목적에 맞게) 충분한, 적당한",
+            "2 (훌륭하지는 않지만) 괜찮은, 고만고만한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
+          "part": "ad",
+          "mean": "= to"
         },
         {
           "part": "equ",
-          "mean": "같은 (equal)"
+          "mean": "= equal"
         },
         {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
+          "part": "ate",
+          "mean": "형접"
         }
       ],
-      "origin": "같은 수준에 이른 → 적절한"
+      "origin": "made equal to\n→ (수요·필요에) 필적하는",
+      "synonyms": [
+        "sufficient"
+      ],
+      "antonyms": [
+        "inadequate"
+      ],
+      "examples": [
+        {
+          "en": "This house provides **adequate** space for a family of four.",
+          "ko": "이 집은 4인 가족이 살기에 충분한 공간을 제공한다."
+        }
+      ]
     },
     {
       "en": "identify",
-      "ipa": "/aɪˈdentɪfaɪ/",
+      "ipa": [
+        "[aidéntәfài]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "확인하다",
-            "동일시하다"
+            "1 *(신원·사실·문제 등을) 확인하다",
+            "2 (+ with) (…와) 동일시하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "ident",
-          "mean": "같은 (same)"
+          "mean": "= same"
         },
         {
-          "part": "-ify",
-          "mean": "만들다 (make)"
+          "part": "ify",
+          "mean": "동접"
         }
       ],
-      "origin": "같은 것으로 만들다 → 확인하다"
+      "origin": "동일한 것으로 여기다",
+      "derivatives": [
+        {
+          "en": "identity",
+          "pos": "명",
+          "defs": [
+            "1 신원, 정체",
+            "2 정체성, 독자성",
+            "3 동일함, 일치"
+          ]
+        },
+        {
+          "en": "identification",
+          "pos": "명",
+          "defs": [
+            "신분 증명(서)(=ID), 신원 확인"
+          ]
+        },
+        {
+          "en": "identical",
+          "pos": "형",
+          "defs": [
+            "동일한"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Helen could **identify** Julia by the large paper bag she was holding.",
+          "ko": "Helen은 Julia가 들고 있던 큰 종이봉투를 보고 그녀를 알아볼 수 있었다.",
+          "source": "모의"
+        },
+        {
+          "en": "Customs can reveal the **identity** of a society.",
+          "ko": "관습은 한 사회의 정체성을 드러낼 수 있다."
+        },
+        {
+          "en": "Your passport is an official form of **identification**.",
+          "ko": "여권은 공식적인 신분증이다."
+        },
+        {
+          "en": "**identical** twins",
+          "ko": "일란성 쌍둥이 (cf. fraternal twins: 이란성 쌍둥이)"
+        }
+      ]
     },
     {
       "en": "solve",
-      "ipa": "/sɑːlv/",
+      "ipa": [
+        "[sɑːlv]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "해결하다",
-            "풀다"
+            "(문제 등을) 풀다, 해결하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "solv",
-          "mean": "풀다, 느슨하게 하다 (loosen)"
+          "part": "solve",
+          "mean": "라틴어 solvere(=loosen)에서 온 말\n→ 엉켜 있는 것을 느슨하게 풀어 해결하다"
         }
       ],
-      "origin": "풀다 → 해결하다"
+      "origin": "",
+      "synonyms": [
+        "resolve"
+      ],
+      "derivatives": [
+        {
+          "en": "solution",
+          "pos": "명",
+          "defs": [
+            "1 해결(책), 해답",
+            "2 용액, 용해"
+          ]
+        },
+        {
+          "en": "solvent",
+          "pos": "형/명",
+          "defs": [
+            "1 용해되는; 용해하는 / 2 지불 능력이 있는 / 용제, 용매"
+          ]
+        },
+        {
+          "en": "solvable",
+          "pos": "형",
+          "defs": [
+            "해결 가능한, 풀 수 있는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "There are many ways to **solve** a problem without getting angry.",
+          "ko": "화를 내지 않고 문제를 해결할 수 있는 방법은 많다.",
+          "source": "교과서"
+        },
+        {
+          "en": "There are no simple **solutions** to unemployment.",
+          "ko": "실업 문제에 대한 간단한 해결책은 없다."
+        }
+      ]
     },
     {
       "en": "resolve",
-      "ipa": "/rɪˈzɑːlv/",
+      "ipa": [
+        "[rizɑ́ːlv]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "해결하다",
-            "결심하다"
+            "1 *해결하다",
+            "2 결정하다, 결심하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "결심"
+            "(굳은) 결심, 단호한 의지"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "「강조」"
         },
         {
-          "part": "solv",
-          "mean": "풀다 (loosen)"
+          "part": "solve",
+          "mean": "= loosen"
         }
       ],
-      "origin": "다시 풀다 → 해결하다"
+      "origin": "(엉켜 있는 것을) 완전히 느슨하게 하다\n→ 해결하다",
+      "synonyms": [
+        "solve",
+        "decide",
+        "make up one's mind"
+      ],
+      "derivatives": [
+        {
+          "en": "resolution",
+          "pos": "명",
+          "defs": [
+            "1 결심; 결단력",
+            "2 해결",
+            "3 [컴퓨터] 해상도"
+          ]
+        },
+        {
+          "en": "resolute",
+          "pos": "형",
+          "defs": [
+            "굳게 결심한, 단호한"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "An open conversation can **resolve** a conflict between friends.",
+          "ko": "마음을 열고 나누는 대화는 친구들 사이의 갈등을 해결할 수 있다.",
+          "source": "교과서"
+        },
+        {
+          "en": "New Year's **resolution**",
+          "ko": "새해 결심"
+        }
+      ]
     },
     {
       "en": "dissolve",
-      "ipa": "/dɪˈzɑːlv/",
+      "ipa": [
+        "[dizɑ́ːlv]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "녹이다",
-            "해산시키다"
+            "1 *(고체를[가] 액체로) 녹이다[녹다]",
+            "2 (계약·모임 등을) 종료하다, 해산시키다",
+            "3 사라지다, 흩어지다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "dis-",
-          "mean": "떨어져 (apart)"
+          "part": "dis",
+          "mean": "= apart"
         },
         {
-          "part": "solv",
-          "mean": "풀다 (loosen)"
+          "part": "solve",
+          "mean": "= loosen"
         }
       ],
-      "origin": "떨어뜨려 풀다 → 녹이다"
+      "origin": "느슨하게 풀어서 따로 떨어뜨리다 →\n├ 물질을 흩어지게 하다 → 용해하다\n├ 조직·모임을 풀어 없애다 → 해산하다\n└ 사람·감정이 흩어지다 → 사라지다",
+      "examples": [
+        {
+          "en": "Stir the mixture until the powder **dissolves** completely.",
+          "ko": "가루가 완전히 녹을 때까지 혼합물을 저으세요."
+        },
+        {
+          "en": "The crowd **dissolved** after the concert ended.",
+          "ko": "콘서트가 끝나자 군중이 흩어졌다."
+        }
+      ]
     },
     {
       "en": "negative",
-      "ipa": "/ˈneɡətɪv/",
+      "ipa": [
+        "[négәtiv]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "부정적인",
-            "음성의"
+            "1 *부정적인",
+            "2 *반대하는",
+            "3 [의학] 음성의; [전기] 음극의; [수학] 음수의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "부정"
+            "부정, 반대; 거부, 거절"
           ]
         }
       ],
       "parts": [
         {
           "part": "neg",
-          "mean": "부정 (deny)"
+          "mean": "= deny"
         },
         {
-          "part": "-ative",
-          "mean": "형용사형 접미사"
+          "part": "ative",
+          "mean": "형접"
         }
       ],
-      "origin": "부정하는 → 부정적인"
+      "origin": "부정하는",
+      "antonyms": [
+        "positive",
+        "affirmative(동의하는)"
+      ],
+      "examples": [
+        {
+          "en": "We received a **negative** reply to our offer.",
+          "ko": "우리는 우리의 제안에 대해 부정적인 답변을 받았다."
+        },
+        {
+          "en": "The results of the test were **negative**[positive].",
+          "ko": "검사 결과는 음성[양성]입니다."
+        }
+      ]
     },
     {
       "en": "deny",
-      "ipa": "/dɪˈnaɪ/",
+      "ipa": [
+        "[dináːi]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "부인하다",
-            "거절하다"
+            "1 *부인하다, 부정하다",
+            "2 거절하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "ny(neg)",
-          "mean": "부정하다 (deny)"
+          "part": "deny",
+          "mean": "라틴어 denegare(=deny)에서 온 말\n※ denegare: de(「강조」) + negare(=say\nno) → 아니라고 강하게 말하다 → 부정하다"
         }
       ],
-      "origin": "완전히 부정하다 → 부인하다"
+      "origin": "",
+      "antonyms": [
+        "admit",
+        "affirm",
+        "refuse"
+      ],
+      "derivatives": [
+        {
+          "en": "denial",
+          "pos": "명",
+          "defs": [
+            "1 부인, 부정",
+            "2 거절, 거부"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Who can **deny** that the tiger is a symbol of Korea?",
+          "ko": "호랑이가 한국의 상징이라는 것을 누가 부인할 수 있겠는가?",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "neutral",
-      "ipa": "/ˈnuːtrəl/",
+      "ipa": [
+        "[njúːtrәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "중립적인"
+            "1 중립의",
+            "2 (색·모음·성질 등이) 중간의"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "중립인 것, 중립국"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ne-",
-          "mean": "~이 아닌 (not)"
+          "part": "ne",
+          "mean": "= deny"
         },
         {
           "part": "utr",
-          "mean": "어느 쪽 (either)"
+          "mean": "= either"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "어느 쪽도 아닌 → 중립적인"
+      "origin": "이쪽도 저쪽도 부인하는",
+      "derivatives": [
+        {
+          "en": "neutrality",
+          "pos": "명",
+          "defs": [
+            "중립 (상태), 중립성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "His reaction was **neutral**, neither positive nor negative.",
+          "ko": "그의 반응은 긍정적이지도 부정적이지도 않고 중립적이었다."
+        },
+        {
+          "en": "Switzerland is a **neutral** country.",
+          "ko": "스위스는 중립국이다."
+        }
+      ]
     },
     {
       "en": "logic",
-      "ipa": "/ˈlɑːdʒɪk/",
+      "ipa": [
+        "[lɑ́ːdʒik]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "논리",
-            "논리학"
+            "논리(학), 논법"
           ]
         }
       ],
       "parts": [
         {
           "part": "log",
-          "mean": "말, 이성 (word, reason)"
+          "mean": "= speech"
         },
         {
-          "part": "-ic",
-          "mean": "명사형 접미사"
+          "part": "ic",
+          "mean": "명접「학문」"
         }
       ],
-      "origin": "이성적인 것 → 논리"
+      "origin": "이야기하는 법",
+      "derivatives": [
+        {
+          "en": "logical",
+          "pos": "형",
+          "defs": [
+            "1 논리적인",
+            "2 논리학의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He used sound **logic** and reasoning to win the debate.",
+          "ko": "그는 논쟁에서 이기기 위해 타당한 논리와 근거를 들었다."
+        },
+        {
+          "en": "**logical** and creative thinking",
+          "ko": "논리적이고 창의적인 사고"
+        }
+      ]
     },
     {
       "en": "analogy",
-      "ipa": "/əˈnælədʒi/",
+      "ipa": [
+        "[әnǽlәdʒi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "비유",
-            "유추"
+            "1 유사점, 비슷함; 비유",
+            "2 유추(에 의한 설명), 추론"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ana-",
-          "mean": "위로, 다시 (up, again)"
+          "part": "ana",
+          "mean": "= upon"
         },
         {
-          "part": "logy(log)",
-          "mean": "말, 이성 (word, reason)"
+          "part": "log",
+          "mean": "= speech"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "다시 대응시켜 말하기 → 유추"
+      "origin": "(어떤 관계에 따라 정리된 말 → 둘 사이의\n비례나 유사성을 바탕으로 한 설명",
+      "synonyms": [
+        "similarity"
+      ],
+      "phrases": [
+        {
+          "en": "draw[make/use] an analogy",
+          "ko": "비유하다, 유추하다"
+        },
+        {
+          "en": "an analogy between A and B",
+          "ko": "A와 B 사이의 비유"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We believe that **analogy** use is an effective way to help students think and learn.",
+          "ko": "우리는 비유의 사용이 학생들이 사고하고 학습하는 데 효과적인 방법이라고 믿는다.",
+          "source": "모의"
+        },
+        {
+          "en": "The teacher **drew an analogy between** the brain **and** a computer.",
+          "ko": "선생님은 뇌를 컴퓨터에 비유했다."
+        }
+      ]
     },
     {
       "en": "apology",
-      "ipa": "/əˈpɑːlədʒi/",
+      "ipa": [
+        "[әpɑ́ːlәdʒi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "사과",
-            "사죄"
+            "사과, 사죄"
           ]
         }
       ],
       "parts": [
         {
-          "part": "apo-",
-          "mean": "떨어져 (away)"
+          "part": "apo",
+          "mean": "= away"
         },
         {
-          "part": "logy(log)",
-          "mean": "말 (word, speech)"
+          "part": "log",
+          "mean": "= speech"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "변호의 말 → 사과"
+      "origin": "(비난을) 피하기 위한 말",
+      "derivatives": [
+        {
+          "en": "apologize",
+          "pos": "동",
+          "defs": [
+            "사과하다, 사죄하다"
+          ]
+        },
+        {
+          "en": "apologetic",
+          "pos": "형",
+          "defs": [
+            "사과의, 사죄하는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "apology[apologize] (to A) (for B)",
+          "ko": "(A에게) (B에 대해) 사과(하다)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Civic groups demanded a public **apology for** his remarks.",
+          "ko": "시민 단체들은 그의 발언에 대해 공식적인 사과를 요구했다."
+        },
+        {
+          "en": "We sincerely **apologize for** any inconvenience that you may experience.",
+          "ko": "불편을 끼쳐드려 진심으로 사과드립니다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "catalogue",
-      "ipa": "/ˈkætəlɔːɡ/",
+      "ipa": [
+        "[kǽtәlɔ̀ːg]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "목록",
-            "카탈로그"
+            "(상품 등의) 목록, 일람표, 카탈로그"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "목록을 만들다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "cata-",
-          "mean": "완전히 (completely)"
+          "part": "cata",
+          "mean": "= down"
         },
         {
-          "part": "logue(log)",
-          "mean": "말, 모음 (word, collection)"
+          "part": "logue",
+          "mean": "= speech"
         }
       ],
-      "origin": "완전히 나열한 것 → 목록"
+      "origin": "말을 아래로 쭉 적어 놓은 것 → 목록",
+      "examples": [
+        {
+          "en": "He spent his later years studying samples in order to assemble plant and animal **catalogues**.",
+          "ko": "그는 식물과 동물 목록을 만들기 위해 샘플을 연구하며 말년을 보냈다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "ecology",
-      "ipa": "/iˈkɑːlədʒi/",
+      "ipa": [
+        "[ikɑ́ːlәdʒi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "생태학",
-            "생태계"
+            "생태학, 생태계"
           ]
         }
       ],
       "parts": [
         {
           "part": "eco",
-          "mean": "집, 환경 (home)"
+          "mean": "= house\n주거지"
         },
         {
-          "part": "logy(log)",
-          "mean": "학문 (study)"
+          "part": "log",
+          "mean": "= word"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "환경에 대한 학문 → 생태학"
+      "origin": "(모든 생물의) 주거 환경에 관한 학문\n→ 생태학\n※ logy는 '어떤 주제에 대해 모아 놓은 말'\n이라는 의미로, '학문'을 나타냄",
+      "derivatives": [
+        {
+          "en": "ecological",
+          "pos": "형",
+          "defs": [
+            "생태학의, 생태계의"
+          ]
+        },
+        {
+          "en": "ecologist",
+          "pos": "명",
+          "defs": [
+            "생태학자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Ecology** is the study of the relationship between living things and their environment.",
+          "ko": "생태학은 생물과 환경 사이의 관계를 연구하는 학문이다."
+        },
+        {
+          "en": "an **ecological** crisis",
+          "ko": "생태계의 위기"
+        }
+      ]
     },
     {
       "en": "psychology",
-      "ipa": "/saɪˈkɑːlədʒi/",
+      "ipa": [
+        "[saikɑ́ːlәdʒi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "심리학"
+            "1 *심리학",
+            "2 심리 (상태)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "psych",
-          "mean": "마음 (mind, soul)"
+          "part": "psycho",
+          "mean": "= spirit 정신"
         },
         {
-          "part": "logy(log)",
-          "mean": "학문 (study)"
+          "part": "logy",
+          "mean": "명접「학문」"
         }
       ],
-      "origin": "마음에 대한 학문 → 심리학"
+      "origin": "정신에 관한 학문",
+      "derivatives": [
+        {
+          "en": "psychological",
+          "pos": "형",
+          "defs": [
+            "1 심리적인",
+            "2 심리학의"
+          ]
+        },
+        {
+          "en": "psychologist",
+          "pos": "명",
+          "defs": [
+            "심리학자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Bowlby studied medicine, but by his third year, he changed his focus to **psychology**.",
+          "ko": "Bowlby는 의학을 공부했지만, 3학년이 되자 심리학으로 중점을 바꾸었다.",
+          "source": "모의"
+        },
+        {
+          "en": "Many physical problems arise from **psychological** problems.",
+          "ko": "많은 신체적 문제가 심리적인 문제에서 발생한다."
+        }
+      ]
     },
     {
       "en": "memory",
-      "ipa": "/ˈmeməri/",
+      "ipa": [
+        "[mémәri]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "기억(력)",
-            "추억"
+            "1 *기억(력), 추억",
+            "2 기념, 추모",
+            "3 [컴퓨터] 메모리, 기억 장치"
           ]
         }
       ],
       "parts": [
         {
           "part": "memor",
-          "mean": "기억하다 (remember)"
+          "mean": "= mindful"
         },
         {
-          "part": "-y",
-          "mean": "명사형 접미사"
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "기억하는 것 → 기억력"
+      "origin": "마음에 새겨진 것",
+      "derivatives": [
+        {
+          "en": "memorize",
+          "pos": "동",
+          "defs": [
+            "암기하다, 기억하다"
+          ]
+        },
+        {
+          "en": "memorial",
+          "pos": "명/형",
+          "defs": [
+            "기념물, 기념관[비] / 기념[추도]의"
+          ]
+        },
+        {
+          "en": "memorable",
+          "pos": "형",
+          "defs": [
+            "기억[주목]할 만한"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "in memory of",
+          "ko": "…을 기념[추도]하여"
+        },
+        {
+          "en": "cf. commemorate",
+          "ko": "(중요 인물·사건을) 기념하다, 추모하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This long-lasting **memory** for certain skills is called muscle **memory**.",
+          "ko": "특정 기술에 대한 이러한 장기적인 기억은 근육 기억이라고 불린다.",
+          "source": "교과서"
+        },
+        {
+          "en": "What are some good ways of **memorizing** English words?",
+          "ko": "영어 단어를 암기하는 몇몇 좋은 방법들은 무엇입니까?"
+        },
+        {
+          "en": "We visited a war **memorial** in Yongsan.",
+          "ko": "우리는 용산에 있는 전쟁 기념관을 방문했다."
+        }
+      ]
     },
     {
       "en": "remember",
-      "ipa": "/rɪˈmembər/",
+      "ipa": [
+        "[rimémbәr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "기억하다",
-            "명심하다"
+            "1 *기억하다",
+            "2 상기하다, 생각해내다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
-          "part": "member(memor)",
-          "mean": "기억하다 (remember)"
+          "part": "member",
+          "mean": "= mindful"
         }
       ],
-      "origin": "다시 기억하다"
+      "origin": "마음에 되새기다 → 기억하다",
+      "antonyms": [
+        "forget"
+      ],
+      "synonyms": [
+        "recall",
+        "recollect"
+      ],
+      "derivatives": [
+        {
+          "en": "remembrance",
+          "pos": "명",
+          "defs": [
+            "1 기념, 추모",
+            "2 기억, 추억, 회상"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "in remembrance of",
+          "ko": "…을 기념[추모]하여"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I hope you **remember** our discussion last Monday about the servicing of the washing machine.",
+          "ko": "세탁기 점검에 대한 지난 주 월요일의 논의 내용을 당신이 기억하기를 바랍니다.",
+          "source": "수능"
+        }
+      ]
     }
   ]
 }
