@@ -3,129 +3,267 @@
   "words": [
     {
       "en": "notable",
-      "ipa": "/ˈnoʊtəbl/",
+      "ipa": [
+        "[nóutәbәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "주목할 만한",
+            "주목할 만한, 탁월한"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "not",
+          "mean": "= mark"
+        },
+        {
+          "part": "able",
+          "mean": "형접"
+        }
+      ],
+      "origin": "표시할 만한 → 주목을 끌 만한",
+      "synonyms": [
+        "remarkable"
+      ],
+      "derivatives": [
+        {
+          "en": "note",
+          "pos": "명/동",
+          "defs": [
+            "1 메모",
+            "2 짧은 편지",
+            "3 (복수형) (강의 등의) 기록",
+            "4 주석",
+            "5 [음악] 음, 음표 / 1 주목하다",
+            "2 언급하다"
+          ]
+        },
+        {
+          "en": "noted",
+          "pos": "형",
+          "defs": [
             "유명한"
           ]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "not",
-          "mean": "표시, 알다 (mark, know)"
+          "en": "Even those with average talent can produce **notable** work in the various sciences.",
+          "ko": "평범한 재능을 가진 사람들도 다양한 과학 분야에서 주목할 만한 성과를 낼 수 있다.",
+          "source": "수능"
         },
         {
-          "part": "-able",
-          "mean": "~할 수 있는"
+          "en": "Keep **notes** during the lectures.",
+          "ko": "강의를 듣는 동안 필기를 하세요."
+        },
+        {
+          "en": "Please **note** that the library is closed on Mondays.",
+          "ko": "도서관이 매주 월요일에 문을 닫는다는 점에 주의하세요."
         }
-      ],
-      "origin": "표시할 만한 → 주목할 만한"
+      ]
     },
     {
       "en": "notice",
-      "ipa": "/ˈnoʊtɪs/",
+      "ipa": [
+        "[nóutis]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "공지",
-            "주목"
+            "1 주목, 주의",
+            "2 게시(물), 공고, 안내(판)",
+            "3 통지(서), 통보"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "알아차리다"
+            "1 *알아차리다",
+            "2 주목하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "not",
-          "mean": "알다 (know)"
+          "mean": "= know"
         },
         {
-          "part": "-ice",
-          "mean": "명사형 접미사"
+          "part": "ice",
+          "mean": "명접"
         }
       ],
-      "origin": "알게 되다 → 알아차리다"
+      "origin": "알아차림",
+      "synonyms": [
+        "note",
+        "pay attention to"
+      ],
+      "derivatives": [
+        {
+          "en": "noticeable",
+          "pos": "형",
+          "defs": [
+            "뚜렷한, 현저한"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "take notice of",
+          "ko": "…에 주목하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "If you try to be a good listener, people will **notice** and appreciate it.",
+          "ko": "당신이 좋은 경청자가 되려고 노력한다면, 사람들은 그것을 알아차리고 고마워할 것이다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Don't **take** any **notice of** what they're saying about you.",
+          "ko": "그들이 당신에 대해 하는 말에 아무것도 신경 쓰지 마세요."
+        }
+      ]
     },
     {
       "en": "notify",
-      "ipa": "/ˈnoʊtɪfaɪ/",
+      "ipa": [
+        "[nóutәfài]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "통지하다",
-            "알리다"
+            "(+ of) 알리다, 통보하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "not",
-          "mean": "알다 (know)"
+          "mean": "= know"
         },
         {
-          "part": "-ify",
-          "mean": "만들다 (make)"
+          "part": "ify",
+          "mean": "동접"
         }
       ],
-      "origin": "알게 만들다 → 통지하다"
+      "origin": "make known 알리다",
+      "synonyms": [
+        "inform of[about]"
+      ],
+      "derivatives": [
+        {
+          "en": "notification",
+          "pos": "명",
+          "defs": [
+            "알림, 통지"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "They **notified** his family **of** his death.",
+          "ko": "그들은 그의 죽음을 가족에게 알렸다."
+        },
+        {
+          "en": "No individual **notifications** will be made. For more information, visit our website.",
+          "ko": "개인별 알림은 없을 것입니다. 자세한 정보는 저희 웹사이트를 방문해 주세요.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "notion",
-      "ipa": "/ˈnoʊʃn/",
+      "ipa": [
+        "[nóuʃәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "관념",
-            "생각"
+            "관념, 개념, 생각"
           ]
         }
       ],
       "parts": [
         {
           "part": "not",
-          "mean": "알다 (know)"
+          "mean": "= know"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "알고 있는 것 → 관념"
+      "origin": "알려짐, 인식",
+      "synonyms": [
+        "idea"
+      ],
+      "examples": [
+        {
+          "en": "All new ideas come from combining existing **notions** in creative ways.",
+          "ko": "모든 새로운 아이디어는 기존의 관념들을 창의적인 방법으로 결합하는 것에서 온다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "career",
-      "ipa": "/kəˈrɪr/",
+      "ipa": [
+        "[kәríәr]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "경력",
-            "직업"
+            "1 *(오래 해온 전문적) 직업",
+            "2 *경력, 커리어"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "직업적인"
           ]
         }
       ],
       "parts": [
         {
           "part": "car",
-          "mean": "탈것, 달리다 (car, run)"
+          "mean": "= vehicle"
+        },
+        {
+          "part": "eer",
+          "mean": "= ary:명접"
         }
       ],
-      "origin": "달려가는 길 → 경력"
+      "origin": "[원뜻] (탈것들이) 다니는 길\n→ (직업 면에서) 걸어온 길",
+      "synonyms": [
+        "profession",
+        "job"
+      ],
+      "examples": [
+        {
+          "en": "Choosing a **career** is one of the biggest life decisions young people face.",
+          "ko": "직업을 선택하는 것은 젊은이들이 직면하는 인생의 가장 큰 결정 중 하나이다.",
+          "source": "교과서"
+        },
+        {
+          "en": "He had a long and successful **career**.",
+          "ko": "그는 장기간 성공적인 경력을 쌓았다."
+        }
+      ]
     },
     {
       "en": "carpenter",
-      "ipa": "/ˈkɑːrpəntər/",
+      "ipa": [
+        "[kɑ́ːrpәntәr]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -136,454 +274,872 @@
       ],
       "parts": [
         {
-          "part": "carp(car)",
-          "mean": "마차, 탈것 (wagon)"
+          "part": "carpent",
+          "mean": "= carpentum:수레"
         },
         {
-          "part": "-enter",
-          "mean": "사람 접미사"
+          "part": "er",
+          "mean": "명접「사람」"
         }
       ],
-      "origin": "마차를 만드는 사람 → 목수"
+      "origin": "나무로 수레를 만드는 사람\n→ 목공일 하는 사람",
+      "examples": [
+        {
+          "en": "My brother is a skilled **carpenter**.",
+          "ko": "우리 형은 솜씨 좋은 목수이다."
+        }
+      ]
     },
     {
       "en": "carriage",
-      "ipa": "/ˈkærɪdʒ/",
+      "ipa": [
+        "[kǽridʒ]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "마차",
-            "(기차) 객차"
+            "1 *마차",
+            "2 운반",
+            "3 (BrE) (기차의) 객차 (AmE: car)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "carr(car)",
-          "mean": "나르다 (carry)"
+          "part": "carri",
+          "mean": "= carry"
         },
         {
-          "part": "-iage",
-          "mean": "명사형 접미사"
+          "part": "age",
+          "mean": "명접"
         }
       ],
-      "origin": "나르는 것 → 마차"
+      "origin": "운반하는 것",
+      "examples": [
+        {
+          "en": "The couple went to the palace in a horse-drawn **carriage**.",
+          "ko": "그 부부는 말이 끌어주는 마차를 타고 궁전으로 갔다."
+        }
+      ]
     },
     {
       "en": "carrier",
-      "ipa": "/ˈkæriər/",
+      "ipa": [
+        "[kǽriәr]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "운송회사",
-            "항공모함",
-            "보균자"
+            "1 운송[수송] 회사",
+            "2 *운반인, 운반[수송]기",
+            "3 [의학] (전염병) 보균자, 매개체"
           ]
         }
       ],
       "parts": [
         {
-          "part": "carr(car)",
-          "mean": "나르다 (carry)"
+          "part": "carri",
+          "mean": "= carry"
         },
         {
-          "part": "-ier",
-          "mean": "사람/것 접미사"
+          "part": "er",
+          "mean": "명접「사람」"
         }
       ],
-      "origin": "나르는 것 → 운송회사"
+      "origin": "운반하는 사람",
+      "examples": [
+        {
+          "en": "Our mail **carrier** comes every Tuesday and Friday.",
+          "ko": "우편 집배원은 매주 화요일과 금요일에 온다."
+        }
+      ]
     },
     {
       "en": "charge",
-      "ipa": "/tʃɑːrdʒ/",
+      "ipa": [
+        "[tʃɑːrdʒ]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "요금",
-            "책임"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "청구하다",
-            "충전하다"
+            "1 *요금을 청구하다",
+            "2 고발[기소]하다; 비난하다",
+            "3 책임을 지우다",
+            "4 채우다, 충전하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *요금, 비용",
+            "2 고발, 기소; 비난",
+            "3 책임, 담당"
           ]
         }
       ],
       "parts": [
         {
-          "part": "char(car)",
-          "mean": "짐을 싣다 (load)"
+          "part": "char",
+          "mean": "= load"
         },
         {
-          "part": "-ge",
-          "mean": "동사형 접미사"
+          "part": "ge",
+          "mean": "어미"
         }
       ],
-      "origin": "짐을 싣다 → 부과하다, 충전하다"
+      "origin": "핵심 다의어\n무거운 짐을 지우다 →\n├ (금전상) 부담을 지우다\n│ → 요금·대가를 청구하다\n├ (업무상) 부담을 지우다\n│ → 의무·책임을 지우다\n└ 무거운 죄를 씌우다 → 고발하다, 비난하다",
+      "phrases": [
+        {
+          "en": "be charged with",
+          "ko": "…의 혐의를 받다, …로 기소되다 (= be accused of)"
+        },
+        {
+          "en": "in charge of",
+          "ko": "… 담당의, …을 맡고 있는"
+        },
+        {
+          "en": "free of charge",
+          "ko": "공짜의, 무료인"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hotel **charges** $200 a night.",
+          "ko": "그 호텔은 하룻밤 숙박비가 200달러이다."
+        },
+        {
+          "en": "They **were charged with** robbery.",
+          "ko": "그들은 강도죄로 기소되었다."
+        },
+        {
+          "en": "When fully **charged**, the battery indicator light turns blue.",
+          "ko": "완전히 충전되면, 배터리 표시등이 파란색으로 변한다.",
+          "source": "모의"
+        },
+        {
+          "en": "We found extra **charges** on our bill.",
+          "ko": "우리는 계산서에서 추가 요금을 발견했다."
+        },
+        {
+          "en": "She is **in charge of** teaching English to third-year students.",
+          "ko": "그녀는 3학년 학생들에게 영어를 가르치는 일을 담당한다."
+        }
+      ]
     },
     {
       "en": "discharge",
-      "ipa": "/dɪsˈtʃɑːrdʒ/",
+      "ipa": [
+        "동 [distʃɑ́ːrdʒ]",
+        "명 [dístʃɑːrdʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "해고하다",
-            "방출하다"
+            "1 (주로 수동태로) 해임하다",
+            "2 (병원·감옥·군대 등에서) 내보내다",
+            "3 (액체·가스 등을) 방출하다",
+            "4 (의무 등을) 이행하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "퇴원",
-            "제대"
+            "1 해임",
+            "2 퇴원; 석방; 제대",
+            "3 방출, 배출(물)",
+            "4 (책임) 이행"
           ]
         }
       ],
       "parts": [
         {
-          "part": "dis-",
-          "mean": "반대 (opposite)"
+          "part": "dis",
+          "mean": "「반대」"
         },
         {
-          "part": "charge(car)",
-          "mean": "싣다 (load)"
+          "part": "charge",
+          "mean": "짐을 싣다"
         }
       ],
-      "origin": "짐을 내리다 → 해고하다, 방출하다"
+      "origin": "(실었던 것을) 내리다 →\n├ (지위) 해임시키다\n├ (병원) 퇴원시키다\n├ (감옥) 석방시키다\n├ (군대) 제대시키다\n└ (의무를) 이행하다",
+      "examples": [
+        {
+          "en": "He was **discharged** from the military last week.",
+          "ko": "그는 지난주에 제대했다."
+        },
+        {
+          "en": "The chemical company failed to **discharge** its duty to provide proper warnings.",
+          "ko": "그 화학 업체는 적절한 경고를 해야 할 의무를 이행하지 않았다."
+        }
+      ]
     },
     {
       "en": "agent",
-      "ipa": "/ˈeɪdʒənt/",
+      "ipa": [
+        "[éidʒәnt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "대리인",
-            "중개인",
-            "동인"
+            "1 대리인[점], 대행사, 중개인",
+            "2 (배우·선수 등을 관리하는) 에이전트",
+            "3 (첩보원, 정보원 등의) 정부 요원",
+            "4 *매개(물), 요인"
           ]
         }
       ],
       "parts": [
         {
           "part": "ag",
-          "mean": "행하다 (do, act)"
+          "mean": "= do"
         },
         {
-          "part": "-ent",
-          "mean": "사람/것 접미사"
+          "part": "ent",
+          "mean": "명접「행위자」"
         }
       ],
-      "origin": "행하는 사람 → 대리인"
+      "origin": "(대신) 해주는 사람",
+      "derivatives": [
+        {
+          "en": "agency",
+          "pos": "명",
+          "defs": [
+            "1 대리점",
+            "2 (배우·선수 등의) 소속사, 에이전시",
+            "3 (정부 등의) 기관"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The seeds of plants are delivered by many **agents**, including bees and wind.",
+          "ko": "식물의 씨앗은 벌과 바람을 포함한 많은 매개물을 통해서 전달된다."
+        },
+        {
+          "en": "insurance **agent**",
+          "ko": "보험 대리인[설계사]"
+        },
+        {
+          "en": "a(n) advertising[travel] **agency**",
+          "ko": "광고 대행사[여행사]"
+        }
+      ]
     },
     {
       "en": "agenda",
-      "ipa": "/əˈdʒendə/",
+      "ipa": [
+        "[әdʒéndә]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "의제",
-            "안건"
+            "의제, 안건, 협의 사항"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ag",
-          "mean": "행하다 (do)"
-        },
-        {
-          "part": "-enda",
-          "mean": "해야 할 것들"
+          "part": "agenda",
+          "mean": "라틴어 agere(=to do)의 동명사 형태인\nagendus에서 온 말 → 실천해야 할\n것들 → 일정표; 회의 안건"
         }
       ],
-      "origin": "행해야 할 것들 → 의제"
+      "origin": "",
+      "phrases": [
+        {
+          "en": "hidden agenda",
+          "ko": "겉으로 드러나지 않은 속내, 숨은 의도"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Before the meeting started, I wanted to ensure that everyone there had a copy of the **agenda**.",
+          "ko": "회의 시작 전에 참석자 모두가 안건의 사본을 가지고 있는지 확인하고 싶었다.",
+          "source": "모의"
+        },
+        {
+          "en": "I think he has a **hidden agenda**.",
+          "ko": "그 사람은 뭔가 속셈이 있는 것 같아."
+        }
+      ]
     },
     {
       "en": "active",
-      "ipa": "/ˈæktɪv/",
+      "ipa": [
+        "[ǽktiv]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "활동적인",
-            "적극적인"
+            "1 *활동적인",
+            "2 적극적인"
           ]
         }
       ],
       "parts": [
         {
-          "part": "act(ag)",
-          "mean": "행하다 (do, act)"
+          "part": "act",
+          "mean": "= do"
         },
         {
-          "part": "-ive",
-          "mean": "형용사형 접미사"
+          "part": "ive",
+          "mean": "형접「성질」"
         }
       ],
-      "origin": "행하는 → 활동적인"
+      "origin": "행하고 있는 → 움직이는",
+      "synonyms": [
+        "energetic",
+        "lively"
+      ],
+      "antonyms": [
+        "inactive",
+        "passive"
+      ],
+      "derivatives": [
+        {
+          "en": "activity",
+          "pos": "명",
+          "defs": [
+            "1 (목표 달성을 위한) 활동, 행동",
+            "2 여가 활동"
+          ]
+        },
+        {
+          "en": "action",
+          "pos": "명",
+          "defs": [
+            "1 활동, 행동, 행위",
+            "2 작동, 움직임",
+            "3 (약 등의) 효과, 작용"
+          ]
+        },
+        {
+          "en": "activate",
+          "pos": "동",
+          "defs": [
+            "작동시키다, 활성화하다"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "take action",
+          "ko": "조치[행동]를 취하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our brain remains **active** while we sleep.",
+          "ko": "자는 동안에도 우리의 뇌는 활성화 되어있다.",
+          "source": "모의"
+        },
+        {
+          "en": "She is very **active** in providing free legal assistance.",
+          "ko": "그녀는 무료 법률 지원을 제공하는 것에 매우 적극적이다."
+        },
+        {
+          "en": "**Actions** speak louder than words.",
+          "ko": "[속담] 말보다 행동이 더 중요하다."
+        }
+      ]
     },
     {
       "en": "actual",
-      "ipa": "/ˈæktʃuəl/",
+      "ipa": [
+        "[ǽktʃuәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "실제의",
-            "사실상의"
+            "1 (주로 명사 앞에서) 실제의, 정확한, 진짜의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "act(ag)",
-          "mean": "행하다 (do)"
+          "part": "act",
+          "mean": "= do"
         },
         {
-          "part": "-ual",
-          "mean": "형용사형 접미사"
+          "part": "ual",
+          "mean": "형접"
         }
       ],
-      "origin": "행해진 → 실제의"
+      "origin": "행하여 실현하는 → 실제의",
+      "synonyms": [
+        "real"
+      ],
+      "derivatives": [
+        {
+          "en": "actually",
+          "pos": "부",
+          "defs": [
+            "실제로, 정말로, 사실상"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The **actual** number was higher than reported.",
+          "ko": "실제 수치는 보고된 것보다 높았다."
+        },
+        {
+          "en": "Expectations are **actually** based on a person's past experiences.",
+          "ko": "기대는 사실 한 사람의 과거 경험에 기초한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "exact",
-      "ipa": "/ɪɡˈzækt/",
+      "ipa": [
+        "[igzǽkt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "정확한",
-            "정밀한"
+            "정확한, 틀림없는; 정밀한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
-          "part": "act(ag)",
-          "mean": "행하다 (do)"
+          "part": "act",
+          "mean": "= do"
         }
       ],
-      "origin": "완전히 행해진 → 정확한"
+      "origin": "행하여 밖으로 드러나게 보여주는\n→ 드러내도 될 만큼 정확한",
+      "synonyms": [
+        "precise",
+        "accurate"
+      ],
+      "derivatives": [
+        {
+          "en": "exactly",
+          "pos": "부",
+          "defs": [
+            "정확히, 틀림없이"
+          ]
+        },
+        {
+          "en": "exactness",
+          "pos": "명",
+          "defs": [
+            "정확성, 정밀성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "For old inventions, it can be difficult to know their **exact** origins.",
+          "ko": "오래된 발명품들에 관해서는, 그것들의 정확한 기원을 알기 어려울 수 있다."
+        },
+        {
+          "en": "I don't remember **exactly** what she said, but it was important.",
+          "ko": "그녀가 뭐라고 했는지 정확히 기억나지는 않지만, 중요한 말이었다."
+        }
+      ]
     },
     {
       "en": "react",
-      "ipa": "/riˈækt/",
+      "ipa": [
+        "[riǽkt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "반응하다"
+            "1 *(사건·행동·자극·화학 작용 등에) 반응하다",
+            "2 (음식·약 등에) (거부) 반응을 나타내다, 반작용하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시, 반대로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "act(ag)",
-          "mean": "행하다 (act)"
+          "part": "act",
+          "mean": "작용하다"
         }
       ],
-      "origin": "반대로 행하다 → 반응하다"
+      "origin": "되받아 작용하다",
+      "derivatives": [
+        {
+          "en": "reaction",
+          "pos": "명",
+          "defs": [
+            "1 반응",
+            "2 거부 반응, 반작용"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "A: How do you think they'll **react**?\nB: I'm afraid their **reaction** may not be very favorable.",
+          "ko": "A: 당신 생각에는 그들이 어떻게 반응할 것 같습니까?\nB: 그들의 반응이 그리 호의적일 것 같지는 않아서 걱정입니다."
+        }
+      ]
     },
     {
       "en": "ambiguous",
-      "ipa": "/æmˈbɪɡjuəs/",
+      "ipa": [
+        "[æmbígjuәs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "모호한",
-            "두 가지 뜻으로 풀이되는"
+            "(애매)모호한, 분명하지 않은"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ambi-",
-          "mean": "양쪽 (both)"
+          "part": "ambi",
+          "mean": "= around"
         },
         {
-          "part": "g(ag)",
-          "mean": "행하다, 이끌다 (drive)"
+          "part": "ig",
+          "mean": "= drive"
         },
         {
-          "part": "-uous",
-          "mean": "형용사형 접미사"
+          "part": "uous",
+          "mean": "형접"
         }
       ],
-      "origin": "양쪽으로 이끌리는 → 모호한"
+      "origin": "(정확하지 않게) 주변으로 몰아가는",
+      "antonyms": [
+        "unambiguous",
+        "clear"
+      ],
+      "derivatives": [
+        {
+          "en": "ambiguously",
+          "pos": "부",
+          "defs": [
+            "(애매)모호하게"
+          ]
+        },
+        {
+          "en": "ambiguity",
+          "pos": "명",
+          "defs": [
+            "(애매)모호함"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Emoticons are much more **ambiguous** relative to face-to-face cues.",
+          "ko": "이모티콘은 얼굴을 마주하고 보내는 신호에 비해서 훨씬 더 애매모호하다.",
+          "source": "모의"
+        },
+        {
+          "en": "He refused to sign the contract because of the **ambiguities** it contained.",
+          "ko": "그는 그 계약서에 모호함이 있어서 서명하길 거절했다."
+        }
+      ]
     },
     {
       "en": "navigate",
-      "ipa": "/ˈnævɪɡeɪt/",
+      "ipa": [
+        "[nǽvәgèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "길을 찾다",
-            "항해하다"
+            "1 길을 찾다",
+            "2 항해[비행]하다",
+            "3 (어려운 상황 등을) 잘 다루다"
           ]
         }
       ],
       "parts": [
         {
           "part": "nav",
-          "mean": "배 (ship)"
+          "mean": "= ship"
         },
         {
-          "part": "ig(ag)",
-          "mean": "이끌다 (drive)"
+          "part": "ig",
+          "mean": "= drive"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "배를 이끌다 → 항해하다"
+      "origin": "배를 몰다 → 항해하다",
+      "derivatives": [
+        {
+          "en": "navigation",
+          "pos": "명",
+          "defs": [
+            "항해(술), 운항(술)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Some birds are believed to **navigate** by the stars.",
+          "ko": "어떤 새들은 별을 보고 길을 찾는 것으로 여겨진다."
+        },
+        {
+          "en": "The company had to **navigate** through a financial crisis.",
+          "ko": "그 회사는 재정 위기를 헤쳐 나가야 했다."
+        }
+      ]
     },
     {
       "en": "intact",
-      "ipa": "/ɪnˈtækt/",
+      "ipa": [
+        "[intǽkt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "온전한",
-            "손상되지 않은"
+            "온전한, 손상되지 않은"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
+          "part": "in",
+          "mean": "= not"
         },
         {
           "part": "tact",
-          "mean": "접촉하다 (touch)"
+          "mean": "= touch"
         }
       ],
-      "origin": "접촉(손상)되지 않은 → 온전한"
+      "origin": "건드려지지 않은 → 원래 그대로의",
+      "synonyms": [
+        "entire",
+        "undamaged"
+      ],
+      "examples": [
+        {
+          "en": "My car remains **intact**, even though I bought it many years ago.",
+          "ko": "수년 전에 구입했음에도 불구하고 내 자동차는 아직 멀쩡하다."
+        }
+      ]
     },
     {
       "en": "contact",
-      "ipa": "/ˈkɑːntækt/",
+      "ipa": [
+        "[kɑ́ːntækt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "접촉",
-            "연락"
+            "1 *접촉, 연락, 교섭",
+            "2 (주로 복수형) 인맥, 연줄"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "연락하다"
+            "*…와 연락하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
           "part": "tact",
-          "mean": "접촉하다 (touch)"
+          "mean": "= touch"
         }
       ],
-      "origin": "함께 접촉하다 → 연락"
+      "origin": "서로 접촉하는 것 → 연락",
+      "synonyms": [
+        "get in touch with",
+        "communicate with"
+      ],
+      "examples": [
+        {
+          "en": "He has a lot of **contacts** in business and politics.",
+          "ko": "그는 사업과 정치 분야에 인맥이 많다."
+        },
+        {
+          "en": "For more information, please feel free to **contact** us.",
+          "ko": "더 많은 정보가 필요하시면 편하게 연락 주세요.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "integrate",
-      "ipa": "/ˈɪntɪɡreɪt/",
+      "ipa": [
+        "[íntәgrèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "통합시키다"
+            "1 (+ into/with) *(부분·요소 등을[이]) 통합하다[통합되다]*",
+            "2 인종 차별을 철폐하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
+          "part": "in",
+          "mean": "= not"
         },
         {
-          "part": "teg(tact)",
-          "mean": "접촉하다, 건드리다 (touch)"
+          "part": "teg",
+          "mean": "= touch"
         },
         {
-          "part": "-rate",
-          "mean": "동사형 접미사"
+          "part": "r",
+          "mean": "= er:형접"
+        },
+        {
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "건드려지지 않은 전체로 만들다 → 통합하다"
+      "origin": "건드리지 않고 완전한 상태로 두다\n→ 온전한 하나로 만들다",
+      "synonyms": [
+        "desegregate"
+      ],
+      "antonyms": [
+        "segregate"
+      ],
+      "derivatives": [
+        {
+          "en": "integration",
+          "pos": "명",
+          "defs": [
+            "1 통합",
+            "2 인종 통합 (정책)"
+          ]
+        },
+        {
+          "en": "integrity",
+          "pos": "명",
+          "defs": [
+            "1 정직, 성실",
+            "2 완전무결(의 상태)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The committee will try to **integrate** the different ideas **into** one uniform plan.",
+          "ko": "그 위원회는 서로 다른 의견들을 모아 하나의 통일된 계획으로 만들려고 노력할 것이다."
+        }
+      ]
     },
     {
       "en": "attain",
-      "ipa": "/əˈteɪn/",
+      "ipa": [
+        "[әtéin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "달성하다",
-            "획득하다"
+            "1 *달성하다",
+            "2 (특정 연령·수량·수준 등에) 도달하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "at-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "at",
+          "mean": "= ad:to"
         },
         {
-          "part": "tain(tact)",
-          "mean": "접촉하다, 닿다 (touch, reach)"
+          "part": "tain",
+          "mean": "= touch"
         }
       ],
-      "origin": "~에 닿다 → 달성하다"
+      "origin": "(목표에) 닿다",
+      "synonyms": [
+        "achieve",
+        "accomplish",
+        "reach"
+      ],
+      "examples": [
+        {
+          "en": "To **attain** your goals, you must never give up.",
+          "ko": "목표를 달성하기 위해서는 결코 포기해서는 안 된다."
+        },
+        {
+          "en": "He **attained** the age of 18 and became eligible to vote.",
+          "ko": "그는 18세가 되어서 투표 자격을 갖췄다."
+        }
+      ]
     },
     {
       "en": "entire",
-      "ipa": "/ɪnˈtaɪər/",
+      "ipa": [
+        "[intáiәr]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "전체의"
+            "1 *전체의",
+            "2 완전한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
+          "part": "en",
+          "mean": "= in:not"
         },
         {
-          "part": "tire(tact)",
-          "mean": "건드리다 (touch)"
+          "part": "ti",
+          "mean": "= touch"
+        },
+        {
+          "part": "re",
+          "mean": "어미"
         }
       ],
-      "origin": "건드려지지 않은 → 전체의, 온전한"
+      "origin": "건드리지 않은 → 전체의, 상태가 완전한",
+      "synonyms": [
+        "whole",
+        "complete"
+      ],
+      "derivatives": [
+        {
+          "en": "entirely",
+          "pos": "부",
+          "defs": [
+            "완전히, 전적으로"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "When the song ended, the **entire** audience clapped enthusiastically.",
+          "ko": "노래가 끝났을 때, 모든 관중이 열정적으로 박수를 쳤다.",
+          "source": "교과서"
+        }
+      ]
     }
   ]
 }

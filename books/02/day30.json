@@ -3,222 +3,447 @@
   "words": [
     {
       "en": "decline",
-      "ipa": "/dɪˈklaɪn/",
+      "ipa": [
+        "[dikláin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "감소하다",
-            "거절하다"
+            "1 *감소[하락]하다",
+            "2 악화되다",
+            "3 *(정중히) 거절하다, 사양하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "하락"
+            "*감소, 하락; 쇠퇴, 악화"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "아래로 (down)"
+          "part": "de",
+          "mean": "= away, aside"
         },
         {
-          "part": "cline(clin)",
-          "mean": "굽다, 기울다 (lean, bend)"
+          "part": "cline",
+          "mean": "= bend"
         }
       ],
-      "origin": "아래로 기울다 → 감소하다, 거절하다"
+      "origin": "…로부터 옆으로 굽다 →\n├ 직선에서 벗어나다 → (아래로) 기울다\n│ → 감소하다\n└ (몸을) 기울어 외면하다 → 거절하다",
+      "synonyms": [
+        "turn down"
+      ],
+      "examples": [
+        {
+          "en": "School violence has **declined** in recent years.",
+          "ko": "최근 몇 년 동안 학교 폭력이 감소했다."
+        },
+        {
+          "en": "In spite of reconstruction efforts, cities **declined** in many areas and many people started to leave.",
+          "ko": "재건 노력에도 불구하고, 도시들은 많은 분야에서 쇠퇴했고 많은 사람들이 떠나기 시작했다.",
+          "source": "모의"
+        },
+        {
+          "en": "She **declined** my offer to help her find a job.",
+          "ko": "그녀는 취업을 도와주겠다는 내 제의를 거절했다."
+        },
+        {
+          "en": "Tigers in Korea faced a **decline** in population due to hunting during the Joseon period.",
+          "ko": "한국의 호랑이는 조선 시대의 사냥으로 인해 개체 수가 감소했다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "incline",
-      "ipa": "/ɪnˈklaɪn/",
+      "ipa": [
+        "[inkláin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "~할 마음이 생기게 하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "경사"
+            "1 …할 마음이 내키게 하다",
+            "2 (특정한 방향으로) 기울다; 기울이다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~쪽으로 (toward)"
+          "part": "in",
+          "mean": "= toward"
         },
         {
-          "part": "cline(clin)",
-          "mean": "기울다 (lean)"
+          "part": "cline",
+          "mean": "= bend"
         }
       ],
-      "origin": "~쪽으로 기울다 → 마음이 기울다"
+      "origin": "… 쪽으로 굽다, 기울다",
+      "derivatives": [
+        {
+          "en": "inclined",
+          "pos": "형",
+          "defs": [
+            "1 (강하지는 않지만) …할 마음이 있는",
+            "2 …하는 경향이 있는"
+          ]
+        },
+        {
+          "en": "inclination",
+          "pos": "명",
+          "defs": [
+            "1 의향, 성향",
+            "2 경향"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be inclined to-v",
+          "ko": "1 …하는 경향이 있다 (= tend to-v)\n2 …하고 싶어 하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He'**s inclined to get** upset over small things.",
+          "ko": "그는 사소한 일에도 기분이 상하는 경향이 있다."
+        }
+      ]
     },
     {
       "en": "climate",
-      "ipa": "/ˈklaɪmət/",
+      "ipa": [
+        "[kláimit]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "기후",
-            "분위기"
+            "1 *(특정 지역의) 기후",
+            "2 (어떤 지역·시기의) 풍토, 풍조, 분위기"
           ]
         }
       ],
       "parts": [
         {
-          "part": "clim(clin)",
-          "mean": "기울다 (lean, slope)"
+          "part": "clim",
+          "mean": "= slope"
         },
         {
-          "part": "-ate",
-          "mean": "명사형 접미사"
+          "part": "ate",
+          "mean": "명접"
         }
       ],
-      "origin": "태양이 기우는 정도 → 기후"
+      "origin": "sloping surface of Earth 지구의 경사진\n표면 → 위도대 → 기후\n※ 위도에 따라 기후가 달라짐",
+      "synonyms": [
+        "atmosphere"
+      ],
+      "examples": [
+        {
+          "en": "The desert has an extremely dry **climate** with very little rainfall throughout the year.",
+          "ko": "사막은 연중 강수량이 매우 적은 극히 건조한 기후를 가지고 있다."
+        }
+      ]
     },
     {
       "en": "final",
-      "ipa": "/ˈfaɪnl/",
+      "ipa": [
+        "[fáinl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "마지막의"
+            "*최종적인, 최후의, 마지막의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "결승전",
-            "기말고사"
+            "1 최후의 것",
+            "2 결승(전)",
+            "3 (복수형) 기말고사"
           ]
         }
       ],
       "parts": [
         {
           "part": "fin",
-          "mean": "끝 (end)"
+          "mean": "= end"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "끝의 → 마지막의"
+      "origin": "끝의",
+      "synonyms": [
+        "last"
+      ],
+      "derivatives": [
+        {
+          "en": "finally",
+          "pos": "부",
+          "defs": [
+            "1 마침내, 드디어",
+            "2 최종적으로"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Emma was the **final** runner on her relay team.",
+          "ko": "Emma는 그녀의 계주 팀의 마지막 주자였다.",
+          "source": "모의"
+        },
+        {
+          "en": "After a long delay, the plane **finally** left.",
+          "ko": "오랜 지연 끝에, 그 비행기는 마침내 떠났다."
+        }
+      ]
     },
     {
       "en": "finance",
-      "ipa": "/ˈfaɪnæns/",
+      "ipa": [
+        "[fáinæns]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "재무",
-            "자금"
+            "1 재정, 재무",
+            "2 (복수형) *(공적·개인적) 자금*"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "자금을 조달하다"
+            "자본을 제공하다, 자금을 융통하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "fin",
-          "mean": "끝, 마무리 (end, settle)"
+          "mean": "= end"
         },
         {
-          "part": "-ance",
-          "mean": "명사형 접미사"
+          "part": "ance",
+          "mean": "명접"
         }
       ],
-      "origin": "(빚을) 마무리하다 → 재무"
+      "origin": "(빚을) 끝내게 함 → 지불; 재정(지원)",
+      "synonyms": [
+        "fund"
+      ],
+      "derivatives": [
+        {
+          "en": "financial",
+          "pos": "형",
+          "defs": [
+            "재정(상)의, 재무의, 금융상의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She is in charge of the company's **finances**.",
+          "ko": "그녀는 회사의 자금을 담당하고 있다."
+        },
+        {
+          "en": "**Financial** markets reacted negatively to the news.",
+          "ko": "금융 시장은 그 뉴스에 부정적으로 반응했다."
+        }
+      ]
     },
     {
       "en": "confine",
-      "ipa": "/kənˈfaɪn/",
+      "ipa": [
+        "[kәnfáin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "국한하다",
-            "가두다"
+            "1 (주로 + to) (…에) 한정[제한]하다",
+            "2 (…에) 가두다, 감금하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
-          "part": "fine(fin)",
-          "mean": "끝, 경계 (end, boundary)"
+          "part": "fine",
+          "mean": "= end"
         }
       ],
-      "origin": "경계 안에 함께 두다 → 국한하다"
+      "origin": "같은 경계(end)를 가지다 → 경계선을\n만들다 → 제한하다",
+      "synonyms": [
+        "limit to",
+        "restrict to"
+      ],
+      "derivatives": [
+        {
+          "en": "confinement",
+          "pos": "명",
+          "defs": [
+            "감금, 갇힘"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be confined to",
+          "ko": "…에만 있다[한정되다]"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Let's **confine** today's discussion **to** this matter.",
+          "ko": "오늘의 토론은 이 문제에만 한정하도록 합시다."
+        },
+        {
+          "en": "She **was confined to** the house because of a broken leg.",
+          "ko": "그녀는 부러진 다리 때문에 집에만 있어야 했다.",
+          "source": "모의"
+        },
+        {
+          "en": "A majority of animals raised as food live in **confinement**.",
+          "ko": "식용으로 사육되는 동물들의 대다수는 감금 환경에서 살아간다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "refine",
-      "ipa": "/rɪˈfaɪn/",
+      "ipa": [
+        "[rifáin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "정제하다",
-            "개선하다"
+            "1 정제하다",
+            "2 (의견·방법·제도 등을) 개선하다, 다듬다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
-          "part": "fine(fin)",
-          "mean": "끝, 세밀한 (end, fine)"
+          "part": "fine",
+          "mean": "= end:\n완성된[끝난] 상태"
         }
       ],
-      "origin": "다시 세밀하게 하다 → 정제하다"
+      "origin": "반복해서 (잘게) 끝까지 (분쇄)하다 →\n불순물을 제거하다 → 정제하다",
+      "synonyms": [
+        "make pure"
+      ],
+      "derivatives": [
+        {
+          "en": "refined",
+          "pos": "형",
+          "defs": [
+            "1 정제된",
+            "2 개선된, 다듬어진",
+            "3 세련된, 고상한"
+          ]
+        },
+        {
+          "en": "refinement",
+          "pos": "명",
+          "defs": [
+            "1 정제, 순화",
+            "2 개선",
+            "3 세련됨, 고상함"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "the process of **refining** oil",
+          "ko": "석유 정제 과정"
+        },
+        {
+          "en": "Here is a **refined** version of my earlier proposal.",
+          "ko": "저의 이전 기획안의 개선안입니다."
+        }
+      ]
     },
     {
       "en": "define",
-      "ipa": "/dɪˈfaɪn/",
+      "ipa": [
+        "[difáin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "정의하다",
-            "한정하다"
+            "1 (범위·경계 등을) 규정하다, 한정하다, 명확히 하다",
+            "2 *(의미를) 정의(定義)하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "완전히 (completely)"
+          "part": "de",
+          "mean": "「강조」"
         },
         {
-          "part": "fine(fin)",
-          "mean": "끝, 경계 (end, limit)"
+          "part": "fine",
+          "mean": "= limit"
         }
       ],
-      "origin": "경계를 완전히 정하다 → 정의하다"
+      "origin": "├ 한계를 확실히 정하다 → 규정[한정]하다\n└ 뜻(의미)을 확실히 정하다 → 정의하다",
+      "derivatives": [
+        {
+          "en": "definition",
+          "pos": "명",
+          "defs": [
+            "정의(定義), 의미"
+          ]
+        },
+        {
+          "en": "definite",
+          "pos": "형",
+          "defs": [
+            "명확한, 확실한, 확정된"
+          ]
+        },
+        {
+          "en": "definitely",
+          "pos": "부",
+          "defs": [
+            "틀림없이"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Creativity is commonly **defined** as the production of ideas that are both novel and useful.",
+          "ko": "창의성은 일반적으로 새롭고 유용한 아이디어를 만들어내는 것으로 정의된다.",
+          "source": "모의"
+        },
+        {
+          "en": "We don't have a **definite** plan for the weekend yet.",
+          "ko": "주말에 대한 확실한 계획은 아직 없다."
+        }
+      ]
     },
     {
       "en": "infinite",
-      "ipa": "/ˈɪnfɪnət/",
+      "ipa": [
+        "[ínfәnit]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -229,432 +454,795 @@
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
+          "part": "in",
+          "mean": "= not"
         },
         {
           "part": "fin",
-          "mean": "끝 (end)"
+          "mean": "= limit"
         },
         {
-          "part": "-ite",
-          "mean": "형용사형 접미사"
+          "part": "ite",
+          "mean": "형접"
         }
       ],
-      "origin": "끝이 없는 → 무한한"
+      "origin": "한계가 없는 → 유한하지 않은 → 무한한",
+      "synonyms": [
+        "endless"
+      ],
+      "antonyms": [
+        "finite",
+        "limited"
+      ],
+      "derivatives": [
+        {
+          "en": "infinity",
+          "pos": "명",
+          "defs": [
+            "1 무한(성), 무궁",
+            "2 [수학] 무한대"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The universe seems to be **infinite** in size.",
+          "ko": "우주는 크기 면에서 무한한 것처럼 보인다."
+        }
+      ]
     },
     {
       "en": "demand",
-      "ipa": "/dɪˈmænd/",
+      "ipa": [
+        "[dimǽnd]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "요구",
-            "수요"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "요구하다"
+            "*요구[요청]하다, 청구하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 요구",
+            "2 *수요"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "완전히 (completely)"
+          "part": "de",
+          "mean": "「강조」"
         },
         {
           "part": "mand",
-          "mean": "맡기다, 명령하다 (order, entrust)"
+          "mean": "= entrust"
         }
       ],
-      "origin": "완전히 명령하다 → 요구하다"
+      "origin": "(타인에게 책임·임무를) 완전히 맡기다\n→ 강력히 부탁하다, 요구하다",
+      "synonyms": [
+        "request",
+        "ask for",
+        "insist"
+      ],
+      "antonyms": [
+        "supply"
+      ],
+      "derivatives": [
+        {
+          "en": "demanding",
+          "pos": "형",
+          "defs": [
+            "1 많은 노력을 요하는, 힘든",
+            "2 (사람이) 요구가 지나친"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "People **demand** good service, so the **demand** for friendly staff is high.",
+          "ko": "사람들은 좋은 서비스를 원하기 때문에, 친절한 직원에 대한 수요가 많다."
+        },
+        {
+          "en": "Teaching is a very **demanding** job.",
+          "ko": "가르치는 것은 아주 많은 노력을 요하는 일이다."
+        }
+      ]
     },
     {
       "en": "command",
-      "ipa": "/kəˈmænd/",
+      "ipa": [
+        "[kәmǽnd]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "명령",
-            "지휘"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "명령하다",
-            "지배하다"
+            "1 명령[지시]하다",
+            "2 지휘[통제]하다",
+            "3 (존경·관심 등을) 받다",
+            "4 (경치가) 내려다보이다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *명령, 지시",
+            "2 지휘, 통제",
+            "3 [컴퓨터] 명령어"
           ]
         }
       ],
       "parts": [
         {
-          "part": "com-",
-          "mean": "완전히 (completely)"
+          "part": "com",
+          "mean": "「강조」"
         },
         {
           "part": "mand",
-          "mean": "맡기다, 명령하다 (order)"
+          "mean": "= order"
         }
       ],
-      "origin": "완전히 명령하다 → 지휘하다"
+      "origin": "핵심 다의어\n명령하다\n→ (위에서 내려다보며) 지휘하다\n→ (위에서) 내려다보이다",
+      "synonyms": [
+        "order"
+      ],
+      "derivatives": [
+        {
+          "en": "commander",
+          "pos": "명",
+          "defs": [
+            "지휘관, 사령관"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **commanded** that they build a house that **commands** a clear view of the sea.",
+          "ko": "그는 그들에게 바다가 훤히 내려다보이는 집을 지으라고 명령했다."
+        },
+        {
+          "en": "He had only a few soldiers under his **command**.",
+          "ko": "그의 지휘 아래에는 겨우 몇 명의 병사만이 있었다."
+        }
+      ]
     },
     {
       "en": "mandate",
-      "ipa": "/ˈmændeɪt/",
+      "ipa": [
+        "[mǽndeit]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "권한",
-            "위임 사항"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "명령하다"
+            "1 명령하다, (법률로) 규정하다",
+            "2 위임하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 (선거로 부여된) 권한, 위임",
+            "2 명령, 지시, 규정"
           ]
         }
       ],
       "parts": [
         {
           "part": "mand",
-          "mean": "맡기다 (entrust, order)"
+          "mean": "= order"
         },
         {
-          "part": "-ate",
-          "mean": "명사/동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "맡긴 것 → 권한, 위임"
+      "origin": "명령하다",
+      "derivatives": [
+        {
+          "en": "mandatory",
+          "pos": "형",
+          "defs": [
+            "(법·규칙에 의해) 의무적인"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The law **mandates** that all drivers wear seat belts.",
+          "ko": "법은 모든 운전자가 안전벨트를 착용하도록 규정하고 있다."
+        },
+        {
+          "en": "The new **mandate** requires factories to reduce air pollution.",
+          "ko": "새로운 규정은 공장들이 대기 오염을 줄이기를 요구한다."
+        },
+        {
+          "en": "It is **mandatory** for workers to wear masks.",
+          "ko": "근로자들이 마스크를 쓰는 것이 의무적이다."
+        }
+      ]
     },
     {
       "en": "recommend",
-      "ipa": "/ˌrekəˈmend/",
+      "ipa": [
+        "[rèkәménd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "추천하다",
-            "권고하다"
+            "1 *(…하도록) 권하다",
+            "2 추천하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "「강조」"
         },
         {
-          "part": "com-",
-          "mean": "완전히 (completely)"
+          "part": "com",
+          "mean": "= together"
         },
         {
-          "part": "mend(mand)",
-          "mean": "맡기다 (entrust)"
+          "part": "mend",
+          "mean": "= order"
         }
       ],
-      "origin": "다시 완전히 맡기다 → 추천하다"
+      "origin": "함께 …하도록 명하다 → 권하다",
+      "derivatives": [
+        {
+          "en": "recommendation",
+          "pos": "명",
+          "defs": [
+            "1 권고 (행위)",
+            "2 추천(장)"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "recommend v-ing",
+          "ko": "…하도록 권하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Doctors **recommend** that people eat food containing carbohydrates within thirty minutes after working out.",
+          "ko": "의사들은 운동 후 30분 이내에 탄수화물이 포함된 음식을 섭취하도록 권장한다.",
+          "source": "교과서"
+        },
+        {
+          "en": "a letter of **recommendation**",
+          "ko": "추천서"
+        }
+      ]
     },
     {
       "en": "local",
-      "ipa": "/ˈloʊkl/",
+      "ipa": [
+        "[lóukәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "지역의",
-            "현지의"
+            "1 *(그) 지역의, 지방의, 현지의",
+            "2 국부(전체 중 일부)의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "현지인"
+            "(주로 복수형) (특정 지역의) 주민, 현지인"
           ]
         }
       ],
       "parts": [
         {
           "part": "loc",
-          "mean": "장소 (place)"
+          "mean": "= place"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접「…의」"
         }
       ],
-      "origin": "장소의 → 지역의"
+      "origin": "장소의",
+      "examples": [
+        {
+          "en": "a **local** newspaper",
+          "ko": "지역 신문"
+        },
+        {
+          "en": "Our houses, roads, railways, airports, offices, and so on are all designed for the **local** climate.",
+          "ko": "우리의 주택, 도로, 철도, 공항, 사무실 등은 모두 현지의 기후에 맞게 설계되었다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "locate",
-      "ipa": "/ˈloʊkeɪt/",
+      "ipa": [
+        "[lóukeit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "위치를 찾아내다",
-            "(특정 위치에) 두다"
+            "1 …의 위치[장소]를 파악하다",
+            "2 *…의 위치를 ~에 정하다, 두다, 설치하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "loc",
-          "mean": "장소 (place)"
+          "mean": "= place"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접「되게 하다」"
         }
       ],
-      "origin": "장소를 정하다 → 위치를 찾다"
+      "origin": "위치시키다",
+      "derivatives": [
+        {
+          "en": "location",
+          "pos": "명",
+          "defs": [
+            "(건물 등이 있는) 위치, 장소"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be located (in)",
+          "ko": "(…에) 위치하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This app can help you **locate** your keys if you lose them.",
+          "ko": "이 앱은 당신이 열쇠를 잃어버렸을 때 위치를 찾을 수 있도록 도와준다."
+        },
+        {
+          "en": "Our donation booths **are located in** the lobbies of the campus libraries.",
+          "ko": "우리의 기부 부스는 캠퍼스 도서관의 로비에 위치해 있다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "allocate",
-      "ipa": "/ˈæləkeɪt/",
+      "ipa": [
+        "[ǽlәkèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "할당하다",
-            "배분하다"
+            "(임무·자금·시간 등을) 할당하다, 배분하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "al-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "al",
+          "mean": "= ad:to"
         },
         {
           "part": "loc",
-          "mean": "장소 (place)"
+          "mean": "= place"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "각 장소에 놓다 → 할당하다"
+      "origin": "각자에게 (몫을) 배치시키다 → 할당하다",
+      "synonyms": [
+        "assign"
+      ],
+      "derivatives": [
+        {
+          "en": "allocation",
+          "pos": "명",
+          "defs": [
+            "할당(량), 배당(액)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The company **allocated** more of its budget for marketing.",
+          "ko": "회사는 마케팅에 더 많은 예산을 할당했다."
+        }
+      ]
     },
     {
       "en": "pathetic",
-      "ipa": "/pəˈθetɪk/",
+      "ipa": [
+        "[pәθétik]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "불쌍한",
-            "한심한"
+            "1 한심한, 형편없는",
+            "2 애처로운, 가슴 아픈"
           ]
         }
       ],
       "parts": [
         {
-          "part": "path",
-          "mean": "겪다, 감정 (suffer, feeling)"
+          "part": "pathe",
+          "mean": "= suffer"
         },
         {
-          "part": "-etic",
-          "mean": "형용사형 접미사"
+          "part": "tic",
+          "mean": "형접"
         }
       ],
-      "origin": "감정을 겪게 하는 → 불쌍한"
+      "origin": "괴로워하는 → 가슴 아픈",
+      "synonyms": [
+        "pitiful"
+      ],
+      "examples": [
+        {
+          "en": "Don't make **pathetic** excuses.",
+          "ko": "한심한 변명 늘어놓지 마."
+        },
+        {
+          "en": "The sick and hungry children were a **pathetic** sight.",
+          "ko": "아프고 굶주린 아이들을 보는 것은 가슴이 아팠다."
+        }
+      ]
     },
     {
       "en": "empathy",
-      "ipa": "/ˈempəθi/",
+      "ipa": [
+        "[émpәθi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "공감",
-            "감정 이입"
+            "공감 (능력), 감정 이입"
           ]
         }
       ],
       "parts": [
         {
-          "part": "em-(en-)",
-          "mean": "안에 (in)"
+          "part": "em",
+          "mean": "= in"
         },
         {
           "part": "path",
-          "mean": "겪다, 감정 (feeling)"
+          "mean": "= feel"
         },
         {
-          "part": "-y",
-          "mean": "명사형 접미사"
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "안에서 함께 겪다 → 공감"
+      "origin": "마음속에 (같은) 감정을 느낌 → 공감",
+      "derivatives": [
+        {
+          "en": "empathetic",
+          "pos": "형",
+          "defs": [
+            "(또는 empathic) 감정을 이입하는[할 수 있는]"
+          ]
+        },
+        {
+          "en": "empathize",
+          "pos": "동",
+          "defs": [
+            "(+ with) 공감하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Empathy** creates a closeness between people.",
+          "ko": "공감은 사람들 사이에서 친밀감을 형성한다."
+        },
+        {
+          "en": "The basis for the guilt that comes from harming others is **empathetic** distress.",
+          "ko": "다른 이를 해침으로써 느끼는 죄책감의 근원은 공감에 의한 고통이다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "sympathy",
-      "ipa": "/ˈsɪmpəθi/",
+      "ipa": [
+        "[símpәθi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "동정",
-            "공감"
+            "1 동정(심), 연민",
+            "2 동감, 공감, 찬성"
           ]
         }
       ],
       "parts": [
         {
-          "part": "sym-",
-          "mean": "함께 (together)"
+          "part": "sym",
+          "mean": "= together"
         },
         {
           "part": "path",
-          "mean": "겪다, 감정 (feeling)"
+          "mean": "= feel"
         },
         {
-          "part": "-y",
-          "mean": "명사형 접미사"
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "함께 겪다 → 동정"
+      "origin": "함께 느낌 → 감정적 공감 → 동정, 연민",
+      "synonyms": [
+        "pity",
+        "compassion"
+      ],
+      "derivatives": [
+        {
+          "en": "sympathetic",
+          "pos": "형",
+          "defs": [
+            "1 동정적인, 가엾게 여기는",
+            "2 호의적인, 공감하는",
+            "3 (사람이) 호감이 가는"
+          ]
+        },
+        {
+          "en": "sympathize",
+          "pos": "동",
+          "defs": [
+            "(+ with) 1 동정하다, 가엾게 여기다",
+            "2 공감하다, 찬성하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I feel a deep **sympathy** for the abandoned animals.",
+          "ko": "나는 버려진 동물들에게 깊은 동정심을 느낀다."
+        },
+        {
+          "en": "She **sympathized with** the victims of the disaster and donated money.",
+          "ko": "그녀는 재해 피해자들을 안타깝게 여기며 기부를 했다."
+        }
+      ]
     },
     {
       "en": "antipathy",
-      "ipa": "/ænˈtɪpəθi/",
+      "ipa": [
+        "[æntípәθi]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "반감",
-            "혐오"
+            "(강한) 반감, 혐오"
           ]
         }
       ],
       "parts": [
         {
-          "part": "anti-",
-          "mean": "반대 (against)"
+          "part": "anti",
+          "mean": "= opposite"
         },
         {
           "part": "path",
-          "mean": "감정 (feeling)"
+          "mean": "= feel"
         },
         {
-          "part": "-y",
-          "mean": "명사형 접미사"
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "반대 감정 → 반감"
+      "origin": "반대의 감정을 가짐 → 반감",
+      "synonyms": [
+        "hostility"
+      ],
+      "examples": [
+        {
+          "en": "Despite their **antipathy**, they managed to work together on the project.",
+          "ko": "서로의 반감에도 불구하고, 그들은 프로젝트를 함께 수행해냈다."
+        }
+      ]
     },
     {
       "en": "patient",
-      "ipa": "/ˈpeɪʃnt/",
+      "ipa": [
+        "[péiʃәnt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "인내심 있는"
+            "참을성[인내심]이 있는, 끈기 있는"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "환자"
+            "*환자"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pat(path)",
-          "mean": "겪다, 참다 (suffer, endure)"
+          "part": "pati",
+          "mean": "= suffer"
         },
         {
-          "part": "-ient",
-          "mean": "형용사형 접미사"
+          "part": "ent",
+          "mean": "형접"
         }
       ],
-      "origin": "겪어내는 → 인내심 있는, 환자"
+      "origin": "suffering 고통을 겪는",
+      "synonyms": [
+        "tolerant"
+      ],
+      "antonyms": [
+        "impatient"
+      ],
+      "derivatives": [
+        {
+          "en": "patience",
+          "pos": "명",
+          "defs": [
+            "인내(력), 참을성, 끈기"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "A: How can you be so **patient** with her?\nB: I realized long ago that **patience** is the best policy.",
+          "ko": "A: 너는 어떻게 그녀에 대해 그렇게 잘 참을 수 있니?\nB: 나는 오래 전에 인내가 최선의 방책이라는 것을 깨달았지."
+        },
+        {
+          "en": "The nurses moved the **patient** into the operating room.",
+          "ko": "간호사들은 그 환자를 수술실로 옮겼다."
+        }
+      ]
     },
     {
       "en": "passive",
-      "ipa": "/ˈpæsɪv/",
+      "ipa": [
+        "[pǽsiv]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "수동적인",
-            "소극적인"
+            "1 수동적인, 소극적인",
+            "2 [문법] 수동태인"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pass(path)",
-          "mean": "겪다 (suffer, endure)"
+          "part": "pass",
+          "mean": "= suffer"
         },
         {
-          "part": "-ive",
-          "mean": "형용사형 접미사"
+          "part": "ive",
+          "mean": "형접"
         }
       ],
-      "origin": "당하는 → 수동적인"
+      "origin": "(저항하지 않고) 고통을 받는, 영향을 받는\n→ 수동적인",
+      "antonyms": [
+        "active"
+      ],
+      "examples": [
+        {
+          "en": "A **passive** person often avoids conflict instead of facing it.",
+          "ko": "수동적인 사람은 흔히 갈등을 마주하기보다는 피하려고 한다."
+        }
+      ]
     },
     {
       "en": "passion",
-      "ipa": "/ˈpæʃn/",
+      "ipa": [
+        "[pǽʃәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "열정"
+            "1 *열정",
+            "2 열중, 애착"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pass(path)",
-          "mean": "겪다, 고통 (suffer)"
+          "part": "pass",
+          "mean": "= suffer"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "강렬하게 겪는 감정 → 열정"
+      "origin": "(…을 향한) 고난 → 열정",
+      "synonyms": [
+        "enthusiasm"
+      ],
+      "derivatives": [
+        {
+          "en": "passionate",
+          "pos": "형",
+          "defs": [
+            "열렬한, 정열적인"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "In this concert, we will be able to show you how big our **passion** for music is.",
+          "ko": "이 콘서트에서 음악에 대한 우리의 열정이 얼마나 큰지 여러분에게 보여드릴 수 있을 것입니다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "compassion",
-      "ipa": "/kəmˈpæʃn/",
+      "ipa": [
+        "[kәmpǽʃәn]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "연민",
-            "동정심"
+            "(깊은) 동정, (남을) 측은하게 여기는 마음"
           ]
         }
       ],
       "parts": [
         {
-          "part": "com-",
-          "mean": "함께 (together)"
+          "part": "com",
+          "mean": "= together"
         },
         {
-          "part": "pass(path)",
-          "mean": "겪다 (suffer)"
+          "part": "pass",
+          "mean": "= suffer"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "함께 겪다 → 연민"
+      "origin": "남의 고통을 함께 겪음",
+      "synonyms": [
+        "pity",
+        "sympathy"
+      ],
+      "derivatives": [
+        {
+          "en": "compassionate",
+          "pos": "형",
+          "defs": [
+            "동정하는, 가엾게 여기는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He showed great **compassion** by offering food to those in poverty.",
+          "ko": "그는 빈곤한 사람들에게 음식을 제공하며 큰 연민을 보였다."
+        }
+      ]
     }
   ]
 }
