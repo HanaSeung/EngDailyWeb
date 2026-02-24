@@ -3,602 +3,1225 @@
   "words": [
     {
       "en": "evolve",
-      "ipa": "/ɪˈvɑːlv/",
+      "ipa": [
+        "[ivɑ́ːlv]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "진화하다",
-            "발달하다"
+            "1 진화하다; 진화시키다",
+            "2 *발전하다; 발전시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
+          "part": "e",
+          "mean": "= ex:out"
         },
         {
-          "part": "volv",
-          "mean": "말다, 돌다 (roll)"
+          "part": "volve",
+          "mean": "= roll"
         }
       ],
-      "origin": "밖으로 펼쳐지다 → 진화하다"
+      "origin": "굴러서 펼치다 →\n연속적으로 (서서히) 전개되다",
+      "derivatives": [
+        {
+          "en": "evolution",
+          "pos": "명",
+          "defs": [
+            "1 진화",
+            "2 발전"
+          ]
+        },
+        {
+          "en": "evolutionary",
+          "pos": "형",
+          "defs": [
+            "1 진화의; 진화론적",
+            "2 발전의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Darwin's theory of **evolution** claims that life has **evolved** over time.",
+          "ko": "다윈의 진화론은 생물이 시간이 지나면서 진화해 왔다고 주장한다."
+        },
+        {
+          "en": "The need to belong is likely a product of human beings' **evolutionary** history as a social species.",
+          "ko": "소속 욕구는 사회적 존재로서 인류의 진화적 역사의 산물일 것이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "revolve",
-      "ipa": "/rɪˈvɑːlv/",
+      "ipa": [
+        "[rivɑ́ːlv]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "회전하다",
-            "공전하다"
+            "1 (…을 축으로) 돌다, 회전하다; 돌리다, 회전시키다",
+            "2 [천문학] 공전하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
-          "part": "volv",
-          "mean": "돌다 (roll)"
+          "part": "volve",
+          "mean": "= roll"
         }
       ],
-      "origin": "다시 돌다 → 회전하다"
+      "origin": "계속 돌다, 회전하다",
+      "derivatives": [
+        {
+          "en": "revolution",
+          "pos": "명",
+          "defs": [
+            "1 혁명, 대변혁",
+            "2 회전, 공전"
+          ]
+        },
+        {
+          "en": "revolutionary",
+          "pos": "형",
+          "defs": [
+            "혁명의, 혁명적인, 대변혁의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Revolving** doors can conserve energy.",
+          "ko": "회전문은 에너지를 절약할 수 있다."
+        }
+      ]
     },
     {
       "en": "involve",
-      "ipa": "/ɪnˈvɑːlv/",
+      "ipa": [
+        "[invɑ́ːlv]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "포함하다",
-            "관련시키다"
+            "1 *포함하다, (필연적으로) 수반하다",
+            "2 *관계[관련]시키다, (사건 등에) 말려들게 하다",
+            "3 참여시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안에 (in)"
+          "part": "in",
+          "mean": "= in"
         },
         {
-          "part": "volv",
-          "mean": "말다 (roll, wrap)"
+          "part": "volve",
+          "mean": "= roll"
         }
       ],
-      "origin": "안으로 말아 넣다 → 관련시키다"
+      "origin": "안으로 말아 넣어 감싸다\n→ 관련시키다, 포함하다",
+      "derivatives": [
+        {
+          "en": "involvement",
+          "pos": "명",
+          "defs": [
+            "참여, 관련, 연루"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be[get] involved in",
+          "ko": "…에 관련[개입]되다"
+        },
+        {
+          "en": "involve A in N/v-ing",
+          "ko": "A를 …에 관련[개입]시키다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "His new position **involves** increased responsibility.",
+          "ko": "그의 새 직책은 더 많은 책임을 수반한다."
+        },
+        {
+          "en": "I don't want to **get involved in** their argument.",
+          "ko": "나는 그들의 말다툼에 말려들고 싶지 않다."
+        }
+      ]
     },
     {
       "en": "volume",
-      "ipa": "/ˈvɑːljuːm/",
+      "ipa": [
+        "[vɑ́ːljuːm]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "부피",
-            "음량",
-            "(책의) 권"
+            "1 음량, 볼륨",
+            "2 양",
+            "3 부피, 용적",
+            "4 책, 권(卷)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "volum(volv)",
-          "mean": "말다 (roll)"
+          "part": "volu",
+          "mean": "= roll"
+        },
+        {
+          "part": "me",
+          "mean": "= men:명사형 어미"
         }
       ],
-      "origin": "두루마리로 말린 것 → 권, 부피"
+      "origin": "말아놓은 것\n※ 예전에는 책이 두루마리 형태였던 것에서\n유래 → (책 한 권의) 크기, 부피의 의미로 발전",
+      "synonyms": [
+        "amount",
+        "quantity"
+      ],
+      "examples": [
+        {
+          "en": "The liquid was five liters in **volume**.",
+          "ko": "액체의 양은 5리터였다."
+        },
+        {
+          "en": "We own a library of 500 **volumes**.",
+          "ko": "우리는 500권의 장서를 가지고 있다."
+        }
+      ]
     },
     {
       "en": "prefer",
-      "ipa": "/prɪˈfɜːr/",
+      "ipa": [
+        "[prifə́ːr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "선호하다"
+            "…을 더 좋아하다, 차라리 …을 택하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pre-",
-          "mean": "앞에 (before)"
+          "part": "pre",
+          "mean": "= before"
         },
         {
           "part": "fer",
-          "mean": "나르다 (carry)"
+          "mean": "= carry"
         }
       ],
-      "origin": "앞에 내놓다 → 선호하다"
+      "origin": "…을 (택하여) 먼저 나르다",
+      "derivatives": [
+        {
+          "en": "preference",
+          "pos": "명",
+          "defs": [
+            "선호(하는 것)"
+          ]
+        },
+        {
+          "en": "preferable",
+          "pos": "형",
+          "defs": [
+            "(…보다) 더 좋은, 더 잘 맞는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "prefer A to B",
+          "ko": "B보다 A를 더 좋아하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "An introverted person may **prefer** online **to** in-person communication.",
+          "ko": "내향적인 사람은 대면 소통보다 온라인 소통을 더 선호할 수 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "Our musical **preferences** are very different.",
+          "ko": "우리의 음악적 선호는 매우 다르다."
+        }
+      ]
     },
     {
       "en": "refer",
-      "ipa": "/rɪˈfɜːr/",
+      "ipa": [
+        "[rifə́ːr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "언급하다",
-            "참조하다",
-            "보내다"
+            "1 (+ to) *언급하다, …라고 부르다*",
+            "2 참조하다, 조회하다",
+            "3 (문제·사건 등을) 위탁하다, 회부하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back, again"
         },
         {
           "part": "fer",
-          "mean": "나르다 (carry)"
+          "mean": "= carry"
         }
       ],
-      "origin": "뒤로 가져가다 → 참조하다"
+      "origin": "핵심 다의어\n다시 전달하다 →\n├ (아는[본] 것을 다시) 언급하다; 참조하다\n└ (문제 등을) 되돌려 보내다 → 회부하다",
+      "derivatives": [
+        {
+          "en": "reference",
+          "pos": "명",
+          "defs": [
+            "1 언급, 지칭, 가리킴",
+            "2 참조(문), 참고",
+            "3 추천서"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "refer to A as B",
+          "ko": "A를 B라고 부르다, 언급하다 (= B be referred to as A)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He asked us not to **refer to** his past mistakes.",
+          "ko": "그는 우리에게 자신의 과거의 실수를 언급하지 말라고 부탁했다."
+        },
+        {
+          "en": "Please **refer to** the attachment for details.",
+          "ko": "자세한 사항은 첨부파일을 참조해 주세요.",
+          "source": "모의"
+        },
+        {
+          "en": "Experts sometimes forget how hard something is for beginners, which **is referred to as** the 'curse of knowledge'.",
+          "ko": "전문가들은 때때로 어떤 일이 초보자에게 얼마나 어려운지 잊어 버리곤 하는데, 이것을 '지식의 저주'라고 한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "confer",
-      "ipa": "/kənˈfɜːr/",
+      "ipa": [
+        "[kәnfə́ːr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "상의하다",
-            "(학위를) 수여하다"
+            "1 (+ with) 의논하다, 협의하다",
+            "2 (+ (up)on) 수여하다, 주다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
           "part": "fer",
-          "mean": "나르다 (carry)"
+          "mean": "= carry, bring"
         }
       ],
-      "origin": "함께 가져오다 → 상의하다"
+      "origin": "(사람들을) 모두 한곳에 데려다 놓다\n→ 협의하다",
+      "synonyms": [
+        "consult with"
+      ],
+      "derivatives": [
+        {
+          "en": "conference",
+          "pos": "명",
+          "defs": [
+            "1 회담, 회견",
+            "2 회의, 협의회"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I need to **confer with** my supervisor before making a final decision.",
+          "ko": "나는 최종 결정을 내리기 전에 상사와 의논해야 한다."
+        },
+        {
+          "en": "a press **conference**",
+          "ko": "기자 회견"
+        }
+      ]
     },
     {
       "en": "infer",
-      "ipa": "/ɪnˈfɜːr/",
+      "ipa": [
+        "[infə́ːr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "추론하다"
+            "추론하다, 추정[추측]하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안으로 (in)"
+          "part": "in",
+          "mean": "= in"
         },
         {
           "part": "fer",
-          "mean": "나르다 (carry)"
+          "mean": "= carry"
         }
       ],
-      "origin": "안으로 가져오다 → 추론하다"
+      "origin": "(사실·증거를) 끌어 나르다 → 결론을 (미리)\n끌어내다 → 추론하다",
+      "synonyms": [
+        "deduce"
+      ],
+      "derivatives": [
+        {
+          "en": "inference",
+          "pos": "명",
+          "defs": [
+            "추론, 추정, 추측"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "From the evidence, we can **infer** that he is innocent.",
+          "ko": "그 증거로부터, 우리는 그가 결백함을 추론할 수 있다."
+        },
+        {
+          "en": "The scientist made an **inference** based on the data.",
+          "ko": "그 과학자는 데이터를 바탕으로 추론을 했다."
+        }
+      ]
     },
     {
       "en": "indifferent",
-      "ipa": "/ɪnˈdɪfrənt/",
+      "ipa": [
+        "[indífrәnt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "무관심한"
+            "(+ to) (…에) 무관심한, 사심이 없는, 동정심이 없는"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
+          "part": "in",
+          "mean": "= not"
         },
         {
-          "part": "dif-(dis-)",
-          "mean": "떨어져 (apart)"
+          "part": "differ",
+          "mean": "다르다"
         },
         {
-          "part": "fer",
-          "mean": "나르다 (carry)"
-        },
-        {
-          "part": "-ent",
-          "mean": "형용사형 접미사"
+          "part": "ent",
+          "mean": "형접"
         }
       ],
-      "origin": "차이를 나르지 않는 → 무관심한"
+      "origin": "의견이 다르지 않은 →\n어떻든 상관없는 → 무관심의\n※ differ: dif(=dis:away) + fer(=carry)\n→ 동떨어진 것을 지니다 → 다르다",
+      "derivatives": [
+        {
+          "en": "indifference",
+          "pos": "명",
+          "defs": [
+            "(+ to/toward) 무관심, 냉담"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "How can you be **indifferent to** the suffering of starving people?",
+          "ko": "어떻게 당신은 굶주리고 있는 사람들의 고통에 무관심할 수 있습니까?"
+        },
+        {
+          "en": "Many people have an **indifference to** politics.",
+          "ko": "많은 사람들이 정치에 무관심하다."
+        }
+      ]
     },
     {
       "en": "fertile",
-      "ipa": "/ˈfɜːrtl/",
+      "ipa": [
+        "[fə́ːrtl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "비옥한",
-            "다산의"
+            "1 *(땅이) 기름진, 비옥한",
+            "2 많이 낳는, 생식 능력이 있는"
           ]
         }
       ],
       "parts": [
         {
-          "part": "fer",
-          "mean": "나르다, 낳다 (carry, bear)"
+          "part": "fert",
+          "mean": "= bear"
         },
         {
-          "part": "-tile",
-          "mean": "형용사형 접미사"
+          "part": "ile",
+          "mean": "형접"
         }
       ],
-      "origin": "많이 낳는 → 비옥한"
+      "origin": "작물을 산출하는",
+      "synonyms": [
+        "productive"
+      ],
+      "antonyms": [
+        "barren(척박한)"
+      ],
+      "derivatives": [
+        {
+          "en": "fertilize",
+          "pos": "동",
+          "defs": [
+            "1 (땅을) 비옥하게 하다",
+            "2 …을 수정시키다"
+          ]
+        },
+        {
+          "en": "fertilizer",
+          "pos": "명",
+          "defs": [
+            "(화학) 비료"
+          ]
+        },
+        {
+          "en": "fertility",
+          "pos": "명",
+          "defs": [
+            "1 비옥함",
+            "2 다산(多産)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Overuse of chemical **fertilizers** makes **fertile** land barren.",
+          "ko": "화학 비료의 과도한 사용은 비옥한 토지를 척박하게 만든다."
+        }
+      ]
     },
     {
       "en": "vanish",
-      "ipa": "/ˈvænɪʃ/",
+      "ipa": [
+        "[vǽniʃ]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "사라지다"
+            "사라지다, 소멸하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "van",
-          "mean": "빈 (empty)"
+          "mean": "= empty"
         },
         {
-          "part": "-ish",
-          "mean": "동사형 접미사"
+          "part": "ish",
+          "mean": "동접"
         }
       ],
-      "origin": "비어지다 → 사라지다"
+      "origin": "공허해지다, 형체 없이 사라지다",
+      "synonyms": [
+        "disappear"
+      ],
+      "antonyms": [
+        "appear",
+        "emerge"
+      ],
+      "phrases": [
+        {
+          "en": "vanish into thin air",
+          "ko": "갑자기[온데간데 없이] 사라지다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cat **vanished** into the darkness.",
+          "ko": "고양이가 어둠 속으로 사라졌다."
+        },
+        {
+          "en": "The magician made the rabbit **vanish** into thin air.",
+          "ko": "마술사는 토끼를 흔적도 없이 사라지게 했다."
+        }
+      ]
     },
     {
       "en": "vain",
-      "ipa": "/veɪn/",
+      "ipa": [
+        "[vein]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "헛된",
-            "허영심 많은"
+            "1 허영심이 강한",
+            "2 헛된, 무익한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "van",
-          "mean": "빈 (empty)"
+          "part": "vain",
+          "mean": "라틴어 vanus(=empty)에서 온 말"
         }
       ],
-      "origin": "비어 있는 → 헛된"
+      "origin": "",
+      "synonyms": [
+        "conceited",
+        "useless"
+      ],
+      "derivatives": [
+        {
+          "en": "vanity",
+          "pos": "명",
+          "defs": [
+            "1 허영심, 자만심",
+            "2 공허함, 허무함"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "in vain",
+          "ko": "헛되이"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't let their sacrifice be **in vain**.",
+          "ko": "그들의 희생이 헛되지 않게 해라."
+        },
+        {
+          "en": "He bought an expensive car purely out of **vanity**.",
+          "ko": "그는 순전히 허영심 때문에 비싼 차를 샀다."
+        }
+      ]
     },
     {
       "en": "avoid",
-      "ipa": "/əˈvɔɪd/",
+      "ipa": [
+        "[әvɔ́id]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "피하다"
+            "(+ v-ing) 피하다, 회피하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "a-",
-          "mean": "~으로 (to)"
+          "part": "a",
+          "mean": "= ex:out"
         },
         {
-          "part": "void(van)",
-          "mean": "빈 (empty)"
+          "part": "void",
+          "mean": "= empty"
         }
       ],
-      "origin": "빈 곳으로 가다 → 피하다"
+      "origin": "텅 비우고 밖으로 나가다",
+      "synonyms": [
+        "evade",
+        "escape"
+      ],
+      "derivatives": [
+        {
+          "en": "avoidance",
+          "pos": "명",
+          "defs": [
+            "회피, 기피"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Some people **avoid paying** taxes.",
+          "ko": "몇몇 사람들은 탈세를 한다."
+        },
+        {
+          "en": "They made up their minds to flee Syria and go to Germany to **avoid** the war.",
+          "ko": "그들은 전쟁을 피하기 위해 시리아를 떠나 독일로 가기로 결심했다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "vacant",
-      "ipa": "/ˈveɪkənt/",
+      "ipa": [
+        "[véikәnt]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "비어 있는",
-            "결원의"
+            "1 비어 있는, 사람이 살지 않는",
+            "2 *빈자리의, 결원의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "vac(van)",
-          "mean": "빈 (empty)"
+          "part": "vac",
+          "mean": "= empty"
         },
         {
-          "part": "-ant",
-          "mean": "형용사형 접미사"
+          "part": "ant",
+          "mean": "형접"
         }
       ],
-      "origin": "비어 있는"
+      "origin": "빈",
+      "synonyms": [
+        "empty"
+      ],
+      "antonyms": [
+        "occupied"
+      ],
+      "derivatives": [
+        {
+          "en": "vacancy",
+          "pos": "명",
+          "defs": [
+            "1 빈자리, 결원",
+            "2 빈방"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "A: Do you have any **vacant** rooms?\nB: I'm sorry. There are no **vacancies**.",
+          "ko": "A: 비어 있는 방 있어요?\nB: 죄송합니다. 빈방이 없네요."
+        }
+      ]
     },
     {
       "en": "vacuum",
-      "ipa": "/ˈvækjuːm/",
+      "ipa": [
+        "[vǽkjuːm]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "진공"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "진공 청소기로 청소하다"
+            "1 *진공",
+            "2 (자리·마음 등의) 공백, 공허",
+            "3 (비격식) 진공 청소기 (= vacuum cleaner)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "vacu(van)",
-          "mean": "빈 (empty)"
-        },
-        {
-          "part": "-um",
-          "mean": "명사형 접미사"
+          "part": "vacuum",
+          "mean": "라틴어 vacuus(=empty)에서 온 말"
         }
       ],
-      "origin": "완전히 빈 상태 → 진공"
+      "origin": "",
+      "examples": [
+        {
+          "en": "As we all know, the term \"**vacuum**\" is an inappropriate name because there exists no **vacuum** in a **vacuum** cleaner.",
+          "ko": "우리 모두가 알듯이, 진공 청소기에는 진공이 존재하지 않기 때문에 '진공'이라는 용어는 부적절한 이름이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "essence",
-      "ipa": "/ˈesns/",
+      "ipa": [
+        "[ésәns]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "본질",
-            "정수"
+            "1 *본질, 진수, 정수",
+            "2 핵심",
+            "3 (식물 등에서 추출한) 원액"
           ]
         }
       ],
       "parts": [
         {
           "part": "ess",
-          "mean": "존재하다 (be)"
+          "mean": "= be"
         },
         {
-          "part": "-ence",
-          "mean": "명사형 접미사"
+          "part": "ence",
+          "mean": "명접"
         }
       ],
-      "origin": "존재의 핵심 → 본질"
+      "origin": "존재, 본질",
+      "derivatives": [
+        {
+          "en": "essential",
+          "pos": "형",
+          "defs": [
+            "1 필수적인",
+            "2 본질적인"
+          ]
+        },
+        {
+          "en": "essentially",
+          "pos": "부",
+          "defs": [
+            "본질적으로, 본래"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "This film contains the **essence** of Eastern culture.",
+          "ko": "이 영화는 동양 문화의 정수를 담고 있다."
+        },
+        {
+          "en": "Vitamins are **essential** for proper physical development.",
+          "ko": "비타민은 적절한 신체 발달에 필수적이다."
+        }
+      ]
     },
     {
       "en": "absent",
-      "ipa": "/ˈæbsənt/",
+      "ipa": [
+        "형 [ǽbsәnt]",
+        "동 [æbsént]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "결석한",
-            "없는"
+            "(+ from) 1 *결석[결근]한, 없는, 결여된*",
+            "2 (표정이) 멍한, 집중하지 않는"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "(+ oneself from) …에 결석[결근]하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ab-",
-          "mean": "떨어져 (away)"
+          "part": "ab",
+          "mean": "= away from"
         },
         {
-          "part": "sent(ess)",
-          "mean": "존재하다 (be)"
+          "part": "sent",
+          "mean": "= being"
         }
       ],
-      "origin": "떨어져 존재하는 → 결석한"
+      "origin": "being away from …에 없는[떨어져 있는]\n상태인",
+      "antonyms": [
+        "present"
+      ],
+      "derivatives": [
+        {
+          "en": "absence",
+          "pos": "명",
+          "defs": [
+            "1 결석, 부재(不在)",
+            "2 (+ of) 없음, 결핍"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He was **absent from** the meeting.\n(= He **absented himself from** the meeting.)",
+          "ko": "그는 회의에 불참했다."
+        }
+      ]
     },
     {
       "en": "present",
-      "ipa": "/ˈpreznt/",
+      "ipa": [
+        "형/명 [prézәnt]",
+        "동 [prizént]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "현재의",
-            "출석한"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "선물"
+            "1 출석한",
+            "2 *현재의"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "주다",
-            "나타내다"
+            "1 *주다, 제출하다",
+            "2 *나타내다, 보여주다",
+            "3 (문제·기회 등이) 생기다",
+            "4 (정식으로) 소개하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *선물",
+            "2 (the +) *현재*"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pre-",
-          "mean": "앞에 (before)"
+          "part": "pre",
+          "mean": "= in front of"
         },
         {
-          "part": "sent(ess)",
-          "mean": "존재하다 (be)"
+          "part": "sent",
+          "mean": "= being"
         }
       ],
-      "origin": "앞에 존재하는 → 현재의"
+      "origin": "핵심 다의어\n앞에 있는 →\n├ 출석한\n├ 현재(의)\n└ 앞에 내놓다\n │ ├ 보여주다\n │ ├ 소개하다\n │ └ 선물하다 → 선물",
+      "antonyms": [
+        "absent"
+      ],
+      "derivatives": [
+        {
+          "en": "presence",
+          "pos": "명",
+          "defs": [
+            "출석, 참석, 있음"
+          ]
+        },
+        {
+          "en": "presentation",
+          "pos": "명",
+          "defs": [
+            "1 제출, 제시",
+            "2 발표, 설명",
+            "3 공연"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "None of them were **present**.",
+          "ko": "그들 중 아무도 출석하지 않았다."
+        },
+        {
+          "en": "I'm very happy to **present** this award.",
+          "ko": "이 상을 수여하게 되어 대단히 기쁩니다."
+        }
+      ]
     },
     {
       "en": "award",
-      "ipa": "/əˈwɔːrd/",
+      "ipa": [
+        "[әwɔ́ːrd]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "상"
+            "*상, 상금"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "수여하다"
+            "(상 등을) 수여하다, 주다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "a-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "a",
+          "mean": "= ex:out"
         },
         {
           "part": "ward",
-          "mean": "주의, 감시 (watch)"
+          "mean": "= watch"
         }
       ],
-      "origin": "주의를 기울여 판단하다 → 수여하다"
+      "origin": "주의하여 살펴본 후 (수상자 등을) 결정하다\n→ 수여되는 것, 상",
+      "synonyms": [
+        "give"
+      ],
+      "examples": [
+        {
+          "en": "The actress was **awarded** an Academy **Award**.",
+          "ko": "그 여배우는 아카데미 상을 수상했다."
+        }
+      ]
     },
     {
       "en": "reward",
-      "ipa": "/rɪˈwɔːrd/",
+      "ipa": [
+        "[riwɔ́ːrd]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "보상"
+            "1 *보상(금), 보수",
+            "2 현상금"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "보상하다"
+            "보상하다, 보답하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (back)"
+          "part": "re",
+          "mean": "「강조」"
         },
         {
           "part": "ward",
-          "mean": "주의 (watch)"
+          "mean": "= watch"
         }
       ],
-      "origin": "돌려 갚다 → 보상"
+      "origin": "(남의 수고를) 잘 지켜보다\n→ 보상을 해주다 → 보상금",
+      "derivatives": [
+        {
+          "en": "rewarding",
+          "pos": "형",
+          "defs": [
+            "1 보람 있는",
+            "2 보상[수익]이 큰, 돈이 많이 벌리는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our salaries were increased as a **reward** for our efforts.",
+          "ko": "우리의 노고에 대한 보상으로 월급이 인상되었다."
+        },
+        {
+          "en": "It is such a **rewarding** experience to help people make positive changes in their lives.",
+          "ko": "사람들이 그들의 삶에서 긍정적인 변화를 이루도록 돕는 것은 정말 보람 있는 경험이다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "aware",
-      "ipa": "/əˈwer/",
+      "ipa": [
+        "[әwéәr]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "알고 있는",
-            "인식하는"
+            "(+ of) 알고 있는, 의식[인식]하는"
           ]
         }
       ],
       "parts": [
         {
-          "part": "a-",
-          "mean": "~의 상태로 (in state of)"
+          "part": "a",
+          "mean": "「강조」"
         },
         {
-          "part": "ware(ward)",
-          "mean": "주의 (watch)"
+          "part": "ware",
+          "mean": "= watch out"
         }
       ],
-      "origin": "주의 기울이는 상태 → 알고 있는"
+      "origin": "watchful 주의 깊은, 의식하는",
+      "synonyms": [
+        "conscious of"
+      ],
+      "antonyms": [
+        "unaware of"
+      ],
+      "derivatives": [
+        {
+          "en": "awareness",
+          "pos": "명",
+          "defs": [
+            "알고 있음, 의식, 자각"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be[become] aware of",
+          "ko": "…을 의식[인식]하다, …을 알다"
+        },
+        {
+          "en": "self-awareness",
+          "ko": "자기 인식, 자각"
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Are** you **aware of** the recommended daily amount of caffeine?",
+          "ko": "당신은 카페인의 하루 권장 섭취량을 알고 있나요?",
+          "source": "교과서"
+        },
+        {
+          "en": "The movie helped raise **awareness** of people with disabilities.",
+          "ko": "그 영화는 장애인에 대한 인식을 높이는 데 도움이 되었다."
+        }
+      ]
     },
     {
       "en": "warn",
-      "ipa": "/wɔːrn/",
+      "ipa": [
+        "[wɔːrn]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "경고하다"
+            "(+ about/against/of) 경고하다, 주의시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "warn(ward)",
-          "mean": "주의, 조심 (watch)"
+          "part": "warn",
+          "mean": "중세 영어 warnian(=watch)에서 온 말\n→ 주의해서 보다"
         }
       ],
-      "origin": "주의하게 하다 → 경고하다"
+      "origin": "",
+      "derivatives": [
+        {
+          "en": "warning",
+          "pos": "명",
+          "defs": [
+            "경고, 주의"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "warn A to-v[not to-v]",
+          "ko": "A에게 …하라고[하지 말라고] 주의를 주다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "My mother **warned** me **about** staying out late.",
+          "ko": "엄마는 나에게 늦게 다니는 것에 대해 주의를 주셨다."
+        },
+        {
+          "en": "Please read the **warning** before you use it.",
+          "ko": "사용하기 전에 주의사항을 읽어보세요."
+        }
+      ]
     },
     {
       "en": "artificial",
-      "ipa": "/ˌɑːrtɪˈfɪʃl/",
+      "ipa": [
+        "[àːrtәfíʃәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "인공적인",
-            "모조의"
+            "1 *인공의, 모조의",
+            "2 (태도·행동 등이) 거짓된, 꾸며진"
           ]
         }
       ],
       "parts": [
         {
-          "part": "art",
-          "mean": "기술 (skill)"
+          "part": "arti",
+          "mean": "기술"
         },
         {
-          "part": "fic(fac)",
-          "mean": "만들다 (make)"
+          "part": "fic",
+          "mean": "= make"
         },
         {
-          "part": "-ial",
-          "mean": "형용사형 접미사"
+          "part": "ial",
+          "mean": "형접"
         }
       ],
-      "origin": "기술로 만든 → 인공적인"
+      "origin": "기술적으로 만든 → 인공의",
+      "antonyms": [
+        "natural",
+        "genuine"
+      ],
+      "examples": [
+        {
+          "en": "an **artificial** satellite[flavor]",
+          "ko": "인공 위성[향료]"
+        },
+        {
+          "en": "**Artificial** intelligence is now used in many industries.",
+          "ko": "인공지능은 이제 많은 산업 분야에서 사용된다."
+        }
+      ]
     },
     {
       "en": "artistic",
-      "ipa": "/ɑːrˈtɪstɪk/",
+      "ipa": [
+        "[ɑːrtístik]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "예술적인"
+            "예술[미술]의, 예술적인"
           ]
         }
       ],
       "parts": [
         {
           "part": "art",
-          "mean": "예술 (art)"
+          "mean": "예술"
         },
         {
-          "part": "-istic",
-          "mean": "형용사형 접미사"
+          "part": "ist",
+          "mean": "명접「사람」"
+        },
+        {
+          "part": "ic",
+          "mean": "형접"
         }
       ],
-      "origin": "예술의 → 예술적인"
+      "origin": "예술 하는 사람의",
+      "derivatives": [
+        {
+          "en": "artist",
+          "pos": "명",
+          "defs": [
+            "예술가, 화가"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "This **artistic** design was made by a famous Korean architect.",
+          "ko": "이 예술적인 디자인은 한 유명한 한국인 건축가에 의해 고안되었다."
+        }
+      ]
     }
   ]
 }

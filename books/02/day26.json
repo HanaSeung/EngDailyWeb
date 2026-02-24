@@ -3,216 +3,425 @@
   "words": [
     {
       "en": "manual",
-      "ipa": "/ˈmænjuəl/",
+      "ipa": [
+        "[mǽnjuәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "수동의"
+            "1 육체노동의",
+            "2 수동의"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "설명서"
+            "*소형 책자, 안내서"
           ]
         }
       ],
       "parts": [
         {
           "part": "manu",
-          "mean": "손 (hand)"
+          "mean": "= hand"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "손으로 하는 → 수동의"
+      "origin": "손의",
+      "antonyms": [
+        "automatic"
+      ],
+      "examples": [
+        {
+          "en": "Does your new camera have automatic and **manual** functions?",
+          "ko": "너의 새 카메라는 자동 기능과 수동 기능이 있니?"
+        },
+        {
+          "en": "The first **manuals** to teach \"table manners\" were written in the 12th century.",
+          "ko": "'식탁 예절'을 가르치는 최초의 안내서가 12세기에 쓰였다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "manuscript",
-      "ipa": "/ˈmænjuskrɪpt/",
+      "ipa": [
+        "[mǽnjәskrìpt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "원고",
-            "사본"
+            "1 원고",
+            "2 손으로 쓴 책[문서], 사본"
           ]
         }
       ],
       "parts": [
         {
           "part": "manu",
-          "mean": "손 (hand)"
+          "mean": "= hand"
         },
         {
           "part": "script",
-          "mean": "쓰다 (write)"
+          "mean": "= write"
         }
       ],
-      "origin": "손으로 쓴 것 → 원고"
+      "origin": "손으로 쓴 것",
+      "examples": [
+        {
+          "en": "She sent her **manuscript** to a publishing company.",
+          "ko": "그녀는 출판사에 원고를 보냈다."
+        }
+      ]
     },
     {
       "en": "maintain",
-      "ipa": "/meɪnˈteɪn/",
+      "ipa": [
+        "[meintéin]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "유지하다",
-            "주장하다"
+            "1 *(관계·상태·수준 등을) 유지하다, 지속하다",
+            "2 (기계·건물 등을 점검·보수해가며) 유지하다",
+            "3 주장하다, 단언하다",
+            "4 (가족 등을) 부양하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "main(manu)",
-          "mean": "손 (hand)"
+          "part": "main",
+          "mean": "= hand"
         },
         {
           "part": "tain",
-          "mean": "잡다 (hold)"
+          "mean": "= hold"
         }
       ],
-      "origin": "손으로 잡아두다 → 유지하다"
+      "origin": "핵심 다의어\nhold in hand 손안에 꼭 쥐고 있다 →\n유지하다 →\n├ (상태를) 유지하다 → 지속하다\n├ (특정 입장을) 유지하다 → 주장하다\n└ (생계를) 유지하다 → 부양하다",
+      "synonyms": [
+        "preserve",
+        "assert",
+        "claim",
+        "support",
+        "provide for"
+      ],
+      "derivatives": [
+        {
+          "en": "maintenance",
+          "pos": "명",
+          "defs": [
+            "1 보수, 정비",
+            "2 유지, 지속"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm struggling to **maintain** good relationships with my friends.",
+          "ko": "나는 친구들과 좋은 관계를 유지하는데 어려움을 겪고 있다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Throughout the trial, he **maintained** his innocence.",
+          "ko": "재판받는 내내 그는 자신의 무죄를 주장했다."
+        },
+        {
+          "en": "We bought an old house that needs **maintenance**.",
+          "ko": "우리는 보수가 필요한 오래된 집을 샀다."
+        }
+      ]
     },
     {
       "en": "manipulate",
-      "ipa": "/məˈnɪpjuleɪt/",
+      "ipa": [
+        "[mәnípjәlèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "조작하다",
-            "다루다"
+            "1 *(사람·여론 등을) (부정하게) 조종하다, 조작하다",
+            "2 (기계 등을) 잘 다루다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "mani(manu)",
-          "mean": "손 (hand)"
+          "part": "mani",
+          "mean": "= hand"
         },
         {
           "part": "pul",
-          "mean": "채우다 (fill)"
+          "mean": "= fill"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "손으로 다루다 → 조작하다"
+      "origin": "한 움큼 가득 쥐다 → 손안에 넣고\n처리하다 → 조종하다",
+      "derivatives": [
+        {
+          "en": "manipulation",
+          "pos": "명",
+          "defs": [
+            "교묘한 조작, 속임수; 조종, 취급"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "They tried to **manipulate** public opinion.",
+          "ko": "그들은 여론을 조작하려 했다."
+        }
+      ]
     },
     {
       "en": "manage",
-      "ipa": "/ˈmænɪdʒ/",
+      "ipa": [
+        "[mǽnidʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "관리하다",
-            "간신히 해내다"
+            "1 (사업·자금 등을) 관리하다, 경영하다",
+            "2 (+ to-v) (어려운 일·문제 등을) 어떻게든 (결국) 해내다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "man(manu)",
-          "mean": "손 (hand)"
-        },
-        {
-          "part": "-age",
-          "mean": "명사/동사형 접미사"
+          "part": "manage",
+          "mean": "이탈리아어 maneggiare(=handle\n다루다)에서 온 말"
         }
       ],
-      "origin": "손으로 다루다 → 관리하다"
+      "origin": "",
+      "synonyms": [
+        "run"
+      ],
+      "derivatives": [
+        {
+          "en": "management",
+          "pos": "명",
+          "defs": [
+            "1 관리, 경영",
+            "2 (집합적) 경영진, 경영자측"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She **managed** the company while her father was away.",
+          "ko": "그녀는 아버지가 부재중인 동안 회사를 관리했다."
+        },
+        {
+          "en": "I learned how to balance on the board and even **managed to surf** a few waves!",
+          "ko": "나는 보드 위에서 균형을 잡는 방법을 배웠고, 심지어 파도도 몇 번 탔다!",
+          "source": "교과서"
+        },
+        {
+          "en": "The company adopted a new **management** style.",
+          "ko": "그 회사는 새로운 경영 방식을 채택했다."
+        }
+      ]
     },
     {
       "en": "recognize",
-      "ipa": "/ˈrekəɡnaɪz/",
+      "ipa": [
+        "[rékәgnàiz]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "알아보다",
-            "인정하다"
+            "1 *알아보다, 식별하다, 분간하다",
+            "2 (사실·권위·중요성 등을) 인정하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
           "part": "cogn",
-          "mean": "알다 (know)"
+          "mean": "= know"
         },
         {
-          "part": "-ize",
-          "mean": "동사형 접미사"
+          "part": "ize",
+          "mean": "동접"
         }
       ],
-      "origin": "다시 알다 → 알아보다"
+      "origin": "know again 다시 알아보다",
+      "synonyms": [
+        "admit",
+        "acknowledge"
+      ],
+      "derivatives": [
+        {
+          "en": "recognition",
+          "pos": "명",
+          "defs": [
+            "1 인식, 인지",
+            "2 (수고·공로 등의) 인정, 감사",
+            "3 승인"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be recognized as",
+          "ko": "…로서 인정받다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I'm sorry that I didn't **recognize** you.",
+          "ko": "몰라봬서 죄송합니다."
+        },
+        {
+          "en": "The company **is recognized as** a global leader in the biotechnology industry.",
+          "ko": "그 회사는 생명공학 산업의 세계적인 선두주자로서 인정받고 있다."
+        }
+      ]
     },
     {
       "en": "diagnose",
-      "ipa": "/ˌdaɪəɡˈnoʊs/",
+      "ipa": [
+        "[dáiәgnòus]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "진단하다"
+            "진단하다, (병 등의) 원인을 규명하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "dia-",
-          "mean": "가로질러 (through)"
+          "part": "dia",
+          "mean": "= between"
         },
         {
-          "part": "gnos(cogn)",
-          "mean": "알다 (know)"
+          "part": "gno",
+          "mean": "= know"
+        },
+        {
+          "part": "se",
+          "mean": "동접"
         }
       ],
-      "origin": "속까지 알다 → 진단하다"
+      "origin": "(질병) 사이를 구분해 알아내다 → 진단하다",
+      "derivatives": [
+        {
+          "en": "diagnosis",
+          "pos": "명",
+          "defs": [
+            "진단, 원인 규명"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be diagnosed with[as]",
+          "ko": "…로 진단받다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **was diagnosed with** color vision deficiency during high school.",
+          "ko": "그는 고등학교 시절 색약을 진단받았다.",
+          "source": "교과서"
+        },
+        {
+          "en": "an early **diagnosis**",
+          "ko": "조기 진단"
+        }
+      ]
     },
     {
       "en": "ignore",
-      "ipa": "/ɪɡˈnɔːr/",
+      "ipa": [
+        "[ignɔ́ːr]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "무시하다"
+            "(의도적으로) 무시하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "i-(in-)",
-          "mean": "~이 아닌 (not)"
+          "part": "i",
+          "mean": "= in:not"
         },
         {
-          "part": "gnor(cogn)",
-          "mean": "알다 (know)"
+          "part": "gno",
+          "mean": "= know"
+        },
+        {
+          "part": "re",
+          "mean": "어미"
         }
       ],
-      "origin": "알지 못하다 → 무시하다"
+      "origin": "모르는 척하다 → 무시하다",
+      "synonyms": [
+        "neglect",
+        "overlook",
+        "disregard"
+      ],
+      "derivatives": [
+        {
+          "en": "ignorant",
+          "pos": "형",
+          "defs": [
+            "(+ of) …을 모르는, 무지한"
+          ]
+        },
+        {
+          "en": "ignorance",
+          "pos": "명",
+          "defs": [
+            "무지, 알지 못함"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I've been trying hard to **ignore** negative thoughts and look on the bright side.",
+          "ko": "나는 부정적인 생각을 무시하고 긍정적인 면을 보려고 열심히 노력하고 있다.",
+          "source": "교과서"
+        },
+        {
+          "en": "It's not an excuse that you were **ignorant of** the rules.",
+          "ko": "네가 그 규칙을 몰랐다는 것은 변명이 될 수 없다."
+        }
+      ]
     },
     {
       "en": "noble",
-      "ipa": "/ˈnoʊbl/",
+      "ipa": [
+        "[nóubәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "고귀한",
-            "숭고한"
+            "1 (성품·행위 등이) *고상한, 숭고한*",
+            "2 귀족의"
           ]
         },
         {
@@ -224,409 +433,776 @@
       ],
       "parts": [
         {
-          "part": "nobl(cogn)",
-          "mean": "알다, 알려진 (known)"
+          "part": "no",
+          "mean": "= know"
+        },
+        {
+          "part": "ble",
+          "mean": "형접"
         }
       ],
-      "origin": "잘 알려진 → 고귀한"
+      "origin": "(잘) 알려진 → 저명한 → 고귀한",
+      "antonyms": [
+        "ignoble(비열한)",
+        "humble(비천한)"
+      ],
+      "derivatives": [
+        {
+          "en": "nobility",
+          "pos": "명",
+          "defs": [
+            "1 고결함, 숭고함",
+            "2 (the +) 귀족 (계급)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Helping people in need is a **noble** goal.",
+          "ko": "어려운 사람들을 돕는 것은 숭고한 목표이다."
+        }
+      ]
     },
     {
       "en": "acknowledge",
-      "ipa": "/əkˈnɑːlɪdʒ/",
+      "ipa": [
+        "[әknɑ́ːlidʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "인정하다",
-            "감사를 표하다"
+            "1 *(사실·중요성·권위 등을) 인정하다",
+            "2 사례하다, 감사하다",
+            "3 (선물·편지 등을) 받았음을 알리다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "knowledge(cogn)",
-          "mean": "앎, 지식 (knowledge)"
+          "part": "acknowledge",
+          "mean": "중세 영어 aknow(=admit)와\nknowledge(알고 있음)의 혼성어"
         }
       ],
-      "origin": "앎 쪽으로 향하다 → 인정하다"
+      "origin": "→ (…에 대해) 알고 있다고 인정하다",
+      "synonyms": [
+        "admit",
+        "recognize"
+      ],
+      "antonyms": [
+        "deny"
+      ],
+      "derivatives": [
+        {
+          "en": "acknowledgment",
+          "pos": "명",
+          "defs": [
+            "(또는 acknowledgement) 1 승인, 인정",
+            "2 사례, 감사"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She **acknowledged** her mistakes and apologized.",
+          "ko": "그녀는 자신의 실수를 인정하고 사과했다."
+        }
+      ]
     },
     {
       "en": "acquaint",
-      "ipa": "/əˈkweɪnt/",
+      "ipa": [
+        "[әkwéint]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "알리다",
-            "숙지시키다"
+            "(정보 등을) 주다, 숙지시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "ac",
+          "mean": "= ad:to"
         },
         {
-          "part": "quaint(cogn)",
-          "mean": "알다 (know)"
+          "part": "quaint",
+          "mean": "= know perfectly"
         }
       ],
-      "origin": "알게 하다 → 숙지시키다"
+      "origin": "(…에게) 완전히 알게 하다",
+      "derivatives": [
+        {
+          "en": "acquainted",
+          "pos": "형",
+          "defs": [
+            "1 …와 아는 사이인",
+            "2 …을 알고 있는"
+          ]
+        },
+        {
+          "en": "acquaintance",
+          "pos": "명",
+          "defs": [
+            "(친하지는 않은) 지인, 그냥 아는 사이"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be acquainted with",
+          "ko": "1 …와 아는 사이이다\n2 (사실 등을) 알다, …에 관해 자세히 알다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Are** you **acquainted with** anyone on the council?",
+          "ko": "그 협의회에 누구 아는 사람 있습니까?"
+        },
+        {
+          "en": "You might merely shake hands with an **acquaintance** but hug a close friend.",
+          "ko": "당신은 지인과는 그냥 악수할 수 있지만, 친한 친구와는 포옹할 수 있다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "grade",
-      "ipa": "/ɡreɪd/",
+      "ipa": [
+        "[greid]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "등급",
-            "학년",
-            "성적"
+            "1 (품질·가치 등의) 등급, 계급, 지위",
+            "2 *(학교의) 학년",
+            "3 *성적, 학점"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "나누다"
+            "…의 등급을 정하다[매기다]"
           ]
         }
       ],
       "parts": [
         {
-          "part": "grad",
-          "mean": "걷다, 단계 (step)"
+          "part": "grade",
+          "mean": "라틴어 gradus(한 걸음)에서 온 말\n→ 단계적으로 상승하는 것"
         }
       ],
-      "origin": "단계 → 등급"
+      "origin": "",
+      "derivatives": [
+        {
+          "en": "upgrade",
+          "pos": "명/동",
+          "defs": [
+            "(품질·성능을) 향상(하다), 개선(하다)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "When I was in the 3rd **grade**, I worked hard to get good **grades** in all subjects.",
+          "ko": "내가 3학년일 때, 나는 모든 과목에서 좋은 점수를 받기 위해 열심히 노력했다."
+        }
+      ]
     },
     {
       "en": "gradual",
-      "ipa": "/ˈɡrædʒuəl/",
+      "ipa": [
+        "[grǽdʒuәl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "점진적인",
-            "완만한"
+            "1 점진적인, 점차적인",
+            "2 (경사가) 완만한"
           ]
         }
       ],
       "parts": [
         {
           "part": "grad",
-          "mean": "단계 (step)"
+          "mean": "= step"
         },
         {
-          "part": "-ual",
-          "mean": "형용사형 접미사"
+          "part": "ual",
+          "mean": "형접"
         }
       ],
-      "origin": "단계적인 → 점진적인"
+      "origin": "step by step 단계적으로",
+      "antonyms": [
+        "sudden",
+        "steep(가파른)"
+      ],
+      "derivatives": [
+        {
+          "en": "gradually",
+          "pos": "부",
+          "defs": [
+            "서서히, 점점, 차차"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She made **gradual** progress in learning the guitar.",
+          "ko": "그녀는 기타를 배우는 데 점진적인 진전을 보였다."
+        },
+        {
+          "en": "The education system has **gradually** improved over the last few years.",
+          "ko": "교육 제도는 지난 몇 년 동안 점차 개선되었다."
+        }
+      ]
     },
     {
       "en": "graduate",
-      "ipa": "/ˈɡrædʒuət/",
+      "ipa": [
+        "동 [grǽdʒuèit]",
+        "명 [grǽdʒuit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "졸업하다"
+            "(주로 + from) *졸업하다*"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "졸업생"
+            "(대학) 졸업생, 학사 (줄여서 grad)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "grad",
-          "mean": "단계 (step)"
+          "part": "gradu",
+          "mean": "= degree 단계;학위"
         },
         {
-          "part": "-uate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접·명접"
         }
       ],
-      "origin": "단계를 마치다 → 졸업하다"
+      "origin": "(단계를 밟아) 학위를 딴 사람\n→ 졸업하다; 졸업생",
+      "derivatives": [
+        {
+          "en": "graduation",
+          "pos": "명",
+          "defs": [
+            "졸업"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "graduate student",
+          "ko": "대학원생"
+        },
+        {
+          "en": "graduate school",
+          "ko": "대학원"
+        },
+        {
+          "en": "undergraduate",
+          "ko": "대학생(의), 학부생(의)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **graduated from** high school last year.",
+          "ko": "그는 지난해 고등학교를 졸업했다."
+        }
+      ]
     },
     {
       "en": "aggressive",
-      "ipa": "/əˈɡresɪv/",
+      "ipa": [
+        "[әgrésiv]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "공격적인",
-            "적극적인"
+            "1 공격적인",
+            "2 *적극적인, 진취적인"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ag-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "ag",
+          "mean": "= ad:toward"
         },
         {
-          "part": "gress(grad)",
-          "mean": "걷다 (step, go)"
+          "part": "gress",
+          "mean": "= step"
         },
         {
-          "part": "-ive",
-          "mean": "형용사형 접미사"
+          "part": "ive",
+          "mean": "형접"
         }
       ],
-      "origin": "~쪽으로 나아가는 → 공격적인"
+      "origin": "(남의 영역으로) 발을 내딛은\n→ 공격하는",
+      "synonyms": [
+        "offensive",
+        "hostile",
+        "active",
+        "vigorous"
+      ],
+      "antonyms": [
+        "defensive",
+        "passive"
+      ],
+      "derivatives": [
+        {
+          "en": "aggression",
+          "pos": "명",
+          "defs": [
+            "1 공격, 침략 (행위)",
+            "2 (정신적) 공격성"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She's very **aggressive**, while her husband is passive.",
+          "ko": "그녀는 매우 적극적인 반면, 그녀의 남편은 소극적이다."
+        }
+      ]
     },
     {
       "en": "congress",
-      "ipa": "/ˈkɑːŋɡrəs/",
+      "ipa": [
+        "[kɑ́ːŋgris]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "의회",
-            "국회",
-            "회의"
+            "(미국·중남미 국가들의) 의회, 국회 (고유명사로 쓰일 때 Congress)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
-          "part": "gress(grad)",
-          "mean": "걷다 (step, go)"
+          "part": "gress",
+          "mean": "= go"
         }
       ],
-      "origin": "함께 모여가다 → 의회"
+      "origin": "coming together 함께 (와서) 만남\n→ 모여서 논의하는 것",
+      "phrases": [
+        {
+          "en": "congressman(congresswoman)",
+          "ko": "국회의원 (특히 미국의 하원의원)"
+        },
+        {
+          "en": "cf. National Assembly",
+          "ko": "한국 국회"
+        },
+        {
+          "en": "Parliament",
+          "ko": "영국·캐나다 국회"
+        }
+      ],
+      "examples": [
+        {
+          "en": "In 1938, The United States **Congress** passed an act that made it illegal for children under sixteen to work in factories during school hours.",
+          "ko": "1938년에 미국 의회는 16세 미만 어린이가 학교 시간 동안 공장에서 일하는 것을 불법으로 하는 법을 통과시켰다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "degree",
-      "ipa": "/dɪˈɡriː/",
+      "ipa": [
+        "[digríː]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "도",
-            "정도",
-            "학위"
+            "1 정도, 단계",
+            "2 (온도·각도 등의) 도(度)",
+            "3 학위"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "아래로 (down)"
+          "part": "de",
+          "mean": "= down"
         },
         {
-          "part": "gree(grad)",
-          "mean": "단계 (step)"
+          "part": "gree",
+          "mean": "= step"
         }
       ],
-      "origin": "한 단계씩 내려감 → 정도"
+      "origin": "핵심 다의어\n내려가는 층계 → 단계 →\n├ (수치의) 단계 → 도(度), 정도\n└ (학력의) 단계 → 학위",
+      "phrases": [
+        {
+          "en": "by degrees",
+          "ko": "차차, 서서히 (= gradually)"
+        },
+        {
+          "en": "to a (certain) degree",
+          "ko": "다소, 어느 정도"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The temperature went up to 35 **degrees** Celsius.",
+          "ko": "온도가 섭씨 35도까지 올랐다."
+        },
+        {
+          "en": "He graduated with a **degree** in economics.",
+          "ko": "그는 경제학 학위를 받고 졸업했다.",
+          "source": "교과서"
+        },
+        {
+          "en": "I agree with him **to a certain degree**.",
+          "ko": "나는 그의 의견에 어느 정도 동의한다."
+        }
+      ]
     },
     {
       "en": "ingredient",
-      "ipa": "/ɪnˈɡriːdiənt/",
+      "ipa": [
+        "[ingríːdiәnt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "재료",
-            "성분",
-            "구성 요소"
+            "1 *(음식 등의) 재료",
+            "2 성분, (구성) 요소"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안으로 (into)"
+          "part": "in",
+          "mean": "= into"
         },
         {
-          "part": "gredi(grad)",
-          "mean": "걷다, 들어가다 (step, go)"
+          "part": "gred",
+          "mean": "= go"
         },
         {
-          "part": "-ent",
-          "mean": "명사형 접미사"
+          "part": "ent",
+          "mean": "명접"
         }
       ],
-      "origin": "안으로 들어가는 것 → 재료"
+      "origin": "… 안에 포함되거나 들어가는 것",
+      "examples": [
+        {
+          "en": "The cake has several key **ingredients**, including flour, sugar, and eggs.",
+          "ko": "케이크에는 밀가루, 설탕, 달걀을 포함한 몇 가지 주요 재료가 들어간다."
+        }
+      ]
     },
     {
       "en": "relax",
-      "ipa": "/rɪˈlæks/",
+      "ipa": [
+        "[rilǽks]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "휴식을 취하다",
-            "완화하다"
+            "1 *쉬다, 긴장을 풀다",
+            "2 (법·규칙 등을) 완화하다; (근육을) 이완하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= again"
         },
         {
           "part": "lax",
-          "mean": "느슨한 (loose)"
+          "mean": "= loosen"
         }
       ],
-      "origin": "뒤로 느슨하게 하다 → 쉬다"
+      "origin": "다시 느슨해지다",
+      "derivatives": [
+        {
+          "en": "relaxation",
+          "pos": "명",
+          "defs": [
+            "1 휴식",
+            "2 (법·규칙의) 완화; (근육의) 이완"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He leaned back on a seat in the bus and took a deep breath, finally able to **relax**.",
+          "ko": "그는 버스 의자에 기대어 앉아 깊게 심호흡하며 마침내 긴장을 풀 수 있었다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "analysis",
-      "ipa": "/əˈnæləsɪs/",
+      "ipa": [
+        "[әnǽlәsis]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "분석"
+            "(복수형 analyses [-siːz]) 분석, 검토, 분해"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ana-",
-          "mean": "위로, 다시 (up, throughout)"
+          "part": "ana",
+          "mean": "= throughout"
         },
         {
-          "part": "lys(lax)",
-          "mean": "풀다 (loosen)"
+          "part": "ly",
+          "mean": "= loosen"
         },
         {
-          "part": "-is",
-          "mean": "명사형 접미사"
+          "part": "sis",
+          "mean": "명접"
         }
       ],
-      "origin": "완전히 풀어 나누다 → 분석"
+      "origin": "완전히 (분해하여) 풀어놓음",
+      "derivatives": [
+        {
+          "en": "analyze",
+          "pos": "동",
+          "defs": [
+            "분석하다, 검토하다, 분해하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "We made a careful **analysis** of the problem.",
+          "ko": "우리는 그 문제를 주의 깊게 분석했다."
+        },
+        {
+          "en": "The doctor **analyzed** the blood test.",
+          "ko": "그 의사는 혈액 검사를 분석했다."
+        }
+      ]
     },
     {
       "en": "paralysis",
-      "ipa": "/pəˈræləsɪs/",
+      "ipa": [
+        "[pәrǽlәsis]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "마비"
+            "마비[활동 불능] (상태)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "para-",
-          "mean": "옆에, 벗어나 (beside)"
+          "part": "para",
+          "mean": "= against"
         },
         {
-          "part": "lysis(lax)",
-          "mean": "풀다 (loosen)"
+          "part": "ly",
+          "mean": "= loosen"
+        },
+        {
+          "part": "sis",
+          "mean": "명접"
         }
       ],
-      "origin": "힘이 풀림 → 마비"
+      "origin": "(몸의 근육 등이) (의지에) 반하여 풀림",
+      "derivatives": [
+        {
+          "en": "paralyze",
+          "pos": "동",
+          "defs": [
+            "마비시키다, 활동 불능이 되게 하다"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "His mistake caused the **paralysis** of the whole system.",
+          "ko": "그의 실수는 시스템 전체의 마비를 초래했다."
+        },
+        {
+          "en": "Their father was **paralyzed** by a stroke.",
+          "ko": "그들의 아버지는 뇌졸중으로 (전신이) 마비되었다."
+        }
+      ]
     },
     {
       "en": "release",
-      "ipa": "/rɪˈliːs/",
+      "ipa": [
+        "[rilíːs]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "석방하다",
-            "발표하다"
+            "1 *석방하다, 놓아주다",
+            "2 공개하다, 발표하다",
+            "3 (영화·음반 등을) 개봉하다, 발매하다",
+            "4 *(감정·화학 물질 등을) 표출하다, 방출하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "출시"
+            "1 석방",
+            "2 공개, 발표",
+            "3 (영화·음반 등의) 개봉, 발매",
+            "4 표출, 방출"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "lease(lax)",
-          "mean": "느슨하게 하다 (loosen)"
+          "part": "lease",
+          "mean": "= loosen"
         }
       ],
-      "origin": "뒤로 풀어주다 → 석방하다"
+      "origin": "핵심 다의어\n(쥐고 있던 것을) 풀어서 되돌려주다 →\n├ (죄수를) 풀어주다 → 석방(하다)\n├ (정보·영화·음반 등을) 풀어주다\n│ → 발표[개봉](하다)\n└ (물질을) 풀어주다 → 방출(하다)",
+      "synonyms": [
+        "set free",
+        "liberate",
+        "publish"
+      ],
+      "examples": [
+        {
+          "en": "Algorithms are used to predict whether a prisoner **released** on parole will go on to commit another crime.",
+          "ko": "알고리즘은 가석방된 죄수가 또 다른 범죄를 저지를 것인지 예측하는데 사용된다.",
+          "source": "수능"
+        },
+        {
+          "en": "The president **released** a statement to the press.",
+          "ko": "대통령이 언론에 성명을 발표했다."
+        },
+        {
+          "en": "The band will **release** its third album soon.",
+          "ko": "그 밴드는 곧 그들의 세 번째 앨범을 발매할 것이다."
+        }
+      ]
     },
     {
       "en": "delay",
-      "ipa": "/dɪˈleɪ/",
+      "ipa": [
+        "[diléi]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "미루다"
+            "연기하다, 늦추다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "지연"
+            "연기, 지연"
           ]
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "떨어져 (away)"
+          "part": "de",
+          "mean": "= away"
         },
         {
-          "part": "lay(lax)",
-          "mean": "느슨하게 (loosen)"
+          "part": "lay",
+          "mean": "= leave"
         }
       ],
-      "origin": "떨어져 놓아두다 → 미루다"
+      "origin": "(약속·일 등을) 멀리 떼어 두다",
+      "synonyms": [
+        "put off",
+        "postpone"
+      ],
+      "examples": [
+        {
+          "en": "Class size is limited to eight, so don't **delay**!",
+          "ko": "수업 인원은 8명으로 제한되어 있으므로, 지체하지 마세요!",
+          "source": "수능"
+        },
+        {
+          "en": "Due to the heavy snow, the airlines faced many **delays**.",
+          "ko": "폭설 때문에 항공사들이 많은 지연을 겪었다."
+        }
+      ]
     },
     {
       "en": "relay",
-      "ipa": "/ˈriːleɪ/",
+      "ipa": [
+        "[ríːlei]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "전달하다"
+            "1 (정보·소식 등을) 전달하다",
+            "2 (라디오·TV 등을 통해) 중계하다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "릴레이",
-            "중계"
+            "1 릴레이 경주",
+            "2 중계 (장치)"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "lay(lax)",
-          "mean": "놓다 (lay)"
+          "part": "lay",
+          "mean": "= leave"
         }
       ],
-      "origin": "다시 놓다 → 전달하다"
+      "origin": "leave behind 남겨놓다\n※ [원뜻] 사냥터의 여러 지점에 배치시켜 놓\n은 교대용의 사냥개나 말을 뜻함 → 지친 사냥\n개[말]를 계속 교체하듯 정보 등을 계속 전달\n하다",
+      "phrases": [
+        {
+          "en": "in relays",
+          "ko": "교대로, 교체로"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We often tend to assume our eyes function as video cameras which **relay** information to our brain.",
+          "ko": "우리는 흔히 우리의 눈이 뇌에 정보를 전달하는 비디오 카메라의 기능을 한다고 생각하는 경향이 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "The Olympic Games were **relayed** live via satellite.",
+          "ko": "올림픽 경기는 인공위성을 통해 생중계되었다."
+        }
+      ]
     }
   ]
 }
