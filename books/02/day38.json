@@ -3,659 +3,604 @@
   "words": [
     {
       "en": "passage",
-      "ipa": "/ˈpæsɪdʒ/",
+      "ipa": ["[pǽsidʒ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "통로",
-            "(책의) 구절",
-            "흐름"
-          ]
+          "defs": ["1 통로; (사람·탈것 등의) 통행", "2 *(책·기사·시 등의) 한 구절", "3 (법안 등의) 통과", "4 (시간의) 경과, 진행"]
         }
       ],
       "parts": [
-        {
-          "part": "pass",
-          "mean": "통과하다 (pass)"
-        },
-        {
-          "part": "-age",
-          "mean": "명사형 접미사"
-        }
+        { "part": "pass", "mean": "통과하다" },
+        { "part": "age", "mean": "명접" }
       ],
-      "origin": "통과하는 것 → 통로"
+      "origin": "통과",
+      "examples": [
+        { "en": "a **passage** of the Bible", "ko": "성경의 한 구절" },
+        { "en": "With the **passage** of years, she grew wiser.", "ko": "수년이 지나면서, 그녀는 더욱 지혜로워졌다." }
+      ]
     },
     {
       "en": "passenger",
-      "ipa": "/ˈpæsɪndʒər/",
+      "ipa": ["[pǽsəndʒər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "승객"
-          ]
+          "defs": ["승객, 여객"]
         }
       ],
       "parts": [
-        {
-          "part": "pass",
-          "mean": "통과하다 (pass)"
-        },
-        {
-          "part": "-enger",
-          "mean": "사람 접미사"
-        }
+        { "part": "passeng(pass)", "mean": "통과하다" },
+        { "part": "er", "mean": "명접「사람」" }
       ],
-      "origin": "통과하는 사람 → 승객"
+      "origin": "통과하는[지나가는] 사람 →\n운송수단을 타고 여행하는 사람 → 승객",
+      "examples": [
+        { "en": "The driver stopped to pick up more **passengers**.", "ko": "기사는 더 많은 승객을 태우기 위해 멈추었다." }
+      ]
     },
     {
       "en": "passerby",
-      "ipa": "/ˌpæsərˈbaɪ/",
+      "ipa": ["[pæ̀sərbái]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "통행인"
-          ]
+          "defs": ["(복수형 passersby) 통행인, 지나가는 사람"]
         }
       ],
       "parts": [
-        {
-          "part": "passer",
-          "mean": "지나가는 사람 (one who passes)"
-        },
-        {
-          "part": "by",
-          "mean": "곁을 (by)"
-        }
+        { "part": "passer", "mean": "지나가는 사람" },
+        { "part": "by", "mean": "옆에" }
       ],
-      "origin": "곁을 지나가는 사람 → 통행인"
+      "origin": "옆을 지나가는 사람",
+      "examples": [
+        { "en": "A homeless man was holding out a cup and asking **passersby** for spare change.", "ko": "한 노숙자가 컵을 내밀고 지나가는 사람들에게 동전을 구걸하고 있었다.", "source": "모의" }
+      ]
     },
     {
       "en": "pastime",
-      "ipa": "/ˈpæstaɪm/",
+      "ipa": ["[pǽstàim]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기분 전환",
-            "취미"
-          ]
+          "defs": ["(시간을 보내기 위한) 오락, 놀이, 심심풀이"]
         }
       ],
       "parts": [
-        {
-          "part": "pass",
-          "mean": "통과하다 (pass)"
-        },
-        {
-          "part": "time",
-          "mean": "시간 (time)"
-        }
+        { "part": "pas(s)", "mean": "통과하다" },
+        { "part": "time", "mean": "시간" }
       ],
-      "origin": "시간을 보내는 것 → 취미"
+      "origin": "시간을 보내는 데 쓰이는 것 → 오락, 놀이",
+      "examples": [
+        { "en": "Walking my dog is one of my favorite **pastimes**.", "ko": "개를 산책시키는 것은 내가 가장 좋아하는 여가 활동 중 하나이다." }
+      ]
     },
     {
       "en": "surpass",
-      "ipa": "/sərˈpæs/",
+      "ipa": ["[sərpǽs]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "능가하다",
-            "넘어서다"
-          ]
+          "defs": ["…을 능가하다, …보다 낫다"]
         }
       ],
+      "synonyms": ["excel, outdo"],
       "parts": [
-        {
-          "part": "sur-(super-)",
-          "mean": "위에 (above)"
-        },
-        {
-          "part": "pass",
-          "mean": "통과하다 (pass)"
-        }
+        { "part": "sur", "mean": "= super:above" },
+        { "part": "pass", "mean": "통과하다" }
       ],
-      "origin": "위로 지나가다 → 능가하다"
+      "origin": "…보다 위로 통과하다",
+      "examples": [
+        { "en": "Nobody could **surpass** her at swimming.", "ko": "아무도 수영에서 그녀를 능가할 수가 없었다." },
+        { "en": "Mongolia **surpassed** China in terms of the amount of CO₂ emissions per person in 2020.", "ko": "몽골은 2020년에 1인당 이산화탄소 배출량에서 중국을 넘어섰다.", "source": "모의" }
+      ]
     },
     {
       "en": "bypass",
-      "ipa": "/ˈbaɪpæs/",
+      "ipa": ["[báipæs]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "우회로"
-          ]
+          "pos": "동",
+          "defs": ["1 우회하다; 회피하다", "2 (절차 등을) 건너뛰다"]
         },
         {
-          "pos": "동",
-          "defs": [
-            "우회하다"
-          ]
+          "pos": "명",
+          "defs": ["(자동차용) 우회로"]
         }
       ],
       "parts": [
-        {
-          "part": "by",
-          "mean": "곁을 (by)"
-        },
-        {
-          "part": "pass",
-          "mean": "통과하다 (pass)"
-        }
+        { "part": "by", "mean": "옆에" },
+        { "part": "pass", "mean": "통과하다" }
       ],
-      "origin": "곁으로 지나가다 → 우회하다"
+      "origin": "옆으로 통과하다 → 우회하다",
+      "examples": [
+        { "en": "The company **bypassed** the approval process to speed up production.", "ko": "그 회사는 생산 속도를 높이기 위해 승인 절차를 건너 뛰었다." }
+      ]
     },
     {
       "en": "pace",
-      "ipa": "/peɪs/",
+      "ipa": ["[peis]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "속도",
-            "걸음"
-          ]
+          "defs": ["1 *(일·생활·걸음 등의) 속도, 페이스", "2 걸음, 보폭"]
         }
       ],
       "parts": [
-        {
-          "part": "pac(pass)",
-          "mean": "걸음 (step)"
-        }
+        { "part": "pac(pass)", "mean": "라틴어 passus(=step)에서 온 말" }
       ],
-      "origin": "걸음 → 속도"
+      "origin": "걸음 → 속도",
+      "phrases": [
+        { "en": "keep pace with", "ko": "…와 보조를 맞추다" }
+      ],
+      "examples": [
+        { "en": "Sometimes the **pace** of change is far slower.", "ko": "가끔은 변화의 속도가 훨씬 더 느리다.", "source": "모의" },
+        { "en": "Your **pace** is so fast that I can't **keep pace with** you.", "ko": "네 걸음이 너무 빨라서 나는 너와 보조를 맞출 수가 없어." }
+      ]
     },
     {
       "en": "pedal",
-      "ipa": "/ˈpedl/",
+      "ipa": ["[pédl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "페달"
-          ]
+          "defs": ["(자동차·기계·악기 등의) 발판, 페달"]
         },
         {
           "pos": "동",
-          "defs": [
-            "페달을 밟다"
-          ]
+          "defs": ["페달을 밟다, 페달을 밟으며 가다[연주하다]"]
         }
       ],
       "parts": [
-        {
-          "part": "ped",
-          "mean": "발 (foot)"
-        },
-        {
-          "part": "-al",
-          "mean": "명사형 접미사"
-        }
+        { "part": "ped", "mean": "= foot" },
+        { "part": "al", "mean": "명접" }
       ],
-      "origin": "발로 밟는 것 → 페달"
+      "origin": "발로 밟는 것 → 발판, 페달",
+      "examples": [
+        { "en": "Emma and Clara jumped on their bikes and started to **pedal** toward the white cliff.", "ko": "Emma와 Clara는 자전거에 올라타서 흰 절벽 쪽으로 페달을 밟기 시작했다.", "source": "수능" }
+      ]
     },
     {
       "en": "expedition",
-      "ipa": "/ˌekspəˈdɪʃn/",
+      "ipa": ["[èkspədíʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "탐험(대)"
-          ]
+          "defs": ["(특정 목적을 위한) 탐험[원정](대)"]
         }
       ],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "ped",
-          "mean": "발 (foot)"
-        },
-        {
-          "part": "-ition",
-          "mean": "명사형 접미사"
-        }
+        { "part": "ex", "mean": "= out" },
+        { "part": "ped", "mean": "= foot" },
+        { "part": "tion", "mean": "명접" }
       ],
-      "origin": "발을 밖으로 내딛다 → 탐험"
+      "origin": "(묶여 있던) 발을 놓아줌 →\n자유롭게 돌아다님 → 탐험",
+      "examples": [
+        { "en": "Ben was anxious about his **expedition** into the Amazon rainforest.", "ko": "Ben은 아마존 우림으로의 탐험을 걱정했다." }
+      ]
     },
     {
       "en": "pedestrian",
-      "ipa": "/pəˈdestriən/",
+      "ipa": ["[pədéstriən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "보행자"
-          ]
+          "defs": ["*보행자"]
+        },
+        {
+          "pos": "형",
+          "defs": ["보행자(용)의"]
         }
       ],
       "parts": [
-        {
-          "part": "ped",
-          "mean": "발 (foot)"
-        },
-        {
-          "part": "-estrian",
-          "mean": "사람 접미사"
-        }
+        { "part": "pedestri(ped)", "mean": "= on foot" },
+        { "part": "an", "mean": "명접「사람」" }
       ],
-      "origin": "발로 걷는 사람 → 보행자"
+      "origin": "걸어다니는 사람",
+      "examples": [
+        { "en": "Be sure to watch out for **pedestrians** when you drive.", "ko": "운전할 때 보행자들을 조심하는 것을 명심해라." },
+        { "en": "a **pedestrian** walkway[crossing]", "ko": "인도(人道)[횡단보도]" }
+      ]
     },
     {
       "en": "use",
-      "ipa": "/juːs/",
+      "ipa": ["동 [juːz]", "명 [juːs]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "사용"
-          ]
+          "pos": "동",
+          "defs": ["*사용하다, 쓰다"]
         },
         {
-          "pos": "동",
-          "defs": [
-            "사용하다"
-          ]
+          "pos": "명",
+          "defs": ["1 *사용, 이용", "2 용도", "3 쓸모, 이익"]
         }
       ],
       "parts": [
-        {
-          "part": "us",
-          "mean": "사용하다 (use)"
-        }
+        { "part": "us", "mean": "라틴어 usus(=use)에서 온 말" }
       ],
-      "origin": "사용하다"
+      "origin": "사용하다",
+      "derivatives": [
+        { "en": "used", "pos": "형", "defs": ["1 [juːst] (+ to) (…에) 익숙한", "2 [juːzd] 중고의, 사용한"] },
+        { "en": "useful", "pos": "형", "defs": ["유용한, 쓸모 있는"] },
+        { "en": "useless", "pos": "형", "defs": ["쓸모[소용]없는, 무익한"] },
+        { "en": "usage", "pos": "명", "defs": ["1 (언어의) 어법, 용법", "2 사용(법), 사용량"] }
+      ],
+      "synonyms": ["accustomed to", "second-hand", "helpful", "worthless, of no use"],
+      "antonyms": ["injustice"],
+      "phrases": [
+        { "en": "it is no use[good] v-ing", "ko": "…해봤야 소용없다" },
+        { "en": "get[be] used to N/v-ing", "ko": "…에 익숙해지다[익숙하다]" }
+      ],
+      "examples": [
+        { "en": "This tool is very **useful**, but I'm still not sure how to **use** it properly.", "ko": "이 도구는 매우 유용하지만, 나는 아직 제대로 사용하는 방법을 잘 모르겠다." },
+        { "en": "a **used** car[book]", "ko": "중고차[책]" },
+        { "en": "Water **usage** is increasing.", "ko": "물 사용량이 증가하고 있다." }
+      ]
     },
     {
       "en": "abuse",
-      "ipa": "/əˈbjuːs/",
+      "ipa": ["동 [əbjúːz]", "명 [əbjúːs]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "남용",
-            "학대"
-          ]
-        },
-        {
           "pos": "동",
-          "defs": [
-            "남용하다",
-            "학대하다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "ab-",
-          "mean": "떨어져 (away)"
+          "defs": ["1 학대하다", "2 (권리·약 등을) 남용하다, 오용하다"]
         },
         {
-          "part": "use(us)",
-          "mean": "사용하다 (use)"
+          "pos": "명",
+          "defs": ["1 학대", "2 남용, 오용"]
         }
       ],
-      "origin": "잘못 사용하다 → 남용하다"
+      "synonyms": ["misuse", "mistreatment"],
+      "parts": [
+        { "part": "ab", "mean": "= away from" },
+        { "part": "use", "mean": "사용하다" }
+      ],
+      "origin": "올바른 사용[처우]에서 멀어지다 →\n├ 잘못 사용하다 → 남용하다, 오용하다\n└ 잘못 대우하다 → 학대하다",
+      "derivatives": [
+        { "en": "abusive", "pos": "형", "defs": ["폭력적인, 학대하는; 독설의"] }
+      ],
+      "examples": [
+        { "en": "It shelters various **abused** animals, including chimpanzees and elephants.", "ko": "그곳은 침팬지와 코끼리를 포함한 다양한 종류의 학대받은 동물들을 보호한다.", "source": "모의" },
+        { "en": "Politicians who **abuse** their privileges will be investigated.", "ko": "특권을 남용하는 정치인들은 조사를 받을 것이다." },
+        { "en": "drug **abuse**", "ko": "약물 남용" }
+      ]
     },
     {
       "en": "utilize",
-      "ipa": "/ˈjuːtəlaɪz/",
+      "ipa": ["[júːtlàiz]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "활용하다",
-            "이용하다"
-          ]
+          "defs": ["활용하다, 이용하다"]
         }
       ],
+      "synonyms": ["make use of"],
       "parts": [
-        {
-          "part": "util(us)",
-          "mean": "쓸모 있는 (useful)"
-        },
-        {
-          "part": "-ize",
-          "mean": "동사형 접미사"
-        }
+        { "part": "ut(us)", "mean": "= use" },
+        { "part": "il", "mean": "형접" },
+        { "part": "ize", "mean": "동접" }
       ],
-      "origin": "쓸모 있게 하다 → 활용하다"
+      "origin": "유용하게 하다",
+      "derivatives": [
+        { "en": "utility", "pos": "명", "defs": ["1 (전기·수도·가스 등의) 공공 사업[서비스]", "2 유용성, 효용"] },
+        { "en": "utilization", "pos": "명", "defs": ["활용, 이용"] },
+        { "en": "utilitarian", "pos": "형", "defs": ["실용적인; 실리주의의"] }
+      ],
+      "examples": [
+        { "en": "The team **utilized** the data to improve their strategy.", "ko": "그 팀은 전략을 개선하기 위해 데이터를 활용했다." },
+        { "en": "Major public **utilities** include gas, electricity, and water.", "ko": "주요 공공기업은 가스와 전기, 수도를 포함한다." }
+      ]
     },
     {
       "en": "utensil",
-      "ipa": "/juːˈtensl/",
+      "ipa": ["[juːténsəl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기구",
-            "도구"
-          ]
+          "defs": ["(특히 주방에서 쓰는) 도구, 기구"]
         }
       ],
+      "synonyms": ["instrument, tool"],
       "parts": [
-        {
-          "part": "utens(us)",
-          "mean": "사용하다 (use)"
-        },
-        {
-          "part": "-il",
-          "mean": "명사형 접미사"
-        }
+        { "part": "utensil", "mean": "라틴어 utensilis(=fit for use)에서 온 말\n→ 사용하기 알맞은 것 → 도구, 기구" }
       ],
-      "origin": "사용하는 것 → 기구"
+      "origin": "사용하는 것 → 기구",
+      "examples": [
+        { "en": "The cooking **utensils** are in that drawer next to the stove.", "ko": "조리 기구는 레인지 옆 서랍 안에 있어." }
+      ]
     },
     {
       "en": "just",
-      "ipa": "/dʒʌst/",
+      "ipa": ["[dʒʌst]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "공정한",
-            "적절한"
-          ]
+          "defs": ["1 올바른, 공평한", "2 적절한"]
         },
         {
           "pos": "부",
-          "defs": [
-            "방금",
-            "단지"
-          ]
+          "defs": ["1 바로, 틀림없이", "2 지금 막, 방금", "3 *단지, 그저"]
         }
       ],
+      "synonyms": ["fair", "exactly", "only"],
       "parts": [
-        {
-          "part": "jus",
-          "mean": "법, 정의 (law, right)"
-        },
-        {
-          "part": "-t",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "jus", "mean": "= law" }
       ],
-      "origin": "법에 맞는 → 공정한"
+      "origin": "lawful 법에 맞는 → 올바른 →\n├ (어떠한 정도가) 올바르게 → 정확히, 틀림없이\n├ (시간적으로) 정확하게 → 지금 막\n└ (약간의 차이로) 거의 정확하게 → 단지",
+      "derivatives": [
+        { "en": "justice", "pos": "명", "defs": ["1 정의, 공정", "2 사법, 재판(관)"] }
+      ],
+      "antonyms": ["injustice"],
+      "examples": [
+        { "en": "The judge **just** said that a jail sentence was a **just** punishment for his crimes.", "ko": "판사는 징역형이 그의 범죄에 대한 정당한 벌이라고 방금 말했다." },
+        { "en": "Plastic waste is often moved to places where it is **just** dumped or burned, not recycled.", "ko": "흔히 플라스틱 쓰레기는 재활용되지 않고 그저 매립되거나 소각되는 장소로 옮겨진다.", "source": "교과서" },
+        { "en": "a sense of **justice**", "ko": "정의감" }
+      ]
     },
     {
       "en": "justify",
-      "ipa": "/ˈdʒʌstɪfaɪ/",
+      "ipa": ["[dʒʌ́stəfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "정당화하다"
-          ]
+          "defs": ["정당화하다, 옳다고 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "just(jus)",
-          "mean": "정의 (right)"
-        },
-        {
-          "part": "-ify",
-          "mean": "만들다 (make)"
-        }
+        { "part": "just", "mean": "올바른" },
+        { "part": "ify", "mean": "동접「…화하다」" }
       ],
-      "origin": "정의에 맞게 만들다 → 정당화하다"
+      "origin": "정당화하다",
+      "derivatives": [
+        { "en": "justified", "pos": "형", "defs": ["당연한, 정당한"] },
+        { "en": "justification", "pos": "명", "defs": ["정당화; 정당한 이유"] }
+      ],
+      "antonyms": ["unjustified"],
+      "examples": [
+        { "en": "The end doesn't always **justify** the means.", "ko": "목적이 항상 수단을 정당화하는 것은 아니다." },
+        { "en": "There is no **justification** for breaking the law.", "ko": "법을 위반하는 것에 대한 정당한 이유는 없다." }
+      ]
     },
     {
       "en": "judge",
-      "ipa": "/dʒʌdʒ/",
+      "ipa": ["[dʒʌdʒ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "판사",
-            "심사위원"
-          ]
+          "defs": ["1 *재판관, 판사", "2 (경기·대회 등의) 심사위원, 심판"]
         },
         {
           "pos": "동",
-          "defs": [
-            "판단하다"
-          ]
+          "defs": ["1 *판단하다", "2 심사하다, 판정하다", "3 재판[심판]하다, 판결을 내리다"]
         }
       ],
       "parts": [
-        {
-          "part": "judg(jus)",
-          "mean": "법, 정의 (law, right)"
-        }
+        { "part": "ju", "mean": "= law" },
+        { "part": "dge", "mean": "= dict:say" }
       ],
-      "origin": "법에 따라 판단하는 사람 → 판사"
+      "origin": "법으로 말하다 → 판결[판단]하다\n→ 판단하는 사람",
+      "derivatives": [
+        { "en": "judgment", "pos": "명", "defs": ["1 판단(력), 판정", "2 [법] 판결"] }
+      ],
+      "examples": [
+        { "en": "Don't **judge** people by their looks.", "ko": "겉모습으로 사람을 판단하지 마라." },
+        { "en": "The moment of **judgment** arrived, and the **judges** began announcing winners one by one.", "ko": "평가의 시간이 다가왔고, 심사위원이 차례로 수상자를 발표하기 시작했다.", "source": "모의" }
+      ]
     },
     {
       "en": "prejudice",
-      "ipa": "/ˈpredʒədɪs/",
+      "ipa": ["[prédʒədis]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "편견",
-            "선입견"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "pre-",
-          "mean": "미리 (before)"
+          "defs": ["*편견, 선입견"]
         },
         {
-          "part": "judice(jus)",
-          "mean": "판단 (judgment)"
+          "pos": "동",
+          "defs": ["편견을 갖게 하다"]
         }
       ],
-      "origin": "미리 판단함 → 편견"
+      "synonyms": ["bias"],
+      "parts": [
+        { "part": "pre", "mean": "= before" },
+        { "part": "judice", "mean": "= judge 판단하다" }
+      ],
+      "origin": "미리 판단을 내림 → 편견, 선입견",
+      "examples": [
+        { "en": "racial **prejudice**", "ko": "인종적 편견" },
+        { "en": "We must overcome **prejudice** based on race or gender.", "ko": "우리는 인종이나 성별에 기반한 편견을 극복해야 한다." }
+      ]
     },
     {
       "en": "injure",
-      "ipa": "/ˈɪndʒər/",
+      "ipa": ["[índʒər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "상처 입히다",
-            "해치다"
-          ]
+          "defs": ["1 *상처 입히다, 다치게 하다", "2 (감정·명예 등을) 손상시키다, 훼손하다"]
         }
       ],
+      "synonyms": ["wound, hurt, damage, harm"],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "jure(jus)",
-          "mean": "법, 정의 (right)"
-        }
+        { "part": "in", "mean": "= not" },
+        { "part": "jure", "mean": "= law" }
       ],
-      "origin": "정의롭지 않게 하다 → 해치다"
+      "origin": "법에 맞지 않는 일을 하다 → 옳지 않은 일을 하다 → 다치게 하다, 훼손하다",
+      "derivatives": [
+        { "en": "injury", "pos": "명", "defs": ["1 상해, 부상", "2 손상, 훼손"] },
+        { "en": "injurious", "pos": "형", "defs": ["해로운, 유해한"] }
+      ],
+      "examples": [
+        { "en": "When she worked at the factory, she witnessed a fellow worker get **injured** by faulty equipment.", "ko": "그녀는 공장에서 일할 때, 결함이 있는 장비로 인해 동료가 다치는 것을 목격했다.", "source": "모의" }
+      ]
     },
     {
       "en": "experience",
-      "ipa": "/ɪkˈspɪriəns/",
+      "ipa": ["[ikspíəriəns]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "경험"
-          ]
+          "defs": ["경험"]
         },
         {
           "pos": "동",
-          "defs": [
-            "경험하다"
-          ]
+          "defs": ["경험하다, 체험하다"]
         }
       ],
+      "synonyms": ["go through, undergo"],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "peri(per)",
-          "mean": "시험하다 (try)"
-        },
-        {
-          "part": "-ence",
-          "mean": "명사형 접미사"
-        }
+        { "part": "ex", "mean": "「강조」" },
+        { "part": "peri(per)", "mean": "= try" },
+        { "part": "ence", "mean": "명접" }
       ],
-      "origin": "밖으로 시험하다 → 경험"
+      "origin": "충분히 시험 삼아 해보기 → 경험",
+      "derivatives": [
+        { "en": "experienced", "pos": "형", "defs": ["경험이 있는, 노련한, 숙련된"] }
+      ],
+      "antonyms": ["inexperienced"],
+      "examples": [
+        { "en": "She has **experience** in public relations.", "ko": "그녀는 홍보 분야에 경험이 있다." },
+        { "en": "Also, we provide yoga lessons taught by **experienced** instructors.", "ko": "또한 우리는 숙련된 강사들이 진행하는 요가 강좌도 제공합니다.", "source": "모의" }
+      ]
     },
     {
       "en": "experiment",
-      "ipa": "/ɪkˈsperɪmənt/",
+      "ipa": ["명 [ikspérəmənt]", "동 [ikspérəmènt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "실험"
-          ]
+          "defs": ["*(과학) 실험, 시도"]
         },
         {
           "pos": "동",
-          "defs": [
-            "실험하다"
-          ]
+          "defs": ["실험[시험]하다, 시도하다"]
         }
       ],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "peri(per)",
-          "mean": "시험하다 (try)"
-        },
-        {
-          "part": "-ment",
-          "mean": "명사형 접미사"
-        }
+        { "part": "ex", "mean": "「강조」" },
+        { "part": "peri(per)", "mean": "= try" },
+        { "part": "ment", "mean": "명접" }
       ],
-      "origin": "밖으로 시험하다 → 실험"
+      "origin": "시도, 실험",
+      "derivatives": [
+        { "en": "experimental", "pos": "형", "defs": ["1 실험(용)의, 실험에 의거한", "2 실험[시험]적인"] }
+      ],
+      "examples": [
+        { "en": "conduct[perform] an **experiment**", "ko": "실험을 하다" },
+        { "en": "Is it right to **experiment** on animals?", "ko": "동물을 대상으로 실험하는 것은 옳은가?" }
+      ]
     },
     {
       "en": "expert",
-      "ipa": "/ˈekspɜːrt/",
+      "ipa": ["[ékspəːrt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "전문가"
-          ]
+          "defs": ["*전문가, 숙련가"]
         },
         {
           "pos": "형",
-          "defs": [
-            "전문가의"
-          ]
+          "defs": ["전문가의, 숙련된"]
         }
       ],
+      "synonyms": ["specialist, professional"],
+      "antonyms": ["beginner, novice"],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "pert(per)",
-          "mean": "시험하다 (try)"
-        }
+        { "part": "ex", "mean": "「강조」" },
+        { "part": "pert(per)", "mean": "= try" }
       ],
-      "origin": "충분히 시험한 사람 → 전문가"
+      "origin": "계속 시도해 숙달된 사람 → 전문가",
+      "derivatives": [
+        { "en": "expertise", "pos": "명", "defs": ["[èkspərtíːz] 전문 지식[기술]"] }
+      ],
+      "examples": [
+        { "en": "Talk to an **expert** before making a decision.", "ko": "결정을 내리기 전에 전문가와 상담하세요." }
+      ]
     },
     {
       "en": "peril",
-      "ipa": "/ˈperəl/",
+      "ipa": ["[pérəl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "위험",
-            "위난"
-          ]
+          "defs": ["위험, 모험"]
         }
       ],
+      "synonyms": ["danger, hazard"],
       "parts": [
-        {
-          "part": "per",
-          "mean": "시험하다 (try)"
-        },
-        {
-          "part": "-il",
-          "mean": "명사형 접미사"
-        }
+        { "part": "per", "mean": "= try" },
+        { "part": "il", "mean": "어미" }
       ],
-      "origin": "시험에 처한 상태 → 위험"
+      "origin": "시험 삼아 해보는 것\n→ 위험이 따르는 것",
+      "derivatives": [
+        { "en": "perilous", "pos": "형", "defs": ["위험한"] }
+      ],
+      "synonyms_extra": ["dangerous"],
+      "phrases": [
+        { "en": "at one's peril", "ko": "위험을 각오하고, 자신의 책임하에" }
+      ],
+      "examples": [
+        { "en": "Enter the cave **at your peril**.", "ko": "위험을 각오하고 그 동굴에 들어가시오. (위험하니 들어가지 말라는 뜻)" },
+        { "en": "At last, our **perilous** journey was over.", "ko": "마침내, 우리의 위험한 여정이 끝났다." }
+      ]
     },
     {
       "en": "social",
-      "ipa": "/ˈsoʊʃl/",
+      "ipa": ["[sóuʃəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "사회의",
-            "사교적인"
-          ]
+          "defs": ["1 *사회의, 사회적인", "2 사교상의, 친목의"]
         }
       ],
       "parts": [
-        {
-          "part": "soci",
-          "mean": "친구, 동반자 (companion)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "soci", "mean": "= companion" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "동반자의 → 사회의"
+      "origin": "친구와 함께 하는 → 사회의",
+      "derivatives": [
+        { "en": "society", "pos": "명", "defs": ["1 사회", "2 협회, 단체"] },
+        { "en": "sociable", "pos": "형", "defs": ["사교적인, 붙임성 있는"] },
+        { "en": "sociology", "pos": "명", "defs": ["사회학"] }
+      ],
+      "antonyms": ["unsociable"],
+      "examples": [
+        { "en": "She enjoys **social** events because she is very **sociable**.", "ko": "그녀는 매우 사교적이기 때문에 사교 모임을 즐긴다." },
+        { "en": "We are living in an information-based **society**.", "ko": "우리는 정보 기반 사회에 살고 있다." }
+      ]
     },
     {
       "en": "associate",
-      "ipa": "/əˈsoʊʃieɪt/",
+      "ipa": ["동 [əsóuʃièit]", "명/형 [əsóuʃiət]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "연상하다",
-            "교제하다"
-          ]
+          "defs": ["1 (+ with) *관련시켜 생각하다, 연상하다, 연관시키다*", "2 (특히 나쁜 친구와) 교제하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "동료"
-          ]
+          "defs": ["동료, 친구"]
+        },
+        {
+          "pos": "형",
+          "defs": ["1 준-, 부-", "2 제휴한; 한패의"]
         }
       ],
+      "synonyms": ["colleague, ally"],
       "parts": [
-        {
-          "part": "as-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "soci",
-          "mean": "친구 (companion)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "as(ad)", "mean": "= to" },
+        { "part": "soci", "mean": "= companion" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "친구 쪽으로 향하다 → 교제하다"
+      "origin": "├ …의 친구[동료]가 되다 → …와 교제하다\n └ …와 관계 짓다 → 연관시키다, 연상하다",
+      "derivatives": [
+        { "en": "association", "pos": "명", "defs": ["1 협회, 단체", "2 관련, 관계"] }
+      ],
+      "examples": [
+        { "en": "The color red is often **associated with** good luck in Chinese cultures.", "ko": "중국 문화에서 빨간색은 종종 행운과 연관되어 있다.", "source": "교과서" },
+        { "en": "I don't want my son to **associate with** bullies.", "ko": "저는 제 아들이 불량 학생들과 어울리지 않았으면 해요." },
+        { "en": "She is an **associate** director, assisting the lead director.", "ko": "그녀는 부감독으로, 주 감독을 돕고 있다." },
+        { "en": "There is a false belief in an **association** between children's shoe size and reading ability.", "ko": "어린이의 신발 사이즈와 독서 능력의 관계에 대한 잘못된 믿음이 있다.", "source": "모의" }
+      ]
     }
   ]
 }

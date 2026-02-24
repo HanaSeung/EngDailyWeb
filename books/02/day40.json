@@ -3,620 +3,594 @@
   "words": [
     {
       "en": "disaster",
-      "ipa": "/dɪˈzæstər/",
+      "ipa": ["[dizǽstər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "재난",
-            "참사"
-          ]
+          "defs": ["(뜻밖의) 재난, 참사, 큰 불행"]
         }
       ],
+      "synonyms": ["catastrophe"],
       "parts": [
-        {
-          "part": "dis-",
-          "mean": "떨어져 (apart, away)"
-        },
-        {
-          "part": "aster",
-          "mean": "별 (star)"
-        }
+        { "part": "dis", "mean": "= ill 나쁜" },
+        { "part": "aster", "mean": "= star" }
       ],
-      "origin": "별이 떨어진(불길한) → 재난"
+      "origin": "불길한 별\n※ 점성술에서 별이 나쁜 위치에 있으면 불길함과 불행을 뜻함",
+      "derivatives": [
+        { "en": "disastrous", "pos": "형", "defs": ["재난의, 비참한, 불행한"] }
+      ],
+      "examples": [
+        { "en": "With the planet becoming warmer, natural **disasters** such as forest fires and floods are increasing.", "ko": "지구가 점점 더 따뜻해지면서, 산불과 홍수 같은 자연재해가 증가하고 있다.", "source": "교과서" },
+        { "en": "The study warned that the economic policy could have **disastrous** effects.", "ko": "그 연구는 경제 정책에 처참한 결과가 따를 수 있다고 경고했다." }
+      ]
     },
     {
       "en": "astronaut",
-      "ipa": "/ˈæstrənɔːt/",
+      "ipa": ["[ǽstrənɔ̀ːt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "우주비행사"
-          ]
+          "defs": ["우주 비행사"]
         }
       ],
       "parts": [
-        {
-          "part": "astro(aster)",
-          "mean": "별 (star)"
-        },
-        {
-          "part": "naut",
-          "mean": "항해사 (sailor)"
-        }
+        { "part": "astro", "mean": "= star" },
+        { "part": "naut", "mean": "= sailor" }
       ],
-      "origin": "별의 항해사 → 우주비행사"
+      "origin": "별 사이를 항해하는 선원",
+      "examples": [
+        { "en": "The **astronaut** spent six months on the space station.", "ko": "그 우주 비행사는 우주정거장에서 6개월을 보냈다." }
+      ]
     },
     {
       "en": "astronomy",
-      "ipa": "/əˈstrɑːnəmi/",
+      "ipa": ["[əstrɑ́ːnəmi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "천문학"
-          ]
+          "defs": ["천문학"]
         }
       ],
       "parts": [
-        {
-          "part": "astro(aster)",
-          "mean": "별 (star)"
-        },
-        {
-          "part": "nomy",
-          "mean": "법칙, 학문 (law, study)"
-        }
+        { "part": "astro", "mean": "= star" },
+        { "part": "nomy", "mean": "명접「학문·법」" }
       ],
-      "origin": "별의 법칙 → 천문학"
+      "origin": "별에 관한 학문",
+      "derivatives": [
+        { "en": "astronomical", "pos": "형", "defs": ["천문학의; (수·양 등이) 천문학적인, 방대한"] },
+        { "en": "astronomer", "pos": "명", "defs": ["천문학자"] }
+      ],
+      "examples": [
+        { "en": "**Astronomy** is the scientific study of the universe.", "ko": "천문학은 우주에 대한 과학적 연구이다." }
+      ]
     },
     {
       "en": "astrology",
-      "ipa": "/əˈstrɑːlədʒi/",
+      "ipa": ["[əstrɑ́ːlədʒi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "점성학"
-          ]
+          "defs": ["점성학, 점성술"]
         }
       ],
       "parts": [
-        {
-          "part": "astro(aster)",
-          "mean": "별 (star)"
-        },
-        {
-          "part": "logy",
-          "mean": "학문 (study)"
-        }
+        { "part": "astro", "mean": "= star" },
+        { "part": "logy", "mean": "명접「학문」" }
       ],
-      "origin": "별에 대한 학문 → 점성학"
+      "origin": "별에 관한 학문",
+      "examples": [
+        { "en": "Astronomy and **astrology** seem similar, but **astrology** is related to superstition.", "ko": "천문학과 점성학은 비슷해 보이지만, 점성학은 미신과 관련이 있다." }
+      ]
     },
     {
       "en": "desire",
-      "ipa": "/dɪˈzaɪər/",
+      "ipa": ["[dizáiər]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "욕구",
-            "열망"
-          ]
-        },
-        {
           "pos": "동",
-          "defs": [
-            "바라다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "떨어져 (from)"
+          "defs": ["몹시 바라다, 원하다, 욕구하다"]
         },
         {
-          "part": "sire(aster)",
-          "mean": "별 (star)"
+          "pos": "명",
+          "defs": ["욕구, 욕망, 소망"]
         }
       ],
-      "origin": "별로부터(점성에서) 바라다 → 열망"
+      "synonyms": ["want, long for"],
+      "parts": [
+        { "part": "de", "mean": "= from" },
+        { "part": "sire", "mean": "= star" }
+      ],
+      "origin": "※ 무엇인가를 바랄 때, 별이 그것을 가져다 줄 것을 기다린다는 데서 온 말",
+      "derivatives": [
+        { "en": "desirable", "pos": "형", "defs": ["바람직한, 가치 있는, 얻고 싶은"] }
+      ],
+      "antonyms": ["undesirable"],
+      "examples": [
+        { "en": "He had a strong **desire** to succeed.", "ko": "그는 성공하고 싶은 강한 욕망을 가지고 있었다." }
+      ]
     },
     {
       "en": "consider",
-      "ipa": "/kənˈsɪdər/",
+      "ipa": ["[kənsídər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "고려하다",
-            "~라고 간주하다"
-          ]
+          "defs": ["1 *(곰곰이) 생각하다, 숙고하다", "2 *(…로) 여기다, 간주하다", "3 (특정 사실을) 고려[참작]하다, (타인·감정을) 존중[배려]하다"]
         }
       ],
+      "synonyms": ["think over", "regard as"],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "sider(aster)",
-          "mean": "별 (star)"
-        }
+        { "part": "con", "mean": "= com:with" },
+        { "part": "sider", "mean": "= star" }
       ],
-      "origin": "별들을 함께 살피다 → 고려하다"
+      "origin": "※ 별을 신중하게 관측하여 운세를 판단하는 데서 온 말",
+      "derivatives": [
+        { "en": "considerate", "pos": "형", "defs": ["사려 깊은, 배려하는"] },
+        { "en": "consideration", "pos": "명", "defs": ["1 숙고, 고려 (사항)", "2 참작, 배려"] },
+        { "en": "considerable", "pos": "형", "defs": ["(양·정도 등이) 상당한, 많은"] },
+        { "en": "considerably", "pos": "부", "defs": ["많이, 상당히"] },
+        { "en": "considering", "pos": "전/접", "defs": ["…을 고려하면"] }
+      ],
+      "synonyms_extra": ["thoughtful", "significant"],
+      "antonyms": ["inconsiderate"],
+      "synonyms_extra2": ["in view of"],
+      "phrases": [
+        { "en": "take A into consideration", "ko": "A를 고려[참작]하다" }
+      ],
+      "examples": [
+        { "en": "I **consider** Ms. Jones to be a very **considerate** woman.", "ko": "나는 Jones 씨가 매우 사려 깊은 여성이라고 생각한다." },
+        { "en": "However, after careful **consideration**, I have accepted a position at another company.", "ko": "하지만 신중한 고려 끝에, 나는 다른 회사의 일자리를 수락했다.", "source": "모의" },
+        { "en": "**considerable** damage", "ko": "상당한 손해" }
+      ]
     },
     {
       "en": "surge",
-      "ipa": "/sɜːrdʒ/",
+      "ipa": ["[səːrdʒ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "급증하다",
-            "밀려들다"
-          ]
+          "defs": ["1 (군중·감정 등이) 밀려들다, 쇄도하다", "2 (가격·수량 등이) 급등하다, 급증하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "급증"
-          ]
+          "defs": ["1 격동, 쇄도", "2 급등, 급증"]
         }
       ],
+      "synonyms": ["soar"],
       "parts": [
-        {
-          "part": "surg",
-          "mean": "솟아나다 (rise)"
-        }
+        { "part": "surg", "mean": "라틴어 surgere(=spring up)에서 온 말" }
       ],
-      "origin": "솟아나다 → 급증하다"
+      "origin": "솟아나다 → 급증하다",
+      "examples": [
+        { "en": "A crowd of fans **surged** toward the stage.", "ko": "수많은 팬이 무대로 몰려들었다." },
+        { "en": "She felt a **surge** of anger when she read the message.", "ko": "그녀는 그 메시지를 읽고 치미는 분노를 느꼈다." }
+      ]
     },
     {
       "en": "source",
-      "ipa": "/sɔːrs/",
+      "ipa": ["[sɔːrs]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "원천",
-            "근원",
-            "출처"
-          ]
+          "defs": ["1 근원, 원천; 원인", "2 출처"]
         }
       ],
+      "synonyms": ["origin"],
       "parts": [
-        {
-          "part": "sourc(surg)",
-          "mean": "솟아나다 (rise, spring)"
-        }
+        { "part": "sour(surg)", "mean": "= spring up" },
+        { "part": "ce", "mean": "어미" }
       ],
-      "origin": "솟아나는 곳 → 원천"
+      "origin": "솟아나오는 곳 → 원천",
+      "examples": [
+        { "en": "Her main **source** of income is her pension.", "ko": "그녀의 주요 수입원은 연금이다." },
+        { "en": "That website is an unreliable, inaccurate **source** of information.", "ko": "그 웹사이트는 신뢰할 수 없고 부정확한 정보의 출처이다.", "source": "모의" }
+      ]
     },
     {
       "en": "resource",
-      "ipa": "/ˈriːsɔːrs/",
+      "ipa": ["[ríːsɔ̀ːrs]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "자원",
-            "수단"
-          ]
+          "defs": ["1 (주로 복수형) *자원, 물자, 자산*", "2 (학습·연구) 자료"]
         }
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "source(surg)",
-          "mean": "솟아나다 (rise)"
-        }
+        { "part": "re", "mean": "= again" },
+        { "part": "source", "mean": "원천" }
       ],
-      "origin": "다시 솟아나는 것 → 자원"
+      "origin": "다시 원천이 될 수 있는 것",
+      "examples": [
+        { "en": "They convert free natural **resources** like the sun and wind into the power that fuels our lives.", "ko": "그들은 태양과 바람 같은 공짜 천연자원을 우리가 살아가는 데 필요한 에너지로 전환한다.", "source": "수능" },
+        { "en": "She used a variety of **resources** to gather information for her report.", "ko": "그녀는 보고서를 위한 정보를 모으기 위해 다양한 자료를 사용했다." }
+      ]
     },
     {
       "en": "sense",
-      "ipa": "/sens/",
+      "ipa": ["[sens]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "감각",
-            "의미",
-            "분별력"
-          ]
+          "defs": ["1 *(오감(五感)의) 감각", "2 느낌, 감정", "3 분별[판단]력, 감각, 센스", "4 *(단어·어구의) 의미, 뜻"]
         },
         {
           "pos": "동",
-          "defs": [
-            "느끼다"
-          ]
+          "defs": ["느끼다, 감지하다, 알아채다"]
         }
       ],
+      "synonyms": ["meaning", "perceive"],
       "parts": [
-        {
-          "part": "sens",
-          "mean": "느끼다 (feel)"
-        }
+        { "part": "sens", "mean": "" }
       ],
-      "origin": "느끼다 → 감각"
+      "origin": "라틴어 sensus(=feeling)에서 온 말 →\n 감정·느낌 →\n├ 느끼는 힘 \n│├ 감각\n│ └ 분별(력)\n└ 느끼는 내용 → 의미",
+      "derivatives": [
+        { "en": "sensitive", "pos": "형", "defs": ["1 섬세한", "2 민감한, 예민한"] },
+        { "en": "sensitivity", "pos": "명", "defs": ["1 세심함", "2 민감, 예민함"] },
+        { "en": "sensible", "pos": "형", "defs": ["분별[지각] 있는, 현명한"] },
+        { "en": "sensibility", "pos": "명", "defs": ["(문화·예술적) 감각, 감성; (주로 복수형) 감수성"] },
+        { "en": "sensory", "pos": "형", "defs": ["(주로 명사 앞에서) 감각의"] },
+        { "en": "senseless", "pos": "형", "defs": ["1 분별 없는, 무분별한, 몰상식한", "2 무의미한"] }
+      ],
+      "antonyms": ["insensitive", "rational", "meaningless"],
+      "examples": [
+        { "en": "a **sense** of humor[direction/justice/loss]", "ko": "유머감각[방향감각/정의감/상실감]" },
+        { "en": "When the body **senses** a dangerous parasite, it produces special cells.", "ko": "신체가 위험한 기생충을 감지하면, 특별한 세포를 만들어낸다.", "source": "모의" },
+        { "en": "It's not **sensible** to be overly **sensitive** to criticism.", "ko": "비판에 지나치게 예민한 것은 현명하지 못하다." }
+      ]
     },
     {
       "en": "nonsense",
-      "ipa": "/ˈnɑːnsens/",
+      "ipa": ["[nɑ́ːnsens]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "터무니없는 생각",
-            "무의미한 말"
-          ]
+          "defs": ["무의미한[어리석은] 말[행동], 터무니없는 생각"]
         }
       ],
       "parts": [
-        {
-          "part": "non-",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "sense(sens)",
-          "mean": "의미 (meaning)"
-        }
+        { "part": "non", "mean": "= not「부정」" },
+        { "part": "sense", "mean": "의식, 의미" }
       ],
-      "origin": "의미 없는 것 → 무의미한 말"
+      "origin": "의미가 없는 것",
+      "examples": [
+        { "en": "You are talking complete **nonsense**.", "ko": "너는 완전히 말도 안 되는 소리를 하고 있어." }
+      ]
     },
     {
       "en": "sensation",
-      "ipa": "/senˈseɪʃn/",
+      "ipa": ["[senséiʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "감각",
-            "세상을 놀라게 하는 일"
-          ]
+          "defs": ["1 *감각", "2 (설명하기 힘든) 느낌, 기분", "3 감동, 감흥; 세상을 놀라게 하는 것"]
         }
       ],
       "parts": [
-        {
-          "part": "sens",
-          "mean": "느끼다 (feel)"
-        },
-        {
-          "part": "-ation",
-          "mean": "명사형 접미사"
-        }
+        { "part": "sens", "mean": "= feel" },
+        { "part": "ation", "mean": "명접" }
       ],
-      "origin": "느껴지는 것 → 감각"
+      "origin": "느끼는 것 → 감각",
+      "derivatives": [
+        { "en": "sensational", "pos": "형", "defs": ["1 세상을 놀라게 하는", "2 선정적인"] }
+      ],
+      "examples": [
+        { "en": "Every **sensation** our body feels has to wait for the information to be carried to the brain.", "ko": "우리 몸이 느끼는 모든 감각은 정보가 뇌로 전달되기까지 기다려야 한다.", "source": "모의" },
+        { "en": "The celebrity's birthday party was a **sensational** event.", "ko": "그 유명인사의 생일 파티는 선풍적인 사건이었다." }
+      ]
     },
     {
       "en": "sentiment",
-      "ipa": "/ˈsentɪmənt/",
+      "ipa": ["[séntəmənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "감정",
-            "정서"
-          ]
+          "defs": ["1 감정, 정서", "2 (종종 복수형) 의견, 생각, 감상"]
         }
       ],
       "parts": [
-        {
-          "part": "sent(sens)",
-          "mean": "느끼다 (feel)"
-        },
-        {
-          "part": "-iment",
-          "mean": "명사형 접미사"
-        }
+        { "part": "sent(sens)", "mean": "= feel" },
+        { "part": "ment", "mean": "명접" }
       ],
-      "origin": "느끼는 것 → 감정"
+      "origin": "느끼는 것 → 감정",
+      "derivatives": [
+        { "en": "sentimental", "pos": "형", "defs": ["1 감정적인", "2 감상적인, 동정적인"] }
+      ],
+      "examples": [
+        { "en": "Public **sentiment** is against building the factory near the city.", "ko": "대중의 여론은 도시 근처에 공장을 짓는 것에 반대하고 있다." },
+        { "en": "Try not to make a **sentimental** decision.", "ko": "감정적인 결정을 내리지 않도록 노력해라." }
+      ]
     },
     {
       "en": "consent",
-      "ipa": "/kənˈsent/",
+      "ipa": ["[kənsént]"],
       "meanings": [
         {
-          "pos": "동",
-          "defs": [
-            "동의하다"
-          ]
-        },
-        {
           "pos": "명",
-          "defs": [
-            "동의",
-            "승낙"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "defs": ["승낙, 허가, 동의"]
         },
         {
-          "part": "sent(sens)",
-          "mean": "느끼다 (feel)"
+          "pos": "동",
+          "defs": ["(+ to/to-v) 승낙[허락]하다, 동의하다"]
         }
       ],
-      "origin": "함께 느끼다 → 동의하다"
+      "synonyms": ["agree with, assent to"],
+      "parts": [
+        { "part": "con", "mean": "= com:together" },
+        { "part": "sent", "mean": "= feel" }
+      ],
+      "origin": "공통으로 느끼다 → 같은 생각(을 하다)\n→ 동의(하다)",
+      "derivatives": [
+        { "en": "consensus", "pos": "명", "defs": ["의견 일치, 합의"] }
+      ],
+      "examples": [
+        { "en": "There are also concerns that AI may imitate the styles of human artists without their **consent**.", "ko": "AI(인공지능)가 인간 예술가들의 스타일을 그들의 동의 없이 모방할 수 있다는 우려도 제기되고 있다.", "source": "교과서" }
+      ]
     },
     {
       "en": "resent",
-      "ipa": "/rɪˈzent/",
+      "ipa": ["[rizént]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "분개하다",
-            "억울하게 여기다"
-          ]
+          "defs": ["분개하다, 화를 내다"]
         }
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "반대로 (against)"
-        },
-        {
-          "part": "sent(sens)",
-          "mean": "느끼다 (feel)"
-        }
+        { "part": "re", "mean": "「강조」" },
+        { "part": "sent", "mean": "= feel" }
       ],
-      "origin": "반대로 느끼다 → 분개하다"
+      "origin": "feel strongly 격렬한 감정을 느끼다\n→ 분노·화를 느끼다",
+      "derivatives": [
+        { "en": "resentment", "pos": "명", "defs": ["분개, 분노"] },
+        { "en": "resentful", "pos": "형", "defs": ["분개하는, 화난"] }
+      ],
+      "synonyms": ["fury, anger"],
+      "examples": [
+        { "en": "The workers **resented** the way they were treated.", "ko": "근로자[직원]들은 그들이 대우받은 방식에 분개했다." },
+        { "en": "Grief, guilt, **resentment**, and anger are all examples of negative sentiments.", "ko": "슬픔, 죄책감, 분개, 분노는 모두 부정적인 감정의 예시이다.", "source": "수능" }
+      ]
     },
     {
       "en": "scent",
-      "ipa": "/sent/",
+      "ipa": ["[sent]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "향기",
-            "냄새"
-          ]
+          "defs": ["향기, 냄새"]
         }
       ],
       "parts": [
-        {
-          "part": "scent(sens)",
-          "mean": "느끼다 (feel, smell)"
-        }
+        { "part": "scent(sens)", "mean": "= feel" }
       ],
-      "origin": "느껴지는 냄새 → 향기"
+      "origin": "(냄새를) 느낌",
+      "examples": [
+        { "en": "The **scent** of lavender is known for its calming effects.", "ko": "라벤더의 향기는 진정시키는 효과로 유명하다." }
+      ]
     },
     {
       "en": "discord",
-      "ipa": "/ˈdɪskɔːrd/",
+      "ipa": ["[dískɔːrd]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "불일치",
-            "불화"
-          ]
+          "defs": ["1 *(의견 등의) 불일치, 불화", "2 [음악] 불협화음"]
         }
       ],
+      "synonyms": ["disagreement"],
+      "antonyms": ["accord", "harmony"],
       "parts": [
-        {
-          "part": "dis-",
-          "mean": "반대 (apart)"
-        },
-        {
-          "part": "cord",
-          "mean": "마음 (heart)"
-        }
+        { "part": "dis", "mean": "= apart" },
+        { "part": "cord", "mean": "= heart" }
       ],
-      "origin": "마음이 떨어진 → 불화"
+      "origin": "마음이 서로 멀리 떨어져 있음\n→ 불일치, 불화",
+      "examples": [
+        { "en": "There has been **discord** between the two nations recently.", "ko": "최근 양국 간에 불화[분쟁]가 있었다." }
+      ]
     },
     {
       "en": "accord",
-      "ipa": "/əˈkɔːrd/",
+      "ipa": ["[əkɔ́ːrd]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "일치",
-            "합의"
-          ]
+          "pos": "동",
+          "defs": ["1 (+ with) 부합하다, 일치하다", "2 부여하다"]
         },
         {
-          "pos": "동",
-          "defs": [
-            "일치하다"
-          ]
+          "pos": "명",
+          "defs": ["1 (생각 등에 대한) 일치", "2 (국가·기관 간의) 협정, 합의"]
         }
       ],
       "parts": [
-        {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "cord",
-          "mean": "마음 (heart)"
-        }
+        { "part": "ac(ad)", "mean": "= to" },
+        { "part": "cord", "mean": "= heart" }
       ],
-      "origin": "마음이 ~쪽으로 향하다 → 일치"
+      "origin": "heart to heart 서로 마음을 터놓다\n→ 마음이 일치하다",
+      "derivatives": [
+        { "en": "accordance", "pos": "명", "defs": ["일치, 합치, 부합"] },
+        { "en": "accordingly", "pos": "부", "defs": ["1 따라서, 그러므로", "2 그에 맞게, 그에 따라서"] }
+      ],
+      "synonyms": ["therefore"],
+      "phrases": [
+        { "en": "according to", "ko": "…에 따르면, …에 의하면" },
+        { "en": "in accordance with", "ko": "(규칙·원리 등)에 따라, …대로" }
+      ],
+      "examples": [
+        { "en": "His statement doesn't **accord with** the police evidence.", "ko": "그의 진술은 경찰의 증거와 일치하지 않는다." },
+        { "en": "**According to** legend, once a vampire bites a person, that person turns into a vampire.", "ko": "전설에 따르면, 흡혈귀가 사람을 물면 그 사람도 흡혈귀로 변한다고 한다.", "source": "모의" },
+        { "en": "Everything is **in accordance with** the plan.", "ko": "모든 것이 계획대로이다." }
+      ]
     },
     {
       "en": "courage",
-      "ipa": "/ˈkɜːrɪdʒ/",
+      "ipa": ["[kɔ́ːridʒ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "용기"
-          ]
+          "defs": ["용기, 담력"]
         }
       ],
+      "synonyms": ["bravery"],
       "parts": [
-        {
-          "part": "cour(cord)",
-          "mean": "마음 (heart)"
-        },
-        {
-          "part": "-age",
-          "mean": "명사형 접미사"
-        }
+        { "part": "cour(cord)", "mean": "= heart" },
+        { "part": "age", "mean": "명접" }
       ],
-      "origin": "마음의 힘 → 용기"
+      "origin": "마음으로부터 나오는 것",
+      "derivatives": [
+        { "en": "courageous", "pos": "형", "defs": ["용기[담력] 있는"] }
+      ],
+      "synonyms_extra": ["brave, fearless"],
+      "antonyms": ["cowardly, timid"],
+      "examples": [
+        { "en": "I didn't have the **courage** to tell the truth.", "ko": "나는 진실을 말할 용기가 없었다." }
+      ]
     },
     {
       "en": "encourage",
-      "ipa": "/ɪnˈkɜːrɪdʒ/",
+      "ipa": ["[inkɔ́ːridʒ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "격려하다",
-            "권장하다"
-          ]
+          "defs": ["1 용기를 북돋우다", "2 *(…하는 것을) 장려하다, 촉진하다, 조장하다"]
         }
       ],
+      "antonyms": ["discourage"],
       "parts": [
-        {
-          "part": "en-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "courage(cord)",
-          "mean": "용기 (courage)"
-        }
+        { "part": "en", "mean": "= make" },
+        { "part": "courage", "mean": "용기" }
       ],
-      "origin": "안에 용기를 넣다 → 격려하다"
+      "origin": "용기를 북돋우다",
+      "derivatives": [
+        { "en": "encouragement", "pos": "명", "defs": ["1 격려, 고무", "2 장려, 조장"] }
+      ],
+      "phrases": [
+        { "en": "encourage A to-v", "ko": "A가 …하도록 격려[장려]하다" }
+      ],
+      "examples": [
+        { "en": "He **encouraged** me **to** never **give up**. The **encouragement** I've received from him has been so helpful.", "ko": "그는 내게 결코 포기하지 말라고 용기를 북돋워줬다. 그에게 받은 격려는 무척 도움이 되었다." }
+      ]
     },
     {
       "en": "core",
-      "ipa": "/kɔːr/",
+      "ipa": ["[kɔːr]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "핵심"
-          ]
+          "defs": ["1 핵심, 중심부, 중요 부분", "2 (사물의) 심, 속"]
         },
         {
           "pos": "형",
-          "defs": [
-            "핵심의"
-          ]
+          "defs": ["*핵심의, 가장 중요한, 중심적인"]
         }
       ],
       "parts": [
-        {
-          "part": "cor(cord)",
-          "mean": "마음 (heart)"
-        }
+        { "part": "core(cord)", "mean": "= heart" }
       ],
-      "origin": "마음 → 핵심"
+      "origin": "중심부",
+      "examples": [
+        { "en": "The **core** of the Earth is made mostly of iron.", "ko": "지구의 핵은 대부분 철로 이루어져 있다." },
+        { "en": "The high cost of housing is a **core** issue for many people.", "ko": "높은 주거 비용은 많은 사람들에게 핵심적인 문제이다." }
+      ]
     },
     {
       "en": "terminal",
-      "ipa": "/ˈtɜːrmɪnl/",
+      "ipa": ["[tə́ːrmənəl]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "터미널"
-          ]
+          "pos": "형",
+          "defs": ["1 맨 끝의, 말단의; 종말의", "2 [의학] (병이) 말기의"]
         },
         {
-          "pos": "형",
-          "defs": [
-            "말기의",
-            "끝의"
-          ]
+          "pos": "명",
+          "defs": ["종점, 종착역; (버스·열차 등의) 터미널"]
         }
       ],
       "parts": [
-        {
-          "part": "termin",
-          "mean": "끝 (end, limit)"
-        },
-        {
-          "part": "-al",
-          "mean": "명사/형용사형 접미사"
-        }
+        { "part": "termin", "mean": "= end" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "끝의 → 말기의"
+      "origin": "끝의",
+      "examples": [
+        { "en": "**terminal** cancer", "ko": "말기 암" },
+        { "en": "Passengers rushed to the **terminal** to catch the last train.", "ko": "승객들은 마지막 기차를 타기 위해 터미널로 급히 달려갔다." }
+      ]
     },
     {
       "en": "terminate",
-      "ipa": "/ˈtɜːrmɪneɪt/",
+      "ipa": ["[tə́ːrmənèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "끝내다",
-            "종결시키다"
-          ]
+          "defs": ["종결하다, 끝내다; 종결되다, 끝나다"]
         }
       ],
+      "synonyms": ["end, stop"],
       "parts": [
-        {
-          "part": "termin",
-          "mean": "끝 (end)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "termin", "mean": "= end" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "끝내다"
+      "origin": "끝내다",
+      "derivatives": [
+        { "en": "termination", "pos": "명", "defs": ["(협상·계약·상황 등의) 종결, 종료"] }
+      ],
+      "examples": [
+        { "en": "Your contract **terminates** in three months.", "ko": "귀하의 계약은 3개월 후에 만료됩니다." }
+      ]
     },
     {
       "en": "determine",
-      "ipa": "/dɪˈtɜːrmɪn/",
+      "ipa": ["[ditə́ːrmin]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "결정하다",
-            "알아내다"
-          ]
+          "defs": ["1 *결정짓다, 좌우하다", "2 결심하다"]
         }
       ],
+      "synonyms": ["decide", "resolve"],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "termin",
-          "mean": "끝, 경계 (end, limit)"
-        }
+        { "part": "de", "mean": "= off" },
+        { "part": "termin", "mean": "= end, limit" }
       ],
-      "origin": "완전히 경계를 정하다 → 결정하다"
+      "origin": "끝내다, 경계를 정하다 → 결정하다",
+      "derivatives": [
+        { "en": "determined", "pos": "형", "defs": ["1 결연한, 단호한", "2 (+ to-v) (…하기로) 결심한"] },
+        { "en": "determination", "pos": "명", "defs": ["1 결심, 결의", "2 결정"] }
+      ],
+      "synonyms_extra": ["resolution"],
+      "phrases": [
+        { "en": "cf. predetermine", "ko": "미리 결정하다, 예정하다" }
+      ],
+      "examples": [
+        { "en": "Quality **determines** the value of a product.", "ko": "품질이 상품의 가치를 결정짓는다." },
+        { "en": "She was **determined to pour** everything she had into the competition.", "ko": "그녀는 그 대회에 모든 것을 쏟아붓기로 결심했다.", "source": "교과서" },
+        { "en": "Everything depends on your **determination**.", "ko": "모든 일은 네 마음먹기에 달렸다." }
+      ]
     },
     {
       "en": "term",
-      "ipa": "/tɜːrm/",
+      "ipa": ["[təːrm]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "용어",
-            "기간",
-            "학기",
-            "조건"
-          ]
-        }
-      ],
-      "parts": [
+          "defs": ["1 *용어, 말", "2 (복수형) (계약 등의) 조건", "3 *기간*, 임기, 학기", "4 (복수형) 관계, 사이"]
+        },
         {
-          "part": "term(termin)",
-          "mean": "끝, 경계 (end, limit)"
+          "pos": "동",
+          "defs": ["(주로 수동태로) (…라고) 이름 짓다, 칭하다, 부르다"]
         }
       ],
-      "origin": "경계가 있는 것 → 기간, 용어"
+      "synonyms": ["word", "conditions"],
+      "parts": [
+        { "part": "term(termin)", "mean": "" }
+      ],
+      "origin": "라틴어 terminus(=limit)에서 온 말 →\n 끝, 한계 →\n├ 시간적 한계 → 기간, 임기, 학기\n├ 약정의 한계 → 조건\n → 일정한 조건의 지속 → 관계\n└ 의미의 한정 → 용어",
+      "phrases": [
+        { "en": "in terms of", "ko": "…의 관점[측면]에서 보면" }
+      ],
+      "examples": [
+        { "en": "The **term** \"multitasking\" didn't exist until the 1960s.", "ko": "'멀티태스킹'이라는 용어는 1960년대까지 존재하지 않았다.", "source": "수능" },
+        { "en": "the **terms** of payment", "ko": "지불 조건" },
+        { "en": "Our company is unbeatable **in terms of** price and service.", "ko": "가격과 서비스 측면에서 우리 회사는 무적이다." }
+      ]
     }
   ]
 }

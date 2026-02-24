@@ -3,593 +3,554 @@
   "words": [
     {
       "en": "collect",
-      "ipa": "/kəˈlekt/",
+      "ipa": ["[kəlékt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "수집하다",
-            "모으다"
-          ]
+          "defs": ["1 *수집하다, 모으다", "2 (세금·집세 등을) 징수하다", "3 모금하다"]
         }
       ],
+      "synonyms": ["gather"],
       "parts": [
-        {
-          "part": "col-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "lect",
-          "mean": "모으다 (gather)"
-        }
+        { "part": "col(com)", "mean": "= together" },
+        { "part": "lect", "mean": "= gather" }
       ],
-      "origin": "함께 모으다 → 수집하다"
+      "origin": "한데 모으다",
+      "derivatives": [
+        { "en": "collection", "pos": "명", "defs": ["1 수집(물)", "2 (세금 등의) 징수", "3 모금"] },
+        { "en": "collective", "pos": "형", "defs": ["집단의, 공동의"] }
+      ],
+      "antonyms": ["individual"],
+      "examples": [
+        { "en": "We often **collect** stamps, coins, and vintage cars even when they serve no practical purpose.", "ko": "우리는 실용적인 용도가 없더라도 우표, 동전, 그리고 구형 자동차를 종종 모은다.", "source": "모의" },
+        { "en": "The **collection** of the data for this report took me a lot of time.", "ko": "이 보고서를 위한 자료 수집에는 많은 시간이 걸렸다." },
+        { "en": "a **collective** responsibility", "ko": "공동의 책임" }
+      ]
     },
     {
       "en": "recollect",
-      "ipa": "/ˌrekəˈlekt/",
+      "ipa": ["[rèkəlékt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "기억해내다",
-            "회상하다"
-          ]
+          "defs": ["생각해내다, 회상하다"]
         }
       ],
+      "synonyms": ["recall, remember"],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "col-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "lect",
-          "mean": "모으다 (gather)"
-        }
+        { "part": "re", "mean": "= again" },
+        { "part": "collect", "mean": "모으다" }
       ],
-      "origin": "다시 함께 모으다 → 기억해내다"
+      "origin": "(과거의 일을 머릿속에) 다시 모으다",
+      "derivatives": [
+        { "en": "recollection", "pos": "명", "defs": ["추억, 기억(력)"] }
+      ],
+      "synonyms_extra": ["memory"],
+      "examples": [
+        { "en": "I remember the man very well, but I just cannot **recollect** his name.", "ko": "나는 그 남자를 아주 잘 기억하지만, 그 남자의 이름은 생각이 나지 않는다." }
+      ]
     },
     {
       "en": "elect",
-      "ipa": "/ɪˈlekt/",
+      "ipa": ["[ilékt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "선출하다"
-          ]
+          "defs": ["선거하다, 선출하다"]
         }
       ],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "lect",
-          "mean": "모으다, 고르다 (choose)"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "lect", "mean": "= choose" }
       ],
-      "origin": "밖으로 골라내다 → 선출하다"
+      "origin": "선택하여 밖으로 뽑아내다",
+      "derivatives": [
+        { "en": "election", "pos": "명", "defs": ["선거"] }
+      ],
+      "examples": [
+        { "en": "The citizens **elected** her as their new mayor.", "ko": "시민들은 그녀를 새 시장으로 선출했다." },
+        { "en": "a presidential **election**", "ko": "대통령 선거" }
+      ]
     },
     {
       "en": "neglect",
-      "ipa": "/nɪˈɡlekt/",
+      "ipa": ["[niglékt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "소홀히 하다",
-            "무시하다"
-          ]
+          "defs": ["1 (의무·일·보살핌 등을) 소홀히 하다, 게을리 하다", "2 *무시[경시]하다, 간과하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "태만"
-          ]
+          "defs": ["1 태만, 소홀, 방치", "2 무시, 경시"]
         }
       ],
+      "synonyms": ["overlook, ignore"],
+      "antonyms": ["cherish"],
       "parts": [
-        {
-          "part": "neg-",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "lect",
-          "mean": "모으다 (gather)"
-        }
+        { "part": "neg", "mean": "= not" },
+        { "part": "lect", "mean": "= choose" }
       ],
-      "origin": "모으지 않다 → 소홀히 하다"
+      "origin": "선택하지 않다 → 무시하다",
+      "synonyms_extra": ["disregard"],
+      "examples": [
+        { "en": "The garden was **neglected** for months and became overgrown.", "ko": "그 정원은 몇 달 동안 방치되어 잡초가 무성해졌다." }
+      ]
     },
     {
       "en": "intellect",
-      "ipa": "/ˈɪntəlekt/",
+      "ipa": ["[íntəlèkt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "지성",
-            "지적 능력"
-          ]
+          "defs": ["1 *지성, 지력, 사고력", "2 지식인, 식자(識者)"]
         }
       ],
       "parts": [
-        {
-          "part": "inter-",
-          "mean": "사이에 (between)"
-        },
-        {
-          "part": "lect",
-          "mean": "모으다, 고르다 (choose)"
-        }
+        { "part": "intel(inter)", "mean": "= among" },
+        { "part": "lect", "mean": "= choose" }
       ],
-      "origin": "사이에서 골라내는 능력 → 지성"
+      "origin": "여러 가지 중에서 골라내는 힘\n→ 사고력, 지력",
+      "derivatives": [
+        { "en": "intellectual", "pos": "형/명", "defs": ["형 지적인, 지성의", "명 지식인"] },
+        { "en": "intelligent", "pos": "형", "defs": ["(사람·동물의 머리가) 영리한, 총명한"] },
+        { "en": "intelligence", "pos": "명", "defs": ["1 지능, 지성, 이해력", "2 (정부·군대 등의) 정보(부), 첩보 기관"] }
+      ],
+      "synonyms": ["clever"],
+      "antonyms": ["unintelligent"],
+      "phrases": [
+        { "en": "intellectual vs intelligent", "ko": "intellectual: 사람이 교육·지적 훈련 등을 받아 지적인\nintelligent: 본래 머리가 좋은 (동물에게도 사용)" },
+        { "en": "intellectual property (right)", "ko": "지적 재산(권)" }
+      ],
+      "examples": [
+        { "en": "Anxiety undermines the **intellect**.", "ko": "불안은 사고력을 악화시킨다.", "source": "수능" },
+        { "en": "Apes are **intelligent**, but they can never be **intellectual**.", "ko": "유인원은 영리하긴 하지만, 결코 지적일 수는 없다." }
+      ]
     },
     {
       "en": "elegant",
-      "ipa": "/ˈelɪɡənt/",
+      "ipa": ["[éləɡənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "우아한",
-            "고상한"
-          ]
+          "defs": ["우아한, 고상한, 세련된"]
         }
       ],
+      "synonyms": ["graceful, refined"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "leg(lect)",
-          "mean": "고르다 (choose)"
-        },
-        {
-          "part": "-ant",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "leg(lect)", "mean": "= choose" },
+        { "part": "ant", "mean": "형접" }
       ],
-      "origin": "골라낸 → 우아한"
+      "origin": "잘 골라서 뽑아낸, 정제된",
+      "derivatives": [
+        { "en": "elegance", "pos": "명", "defs": ["우아함, 고상함, 기품"] }
+      ],
+      "examples": [
+        { "en": "an **elegant** silk dress", "ko": "우아한 실크[비단] 드레스" },
+        { "en": "She carried herself with **elegance** and grace.", "ko": "그녀는 우아하고 품위있게 행동했다." }
+      ]
     },
     {
       "en": "claim",
-      "ipa": "/kleɪm/",
+      "ipa": ["[kleim]"],
       "meanings": [
         {
-          "pos": "동",
-          "defs": [
-            "주장하다",
-            "요구하다"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "주장"
-          ]
+          "pos": "동/명",
+          "defs": ["1 *(권리·소유권·사실 여부 등을) 주장(하다)", "2 (손해 배상 등을) 요구[청구](하다)"]
         }
       ],
+      "synonyms": ["maintain, assert", "demand"],
       "parts": [
-        {
-          "part": "claim",
-          "mean": "외치다 (cry out, shout)"
-        }
+        { "part": "claim", "mean": "= call" }
       ],
-      "origin": "외치다 → 주장하다"
+      "origin": "큰 소리로 부르다 → 주장하다",
+      "examples": [
+        { "en": "She **claimed** she was not guilty.", "ko": "그녀는 자신이 무죄라고 주장했다." },
+        { "en": "He **claimed** insurance money for the stolen laptop.", "ko": "그는 도난당한 노트북에 대한 보험금을 청구했다." }
+      ]
     },
     {
       "en": "proclaim",
-      "ipa": "/prəˈkleɪm/",
+      "ipa": ["[proukléim]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "선언하다",
-            "공포하다"
-          ]
+          "defs": ["(공식적으로) 선언하다, 공표하다"]
         }
       ],
+      "synonyms": ["announce, declare"],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "claim",
-          "mean": "외치다 (cry out)"
-        }
+        { "part": "pro", "mean": "= forward" },
+        { "part": "claim", "mean": "= cry out" }
       ],
-      "origin": "앞으로 외치다 → 선언하다"
+      "origin": "앞을 향해 외치다",
+      "derivatives": [
+        { "en": "proclamation", "pos": "명", "defs": ["선언(서)"] }
+      ],
+      "examples": [
+        { "en": "The government **proclaimed** a state of emergency.", "ko": "정부는 비상 사태를 선포했다." }
+      ]
     },
     {
       "en": "exclaim",
-      "ipa": "/ɪkˈskleɪm/",
+      "ipa": ["[ikskléim]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "외치다",
-            "고함치다"
-          ]
+          "defs": ["외치다, 큰 소리로 말하다"]
         }
       ],
+      "synonyms": ["cry out, shout"],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "claim",
-          "mean": "외치다 (cry out)"
-        }
+        { "part": "ex", "mean": "= out" },
+        { "part": "claim", "mean": "= cry" }
       ],
-      "origin": "밖으로 외치다"
+      "origin": "cry out 크게 외치다",
+      "derivatives": [
+        { "en": "exclamation", "pos": "명", "defs": ["외침, 절규"] }
+      ],
+      "examples": [
+        { "en": "Ellen suddenly **exclaimed** in surprise when she realized that the gift for her father was missing upon returning home.", "ko": "Ellen은 집에 돌아와서 아버지에게 드릴 선물이 사라졌다는 것을 깨닫고 깜짝 놀라 소리를 질렀다.", "source": "모의" }
+      ]
     },
     {
       "en": "council",
-      "ipa": "/ˈkaʊnsl/",
+      "ipa": ["[káunsəl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "회의",
-            "위원회"
-          ]
+          "defs": ["1 *협의회, 심의회", "2 지방 의회"]
         }
       ],
+      "synonyms": ["committee"],
       "parts": [
-        {
-          "part": "coun-(con-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "cil(claim)",
-          "mean": "부르다 (call)"
-        }
+        { "part": "coun(com)", "mean": "= together" },
+        { "part": "cil(claim)", "mean": "= call" }
       ],
-      "origin": "함께 불러 모은 → 회의"
+      "origin": "불러서 함께 모이는 것",
+      "examples": [
+        { "en": "the UN Security **Council**", "ko": "유엔 안전 보장 이사회" },
+        { "en": "My uncle is a member of the city **council**.", "ko": "우리 삼촌은 시의회 의원이다." }
+      ]
     },
     {
       "en": "bankrupt",
-      "ipa": "/ˈbæŋkrʌpt/",
+      "ipa": ["[bǽŋkrʌpt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "파산한"
-          ]
+          "defs": ["파산한, 지불 불능의"]
         },
         {
           "pos": "동",
-          "defs": [
-            "파산시키다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "bank",
-          "mean": "은행 (bank)"
+          "defs": ["*파산시키다"]
         },
         {
-          "part": "rupt",
-          "mean": "깨다 (break)"
+          "pos": "명",
+          "defs": ["파산자"]
         }
       ],
-      "origin": "은행이 깨진 → 파산한"
+      "synonyms": ["ruin"],
+      "parts": [
+        { "part": "bank", "mean": "대금업자의 계산대" },
+        { "part": "rupt", "mean": "= break" }
+      ],
+      "origin": "대금업자의 부서진 계산대(지불 불능을 상징)\n→ 파산한, 지불 불능의",
+      "derivatives": [
+        { "en": "bankruptcy", "pos": "명", "defs": ["파산, 부도"] }
+      ],
+      "phrases": [
+        { "en": "go[turn/become] bankrupt", "ko": "파산하다" }
+      ],
+      "examples": [
+        { "en": "Many businesses **went bankrupt** during COVID-19.", "ko": "많은 기업들이 코로나19 기간 동안 파산했다." },
+        { "en": "He wondered if anything could save his company from **bankruptcy**.", "ko": "그는 자신의 회사가 파산에서 벗어날 수 있는 방법이 있을지 생각했다.", "source": "모의" }
+      ]
     },
     {
       "en": "corrupt",
-      "ipa": "/kəˈrʌpt/",
+      "ipa": ["[kərʌ́pt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "부패한"
-          ]
+          "defs": ["부패한, 부정한"]
         },
         {
           "pos": "동",
-          "defs": [
-            "타락시키다"
-          ]
+          "defs": ["부패[타락]시키다, 부정을 저지르게 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "cor-(com-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "rupt",
-          "mean": "깨다 (break)"
-        }
+        { "part": "cor(com)", "mean": "「강조」" },
+        { "part": "rupt", "mean": "= break" }
       ],
-      "origin": "완전히 깨진 → 부패한"
+      "origin": "완전히 무너진 → 부패한",
+      "derivatives": [
+        { "en": "corruption", "pos": "명", "defs": ["부패, 부정, 타락"] }
+      ],
+      "examples": [
+        { "en": "The **corrupt** politician was arrested.", "ko": "그 부패한 정치인은 체포되었다." },
+        { "en": "Greed can easily **corrupt** a person's morals.", "ko": "탐욕은 쉽게 사람의 도덕성을 타락시킬 수 있다." }
+      ]
     },
     {
       "en": "disrupt",
-      "ipa": "/dɪsˈrʌpt/",
+      "ipa": ["[disrʌ́pt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "방해하다",
-            "중단시키다"
-          ]
+          "defs": ["1 방해하다, 지장을 주다", "2 분열[붕괴]시키다"]
         }
       ],
       "parts": [
-        {
-          "part": "dis-",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "rupt",
-          "mean": "깨다 (break)"
-        }
+        { "part": "dis", "mean": "= apart" },
+        { "part": "rupt", "mean": "= break" }
       ],
-      "origin": "떨어뜨려 깨다 → 방해하다"
+      "origin": "깨어서 흩어지게 하다 → 방해하다",
+      "derivatives": [
+        { "en": "disruption", "pos": "명", "defs": ["붕괴, 파열, 혼란"] }
+      ],
+      "examples": [
+        { "en": "Drinking coffee too late can **disrupt** one's sleep.", "ko": "너무 늦게 커피를 마시는 것은 수면을 방해할 수 있다." }
+      ]
     },
     {
       "en": "erupt",
-      "ipa": "/ɪˈrʌpt/",
+      "ipa": ["[irʌ́pt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "분출하다",
-            "폭발하다"
-          ]
+          "defs": ["1 (폭력 사태·소음 등이) 갑자기 발생하다", "2 (용암·화산재 등이) 분출하다"]
         }
       ],
+      "synonyms": ["break out"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "rupt",
-          "mean": "깨다 (break)"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "rupt", "mean": "= break" }
       ],
-      "origin": "밖으로 깨져 나오다 → 분출하다"
+      "origin": "(갑자기) 밖으로 터져 나오다",
+      "derivatives": [
+        { "en": "eruption", "pos": "명", "defs": ["1 (화산) 폭발, (용암 등의) 분출", "2 (감정 등의) 폭발, (사건 등의) 발생"] }
+      ],
+      "examples": [
+        { "en": "Violence **erupted** during the protest.", "ko": "시위 도중에 폭력 사태가 일어났다." },
+        { "en": "The volcano **erupted** suddenly, sending ash and lava into the sky.", "ko": "그 화산은 갑자기 분출하여 하늘로 재와 용암을 뿜어냈다." }
+      ]
     },
     {
       "en": "interrupt",
-      "ipa": "/ˌɪntəˈrʌpt/",
+      "ipa": ["[ìntərʌ́pt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "방해하다",
-            "중단시키다"
-          ]
+          "defs": ["1 *가로막다, 방해하다", "2 (일시적으로) 중단시키다"]
         }
       ],
+      "synonyms": ["hinder, disturb", "break in"],
       "parts": [
-        {
-          "part": "inter-",
-          "mean": "사이에 (between)"
-        },
-        {
-          "part": "rupt",
-          "mean": "깨다 (break)"
-        }
+        { "part": "inter", "mean": "= between" },
+        { "part": "rupt", "mean": "= break" }
       ],
-      "origin": "사이를 깨다 → 방해하다"
+      "origin": "사이를 부수고 들어가다",
+      "derivatives": [
+        { "en": "interruption", "pos": "명", "defs": ["1 방해(물)", "2 중단"] }
+      ],
+      "examples": [
+        { "en": "The noise **interrupted** everything happening in the office because it was unbelievably loud.", "ko": "그 소음은 믿을 수 없을 만큼 시끄러워서 사무실에서 일어나는 모든 일을 방해했다.", "source": "모의" },
+        { "en": "The class was **interrupted** briefly by the power outage.", "ko": "정전 때문에 수업이 잠시 중단되었다." }
+      ]
     },
     {
       "en": "route",
-      "ipa": "/ruːt/",
+      "ipa": ["[ruːt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "경로",
-            "노선"
-          ]
+          "defs": ["1 *길, 경로", "2 (버스·기차 등의) 노선, 항로", "3 방법, 수단"]
         }
       ],
+      "synonyms": ["way, course"],
       "parts": [
-        {
-          "part": "route(rupt)",
-          "mean": "깨다, 뚫다 (break through)"
-        }
+        { "part": "route(rupt)", "mean": "라틴어 rupta(path) broken through\n뚫파된 (길)에서 온 말" }
       ],
-      "origin": "뚫린 길 → 경로"
+      "origin": "뚫린 길 → 경로",
+      "examples": [
+        { "en": "This is the fastest **route** to the station, so we should take it.", "ko": "여기가 역으로 가는 빠른 길이니, 이 길로 가자." },
+        { "en": "We often try to cut corners in our challenges and take the easy **route**.", "ko": "우리는 어려움을 겪을 때 종종 편법을 쓰고 쉬운 방법을 택하려 한다.", "source": "모의" }
+      ]
     },
     {
       "en": "routine",
-      "ipa": "/ruːˈtiːn/",
+      "ipa": ["[ruːtíːn]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "일상",
-            "루틴"
-          ]
+          "defs": ["*일상적인 일[과정], 틀에 박힌 일"]
         },
         {
           "pos": "형",
-          "defs": [
-            "일상적인"
-          ]
+          "defs": ["일상적인, 틀에 박힌"]
         }
       ],
       "parts": [
-        {
-          "part": "rout(rupt)",
-          "mean": "길 (route)"
-        },
-        {
-          "part": "-ine",
-          "mean": "명사형 접미사"
-        }
+        { "part": "rout(e)", "mean": "길" },
+        { "part": "ine", "mean": "명접" }
       ],
-      "origin": "늘 다니는 길 → 일상"
+      "origin": "길로 정해진 것 → (항상) 하는 것",
+      "examples": [
+        { "en": "My **routine** changed when I broke my leg.", "ko": "다리가 부러졌을 때 나의 일상(생활)은 달라졌다." }
+      ]
     },
     {
       "en": "alter",
-      "ipa": "/ˈɔːltər/",
+      "ipa": ["[ɔ́ːltər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "바꾸다",
-            "변경하다"
-          ]
+          "defs": ["달라지다, 변하다; 바꾸다, 변하게 하다"]
         }
       ],
+      "synonyms": ["change"],
       "parts": [
-        {
-          "part": "alter",
-          "mean": "다른 (other)"
-        }
+        { "part": "alter", "mean": "= other" }
       ],
-      "origin": "다른 것으로 하다 → 바꾸다"
+      "origin": "다른 것으로 만들다",
+      "derivatives": [
+        { "en": "alteration", "pos": "명", "defs": ["변화"] }
+      ],
+      "examples": [
+        { "en": "Technology continues to **alter** the way we communicate.", "ko": "기술은 우리가 소통하는 방식을 계속 바꾸고 있다." }
+      ]
     },
     {
       "en": "alternative",
-      "ipa": "/ɔːlˈtɜːrnətɪv/",
+      "ipa": ["[ɔːltə́ːrnətiv]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "대안"
-          ]
+          "pos": "형",
+          "defs": ["(명사 앞에서) 대안(代案)의, 대체할 수 있는"]
         },
         {
-          "pos": "형",
-          "defs": [
-            "대체 가능한"
-          ]
+          "pos": "명",
+          "defs": ["*대안(代案), 대체(물)"]
         }
       ],
       "parts": [
-        {
-          "part": "alter",
-          "mean": "다른 (other)"
-        },
-        {
-          "part": "nat",
-          "mean": "태어나다 (born)"
-        },
-        {
-          "part": "-ive",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "alter", "mean": "= other" },
+        { "part": "n ative", "mean": "형접" }
       ],
-      "origin": "다른 선택지 → 대안"
+      "origin": "(둘 중에) 다른 것의 → 대안[대체]의",
+      "derivatives": [
+        { "en": "alternate", "pos": "형/동", "defs": ["형 [ɔ́ːltərnit] 1 번갈아 하는", "2 격일[주]의, 하나 거르는", "3 대안의, 대체할 수 있는", "동 [ɔ́ːltərnèit] 1 번갈아 (나오게) 하다; (+ with) 번갈아 나오다", "2 (+ between) … 사이에서 왔다 갔다 하다"] },
+        { "en": "alternately", "pos": "부", "defs": ["번갈아, 교대로"] },
+        { "en": "alternatively", "pos": "부", "defs": ["그 대신에"] }
+      ],
+      "examples": [
+        { "en": "Solar energy can be a practical **alternative** energy source for us in the foreseeable future.", "ko": "태양 에너지는 가까운 미래에 우리에게 실용적인 대안 에너지원이 될 수 있다.", "source": "수능" },
+        { "en": "One **alternative** for easing traffic congestion is to have car owners drive on **alternate** days.", "ko": "교통 혼잡을 완화시킬 수 있는 한 가지 대안은 차를 갖고 있는 사람들이 격일로 운전하게 하는 것이다." },
+        { "en": "The weather **alternated between** rain and sunshine.", "ko": "비가 오다가 해가 나다가 하며 날씨가 왔다 갔다 했다." }
+      ]
     },
     {
       "en": "alien",
-      "ipa": "/ˈeɪliən/",
+      "ipa": ["[éiliən]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "외국의",
-            "이질적인"
-          ]
+          "defs": ["1 외국(인)의", "2 이질적인, 다른", "3 외계의"]
         },
         {
           "pos": "명",
-          "defs": [
-            "외계인"
-          ]
+          "defs": ["1 (시민권 없이 거주하는) 외국인", "2 외계인, 우주인"]
         }
       ],
+      "synonyms": ["foreign", "strange, unfamiliar", "extraterrestrial"],
       "parts": [
-        {
-          "part": "ali(alter)",
-          "mean": "다른 (other)"
-        },
-        {
-          "part": "-en",
-          "mean": "명사형 접미사"
-        }
+        { "part": "al(alter)", "mean": "= another" },
+        { "part": "en", "mean": "형접" }
       ],
-      "origin": "다른 곳의 → 외국의"
+      "origin": "다른 것에 속하는",
+      "derivatives": [
+        { "en": "alienate", "pos": "동", "defs": ["(사람을) 멀어지게 하다, 소외시키다"] }
+      ],
+      "examples": [
+        { "en": "This culture is completely **alien** to us.", "ko": "이 문화는 우리에게 완전히 생소하다." },
+        { "en": "Do you believe in **aliens** from outer space?", "ko": "우주에 외계인이 있다고 믿니?" }
+      ]
     },
     {
       "en": "describe",
-      "ipa": "/dɪˈskraɪb/",
+      "ipa": ["[diskráib]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "묘사하다",
-            "서술하다"
-          ]
+          "defs": ["묘사하다, 기술하다"]
         }
       ],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "scribe",
-          "mean": "쓰다 (write)"
-        }
+        { "part": "de", "mean": "= down" },
+        { "part": "scribe", "mean": "= write" }
       ],
-      "origin": "완전히 써내다 → 묘사하다"
+      "origin": "아래로 써 내려가다 → 기술하다",
+      "derivatives": [
+        { "en": "description", "pos": "명", "defs": ["묘사, 기술, 설명"] },
+        { "en": "descriptive", "pos": "형", "defs": ["묘사적인"] }
+      ],
+      "phrases": [
+        { "en": "beyond description", "ko": "형언할 수 없는, 말로 표현할 수 없는" }
+      ],
+      "examples": [
+        { "en": "Can you **describe** what the man looked like?", "ko": "그 사람이 어떻게 생겼는지 묘사할 수 있겠니?" },
+        { "en": "The job **description** says applicants must speak English.", "ko": "직무 설명에는 지원자가 반드시 영어를 할 줄 알아야 한다고 되어 있다." }
+      ]
     },
     {
       "en": "prescribe",
-      "ipa": "/prɪˈskraɪb/",
+      "ipa": ["[priskráib]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "처방하다",
-            "규정하다"
-          ]
+          "defs": ["1 (약 등을) 처방하다", "2 (공식적으로) 규정하다, 정하다"]
         }
       ],
       "parts": [
-        {
-          "part": "pre-",
-          "mean": "미리 (before)"
-        },
-        {
-          "part": "scribe",
-          "mean": "쓰다 (write)"
-        }
+        { "part": "pre", "mean": "= before" },
+        { "part": "scribe", "mean": "= write" }
       ],
-      "origin": "미리 써놓다 → 처방하다"
+      "origin": "미리 써 주다 → 규정하다\n→ (약물을 규정하여) 처방하다",
+      "derivatives": [
+        { "en": "prescription", "pos": "명", "defs": ["1 처방(전)", "2 규정, 법규"] },
+        { "en": "prescriptive", "pos": "형", "defs": ["1 규정하는, 명령하는", "2 규범적인"] }
+      ],
+      "examples": [
+        { "en": "The doctor **prescribed** antibiotics to control the infection.", "ko": "의사는 감염을 통제하기 위해 항생제를 처방했다.", "source": "모의" },
+        { "en": "The law **prescribes** strict penalties for drunk driving.", "ko": "법은 음주운전에 대해 엄격한 처벌을 규정하고 있다." }
+      ]
     },
     {
       "en": "subscribe",
-      "ipa": "/səbˈskraɪb/",
+      "ipa": ["[səbskráib]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "구독하다",
-            "서명하다"
-          ]
+          "defs": ["1 (신문·잡지 등을) (정기) 구독하다", "2 (문서에) 서명하다, 서약하다"]
         }
       ],
+      "antonyms": ["unsubscribe"],
       "parts": [
-        {
-          "part": "sub-",
-          "mean": "아래에 (under)"
-        },
-        {
-          "part": "scribe",
-          "mean": "쓰다 (write)"
-        }
+        { "part": "sub", "mean": "= down" },
+        { "part": "scribe", "mean": "= write" }
       ],
-      "origin": "아래에 서명하다 → 구독하다"
+      "origin": "신청서 아래쪽에 쓰다\n→ 구독(신청)을 하다",
+      "derivatives": [
+        { "en": "subscription", "pos": "명", "defs": ["(신문·잡지 등의) 구독(료); 기부; 가입"] },
+        { "en": "subscriber", "pos": "명", "defs": ["1 구독자", "2 기부자", "3 이용자"] }
+      ],
+      "examples": [
+        { "en": "Do you **subscribe** to any magazines[newspapers]?", "ko": "(정기) 구독하는 잡지[신문]가 있으신가요?" },
+        { "en": "cancel a **subscription**", "ko": "구독을 취소하다" }
+      ]
     }
   ]
 }

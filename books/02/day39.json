@@ -3,630 +3,588 @@
   "words": [
     {
       "en": "vocal",
-      "ipa": "/ˈvoʊkl/",
+      "ipa": ["[vóukəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "목소리의",
-            "의견을 당당히 밝히는"
-          ]
+          "defs": ["1 *목소리의, 음성의", "2 강하게 의견을 말하는"]
         },
         {
           "pos": "명",
-          "defs": [
-            "보컬"
-          ]
+          "defs": ["(주로 복수형) [음악] 보컬, 노래 부분"]
         }
       ],
       "parts": [
-        {
-          "part": "voc",
-          "mean": "목소리 (voice)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "voc", "mean": "= voice" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "목소리의"
+      "origin": "목소리의",
+      "examples": [
+        { "en": "The **vocal** organs are very sensitive to temperature and humidity.", "ko": "발성 기관은 온도와 습도에 매우 민감하다." }
+      ]
     },
     {
       "en": "vocabulary",
-      "ipa": "/vəˈkæbjəleri/",
+      "ipa": ["[voukǽbjəlèri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "어휘"
-          ]
+          "defs": ["어휘"]
         }
       ],
       "parts": [
-        {
-          "part": "voc",
-          "mean": "목소리, 말 (voice, word)"
-        },
-        {
-          "part": "-abulary",
-          "mean": "명사형 접미사"
-        }
+        { "part": "voca(voc)", "mean": "= call" },
+        { "part": "bul", "mean": "명접「도구」" },
+        { "part": "ary", "mean": "명접" }
       ],
-      "origin": "말의 모음 → 어휘"
+      "origin": "(사람·사물의 이름을) 부를 때 쓰는 것 → 낱말",
+      "examples": [
+        { "en": "Learning new **vocabulary** is important when studying a language.", "ko": "언어를 배울 때는 새로운 어휘를 익히는 것이 중요하다." }
+      ]
     },
     {
       "en": "vocation",
-      "ipa": "/voʊˈkeɪʃn/",
+      "ipa": ["[voukéiʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "천직",
-            "직업",
-            "소명"
-          ]
+          "defs": ["1 천직, 직업", "2 소명, 사명감"]
         }
       ],
+      "synonyms": ["calling"],
       "parts": [
-        {
-          "part": "voc",
-          "mean": "부르다 (call)"
-        },
-        {
-          "part": "-ation",
-          "mean": "명사형 접미사"
-        }
+        { "part": "voc", "mean": "= call" },
+        { "part": "ation", "mean": "명접" }
       ],
-      "origin": "부름 → 천직"
+      "origin": "(신의) 부르심 → 소명을 받아 하는 일\n→ 천직, 직업",
+      "derivatives": [
+        { "en": "vocational", "pos": "형", "defs": ["직업(상)의"] }
+      ],
+      "examples": [
+        { "en": "\"Nursing,\" said Florence Nightingale, \"is a **vocation** as well as a profession.\"", "ko": "플로렌스 나이팅게일은 \"간호하는 일은 직업일 뿐만 아니라 소명이기도 하다.\"라고 말했다." }
+      ]
     },
     {
       "en": "advocate",
-      "ipa": "/ˈædvəkət/",
+      "ipa": ["동 [ǽdvəkèit]", "명 [ǽdvəkət]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "지지하다",
-            "옹호하다"
-          ]
+          "defs": ["*옹호하다, 지지하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "지지자"
-          ]
+          "defs": ["*1 옹호자, 지지자", "2 대변인, 중재인; 변호사"]
         }
       ],
+      "synonyms": ["support"],
       "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "voc",
-          "mean": "부르다 (call)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "ad", "mean": "= to" },
+        { "part": "voc", "mean": "= call" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "~쪽으로 불러들이다 → 옹호하다"
+      "origin": "(…에게 도움을 주기 위해) 부름을 받다[받은 사람]",
+      "derivatives": [
+        { "en": "advocacy", "pos": "명", "defs": ["지지, 옹호; 변호"] }
+      ],
+      "examples": [
+        { "en": "I **advocate** a policy of gradual reform.", "ko": "나는 점진적인 개혁 정책을 지지한다." },
+        { "en": "He is an **advocate** of free trade.", "ko": "그는 자유 무역 옹호자이다." }
+      ]
     },
     {
       "en": "evoke",
-      "ipa": "/ɪˈvoʊk/",
+      "ipa": ["[ivóuk]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "(감정·기억을) 불러일으키다"
-          ]
+          "defs": ["(기억·감정을) 일깨우다, 환기시키다"]
         }
       ],
+      "synonyms": ["bring to mind"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "voke(voc)",
-          "mean": "부르다 (call)"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "voke(voc)", "mean": "= call" }
       ],
-      "origin": "밖으로 불러내다 → 불러일으키다"
+      "origin": "(기억 등을) 밖으로 불러내다",
+      "examples": [
+        { "en": "Like fragments from old songs, clothes can **evoke** both cherished and painful memories.", "ko": "옛날 노래의 구절처럼, 옷은 소중한 추억과 가슴 아픈 기억을 모두 생각나게 할 수 있다.", "source": "수능" }
+      ]
     },
     {
       "en": "provoke",
-      "ipa": "/prəˈvoʊk/",
+      "ipa": ["[prəvóuk]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "유발하다",
-            "화나게 하다"
-          ]
+          "defs": ["1 (반응·감정 등을) 유발하다", "2 화나게 하다", "3 야기하다, 선동하다"]
         }
       ],
+      "synonyms": ["arouse", "irritate, annoy"],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "voke(voc)",
-          "mean": "부르다 (call)"
-        }
+        { "part": "pro", "mean": "= forth" },
+        { "part": "voke(voc)", "mean": "= call" }
       ],
-      "origin": "앞으로 불러내다 → 유발하다"
+      "origin": "앞으로 불러내다",
+      "derivatives": [
+        { "en": "provocation", "pos": "명", "defs": ["도발, 자극"] },
+        { "en": "provocative", "pos": "형", "defs": ["도발적인, 자극적인"] }
+      ],
+      "examples": [
+        { "en": "His rude words **provoked** anger among the audience.", "ko": "그의 무례한 말은 시청자들의 분노를 유발했다." },
+        { "en": "They created **provocative** false stories in order to increase the number of views of their posts and make more money.", "ko": "그들은 게시물 조회수를 늘리고 더 많은 돈을 벌기 위해 자극적인 가짜 이야기를 만들어 냈다.", "source": "교과서" }
+      ]
     },
     {
       "en": "invoke",
-      "ipa": "/ɪnˈvoʊk/",
+      "ipa": ["[invóuk]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "(법 등을) 적용하다",
-            "기원하다"
-          ]
+          "defs": ["1 빌다, 기원하다", "2 (법 등을) 적용하다, 발동하다", "3 (근거로) 들다, 언급하다, 들먹이다"]
         }
       ],
+      "synonyms": ["pray"],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로, 위에 (in, upon)"
-        },
-        {
-          "part": "voke(voc)",
-          "mean": "부르다 (call)"
-        }
+        { "part": "in", "mean": "= upon" },
+        { "part": "voke(voc)", "mean": "= call" }
       ],
-      "origin": "안으로 불러들이다 → 적용하다"
+      "origin": "call upon …에게 청하다[부탁하다]\n→ (신에게) 빌다",
+      "examples": [
+        { "en": "They **invoked** the gods for protection.", "ko": "그들은 신에게 보호해 달라고 기도했다." },
+        { "en": "The lawyer **invoked** the right to remain silent.", "ko": "변호사는 묵비권을 적용했다." }
+      ]
     },
     {
       "en": "long",
-      "ipa": "/lɔːŋ/",
+      "ipa": ["[lɔːŋ]"],
       "meanings": [
         {
-          "pos": "형",
-          "defs": [
-            "긴"
-          ]
+          "pos": "동",
+          "defs": ["(+ for) 간절히 바라다"]
         },
         {
-          "pos": "동",
-          "defs": [
-            "갈망하다"
-          ]
-        }
-      ],
-      "parts": [
+          "pos": "형",
+          "defs": ["*긴, 오랜"]
+        },
         {
-          "part": "long",
-          "mean": "긴 (long)"
+          "pos": "부",
+          "defs": ["*길게, 오래"]
         }
       ],
-      "origin": "긴"
+      "synonyms": ["yearn for, desire, crave"],
+      "parts": [
+        { "part": "long", "mean": "중세 영어 longen(갈망하다)에서 온 말" }
+      ],
+      "origin": "긴",
+      "derivatives": [
+        { "en": "longing", "pos": "명/형", "defs": ["갈망(하는), 열망(하는)"] }
+      ],
+      "phrases": [
+        { "en": "before long", "ko": "머지 않아, 얼마 후" },
+        { "en": "as long as", "ko": "… 하는 한" }
+      ],
+      "examples": [
+        { "en": "I **long for** the late summer sunsets of home.", "ko": "나는 집에서 보는 늦여름의 노을을 고대하고 있다." },
+        { "en": "**Before long**, reality hit Jeremy hard.", "ko": "얼마 후, Jeremy는 현실을 강하게 깨달았다.", "source": "수능" },
+        { "en": "As I stepped outside, my heart began to pound with anticipation and **longing**.", "ko": "밖으로 나오자, 기대와 열망으로 가슴이 두근거리기 시작했다.", "source": "모의" }
+      ]
     },
     {
       "en": "belong",
-      "ipa": "/bɪˈlɔːŋ/",
+      "ipa": ["[bilɔ́ːŋ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "속하다",
-            "제자리에 있다"
-          ]
+          "defs": ["1 (주로 + to) *(…에) 속하다, …의 것이다*", "2 (알맞은 장소·상태에) 있다, 있어야 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "be-",
-          "mean": "완전히 (thoroughly)"
-        },
-        {
-          "part": "long",
-          "mean": "~에 관한 (along)"
-        }
+        { "part": "be", "mean": "「강조」" },
+        { "part": "long", "mean": "긴" }
       ],
-      "origin": "완전히 ~에 관한 → 속하다"
+      "origin": "아주 길게 뻗다 → …에 닿다\n→ …에 관계되다, 속하다",
+      "derivatives": [
+        { "en": "belongings", "pos": "명", "defs": ["재산, 소유물"] }
+      ],
+      "synonyms": ["possessions"],
+      "examples": [
+        { "en": "Who does this cell phone **belong to**?", "ko": "이 휴대전화는 누구 것이니?" },
+        { "en": "She had lost all of her **belongings** and had only $5 in cash.", "ko": "그녀는 모든 소지품을 잃어버렸고, 현금 5달러밖에 없었다.", "source": "모의" }
+      ]
     },
     {
       "en": "prolong",
-      "ipa": "/prəˈlɔːŋ/",
+      "ipa": ["[prəlɔ́ːŋ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "연장하다",
-            "늘리다"
-          ]
+          "defs": ["연장하다, 지속시키다, 늘리다"]
         }
       ],
+      "synonyms": ["lengthen, extend"],
+      "antonyms": ["shorten"],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "long",
-          "mean": "긴 (long)"
-        }
+        { "part": "pro", "mean": "= forth" },
+        { "part": "long", "mean": "긴" }
       ],
-      "origin": "앞으로 길게 하다 → 연장하다"
+      "origin": "앞쪽으로 길게 늘리다",
+      "examples": [
+        { "en": "He **prolonged** his visit to Korea by two weeks because he shortened his stay in Japan.", "ko": "그는 일본에 머무르는 기간을 줄였기 때문에 한국 방문을 2주 연장했다." }
+      ]
     },
     {
       "en": "length",
-      "ipa": "/leŋθ/",
+      "ipa": ["[leŋkθ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "길이",
-            "기간"
-          ]
+          "defs": ["1 *길이; 세로", "2 기간"]
         }
       ],
       "parts": [
-        {
-          "part": "leng(long)",
-          "mean": "긴 (long)"
-        },
-        {
-          "part": "-th",
-          "mean": "명사형 접미사"
-        }
+        { "part": "leng(long)", "mean": "= long 긴" },
+        { "part": "th", "mean": "명접" }
       ],
-      "origin": "긴 정도 → 길이"
+      "origin": "길이",
+      "derivatives": [
+        { "en": "lengthen", "pos": "동", "defs": ["길게 하다[늘이다]; 길어지다"] }
+      ],
+      "synonyms": ["prolong, extend"],
+      "antonyms": ["shorten"],
+      "phrases": [
+        { "en": "at length", "ko": "길게, 자세히; 드디어, 마침내" },
+        { "en": "cf.", "ko": "high → height 높이 / wide → width 폭, 너비\ndeep → depth 깊이 / strong → strength 힘" }
+      ],
+      "examples": [
+        { "en": "What is the **length** and width of those curtains?", "ko": "그 커튼의 길이와 폭이 얼마입니까?" },
+        { "en": "The days **lengthen** in spring.", "ko": "봄에는 낮이 길어진다." }
+      ]
     },
     {
       "en": "linger",
-      "ipa": "/ˈlɪŋɡər/",
+      "ipa": ["[líŋɡər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "오래 머물다",
-            "남다"
-          ]
+          "defs": ["오래 머무르다, 남아 있다, (오랜 기간) 지속되다"]
         }
       ],
       "parts": [
-        {
-          "part": "ling(long)",
-          "mean": "긴 (long)"
-        },
-        {
-          "part": "-er",
-          "mean": "동사형 접미사"
-        }
+        { "part": "ling(long)", "mean": "= long 긴" },
+        { "part": "er", "mean": "동접" }
       ],
-      "origin": "길게 머물다 → 오래 남다"
+      "origin": "(시간을) 길게 끌다",
+      "examples": [
+        { "en": "The faint scent of pine **lingers** on the dress.", "ko": "열은 소나무 향기가 그 드레스에 남아 있다.", "source": "수능" }
+      ]
     },
     {
       "en": "community",
-      "ipa": "/kəˈmjuːnəti/",
+      "ipa": ["[kəmjúːnəti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "공동체",
-            "지역 사회"
-          ]
+          "defs": ["1 *(지역) 공동체*, (the +) *(공통의 성격을 가진) 사회*", "2 (취미·종교 등을 공유하는) 단체, 모임, 커뮤니티"]
         }
       ],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "mun",
-          "mean": "의무, 봉사 (duty, service)"
-        },
-        {
-          "part": "-ity",
-          "mean": "명사형 접미사"
-        }
+        { "part": "com", "mean": "= together" },
+        { "part": "mun", "mean": "= duty" },
+        { "part": "ty", "mean": "명접" }
       ],
-      "origin": "함께 의무를 나누는 집단 → 공동체"
+      "origin": "함께 의무를 지는 것 → 공동체",
+      "examples": [
+        { "en": "a sense of **community**", "ko": "공동체 의식" },
+        { "en": "There will be an event at the **community** center next Saturday.", "ko": "다음 주 토요일에 지역 공동체 센터에서 행사가 열릴 예정이다." }
+      ]
     },
     {
       "en": "common",
-      "ipa": "/ˈkɑːmən/",
+      "ipa": ["[kɑ́ːmən]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "공통의",
-            "일반적인"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
+          "defs": ["1 *일반의, 흔한, 보통의", "2 공통의, 공동의"]
         },
         {
-          "part": "mon(mun)",
-          "mean": "의무 (duty)"
+          "pos": "명",
+          "defs": ["공통(점)"]
         }
       ],
-      "origin": "함께 의무를 지는 → 공통의"
+      "synonyms": ["ordinary, usual"],
+      "antonyms": ["uncommon"],
+      "parts": [
+        { "part": "com", "mean": "= together" },
+        { "part": "mon(mun)", "mean": "= duty" }
+      ],
+      "origin": "함께 의무를 지는 → 공동의\n→ 모두에게 속하는 → 흔한, 일반적인",
+      "derivatives": [
+        { "en": "uncommon", "pos": "형", "defs": ["(보기) 드문, 흔치 않은"] }
+      ],
+      "synonyms_extra": ["rare, unusual"],
+      "phrases": [
+        { "en": "have in common", "ko": "공통적으로 지니다" },
+        { "en": "have nothing in common", "ko": "공통점이 없다" }
+      ],
+      "examples": [
+        { "en": "**common** sense", "ko": "(일반) 상식" },
+        { "en": "We **have** a lot **in common**.", "ko": "우리는 공통점이 많다." }
+      ]
     },
     {
       "en": "communicate",
-      "ipa": "/kəˈmjuːnɪkeɪt/",
+      "ipa": ["[kəmjúːnəkèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "의사소통하다",
-            "전달하다"
-          ]
+          "defs": ["(생각·감정·정보 등을) 전달하다, 의사소통하다"]
         }
       ],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "mun",
-          "mean": "의무, 나누다 (share)"
-        },
-        {
-          "part": "-icate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "commun", "mean": "= common 공동의" },
+        { "part": "cate", "mean": "동접" }
       ],
-      "origin": "함께 나누다 → 의사소통하다"
+      "origin": "make common (감정·뉴스 등을) 공유하다",
+      "derivatives": [
+        { "en": "communication", "pos": "명", "defs": ["의사소통, 전달, 통신"] }
+      ],
+      "examples": [
+        { "en": "We can **communicate** in a language we don't know by using a translator.", "ko": "우리는 번역기를 이용해 우리가 모르는 언어로 소통할 수 있다.", "source": "교과서" },
+        { "en": "**communication** skills", "ko": "의사소통 기술" }
+      ]
     },
     {
       "en": "popular",
-      "ipa": "/ˈpɑːpjələr/",
+      "ipa": ["[pɑ́ːpjələr]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "인기 있는",
-            "대중적인"
-          ]
+          "defs": ["1 *인기 있는", "2 대중적인, 대중의"]
         }
       ],
+      "antonyms": ["unpopular"],
       "parts": [
-        {
-          "part": "popul",
-          "mean": "사람들 (people)"
-        },
-        {
-          "part": "-ar",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "popul", "mean": "= people" },
+        { "part": "ar", "mean": "형접" }
       ],
-      "origin": "사람들의 → 인기 있는"
+      "origin": "사람들의, 사람들이 좋아하는\n→ 인기 있는, 대중적인",
+      "derivatives": [
+        { "en": "popularity", "pos": "명", "defs": ["1 인기", "2 대중성"] },
+        { "en": "popularize", "pos": "동", "defs": ["대중화하다, 많은 사람들에게 알리다"] }
+      ],
+      "examples": [
+        { "en": "The course was so **popular** that the registration closed almost as soon as it opened.", "ko": "그 강의는 너무 인기가 많아서 등록이 시작되자 마자 거의 바로 마감되었다.", "source": "모의" },
+        { "en": "The global **popularity** of K-pop has grown rapidly in few years.", "ko": "K-pop의 세계적인 인기는 몇 년 사이에 급속히 높아졌다." }
+      ]
     },
     {
       "en": "population",
-      "ipa": "/ˌpɑːpjuˈleɪʃn/",
+      "ipa": ["[pɑ̀pjəléiʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "인구",
-            "개체 수"
-          ]
+          "defs": ["1 *인구", "2 (일정 지역의) 전체 주민"]
         }
       ],
       "parts": [
-        {
-          "part": "popul",
-          "mean": "사람들 (people)"
-        },
-        {
-          "part": "-ation",
-          "mean": "명사형 접미사"
-        }
+        { "part": "popul", "mean": "= people" },
+        { "part": "ation", "mean": "명접" }
       ],
-      "origin": "사람들의 수 → 인구"
+      "origin": "사람들이 사는 것 → 인구",
+      "derivatives": [
+        { "en": "populate", "pos": "동", "defs": ["(사람을) 거주시키다; (…에) 살다, 거주하다"] }
+      ],
+      "examples": [
+        { "en": "What[How large] is the **population** of Daegu?", "ko": "대구의 인구는 얼마입니까?" },
+        { "en": "a densely **populated** area", "ko": "인구 밀집 지역" }
+      ]
     },
     {
       "en": "public",
-      "ipa": "/ˈpʌblɪk/",
+      "ipa": ["[pʌ́blik]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "공공의"
-          ]
+          "defs": ["1 *공공의, 일반 대중의", "2 공적인, 공사(정부·국가)의", "3 공공연한, 공개된"]
         },
         {
           "pos": "명",
-          "defs": [
-            "대중"
-          ]
+          "defs": ["(the +) *대중, 일반 사람들*"]
         }
       ],
+      "antonyms": ["private"],
       "parts": [
-        {
-          "part": "publ(popul)",
-          "mean": "사람들 (people)"
-        },
-        {
-          "part": "-ic",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "publ(popul)", "mean": "= people" },
+        { "part": "ic", "mean": "형접" }
       ],
-      "origin": "사람들의 → 공공의"
+      "origin": "여러 사람에게 속하는 → 공공의",
+      "derivatives": [
+        { "en": "publicity", "pos": "명", "defs": ["1 평판, 널리 알려짐", "2 광고, 선전, 홍보"] }
+      ],
+      "examples": [
+        { "en": "**public** opinion", "ko": "여론" },
+        { "en": "**public** transportation", "ko": "대중교통" },
+        { "en": "**public** school", "ko": "공립학교" },
+        { "en": "Many AI programs are open to **the public**.", "ko": "많은 AI(인공지능) 프로그램들이 대중에게 열려 있다.", "source": "교과서" }
+      ]
     },
     {
       "en": "publish",
-      "ipa": "/ˈpʌblɪʃ/",
+      "ipa": ["[pʌ́bliʃ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "출판하다",
-            "발표하다"
-          ]
+          "defs": ["1 *출판[발행]하다", "2 (정보 등을) 발표[공표]하다"]
         }
       ],
+      "synonyms": ["issue", "announce"],
       "parts": [
-        {
-          "part": "publ(popul)",
-          "mean": "사람들 (people)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+        { "part": "publish", "mean": "public과 같은 어원에서\nmake public(공표하다)의 뜻으로 발전" }
       ],
-      "origin": "사람들에게 알리다 → 출판하다"
+      "origin": "사람들에게 알리다 → 출판하다",
+      "derivatives": [
+        { "en": "publication", "pos": "명", "defs": ["1 출판, 발행", "2 발표, 공표"] },
+        { "en": "publisher", "pos": "명", "defs": ["출판인, 출판사"] }
+      ],
+      "examples": [
+        { "en": "Richard Bolles' best selling book was first **published** in 1970.", "ko": "Richard Bolles의 베스트셀러 책은 1970년에 처음 출판되었다.", "source": "모의" },
+        { "en": "We will choose 12 finalists, and they will be **published** online.", "ko": "우리는 최종 후보자 12명을 선정하여 온라인에 공개할 것입니다.", "source": "모의" }
+      ]
     },
     {
       "en": "republic",
-      "ipa": "/rɪˈpʌblɪk/",
+      "ipa": ["[ripʌ́blik]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "공화국"
-          ]
+          "defs": ["공화국(주권이 국민에게 있는 나라), 공화 정치 체제"]
         }
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "public(popul)",
-          "mean": "사람들, 공공 (public)"
-        }
+        { "part": "re", "mean": "= res:thing" },
+        { "part": "public", "mean": "공공의" }
       ],
-      "origin": "사람들의 것 → 공화국"
+      "origin": "public thing 공공의 것",
+      "examples": [
+        { "en": "In a **republic**, leaders are elected by the people.", "ko": "공화국에서는 지도자가 국민에 의해 선출된다." },
+        { "en": "Switzerland is one of the oldest surviving **republics**.", "ko": "스위스는 현존하는 가장 오래된 공화국 중의 하나이다." }
+      ]
     },
     {
       "en": "fragment",
-      "ipa": "/ˈfræɡmənt/",
+      "ipa": ["[frǽɡmənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "파편",
-            "조각"
-          ]
+          "defs": ["파편, 조각"]
         }
       ],
       "parts": [
-        {
-          "part": "frag",
-          "mean": "부수다 (break)"
-        },
-        {
-          "part": "-ment",
-          "mean": "명사형 접미사"
-        }
+        { "part": "frag", "mean": "= break" },
+        { "part": "ment", "mean": "명접" }
       ],
-      "origin": "부서진 것 → 파편"
+      "origin": "부서진 부분 → 파편, 조각",
+      "phrases": [
+        { "en": "혼동어휘 fragrant", "ko": "향기로운, 향긋한" }
+      ],
+      "examples": [
+        { "en": "There were **fragments** of egg shell in the soup.", "ko": "수프에 달걀 껍질의 조각들이 있었다." }
+      ]
     },
     {
       "en": "fragile",
-      "ipa": "/ˈfrædʒl/",
+      "ipa": ["[frǽdʒəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "부서지기 쉬운",
-            "취약한"
-          ]
+          "defs": ["1 부서지기 쉬운, 깨지기 쉬운", "2 (체질이) 허약한"]
         }
       ],
+      "synonyms": ["breakable", "weak"],
       "parts": [
-        {
-          "part": "frag",
-          "mean": "부수다 (break)"
-        },
-        {
-          "part": "-ile",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "frag", "mean": "= break" },
+        { "part": "ile", "mean": "형접「…하기 쉬운」" }
       ],
-      "origin": "부서지기 쉬운"
+      "origin": "부서지기 쉬운",
+      "derivatives": [
+        { "en": "fragility", "pos": "명", "defs": ["부서지기 쉬움, 연약함"] }
+      ],
+      "examples": [
+        { "en": "When mailing packages, you should write \"**fragile**\" on any box containing breakable items.", "ko": "소포를 부칠 때, 깨지기 쉬운 물건을 넣은 상자에는 모두 '깨지기 쉬운'이라고 써야 한다." }
+      ]
     },
     {
       "en": "fraction",
-      "ipa": "/ˈfrækʃn/",
+      "ipa": ["[frǽkʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "부분",
-            "파편",
-            "분수"
-          ]
+          "defs": ["1 부분, 일부, 소량", "2 [수학] 분수"]
         }
       ],
       "parts": [
-        {
-          "part": "frac(frag)",
-          "mean": "부수다 (break)"
-        },
-        {
-          "part": "-tion",
-          "mean": "명사형 접미사"
-        }
+        { "part": "frac(frag)", "mean": "= break" },
+        { "part": "tion", "mean": "명접" }
       ],
-      "origin": "부서진 부분 → 분수"
+      "origin": "부서진 것 → 부분, 분수",
+      "examples": [
+        { "en": "Only a **fraction** of the students had done their homework.", "ko": "학생의 극히 일부만이 숙제를 해왔다." }
+      ]
     },
     {
       "en": "grave",
-      "ipa": "/ɡreɪv/",
+      "ipa": ["[ɡreiv]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "무덤"
-          ]
+          "defs": ["무덤"]
         },
         {
           "pos": "형",
-          "defs": [
-            "중대한",
-            "엄숙한"
-          ]
-        }
-      ],
-      "parts": [
+          "defs": ["1 중대한, 심각한", "2 엄숙한, 진지한"]
+        },
         {
-          "part": "grav",
-          "mean": "무거운 (heavy)"
+          "pos": "동",
+          "defs": ["조각하다, 새기다"]
         }
       ],
-      "origin": "무거운 → 중대한"
+      "synonyms": ["serious"],
+      "antonyms": ["insignificant"],
+      "parts": [
+        { "part": "grav", "mean": "= heavy" }
+      ],
+      "origin": "무거운 → 중대한, 중요한\n※ 명사와 동사 의미는 고대 영어 grafan(=dig)에서 유래\n├ 파내다 → 조각하다, 새기다\n└ 땅을 파서 묻다 → 무덤",
+      "derivatives": [
+        { "en": "gravity", "pos": "명", "defs": ["1 중력, 무게", "2 심각함, 진지함"] }
+      ],
+      "synonyms_extra": ["engrave"],
+      "examples": [
+        { "en": "The **grave** mistake you made has created a serious problem.", "ko": "네가 저지른 중대한 실수는 심각한 문제를 불러 일으켰다." },
+        { "en": "the law of **gravity**", "ko": "중력의 법칙" }
+      ]
     },
     {
       "en": "grief",
-      "ipa": "/ɡriːf/",
+      "ipa": ["[ɡriːf]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "슬픔",
-            "비탄"
-          ]
+          "defs": ["(깊은) 슬픔, 비탄"]
         }
       ],
+      "synonyms": ["sorrow"],
       "parts": [
-        {
-          "part": "grief(grav)",
-          "mean": "무거운 (heavy)"
-        }
+        { "part": "grief(grav)", "mean": "= heavy" }
       ],
-      "origin": "마음이 무거운 것 → 슬픔"
+      "origin": "(정신적으로) 무거움\n→ 마음의 고통 → 슬픔",
+      "derivatives": [
+        { "en": "grieve", "pos": "동", "defs": ["1 몹시 슬퍼하다, 비통해하다", "2 슬프게 하다"] }
+      ],
+      "examples": [
+        { "en": "Last year, she went through a difficult time of **grief** after she lost her father.", "ko": "그녀는 작년에 아버지를 여의고 힘든 슬픔의 시간을 보냈다.", "source": "교과서" },
+        { "en": "The whole country **grieved** over Queen Elizabeth's death.", "ko": "온 나라가 엘리자베스 여왕의 죽음을 애도했다." }
+      ]
     }
   ]
 }

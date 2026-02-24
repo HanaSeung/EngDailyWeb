@@ -3,611 +3,611 @@
   "words": [
     {
       "en": "attribute",
-      "ipa": "/əˈtrɪbjuːt/",
+      "ipa": ["동 [ətríbjuːt]", "명 [ǽtrəbjùːt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "~의 탓으로 돌리다"
-          ]
+          "defs": ["…의 탓[덕]으로 돌리다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "자질",
-            "속성"
-          ]
+          "defs": ["속성", "특성"]
         }
       ],
+      "synonyms": ["ascribe", "quality, feature"],
       "parts": [
-        {
-          "part": "at-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "tribute",
-          "mean": "할당하다 (assign)"
-        }
+        { "part": "at(ad)", "mean": "= ~쪽으로 (toward)" },
+        { "part": "tribute", "mean": "= 할당하다 (assign)" }
       ],
-      "origin": "~쪽으로 할당하다 → ~의 탓으로 돌리다"
+      "origin": "(결과 등을) …에게 할당하다",
+      "derivatives": [
+        { "en": "attribution", "pos": "명", "defs": ["귀속되는 것; 속성, 특성"] }
+      ],
+      "phrases": [
+        { "en": "attribute A to B", "ko": "A를 B의 탓[덕]으로 돌리다 (= ascribe A to B)" }
+      ],
+      "examples": [
+        { "en": "He **attributed** his success **to** other people's help.", "ko": "그는 자신의 성공을 다른 사람들의 도움 덕택으로 돌렸다." },
+        { "en": "Honesty is an important **attribute** of a good politician.", "ko": "정직함은 훌륭한 정치인의 중요한 특성이다." }
+      ]
     },
     {
       "en": "contribute",
-      "ipa": "/kənˈtrɪbjuːt/",
+      "ipa": ["[kəntríbjuːt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "기부하다",
-            "기여하다"
-          ]
+          "defs": ["1 기부하다, 기증하다", "2 (+ to) *…에 기여하다, 공헌하다, 도움이 되다*", "3 (신문·잡지 등에) 기고하다"]
         }
       ],
+      "synonyms": ["donate"],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "tribute",
-          "mean": "할당하다 (assign)"
-        }
+        { "part": "con(com)", "mean": "= 함께 (together)" },
+        { "part": "tribute", "mean": "= 할당하다 (assign)" }
       ],
-      "origin": "함께 할당하다 → 기여하다"
+      "origin": "(남과) 함께 나누어 받다\n→ 공동의 목표를 나누어 받아 몫을 바치다\n→ 기여하다, 기부하다",
+      "derivatives": [
+        { "en": "contribution", "pos": "명", "defs": ["1 기부(금), 기증(품)", "2 공헌, 기여", "3 기고문"] }
+      ],
+      "phrases": [
+        { "en": "make a contribution", "ko": "기부하다, 기여하다" }
+      ],
+      "examples": [
+        { "en": "He **contributed** a lot of money to the charity.", "ko": "그는 자선 단체에 많은 돈을 기부했다." },
+        { "en": "A proper amount of exercise **contributes to** good health.", "ko": "적당량의 운동은 건강에 도움이 된다." },
+        { "en": "She **made a contribution** to the women's shelter.", "ko": "그녀는 여성 보호소에 기부했다." }
+      ]
     },
     {
       "en": "distribute",
-      "ipa": "/dɪˈstrɪbjuːt/",
+      "ipa": ["[distríbjuːt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "배포하다",
-            "배급하다"
-          ]
+          "defs": ["1 분배하다, 배급하다, 배포하다"]
         }
       ],
+      "synonyms": ["give out, hand out"],
       "parts": [
-        {
-          "part": "dis-",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "tribute",
-          "mean": "할당하다 (assign)"
-        }
+        { "part": "dis", "mean": "= apart" },
+        { "part": "tribute", "mean": "= 할당하다 (assign)" }
       ],
-      "origin": "떨어뜨려 나눠주다 → 배포하다"
+      "origin": "나누어주다",
+      "derivatives": [
+        { "en": "distribution", "pos": "명", "defs": ["1 분배, 배급", "2 (인구 등의) 분포", "3 유통"] }
+      ],
+      "examples": [
+        { "en": "We will **distribute** the food to our neighbors on Christmas Eve.", "ko": "우리는 크리스마스 이브에 이웃들에게 음식을 나눠줄 예정이다.", "source": "수능" },
+        { "en": "We are in charge of the **distribution** of medical supplies.", "ko": "우리는 의료 물품의 분배를 담당하고 있다." }
+      ]
     },
     {
       "en": "congratulate",
-      "ipa": "/kənˈɡrætʃuleɪt/",
+      "ipa": ["[kənɡrǽtʃəlèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "축하하다"
-          ]
+          "defs": ["축하하다, 축하의 말을 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "gratul(grat)",
-          "mean": "기쁜 (pleasing)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "con(com)", "mean": "= 함께 (together)" },
+        { "part": "gratul(grat)", "mean": "= 기쁜 (pleasing)" },
+        { "part": "ul", "mean": "어미" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "함께 기뻐하다 → 축하하다"
+      "origin": "함께 기뻐하다 → 축하하다",
+      "derivatives": [
+        { "en": "congratulation", "pos": "명", "defs": ["축하, 경축"] }
+      ],
+      "phrases": [
+        { "en": "congratulate A on B", "ko": "A에게 B에 대해 축하하다" }
+      ],
+      "examples": [
+        { "en": "He **congratulated** me **on** getting into college.", "ko": "그는 내가 대학에 합격한 걸 축하해 주었다." }
+      ]
     },
     {
       "en": "gratify",
-      "ipa": "/ˈɡrætɪfaɪ/",
+      "ipa": ["[ɡrǽtəfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "기쁘게 하다",
-            "충족시키다"
-          ]
+          "defs": ["1 (…을) 기쁘게 하다, 만족시키다", "2 (욕구·욕망 등을) 충족시키다"]
         }
       ],
+      "synonyms": ["displease", "satisfy, content"],
       "parts": [
-        {
-          "part": "grat",
-          "mean": "기쁜 (pleasing)"
-        },
-        {
-          "part": "-ify",
-          "mean": "만들다 (make)"
-        }
+        { "part": "grat", "mean": "= 기쁜 (pleasing)" },
+        { "part": "fy", "mean": "= fac:make" }
       ],
-      "origin": "기쁘게 만들다"
+      "origin": "기쁘게 만들다",
+      "derivatives": [
+        { "en": "gratification", "pos": "명", "defs": ["만족시키기; 만족감, 기쁨"] }
+      ],
+      "examples": [
+        { "en": "The mother was **gratified** to see her child succeed.", "ko": "그 어머니는 아이가 성공하는 것을 보고 기뻤다." },
+        { "en": "Social media often provides instant **gratification**.", "ko": "소셜 미디어는 종종 즉각적인 만족감을 제공한다." }
+      ]
     },
     {
       "en": "gratitude",
-      "ipa": "/ˈɡrætɪtuːd/",
+      "ipa": ["[ɡrǽtətùːd]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "감사(의 마음)"
-          ]
+          "defs": ["감사(의 마음)"]
         }
       ],
+      "antonyms": ["ingratitude(은혜를 모름)"],
       "parts": [
-        {
-          "part": "grat",
-          "mean": "기쁜 (pleasing)"
-        },
-        {
-          "part": "-itude",
-          "mean": "상태 접미사"
-        }
+        { "part": "grat", "mean": "= thankful" },
+        { "part": "tude", "mean": "명접" }
       ],
-      "origin": "기쁜 상태 → 감사"
+      "origin": "감사하기",
+      "derivatives": [
+        { "en": "grateful", "pos": "형", "defs": ["감사하는, 고마워하는"] }
+      ],
+      "examples": [
+        { "en": "He wishes to express his **gratitude** for your generosity.", "ko": "그는 당신의 관대함에 감사를 표하고 싶어합니다." },
+        { "en": "I'm **grateful** every day that they have become part of our community.", "ko": "그들이 우리 공동체의 일원이 되었다는 사실에 저는 매일 감사해요.", "source": "교과서" }
+      ]
     },
     {
       "en": "grace",
-      "ipa": "/ɡreɪs/",
+      "ipa": ["[ɡreis]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "우아함",
-            "은총"
-          ]
+          "defs": ["1 우아함", "2 친절함", "3 (신의) 은총, 은혜"]
         }
       ],
       "parts": [
-        {
-          "part": "grac(grat)",
-          "mean": "기쁜 (pleasing)"
-        }
+        { "part": "grac(grat)", "mean": "= pleasing" }
       ],
-      "origin": "기쁨을 주는 것 → 우아함"
+      "origin": "기쁘게 해주는 것 → 친절함, 은총",
+      "derivatives": [
+        { "en": "graceful", "pos": "형", "defs": ["우아한, 고상한"] },
+        { "en": "gracious", "pos": "형", "defs": ["1 친절한, 정중한", "2 (생활 등이) 품위 있는"] },
+        { "en": "disgrace", "pos": "명", "defs": ["불명예, 창피"] }
+      ],
+      "synonyms": ["elegant", "kind, polite", "shame, dishonor"],
+      "examples": [
+        { "en": "He had the **grace** to ignore the man's embarrassing mistake.", "ko": "그는 그 남자의 부끄러운 실수를 모른 척해줄 정도로 친절했다." },
+        { "en": "The deer is one of the most **graceful** four-legged animals.", "ko": "사슴은 네 다리를 가진 가장 우아한 동물 중 하나이다.", "source": "모의" },
+        { "en": "a national **disgrace**", "ko": "국가적 수치[치욕]" }
+      ]
     },
     {
       "en": "agree",
-      "ipa": "/əˈɡriː/",
+      "ipa": ["[əɡríː]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "동의하다",
-            "일치하다"
-          ]
+          "defs": ["1 (+ with) *(의견 등에) 동의하다, (…와) 의견이 일치하다*", "2 *(+ to) *(제안에) 찬성하다, 응하다*", "3 (+ with) (정보 등이) 일치하다"]
         }
       ],
+      "synonyms": ["disagree with", "consent to, assent to", "refuse"],
       "parts": [
-        {
-          "part": "a-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "gree(grat)",
-          "mean": "기쁜 (pleasing)"
-        }
+        { "part": "a(ad)", "mean": "= ~쪽으로 (toward)" },
+        { "part": "gree(grat)", "mean": "= pleasing" }
       ],
-      "origin": "기쁘게 ~쪽으로 향하다 → 동의하다"
+      "origin": "be pleasing to …에게 기분 좋게 하다",
+      "derivatives": [
+        { "en": "agreement", "pos": "명", "defs": ["1 협정, 계약", "2 동의, 합의"] },
+        { "en": "agreeable", "pos": "형", "defs": ["1 기분 좋은", "2 (+ to) 동의하는, 받아들일 수 있는"] }
+      ],
+      "antonyms": ["disagreement", "disagreeable"],
+      "phrases": [
+        { "en": "agree with", "ko": "'어떤 사람이나 생각·의견에 동의하다'의 의미\n(뒤에 사람이나 opinion, idea와 같은 말이 올 수 있음)" },
+        { "en": "agree to", "ko": "'제안·요청 등에 동의하거나 승낙하다', 즉 'say yes'의 의미\n(뒤에 사람은 올 수 없고 proposal, request와 같은 말이 옴)" },
+        { "en": "agree (with A) on[about] B", "ko": "B에 대해 (A와) 의견이 일치하다" }
+      ],
+      "examples": [
+        { "en": "I **agree with** you **on** this issue.", "ko": "나는 이 문제에 있어 너와 생각이 같아." },
+        { "en": "I **agreed to** his proposal.", "ko": "나는 그의 제안에 찬성했다." },
+        { "en": "The suspect's story doesn't **agree with** the evidence.", "ko": "그 용의자의 진술은 증거와 일치하지 않는다." },
+        { "en": "After the **agreement** was signed, he was in a happy and **agreeable** mood.", "ko": "그 계약에 서명한 후, 그는 행복하고 기분이 좋았다." }
+      ]
     },
     {
       "en": "operate",
-      "ipa": "/ˈɑːpəreɪt/",
+      "ipa": ["[ɑ́ːpərèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "작동하다",
-            "수술하다"
-          ]
+          "defs": ["1 *작동하다; 작동시키다", "2 *(사업체 등이) 영업[작업]하다", "3 수술하다"]
         }
       ],
       "parts": [
-        {
-          "part": "oper",
-          "mean": "일하다 (work)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "oper", "mean": "= work" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "일하다 → 작동하다"
+      "origin": "일을 하다",
+      "derivatives": [
+        { "en": "operation", "pos": "명", "defs": ["1 수술", "2 사업, 영업", "3 (기계 등의) 작업, 조작"] },
+        { "en": "operator", "pos": "명", "defs": ["1 (기계 등의) 조작자", "2 운영[경영]자"] }
+      ],
+      "examples": [
+        { "en": "Brains try to **operate** in the most energy-efficient way possible.", "ko": "뇌는 가능한 한 가장 에너지 효율이 좋은 방식으로 작동하려고 한다.", "source": "모의" },
+        { "en": "The doctor decided to **operate** at once.", "ko": "그 의사는 당장 수술하기로 결정했다." }
+      ]
     },
     {
       "en": "cooperate",
-      "ipa": "/koʊˈɑːpəreɪt/",
+      "ipa": ["[kouɑ́ːpərèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "협력하다",
-            "협동하다"
-          ]
+          "defs": ["(주로 + with) 협력하다, 협동하다, 협조하다"]
         }
       ],
+      "synonyms": ["collaborate"],
       "parts": [
-        {
-          "part": "co-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "oper",
-          "mean": "일하다 (work)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "co(com)", "mean": "= 함께 (together)" },
+        { "part": "operate", "mean": "일하다" }
       ],
-      "origin": "함께 일하다 → 협력하다"
+      "origin": "함께 일하다",
+      "derivatives": [
+        { "en": "cooperation", "pos": "명", "defs": ["협력, 협동, 협조"] },
+        { "en": "cooperative", "pos": "형/명", "defs": ["형1 협력하는, 협동의", "명 협동 조합"] }
+      ],
+      "antonyms": ["uncooperative"],
+      "examples": [
+        { "en": "Learn how to **cooperate with** your team members.", "ko": "당신의 팀원들과 협동하는 법을 배우세요." },
+        { "en": "Human beings have long depended on the **cooperation** of others for the supply of food.", "ko": "인류는 오랫동안 식량 공급을 위해 타인의 협력에 의존해 왔다.", "source": "모의" }
+      ]
     },
     {
       "en": "distinguish",
-      "ipa": "/dɪˈstɪŋɡwɪʃ/",
+      "ipa": ["[distíŋɡwiʃ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "구별하다",
-            "특징짓다"
-          ]
+          "defs": ["1 *구별하다, 분간하다", "2 (주로 + oneself) 두드러지게 하다, 유명하게 하다"]
         }
       ],
+      "synonyms": ["differentiate, discern"],
       "parts": [
-        {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "stingu(sting)",
-          "mean": "찌르다 (prick)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+        { "part": "di(dis)", "mean": "= apart" },
+        { "part": "stingu(sting)", "mean": "= prick" },
+        { "part": "ish", "mean": "동접" }
       ],
-      "origin": "떨어뜨려 찍어 표시하다 → 구별하다"
+      "origin": "바늘로 찔러 자극을 내서 (다른 것과) 구분짓다",
+      "derivatives": [
+        { "en": "distinguished", "pos": "형", "defs": ["1 성공을 이루어낸, 존경받는, 저명한", "2 기품 있는, 품위 있는"] }
+      ],
+      "phrases": [
+        { "en": "distinguish A from B", "ko": "A를 B와 구별하다 (= tell[know] A from B)" }
+      ],
+      "examples": [
+        { "en": "Sometimes, it is difficult to **distinguish** fantasy **from** reality.", "ko": "때때로 환상과 현실을 구별하기가 어렵다." },
+        { "en": "**distinguished** writers", "ko": "저명한 작가들" }
+      ]
     },
     {
       "en": "extinguish",
-      "ipa": "/ɪkˈstɪŋɡwɪʃ/",
+      "ipa": ["[ikstíŋɡwiʃ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "(불을) 끄다",
-            "끝내다"
-          ]
+          "defs": ["1 (불 등을) 끄다", "2 끝내다, 소멸시키다"]
         }
       ],
+      "synonyms": ["put out"],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "stingu(sting)",
-          "mean": "찌르다 (prick)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+        { "part": "ex", "mean": "「강조」" },
+        { "part": "(s)tingu(sting)", "mean": "= quench" },
+        { "part": "ish", "mean": "동접" }
       ],
-      "origin": "밖으로 찔러 없애다 → 끄다"
+      "origin": "완전히 끄다",
+      "phrases": [
+        { "en": "fire extinguisher", "ko": "소화기" }
+      ],
+      "examples": [
+        { "en": "The firefighters could barely **extinguish** the fire.", "ko": "소방관들은 간신히 불을 끌 수 있었다." }
+      ]
     },
     {
       "en": "extinct",
-      "ipa": "/ɪkˈstɪŋkt/",
+      "ipa": ["[ikstíŋkt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "멸종된",
-            "사라진"
-          ]
+          "defs": ["1 *(종족·생물 등이) 멸종한, 사멸한", "2 (화산 등이) 활동을 멈춘"]
         }
       ],
+      "antonyms": ["active"],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "stinct(sting)",
-          "mean": "찌르다 (prick)"
-        }
+        { "part": "ex", "mean": "「강조」" },
+        { "part": "(s)tinct(sting)", "mean": "= quench" }
       ],
-      "origin": "찔러 없앤 → 멸종된"
+      "origin": "완전히 꺼뜨려 없앤 → 모두 사라진\n※ extinguish에서 온 말",
+      "derivatives": [
+        { "en": "extinction", "pos": "명", "defs": ["멸종, 사멸, 소멸"] },
+        { "en": "extinctive", "pos": "형", "defs": ["소멸성의"] }
+      ],
+      "phrases": [
+        { "en": "an extinct[active] volcano", "ko": "사화산[활화산]" }
+      ],
+      "examples": [
+        { "en": "The number of **extinct** species outnumbers that of living species.", "ko": "멸종된 종들의 수가 살아있는 종들의 수보다 더 많다." }
+      ]
     },
     {
       "en": "distinct",
-      "ipa": "/dɪˈstɪŋkt/",
+      "ipa": ["[distíŋkt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "별개의",
-            "뚜렷한"
-          ]
+          "defs": ["1 (+ from) 별개의, 다른; 독특한", "2 *확실한, 명료한"]
         }
       ],
+      "synonyms": ["different from"],
       "parts": [
-        {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "stinct(sting)",
-          "mean": "찌르다 (prick)"
-        }
+        { "part": "di(dis)", "mean": "= apart" },
+        { "part": "stinct(sting)", "mean": "= prick" }
       ],
-      "origin": "떨어뜨려 구분 짓는 → 별개의"
+      "origin": "바늘로 찔러 자극을 내서 구별한",
+      "derivatives": [
+        { "en": "distinction", "pos": "명", "defs": ["1 구별, 차이", "2 탁월, 우수, 특징"] },
+        { "en": "distinctive", "pos": "형", "defs": ["(다른 것과) 구별되는, 독특한"] }
+      ],
+      "examples": [
+        { "en": "That idea is quite **distinct from** my idea.", "ko": "그 생각은 나의 생각과 상당히 다르다." },
+        { "en": "Many music performance settings make a clear **distinction** between performers and audience members.", "ko": "많은 음악 공연 환경에서는 연주자와 관객 사이를 명확하게 구분한다.", "source": "모의" },
+        { "en": "He was also famous for his **distinctive** voice.", "ko": "그는 독특한 목소리로도 유명했다." }
+      ]
     },
     {
       "en": "instinct",
-      "ipa": "/ˈɪnstɪŋkt/",
+      "ipa": ["[ínstìŋkt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "본능"
-          ]
+          "defs": ["본능, 본성"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "stinct(sting)",
-          "mean": "찌르다 (prick)"
-        }
+        { "part": "in", "mean": "= on" },
+        { "part": "stinct", "mean": "= prick" }
       ],
-      "origin": "안에서 찌르는 것 → 본능"
+      "origin": "찔러 자극하여 부추김 → 충동 → 본능",
+      "derivatives": [
+        { "en": "instinctive", "pos": "형", "defs": ["본능적인"] },
+        { "en": "instinctively", "pos": "부", "defs": ["본능적으로"] }
+      ],
+      "examples": [
+        { "en": "Some animals hunt by **instinct**, not by learning.", "ko": "어떤 동물들은 학습이 아니라 본능적으로 사냥한다." }
+      ]
     },
     {
       "en": "stimulate",
-      "ipa": "/ˈstɪmjuleɪt/",
+      "ipa": ["[stímjəlèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "자극하다",
-            "격려하다"
-          ]
+          "defs": ["1 *자극하다, 촉진하다", "2 격려하다, 고무하다"]
         }
       ],
+      "synonyms": ["arouse", "encourage, inspire"],
       "parts": [
-        {
-          "part": "stimul(sting)",
-          "mean": "찌르다 (prick, goad)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "stim(sting)", "mean": "= prick" },
+        { "part": "ulate", "mean": "동접" }
       ],
-      "origin": "찔러 자극하다"
+      "origin": "찔러 부추기다\n→ 자극시키다; 고무시키다",
+      "derivatives": [
+        { "en": "stimulation", "pos": "명", "defs": ["자극, 흥분"] },
+        { "en": "stimulus", "pos": "명", "defs": ["(복수형 stimuli[-lai]) 자극제, 자극이[고무/격려가] 되는 것"] }
+      ],
+      "examples": [
+        { "en": "Some colors **stimulate** people's appetites.", "ko": "어떤 색은 사람들의 식욕을 자극한다." },
+        { "en": "New experiences serve as **stimuli** for creative thinking.", "ko": "새로운 경험은 창의적인 사고를 유도하는 자극제가 된다." }
+      ]
     },
     {
       "en": "regard",
-      "ipa": "/rɪˈɡɑːrd/",
+      "ipa": ["[riɡɑ́ːrd]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "간주하다",
-            "주목하다"
-          ]
+          "defs": ["1 *(…로) 여기다, 간주하다", "2 (어떤 감정을 갖고) 응시하다, 보다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "관심",
-            "안부"
-          ]
+          "defs": ["1 존중, 존경", "2 주목, 주의", "3 (복수형) 안부"]
         }
       ],
+      "synonyms": ["consider"],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "gard(guard)",
-          "mean": "지키다, 보다 (watch)"
-        }
+        { "part": "re", "mean": "「강조」" },
+        { "part": "gard(guard)", "mean": "= watch" }
       ],
-      "origin": "다시 보다 → 간주하다"
+      "origin": "주의 깊게 지켜보다 → 주의를 기울이다",
+      "derivatives": [
+        { "en": "regardless", "pos": "형", "defs": ["무관심한, 개의치 않는"] },
+        { "en": "regarding", "pos": "전", "defs": ["…에 관해서(는)"] }
+      ],
+      "synonyms_extra": ["concerning"],
+      "phrases": [
+        { "en": "regard A as B", "ko": "A를 B로[B하다고] 여기다 (= look upon A as B)" },
+        { "en": "with[in] regard to", "ko": "…와 관련하여" },
+        { "en": "regardless of", "ko": "…을 개의치 않고, …에 관계없이" }
+      ],
+      "examples": [
+        { "en": "We must **regard** this situation **as** very serious.", "ko": "우리는 이 상황을 매우 심각하게 받아들여야 한다." },
+        { "en": "He has little **regard** for safety.", "ko": "그는 안전에는 관심이 거의 없다." },
+        { "en": "The programs will run **regardless of** weather conditions.", "ko": "프로그램은 기상 상황에 관계없이 진행될 것이다.", "source": "모의" },
+        { "en": "We have no problems **regarding** the finances.", "ko": "우리는 자금에 관해서는 아무 문제가 없다." }
+      ]
     },
     {
       "en": "garment",
-      "ipa": "/ˈɡɑːrmənt/",
+      "ipa": ["[ɡɑ́ːrmənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "의복",
-            "옷"
-          ]
+          "defs": ["의복, 옷"]
         }
       ],
+      "synonyms": ["clothes, apparel"],
       "parts": [
-        {
-          "part": "gar(guard)",
-          "mean": "지키다 (protect)"
-        },
-        {
-          "part": "-ment",
-          "mean": "명사형 접미사"
-        }
+        { "part": "gar(guard)", "mean": "= protect" },
+        { "part": "ment", "mean": "명접" }
       ],
-      "origin": "몸을 지키는 것 → 의복"
+      "origin": "(몸을) 보호해주는 것",
+      "examples": [
+        { "en": "The queen always dresses in beautiful **garments**.", "ko": "여왕은 항상 아름다운 옷을 입는다." }
+      ]
     },
     {
       "en": "guard",
-      "ipa": "/ɡɑːrd/",
+      "ipa": ["[ɡɑːrd]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "경비원",
-            "보호대"
-          ]
+          "defs": ["1 *경호원, 경비원, 보초", "2 보호 (장비)"]
         },
         {
           "pos": "동",
-          "defs": [
-            "지키다"
-          ]
+          "defs": ["1 *지키다, 보호하다", "2 감시[경계]하다"]
         }
       ],
+      "synonyms": ["protect"],
       "parts": [
-        {
-          "part": "guard",
-          "mean": "지키다 (watch, protect)"
-        }
+        { "part": "guard", "mean": "고대 프랑스어 garder(=keep, protect)에서 온 말" }
       ],
-      "origin": "지키다"
+      "origin": "지키다",
+      "derivatives": [
+        { "en": "guardian", "pos": "명", "defs": ["보호자, (미성년자 등의) 후견인"] }
+      ],
+      "examples": [
+        { "en": "The prison **guard** carried a lantern.", "ko": "교도관이 손전등을 들고 있었다." },
+        { "en": "He was hired to **guard** the warehouse at night.", "ko": "그는 밤에 창고를 지키기 위해 고용되었다." }
+      ]
     },
     {
       "en": "guarantee",
-      "ipa": "/ˌɡærənˈtiː/",
+      "ipa": ["[ɡæ̀rəntíː]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "보증",
-            "담보"
-          ]
+          "defs": ["1 보증, 보장; (상품 등의) 보증서", "2 담보(물)"]
         },
         {
           "pos": "동",
-          "defs": [
-            "보장하다"
-          ]
+          "defs": ["1 *보장[보증]하다, 장담하다", "2 …을 확실하게 하다"]
         }
       ],
+      "synonyms": ["warranty", "assure", "ensure"],
       "parts": [
-        {
-          "part": "guar(guard)",
-          "mean": "지키다 (protect)"
-        },
-        {
-          "part": "-antee",
-          "mean": "명사형 접미사"
-        }
+        { "part": "guarant(guard)", "mean": "= protect" },
+        { "part": "ee", "mean": "명접" }
       ],
-      "origin": "지켜주는 것 → 보증"
+      "origin": "(위험으로부터) 보호하는 것 → 보증, 담보",
+      "phrases": [
+        { "en": "cf. warranty", "ko": "(제품 등의) 품질 보증(서)" }
+      ],
+      "examples": [
+        { "en": "In business, there is no **guarantee** of success.", "ko": "사업에 있어, 성공의 보장은 있을 수 없다." },
+        { "en": "We **guarantee** the quality of all our products.", "ko": "우리는 자사의 모든 제품의 품질을 보장합니다." }
+      ]
     },
     {
       "en": "float",
-      "ipa": "/floʊt/",
+      "ipa": ["[flout]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "뜨다",
-            "떠다니다"
-          ]
+          "defs": ["1 물 위에 뜨다[떠오르다]", "2 (물 위나 공중에) 떠서 움직이다, 떠돌다"]
         }
       ],
       "parts": [
-        {
-          "part": "flo",
-          "mean": "흐르다 (flow)"
-        },
-        {
-          "part": "-at",
-          "mean": "동사형 접미사"
-        }
+        { "part": "flo", "mean": "중세 영어 flote(물위에 떠 있다)에서 온 말" }
       ],
-      "origin": "흘러 떠다니다"
+      "origin": "흘러 떠다니다",
+      "derivatives": [
+        { "en": "afloat", "pos": "형/부", "defs": ["물에 뜬[떠서]"] }
+      ],
+      "examples": [
+        { "en": "All of the children held hands and **floated** in the pool.", "ko": "모든 아이들이 손을 잡고 수영장에서 떠다녔다." }
+      ]
     },
     {
       "en": "flood",
-      "ipa": "/flʌd/",
+      "ipa": ["[flʌd]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "홍수"
-          ]
+          "defs": ["1 *홍수", "2 쇄도, 폭주"]
         },
         {
           "pos": "동",
-          "defs": [
-            "범람시키다"
-          ]
+          "defs": ["1 *물에 잠기다", "2 범람하다", "3 쇄도하다, 밀려들다"]
         }
       ],
       "parts": [
-        {
-          "part": "flo",
-          "mean": "흐르다 (flow)"
-        },
-        {
-          "part": "-od",
-          "mean": "명사형 접미사"
-        }
+        { "part": "flo", "mean": "중세 영어 flode(물이 흘러 넘침)에서 온 말" }
       ],
-      "origin": "넘쳐 흐르다 → 홍수"
+      "origin": "넘쳐 흐르다 → 홍수",
+      "examples": [
+        { "en": "The forest had been destroyed, and there had been a serious **flood**.", "ko": "숲은 파괴되었고 심각한 홍수가 발생했다.", "source": "교과서" },
+        { "en": "Fans **flooded** into the stadium hours before the game began.", "ko": "경기가 시작되기 몇 시간 전부터 팬들이 경기장으로 몰려들었다." }
+      ]
     },
     {
       "en": "flow",
-      "ipa": "/floʊ/",
+      "ipa": ["[flou]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "흐름"
-          ]
+          "defs": ["1 *(액체·기체·전기 등의) 흐름", "2 교통의 흐름", "3 *(상품·정보 등의) 유통, 흐름"]
         },
         {
           "pos": "동",
-          "defs": [
-            "흐르다"
-          ]
+          "defs": ["*(막힘 없이) 흐르다"]
         }
       ],
       "parts": [
-        {
-          "part": "flo",
-          "mean": "흐르다 (flow)"
-        }
+        { "part": "flo", "mean": "중세 영어 flouen(흐르다)에서 온 말" }
       ],
-      "origin": "흐르다"
+      "origin": "흐르다",
+      "derivatives": [
+        { "en": "overflow", "pos": "동/명", "defs": ["동 넘치다", "명 넘침"] },
+        { "en": "inflow", "pos": "명", "defs": ["유입"] }
+      ],
+      "synonyms": ["spill over", "flood; 초과", "excess"],
+      "antonyms": ["outflow"],
+      "examples": [
+        { "en": "We benefit from a constant **flow** of new information.", "ko": "우리는 새로운 정보의 끊임없는 흐름으로 혜택을 누리고 있다." },
+        { "en": "The stream **flows** by the western side of the city.", "ko": "그 시내는 도시의 서쪽으로 흐른다." },
+        { "en": "The toilet **overflowed** when she flushed it.", "ko": "그녀가 물을 내리자 변기가 넘쳤다." },
+        { "en": "The evaporation exceeded the **inflow** of water and reduced the lake to one-twentieth of its former size.", "ko": "물의 증발이 물의 유입을 넘어섰고, 호수는 이전 크기의 20분의 1로 줄어들었다.", "source": "수능" }
+      ]
     },
     {
       "en": "flee",
-      "ipa": "/fliː/",
+      "ipa": ["[fliː]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "달아나다",
-            "도망치다"
-          ]
+          "defs": ["재빨리 도망치다, 달아나다"]
         }
       ],
       "parts": [
-        {
-          "part": "flee(flo)",
-          "mean": "흐르듯 달아나다 (flow away)"
-        }
+        { "part": "flee(flo)", "mean": "중세 영어 fleen(날다)에서 온 말\n※ 뜻이 '흐르다' → '달아나다' → '날아가다'로 확장된 것으로 추정" }
       ],
-      "origin": "흘러 달아나다 → 도망치다"
+      "origin": "흘러 달아나다 → 도망치다",
+      "derivatives": [
+        { "en": "flight", "pos": "명", "defs": ["1 비행, 여행", "2 (특정 지역으로 가는) 항공편"] }
+      ],
+      "phrases": [
+        { "en": "cf. flea", "ko": "벼룩" }
+      ],
+      "examples": [
+        { "en": "The driver was trying to **flee** the scene of the accident.", "ko": "그 운전자는 교통사고의 현장에서 도망치려 하고 있었다." },
+        { "en": "Their **flight** to Europe took longer than Anne expected.", "ko": "그들의 유럽행 항공편은 Anne이 예상했던 것보다 오래 걸렸다." }
+      ]
     }
   ]
 }

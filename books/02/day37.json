@@ -3,610 +3,577 @@
   "words": [
     {
       "en": "legal",
-      "ipa": "/ˈliːɡl/",
+      "ipa": ["[líːɡəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "법률의",
-            "합법적인"
-          ]
+          "defs": ["1 *법률(상)의", "2 합법적인"]
         }
       ],
+      "synonyms": ["legitimate"],
+      "antonyms": ["illegal"],
       "parts": [
-        {
-          "part": "leg",
-          "mean": "법 (law)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "leg", "mean": "= law" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "법의 → 합법적인"
+      "origin": "법률의",
+      "derivatives": [
+        { "en": "legally", "pos": "부", "defs": ["법률적으로, 합법적으로"] }
+      ],
+      "examples": [
+        { "en": "Unfortunately, we will have to take **legal** action.", "ko": "유감스럽게도, 우리는 법적인 조치를 취해야 할 것이다." },
+        { "en": "The labor movement should be conducted in a **legal** and peaceful manner.", "ko": "노동 운동은 합법적이고 평화적인 방식으로 행해져야 한다." },
+        { "en": "the **legal** system", "ko": "사법 제도" }
+      ]
     },
     {
       "en": "legislate",
-      "ipa": "/ˈledʒɪsleɪt/",
+      "ipa": ["[lédʒəslèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "법률을 제정하다"
-          ]
+          "defs": ["법률을 제정하다, 입법하다"]
         }
       ],
       "parts": [
-        {
-          "part": "legis(leg)",
-          "mean": "법 (law)"
-        },
-        {
-          "part": "late",
-          "mean": "나르다 (carry, propose)"
-        }
+        { "part": "legs(leg)", "mean": "= law" },
+        { "part": "late", "mean": "= carry" }
       ],
-      "origin": "법을 제안하다 → 법률을 제정하다"
+      "origin": "법을 나르다[만들다]",
+      "derivatives": [
+        { "en": "legislation", "pos": "명", "defs": ["법률 제정, 입법; 법률"] }
+      ],
+      "examples": [
+        { "en": "Congress has **legislated** a new minimum wage.", "ko": "의회는 새로운 최저 임금을 법률로 정했다." },
+        { "en": "This new **legislation** promises to get tough on cybercrime.", "ko": "새로운 법률은 사이버 범죄에 대해 엄중히 대처할 것을 약속한다." }
+      ]
     },
     {
       "en": "privilege",
-      "ipa": "/ˈprɪvəlɪdʒ/",
+      "ipa": ["[prívəlidʒ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "특권",
-            "영광"
-          ]
+          "defs": ["특권, 특전; 영광"]
+        },
+        {
+          "pos": "동",
+          "defs": ["특권을[특혜를] 주다"]
         }
       ],
       "parts": [
-        {
-          "part": "priv",
-          "mean": "개인의 (private)"
-        },
-        {
-          "part": "lege(leg)",
-          "mean": "법 (law)"
-        }
+        { "part": "privi", "mean": "= separate 분리된 (개인)" },
+        { "part": "lege(leg)", "mean": "= law" }
       ],
-      "origin": "개인을 위한 법 → 특권"
+      "origin": "특정 개인에게만 적용되는 법",
+      "derivatives": [
+        { "en": "privileged", "pos": "형", "defs": ["특권을 가진"] }
+      ],
+      "phrases": [
+        { "en": "cf. underprivileged", "ko": "(사회적·경제적) 혜택을 못 받는" }
+      ],
+      "examples": [
+        { "en": "In some countries, education is still not a right but a **privilege**.", "ko": "일부 나라에서는, 교육이 여전히 권리가 아니라 특권이다." },
+        { "en": "It has been a **privilege** to work at this school for the past four years.", "ko": "지난 4년간 이 학교에서 근무할 수 있어 영광이었습니다.", "source": "모의" }
+      ]
     },
     {
       "en": "delegate",
-      "ipa": "/ˈdelɪɡət/",
+      "ipa": ["명 [déləɡit]", "동 [déləɡèit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "대표자"
-          ]
+          "defs": ["대표자, 대리인"]
         },
         {
           "pos": "동",
-          "defs": [
-            "위임하다"
-          ]
+          "defs": ["1 (권한·임무 등을) 위임하다", "2 대표로 임명[파견]하다"]
         }
       ],
+      "synonyms": ["representative, deputy"],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "떨어져 (away)"
-        },
-        {
-          "part": "leg",
-          "mean": "보내다 (send)"
-        },
-        {
-          "part": "-ate",
-          "mean": "명사/동사형 접미사"
-        }
+        { "part": "de", "mean": "= away" },
+        { "part": "leg", "mean": "= choose as deputy" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "떨어져 보내다 → 위임하다"
+      "origin": "(권한을 위임하여) 보내다 → 대표로 파견하다",
+      "derivatives": [
+        { "en": "delegation", "pos": "명", "defs": ["1 위임", "2 대표단"] }
+      ],
+      "examples": [
+        { "en": "There were **delegates** from many different nations at the conference.", "ko": "그 회의에는 각국에서 온 대표들이 있었다." },
+        { "en": "The manager **delegated** the task to her assistant.", "ko": "그 매니저는 그 업무를 비서에게 맡겼다." }
+      ]
     },
     {
       "en": "legacy",
-      "ipa": "/ˈleɡəsi/",
+      "ipa": ["[léɡəsi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "유산"
-          ]
+          "defs": ["유산, 유물, 물려받은 것"]
         }
       ],
+      "synonyms": ["inheritance"],
       "parts": [
-        {
-          "part": "leg",
-          "mean": "법, 유언 (law, bequest)"
-        },
-        {
-          "part": "-acy",
-          "mean": "명사형 접미사"
-        }
+        { "part": "leg", "mean": "= choose as deputy" },
+        { "part": "acy", "mean": "명접" }
       ],
-      "origin": "유언으로 남긴 것 → 유산"
+      "origin": "위임에 의하여 물려받은 것",
+      "examples": [
+        { "en": "Her **legacy** lives on through the school she founded.", "ko": "그녀의 유산은 그녀가 세운 학교를 통해 계속되고 있다." },
+        { "en": "cultural[historical] **legacy**", "ko": "문화적[역사적] 유산" }
+      ]
     },
     {
       "en": "colleague",
-      "ipa": "/ˈkɑːliːɡ/",
+      "ipa": ["[kɑ́ːliːɡ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "동료"
-          ]
+          "defs": ["(직장) 동료"]
         }
       ],
+      "synonyms": ["co-worker"],
       "parts": [
-        {
-          "part": "col-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "league(leg)",
-          "mean": "보내다, 선택 (send, choose)"
-        }
+        { "part": "col(com)", "mean": "= together" },
+        { "part": "league(leg)", "mean": "= choose as deputy" }
       ],
-      "origin": "함께 선택된 사람 → 동료"
+      "origin": "(직장의 일을) 함께 위임받은 사람",
+      "phrases": [
+        { "en": "혼동어휘 college", "ko": "대학(교); 학부" }
+      ],
+      "examples": [
+        { "en": "He is respected by his **colleagues** for his hard work.", "ko": "그는 성실함으로 동료들에게 존경을 받고 있다." }
+      ]
     },
     {
       "en": "loyal",
-      "ipa": "/ˈlɔɪəl/",
+      "ipa": ["[lɔ́iəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "충성스러운"
-          ]
+          "defs": ["충성스러운, 충실한"]
         }
       ],
+      "synonyms": ["faithful"],
+      "antonyms": ["disloyal"],
       "parts": [
-        {
-          "part": "loy(leg)",
-          "mean": "법 (law)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "loy(leg)", "mean": "= law" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "법에 충실한 → 충성스러운"
+      "origin": "법률의 → 법을 잘 지키는 → 충실한",
+      "derivatives": [
+        { "en": "loyalty", "pos": "명", "defs": ["충성(심), 충실"] }
+      ],
+      "phrases": [
+        { "en": "혼동어휘 royal", "ko": "왕의, 왕실의; 왕립의(p.152)" }
+      ],
+      "examples": [
+        { "en": "Since she joined in 2015, she has been a **loyal** and essential member of this company.", "ko": "2015년에 입사한 이후로, 그녀는 이 회사의 충성스럽고 필수적인 구성원이었다.", "source": "모의" },
+        { "en": "Dogs are known for their **loyalty** to their owners.", "ko": "개는 주인에 대한 충성심으로 잘 알려져 있다." }
+      ]
     },
     {
       "en": "labor",
-      "ipa": "/ˈleɪbər/",
+      "ipa": ["[léibər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "노동",
-            "수고"
-          ]
+          "defs": ["1 *(정신적·육체적) 노동, 근로", "2 (집합적) 노동자 (계급)"]
         },
         {
           "pos": "동",
-          "defs": [
-            "노동하다"
-          ]
+          "defs": ["(열심히) 일하다, 노동하다"]
         }
       ],
       "parts": [
-        {
-          "part": "labor",
-          "mean": "일하다 (work, toil)"
-        }
+        { "part": "labor", "mean": "라틴어 labor(일)에서 온 말" }
       ],
-      "origin": "일하다 → 노동"
+      "origin": "일하다 → 노동",
+      "derivatives": [
+        { "en": "laborer", "pos": "명", "defs": ["(육체) 노동자"] },
+        { "en": "laborious", "pos": "형", "defs": ["힘든, 고된"] }
+      ],
+      "examples": [
+        { "en": "The **labor** union leaders were discussing the new contracts as the **laborers** were demonstrating outside.", "ko": "노동자들이 밖에서 시위를 벌이고 있을 때 노동 조합 지도자들은 새로운 (노동) 계약에 대해 논의하고 있었다." }
+      ]
     },
     {
       "en": "laboratory",
-      "ipa": "/ˈlæbrətɔːri/",
+      "ipa": ["[lǽbrətɔ̀ːri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "실험실"
-          ]
+          "defs": ["실험실, 연구소[실] (줄여서 lab)"]
         }
       ],
       "parts": [
-        {
-          "part": "labor",
-          "mean": "일하다 (work)"
-        },
-        {
-          "part": "-atory",
-          "mean": "장소 접미사"
-        }
+        { "part": "laborat(labor)", "mean": "= work" },
+        { "part": "tory", "mean": "명접「장소」" }
       ],
-      "origin": "일하는 장소 → 실험실"
+      "origin": "일을 하는 장소",
+      "examples": [
+        { "en": "**laboratory** equipment", "ko": "실험실 장비" },
+        { "en": "Inventions must be submitted to the science **lab** by July 1.", "ko": "발명품은 7월 1일까지 과학실에 제출되어야 한다.", "source": "모의" }
+      ]
     },
     {
       "en": "elaborate",
-      "ipa": "/ɪˈlæbərət/",
+      "ipa": ["형 [ilǽːbərit]", "동 [ilǽbərèit]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "정교한"
-          ]
+          "defs": ["*정교한, 정성들여 만든"]
         },
         {
           "pos": "동",
-          "defs": [
-            "상세히 설명하다"
-          ]
+          "defs": ["1 상세히 말하다", "2 갈고 다듬다"]
         }
       ],
+      "synonyms": ["sophisticated"],
+      "antonyms": ["simple"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "labor",
-          "mean": "일하다 (work)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사/동사형 접미사"
-        }
+        { "part": "e(ex)", "mean": "「강조」" },
+        { "part": "labor", "mean": "= work" },
+        { "part": "ate", "mean": "형접" }
       ],
-      "origin": "공들여 만들어낸 → 정교한"
+      "origin": "(열심히) 일한 → 공들여 만든",
+      "examples": [
+        { "en": "Elephants have evolved **elaborate** greeting behaviors.", "ko": "코끼리는 정교한 인사 행동을 진화시켜왔다.", "source": "수능" },
+        { "en": "Could you **elaborate** on that idea a bit more?", "ko": "그 아이디어에 대해 좀 더 상세히 설명해 줄 수 있나요?" }
+      ]
     },
     {
       "en": "collaborate",
-      "ipa": "/kəˈlæbəreɪt/",
+      "ipa": ["[kəlǽbərèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "협력하다",
-            "공동으로 작업하다"
-          ]
+          "defs": ["협력하다, 공동으로 일하다"]
         }
       ],
+      "synonyms": ["cooperate"],
       "parts": [
-        {
-          "part": "col-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "labor",
-          "mean": "일하다 (work)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "col(com)", "mean": "= together" },
+        { "part": "labor", "mean": "= work" },
+        { "part": "ate", "mean": "형접" }
       ],
-      "origin": "함께 일하다 → 협력하다"
+      "origin": "함께 일하다",
+      "derivatives": [
+        { "en": "collaboration", "pos": "명", "defs": ["협력, 협업"] },
+        { "en": "collaborative", "pos": "형", "defs": ["협력하는, 합작의"] }
+      ],
+      "synonyms_extra": ["cooperative"],
+      "phrases": [
+        { "en": "collaborate with A (on B)", "ko": "(B에 대해) A와 협력하다" }
+      ],
+      "examples": [
+        { "en": "The company agreed to **collaborate with** us **on** a new project.", "ko": "그 회사는 새로운 프로젝트에서 우리와 협업하는 것에 동의했다." },
+        { "en": "It is necessary to improve **collaboration** in the workplace.", "ko": "회사 내 협력을 증진시키는 것은 필수적이다." }
+      ]
     },
     {
       "en": "cast",
-      "ipa": "/kæst/",
+      "ipa": ["[kæst]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "던지다",
-            "배역을 정하다"
-          ]
+          "defs": ["1 (낚싯줄·주사위·표 등을) 던지다", "2 *(빛·그림자를) 드리우다", "3 배우를 정하다, 배역을 맡기다", "4 (시선을) 던지다, (눈길을) 주다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "출연진"
-          ]
+          "defs": ["1 (영화·공연 등의) 출연진", "2 [의학] 깁스", "3 주형(鑄型), 거푸집", "4 던지기"]
         }
       ],
+      "synonyms": ["throw"],
       "parts": [
-        {
-          "part": "cast",
-          "mean": "던지다 (throw)"
-        }
+        { "part": "cast", "mean": "= throw" }
       ],
-      "origin": "던지다"
+      "origin": "던지다 →\n├ (빛·그림자 등을) 던지다 → 드리우다\n├ (배역을 배우에게) 던지다 → 배역을 맡기다\n└ (눈길을) 던지다",
+      "phrases": [
+        { "en": "cast a[one's] vote for", "ko": "…에 투표하다" },
+        { "en": "cast doubt on", "ko": "…에 의문을 던지다[제기하다]" }
+      ],
+      "examples": [
+        { "en": "Who will you **cast your vote for**?", "ko": "너는 누구에게 투표할 거니?" },
+        { "en": "The moonlight **cast** a long shadow behind him.", "ko": "달빛은 그의 뒤로 긴 그림자를 드리웠다." },
+        { "en": "The musical has a great **cast** of singers and dancers.", "ko": "그 뮤지컬은 가수와 댄서 출연진이 훌륭하다." },
+        { "en": "After taking X-rays, they decided to put a **cast** on his leg.", "ko": "엑스레이 촬영을 한 후에 그들은 그의 다리에 깁스를 하기로 결정했다." }
+      ]
     },
     {
       "en": "broadcast",
-      "ipa": "/ˈbrɔːdkæst/",
+      "ipa": ["[brɔ́ːdkæ̀st]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "방송하다"
-          ]
+          "defs": ["방송[방영]하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "방송"
-          ]
+          "defs": ["방송, 방영(물)"]
         }
       ],
       "parts": [
-        {
-          "part": "broad",
-          "mean": "넓은 (wide)"
-        },
-        {
-          "part": "cast",
-          "mean": "던지다 (throw)"
-        }
+        { "part": "broad", "mean": "넓게, 널리" },
+        { "part": "cast", "mean": "= throw" }
       ],
-      "origin": "넓게 던지다 → 방송하다"
+      "origin": "널리 던지다 → (전파를 통해) 널리 퍼뜨리다\n→ 방송하다",
+      "derivatives": [
+        { "en": "broadcaster", "pos": "명", "defs": ["1 방송인, 아나운서", "2 방송국"] }
+      ],
+      "examples": [
+        { "en": "Dick Enberg was one of America's most beloved sports **broadcasters**. He made his last live **broadcast** in 2016.", "ko": "Dick Enberg는 미국의 가장 사랑받는 스포츠 해설자 중 한 명이었다. 그는 2016년에 마지막 생방송을 진행했다.", "source": "수능" }
+      ]
     },
     {
       "en": "forecast",
-      "ipa": "/ˈfɔːrkæst/",
+      "ipa": ["[fɔ́ːrkæ̀st]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "예보하다"
-          ]
+          "defs": ["예상[예측]하다, 예보하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "예보"
-          ]
+          "defs": ["예상[예측], 예보"]
         }
       ],
+      "synonyms": ["foresee, predict", "prediction"],
       "parts": [
-        {
-          "part": "fore-",
-          "mean": "앞에 (before)"
-        },
-        {
-          "part": "cast",
-          "mean": "던지다 (throw)"
-        }
+        { "part": "fore", "mean": "= before" },
+        { "part": "cast", "mean": "= throw" }
       ],
-      "origin": "앞에 던져보다 → 예보하다"
+      "origin": "(주사위를) 먼저 던져서 미래를 점쳐 보다\n→ 예상[예측]하다",
+      "examples": [
+        { "en": "The company's sales are **forecast** to increase by 15% this year.", "ko": "회사의 매출은 올해 15% 오를 것이라고 예측된다." },
+        { "en": "Unfortunately, the weather **forecast** says that there is going to be heavy rain throughout the race day.", "ko": "안타깝게도, 기상 예보에 따르면 경주 당일 내내 폭우가 내릴 것으로 예상된다.", "source": "수능" }
+      ]
     },
     {
       "en": "terrible",
-      "ipa": "/ˈterəbl/",
+      "ipa": ["[térəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "끔찍한",
-            "형편없는"
-          ]
+          "defs": ["1 무서운, 끔찍한", "2 *심한, 대단한, 엄청난"]
         }
       ],
+      "synonyms": ["horrible, awful, dreadful"],
       "parts": [
-        {
-          "part": "terr",
-          "mean": "두려움 (fear)"
-        },
-        {
-          "part": "-ible",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "terr", "mean": "= frighten" },
+        { "part": "ible", "mean": "형접" }
       ],
-      "origin": "두려운 → 끔찍한"
+      "origin": "두렵게 하는",
+      "derivatives": [
+        { "en": "terribly", "pos": "부", "defs": ["몹시, 매우"] }
+      ],
+      "synonyms_extra": ["extremely"],
+      "examples": [
+        { "en": "a **terrible** disaster[accident]", "ko": "끔찍한 재난[사고]" },
+        { "en": "I'm **terribly** sorry. I'm late because the traffic was **terrible**.", "ko": "정말 죄송합니다. 교통이 너무 혼잡해서 늦었어요.", "source": "모의" }
+      ]
     },
     {
       "en": "terror",
-      "ipa": "/ˈterər/",
+      "ipa": ["[térər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "공포",
-            "테러"
-          ]
+          "defs": ["1 공포, 두려움", "2 테러 (행위)"]
         }
       ],
+      "synonyms": ["fear, horror", "terrorism"],
       "parts": [
-        {
-          "part": "terr",
-          "mean": "두려움 (fear)"
-        },
-        {
-          "part": "-or",
-          "mean": "명사형 접미사"
-        }
+        { "part": "terr", "mean": "= frighten" },
+        { "part": "or", "mean": "명접" }
       ],
-      "origin": "두려움 → 공포"
+      "origin": "두렵게 하는 것",
+      "derivatives": [
+        { "en": "terrorist", "pos": "명", "defs": ["테러리스트"] },
+        { "en": "terrorize", "pos": "동", "defs": ["공포에 떨게 하다"] }
+      ],
+      "synonyms_extra": ["terrify"],
+      "examples": [
+        { "en": "Security has tightened up around the city due to the recent threat of **terror**.", "ko": "최근 테러 위협으로 인해 도시의 경비가 강화되었다." }
+      ]
     },
     {
       "en": "terrify",
-      "ipa": "/ˈterɪfaɪ/",
+      "ipa": ["[térəfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "겁나게 하다"
-          ]
+          "defs": ["겁나게 하다, 무섭게 하다"]
         }
       ],
+      "synonyms": ["terrorize, scare, frighten"],
       "parts": [
-        {
-          "part": "terr",
-          "mean": "두려움 (fear)"
-        },
-        {
-          "part": "-ify",
-          "mean": "만들다 (make)"
-        }
+        { "part": "terr", "mean": "= frighten" },
+        { "part": "ify", "mean": "동접:make" }
       ],
-      "origin": "두렵게 만들다"
+      "origin": "두렵게 하다",
+      "derivatives": [
+        { "en": "terrifying", "pos": "형", "defs": ["겁나게 하는, 아주 무서운"] }
+      ],
+      "synonyms_extra": ["frightening"],
+      "examples": [
+        { "en": "Her realistic ghost story **terrified** the children.", "ko": "그녀의 실감나는 유령 이야기는 아이들을 겁먹게 만들었다." }
+      ]
     },
     {
       "en": "tone",
-      "ipa": "/toʊn/",
+      "ipa": ["[toun]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "음조",
-            "말투",
-            "색조"
-          ]
+          "defs": ["1 음색, 음조, 음성", "2 *어조, 말투", "3 색조"]
         }
       ],
       "parts": [
-        {
-          "part": "ton",
-          "mean": "소리 (sound)"
-        }
+        { "part": "ton", "mean": "라틴어 tonus(=sound)에서 온 말" }
       ],
-      "origin": "소리 → 음조"
+      "origin": "소리 → 음조",
+      "examples": [
+        { "en": "He made the last statement in a **tone** of distinct regret.", "ko": "그는 분명한 후회의 어조로 마지막 말을 했다.", "source": "교과서" },
+        { "en": "Find colors that go well with your skin **tone**.", "ko": "당신의 피부색과 잘 어울리는 색상을 찾아보세요.", "source": "모의" }
+      ]
     },
     {
       "en": "intonation",
-      "ipa": "/ˌɪntəˈneɪʃn/",
+      "ipa": ["[ìntənéiʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "억양"
-          ]
+          "defs": ["억양(문장의 높낮이), 어조"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "ton",
-          "mean": "소리 (sound)"
-        },
-        {
-          "part": "-ation",
-          "mean": "명사형 접미사"
-        }
+        { "part": "in", "mean": "= in" },
+        { "part": "ton", "mean": "= sound" },
+        { "part": "ation", "mean": "명접" }
       ],
-      "origin": "안에서의 소리 변화 → 억양"
+      "origin": "안에서 나오는 (높고 낮은) 소리",
+      "examples": [
+        { "en": "The **intonation** of a sentence can have a big impact on its interpretation.", "ko": "문장의 억양은 해석에 지대한 영향을 미칠 수 있다." }
+      ]
     },
     {
       "en": "monotonous",
-      "ipa": "/məˈnɑːtənəs/",
+      "ipa": ["[mənɑ́ːtnəs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "단조로운"
-          ]
+          "defs": ["단조로운, 변화 없는; 지루한"]
         }
       ],
+      "synonyms": ["dull, tedious"],
       "parts": [
-        {
-          "part": "mono-",
-          "mean": "하나 (one)"
-        },
-        {
-          "part": "ton",
-          "mean": "소리 (sound)"
-        },
-        {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "mono", "mean": "= one" },
+        { "part": "ton", "mean": "= sound" },
+        { "part": "ous", "mean": "형접" }
       ],
-      "origin": "하나의 소리 → 단조로운"
+      "origin": "한가지 소리의 → 단조로운",
+      "derivatives": [
+        { "en": "monotony", "pos": "명", "defs": ["단조로움; 지루함"] }
+      ],
+      "examples": [
+        { "en": "The teacher's **monotonous** tone of voice was a terrific sleeping pill.", "ko": "선생님의 단조로운 어조의 목소리는 굉장한 수면제였다." }
+      ]
     },
     {
       "en": "tune",
-      "ipa": "/tuːn/",
+      "ipa": ["[tuːn]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "곡",
-            "선율"
-          ]
+          "defs": ["*가락, 곡(曲), 선율"]
         },
         {
           "pos": "동",
-          "defs": [
-            "조율하다"
-          ]
+          "defs": ["1 (악기를) 조율하다", "2 (방송 주파수·채널 등을) 맞추다"]
         }
       ],
+      "synonyms": ["melody"],
       "parts": [
-        {
-          "part": "tun(ton)",
-          "mean": "소리 (sound)"
-        }
+        { "part": "tun(ton)", "mean": "중세 영어 tone(=musical sound)의 변형" }
       ],
-      "origin": "소리 → 곡"
+      "origin": "소리 → 곡",
+      "phrases": [
+        { "en": "in tune[out of tune]", "ko": "음이 맞는[맞지 않는]" },
+        { "en": "tune in (to)", "ko": "(…에) 채널·주파수를 맞추다" }
+      ],
+      "examples": [
+        { "en": "The piano is **in tune**[**out of tune**].", "ko": "그 피아노는 음이 맞는다[맞지 않는다]." },
+        { "en": "We'll come back after the commercial break. So stay **tuned**.", "ko": "저희는 광고 이후에 돌아오겠습니다. 채널 고정하세요.", "source": "교과서" }
+      ]
     },
     {
       "en": "sole",
-      "ipa": "/soʊl/",
+      "ipa": ["[soul]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "유일한",
-            "혼자의"
-          ]
+          "defs": ["유일한, 단 하나의"]
         }
       ],
+      "synonyms": ["only"],
       "parts": [
-        {
-          "part": "sol",
-          "mean": "혼자 (alone)"
-        }
+        { "part": "sol", "mean": "라틴어 solus(=alone)에서 온 말" }
       ],
-      "origin": "혼자의 → 유일한"
+      "origin": "혼자의 → 유일한",
+      "derivatives": [
+        { "en": "solely", "pos": "부", "defs": ["1 혼자서, 단독으로", "2 오로지, 단지"] }
+      ],
+      "synonyms_extra": ["alone", "only, merely"],
+      "phrases": [
+        { "en": "based solely on", "ko": "…에만 근거한, …에만 기반을 둔" }
+      ],
+      "examples": [
+        { "en": "The **sole** survivor of the accident was a little baby.", "ko": "그 사고의 유일한 생존자는 어린 아기였다." },
+        { "en": "Their decision was **based solely on** emotion, not logic.", "ko": "그들의 결정은 논리가 아닌 감정에만 근거하여 이루어졌다.", "source": "모의" }
+      ]
     },
     {
       "en": "solitary",
-      "ipa": "/ˈsɑːləteri/",
+      "ipa": ["[sɑ́ːlətèri]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "고독한",
-            "혼자 하는"
-          ]
+          "defs": ["1 고독한, 고독을 즐기는", "2 혼자서 하는, 혼자의", "3 외딴, 고립된"]
         }
       ],
+      "synonyms": ["single"],
       "parts": [
-        {
-          "part": "sol",
-          "mean": "혼자 (alone)"
-        },
-        {
-          "part": "-itary",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "solit(sol)", "mean": "= alone" },
+        { "part": "ary", "mean": "형접" }
       ],
-      "origin": "혼자의 → 고독한"
+      "origin": "혼자 있는",
+      "examples": [
+        { "en": "I used to be a **solitary** traveler.", "ko": "나는 (예전에) 혼자 여행하곤 했다." }
+      ]
     },
     {
       "en": "solitude",
-      "ipa": "/ˈsɑːlətuːd/",
+      "ipa": ["[sɑ́ːlətùːd]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "고독",
-            "혼자 있음"
-          ]
+          "defs": ["혼자 있음, (혼자임을 즐기는) 고독"]
         }
       ],
       "parts": [
-        {
-          "part": "sol",
-          "mean": "혼자 (alone)"
-        },
-        {
-          "part": "-itude",
-          "mean": "상태 접미사"
-        }
+        { "part": "soli(sol)", "mean": "= alone" },
+        { "part": "tude", "mean": "명접「상태」" }
       ],
-      "origin": "혼자인 상태 → 고독"
+      "origin": "혼자 있는 상태",
+      "phrases": [
+        { "en": "cf. loneliness", "ko": "고독, 외로움 (혼자 있어서 느끼는 외로움과 쓸쓸함)" }
+      ],
+      "examples": [
+        { "en": "I sometimes enjoy quiet **solitude** at home.", "ko": "나는 때때로 집에서 조용히 혼자 있는 것을 즐긴다." }
+      ]
     }
   ]
 }

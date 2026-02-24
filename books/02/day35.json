@@ -3,675 +3,620 @@
   "words": [
     {
       "en": "dictate",
-      "ipa": "/ˈdɪkteɪt/",
+      "ipa": ["[díkteit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "받아쓰게 하다",
-            "지시하다"
-          ]
+          "defs": ["1 (말한 것을) 받아쓰게 하다, 구술하다", "2 *명령[지시]하다"]
         }
       ],
       "parts": [
-        {
-          "part": "dict",
-          "mean": "말하다 (say, speak)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "dict", "mean": "= say" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "말하다 → 지시하다"
+      "origin": "말하다",
+      "derivatives": [
+        { "en": "dictator", "pos": "명", "defs": ["독재자"] },
+        { "en": "dictation", "pos": "명", "defs": ["1 받아쓰기, 구술", "2 명령, 지시"] }
+      ],
+      "examples": [
+        { "en": "You can **dictate** a text message to this AI assistant.", "ko": "당신은 이 AI(인공지능) 어시스턴트에게 문자 메시지를 말로 불러줄 수 있다." }
+      ]
     },
     {
       "en": "addiction",
-      "ipa": "/əˈdɪkʃn/",
+      "ipa": ["[ədíkʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "중독",
-            "열중"
-          ]
+          "defs": ["중독, 열중, 탐닉"]
         }
       ],
       "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "dict",
-          "mean": "말하다, 선고하다 (say, decree)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+        { "part": "ad", "mean": "= to" },
+        { "part": "dict", "mean": "= call" },
+        { "part": "ion", "mean": "명접" }
       ],
-      "origin": "~에 선고된 → 중독"
+      "origin": "…로 불러들여 ~에 빠지게 함",
+      "derivatives": [
+        { "en": "addict", "pos": "명/동", "defs": ["명 [ǽdikt] 중독자", "동 [ədíkt] (주로 수동태로) 중독되게[빠지게] 하다"] },
+        { "en": "addicted", "pos": "형", "defs": ["중독된, 폭 빠진"] },
+        { "en": "addictive", "pos": "형", "defs": ["중독(성)의, 폭 빠진"] }
+      ],
+      "examples": [
+        { "en": "Social media **addiction** is a serious issue among teenagers.", "ko": "소셜 미디어 중독은 10대들 사이에서 심각한 문제이다.", "source": "교과서" },
+        { "en": "caffeine[alcohol] **addicts**", "ko": "카페인[알코올] 중독자" },
+        { "en": "She is **addicted** to reading mystery novels.", "ko": "그녀는 추리 소설 읽는 것에 폭 빠져 있다." }
+      ]
     },
     {
       "en": "contradict",
-      "ipa": "/ˌkɑːntrəˈdɪkt/",
+      "ipa": ["[kɑ̀ːntrədíkt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "반박하다",
-            "모순되다"
-          ]
+          "defs": ["1 반박하다", "2 …와 모순되다"]
         }
       ],
       "parts": [
-        {
-          "part": "contra-",
-          "mean": "반대 (against)"
-        },
-        {
-          "part": "dict",
-          "mean": "말하다 (say)"
-        }
+        { "part": "contra", "mean": "= opposite" },
+        { "part": "dict", "mean": "= speak" }
       ],
-      "origin": "반대로 말하다 → 반박하다"
+      "origin": "반대되게 말하다",
+      "derivatives": [
+        { "en": "contradiction", "pos": "명", "defs": ["1 모순", "2 반박"] },
+        { "en": "contradictory", "pos": "형", "defs": ["(진술·정보 등이) 모순되는"] }
+      ],
+      "examples": [
+        { "en": "Turns out, the latest brain research **contradicts** the old advice of \"one thing at a time.\"", "ko": "최근의 뇌 연구 결과는 '한 번에 한 가지씩'이라는 옛 조언과는 상반되는 것으로 나타났다.", "source": "모의" },
+        { "en": "There's a **contradiction** between your behavior and your principles.", "ko": "당신의 행동과 원칙 사이에는 모순이 있습니다." }
+      ]
     },
     {
       "en": "dedicate",
-      "ipa": "/ˈdedɪkeɪt/",
+      "ipa": ["[dédəkèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "바치다",
-            "헌신하다"
-          ]
+          "defs": ["(시간·노력·정성·돈 등을) 바치다, 헌신하다"]
         }
       ],
+      "synonyms": ["devote"],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "dic(dict)",
-          "mean": "말하다, 선언하다 (declare)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "de", "mean": "= away" },
+        { "part": "dic(dict)", "mean": "= say" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "완전히 선언하다 → 바치다"
+      "origin": "(…을 위해) 따로 챙겨두겠다고 말하다\n※ 라틴어 dedicare(따로 챙겨뒀다가 바치겠다고 단언하다)의 과거분사형 dedicatus에서 온 말",
+      "derivatives": [
+        { "en": "dedicated", "pos": "형", "defs": ["헌신적인"] },
+        { "en": "dedication", "pos": "명", "defs": ["헌신, 헌납, 헌정"] }
+      ],
+      "synonyms_extra": ["devoted, committed", "devotion"],
+      "phrases": [
+        { "en": "dedicate oneself to", "ko": "…에 전념하다 (= be dedicated to)" },
+        { "en": "dedicate A to B", "ko": "A를 B에 바치다[헌신하다]" }
+      ],
+      "examples": [
+        { "en": "Like her, I want to **dedicate myself to** a field that I have a passion for.", "ko": "그녀처럼, 나는 내가 열정을 가진 분야에 헌신하고 싶다.", "source": "교과서" },
+        { "en": "a **dedicated** public servant", "ko": "헌신적인 공무원" }
+      ]
     },
     {
       "en": "indicate",
-      "ipa": "/ˈɪndɪkeɪt/",
+      "ipa": ["[índəkèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "가리키다",
-            "나타내다"
-          ]
+          "defs": ["1 가리키다, 지적하다", "2 *암시하다, 나타내다"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "dic(dict)",
-          "mean": "말하다 (say, point)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "in", "mean": "= into" },
+        { "part": "dic(dict)", "mean": "= say" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "~쪽을 가리켜 말하다 → 나타내다"
+      "origin": "…을 향해 말하다 → 가리키다",
+      "derivatives": [
+        { "en": "indication", "pos": "명", "defs": ["표시"] },
+        { "en": "indicator", "pos": "명", "defs": ["지표, 지수"] }
+      ],
+      "synonyms": ["sign"],
+      "examples": [
+        { "en": "Psychologists say that having a disorderly room can **indicate** a disorganized mental state.", "ko": "심리학자들은 어수선한 방이 혼란스러운 정신 상태를 암시할 수도 있다고 말한다.", "source": "모의" }
+      ]
     },
     {
       "en": "index",
-      "ipa": "/ˈɪndeks/",
+      "ipa": ["[índeks]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "지수",
-            "색인",
-            "지표"
-          ]
+          "defs": ["1 (복수형 indexes) (책 뒤쪽의) 색인, 목록", "2 (복수형 indices[índisìz] 또는 indexes) 지표, 지수"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "dex(dict)",
-          "mean": "가리키다 (point)"
-        }
+        { "part": "index", "mean": "라틴어 indicare(=indicate 가리키다)에서 온 말\n→ 가리키는 것 → 색인; 지표" }
       ],
-      "origin": "가리키는 것 → 지표"
+      "origin": "가리키는 것 → 색인; 지표",
+      "examples": [
+        { "en": "Use the **index** at the back of the book.", "ko": "책 뒤에 있는 색인을 사용하세요." },
+        { "en": "Literacy rate is an important **index** of a country's development.", "ko": "문해율은 한 국가의 발전 수준의 중요한 지표이다." }
+      ]
     },
     {
       "en": "invade",
-      "ipa": "/ɪnˈveɪd/",
+      "ipa": ["[invéid]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "침입하다",
-            "침해하다"
-          ]
+          "defs": ["1 *침략[침입]하다", "2 (권리 등을) 침해하다"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로 (into)"
-        },
-        {
-          "part": "vade(vad)",
-          "mean": "가다 (go)"
-        }
+        { "part": "in", "mean": "= in" },
+        { "part": "vade", "mean": "= go" }
       ],
-      "origin": "안으로 가다 → 침입하다"
+      "origin": "go in 안에 들어가다 → 침략하다",
+      "derivatives": [
+        { "en": "invader", "pos": "명", "defs": ["침략자, 침입자"] },
+        { "en": "invasion", "pos": "명", "defs": ["1 침략, 침입", "2 침해, 침범"] }
+      ],
+      "examples": [
+        { "en": "William the Conqueror **invaded** England in the 11th century.", "ko": "정복왕 윌리엄은 11세기에 영국을 침략했다." },
+        { "en": "Don't **invade** my privacy!", "ko": "내 사생활을 침해하지 마!" },
+        { "en": "There was an **invasion** of locusts that destroyed the crops.", "ko": "농작물을 파괴한 메뚜기 떼의 침입이 있었다." }
+      ]
     },
     {
       "en": "pervade",
-      "ipa": "/pərˈveɪd/",
+      "ipa": ["[pərvéid]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "만연하다",
-            "구석구석 스며들다"
-          ]
+          "defs": ["…에 널리 퍼지다, …에 만연하다[가득 차다]"]
         }
       ],
       "parts": [
-        {
-          "part": "per-",
-          "mean": "완전히 (thoroughly)"
-        },
-        {
-          "part": "vade(vad)",
-          "mean": "가다 (go)"
-        }
+        { "part": "per", "mean": "= through" },
+        { "part": "vade", "mean": "= go" }
       ],
-      "origin": "완전히 퍼져가다 → 만연하다"
+      "origin": "통과해서 가다 → 가면서 (도처에) 퍼트리다",
+      "derivatives": [
+        { "en": "pervasive", "pos": "형", "defs": ["만연하는, 스며[배어]드는"] }
+      ],
+      "examples": [
+        { "en": "The aroma of freshly baked bread **pervaded** the street.", "ko": "갓 구운 빵 냄새가 거리에 퍼졌다." },
+        { "en": "The influence of social media is **pervasive** in modern society.", "ko": "소셜 미디어의 영향력은 현대 사회에 만연해 있다." }
+      ]
     },
     {
       "en": "evade",
-      "ipa": "/ɪˈveɪd/",
+      "ipa": ["[ivéid]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "피하다",
-            "모면하다"
-          ]
+          "defs": ["1 (질문·의무·세금 등을) 회피하다", "2 탈출하다"]
         }
       ],
+      "synonyms": ["avoid", "escape"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "vade(vad)",
-          "mean": "가다 (go)"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "vade", "mean": "= go" }
       ],
-      "origin": "밖으로 가다 → 피하다"
+      "origin": "밖으로 빠져나가다",
+      "derivatives": [
+        { "en": "evasion", "pos": "명", "defs": ["회피, 기피"] }
+      ],
+      "examples": [
+        { "en": "Give me a direct answer, and stop **evading** the issue.", "ko": "문제를 회피하지 말고 단도직입적으로 대답해." },
+        { "en": "tax **evasion**", "ko": "탈세" }
+      ]
     },
     {
       "en": "moderate",
-      "ipa": "/ˈmɑːdərət/",
+      "ipa": ["형 [mɑ́ːdərit]", "동 [mɑ́ːdərèit]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "적당한",
-            "중도의"
-          ]
+          "defs": ["1 *(양·크기·정도 등이) 보통의, 중간의", "2 *온건한, 도를 지나치지 않는"]
         },
         {
           "pos": "동",
-          "defs": [
-            "완화하다"
-          ]
+          "defs": ["1 (감정·속도·강도 등을) 누그러뜨리다, 완화하다; 완화되다", "2 (토론·회의 등을) 진행하다, 사회를 보다"]
         }
       ],
+      "antonyms": ["excessive, extreme"],
       "parts": [
-        {
-          "part": "mod",
-          "mean": "척도 (measure)"
-        },
-        {
-          "part": "-erate",
-          "mean": "형용사/동사형 접미사"
-        }
+        { "part": "moder(mod)", "mean": "= measure" },
+        { "part": "ate", "mean": "형접" }
       ],
-      "origin": "척도에 맞는 → 적당한"
+      "origin": "(크기·수량이) 척도에 맞는",
+      "examples": [
+        { "en": "A **moderate** amount of stress can foster resilience.", "ko": "적당한 정도의 스트레스는 회복력을 키울 수 있다.", "source": "모의" },
+        { "en": "This medicine will help to **moderate** your pain.", "ko": "이 약은 고통을 완화하는 데 도움이 될 것이다." }
+      ]
     },
     {
       "en": "modernize",
-      "ipa": "/ˈmɑːdərnaɪz/",
+      "ipa": ["[mɑ́ːdərnàiz]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "현대화하다"
-          ]
+          "defs": ["현대[근대]화하다, 현대식으로 만들다"]
         }
       ],
+      "synonyms": ["update"],
       "parts": [
-        {
-          "part": "mod",
-          "mean": "척도, 방식 (measure, mode)"
-        },
-        {
-          "part": "-ernize",
-          "mean": "동사형 접미사"
-        }
+        { "part": "modern(mod)", "mean": "= measure" },
+        { "part": "ize", "mean": "동접" }
       ],
-      "origin": "새로운 방식으로 만들다 → 현대화하다"
+      "origin": "(현재의) 척도[기준]에 맞게 만들다",
+      "derivatives": [
+        { "en": "modern", "pos": "형", "defs": ["1 현대의, 근대의", "2 현대적인"] },
+        { "en": "modernization", "pos": "명", "defs": ["현대화, 근대화"] }
+      ],
+      "examples": [
+        { "en": "He **modernized** the old house for his parents.", "ko": "그는 부모님을 위해 낡은 집을 현대식으로 만들었다." }
+      ]
     },
     {
       "en": "modest",
-      "ipa": "/ˈmɑːdɪst/",
+      "ipa": ["[mɑ́ːdist]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "겸손한",
-            "적당한"
-          ]
+          "defs": ["1 겸손한", "2 별로 많지[크지] 않은, 소박한", "3 (태도 등이) 단정한, 품위 있는"]
         }
       ],
+      "antonyms": ["immodest, boastful"],
       "parts": [
-        {
-          "part": "mod",
-          "mean": "척도 (measure)"
-        },
-        {
-          "part": "-est",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "mod", "mean": "= measure" },
+        { "part": "est", "mean": "형접" }
       ],
-      "origin": "척도에 맞는 → 겸손한"
+      "origin": "(성품이) 척도에 맞는 → 겸손한",
+      "derivatives": [
+        { "en": "modesty", "pos": "명", "defs": ["겸손"] }
+      ],
+      "examples": [
+        { "en": "He is in the habit of being **modest**.", "ko": "그는 겸손이 몸에 배어 있다." },
+        { "en": "The girl's clothing was always **modest** and simple.", "ko": "그 소녀의 옷은 언제나 소박하고 단순했다.", "source": "교과서" },
+        { "en": "Her natural **modesty** saved her from being spoiled by fame and success.", "ko": "그녀의 타고난 겸손함은 그녀가 명성과 성공에도 우쭐대지 않게 해주었다." }
+      ]
     },
     {
       "en": "modify",
-      "ipa": "/ˈmɑːdɪfaɪ/",
+      "ipa": ["[mɑ́ːdəfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "수정하다",
-            "수식하다"
-          ]
+          "defs": ["1 *변경하다, 수정하다", "2 [문법] 수식하다"]
         }
       ],
+      "synonyms": ["adjust, adapt"],
       "parts": [
-        {
-          "part": "mod",
-          "mean": "척도 (measure)"
-        },
-        {
-          "part": "-ify",
-          "mean": "만들다 (make)"
-        }
+        { "part": "mod", "mean": "= measure" },
+        { "part": "fy", "mean": "= fac:make" }
       ],
-      "origin": "척도에 맞게 만들다 → 수정하다"
+      "origin": "척도에 맞추다, 수정하다",
+      "derivatives": [
+        { "en": "modification", "pos": "명", "defs": ["변경, 수정"] }
+      ],
+      "synonyms_extra": ["alteration, revision"],
+      "examples": [
+        { "en": "To reduce side effects, the drug's formula was **modified**.", "ko": "부작용을 줄이기 위해 약물의 제조법이 변경되었다." }
+      ]
     },
     {
       "en": "accommodate",
-      "ipa": "/əˈkɑːmədeɪt/",
+      "ipa": ["[əkɑ́ːmədèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "수용하다",
-            "편의를 도모하다"
-          ]
+          "defs": ["1 *숙박시키다; (사람을) 수용하다", "2 …의 편의를 도모하다", "3 (+ to) (새로운 상황에) 적응하다; 적응시키다"]
         }
       ],
       "parts": [
-        {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "mod",
-          "mean": "척도 (measure)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "ac(ad)", "mean": "= to" },
+        { "part": "com", "mean": "「강조」" },
+        { "part": "mod", "mean": "= measure" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "함께 척도에 맞추다 → 수용하다"
+      "origin": "…의 척도에 딱 맞게 하다 → 적응시키다",
+      "derivatives": [
+        { "en": "accommodation", "pos": "명", "defs": ["1 숙박 (시설)", "2 (격식체) 합의, 조정"] }
+      ],
+      "examples": [
+        { "en": "This conference room **accommodates** up to 600 people.", "ko": "이 회의실은 600명까지 수용한다." },
+        { "en": "**Accommodation** will be provided for all new students.", "ko": "기숙사 시설은 신입생 모두에게 제공될 것이다." }
+      ]
     },
     {
       "en": "commodity",
-      "ipa": "/kəˈmɑːdəti/",
+      "ipa": ["[kəmɑ́ːdəti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "상품",
-            "원자재"
-          ]
+          "defs": ["상품, 판매상품"]
         }
       ],
+      "synonyms": ["merchandise"],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "mod",
-          "mean": "척도 (measure)"
-        },
-        {
-          "part": "-ity",
-          "mean": "명사형 접미사"
-        }
+        { "part": "com", "mean": "「강조」" },
+        { "part": "mod", "mean": "= measure" },
+        { "part": "ity", "mean": "명접" }
       ],
-      "origin": "척도에 맞는 물건 → 상품"
+      "origin": "규격에 딱 맞는 것 → 상품",
+      "examples": [
+        { "en": "A: What **commodities** do you deal in?\nB: I deal in coffee, sugar, and other agricultural products.", "ko": "A: 어떤 상품을 취급하십니까?\nB: 커피, 설탕 그리고 다른 농작물을 취급합니다." }
+      ]
     },
     {
       "en": "mold",
-      "ipa": "/moʊld/",
+      "ipa": ["[mould]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "형틀",
-            "곰팡이"
-          ]
+          "defs": ["1 (주조용의) 형(型), 틀", "2 곰팡이"]
         },
         {
           "pos": "동",
-          "defs": [
-            "형틀에 넣어 만들다"
-          ]
+          "defs": ["1 틀에 넣어 만들다", "2 (성격·태도 등을) 형성하다"]
         }
       ],
       "parts": [
-        {
-          "part": "mold(mod)",
-          "mean": "척도, 형태 (measure, form)"
-        }
+        { "part": "mold(mod)", "mean": "라틴어 modulus(=a small measure 작은 척도)에서 온 말\n→ 작은 척도[틀]에 맞추다" }
       ],
-      "origin": "형태를 만드는 것 → 형틀"
+      "origin": "형태를 만드는 것 → 형틀",
+      "examples": [
+        { "en": "She made candles by pouring wax into a **mold**.", "ko": "그녀는 틀에 왁스를 부어 양초를 만들었다." }
+      ]
     },
     {
       "en": "ordinary",
-      "ipa": "/ˈɔːrdneri/",
+      "ipa": ["[ɔ́ːrdnèri]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "보통의",
-            "평범한"
-          ]
+          "defs": ["보통의, 평범한, 통상적인"]
         }
       ],
+      "synonyms": ["normal, usual"],
+      "antonyms": ["extraordinary(비범한)"],
       "parts": [
-        {
-          "part": "ordin",
-          "mean": "순서 (order)"
-        },
-        {
-          "part": "-ary",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "ordin", "mean": "= order" },
+        { "part": "ary", "mean": "형접" }
       ],
-      "origin": "순서대로인 → 보통의"
+      "origin": "순서대로의",
+      "derivatives": [
+        { "en": "ordinarily", "pos": "부", "defs": ["보통, 대체로"] }
+      ],
+      "synonyms_extra": ["normally, usually"],
+      "phrases": [
+        { "en": "out of the ordinary", "ko": "특이한[색다른]" }
+      ],
+      "examples": [
+        { "en": "Some artists spark their creativity by looking closely at **ordinary** objects.", "ko": "어떤 예술가들은 평범한 사물을 자세히 관찰함으로써 창의력을 발휘한다.", "source": "교과서" }
+      ]
     },
     {
       "en": "subordinate",
-      "ipa": "/səˈbɔːrdɪnət/",
+      "ipa": ["동 [səbɔ́ːrdnèit]", "형/명 [səbɔ́ːrdnit]"],
       "meanings": [
         {
+          "pos": "동",
+          "defs": ["…을 하위에 놓다"]
+        },
+        {
           "pos": "형",
-          "defs": [
-            "하위의",
-            "부수적인"
-          ]
+          "defs": ["1 (+ to) (지위·계급이) 하위의, 하급의", "2 부차[부수]적인"]
         },
         {
           "pos": "명",
-          "defs": [
-            "부하"
-          ]
+          "defs": ["*하급자"]
         }
       ],
+      "synonyms": ["secondary to"],
+      "antonyms": ["inferior", "superior"],
       "parts": [
-        {
-          "part": "sub-",
-          "mean": "아래에 (under)"
-        },
-        {
-          "part": "ordin",
-          "mean": "순서 (order)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "sub", "mean": "= under" },
+        { "part": "ordin", "mean": "= order" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "순서에서 아래의 → 하위의"
+      "origin": "순서상 아래에 두다",
+      "examples": [
+        { "en": "In the army, Jack was **subordinate to** Tom, but at work, Jack is Tom's superior.", "ko": "군대에서 Jack은 Tom의 부하였지만, 직장에서는 Jack이 Tom의 상사이다." }
+      ]
     },
     {
       "en": "coordinate",
-      "ipa": "/koʊˈɔːrdɪneɪt/",
+      "ipa": ["동 [kouɔ́ːrdnèit]", "형/명 [kouɔ́ːrdnit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "조직하다",
-            "조정하다"
-          ]
+          "defs": ["1 조직화[편성]하다; 동등하게 조정하다", "2 (몸의 움직임 등을) 조정하다", "3 (옷·가구 등을) 꾸미다; 잘 어울리다"]
+        },
+        {
+          "pos": "형",
+          "defs": ["동등한, 동격의, 대등한"]
+        },
+        {
+          "pos": "명",
+          "defs": ["1 좌표", "2 동등한 것[사람]", "3 (복수형) (AmE) 코디, 잘 조화되어 있는 것"]
         }
       ],
       "parts": [
-        {
-          "part": "co-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "ordin",
-          "mean": "순서 (order)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "co(com)", "mean": "= together" },
+        { "part": "ordin", "mean": "= order" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "함께 순서를 맞추다 → 조정하다"
+      "origin": "함께 순서를 맞추다\n→ 같은 위치에 있게 하다",
+      "derivatives": [
+        { "en": "coordination", "pos": "명", "defs": ["1 조직화; 조정", "2 조화; 협동"] }
+      ],
+      "phrases": [
+        { "en": "in coordination with", "ko": "…와 협동[제휴]하여" }
+      ],
+      "examples": [
+        { "en": "The manager needs to **coordinate** the work for her staff.", "ko": "관리자는 그녀의 직원들을 위해 일을 편성해야 한다." },
+        { "en": "Lack of **coordination** between a leader and their team members can be disastrous for a project.", "ko": "리더와 팀원들 간의 협동이 없으면 프로젝트에 피해가 클 수 있다.", "source": "모의" }
+      ]
     },
     {
       "en": "accident",
-      "ipa": "/ˈæksɪdənt/",
+      "ipa": ["[ǽksədənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "사고",
-            "우연"
-          ]
+          "defs": ["1 사고(특히 교통사고), 재난", "2 우연한 일"]
         }
       ],
       "parts": [
-        {
-          "part": "ac-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "cid",
-          "mean": "떨어지다 (fall)"
-        },
-        {
-          "part": "-ent",
-          "mean": "명사형 접미사"
-        }
+        { "part": "ad", "mean": "= to" },
+        { "part": "cid", "mean": "= fall" },
+        { "part": "ent", "mean": "명접" }
       ],
-      "origin": "~쪽으로 떨어지다 → 사고"
+      "origin": "…에게 우연히 떨어져 겪게 되는 것",
+      "derivatives": [
+        { "en": "accidental", "pos": "형", "defs": ["우연한, 뜻밖의"] },
+        { "en": "accidentally", "pos": "부", "defs": ["우연히, 실수로"] }
+      ],
+      "antonyms": ["deliberate(의도적인, 고의의)", "on purpose, deliberately"],
+      "phrases": [
+        { "en": "by accident", "ko": "우연히 (= by chance)" }
+      ],
+      "examples": [
+        { "en": "He broke both of his arms in a terrible car **accident**.", "ko": "그는 끔찍한 교통 사고로 두 팔이 부러졌다.", "source": "교과서" },
+        { "en": "Scientists often make discoveries **by accident**.", "ko": "과학자들은 종종 우연히 발견을 하곤 한다." }
+      ]
     },
     {
       "en": "incident",
-      "ipa": "/ˈɪnsɪdənt/",
+      "ipa": ["[ínsədənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "사건",
-            "일어난 일"
-          ]
+          "defs": ["(특히 폭력적이거나 위험한) 사건"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "위에 (upon)"
-        },
-        {
-          "part": "cid",
-          "mean": "떨어지다 (fall)"
-        },
-        {
-          "part": "-ent",
-          "mean": "명사형 접미사"
-        }
+        { "part": "in", "mean": "= on" },
+        { "part": "cid", "mean": "= fall" },
+        { "part": "ent", "mean": "명접" }
       ],
-      "origin": "위에 떨어진 것 → 사건"
+      "origin": "… 위에 떨어져 겪게 되는 것 → 사건",
+      "derivatives": [
+        { "en": "incidence", "pos": "명", "defs": ["(질병·범죄·사고 등의) 발병(률), 발생(률)"] },
+        { "en": "incidental", "pos": "형", "defs": ["(…에) 부수적으로 일어나는, 부차적인"] },
+        { "en": "incidentally", "pos": "부", "defs": ["1 우연히", "2 그건 그렇고, 그런데"] }
+      ],
+      "synonyms_extra": ["by the way"],
+      "examples": [
+        { "en": "The **incident** made newspaper headlines.", "ko": "그 사건은 신문에 주요 뉴스로 기사화되었다." }
+      ]
     },
     {
       "en": "coincidence",
-      "ipa": "/koʊˈɪnsɪdəns/",
+      "ipa": ["[kouínsədəns]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "우연의 일치"
-          ]
+          "defs": ["1 우연", "2 *(우연의) 일치"]
         }
       ],
       "parts": [
-        {
-          "part": "co-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "in-",
-          "mean": "위에 (upon)"
-        },
-        {
-          "part": "cid",
-          "mean": "떨어지다 (fall)"
-        },
-        {
-          "part": "-ence",
-          "mean": "명사형 접미사"
-        }
+        { "part": "co(m)", "mean": "= together" },
+        { "part": "in", "mean": "= on" },
+        { "part": "cid", "mean": "= fall" },
+        { "part": "ence", "mean": "명접" }
       ],
-      "origin": "함께 떨어지다 → 우연의 일치"
+      "origin": "함께 … 위에 떨어져 겪게 되는 것\n→ 우연(의 일치)",
+      "derivatives": [
+        { "en": "coincident", "pos": "형", "defs": ["(+ with) 1 일치하는", "2 동시에 일어나는"] },
+        { "en": "coincidental", "pos": "형", "defs": ["우연의 (일치인)"] },
+        { "en": "coincidentally", "pos": "부", "defs": ["우연히"] }
+      ],
+      "examples": [
+        { "en": "It was an unfortunate **coincidence** that he had visited her on the day she lost her job.", "ko": "그녀가 실직한 날에 그가 그녀를 방문한 것은 불운한 우연이었다.", "source": "교과서" },
+        { "en": "Her aim was **coincident with** his.", "ko": "그녀의 목적은 그의 것과 일치했다." }
+      ]
     },
     {
       "en": "casual",
-      "ipa": "/ˈkæʒuəl/",
+      "ipa": ["[kǽʒuəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "격식 없는",
-            "우연한"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "cas(cid)",
-          "mean": "떨어지다 (fall)"
+          "defs": ["1 느긋한, 무관심한", "2 격식을 차리지 않는, 평상시의", "3 (명사 앞에서) 우연한, 뜻하지 않은"]
         },
         {
-          "part": "-ual",
-          "mean": "형용사형 접미사"
+          "pos": "명",
+          "defs": ["(주로 복수형) 평상복"]
         }
       ],
-      "origin": "떨어진(우연한) → 격식 없는"
+      "antonyms": ["formal"],
+      "parts": [
+        { "part": "cas(cid)", "mean": "= fall" },
+        { "part": "ual", "mean": "형접" }
+      ],
+      "origin": "우연히 떨어져 겪게 된 → 우연한",
+      "derivatives": [
+        { "en": "casually", "pos": "부", "defs": ["1 격식 차리지 않고", "2 우연히, 별 생각 없이"] }
+      ],
+      "examples": [
+        { "en": "His **casual** dress reflects his **casual** attitude towards life.", "ko": "그의 편안한 옷차림이 삶에 대한 그의 느긋한 태도를 말해준다." }
+      ]
     },
     {
       "en": "occasion",
-      "ipa": "/əˈkeɪʒn/",
+      "ipa": ["[əkéiʒən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "때",
-            "경우",
-            "특별한 행사"
-          ]
+          "defs": ["1 *(특정한) 때, 경우", "2 특별한 일[행사]"]
         }
       ],
       "parts": [
-        {
-          "part": "oc-(ob-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "cas(cid)",
-          "mean": "떨어지다 (fall)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+        { "part": "oc(ob)", "mean": "= down" },
+        { "part": "cas(cid)", "mean": "= fall" },
+        { "part": "ion", "mean": "명접" }
       ],
-      "origin": "~쪽으로 떨어진 때 → 경우"
+      "origin": "falling down 갑자기 떨어지는[겪는] 것\n→ 특별한 경우[행사]",
+      "derivatives": [
+        { "en": "occasional", "pos": "형", "defs": ["때때로의, 가끔 일어나는"] },
+        { "en": "occasionally", "pos": "부", "defs": ["때때로, 가끔"] }
+      ],
+      "synonyms": ["at times, from time to time"],
+      "phrases": [
+        { "en": "on occasion(s)", "ko": "가끔" }
+      ],
+      "examples": [
+        { "en": "Hey, you're dressed up! What's the **occasion**?", "ko": "어이, 옷을 차려입었네! 무슨 특별한 일이라도 있어?" },
+        { "en": "Many parents do not understand why their teenagers **occasionally** behave in an irrational or dangerous way.", "ko": "많은 부모들은 왜 그들의 십대 자녀들이 때때로 비이성적이거나 위험한 방식으로 행동하는지 이해하지 못한다.", "source": "모의" }
+      ]
     },
     {
       "en": "decay",
-      "ipa": "/dɪˈkeɪ/",
+      "ipa": ["[dikéi]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "부패하다",
-            "쇠퇴하다"
-          ]
+          "defs": ["1 *썩다, 부식[부패]하다", "2 쇠퇴하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "부패"
-          ]
+          "defs": ["1 부패, 부식", "2 쇠퇴"]
         }
       ],
+      "synonyms": ["rot", "decline"],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "아래로 (down)"
-        },
-        {
-          "part": "cay(cid)",
-          "mean": "떨어지다 (fall)"
-        }
+        { "part": "de", "mean": "= down" },
+        { "part": "cay(cid)", "mean": "= fall" }
       ],
-      "origin": "아래로 떨어지다 → 부패하다"
+      "origin": "(썩어) 내려앉다",
+      "examples": [
+        { "en": "Over time, the apples **decayed** and began to smell bad.", "ko": "시간이 지나면서 사과가 썩어 악취가 나기 시작했다." }
+      ]
     }
   ]
 }

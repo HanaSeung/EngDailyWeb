@@ -3,634 +3,575 @@
   "words": [
     {
       "en": "mechanism",
-      "ipa": "/ˈmekənɪzəm/",
+      "ipa": ["[mékənizəm]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기제",
-            "구조",
-            "방법"
-          ]
+          "defs": ["1 기계 장치", "2 *절차, 방법; 구조, 기제"]
         }
       ],
       "parts": [
-        {
-          "part": "mechan",
-          "mean": "기계 (machine)"
-        },
-        {
-          "part": "-ism",
-          "mean": "주의/체계 접미사"
-        }
+        { "part": "mechan", "mean": "= machine" },
+        { "part": "ism", "mean": "명접" }
       ],
-      "origin": "기계의 구조 → 기제"
+      "origin": "기계의 구조",
+      "examples": [
+        { "en": "The inner **mechanism** of this clock is broken.", "ko": "이 시계의 내부 기계 장치가 고장이다." },
+        { "en": "Every city has a **mechanism** for changing its regulations.", "ko": "모든 도시는 각자의 규정을 변경하는 방법이 있다." },
+        { "en": "a defense **mechanism**", "ko": "방어 기제" }
+      ]
     },
     {
       "en": "mechanic",
-      "ipa": "/məˈkænɪk/",
+      "ipa": ["[mikǽnik]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "정비사",
-            "수리공"
-          ]
+          "defs": ["기계공, 수리공, 정비공"]
         }
       ],
       "parts": [
-        {
-          "part": "mechan",
-          "mean": "기계 (machine)"
-        },
-        {
-          "part": "-ic",
-          "mean": "사람 접미사"
-        }
+        { "part": "mechan", "mean": "= machine" },
+        { "part": "ic", "mean": "명접" }
       ],
-      "origin": "기계를 다루는 사람 → 정비사"
+      "origin": "기계를 다루는 사람[학문]",
+      "derivatives": [
+        { "en": "mechanical", "pos": "형", "defs": ["1 기계의, 기계에 관한", "2 기계적인, 자동적인"] },
+        { "en": "mechanics", "pos": "명", "defs": ["(단수 취급) 기계학"] }
+      ],
+      "examples": [
+        { "en": "While the **mechanic** worked on her car, Jennifer walked back and forth in the waiting room.", "ko": "정비공이 그녀의 차를 수리하는 동안, Jennifer는 대기실에서 왔다 갔다 걸어다녔다.", "source": "모의" }
+      ]
     },
     {
       "en": "machinery",
-      "ipa": "/məˈʃiːnəri/",
+      "ipa": ["[məʃíːnəri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기계류",
-            "조직"
-          ]
+          "defs": ["(집합적) 기계류"]
         }
       ],
       "parts": [
-        {
-          "part": "machin(mechan)",
-          "mean": "기계 (machine)"
-        },
-        {
-          "part": "-ery",
-          "mean": "집합 접미사"
-        }
+        { "part": "machin(mechan)", "mean": "= machine" },
+        { "part": "ery", "mean": "명접「집합」" }
       ],
-      "origin": "기계의 집합 → 기계류"
+      "origin": "기계들의 집합",
+      "examples": [
+        { "en": "Managers should make sure that all dangerous equipment and **machinery** are safely stored.", "ko": "관리자는 모든 위험한 장비와 기계가 안전하게 보관되도록 해야 한다.", "source": "모의" }
+      ]
     },
     {
       "en": "minor",
-      "ipa": "/ˈmaɪnər/",
+      "ipa": ["[máinər]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "작은",
-            "덜 중요한"
-          ]
+          "defs": ["1 *작은, 적은, 덜 중요한", "2 [음악] 단조의"]
         },
         {
           "pos": "명",
-          "defs": [
-            "미성년자",
-            "부전공"
-          ]
+          "defs": ["1 미성년자", "2 부전공"]
         }
       ],
+      "antonyms": ["major"],
       "parts": [
-        {
-          "part": "min",
-          "mean": "작은 (small)"
-        },
-        {
-          "part": "-or",
-          "mean": "비교급 접미사"
-        }
+        { "part": "min", "mean": "= small" },
+        { "part": "or", "mean": "〈비교급〉" }
       ],
-      "origin": "더 작은 → 덜 중요한"
+      "origin": "더 작은 것(의) → \n ├ 덜 중요한 → 부전공(의) \n └ 어른보다 더 작은 → 미성년자",
+      "derivatives": [
+        { "en": "minority", "pos": "명", "defs": ["1 (다수에 대한) 소수(파)", "2 소수 민족[집단]", "3 [법률] 미성년기"] }
+      ],
+      "antonyms_extra": ["majority"],
+      "examples": [
+        { "en": "a **minor** injury[wound]", "ko": "가벼운 부상[상처]" },
+        { "en": "Only a **minority** are in favor of the new proposal.", "ko": "소수의 사람만이 새 제안에 찬성한다." }
+      ]
     },
     {
       "en": "minimum",
-      "ipa": "/ˈmɪnɪməm/",
+      "ipa": ["[mínəməm]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "최소한"
-          ]
-        },
-        {
-          "pos": "형",
-          "defs": [
-            "최소의"
-          ]
+          "pos": "명/형",
+          "defs": ["최소(의), 최저(의)"]
         }
       ],
+      "antonyms": ["maximum"],
       "parts": [
-        {
-          "part": "min",
-          "mean": "작은 (small)"
-        },
-        {
-          "part": "-imum",
-          "mean": "최상급 접미사"
-        }
+        { "part": "minim(min)", "mean": "= small" },
+        { "part": "um", "mean": "명사형 어미" }
       ],
-      "origin": "가장 작은 → 최소"
+      "origin": "가장 작은 것(의)\n※ 라틴어 minor(=smaller)의 최상급인 minimus(=smallest)의 명사적 용법",
+      "derivatives": [
+        { "en": "minimal", "pos": "형", "defs": ["아주 적은, 최소의"] },
+        { "en": "minimize", "pos": "동", "defs": ["1 최소화하다", "2 축소하다"] }
+      ],
+      "antonyms_extra": ["maximize"],
+      "examples": [
+        { "en": "Each class requires a **minimum** of four participants and a maximum of ten.", "ko": "각 수업은 최소 4명에서 최대 10명의 참가자가 필요하다.", "source": "모의" },
+        { "en": "**minimum** wage", "ko": "최저 임금" }
+      ]
     },
     {
       "en": "minister",
-      "ipa": "/ˈmɪnɪstər/",
+      "ipa": ["[mínəstər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "장관",
-            "목사"
-          ]
+          "defs": ["1 성직자, 목사", "2 *(한국·유럽 등의) 장관"]
         }
       ],
+      "synonyms": ["priest, clergy"],
       "parts": [
-        {
-          "part": "min",
-          "mean": "작은 (small, lesser)"
-        },
-        {
-          "part": "-ister",
-          "mean": "사람 접미사"
-        }
+        { "part": "min", "mean": "= small" },
+        { "part": "ster", "mean": "명접「사람」" }
       ],
-      "origin": "섬기는(작아지는) 사람 → 장관, 목사"
+      "origin": "작은 사람 → 하인 → (신(神)이나 국가를) 섬기며 봉사하는 사람",
+      "derivatives": [
+        { "en": "ministry", "pos": "명", "defs": ["1 (정부의) 부(部), 장관(직)", "2 (집합적) 성직자"] }
+      ],
+      "phrases": [
+        { "en": "prime minister", "ko": "(영국·캐나다 등의) 국무총리, 수상" }
+      ],
+      "examples": [
+        { "en": "They were married by a local church **minister**.", "ko": "그들은 지역 교회 목사님 앞에서 결혼했다." },
+        { "en": "He works at the **Ministry** of Foreign Affairs.", "ko": "그는 외무부[외교부]에서 근무한다." }
+      ]
     },
     {
       "en": "administer",
-      "ipa": "/ədˈmɪnɪstər/",
+      "ipa": ["[ədmínəstər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "관리하다",
-            "집행하다"
-          ]
+          "defs": ["1 경영[운영]하다, 관리하다", "2 (법을) 집행하다", "3 (약 등을) 주다, 투여하다"]
         }
       ],
+      "synonyms": ["manage, run", "execute"],
       "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "minister",
-          "mean": "섬기다 (serve)"
-        }
+        { "part": "ad", "mean": "= to" },
+        { "part": "minister", "mean": "하인" }
       ],
-      "origin": "~을 위해 섬기다 → 관리하다"
+      "origin": "(상사·국민 등)에게 기여[봉사]하는 사람이 되다",
+      "derivatives": [
+        { "en": "administration", "pos": "명", "defs": ["1 경영, 관리; 통치", "2 행정(부)", "3 (약 등의) 투여"] },
+        { "en": "administrative", "pos": "형", "defs": ["관리상의, 행정상의"] }
+      ],
+      "examples": [
+        { "en": "People who **administer** justice and punishment need to be fair and objective.", "ko": "법과 처벌을 집행하는 사람들은 공정하고 객관적일 필요가 있다." },
+        { "en": "The vet provided detailed instructions on how to **administer** the medication to the cat.", "ko": "그 수의사는 고양이에게 약물을 투약하는 방법에 대한 자세한 지침을 제공했다.", "source": "모의" },
+        { "en": "the National Aeronautics and Space **Administration** (NASA)", "ko": "미 항공 우주국" }
+      ]
     },
     {
       "en": "diminish",
-      "ipa": "/dɪˈmɪnɪʃ/",
+      "ipa": ["[dimíniʃ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "줄어들다",
-            "감소시키다"
-          ]
+          "defs": ["감소하다, 줄다; 감소시키다, 줄이다"]
         }
       ],
+      "synonyms": ["reduce, decrease, lessen"],
+      "antonyms": ["increase"],
       "parts": [
-        {
-          "part": "di-(de-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "min",
-          "mean": "작은 (small)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+        { "part": "di(de)", "mean": "「강조」" },
+        { "part": "min", "mean": "= small" },
+        { "part": "ish", "mean": "동접" }
       ],
-      "origin": "완전히 작게 하다 → 줄이다"
+      "origin": "완전히 작게 하다, 작아지다",
+      "examples": [
+        { "en": "Their enthusiasm **diminished** as the class got harder.", "ko": "수업이 어려워지면서 그들의 열의도 줄어들었다." }
+      ]
     },
     {
       "en": "eminent",
-      "ipa": "/ˈemɪnənt/",
+      "ipa": ["[émənənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "저명한",
-            "뛰어난"
-          ]
+          "defs": ["저명한, 존경받는, 우수한"]
         }
       ],
+      "synonyms": ["famous, prominent, noted"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "min",
-          "mean": "솟다 (project)"
-        },
-        {
-          "part": "-ent",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "min", "mean": "= project" },
+        { "part": "ent", "mean": "형접" }
       ],
-      "origin": "밖으로 솟아오른 → 저명한"
+      "origin": "밖으로 튀어나온 → 두드러진",
+      "derivatives": [
+        { "en": "eminently", "pos": "부", "defs": ["대단히, 탁월하게"] }
+      ],
+      "examples": [
+        { "en": "His book was about the lives of the most **eminent** painters.", "ko": "그의 책은 가장 저명한 화가들의 삶에 관한 것이었다.", "source": "수능" }
+      ]
     },
     {
       "en": "imminent",
-      "ipa": "/ˈɪmɪnənt/",
+      "ipa": ["[ímənənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "임박한",
-            "곧 일어날 듯한"
-          ]
+          "defs": ["임박한, (위험·재난 등이) 곧 일어날 것 같은"]
         }
       ],
+      "synonyms": ["impending"],
       "parts": [
-        {
-          "part": "im-(in-)",
-          "mean": "위에 (upon)"
-        },
-        {
-          "part": "min",
-          "mean": "솟다 (project)"
-        },
-        {
-          "part": "-ent",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "im(in)", "mean": "= upon" },
+        { "part": "min", "mean": "= project" },
+        { "part": "ent", "mean": "형접" }
       ],
-      "origin": "위에 솟아있는 → 임박한"
+      "origin": "…의 위에 불쑥 튀어나온\n→ 곧 터질 듯한 → 긴박한",
+      "examples": [
+        { "en": "There are few signs that war is **imminent**.", "ko": "전쟁이 임박했다는 징후는 거의 없다." }
+      ]
     },
     {
       "en": "prominent",
-      "ipa": "/ˈprɑːmɪnənt/",
+      "ipa": ["[prɑ́ːmənənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "중요한",
-            "유명한",
-            "눈에 띄는"
-          ]
+          "defs": ["1 *유명한, 중요한", "2 눈에 띄는, 잘 보이는", "3 튀어나온, 돌출된"]
         }
       ],
+      "synonyms": ["famous, eminent", "noticeable"],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "min",
-          "mean": "솟다 (project)"
-        },
-        {
-          "part": "-ent",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "pro", "mean": "= toward" },
+        { "part": "min", "mean": "= project" },
+        { "part": "ent", "mean": "형접" }
       ],
-      "origin": "앞으로 솟아나온 → 두드러진"
+      "origin": "앞으로 튀어나온 → 돌출된; 눈에 띄는",
+      "derivatives": [
+        { "en": "prominence", "pos": "명", "defs": ["명성, 유명함; 두드러짐, 현저함"] }
+      ],
+      "examples": [
+        { "en": "She is a **prominent** scientist in the field of genetics.", "ko": "그녀는 유전학 분야에서 저명한 과학자다." },
+        { "en": "Is there a **prominent** building nearby?", "ko": "근처에 눈에 잘 띄는 건물 있어?" }
+      ]
     },
     {
       "en": "domain",
-      "ipa": "/doʊˈmeɪn/",
+      "ipa": ["[douméin]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "영역",
-            "분야",
-            "영토"
-          ]
+          "defs": ["1 소유지, 영토", "2 *(활동·관심 등의) 영역, 범위", "3 [컴퓨터] 도메인"]
         }
       ],
       "parts": [
-        {
-          "part": "dom",
-          "mean": "집, 주인 (house, lord)"
-        },
-        {
-          "part": "-ain",
-          "mean": "명사형 접미사"
-        }
+        { "part": "dom(ain)", "mean": "라틴어 domus(=house)에서 온 말\n→ 집, 집의 주인\n→ 주인의 지배가 미치는 영역" }
       ],
-      "origin": "주인의 영역 → 영토"
+      "origin": "주인의 영역 → 영토",
+      "examples": [
+        { "en": "The island was placed under the government's **domain**.", "ko": "그 섬은 정부의 소유지로 들어갔다." },
+        { "en": "Mobile games were once the **domain** of younger people but not anymore.", "ko": "모바일 게임은 한때 젊은이들의 영역이었으나 이제는 그렇지 않다." }
+      ]
     },
     {
       "en": "domestic",
-      "ipa": "/dəˈmestɪk/",
+      "ipa": ["[dəméstik]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "국내의",
-            "가정의"
-          ]
+          "defs": ["1 국내의", "2 가정의, 가정적인"]
         }
       ],
       "parts": [
-        {
-          "part": "dom",
-          "mean": "집 (house)"
-        },
-        {
-          "part": "-estic",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "dome(dom)", "mean": "= house" },
+        { "part": "stic", "mean": "= istic 형접" }
       ],
-      "origin": "집의 → 가정의, 국내의"
+      "origin": "집에 속하는",
+      "derivatives": [
+        { "en": "domestically", "pos": "부", "defs": ["국내에서; 가정적으로"] },
+        { "en": "domesticate", "pos": "동", "defs": ["(동물을) 사육하다, 길들이다"] }
+      ],
+      "examples": [
+        { "en": "Gross **Domestic** Product (GDP)", "ko": "국내 총생산" },
+        { "en": "Because of the rising price of steel, **domestic** automobile manufacturers have to raise the prices of their cars.", "ko": "철강 가격의 상승으로 인해, 국내 자동차 제조업체들은 차량 가격을 인상해야 한다.", "source": "모의" },
+        { "en": "They hired someone to help with **domestic** chores.", "ko": "그들은 집안일을 도와줄 사람을 고용했다." }
+      ]
     },
     {
       "en": "dominate",
-      "ipa": "/ˈdɑːmɪneɪt/",
+      "ipa": ["[dɑ́ːmənèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "지배하다",
-            "우세하다"
-          ]
+          "defs": ["1 지배하다, 다스리다", "2 두드러지다, 우세하다"]
         }
       ],
       "parts": [
-        {
-          "part": "dom",
-          "mean": "주인 (lord)"
-        },
-        {
-          "part": "-inate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "domn(dom)", "mean": "= master" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "주인 노릇을 하다 → 지배하다"
+      "origin": "주인이 다스리다",
+      "derivatives": [
+        { "en": "dominant", "pos": "형", "defs": ["지배적인, 우세한; 우성의"] },
+        { "en": "dominance", "pos": "명", "defs": ["지배, 권세, 우월; 우성"] },
+        { "en": "domination", "pos": "명", "defs": ["지배, 통치, 우세"] }
+      ],
+      "examples": [
+        { "en": "Large companies **dominate** the smartphone market.", "ko": "대기업들이 스마트폰 시장을 지배하고 있다." },
+        { "en": "Bright red colors visually **dominate** the painting.", "ko": "밝은 빨간색이 그 그림에서 시각적으로 가장 두드러진다." },
+        { "en": "The **dominant** language in this area of Belgium is German.", "ko": "벨기에의 이 지역에서 지배적인 언어는 독일어이다." }
+      ]
     },
     {
       "en": "predominant",
-      "ipa": "/prɪˈdɑːmɪnənt/",
+      "ipa": ["[pridɑ́ːmənənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "우세한",
-            "지배적인"
-          ]
+          "defs": ["1 두드러진, 현저한", "2 지배적인, 우세한"]
         }
       ],
+      "synonyms": ["dominant"],
       "parts": [
-        {
-          "part": "pre-",
-          "mean": "앞에 (before)"
-        },
-        {
-          "part": "domin(dom)",
-          "mean": "지배하다 (rule)"
-        },
-        {
-          "part": "-ant",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "pre", "mean": "= before" },
+        { "part": "dominant", "mean": "지배하는" }
       ],
-      "origin": "앞서 지배하는 → 우세한"
+      "origin": "앞서서 지배하는",
+      "derivatives": [
+        { "en": "predominantly", "pos": "부", "defs": ["대부분, 주로"] },
+        { "en": "predominate", "pos": "동", "defs": ["(수·양적으로) 지배적이다, 우세하다"] }
+      ],
+      "synonyms_extra": ["mainly"],
+      "examples": [
+        { "en": "The **predominant** factors in the size of the crop each year are the temperature and rainfall of the area.", "ko": "매해 농작물의 크기에 가장 큰 영향을 미치는 요인은 그 지역의 온도와 강수량이다." },
+        { "en": "Tall redwood and pine trees **predominate** in Northern California.", "ko": "키 큰 적목과 소나무는 캘리포니아 북부에 지배적으로 많다." }
+      ]
     },
     {
       "en": "melody",
-      "ipa": "/ˈmelədi/",
+      "ipa": ["[mélədi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "선율",
-            "멜로디"
-          ]
+          "defs": ["멜로디, 선율, 가락"]
         }
       ],
       "parts": [
-        {
-          "part": "mel",
-          "mean": "노래 (song)"
-        },
-        {
-          "part": "od",
-          "mean": "노래 (song)"
-        },
-        {
-          "part": "-y",
-          "mean": "명사형 접미사"
-        }
+        { "part": "mel", "mean": "= melos: tune 음조" },
+        { "part": "od", "mean": "= sing" },
+        { "part": "y", "mean": "명접" }
       ],
-      "origin": "노래 → 선율"
+      "origin": "음조에 따라 노래 부르는 것",
+      "examples": [
+        { "en": "The **melody** of the song still rings in my ears.", "ko": "그 노래의 멜로디가 아직도 내 귓가에 울린다." }
+      ]
     },
     {
       "en": "tragedy",
-      "ipa": "/ˈtrædʒədi/",
+      "ipa": ["[trǽdʒədi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "비극(적인 사건)"
-          ]
+          "defs": ["비극, 비극적 사건"]
         }
       ],
+      "antonyms": ["comedy(희극)"],
       "parts": [
-        {
-          "part": "trag",
-          "mean": "염소 (goat)"
-        },
-        {
-          "part": "ed(od)",
-          "mean": "노래 (song)"
-        },
-        {
-          "part": "-y",
-          "mean": "명사형 접미사"
-        }
+        { "part": "trag", "mean": "= goat 염소" },
+        { "part": "ed(od)", "mean": "= sing" },
+        { "part": "y", "mean": "명접" }
       ],
-      "origin": "염소의 노래(제의) → 비극"
+      "origin": "[원뜻] 염소의 노래 → 비극\n※ 고대 그리스 가수와 배우들이 비극(불행한 결말의 극)에 참여할 때 염소 가죽으로 된 옷을 입었던 것에서 유래",
+      "derivatives": [
+        { "en": "tragic", "pos": "형", "defs": ["비극의, 비참한"] }
+      ],
+      "synonyms": ["comic"],
+      "phrases": [
+        { "en": "cf. comedy", "ko": "희극, 희극적 사건" },
+        { "en": "parody", "ko": "풍자적인 모방, 패러디" }
+      ],
+      "examples": [
+        { "en": "When he was eight years old, his father died, and less than a year after this **tragedy**, his mother passed away.", "ko": "그가 여덟 살이었을 때 그의 아버지가 돌아가셨고, 이 비극으로부터 1년도 되지 않아 어머니도 세상을 떠났다.", "source": "수능" }
+      ]
     },
     {
       "en": "penalty",
-      "ipa": "/ˈpenəlti/",
+      "ipa": ["[pénlti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "형벌",
-            "벌금",
-            "불이익"
-          ]
+          "defs": ["1 형벌, 처벌", "2 벌금", "3 (어떤 행위·상황에 따르는) 불이익", "4 [스포츠] *(반칙에 대한) 페널티, 벌칙, 벌점*"]
         }
       ],
+      "synonyms": ["punishment"],
+      "antonyms": ["reward", "fine"],
       "parts": [
-        {
-          "part": "pen",
-          "mean": "벌 (punishment)"
-        },
-        {
-          "part": "-alty",
-          "mean": "명사형 접미사"
-        }
+        { "part": "pen", "mean": "= penalty" },
+        { "part": "al", "mean": "형접" },
+        { "part": "ty", "mean": "명접" }
       ],
-      "origin": "벌 → 형벌"
+      "origin": "형벌",
+      "derivatives": [
+        { "en": "penalize", "pos": "동", "defs": ["1 벌하다, 처벌하다", "2 불리하게 하다", "3 [스포츠] 반칙자에게 페널티를[벌칙을] 적용하다"] }
+      ],
+      "examples": [
+        { "en": "the death **penalty**", "ko": "사형" },
+        { "en": "He paid a **penalty** for not wearing a seatbelt.", "ko": "그는 안전벨트 미착용으로 벌금을 냈다." }
+      ]
     },
     {
       "en": "punish",
-      "ipa": "/ˈpʌnɪʃ/",
+      "ipa": ["[pʌ́niʃ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "처벌하다",
-            "응징하다"
-          ]
+          "defs": ["벌하다, 처벌하다"]
         }
       ],
       "parts": [
-        {
-          "part": "pun(pen)",
-          "mean": "벌 (punishment)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+        { "part": "pun(pen)", "mean": "= penalty" },
+        { "part": "ish", "mean": "동접" }
       ],
-      "origin": "벌을 주다 → 처벌하다"
+      "origin": "벌을 주다, 벌하다",
+      "derivatives": [
+        { "en": "punishment", "pos": "명", "defs": ["형벌, 처벌"] }
+      ],
+      "synonyms": ["penalty"],
+      "antonyms": ["reward"],
+      "examples": [
+        { "en": "In the movies, the bad guys are usually **punished**.", "ko": "영화에서 악당들은 보통 벌을 받는다.", "source": "수능" }
+      ]
     },
     {
       "en": "compel",
-      "ipa": "/kəmˈpel/",
+      "ipa": ["[kəmpél]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "강요하다"
-          ]
+          "defs": ["억지로 …하게 하다, 강요하다"]
         }
       ],
+      "synonyms": ["force, oblige"],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "pel",
-          "mean": "몰다 (drive)"
-        }
+        { "part": "com", "mean": "= together" },
+        { "part": "pel", "mean": "= drive" }
       ],
-      "origin": "완전히 몰아가다 → 강요하다"
+      "origin": "drive together 모두 (한 곳으로) 몰다\n→ 억지로 한데 몰다 → 강요하다",
+      "derivatives": [
+        { "en": "compulsory", "pos": "형", "defs": ["(규칙·법에 의해) 강제적인, 의무적인"] }
+      ],
+      "synonyms_extra": ["mandatory, obligatory"],
+      "antonyms": ["voluntary, optional"],
+      "phrases": [
+        { "en": "compel A to-v", "ko": "A가 …하도록 강요하다 (= force[oblige] A to-v)" },
+        { "en": "feel compelled to-v", "ko": "반드시 …해야 한다는 생각이 들다" }
+      ],
+      "examples": [
+        { "en": "The workers were **compelled to work** overtime without extra pay.", "ko": "노동자들은 추가 수당 없이 초과 근무를 강요당했다." },
+        { "en": "**compulsory** education", "ko": "의무 교육" }
+      ]
     },
     {
       "en": "expel",
-      "ipa": "/ɪkˈspel/",
+      "ipa": ["[ikspél]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "추방하다",
-            "제명하다"
-          ]
+          "defs": ["추방하다, 쫓아내다"]
         }
       ],
+      "synonyms": ["drive out"],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "pel",
-          "mean": "몰다 (drive)"
-        }
+        { "part": "ex", "mean": "= out" },
+        { "part": "pel", "mean": "= drive" }
       ],
-      "origin": "밖으로 몰아내다 → 추방하다"
+      "origin": "drive out 밖으로 몰아내다",
+      "examples": [
+        { "en": "The troublemaking student was **expelled** from school.", "ko": "그 문제 학생은 학교에서 퇴학당했다." }
+      ]
     },
     {
       "en": "appeal",
-      "ipa": "/əˈpiːl/",
+      "ipa": ["[əpíːl]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "호소하다",
-            "매력이 있다"
-          ]
+          "defs": ["1 (도움·정보 등을) 호소하다, 간청하다", "2 (+ to) *…의 흥미를 끌다*", "3 [법] 항소하다, 상고[상소]하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "호소",
-            "매력"
-          ]
+          "defs": ["1 호소, 간청", "2 *매력", "3 [법] 항소, 상고, 상소"]
         }
       ],
       "parts": [
-        {
-          "part": "ap-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "peal(pel)",
-          "mean": "몰다 (drive)"
-        }
+        { "part": "ap(ad)", "mean": "= to" },
+        { "part": "peal(pel)", "mean": "= drive" }
       ],
-      "origin": "~쪽으로 몰고 가다 → 호소하다"
+      "origin": "drive to …을 향해 돌진하다",
+      "derivatives": [
+        { "en": "appealing", "pos": "형", "defs": ["매력적인; 호소하는"] }
+      ],
+      "phrases": [
+        { "en": "appeal (to A) for B", "ko": "(A에게) B에 대해 호소하다" },
+        { "en": "appeal to A to-v", "ko": "A에게 …해달라고 호소하다" },
+        { "en": "혼동어휘 appear", "ko": "…처럼 보이다; 나타나다(p.326)" }
+      ],
+      "examples": [
+        { "en": "We **appealed to** him **for** help.", "ko": "우리는 그에게 도움을 호소했다." },
+        { "en": "The movie **appeals to** people of all ages.", "ko": "그 영화는 모든 연령대의 사람들의 흥미를 끌고 있다.", "source": "교과서" },
+        { "en": "The lawyer will **appeal** the case.", "ko": "그 변호사는 그 사건을 항소할 것이다." }
+      ]
     },
     {
       "en": "polish",
-      "ipa": "/ˈpɑːlɪʃ/",
+      "ipa": ["[pɑ́ːliʃ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "닦다",
-            "윤을 내다"
-          ]
+          "defs": ["1 (가구·구두·유리 등을) 닦다, 윤을 나게 하다", "2 (실력·태도를) 연마하다, 세련되게 다듬다"]
         },
         {
-          "pos": "형",
-          "defs": [
-            "폴란드의"
-          ]
+          "pos": "명",
+          "defs": ["1 광택(제); 윤 내기", "2 세련(됨)"]
         }
       ],
       "parts": [
-        {
-          "part": "pol(pel)",
-          "mean": "몰다, 문지르다 (push, rub)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+        { "part": "pol(pel)", "mean": "= drive, thrust" },
+        { "part": "ish", "mean": "동접" }
       ],
-      "origin": "문질러 다듬다 → 닦다"
+      "origin": "밀어 넣어 표면을 매끄럽게 만들다\n※ 양털 등에 열과 압력을 가해 '표면이 부드러운' 직물을 만드는 행위에서 유래",
+      "phrases": [
+        { "en": "cf. Polish", "ko": "폴란드의, 폴란드 사람[말]의; 폴란드어" }
+      ],
+      "examples": [
+        { "en": "You ought to **polish** your dress shoes before the interview.", "ko": "너는 면접 전에 정장 구두를 닦아야 해." },
+        { "en": "The young musician has a lot of natural talent, but he still needs to **polish** his skills.", "ko": "그 어린 음악가는 천성적인 재능을 많이 가졌지만, 여전히 기술을 연마할 필요가 있다." },
+        { "en": "nail **polish**", "ko": "매니큐어" }
+      ]
     },
     {
       "en": "impulse",
-      "ipa": "/ˈɪmpʌls/",
+      "ipa": ["[ímpʌls]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "충동",
-            "자극"
-          ]
+          "defs": ["1 *(갑작스러운) 충동, 자극", "2 추진(력)"]
         }
       ],
+      "synonyms": ["urge"],
       "parts": [
-        {
-          "part": "im-(in-)",
-          "mean": "안으로 (in)"
-        },
-        {
-          "part": "pulse(pel)",
-          "mean": "몰다 (drive)"
-        }
+        { "part": "im(in)", "mean": "= on" },
+        { "part": "pulse(pel)", "mean": "= drive" }
       ],
-      "origin": "안으로 밀어붙이는 것 → 충동"
+      "origin": "drive on (심리적으로) 몰린 상태",
+      "derivatives": [
+        { "en": "impulsive", "pos": "형", "defs": ["충동적인"] }
+      ],
+      "phrases": [
+        { "en": "on impulse", "ko": "충동적으로" }
+      ],
+      "examples": [
+        { "en": "He buys things **on impulse**.", "ko": "그는 충동적으로 물건을 산다." },
+        { "en": "It was an **impulsive** decision.", "ko": "그것은 충동적인 결정이었다." }
+      ]
     }
   ]
 }
