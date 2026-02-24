@@ -3,570 +3,550 @@
   "words": [
     {
       "en": "admit",
-      "ipa": "/ədˈmɪt/",
+      "ipa": ["[ədmít]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "인정하다",
-            "허가하다"
-          ]
+          "defs": ["1 *(주로 + to) (사실·비난 등을) 시인[인정]하다", "2 입장[입학]을 허가하다"]
         }
       ],
+      "synonyms": ["confess (to)"],
+      "antonyms": ["deny"],
       "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        }
+        { "part": "ad", "mean": "= to" },
+        { "part": "mit", "mean": "= send" }
       ],
-      "origin": "~쪽으로 보내다 → 들여보내다 → 인정하다"
+      "origin": "(사람·비난 등을) (안으로) 들여보내다",
+      "derivatives": [
+        { "en": "admission", "pos": "명", "defs": ["1 입장[입학] (허가)", "2 시인, 인정", "3 입장료"] }
+      ],
+      "examples": [
+        { "en": "He officially **admitted (to)** his mistake later.", "ko": "그는 나중에 공식적으로 자신의 실수를 인정했다." },
+        { "en": "Later, she earned **admission** to the Berlin Academy of Arts and completed her master studies.", "ko": "후에 그녀는 베를린 예술학교에서 입학 허가를 얻어 석사 공부를 끝마쳤다.", "source": "모의" }
+      ]
     },
     {
       "en": "commit",
-      "ipa": "/kəˈmɪt/",
+      "ipa": ["[kəmít]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "저지르다",
-            "전념하다"
-          ]
+          "defs": ["1 (죄·과실 등을) 범하다, 저지르다", "2 전념[헌신]하다", "3 약속하다, 서약하다", "4 (감옥·병원 등에) 보내다"]
         }
       ],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        }
+        { "part": "com", "mean": "= together" },
+        { "part": "mit", "mean": "= send" }
       ],
-      "origin": "함께 보내다 → 맡기다 → 전념하다"
+      "origin": "함께 …로 보내다 →\n├ (나쁜 행위를) …에게 보내다 → (죄 등을) 저지르다\n├ (노력 등을) 모아서 보내다 → 전념[헌신]하다\n├ (…에게) (~의 말을) 함께 보내다 → 약속하다\n└ (…한 상태와) 함께 보내다 → (시설 등에) 보내다",
+      "derivatives": [
+        { "en": "commitment", "pos": "명", "defs": ["1 약속", "2 전념, 헌신", "3 의무, 책임"] }
+      ],
+      "examples": [
+        { "en": "After **committing** a crime, he was **committed** to prison.", "ko": "범죄를 저지른 후 그는 감옥에 보내졌다." },
+        { "en": "Her **commitment** to helping others is truly inspiring.", "ko": "그녀의 타인을 도우려는 헌신은 정말 감동적이다." }
+      ]
     },
     {
       "en": "committee",
-      "ipa": "/kəˈmɪti/",
+      "ipa": ["[kəmíti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "위원회"
-          ]
+          "defs": ["위원회"]
         }
       ],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        },
-        {
-          "part": "-ee",
-          "mean": "사람 접미사"
-        }
+        { "part": "commit", "mean": "약속하다" },
+        { "part": "ee", "mean": "명접「사람」" }
       ],
-      "origin": "함께 맡겨진 사람들 → 위원회"
+      "origin": "(헌신을) 약속한 사람들",
+      "examples": [
+        { "en": "A special **committee** was formed to investigate the safety issue.", "ko": "안전 문제를 조사하기 위해 특별 위원회가 구성되었다." },
+        { "en": "the International Olympic **Committee** (IOC)", "ko": "국제 올림픽 위원회" }
+      ]
     },
     {
       "en": "emit",
-      "ipa": "/iˈmɪt/",
+      "ipa": ["[imít]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "내뿜다",
-            "방출하다"
-          ]
+          "defs": ["(가스·빛·열 등을) 내뿜다, 방출하다"]
         }
       ],
+      "synonyms": ["give off, discharge"],
+      "antonyms": ["absorb"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "mit", "mean": "= send" }
       ],
-      "origin": "밖으로 보내다 → 방출하다"
+      "origin": "바깥 쪽으로 내보내다",
+      "derivatives": [
+        { "en": "emission", "pos": "명", "defs": ["(가스·빛·열 등의) 배출(물)"] }
+      ],
+      "examples": [
+        { "en": "Stars **emit** a lot of energy as visible light.", "ko": "별들은 많은 에너지를 가시광선으로 방출한다." },
+        { "en": "Hydropower dams have recently been identified as significant sources of greenhouse **emissions**.", "ko": "수력 발전 댐은 최근 온실가스 배출의 주요 원인으로 지목되었다.", "source": "모의" }
+      ]
     },
     {
       "en": "omit",
-      "ipa": "/oʊˈmɪt/",
+      "ipa": ["[oumít]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "생략하다",
-            "빠뜨리다"
-          ]
+          "defs": ["생략하다, 빠뜨리다"]
         }
       ],
       "parts": [
-        {
-          "part": "o-(ob-)",
-          "mean": "맞서, 반대 (against)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        }
+        { "part": "o(ob)", "mean": "= away" },
+        { "part": "mit", "mean": "= send" }
       ],
-      "origin": "보내지 않다 → 생략하다"
+      "origin": "멀리 떨어진 곳으로 보내다 → 없어지다",
+      "derivatives": [
+        { "en": "omission", "pos": "명", "defs": ["생략(된 것), 누락"] }
+      ],
+      "examples": [
+        { "en": "Several names were **omitted** from the list by mistake.", "ko": "몇 명의 이름이 실수로 명단에서 누락되었다." },
+        { "en": "The report is full of errors and **omissions**.", "ko": "그 보고서는 실수와 누락 투성이이다." }
+      ]
     },
     {
       "en": "permit",
-      "ipa": "/pərˈmɪt/",
+      "ipa": ["동 [pərmít]", "명 [pə́ːrmit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "허가하다"
-          ]
+          "defs": ["*허락[허용]하다, 용인하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "허가증"
-          ]
+          "defs": ["허가(증)"]
         }
       ],
+      "synonyms": ["allow, let"],
+      "antonyms": ["forbid"],
       "parts": [
-        {
-          "part": "per-",
-          "mean": "완전히 (through)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        }
+        { "part": "per", "mean": "= through" },
+        { "part": "mit", "mean": "= send" }
       ],
-      "origin": "완전히 보내주다 → 허가하다"
+      "origin": "통과시켜 보내다",
+      "derivatives": [
+        { "en": "permission", "pos": "명", "defs": ["허가, 허락, 면허, 승인"] }
+      ],
+      "examples": [
+        { "en": "Sitting on lawns is not **permitted**.", "ko": "잔디 위에 앉는 것은 허용되지 않는다.", "source": "수능" },
+        { "en": "You have to get **permission** to enter the building.", "ko": "그 건물에 들어가려면 허가를 받아야 한다." }
+      ]
     },
     {
       "en": "submit",
-      "ipa": "/səbˈmɪt/",
+      "ipa": ["[səbmít]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "제출하다",
-            "굴복하다"
-          ]
+          "defs": ["1 *제출하다", "2 (법·권위 등에) 복종[굴복]하다"]
         }
       ],
+      "synonyms": ["hand in", "surrender, yield"],
       "parts": [
-        {
-          "part": "sub-",
-          "mean": "아래에 (under)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        }
+        { "part": "sub", "mean": "= under" },
+        { "part": "mit", "mean": "= send" }
       ],
-      "origin": "아래로 보내다 → 제출하다"
+      "origin": "├ (문서 등을) 내려보내다 → 제출하다\n└ (스스로를) 아래에 두다 → 복종하다",
+      "derivatives": [
+        { "en": "submission", "pos": "명", "defs": ["1 제출", "2 복종, 굴복"] }
+      ],
+      "examples": [
+        { "en": "A: Did you **submit** your paper to the teacher? The **submission** deadline is tomorrow.\nB: Yes, I handed it in yesterday.", "ko": "A: 너는 과제물을 선생님께 제출했니? 제출 마감일이 내일이야.\nB: 응, 어제 제출했어." }
+      ]
     },
     {
       "en": "transmit",
-      "ipa": "/trænzˈmɪt/",
+      "ipa": ["[trænsmít]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "전송하다",
-            "전달하다"
-          ]
+          "defs": ["1 (신호 등을) 보내다, 전송하다, (정보·질병 등을) 전하다", "2 (빛·열·소리 등을) 전도하다, 투과시키다"]
         }
       ],
       "parts": [
-        {
-          "part": "trans-",
-          "mean": "가로질러 (across)"
-        },
-        {
-          "part": "mit",
-          "mean": "보내다 (send)"
-        }
+        { "part": "trans", "mean": "= across" },
+        { "part": "mit", "mean": "= send" }
       ],
-      "origin": "가로질러 보내다 → 전송하다"
+      "origin": "이쪽에서 저쪽으로 보내다",
+      "derivatives": [
+        { "en": "transmission", "pos": "명", "defs": ["보냄, 전송; 전도"] }
+      ],
+      "examples": [
+        { "en": "How is power **transmitted** from the engine to the wheels?", "ko": "동력이 엔진에서 바퀴로 어떻게 전달됩니까?" }
+      ]
     },
     {
       "en": "mission",
-      "ipa": "/ˈmɪʃn/",
+      "ipa": ["[míʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "임무",
-            "사명"
-          ]
+          "defs": ["1 *임무, 사명", "2 (조직·개인 등의) 목표", "3 (정부·종교) 사절(단)"]
         }
       ],
       "parts": [
-        {
-          "part": "miss(mit)",
-          "mean": "보내다 (send)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+        { "part": "miss(mit)", "mean": "= send" },
+        { "part": "ion", "mean": "명접" }
       ],
-      "origin": "보내진 것 → 임무"
+      "origin": "(…을 수행하라고) 보냄 → 임무; 사절단",
+      "derivatives": [
+        { "en": "missionary", "pos": "명/형", "defs": ["선교사 / 전도의"] }
+      ],
+      "examples": [
+        { "en": "The **missionary** dedicated his life to the **mission** of helping the poor.", "ko": "그 선교사는 가난한 사람들을 돕는 사명에 자신의 삶을 바쳤다." }
+      ]
     },
     {
       "en": "commission",
-      "ipa": "/kəˈmɪʃn/",
+      "ipa": ["[kəmíʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "위원회",
-            "수수료"
-          ]
+          "defs": ["1 위원회", "2 수수료, 커미션", "3 위임(장)"]
+        },
+        {
+          "pos": "동",
+          "defs": ["1 의뢰하다, 주문하다", "2 위임하다, 권한을 주다"]
         }
       ],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "miss(mit)",
-          "mean": "보내다 (send)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+        { "part": "com", "mean": "= together" },
+        { "part": "miss(mit)", "mean": "= send" },
+        { "part": "ion", "mean": "명접" }
       ],
-      "origin": "함께 보내진 → 위임 → 위원회"
+      "origin": "(…의 권한을) 함께 (같은 곳으로) 보냄\n→ 위임",
+      "examples": [
+        { "en": "He gets a 10% **commission** on everything he sells.", "ko": "그는 자신이 판매하는 모든 것에 대해 10%의 수수료를 받는다." },
+        { "en": "She was **commissioned** to paint a portrait of the mayor.", "ko": "그녀는 시장의 초상화를 그리도록 의뢰받았다." }
+      ]
     },
     {
       "en": "promise",
-      "ipa": "/ˈprɑːmɪs/",
+      "ipa": ["[prɑ́ːmis]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "약속"
-          ]
+          "defs": ["1 *약속, 계약", "2 전망, 장래성"]
         },
         {
           "pos": "동",
-          "defs": [
-            "약속하다"
-          ]
+          "defs": ["1 *약속[계약]하다", "2 …할 가망이 있다"]
         }
       ],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "mise(mit)",
-          "mean": "보내다 (send)"
-        }
+        { "part": "pro", "mean": "= forward" },
+        { "part": "mise(mit)", "mean": "= send" }
       ],
-      "origin": "앞으로 보내다 → 약속하다"
+      "origin": "앞쪽으로 보내다 → 미리 보장하다\n→ 약속하다",
+      "derivatives": [
+        { "en": "promising", "pos": "형", "defs": ["유망한, 장래성이 있는"] }
+      ],
+      "examples": [
+        { "en": "He made a **promise** to be there on time.", "ko": "그는 제시간에 가겠다고 약속했다." },
+        { "en": "People choose those ideas that seem **promising** enough to develop further, and abandon those that are unlikely to be successful.", "ko": "사람들은 발전 가능성이 충분해 보이는 아이디어를 선택하고, 성공 가능성이 낮은 아이디어는 포기한다.", "source": "모의" }
+      ]
     },
     {
       "en": "mess",
-      "ipa": "/mes/",
+      "ipa": ["[mes]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "엉망진창",
-            "혼란"
-          ]
+          "defs": ["*더러움, 어수선함, 혼란 (상태)"]
+        },
+        {
+          "pos": "동",
+          "defs": ["(+ up) 어지르다, 더럽히다"]
         }
       ],
       "parts": [
-        {
-          "part": "mess(miss)",
-          "mean": "보내다, 놓다 (send, put)"
-        }
+        { "part": "mess(miss)", "mean": "= send" }
       ],
-      "origin": "놓여진 상태 → 혼란"
+      "origin": "(여기저기로) 보내진 것",
+      "examples": [
+        { "en": "She warned her children not to **mess up** the room.", "ko": "그녀는 자녀들에게 방을 어지르지 말라고 주의를 주었다." }
+      ]
     },
     {
       "en": "render",
-      "ipa": "/ˈrendər/",
+      "ipa": ["[réndər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "~하게 만들다",
-            "주다"
-          ]
+          "defs": ["1 …을 ~한 상태로 만들다", "2 (도움 등을) 주다, 제공하다", "3 (글·그림 등으로) 표현하다, 묘사하다"]
         }
       ],
+      "synonyms": ["offer, provide"],
       "parts": [
-        {
-          "part": "rend",
-          "mean": "주다 (give back)"
-        }
+        { "part": "re", "mean": "= back" },
+        { "part": "n", "mean": "「삽입」" },
+        { "part": "der", "mean": "= give" }
       ],
-      "origin": "돌려주다 → ~하게 만들다"
+      "origin": "give back 돌려주다, 보답하다",
+      "examples": [
+        { "en": "The flood **rendered** hundreds of people homeless.", "ko": "홍수로 수백 명의 사람이 집을 잃게 되었다." },
+        { "en": "The artist **rendered** the scene beautifully in his painting.", "ko": "그 화가는 그 장면을 아름답게 표현했다." }
+      ]
     },
     {
       "en": "surrender",
-      "ipa": "/səˈrendər/",
+      "ipa": ["[səréndər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "항복하다"
-          ]
+          "defs": ["1 항복하다", "2 넘겨주다, 양도하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "항복"
-          ]
+          "defs": ["1 항복", "2 양도, 포기"]
         }
       ],
+      "synonyms": ["yield"],
       "parts": [
-        {
-          "part": "sur-(super-)",
-          "mean": "위에 (over)"
-        },
-        {
-          "part": "render(rend)",
-          "mean": "주다 (give)"
-        }
+        { "part": "sur", "mean": "= super:over" },
+        { "part": "render", "mean": "= give back" }
       ],
-      "origin": "위로 넘겨주다 → 항복하다"
+      "origin": "(모든 것을) 넘겨줘 버리다",
+      "examples": [
+        { "en": "They **surrendered** to the enemy after years of fighting.", "ko": "그들은 수년 간 계속된 싸움 끝에 적에게 항복했다." }
+      ]
     },
     {
       "en": "edit",
-      "ipa": "/ˈedɪt/",
+      "ipa": ["[édit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "편집하다"
-          ]
+          "defs": ["(책·잡지·신문·영상 등을) 편집하다, 수정하다"]
         }
       ],
       "parts": [
-        {
-          "part": "ed",
-          "mean": "주다 (give)"
-        },
-        {
-          "part": "-it",
-          "mean": "동사형 접미사"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "dit", "mean": "= give" }
       ],
-      "origin": "(세상에) 내주다 → 편집하다"
+      "origin": "give out 밖으로 내놓다 → 출판하다\n→ (출판하기 위해) 편집하다",
+      "derivatives": [
+        { "en": "editor", "pos": "명", "defs": ["편집자, 에디터"] },
+        { "en": "edition", "pos": "명", "defs": ["(간행물의) 판(版)"] },
+        { "en": "editorial", "pos": "명/형", "defs": ["사설, 논설 / 편집(자)의"] }
+      ],
+      "examples": [
+        { "en": "After some **editing**, I posted the video on many social media sites.", "ko": "약간의 편집 후에, 나는 그 영상을 여러 소셜 미디어 사이트에 게시했다.", "source": "교과서" },
+        { "en": "an **edited** version of a film", "ko": "영화의 편집본" },
+        { "en": "When can I get the latest **edition**?", "ko": "최신판을 언제 구할 수 있죠?" }
+      ]
     },
     {
       "en": "add",
-      "ipa": "/æd/",
+      "ipa": ["[æd]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "더하다",
-            "추가하다"
-          ]
+          "defs": ["(주로 + to) 1 *추가하다, 늘리다; 더하다, 합하다*", "2 덧붙여 말하다, 부언하다"]
         }
       ],
+      "antonyms": ["subtract"],
       "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "d(do)",
-          "mean": "놓다 (put)"
-        }
+        { "part": "ad", "mean": "= to" },
+        { "part": "d(do)", "mean": "= give" }
       ],
-      "origin": "~쪽으로 놓다 → 더하다"
+      "origin": "…에 보태지도록 주다 → …에 더하다",
+      "derivatives": [
+        { "en": "addition", "pos": "명", "defs": ["1 첨가(물), 추가(물)", "2 [수학] 덧셈"] },
+        { "en": "additional", "pos": "형", "defs": ["추가의, 부가적인"] },
+        { "en": "additionally", "pos": "부", "defs": ["게다가, 추가적으로"] }
+      ],
+      "synonyms": ["extra"],
+      "antonyms_extra": ["subtraction"],
+      "phrases": [
+        { "en": "add A to B", "ko": "A에 B를 더하다[추가하다]" },
+        { "en": "in addition to N/v-ing", "ko": "…에 더하여, … 외에 또" }
+      ],
+      "examples": [
+        { "en": "\"**Add** some sugar **to** your soup.\" She **added**, \"That's my grandmother's recipe.\"", "ko": "\"수프에 설탕을 좀 넣어 보세요.\" 그녀가 덧붙였다. \"그게 제 할머니의 레시피랍니다.\"" },
+        { "en": "**In addition to** discounts, they offer a free gift.", "ko": "그들은 할인해 줄 뿐만 아니라, 공짜 선물도 준다." },
+        { "en": "an **additional** tax[fee]", "ko": "부가세[수수료]" }
+      ]
     },
     {
       "en": "rent",
-      "ipa": "/rent/",
+      "ipa": ["[rent]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "임대료"
-          ]
+          "defs": ["*임대[임차]료, 집세, 사용료"]
         },
         {
           "pos": "동",
-          "defs": [
-            "빌리다"
-          ]
+          "defs": ["임대[임차]하다, 빌려주다, 빌리다"]
         }
       ],
       "parts": [
-        {
-          "part": "rend",
-          "mean": "주다 (give, render)"
-        }
+        { "part": "rent", "mean": "" }
       ],
-      "origin": "돌려주는 대가 → 임대료"
+      "origin": "라틴어 rendere(주다, 갚다)의 과거분사형인 rendita에서 온 말 → 지급해야 할 것[돈]\n→ 임대료",
+      "derivatives": [
+        { "en": "rental", "pos": "명/형", "defs": ["1 사용료, 임대료", "2 임대(물), 대여(물) / 임대의, 임대할 수 있는"] }
+      ],
+      "examples": [
+        { "en": "When is the **rent** due?", "ko": "집세는 언제 납부해야 하나요?" },
+        { "en": "We hope that we can **rent** a space for the exhibition during this time.", "ko": "우리는 이 기간 동안 전시 공간을 임대할 수 있기를 희망합니다.", "source": "모의" }
+      ]
     },
     {
       "en": "certain",
-      "ipa": "/ˈsɜːrtn/",
+      "ipa": ["[sə́ːrtn]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "확실한",
-            "특정한"
-          ]
+          "defs": ["1 확실한, 틀림없는", "2 (명사 앞에서) *일정한, 특정한*", "3 (명사 앞에서) *(명시하지 않고) 어떤, 어느*"]
         }
       ],
+      "synonyms": ["sure"],
+      "antonyms": ["uncertain"],
       "parts": [
-        {
-          "part": "cert",
-          "mean": "확실한 (sure, decided)"
-        },
-        {
-          "part": "-ain",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "cert", "mean": "= sure" },
+        { "part": "ain", "mean": "= an:형접" }
       ],
-      "origin": "확실한"
+      "origin": "확실한, 믿을 만한 →\n├ 틀림없는\n├ (확실히) 정해진, 일정한\n└ 어떤",
+      "derivatives": [
+        { "en": "certainly", "pos": "부", "defs": ["확실히"] },
+        { "en": "certainty", "pos": "명", "defs": ["확실함, 확신"] }
+      ],
+      "synonyms_extra": ["definitely, beyond question", "confidence"],
+      "antonyms_extra": ["uncertainty"],
+      "phrases": [
+        { "en": "make certain", "ko": "확실히 하다 (= make sure)" },
+        { "en": "for certain", "ko": "틀림없이, 확실히" }
+      ],
+      "examples": [
+        { "en": "Kate said that she was **certain** she would visit tomorrow.", "ko": "Kate가 내일 방문하는 것이 확실하다고 했다." },
+        { "en": "Individuals with a **certain** gene are more sensitive to the smell of garlic.", "ko": "특정 유전자를 가진 사람들은 마늘 냄새에 더 민감하다.", "source": "교과서" },
+        { "en": "Korean is **certainly** a difficult language.", "ko": "한국어는 확실히 어려운 언어다." },
+        { "en": "I can say with **certainty** that this is the best restaurant in town.", "ko": "나는 이곳이 시내에서 가장 훌륭한 식당이라고 확신을 갖고 말할 수 있다." }
+      ]
     },
     {
       "en": "certificate",
-      "ipa": "/sərˈtɪfɪkət/",
+      "ipa": ["[sərtífəkit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "증명서",
-            "이수증"
-          ]
+          "defs": ["증명서, 이수[수료] 증명서"]
         }
       ],
       "parts": [
-        {
-          "part": "cert",
-          "mean": "확실한 (sure)"
-        },
-        {
-          "part": "fic",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-ate",
-          "mean": "명사형 접미사"
-        }
+        { "part": "cert", "mean": "= sure" },
+        { "part": "fic", "mean": "= fac:make" },
+        { "part": "ate", "mean": "명접" }
       ],
-      "origin": "확실하게 만든 것 → 증명서"
+      "origin": "확실하게 만드는 것",
+      "derivatives": [
+        { "en": "certified", "pos": "형", "defs": ["보증된, 증명된"] }
+      ],
+      "examples": [
+        { "en": "I needed a copy of my birth **certificate** to apply for a new passport.", "ko": "나는 새 여권을 신청하기 위해 출생 증명서 한 부가 필요했다." },
+        { "en": "a gift **certificate**", "ko": "상품권" },
+        { "en": "**certified** instructor", "ko": "공인된 강사" }
+      ]
     },
     {
       "en": "spirit",
-      "ipa": "/ˈspɪrɪt/",
+      "ipa": ["[spírit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "정신",
-            "영혼"
-          ]
+          "defs": ["1 *정신, 마음", "2 *영혼, 혼", "3 열정, 사기(士氣), 활기", "4 (복수형) 감정, 기분"]
         }
       ],
+      "antonyms": ["material", "soul"],
+      "synonyms": ["mood"],
       "parts": [
-        {
-          "part": "spir",
-          "mean": "숨쉬다 (breathe)"
-        },
-        {
-          "part": "-it",
-          "mean": "명사형 접미사"
-        }
+        { "part": "spirit", "mean": "" }
       ],
-      "origin": "숨쉬는 것 → 영혼"
+      "origin": "라틴어 spiritus(=breath)에서 온 말\n※ '숨'은 곧 생명과 관련되며, 생명은 정신·영혼·신체적 활력 등과 연관됨",
+      "derivatives": [
+        { "en": "spiritual", "pos": "형", "defs": ["1 정신의, 정신적인", "2 영적인, 종교적인"] }
+      ],
+      "examples": [
+        { "en": "My grandmother is with me in **spirit**.", "ko": "내 할머니는 마음속에 나와 함께 계신다." },
+        { "en": "Listening to the bright warm sounds lifted her **spirits** and made her day more pleasant.", "ko": "밝고 따뜻한 소리를 듣는 것은 그녀의 기분을 좋게 만들었고 하루를 더 즐겁게 만들었다.", "source": "모의" }
+      ]
     },
     {
       "en": "aspire",
-      "ipa": "/əˈspaɪər/",
+      "ipa": ["[əspáiər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "열망하다"
-          ]
+          "defs": ["(+ to-v) (…하기를) 열망[갈망]하다, 바라다"]
         }
       ],
+      "synonyms": ["desire to-v, yearn to-v"],
       "parts": [
-        {
-          "part": "a-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "spire(spir)",
-          "mean": "숨쉬다 (breathe)"
-        }
+        { "part": "a(ad)", "mean": "= to" },
+        { "part": "spire(spir)", "mean": "= breathe" }
       ],
-      "origin": "~쪽으로 숨을 내쉬다 → 열망하다"
+      "origin": "…에 (열망을) 불어넣다",
+      "derivatives": [
+        { "en": "aspiration", "pos": "명", "defs": ["열망, 갈망"] }
+      ],
+      "examples": [
+        { "en": "A: What is your **aspiration** in life?\nB: I **aspire to become** a doctor.", "ko": "A: 인생에 있어서 당신의 소망은 무엇입니까?\nB: 저는 의사가 되기를 간절히 바랍니다." }
+      ]
     },
     {
       "en": "inspire",
-      "ipa": "/ɪnˈspaɪər/",
+      "ipa": ["[inspáiər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "영감을 주다"
-          ]
+          "defs": ["1 고무시키다, 격려하다", "2 *(감정·사상 등을) 불어넣다", "3 *영감을 주다"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로 (into)"
-        },
-        {
-          "part": "spire(spir)",
-          "mean": "숨쉬다 (breathe)"
-        }
+        { "part": "in", "mean": "= into" },
+        { "part": "spire(spir)", "mean": "= breathe" }
       ],
-      "origin": "안으로 숨을 불어넣다 → 영감을 주다"
+      "origin": "(마음 안에) 불어넣다 → 고무시키다",
+      "derivatives": [
+        { "en": "inspiration", "pos": "명", "defs": ["1 영감, (창조적) 자극", "2 고무, 격려; 격려가 되는 것[사람]"] }
+      ],
+      "examples": [
+        { "en": "The saying \"Genius is 1% **inspiration** and 99% perspiration\" is very **inspiring**.", "ko": "'천재는 1%의 영감과 99%의 땀[노력]에 의해 이루어진다'는 격언은 매우 고무적이다." }
+      ]
     },
     {
       "en": "expire",
-      "ipa": "/ɪkˈspaɪər/",
+      "ipa": ["[ikspáiər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "만료되다"
-          ]
+          "defs": ["(계약·임기 등이) 만기가 되다, 끝나다; 소멸하다"]
         }
       ],
       "parts": [
-        {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "spire(spir)",
-          "mean": "숨쉬다 (breathe)"
-        }
+        { "part": "ex", "mean": "= out" },
+        { "part": "(s)pire(spir)", "mean": "= breathe" }
       ],
-      "origin": "숨이 나가다 → 만료되다"
+      "origin": "숨이 (밖으로) 다하다\n→ 죽다, (비유적으로) 끝나다",
+      "derivatives": [
+        { "en": "expiration", "pos": "명", "defs": ["만료, 만기, 종결"] }
+      ],
+      "phrases": [
+        { "en": "expiration date", "ko": "(식품·약 등의) 유통[유효] 기간" }
+      ],
+      "examples": [
+        { "en": "My credit card **expires** in July.", "ko": "내 신용카드는 7월에 만료된다." }
+      ]
     }
   ]
 }

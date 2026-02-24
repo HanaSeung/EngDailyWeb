@@ -3,609 +3,592 @@
   "words": [
     {
       "en": "compete",
-      "ipa": "/kəmˈpiːt/",
+      "ipa": ["[kəmpíːt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "경쟁하다"
-          ]
+          "defs": ["경쟁하다, 겨루다"]
         }
       ],
+      "synonyms": ["contend, battle"],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "pete(pet)",
-          "mean": "구하다 (seek)"
-        }
+        { "part": "com", "mean": "= together" },
+        { "part": "pete", "mean": "= seek" }
       ],
-      "origin": "함께 구하다 → 경쟁하다"
+      "origin": "함께 (동일한 것을) 추구하다\n→ 서로 얻으려고 경쟁하다",
+      "derivatives": [
+        { "en": "competition", "pos": "명", "defs": ["1 경쟁, 겨룸", "2 시합, 경기", "3 (the +) 경쟁 상대"] },
+        { "en": "competitive", "pos": "형", "defs": ["1 경쟁력을 갖춘, 경쟁 우위에 있는", "2 경쟁의, 경쟁적인"] },
+        { "en": "competitor", "pos": "명", "defs": ["경쟁자"] }
+      ],
+      "synonyms_extra": ["rivalry", "contest, match", "rival"],
+      "phrases": [
+        { "en": "compete with[against]", "ko": "…와 경쟁하다" }
+      ],
+      "examples": [
+        { "en": "You will **compete against** the best players.", "ko": "너는 최고의 선수들과 경쟁하게 될 것이다." },
+        { "en": "Mark was participating in freestyle swimming **competitions** in the Olympics.", "ko": "Mark는 올림픽에서 자유형 수영 경기에 참가했다.", "source": "모의" }
+      ]
     },
     {
       "en": "competence",
-      "ipa": "/ˈkɑːmpɪtəns/",
+      "ipa": ["[kɑ́ːmpətəns]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "능력",
-            "역량"
-          ]
+          "defs": ["능력, 역량"]
         }
       ],
+      "synonyms": ["capability, ability"],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "pet",
-          "mean": "구하다 (seek)"
-        },
-        {
-          "part": "-ence",
-          "mean": "명사형 접미사"
-        }
+        { "part": "compete", "mean": "경쟁하다" },
+        { "part": "ence", "mean": "명접" }
       ],
-      "origin": "함께 겨룰 수 있는 능력 → 역량"
+      "origin": "경쟁할 수 있는 능력",
+      "derivatives": [
+        { "en": "competent", "pos": "형", "defs": ["유능한, 역량 있는"] }
+      ],
+      "antonyms": ["incompetent(무능한)"],
+      "examples": [
+        { "en": "Her **competence** as a designer is not in question.", "ko": "디자이너로서의 그녀의 능력은 의심의 여지가 없다." }
+      ]
     },
     {
       "en": "petition",
-      "ipa": "/pəˈtɪʃn/",
+      "ipa": ["[pətíʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "탄원",
-            "청원"
-          ]
+          "defs": ["탄원(서), 청원, 간청"]
         },
         {
           "pos": "동",
-          "defs": [
-            "청원하다"
-          ]
+          "defs": ["탄원하다, 청원하다"]
         }
       ],
       "parts": [
-        {
-          "part": "pet",
-          "mean": "구하다 (seek)"
-        },
-        {
-          "part": "-ition",
-          "mean": "명사형 접미사"
-        }
+        { "part": "petit", "mean": "= seek" },
+        { "part": "ion", "mean": "명접" }
       ],
-      "origin": "구하는 것 → 청원"
+      "origin": "구함 → 간청(하다), 청원(하다)",
+      "examples": [
+        { "en": "Volunteers asked me to sign a **petition** to prevent cruelty against animals.", "ko": "자원봉사자들이 동물 학대를 막기 위한 청원서에 서명해 달라고 요청했다.", "source": "모의" }
+      ]
     },
     {
       "en": "appetite",
-      "ipa": "/ˈæpɪtaɪt/",
+      "ipa": ["[ǽpətàit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "식욕",
-            "욕구"
-          ]
+          "defs": ["1 식욕", "2 욕구, 욕망"]
         }
       ],
+      "synonyms": ["desire"],
       "parts": [
-        {
-          "part": "ap-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "petite(pet)",
-          "mean": "구하다 (seek)"
-        }
+        { "part": "ap", "mean": "= ad:to" },
+        { "part": "pet", "mean": "= seek" },
+        { "part": "ite", "mean": "= 어미" }
       ],
-      "origin": "~을 향해 구하다 → 욕구"
+      "origin": "seeking after …을 추구함 →\n├ 욕구, 욕망\n└ (음식에 대한) 욕구 → 식욕",
+      "derivatives": [
+        { "en": "appetizer", "pos": "명", "defs": ["식욕을 돋우는 음식, 애피타이저"] }
+      ],
+      "examples": [
+        { "en": "I've lost my **appetite** lately.", "ko": "나는 요즘에 식욕을 잃었다." }
+      ]
     },
     {
       "en": "repeat",
-      "ipa": "/rɪˈpiːt/",
+      "ipa": ["[ripíːt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "반복하다"
-          ]
+          "defs": ["1 *반복하다", "2 따라 말하다", "3 (…에게) 말을 옮기다"]
         }
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "peat(pet)",
-          "mean": "구하다, 향하다 (seek)"
-        }
+        { "part": "re", "mean": "= back" },
+        { "part": "peat", "mean": "= seek" }
       ],
-      "origin": "다시 구하다 → 반복하다"
+      "origin": "뒤로 (다시) 돌아가서 (같은 행동을) 추구하다\n→ 반복하다",
+      "derivatives": [
+        { "en": "repeatedly", "pos": "부", "defs": ["되풀이해서"] },
+        { "en": "repetition", "pos": "명", "defs": ["반복, 되풀이"] },
+        { "en": "repetitive", "pos": "형", "defs": ["반복되는, 반복적인"] }
+      ],
+      "synonyms": ["over and over, again and again"],
+      "examples": [
+        { "en": "I'm sorry, could you **repeat** that?", "ko": "죄송하지만, 다시 한번 말씀해주시겠습니까?" },
+        { "en": "Try **repeatedly** until you succeed.", "ko": "성공할 때까지 반복해서 시도해 보세요." },
+        { "en": "**Repetition** is common in popular music because **repetitive** lyrics are easier to sing along with.", "ko": "인기 있는 음악에는 반복이 흔히 나타나는데, 반복적인 가사가 따라 부르기 더 쉽기 때문이다." }
+      ]
     },
     {
       "en": "debt",
-      "ipa": "/det/",
+      "ipa": ["[det]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "빚",
-            "부채"
-          ]
+          "defs": ["1 *빚, 채무", "2 (남에게 진) 신세, 빚진 것"]
         }
       ],
       "parts": [
-        {
-          "part": "debt",
-          "mean": "빚지다 (owe)"
-        }
+        { "part": "debt", "mean": "" }
       ],
-      "origin": "빚진 것 → 부채"
+      "origin": "라틴어 debere(=owe)에서 온 말",
+      "derivatives": [
+        { "en": "debtor", "pos": "명", "defs": ["채무자"] }
+      ],
+      "antonyms": ["creditor(채권자)"],
+      "examples": [
+        { "en": "He is trying to pay off his **debt**.", "ko": "그는 빚을 갚으려고 노력 중이다." }
+      ]
     },
     {
       "en": "due",
-      "ipa": "/duː/",
+      "ipa": ["[duː]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "만기된",
-            "~하기로 되어 있는"
-          ]
-        }
-      ],
-      "parts": [
+          "defs": ["1 *…하기로 되어 있는; 도착 예정인", "2 지불되어야[치러야] 할, 만기가 된", "3 (+ to) *…에 기인하는, …의 탓인*", "4 적합한"]
+        },
         {
-          "part": "du(debt)",
-          "mean": "빚지다 (owe)"
+          "pos": "명",
+          "defs": ["(복수형) 회비"]
         }
       ],
-      "origin": "빚진 → 만기된"
+      "synonyms": ["proper, suitable"],
+      "parts": [
+        { "part": "due", "mean": "= owe" }
+      ],
+      "origin": "신세[빚] 지고 있는 →\n├ (마땅히) \n │ ├ 치러야 할\n│ ├ …하기로 되어 있는\n│ └ 마땅한, 적합한\n└ …의 덕택인 → …에 기인하는",
+      "phrases": [
+        { "en": "due to N", "ko": "… 때문에 (= because of N)" },
+        { "en": "due date", "ko": "(지급) 만기일, 마감일" }
+      ],
+      "examples": [
+        { "en": "He's **due** to go on a business trip to Europe this weekend.", "ko": "그는 이번 주말에 유럽으로 출장을 갈 예정이다." },
+        { "en": "His science project was **due** in a few days and he had no idea where to start.", "ko": "그의 과학 프로젝트는 며칠 후에 제출이었고, 그는 어디부터 시작해야 할지 전혀 몰랐다.", "source": "모의" },
+        { "en": "The game was postponed **due to** rain.", "ko": "비 때문에 경기가 연기되었다." },
+        { "en": "He often failed to pay his **dues**.", "ko": "그는 종종 회비를 내지 못했다." }
+      ]
     },
     {
       "en": "duty",
-      "ipa": "/ˈduːti/",
+      "ipa": ["[dúːti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "의무",
-            "세금"
-          ]
+          "defs": ["1 *(법적·도덕적인) 의무", "2 *직무, 임무", "3 세금"]
         }
       ],
+      "synonyms": ["obligation", "task, job"],
       "parts": [
-        {
-          "part": "du(debt)",
-          "mean": "빚지다 (owe)"
-        },
-        {
-          "part": "-ty",
-          "mean": "명사형 접미사"
-        }
+        { "part": "du", "mean": "= owe" },
+        { "part": "ty", "mean": "명접" }
       ],
-      "origin": "빚진 것 → 의무"
+      "origin": "신세진 것 → 해야 할 것",
+      "derivatives": [
+        { "en": "duty-free", "pos": "형/부", "defs": ["면세의[로]"] }
+      ],
+      "phrases": [
+        { "en": "on[off] duty", "ko": "근무 중인, 당번인[근무가 아닌, 비번인]" }
+      ],
+      "examples": [
+        { "en": "As citizens, we have several **duties** to carry out.", "ko": "시민으로서, 우리에겐 수행해야 할 몇 가지 의무가 있다." }
+      ]
     },
     {
       "en": "compare",
-      "ipa": "/kəmˈper/",
+      "ipa": ["[kəmpéər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "비교하다"
-          ]
+          "defs": ["1 (+ with/to) *비교하다, 견주다*", "2 (+ to) 비유하다"]
         }
       ],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "par",
-          "mean": "같은 (equal)"
-        }
+        { "part": "com", "mean": "= together" },
+        { "part": "pare", "mean": "= equal" }
       ],
-      "origin": "함께 같은지 보다 → 비교하다"
+      "origin": "동등한 상태를 함께 두다 → 비교하다",
+      "derivatives": [
+        { "en": "comparison", "pos": "명", "defs": ["1 비교, 대조", "2 비유"] },
+        { "en": "comparative", "pos": "형", "defs": ["비교의, 비교적인, 상대적인"] },
+        { "en": "comparatively", "pos": "부", "defs": ["비교적, 어느 정도"] },
+        { "en": "comparable", "pos": "형", "defs": ["1 비교될 만한, 비슷한", "2 …에 필적하는, 비길 만한"] },
+        { "en": "incomparable", "pos": "형", "defs": ["비길 데가 없는, 빼어난"] }
+      ],
+      "synonyms_extra": ["relative", "relatively", "matchless"],
+      "antonyms": ["absolute"],
+      "phrases": [
+        { "en": "in comparison with", "ko": "…와 비교하면, …에 비하면" }
+      ],
+      "examples": [
+        { "en": "The researchers **compared** the new data **with** the findings of prior studies.", "ko": "연구원들은 새로운 데이터를 이전 연구들의 결과와 비교했다." },
+        { "en": "Life is often **compared to** a voyage.", "ko": "인생은 종종 항해에 비유된다." },
+        { "en": "Living in the country is cheap **in comparison with** living in the city.", "ko": "시골에 사는 것은 도시에 사는 것에 비하면 비용이 적게 든다." }
+      ]
     },
     {
       "en": "peer",
-      "ipa": "/pɪr/",
+      "ipa": ["[piər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "동료"
-          ]
+          "defs": ["*(나이·능력·신분 등이) 동등한 사람, 동료"]
         },
         {
           "pos": "동",
-          "defs": [
-            "응시하다"
-          ]
+          "defs": ["응시하다, 자세히 들여다보다"]
         }
       ],
+      "synonyms": ["gaze"],
       "parts": [
-        {
-          "part": "peer(par)",
-          "mean": "같은 (equal)"
-        }
+        { "part": "peer", "mean": "" }
       ],
-      "origin": "같은 사람 → 동료"
+      "origin": "라틴어 par(=equal)에서 온 말",
+      "examples": [
+        { "en": "He has no **peers** when it comes to originality.", "ko": "독창성에서라면 그에 필적하는 사람은 없다." },
+        { "en": "Quickly, she took out her binoculars and **peered** where Sally pointed.", "ko": "그녀는 재빠르게 쌍안경을 꺼내서 Sally가 가리키는 곳을 들여다 보았다.", "source": "모의" }
+      ]
     },
     {
       "en": "pair",
-      "ipa": "/per/",
+      "ipa": ["[peər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "쌍",
-            "한 켤레"
-          ]
+          "defs": ["(두 개가 하나를 이루는) 한 쌍; 한 개"]
+        },
+        {
+          "pos": "동",
+          "defs": ["짝을 짓다, 한 쌍이 되다"]
         }
       ],
       "parts": [
-        {
-          "part": "pair(par)",
-          "mean": "같은 (equal)"
-        }
+        { "part": "pair", "mean": "" }
       ],
-      "origin": "같은 것 둘 → 쌍"
+      "origin": "라틴어 par(=equal)의 복수형 paria(=equal things)에서 온 말 → 동등한 것들\n→ 한 쌍",
+      "phrases": [
+        { "en": "a pair of N(복수명사)", "ko": "한 쌍의 …" }
+      ],
+      "examples": [
+        { "en": "She entered a shoe store and selected **a pair of** red soccer shoes.", "ko": "그녀는 신발 가게로 들어가서 빨간색 축구화 한 켤레를 골랐다.", "source": "모의" }
+      ]
     },
     {
       "en": "measure",
-      "ipa": "/ˈmeʒər/",
+      "ipa": ["[méʒər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "조치"
-          ]
+          "defs": ["1 *조치, 대책", "2 *척도, 기준", "3 (많은) 양, 정도"]
         },
         {
           "pos": "동",
-          "defs": [
-            "측정하다"
-          ]
+          "defs": ["1 *재다, 측정하다", "2 판단하다, 평가하다"]
         }
       ],
+      "synonyms": ["action", "assess"],
       "parts": [
-        {
-          "part": "mens",
-          "mean": "측정하다 (measure)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
+        { "part": "meas", "mean": "= measure" },
+        { "part": "ure", "mean": "명접" }
       ],
-      "origin": "측정하다 → 조치"
+      "origin": "재는 기준",
+      "derivatives": [
+        { "en": "measurement", "pos": "명", "defs": ["1 측정(법), 측량", "2 (주로 복수형) (길이·높이 등의) 치수"] },
+        { "en": "measurable", "pos": "형", "defs": ["1 측정할 수 있는", "2 주목할 만한"] }
+      ],
+      "synonyms_extra": ["dimension", "noticeable"],
+      "antonyms": ["immeasurable"],
+      "phrases": [
+        { "en": "take measures", "ko": "조치를 취하다" }
+      ],
+      "examples": [
+        { "en": "Drastic **measures** should be taken to prevent crime.", "ko": "범죄를 예방하기 위해 과감한 조치가 취해져야 한다." },
+        { "en": "Do you know how to **measure** the amount of rainfall?", "ko": "강우량을 어떻게 측정하는지 알고 있나요?" },
+        { "en": "A tailor took my waist **measurement**.", "ko": "재단사가 내 허리 치수를 쟀다." }
+      ]
     },
     {
       "en": "dimension",
-      "ipa": "/daɪˈmenʃn/",
+      "ipa": ["[diménʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "치수",
-            "차원"
-          ]
+          "defs": ["1 (주로 복수형) (길이·높이·폭 등의) 치수, 크기", "2 *특성, 특질, 면", "3 [수학·물리] *차원*"]
         }
       ],
+      "synonyms": ["measurement", "aspect"],
       "parts": [
-        {
-          "part": "di-(dis-)",
-          "mean": "떨어져 (apart)"
-        },
-        {
-          "part": "mens",
-          "mean": "측정하다 (measure)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+        { "part": "di", "mean": "= dis:off" },
+        { "part": "mens", "mean": "= measure" },
+        { "part": "ion", "mean": "명접" }
       ],
-      "origin": "나누어 측정한 것 → 차원"
+      "origin": "measure off 재어서 나눔 → 치수",
+      "derivatives": [
+        { "en": "dimensional", "pos": "형", "defs": ["1 치수의", "2 차원의"] }
+      ],
+      "examples": [
+        { "en": "What are the **dimensions** of the package you want to ship?", "ko": "보내시려는 소포의 크기가 어떻게 됩니까?" },
+        { "en": "a three-**dimensional**[3D] movie[film]", "ko": "입체 영화" }
+      ]
     },
     {
       "en": "immense",
-      "ipa": "/ɪˈmens/",
+      "ipa": ["[iméns]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "거대한",
-            "엄청난"
-          ]
+          "defs": ["거대한, 매우 큰"]
         }
       ],
+      "synonyms": ["huge, tremendous, enormous"],
       "parts": [
-        {
-          "part": "im-(in-)",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "mense(mens)",
-          "mean": "측정하다 (measure)"
-        }
+        { "part": "im", "mean": "= in:not" },
+        { "part": "mense", "mean": "= measure" }
       ],
-      "origin": "측정할 수 없는 → 거대한"
+      "origin": "잴 수 없을 만큼의",
+      "examples": [
+        { "en": "There is an **immense** distance between stars and galaxies.", "ko": "별들과 은하들 사이에는 어마어마한 거리가 있다.", "source": "모의" }
+      ]
     },
     {
       "en": "audience",
-      "ipa": "/ˈɔːdiəns/",
+      "ipa": ["[ɔ́ːdiəns]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "청중",
-            "관중"
-          ]
+          "defs": ["청중, 관객, 시청자, 청취자"]
         }
       ],
+      "synonyms": ["viewer, spectator"],
       "parts": [
-        {
-          "part": "aud",
-          "mean": "듣다 (hear)"
-        },
-        {
-          "part": "-ience",
-          "mean": "명사형 접미사"
-        }
+        { "part": "audi", "mean": "= listen" },
+        { "part": "ence", "mean": "명접" }
       ],
-      "origin": "듣는 사람들 → 청중"
+      "origin": "듣는 것[사람]",
+      "examples": [
+        { "en": "The **audience** at the opera was very quiet, but the spectators at the soccer game were very noisy.", "ko": "오페라의 관객들은 매우 조용했지만, 축구 경기의 관중들은 매우 소란스러웠다." }
+      ]
     },
     {
       "en": "obey",
-      "ipa": "/əˈbeɪ/",
+      "ipa": ["[oubéi]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "복종하다",
-            "따르다"
-          ]
+          "defs": ["(…에) 복종하다, 따르다"]
         }
       ],
+      "synonyms": ["submit to"],
+      "antonyms": ["disobey"],
       "parts": [
-        {
-          "part": "ob-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "ey(aud)",
-          "mean": "듣다 (hear)"
-        }
+        { "part": "ob", "mean": "= to" },
+        { "part": "ey", "mean": "= listen" }
       ],
-      "origin": "~쪽으로 귀 기울이다 → 복종하다"
+      "origin": "listen to (명령·충고 등에) 귀를 기울이다",
+      "derivatives": [
+        { "en": "obedient", "pos": "형", "defs": ["복종하는, 순종하는"] },
+        { "en": "obedience", "pos": "명", "defs": ["복종, 순종; 준수"] }
+      ],
+      "examples": [
+        { "en": "We must **obey** the rules.", "ko": "우리는 규칙을 준수해야 한다." },
+        { "en": "The dog is very **obedient** to his family.", "ko": "그 개는 주인 가족에게 매우 순종적이다." }
+      ]
     },
     {
       "en": "precious",
-      "ipa": "/ˈpreʃəs/",
+      "ipa": ["[préʃəs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "귀중한"
-          ]
+          "defs": ["1 *귀중한, 소중한", "2 값비싼"]
         }
       ],
+      "synonyms": ["valuable", "costly"],
       "parts": [
-        {
-          "part": "preci",
-          "mean": "값 (price, value)"
-        },
-        {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "preci", "mean": "= price" },
+        { "part": "ous", "mean": "형접" }
       ],
-      "origin": "값이 높은 → 귀중한"
+      "origin": "값진",
+      "examples": [
+        { "en": "She keeps all her **precious** letters in a box.", "ko": "그녀는 모든 소중한 편지들을 상자에 보관한다." }
+      ]
     },
     {
       "en": "appreciate",
-      "ipa": "/əˈpriːʃieɪt/",
+      "ipa": ["[əpríːʃièit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "감사하다",
-            "감상하다",
-            "가치를 인정하다"
-          ]
+          "defs": ["1 이해하다, 알다, 깨닫다", "2 *고맙게 여기다", "3 *감상하다", "4 진가를 알다[인정하다]"]
         }
       ],
+      "synonyms": ["realize"],
       "parts": [
-        {
-          "part": "ap-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "preci",
-          "mean": "값 (price)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "ap", "mean": "= ad:to" },
+        { "part": "preci", "mean": "= price" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "값을 매기다 → 가치를 인정하다"
+      "origin": "…에 값[가치]을 매기다 →\n├ (…의 가치를) 이해하다\n├ (도움 등의 가치를) 이해하다 → 고맙게 여기다\n└ (예술 등의 가치를) 이해하다 → 감상하다",
+      "derivatives": [
+        { "en": "appreciation", "pos": "명", "defs": ["1 진가의 인정, 올바른 이해", "2 감사", "3 감상"] }
+      ],
+      "examples": [
+        { "en": "We sincerely **appreciate** your understanding.", "ko": "이해해 주셔서 진심으로 감사합니다.", "source": "수능" },
+        { "en": "His works were not **appreciated** until after his death.", "ko": "그의 작품들은 그가 죽은 후에야 비로소 그 진가를 인정받았다." },
+        { "en": "On the other hand, pedestrian travel, being much slower, allows for the **appreciation** of environmental detail.", "ko": "반면에, 도보 여행은 훨씬 더 느리기 때문에 자연 환경의 세부적인 면을 감상할 수 있다.", "source": "모의" }
+      ]
     },
     {
       "en": "praise",
-      "ipa": "/preɪz/",
+      "ipa": ["[preiz]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "칭찬하다"
-          ]
+          "defs": ["칭찬하다, 찬양하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "칭찬"
-          ]
+          "defs": ["*칭찬"]
         }
       ],
+      "antonyms": ["criticize(비판하다)"],
       "parts": [
-        {
-          "part": "prais(preci)",
-          "mean": "값 (price, value)"
-        }
+        { "part": "praise", "mean": "= price" }
       ],
-      "origin": "가치를 말하다 → 칭찬하다"
+      "origin": "값[가치]을 인정하다",
+      "examples": [
+        { "en": "Children respond best when **praised** rather than criticized.", "ko": "아이들은 꾸중을 들을 때보다 칭찬받을 때 말을 가장 잘 듣는다." }
+      ]
     },
     {
       "en": "priceless",
-      "ipa": "/ˈpraɪsləs/",
+      "ipa": ["[práislis]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "대단히 귀중한"
-          ]
+          "defs": ["매우 귀중한, (너무 귀하여) 값을 매길 수 없는"]
         }
       ],
+      "synonyms": ["invaluable"],
       "parts": [
-        {
-          "part": "price(preci)",
-          "mean": "값 (price)"
-        },
-        {
-          "part": "-less",
-          "mean": "~이 없는"
-        }
+        { "part": "price", "mean": "값" },
+        { "part": "less", "mean": "형접:「… 없는」" }
       ],
-      "origin": "값을 매길 수 없는 → 대단히 귀중한"
+      "origin": "값을 헤아릴 수 없는",
+      "examples": [
+        { "en": "We made **priceless** memories on our trip.", "ko": "우리는 여행에서 매우 소중한 추억들을 만들었다." }
+      ]
     },
     {
       "en": "survive",
-      "ipa": "/sərˈvaɪv/",
+      "ipa": ["[sərváiv]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "살아남다"
-          ]
+          "defs": ["1 *(사고·전쟁·질병 등으로부터) 살아남다, 생존하다", "2 (위기 등을) 극복하다, 견디다", "3 …보다 오래 살다"]
         }
       ],
       "parts": [
-        {
-          "part": "sur-(super-)",
-          "mean": "위에, 넘어 (over)"
-        },
-        {
-          "part": "vive(viv)",
-          "mean": "살다 (live)"
-        }
+        { "part": "sur", "mean": "= super:beyond" },
+        { "part": "vive", "mean": "= live" }
       ],
-      "origin": "넘어서 살다 → 살아남다"
+      "origin": "넘어서 살다 → …보다 오래 생존하다",
+      "derivatives": [
+        { "en": "survival", "pos": "명", "defs": ["생존, 잔존"] },
+        { "en": "survivor", "pos": "명", "defs": ["생존자"] }
+      ],
+      "examples": [
+        { "en": "Most garment workers were paid barely enough to **survive**.", "ko": "대부분의 옷을 만드는 노동자들은 겨우 생존할 만큼의 임금밖에 받지 못했다.", "source": "모의" },
+        { "en": "**survival** of the fittest", "ko": "적자생존(환경에 적응하는 생물만이 살아남는 것)" }
+      ]
     },
     {
       "en": "vivid",
-      "ipa": "/ˈvɪvɪd/",
+      "ipa": ["[vívid]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "생생한",
-            "선명한"
-          ]
+          "defs": ["(기억·묘사·색상 등이) 생생한, 선명한"]
         }
       ],
+      "antonyms": ["vague"],
       "parts": [
-        {
-          "part": "viv",
-          "mean": "살다 (live)"
-        },
-        {
-          "part": "-id",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "viv", "mean": "= live" },
+        { "part": "id", "mean": "형접" }
       ],
-      "origin": "살아있는 듯한 → 생생한"
+      "origin": "살아있는 듯한 → 생생한, 선명한",
+      "examples": [
+        { "en": "We have **vivid** memories of our exciting adventure in the Himalayan Mountains.", "ko": "우리는 히말라야 산맥에서의 흥미진진한 모험에 대한 생생한 기억을 갖고 있다." }
+      ]
     },
     {
       "en": "vital",
-      "ipa": "/ˈvaɪtl/",
+      "ipa": ["[váitl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "필수적인",
-            "활기찬"
-          ]
+          "defs": ["1 *매우 중요한, 필수적인", "2 생명 유지에 필요한", "3 활기찬, 생기가 넘치는"]
         }
       ],
+      "synonyms": ["crucial, essential"],
       "parts": [
-        {
-          "part": "vit(viv)",
-          "mean": "살다, 생명 (life)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "vit", "mean": "= life" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "생명의 → 필수적인"
+      "origin": "생의, 생명과 관련된",
+      "derivatives": [
+        { "en": "vitality", "pos": "명", "defs": ["활력, 원기"] }
+      ],
+      "synonyms_extra": ["energy"],
+      "examples": [
+        { "en": "Vitamin E plays a **vital** role in improving circulation.", "ko": "비타민 E는 혈액 순환 개선에 매우 중요한 역할을 한다." }
+      ]
     },
     {
       "en": "avenge",
-      "ipa": "/əˈvendʒ/",
+      "ipa": ["[əvéndʒ]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "복수하다"
-          ]
+          "defs": ["(주로 피해자를 대신해) 복수하다, 원수를 갚다"]
         }
       ],
       "parts": [
-        {
-          "part": "a-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "venge(veng)",
-          "mean": "복수 (revenge)"
-        }
+        { "part": "a", "mean": "= ad:to" },
+        { "part": "venge", "mean": "복수하다" }
       ],
-      "origin": "~을 향해 복수하다"
+      "origin": "…에게 복수해주다",
+      "examples": [
+        { "en": "He swore he would **avenge** his brother's death.", "ko": "그는 형의 죽음을 복수하겠다고 맹세했다." }
+      ]
     },
     {
       "en": "revenge",
-      "ipa": "/rɪˈvendʒ/",
+      "ipa": ["[rivéndʒ]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "복수"
-          ]
+          "pos": "명/동",
+          "defs": ["(주로 피해자 자신이) 복수(하다), 원한(을 갚다)"]
         }
       ],
+      "synonyms": ["vengeance"],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "뒤로 (back)"
-        },
-        {
-          "part": "venge(veng)",
-          "mean": "복수 (revenge)"
-        }
+        { "part": "re", "mean": "「강조」" },
+        { "part": "venge", "mean": "복수하다" }
       ],
-      "origin": "되갚다 → 복수"
+      "origin": "되갚다",
+      "phrases": [
+        { "en": "take revenge (on)", "ko": "(…에게) 복수하다" },
+        { "en": "in revenge for", "ko": "…에 대한 앙갚음으로[복수로]" }
+      ],
+      "examples": [
+        { "en": "She **took revenge on** the man who betrayed her.", "ko": "그녀는 자신을 배신한 사람에게 복수했다." }
+      ]
     }
   ]
 }

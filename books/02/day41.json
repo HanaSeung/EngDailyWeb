@@ -3,591 +3,574 @@
   "words": [
     {
       "en": "mental",
-      "ipa": "/ˈmentl/",
+      "ipa": ["[méntl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "정신의",
-            "마음의"
-          ]
+          "defs": ["정신의, 마음의"]
         }
       ],
+      "antonyms": ["physical"],
       "parts": [
-        {
-          "part": "ment",
-          "mean": "마음 (mind)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "ment", "mean": "= mind" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "마음의 → 정신의"
+      "origin": "마음의",
+      "examples": [
+        { "en": "Seeking help for **mental** health problems is nothing to be ashamed of.", "ko": "정신 건강과 관련된 문제로 도움을 요청하는 것은 부끄러워할 일이 아니다.", "source": "교과서" }
+      ]
     },
     {
       "en": "mention",
-      "ipa": "/ˈmenʃn/",
+      "ipa": ["[ménʃən]"],
       "meanings": [
         {
-          "pos": "동",
-          "defs": [
-            "언급하다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "ment",
-          "mean": "마음 (mind)"
+          "pos": "명",
+          "defs": ["언급, 거론"]
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "pos": "동",
+          "defs": ["*언급[거론]하다, …에 대해 말하다"]
         }
       ],
-      "origin": "마음에 떠올려 말하다 → 언급하다"
+      "synonyms": ["refer to"],
+      "parts": [
+        { "part": "ment", "mean": "= mind" },
+        { "part": "ion", "mean": "명접" }
+      ],
+      "origin": "생각나게 함 → 언급",
+      "phrases": [
+        { "en": "Don't mention it.", "ko": "천만에요. (= Not at all.)" },
+        { "en": "not to mention", "ko": "…은 말할 것도 없고" }
+      ],
+      "examples": [
+        { "en": "As I **mentioned** yesterday, the class was canceled.", "ko": "어제 얘기했던 것처럼, 그 수업은 취소되었습니다." }
+      ]
     },
     {
       "en": "comment",
-      "ipa": "/ˈkɑːment/",
+      "ipa": ["[kɑ́ːment]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "논평"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "비평하다"
-          ]
+          "pos": "명/동",
+          "defs": ["의견(을 말하다), 논평(하다)"]
         }
       ],
+      "synonyms": ["remark"],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "ment",
-          "mean": "마음 (mind)"
-        }
+        { "part": "com", "mean": "「강조」" },
+        { "part": "ment", "mean": "= mind" }
       ],
-      "origin": "함께 마음을 나누다 → 논평"
+      "origin": "(작품 등에 대한) 진짜 속마음을 내놓는 것\n→ 논평(하다)",
+      "examples": [
+        { "en": "No **comment**.", "ko": "아무 말도 하지 않겠습니다." },
+        { "en": "positive[negative/critical] **comment**", "ko": "긍정적인[부정적인/비판적인] 논평" },
+        { "en": "The critics **commented** favorably on his new book.", "ko": "비평가들은 그의 새 책에 대해 호의적으로 논평했다." }
+      ]
     },
     {
       "en": "remind",
-      "ipa": "/rɪˈmaɪnd/",
+      "ipa": ["[rimáind]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "상기시키다"
-          ]
+          "defs": ["1 *(기억하도록) 상기시키다, 일깨워주다", "2 (과거의 사건, 사람 등을) 생각나게 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "mind(ment)",
-          "mean": "마음 (mind)"
-        }
+        { "part": "re", "mean": "= again" },
+        { "part": "mind", "mean": "마음" }
       ],
-      "origin": "다시 마음에 떠올리다 → 상기시키다"
+      "origin": "bring to mind again 마음에 다시 가져오다",
+      "derivatives": [
+        { "en": "reminder", "pos": "명", "defs": ["생각나게 하는 것; 독촉장, (상기시키는) 메모"] }
+      ],
+      "phrases": [
+        { "en": "remind A of B", "ko": "A에게 B를 생각나게 하다" }
+      ],
+      "examples": [
+        { "en": "The teacher **reminded** us that the science fair projects are due next Wednesday.", "ko": "선생님은 과학 박람회 프로젝트 마감이 다음주 수요일까지라고 상기시켜 주셨다.", "source": "모의" },
+        { "en": "That picture **reminds** me **of** my childhood home.", "ko": "그 사진은 나에게 어린 시절의 집을 생각나게 한다." }
+      ]
     },
     {
       "en": "monument",
-      "ipa": "/ˈmɑːnjumənt/",
+      "ipa": ["[mɑ́ːnjəmənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기념물"
-          ]
+          "defs": ["기념물, 기념관"]
         }
       ],
       "parts": [
-        {
-          "part": "mon",
-          "mean": "경고하다, 기억시키다 (warn, remind)"
-        },
-        {
-          "part": "-ument",
-          "mean": "명사형 접미사"
-        }
+        { "part": "monu(mon)", "mean": "= remind" },
+        { "part": "ment", "mean": "명접" }
       ],
-      "origin": "기억시키는 것 → 기념물"
+      "origin": "(과거의 것을) 다시 생각나게 하는 것",
+      "derivatives": [
+        { "en": "monumental", "pos": "형", "defs": ["기념비적인, 역사적 가치를 지닌"] }
+      ],
+      "examples": [
+        { "en": "We build **monuments** in honor of great people.", "ko": "우리는 위대한 사람들에게 경의를 표하기 위해 기념물을 세운다." },
+        { "en": "historical **monument**", "ko": "역사적 유물[유적]" },
+        { "en": "a **monumental** achievement", "ko": "기념비적인 성과" }
+      ]
     },
     {
       "en": "monitor",
-      "ipa": "/ˈmɑːnɪtər/",
+      "ipa": ["[mɑ́ːnətər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "화면"
-          ]
+          "defs": ["1 (컴퓨터·TV 등의) 화면, 모니터", "2 감시[관찰](자), 감시[관찰]하는 일"]
         },
         {
           "pos": "동",
-          "defs": [
-            "감시하다"
-          ]
+          "defs": ["*감독[감시]하다, 관찰하다"]
         }
       ],
       "parts": [
-        {
-          "part": "mon",
-          "mean": "경고하다 (warn)"
-        },
-        {
-          "part": "-itor",
-          "mean": "사람/것 접미사"
-        }
+        { "part": "monit(mon)", "mean": "= warn" },
+        { "part": "or", "mean": "명접「사람」" }
       ],
-      "origin": "경고하는 것 → 감시하다"
+      "origin": "one who warns 경고하는 사람[것]",
+      "examples": [
+        { "en": "We use big **monitors** to watch everyone who enters our bank.", "ko": "우리는 은행에 들어오는 모든 사람을 관찰하기 위해 큰 모니터를 사용한다." },
+        { "en": "The security guard is **monitoring** the crowd.", "ko": "안전 요원이 사람들을 감시하고 있다." }
+      ]
     },
     {
       "en": "summon",
-      "ipa": "/ˈsʌmən/",
+      "ipa": ["[sʌ́mən]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "소환하다"
-          ]
+          "defs": ["1 호출하다, (법원에) 소환하다", "2 (회의 등을) 소집하다", "3 (용기 등을) 내다"]
         }
       ],
       "parts": [
-        {
-          "part": "sum-(sub-)",
-          "mean": "아래에서 (under)"
-        },
-        {
-          "part": "mon",
-          "mean": "경고하다 (warn)"
-        }
+        { "part": "sum", "mean": "= sub:under 남몰래" },
+        { "part": "mon", "mean": "= warn" }
       ],
-      "origin": "아래에서 경고하여 부르다 → 소환하다"
+      "origin": "남몰래 경고하다 → 법원에 소환하다",
+      "derivatives": [
+        { "en": "summons", "pos": "명", "defs": ["(복수형 summonses) (법원) 소환장, 호출"] }
+      ],
+      "examples": [
+        { "en": "I demanded that he be **summoned** to court.", "ko": "나는 그에게 법정에 출두할 것을 요구했다." },
+        { "en": "He **summoned** the courage to ask a question.", "ko": "그는 어렵게 질문할 용기를 냈다.", "source": "모의" }
+      ]
     },
     {
       "en": "eliminate",
-      "ipa": "/ɪˈlɪmɪneɪt/",
+      "ipa": ["[ilímənèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "제거하다"
-          ]
+          "defs": ["제거하다, 없애다"]
         }
       ],
+      "synonyms": ["remove, get rid of, do away with"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "limin(lim)",
-          "mean": "문지방 (threshold)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "e(ex)", "mean": "= out" },
+        { "part": "limin", "mean": "= threshold" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "문지방 밖으로 내보내다 → 제거하다"
+      "origin": "문턱 밖으로 밀쳐내다",
+      "derivatives": [
+        { "en": "elimination", "pos": "명", "defs": ["제거, 삭제"] }
+      ],
+      "examples": [
+        { "en": "We need to **eliminate** unnecessary expenses in order to save money.", "ko": "우리는 돈을 절약하기 위해 불필요한 지출을 없애야 한다." }
+      ]
     },
     {
       "en": "preliminary",
-      "ipa": "/prɪˈlɪmɪneri/",
+      "ipa": ["[prilímənèri]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "예비의"
-          ]
+          "defs": ["예비의, 준비의; 예선의; 서두의"]
         },
         {
           "pos": "명",
-          "defs": [
-            "예비 단계"
-          ]
+          "defs": ["예비, 준비; 예선전; 서두"]
         }
       ],
+      "synonyms": ["preparatory, introductory"],
       "parts": [
-        {
-          "part": "pre-",
-          "mean": "앞에 (before)"
-        },
-        {
-          "part": "limin(lim)",
-          "mean": "문지방 (threshold)"
-        },
-        {
-          "part": "-ary",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "pre", "mean": "= before" },
+        { "part": "limin", "mean": "= threshold" },
+        { "part": "ary", "mean": "형접" }
       ],
-      "origin": "문지방 앞의 → 예비의"
+      "origin": "문턱 앞에 놓인 → 본격적인 것 전의\n→ 예비(의), 예선(의)",
+      "examples": [
+        { "en": "He was relieved when he passed the **preliminary** exam.", "ko": "그는 예비시험에 합격하자 안도했다." }
+      ]
     },
     {
       "en": "limit",
-      "ipa": "/ˈlɪmɪt/",
+      "ipa": ["[límit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "제한"
-          ]
+          "defs": ["1 (양·속도 등의) 제한(선); 경계", "2 *한계(량), 극한, 최대치"]
         },
         {
           "pos": "동",
-          "defs": [
-            "제한하다"
-          ]
+          "defs": ["*제한하다, 한정하다"]
         }
       ],
+      "synonyms": ["boundary", "restrict, confine"],
       "parts": [
-        {
-          "part": "lim",
-          "mean": "문지방, 경계 (threshold, boundary)"
-        },
-        {
-          "part": "-it",
-          "mean": "명사형 접미사"
-        }
+        { "part": "limit", "mean": "" }
       ],
-      "origin": "경계 → 제한"
+      "origin": "라틴어 limes(=boundary)에서 온 말\n※ [원뜻] 밭과 밭 사이에 난 독길을 나타내는 말로, 독길이 밭 사이의 경계를 표시한다는 것에서 유래",
+      "derivatives": [
+        { "en": "limitation", "pos": "명", "defs": ["제한, 한계, 규제"] },
+        { "en": "limited", "pos": "형", "defs": ["제한적인, 한정된"] },
+        { "en": "limitless", "pos": "형", "defs": ["제한이 없는, 방대한"] }
+      ],
+      "antonyms": ["unlimited"],
+      "examples": [
+        { "en": "I have regularly witnessed vehicles traveling far in excess of the speed **limit** on Pine Street.", "ko": "나는 Pine가에서 자동차들이 제한 속도를 훨씬 초과하여 달리는 것을 자주 목격해 왔다.", "source": "모의" },
+        { "en": "The camp is **limited** to participants over 16 years old.", "ko": "그 캠프는 16세 이상의 참가자만 참여 가능합니다.", "source": "모의" },
+        { "en": "a time **limitation**", "ko": "시간 제한" }
+      ]
     },
     {
       "en": "text",
-      "ipa": "/tekst/",
+      "ipa": ["[tekst]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "본문",
-            "글"
-          ]
+          "defs": ["1 *본문, (모든 형태의) 글, 텍스트", "2 원문"]
+        },
+        {
+          "pos": "동",
+          "defs": ["문자 메시지를 보내다"]
         }
       ],
       "parts": [
-        {
-          "part": "text",
-          "mean": "짜다, 직물 (weave)"
-        }
+        { "part": "text", "mean": "" }
       ],
-      "origin": "짜여진 것 → 글"
+      "origin": "라틴어 textus(=woven thing 짜인 것)에서 온 말 → 낱말을 엮은 것 → 글",
+      "derivatives": [
+        { "en": "textbook", "pos": "명", "defs": ["교과서, 교본"] }
+      ],
+      "examples": [
+        { "en": "Sometimes, visual information is important for understanding the **text**.", "ko": "종종 시각적 정보가 글을 이해하는 데 중요하다.", "source": "교과서" },
+        { "en": "I'll **text** you his cell phone number.", "ko": "그의 휴대전화 번호를 너에게 문자로 보낼게." }
+      ]
     },
     {
       "en": "context",
-      "ipa": "/ˈkɑːntekst/",
+      "ipa": ["[kɑ́ːntekst]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "문맥",
-            "정황"
-          ]
+          "defs": ["1 *(사건 등의) 배경, 정황", "2 (문장의) 문맥, 전후 관계"]
         }
       ],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "text",
-          "mean": "짜다 (weave)"
-        }
+        { "part": "con", "mean": "= com:together" },
+        { "part": "text", "mean": "= weave" }
       ],
-      "origin": "함께 짜여진 것 → 문맥"
+      "origin": "함께 엮인 웹[상황] → 배경, 문맥",
+      "examples": [
+        { "en": "The report should be considered within its social **context**.", "ko": "그 보고서는 그것의 사회적 맥락 내에서 고찰되어야 한다." },
+        { "en": "The meaning of this sentence changes depending on the **context**.", "ko": "이 문장의 의미는 문맥에 따라 달라진다." }
+      ]
     },
     {
       "en": "textile",
-      "ipa": "/ˈtekstaɪl/",
+      "ipa": ["[tékstail]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "직물",
-            "옷감"
-          ]
+          "defs": ["직물, 옷감"]
         }
       ],
+      "synonyms": ["cloth, fabric"],
       "parts": [
-        {
-          "part": "text",
-          "mean": "짜다 (weave)"
-        },
-        {
-          "part": "-ile",
-          "mean": "명사형 접미사"
-        }
+        { "part": "text", "mean": "= weave" },
+        { "part": "ile", "mean": "명접" }
       ],
-      "origin": "짜여진 것 → 직물"
+      "origin": "실이 짜인 것 → 천, 직물",
+      "examples": [
+        { "en": "That **textile** factory produces the finest cotton fabric.", "ko": "그 직물 공장은 최고급의 면직물을 생산한다." }
+      ]
     },
     {
       "en": "texture",
-      "ipa": "/ˈtekstʃər/",
+      "ipa": ["[tékstʃər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "감촉",
-            "질감"
-          ]
+          "defs": ["1 *감촉, 질감, 결", "2 짜임새, 조화"]
         }
       ],
       "parts": [
-        {
-          "part": "text",
-          "mean": "짜다 (weave)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
+        { "part": "text", "mean": "= weave" },
+        { "part": "ure", "mean": "명접" }
       ],
-      "origin": "짜여진 느낌 → 질감"
+      "origin": "짜어진 모양, 짜임새\n→ 짜임새에 따른 느낌, 질감",
+      "examples": [
+        { "en": "If frozen quickly, freshly caught fish will keep their taste and **texture**.", "ko": "갓 잡힌 물고기가 빨리 냉동되면 그 맛과 식감이 유지될 것이다.", "source": "모의" }
+      ]
     },
     {
       "en": "comprehend",
-      "ipa": "/ˌkɑːmprɪˈhend/",
+      "ipa": ["[kɑ̀ːmprihénd]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "이해하다"
-          ]
+          "defs": ["이해하다, 파악하다"]
         }
       ],
+      "synonyms": ["understand, grasp"],
       "parts": [
-        {
-          "part": "com-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "prehend",
-          "mean": "잡다 (seize, grasp)"
-        }
+        { "part": "com", "mean": "「강조」" },
+        { "part": "prehend", "mean": "= seize" }
       ],
-      "origin": "완전히 잡다 → 이해하다"
+      "origin": "(지식을 머릿속에) 완전히 붙잡다\n→ 이해하다",
+      "derivatives": [
+        { "en": "comprehension", "pos": "명", "defs": ["이해(력)"] },
+        { "en": "comprehensive", "pos": "형", "defs": ["포괄적인, 광범위한"] },
+        { "en": "comprehensible", "pos": "형", "defs": ["이해할 수 있는"] }
+      ],
+      "synonyms_extra": ["understanding", "thorough, extensive", "intelligible"],
+      "antonyms": ["incomprehensible"],
+      "examples": [
+        { "en": "The book gave a **comprehensive** summary, making it easier to **comprehend** the story.", "ko": "그 책은 전체적인 요약을 제공하여 이야기를 이해하기 쉽게 만들어 준다." },
+        { "en": "reading **comprehension**", "ko": "독해(력)" }
+      ]
     },
     {
       "en": "prison",
-      "ipa": "/ˈprɪzn/",
+      "ipa": ["[prízən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "교도소"
-          ]
+          "defs": ["감옥, 교도소"]
         }
       ],
+      "synonyms": ["jail"],
       "parts": [
-        {
-          "part": "pris",
-          "mean": "잡다 (seize)"
-        },
-        {
-          "part": "-on",
-          "mean": "명사형 접미사"
-        }
+        { "part": "pris", "mean": "= seize" },
+        { "part": "on", "mean": "명사형 어미" }
       ],
-      "origin": "잡아두는 곳 → 교도소"
+      "origin": "붙잡아 놓기",
+      "derivatives": [
+        { "en": "prisoner", "pos": "명", "defs": ["죄수, 수감자; 포로"] }
+      ],
+      "examples": [
+        { "en": "The bank robber was sent to **prison** for ten years.", "ko": "그 은행 강도는 10년형을 선고받고 감옥에 수감되었다." }
+      ]
     },
     {
       "en": "imprison",
-      "ipa": "/ɪmˈprɪzn/",
+      "ipa": ["[imprízən]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "투옥하다"
-          ]
+          "defs": ["수감하다, 감금하다"]
         }
       ],
+      "synonyms": ["put in jail, confine"],
       "parts": [
-        {
-          "part": "im-(in-)",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "prison(pris)",
-          "mean": "감옥 (prison)"
-        }
+        { "part": "im(in)", "mean": "= into" },
+        { "part": "prison", "mean": "감옥" }
       ],
-      "origin": "감옥 안에 넣다 → 투옥하다"
+      "origin": "감옥 안에 넣다",
+      "derivatives": [
+        { "en": "imprisonment", "pos": "명", "defs": ["투옥 (상태), 감금"] }
+      ],
+      "examples": [
+        { "en": "Brunel was **imprisoned** for several months because of his debt.", "ko": "Brunel은 빚 때문에 수개월간 수감되어 있었다.", "source": "모의" }
+      ]
     },
     {
       "en": "surprise",
-      "ipa": "/sərˈpraɪz/",
+      "ipa": ["[sərpráiz]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "놀람"
-          ]
+          "pos": "동",
+          "defs": ["*놀라게 하다"]
         },
         {
-          "pos": "동",
-          "defs": [
-            "놀라게 하다"
-          ]
+          "pos": "명",
+          "defs": ["1 *놀람", "2 뜻밖의 일"]
         }
       ],
       "parts": [
-        {
-          "part": "sur-(super-)",
-          "mean": "위에서 (over)"
-        },
-        {
-          "part": "prise(pris)",
-          "mean": "잡다 (seize)"
-        }
+        { "part": "sur", "mean": "= super:over" },
+        { "part": "prise(pris)", "mean": "= take" }
       ],
-      "origin": "위에서 잡다 → 놀라게 하다"
+      "origin": "overtake (갑자기) 덮치다\n→ 놀라게 하다",
+      "derivatives": [
+        { "en": "surprising", "pos": "형", "defs": ["놀라운, 깜짝 놀랄 만한, 의외의"] },
+        { "en": "surprisingly", "pos": "부", "defs": ["놀랄 만큼, 의외로"] }
+      ],
+      "synonyms": ["amazing"],
+      "phrases": [
+        { "en": "to one's surprise", "ko": "놀랍게도" }
+      ],
+      "examples": [
+        { "en": "He continuously **surprises** me.", "ko": "그는 끊임없이 나를 놀라게 한다." },
+        { "en": "I didn't anticipate the offer, but it was a welcome **surprise**.", "ko": "나는 그 제안을 예상하진 못했지만 그것은 반가운 놀람이었다." }
+      ]
     },
     {
       "en": "enterprise",
-      "ipa": "/ˈentərpraɪz/",
+      "ipa": ["[éntərpràiz]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기업",
-            "사업"
-          ]
+          "defs": ["1 *기업, 회사", "2 진취적인 정신", "3 (중요하거나 모험적인) 사업, 계획"]
         }
       ],
+      "synonyms": ["firm", "venture"],
       "parts": [
-        {
-          "part": "enter-(inter-)",
-          "mean": "사이에 (between)"
-        },
-        {
-          "part": "prise(pris)",
-          "mean": "잡다 (take)"
-        }
+        { "part": "enter", "mean": "= inter:between" },
+        { "part": "prise(pris)", "mean": "= take" }
       ],
-      "origin": "사이에서 잡아 시작하다 → 사업"
+      "origin": "손안에 일을 꽉 잡음 → 과감히 일을 맡음\n→ (일을 맡아 이끄는) 기업, 회사",
+      "derivatives": [
+        { "en": "enterprising", "pos": "형", "defs": ["(사람·행동이) 진취[모험]적인"] }
+      ],
+      "examples": [
+        { "en": "Because its directors were **enterprising**, the company became the largest **enterprise** of its kind.", "ko": "회사의 중역들이 진취적이었기 때문에, 그 회사는 동종업계에서 가장 큰 기업이 되었다." }
+      ]
     },
     {
       "en": "prey",
-      "ipa": "/preɪ/",
+      "ipa": ["[prei]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "먹이",
-            "희생자"
-          ]
-        }
-      ],
-      "parts": [
+          "defs": ["1 *먹이", "2 희생물, 희생자"]
+        },
         {
-          "part": "prey(pris)",
-          "mean": "잡다 (seize)"
+          "pos": "동",
+          "defs": ["(+ (up)on) 1 잡아먹다, 먹이로 삼다", "2 괴롭히다"]
         }
       ],
-      "origin": "잡히는 것 → 먹이"
+      "antonyms": ["predator"],
+      "parts": [
+        { "part": "prey", "mean": "" }
+      ],
+      "origin": "고대 프랑스어 preie(쫓겨서 잡힌 동물)에서 온 말",
+      "phrases": [
+        { "en": "fall prey to", "ko": "…의 희생물이 되다" }
+      ],
+      "examples": [
+        { "en": "Octopuses use camouflage both to hide from predators and to secretly crawl up to their **prey**.", "ko": "문어는 포식자로부터 숨기 위해, 또 먹잇감에 몰래 접근하기 위해 위장술을 사용한다.", "source": "교과서" },
+        { "en": "She **fell prey to** financial fraud.", "ko": "그녀는 금융 사기의 희생양이 되었다." }
+      ]
     },
     {
       "en": "prosper",
-      "ipa": "/ˈprɑːspər/",
+      "ipa": ["[prɑ́ːspər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "번영하다"
-          ]
+          "defs": ["(일·사업 등이) 번영[번창]하다, 성공하다"]
         }
       ],
+      "synonyms": ["thrive, succeed"],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "sper",
-          "mean": "희망 (hope)"
-        }
+        { "part": "pro", "mean": "= forward" },
+        { "part": "sper", "mean": "= hope" }
       ],
-      "origin": "앞으로 희망이 있다 → 번영하다"
+      "origin": "희망을 가지고 앞으로 나아가다 → 번영하다",
+      "derivatives": [
+        { "en": "prosperous", "pos": "형", "defs": ["번영하는, 성공한"] },
+        { "en": "prosperity", "pos": "명", "defs": ["번영, 성공"] }
+      ],
+      "synonyms_extra": ["affluent"],
+      "examples": [
+        { "en": "His business **prospered** as expected.", "ko": "그의 사업은 예상대로 번창했다." },
+        { "en": "Material **prosperity** can help society attain higher levels of happiness.", "ko": "물질적인 풍요로움은 사회가 더 높은 수준의 행복에 도달하도록 도울 수 있다.", "source": "수능" }
+      ]
     },
     {
       "en": "despair",
-      "ipa": "/dɪˈsper/",
+      "ipa": ["[dispéər]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "절망"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "절망하다"
-          ]
+          "pos": "명/동",
+          "defs": ["절망(하다), 자포자기(하다)"]
         }
       ],
+      "antonyms": ["hope"],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "떨어져, 반대 (away)"
-        },
-        {
-          "part": "spair(sper)",
-          "mean": "희망 (hope)"
-        }
+        { "part": "de", "mean": "= away from" },
+        { "part": "spair(sper)", "mean": "= hope" }
       ],
-      "origin": "희망에서 떨어지다 → 절망"
+      "origin": "희망에서 멀어지다 → 희망을 잃다\n→ 절망하다",
+      "derivatives": [
+        { "en": "desperate", "pos": "형", "defs": ["1 절박한, 필사적인", "2 자포자기의", "3 심각한, 절망적인"] },
+        { "en": "desperately", "pos": "부", "defs": ["1 필사적으로", "2 몹시"] }
+      ],
+      "synonyms": ["hopeless, serious"],
+      "examples": [
+        { "en": "Sam felt **despair** over his **desperate** financial situation.", "ko": "Sam은 그의 심각한 재정 상태에 절망감을 느꼈다." },
+        { "en": "The lab is developing medicines that give hope to **desperate** patients.", "ko": "그 연구실은 절박한 환자들에게 희망을 주는 약물을 개발하고 있다." }
+      ]
     },
     {
       "en": "please",
-      "ipa": "/pliːz/",
+      "ipa": ["[plíːz]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "기쁘게 하다"
-          ]
-        }
-      ],
-      "parts": [
+          "defs": ["기쁘게[즐겁게] 하다, 만족시키다"]
+        },
         {
-          "part": "pleas(plac)",
-          "mean": "기쁘게 하다 (please)"
+          "pos": "부/감",
+          "defs": ["*제발, 아무쪼록"]
         }
       ],
-      "origin": "기쁘게 하다"
+      "antonyms": ["displease(불쾌하게 하다)"],
+      "parts": [
+        { "part": "please", "mean": "" }
+      ],
+      "origin": "라틴어 placere(호감을 얻다, 인정받다)에서 온 말",
+      "derivatives": [
+        { "en": "pleased", "pos": "형", "defs": ["기뻐하는, 만족하는"] },
+        { "en": "pleasing", "pos": "형", "defs": ["기쁨을 주는, 만족스러운"] },
+        { "en": "pleasant", "pos": "형", "defs": ["즐거운, 기분 좋은"] },
+        { "en": "pleasure", "pos": "명", "defs": ["기쁨, 즐거움"] }
+      ],
+      "synonyms": ["delighted", "satisfying", "delight"],
+      "antonyms_extra": ["unpleasant", "displeasure(불쾌)"],
+      "examples": [
+        { "en": "It's hard to **please** everyone.", "ko": "모두를 만족시키기는 어렵다." },
+        { "en": "A: It was a very **pleasant** evening.\nB: Thank you. It was our **pleasure**. We'll be very **pleased** if you come again.", "ko": "A: 매우 즐거운 저녁이었습니다.\nB: 고맙습니다. 오히려 저희가 즐거웠습니다. 또 오시면 좋겠어요." }
+      ]
     },
     {
       "en": "plead",
-      "ipa": "/pliːd/",
+      "ipa": ["[plíːd]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "간청하다",
-            "변호하다"
-          ]
+          "defs": ["1 (+ with) (…에게) 애원하다, 간청[탄원]하다", "2 (소송에서) 주장[변론]하다"]
         }
       ],
+      "synonyms": ["beg"],
       "parts": [
-        {
-          "part": "plead(plac)",
-          "mean": "기쁘게 하다, 달래다 (please, appease)"
-        }
+        { "part": "plead", "mean": "" }
       ],
-      "origin": "기쁘게 해달라고 하다 → 간청하다"
+      "origin": "※ please와 어원이 같음\n인정을 받기 위해 의견을 내다 →\n탄원하다, 변명하다",
+      "derivatives": [
+        { "en": "plea", "pos": "명", "defs": ["1 간청, 탄원", "2 (소송에서의) 항변, 주장"] }
+      ],
+      "examples": [
+        { "en": "I **pleaded with** her not to leave.", "ko": "나는 그녀에게 떠나지 말라고 애원했다." },
+        { "en": "He **pleaded** innocent to the charges.", "ko": "그는 그 혐의에 대해 무죄를 주장했다." }
+      ]
     }
   ]
 }

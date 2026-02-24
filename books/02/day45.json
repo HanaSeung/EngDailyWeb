@@ -3,612 +3,588 @@
   "words": [
     {
       "en": "fable",
-      "ipa": "/ˈfeɪbl/",
+      "ipa": ["[féibəl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "우화"
-          ]
+          "defs": ["우화 (寓話: 인격화한 동물 등이 나오는 교훈적인 이야기)"]
         }
       ],
       "parts": [
-        {
-          "part": "fa",
-          "mean": "말하다 (speak)"
-        },
-        {
-          "part": "-ble",
-          "mean": "명사형 접미사"
-        }
+        { "part": "fa", "mean": "= talk" },
+        { "part": "ble", "mean": "어미" }
       ],
-      "origin": "이야기된 것 → 우화"
+      "origin": "말하다 → 이야기",
+      "derivatives": [
+        { "en": "fabulous", "pos": "형", "defs": ["1 기막히게 멋진", "2 엄청난", "3 우화 같은, 전설적인"] }
+      ],
+      "examples": [
+        { "en": "Aesop's **Fables**", "ko": "이솝 우화" },
+        { "en": "Come and enjoy the **fabulous** drawings, sculptures, and photographs at the 20th Virginia Art Show.", "ko": "제20회 버지니아 아트 쇼에 오셔서 멋진 그림, 조각품, 그리고 사진들을 감상하세요.", "source": "수능" }
+      ]
     },
     {
       "en": "fate",
-      "ipa": "/feɪt/",
+      "ipa": ["[feit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "운명"
-          ]
+          "defs": ["운명, 숙명"]
         }
       ],
+      "synonyms": ["destiny"],
       "parts": [
-        {
-          "part": "fat(fa)",
-          "mean": "말하다, 선언하다 (speak, decree)"
-        }
+        { "part": "fate", "mean": "= speak" }
       ],
-      "origin": "선언된 것 → 운명"
+      "origin": "신(神)의 말씀 → 운명, 숙명",
+      "derivatives": [
+        { "en": "fatal", "pos": "형", "defs": ["1 치명적인, 죽음에 이르게 하는", "2 (부정적으로) 결정적인, 중대한"] },
+        { "en": "fateful", "pos": "형", "defs": ["운명적인, 숙명적인"] }
+      ],
+      "examples": [
+        { "en": "No one knows what his or her **fate** may be.", "ko": "아무도 자신의 운명이 어떻게 될지 모른다." },
+        { "en": "a **fatal** wound", "ko": "치명상" }
+      ]
     },
     {
       "en": "fame",
-      "ipa": "/feɪm/",
+      "ipa": ["[feim]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "명성"
-          ]
+          "defs": ["명성, 평판"]
         }
       ],
+      "synonyms": ["reputation"],
       "parts": [
-        {
-          "part": "fam(fa)",
-          "mean": "말하다 (speak)"
-        }
+        { "part": "fame", "mean": "= talk" }
       ],
-      "origin": "많이 이야기되는 것 → 명성"
+      "origin": "(…에 대한) 이야기, 소문 → 명성, 평판",
+      "derivatives": [
+        { "en": "famous", "pos": "형", "defs": ["유명한"] },
+        { "en": "infamous", "pos": "형", "defs": ["악명 높은"] }
+      ],
+      "synonyms_extra": ["well-known", "notorious"],
+      "examples": [
+        { "en": "It is well known that Van Gogh gained his **fame** only after his death.", "ko": "반 고흐가 사후에야 명성을 얻었다는 것은 잘 알려져 있다.", "source": "교과서" },
+        { "en": "Hall of **Fame**", "ko": "명예의 전당" },
+        { "en": "A: The **famous** woman's photo was in the newspaper.\nB: Yes, she caught the **infamous** bank robber.", "ko": "A: 그 유명한 여자의 사진이 신문에 실렸어.\nB: 응, 그녀가 그 악명 높은 은행 강도를 검거했지." }
+      ]
     },
     {
       "en": "infant",
-      "ipa": "/ˈɪnfənt/",
+      "ipa": ["[ínfənt]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "유아",
-            "아기"
-          ]
+          "pos": "명/형",
+          "defs": ["1 *유아(의), 아기(의)", "2 초기(의)"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "fant(fa)",
-          "mean": "말하다 (speak)"
-        }
+        { "part": "in", "mean": "= not" },
+        { "part": "fa", "mean": "= speak" },
+        { "part": "nt", "mean": "= ant 명접" }
       ],
-      "origin": "말 못 하는 아이 → 유아"
+      "origin": "말하지 못하는 사람 → 유아, 아기\n※ 생후 일 년 동안은 infant가 한두 마디 정도밖에는 말하지 못하는 데서 유래",
+      "derivatives": [
+        { "en": "infancy", "pos": "명", "defs": ["1 유아기", "2 초기 (단계)"] }
+      ],
+      "phrases": [
+        { "en": "cf. newborn", "ko": "갓 태어난; 신생아" },
+        { "en": "toddler", "ko": "막 걷기 시작한 어린아이" }
+      ],
+      "examples": [
+        { "en": "Human newborn **infants** also show a strong preference for sweet liquids.", "ko": "갓 태어난 아기들도 단맛이 나는 액체를 매우 선호한다.", "source": "수능" },
+        { "en": "The project is still in its **infancy**.", "ko": "그 프로젝트는 아직 초기 단계에 있다." }
+      ]
     },
     {
       "en": "confess",
-      "ipa": "/kənˈfes/",
+      "ipa": ["[kənfés]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "자백하다",
-            "인정하다"
-          ]
+          "defs": ["1 (범죄·잘못 등을) 자백하다, 시인하다", "2 고백하다, 고해하다"]
         }
       ],
+      "synonyms": ["acknowledge, admit"],
       "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "fess",
-          "mean": "고백하다 (declare, confess)"
-        }
+        { "part": "con", "mean": "= com:「강조」" },
+        { "part": "fess", "mean": "= say" }
       ],
-      "origin": "완전히 고백하다 → 자백하다"
+      "origin": "모두 말하다 → 자백하다, 고백하다",
+      "derivatives": [
+        { "en": "confession", "pos": "명", "defs": ["1 (범죄 등의) 자백", "2 고백, 고해"] }
+      ],
+      "examples": [
+        { "en": "I don't know why he **confessed** to a crime that he didn't commit.", "ko": "나는 왜 그가 자신이 저지르지도 않은 죄를 자백했는지 모르겠다." }
+      ]
     },
     {
       "en": "professional",
-      "ipa": "/prəˈfeʃənl/",
+      "ipa": ["[prəféʃənəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "전문적인"
-          ]
+          "defs": ["1 직업상의, 전문적인", "2 전문직의", "3 *전문가의, 프로의"]
         },
         {
           "pos": "명",
-          "defs": [
-            "전문가"
-          ]
+          "defs": ["1 전문가, (지적) 직업인", "2 직업 선수, 프로"]
         }
       ],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞에서 (before)"
-        },
-        {
-          "part": "fess",
-          "mean": "고백하다, 공언 (declare)"
-        },
-        {
-          "part": "-ional",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "pro", "mean": "= forth, in public" },
+        { "part": "fess", "mean": "= say" },
+        { "part": "ion", "mean": "명접" },
+        { "part": "al", "mean": "형접" }
       ],
-      "origin": "앞에서 공언한 → 전문적인"
+      "origin": "(대중) 앞에서 말하는 직업을 가진\n→ 전문적인",
+      "derivatives": [
+        { "en": "profess", "pos": "동", "defs": ["1 (남들이 믿지 않는 것을) 주장하다", "2 (감정·신념 등을) 공언하다"] },
+        { "en": "professor", "pos": "명", "defs": ["교수"] },
+        { "en": "profession", "pos": "명", "defs": ["1 (전문직 등의) 직업", "2 공언, 선언"] }
+      ],
+      "synonyms": ["declare, proclaim"],
+      "examples": [
+        { "en": "You can get **professional** advice from the company.", "ko": "그 회사에서 전문적인 조언을 얻으실 수 있습니다." },
+        { "en": "He **professed** to be a strong believer in the idea.", "ko": "그는 그 사상을 강하게 신봉한다고 공언했다." }
+      ]
     },
     {
       "en": "political",
-      "ipa": "/pəˈlɪtɪkl/",
+      "ipa": ["[pəlítikəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "정치적인"
-          ]
+          "defs": ["1 정치(상)의", "2 *정치적인"]
         }
       ],
       "parts": [
-        {
-          "part": "poli",
-          "mean": "도시, 국가 (city, state)"
-        },
-        {
-          "part": "-tical",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "polit", "mean": "= citizen" },
+        { "part": "ical", "mean": "형접" }
       ],
-      "origin": "도시(국가)의 → 정치적인"
+      "origin": "시민의 → 국민의 → 국가 정치의",
+      "derivatives": [
+        { "en": "politics", "pos": "명", "defs": ["(단수 취급) 정치(학)"] },
+        { "en": "politician", "pos": "명", "defs": ["정치인"] }
+      ],
+      "examples": [
+        { "en": "A: The nation is having **political** difficulties.\nB: It's probably due to the corruption of the **politicians**.", "ko": "A: 그 나라는 정치적인 어려움을 겪고 있어.\nB: 그것은 아마도 정치인들의 부패 때문일 거야." }
+      ]
     },
     {
       "en": "policy",
-      "ipa": "/ˈpɑːləsi/",
+      "ipa": ["[pɑ́ːləsi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "정책",
-            "방침"
-          ]
+          "defs": ["1 *정책, 방책, 방침", "2 보험 증권"]
         }
       ],
       "parts": [
-        {
-          "part": "poli",
-          "mean": "도시, 국가 (city)"
-        },
-        {
-          "part": "-cy",
-          "mean": "명사형 접미사"
-        }
+        { "part": "polic", "mean": "= city" },
+        { "part": "y", "mean": "명접" }
       ],
-      "origin": "국가의 방침 → 정책"
+      "origin": "[원뜻] administration of a city \n 시의 행정 → 정책",
+      "phrases": [
+        { "en": "cf. policymaking", "ko": "정책 입안[수립]" },
+        { "en": "policymaker", "ko": "정책 입안[수립]자" }
+      ],
+      "examples": [
+        { "en": "The Dutch government adopted a **policy** designed to cut pesticide use in half.", "ko": "네덜란드 정부는 농약 사용량을 절반으로 줄이기 위한 정책을 채택했다.", "source": "모의" },
+        { "en": "The department store has a free-return **policy**.", "ko": "그 백화점은 무료 반품 정책을 가지고 있다." }
+      ]
     },
     {
       "en": "metropolis",
-      "ipa": "/məˈtrɑːpəlɪs/",
+      "ipa": ["[mətrɑ́ːpəlis]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "대도시"
-          ]
+          "defs": ["대도시; 수도"]
         }
       ],
       "parts": [
-        {
-          "part": "metro-",
-          "mean": "어머니 (mother)"
-        },
-        {
-          "part": "polis(poli)",
-          "mean": "도시 (city)"
-        }
+        { "part": "metro", "mean": "= mother" },
+        { "part": "polis", "mean": "= city" }
       ],
-      "origin": "어머니 도시 → 대도시"
+      "origin": "mother city 모체가 되는 도시",
+      "derivatives": [
+        { "en": "metropolitan", "pos": "형", "defs": ["대도시의; 수도의"] }
+      ],
+      "examples": [
+        { "en": "Seoul is a highly populated **metropolis**.", "ko": "서울은 인구 밀도가 매우 높은 대도시이다." },
+        { "en": "This is the best place for pizza in **metropolitan** Chicago.", "ko": "이곳은 시카고 도시권에서 피자가 가장 맛있는 곳이다." }
+      ]
     },
     {
       "en": "prepare",
-      "ipa": "/prɪˈper/",
+      "ipa": ["[pripéər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "준비하다"
-          ]
+          "defs": ["준비하다, 대비하다"]
         }
       ],
       "parts": [
-        {
-          "part": "pre-",
-          "mean": "미리 (before)"
-        },
-        {
-          "part": "pare(par)",
-          "mean": "준비하다, 마련하다 (make ready)"
-        }
+        { "part": "pre", "mean": "= before" },
+        { "part": "pare", "mean": "= make ready" }
       ],
-      "origin": "미리 마련하다 → 준비하다"
+      "origin": "미리 준비하다",
+      "derivatives": [
+        { "en": "preparation", "pos": "명", "defs": ["준비, 대비"] }
+      ],
+      "examples": [
+        { "en": "He didn't **prepare** enough for the exam.", "ko": "그는 시험을 위해 충분히 대비하지 않았다." },
+        { "en": "He made all the necessary **preparations**, and then set out for his hunting trip.", "ko": "그는 필요한 모든 준비를 마친 후, 사냥 여행을 떠났다.", "source": "모의" }
+      ]
     },
     {
       "en": "repair",
-      "ipa": "/rɪˈper/",
+      "ipa": ["[ripéər]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "수리하다"
-          ]
+          "defs": ["수리[수선]하다; 바로잡다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "수리"
-          ]
+          "defs": ["수리, 수선, 보수"]
         }
       ],
+      "synonyms": ["fix"],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "pair(par)",
-          "mean": "준비하다 (make ready)"
-        }
+        { "part": "re", "mean": "= again" },
+        { "part": "pair", "mean": "= make ready" }
       ],
-      "origin": "다시 마련하다 → 수리하다"
+      "origin": "다시 (쓸 수 있게) 준비시키다",
+      "derivatives": [
+        { "en": "repairable", "pos": "형", "defs": ["(또는 reparable) 수리 가능한"] },
+        { "en": "repairman", "pos": "명", "defs": ["수리공"] },
+        { "en": "disrepair", "pos": "명", "defs": ["황폐, 파손 상태"] }
+      ],
+      "antonyms": ["irreparable"],
+      "examples": [
+        { "en": "Carla spent a lot of money **repairing** her broken laptop.", "ko": "Carla는 고장난 노트북을 고치는데 많은 돈을 썼다." },
+        { "en": "The **repairman** had to put significant time and effort into the **repair** of the machines.", "ko": "그 수리공은 기계의 수리에 상당한 시간과 노력을 들여야 했다.", "source": "모의" }
+      ]
     },
     {
       "en": "emperor",
-      "ipa": "/ˈempərər/",
+      "ipa": ["[émpərər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "황제"
-          ]
+          "defs": ["황제, 제왕"]
         }
       ],
       "parts": [
-        {
-          "part": "em-(in-)",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "per(par)",
-          "mean": "준비하다, 명령 (order)"
-        },
-        {
-          "part": "-or",
-          "mean": "사람 접미사"
-        }
+        { "part": "em", "mean": "= in:upon, against" },
+        { "part": "per", "mean": "= make ready" },
+        { "part": "or", "mean": "명접:「사람」" }
       ],
-      "origin": "명령하는 사람 → 황제"
+      "origin": "…에 대해 준비시키는 사람\n→ 명령하는 사람 → 통치자",
+      "derivatives": [
+        { "en": "empire", "pos": "명", "defs": ["제국"] },
+        { "en": "empress", "pos": "명", "defs": ["여자 황제; 황후"] }
+      ],
+      "phrases": [
+        { "en": "cf. imperial", "ko": "제국의, 황제의" }
+      ],
+      "examples": [
+        { "en": "Augustus, the first **emperor** of Rome, laid the foundation of a powerful **empire**.", "ko": "로마의 첫 황제인 아우구스투스는 강력한 제국의 기반을 마련했다." }
+      ]
     },
     {
       "en": "imperative",
-      "ipa": "/ɪmˈperətɪv/",
+      "ipa": ["[impérətiv]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "필수적인",
-            "긴급한"
-          ]
+          "defs": ["피할 수 없는, 필수적인"]
+        },
+        {
+          "pos": "명",
+          "defs": ["명령, 필요(성); 의무, 책무"]
         }
       ],
       "parts": [
-        {
-          "part": "im-(in-)",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "per(par)",
-          "mean": "명령 (command)"
-        },
-        {
-          "part": "-ative",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "im", "mean": "= in:into" },
+        { "part": "per", "mean": "= make ready" },
+        { "part": "ative", "mean": "형접" }
       ],
-      "origin": "명령하는 → 필수적인"
+      "origin": "…에 준비하도록 명령하는",
+      "examples": [
+        { "en": "It is **imperative** that we act immediately to address climate change.", "ko": "기후 변화에 대응하기 위해 즉시 행동에 나서는 것이 필수적이다." }
+      ]
     },
     {
       "en": "testify",
-      "ipa": "/ˈtestɪfaɪ/",
+      "ipa": ["[téstəfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "증언하다"
-          ]
+          "defs": ["1 증언하다", "2 증명하다, …의 증거가 되다"]
         }
       ],
       "parts": [
-        {
-          "part": "test",
-          "mean": "증인 (witness)"
-        },
-        {
-          "part": "-ify",
-          "mean": "만들다 (make)"
-        }
+        { "part": "testi", "mean": "= witness" },
+        { "part": "fy", "mean": "동접" }
       ],
-      "origin": "증인이 되다 → 증언하다"
+      "origin": "증인이 되다",
+      "examples": [
+        { "en": "The man agreed to **testify** to help his friend.", "ko": "그 남자는 친구를 도와주기 위해 증언하는 것에 동의했다." }
+      ]
     },
     {
       "en": "contest",
-      "ipa": "/ˈkɑːntest/",
+      "ipa": ["동 [kəntést]", "명 [kɑ́ːntest]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "대회"
-          ]
-        },
-        {
           "pos": "동",
-          "defs": [
-            "다투다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "defs": ["1 경쟁하다, 겨루다", "2 논쟁하다"]
         },
         {
-          "part": "test",
-          "mean": "증인 (witness)"
+          "pos": "명",
+          "defs": ["*경쟁, 시합"]
         }
       ],
-      "origin": "함께 증인을 세우며 겨루다 → 대회"
+      "synonyms": ["competition"],
+      "parts": [
+        { "part": "con", "mean": "= com:together" },
+        { "part": "test", "mean": "= witness" }
+      ],
+      "origin": "[원뜻] 양쪽 증인들을 불러 모으다\n→ (양측이) 겨루다, 논쟁하다",
+      "derivatives": [
+        { "en": "contestant", "pos": "명", "defs": ["(대회·시합 등의) 참가자"] }
+      ],
+      "synonyms_extra": ["competitor, participant"],
+      "examples": [
+        { "en": "Bolling became famous by winning the prize at a piano **contest** in France.", "ko": "Bolling은 프랑스에서 열린 한 피아노 대회에서 상을 수상하며 유명해졌다.", "source": "모의" }
+      ]
     },
     {
       "en": "protest",
-      "ipa": "/ˈproʊtest/",
+      "ipa": ["동 [prətést]", "명 [próutest]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "항의"
-          ]
+          "pos": "동",
+          "defs": ["(+ against) 항의하다, 이의를 제기하다"]
         },
         {
-          "pos": "동",
-          "defs": [
-            "항의하다"
-          ]
+          "pos": "명",
+          "defs": ["항의, 이의 (제기); 시위"]
         }
       ],
       "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞에서 (before)"
-        },
-        {
-          "part": "test",
-          "mean": "증인 (witness)"
-        }
+        { "part": "pro", "mean": "= forth, in public" },
+        { "part": "test", "mean": "= witness" }
       ],
-      "origin": "앞에서 증언하다 → 항의하다"
+      "origin": "앞에 나서서 증언하다",
+      "examples": [
+        { "en": "Students **protested against** the decision, but the **protest** was ignored.", "ko": "학생들은 그 결정에 항의했지만, 그 항의는 묵살되었다." }
+      ]
     },
     {
       "en": "relate",
-      "ipa": "/rɪˈleɪt/",
+      "ipa": ["[riléit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "관련시키다",
-            "이야기하다"
-          ]
+          "defs": ["1 (+ to) *관계를 짓다, 관련시키다*", "2 (사건 등을) 이야기하다, 설명하다"]
         }
       ],
+      "synonyms": ["connect"],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "뒤로, 다시 (back)"
-        },
-        {
-          "part": "late(lat)",
-          "mean": "나르다 (carry, bring)"
-        }
+        { "part": "re", "mean": "= back, again" },
+        { "part": "late", "mean": "= carry" }
       ],
-      "origin": "다시 가져오다 → 관련시키다"
+      "origin": "(있었던 일을) 다시 (말로) 나르다\n→ 이야기하다",
+      "derivatives": [
+        { "en": "relation", "pos": "명", "defs": ["(주로 복수형) 관계, 관련"] },
+        { "en": "relative", "pos": "명/형", "defs": ["친척, 인척 / 상대적인"] },
+        { "en": "relatively", "pos": "부", "defs": ["비교적, 다른 것에 비해"] },
+        { "en": "relationship", "pos": "명", "defs": ["1 관계(됨), 관련", "2 (연인) 관계"] }
+      ],
+      "synonyms_extra": ["comparative", "comparatively"],
+      "antonyms": ["absolute"],
+      "phrases": [
+        { "en": "in relation to", "ko": "…와 관련하여, …와 비교하여" }
+      ],
+      "examples": [
+        { "en": "We believe that the quality of the decision is directly **related to** the time and effort that went into making it.", "ko": "우리는 결정의 품질이 그 결정을 내리는데 투입된 시간 및 노력과 직접적으로 관련되어 있다고 믿는다.", "source": "모의" },
+        { "en": "We invited our **relatives** to dinner.", "ko": "우리는 친척들을 저녁 식사에 초대했다." },
+        { "en": "**relative** poverty", "ko": "상대적 빈곤" }
+      ]
     },
     {
       "en": "correlation",
-      "ipa": "/ˌkɔːrəˈleɪʃn/",
+      "ipa": ["[kɔ̀ːrəléiʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "상관관계"
-          ]
+          "defs": ["상호 관련[관계], 연관성"]
         }
       ],
       "parts": [
-        {
-          "part": "cor-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "lat",
-          "mean": "나르다 (carry)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+        { "part": "cor", "mean": "= com:together" },
+        { "part": "relation", "mean": "관계, 관련" }
       ],
-      "origin": "함께 관련된 것 → 상관관계"
+      "origin": "상호 관계",
+      "derivatives": [
+        { "en": "correlate", "pos": "동", "defs": ["서로 관계가 있다, 서로 관련시키다"] }
+      ],
+      "examples": [
+        { "en": "Studies show a strong **correlation** between sleep and academic performance.", "ko": "연구들에 따르면 수면과 학업 성취 사이에는 강한 상관관계가 있다." }
+      ]
     },
     {
       "en": "translate",
-      "ipa": "/trænzˈleɪt/",
+      "ipa": ["[trænsléit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "번역하다"
-          ]
+          "defs": ["1 *번역[통역]하다", "2 …로 여기다, 해석하다"]
         }
       ],
+      "synonyms": ["interpret"],
       "parts": [
-        {
-          "part": "trans-",
-          "mean": "가로질러 (across)"
-        },
-        {
-          "part": "late(lat)",
-          "mean": "나르다 (carry)"
-        }
+        { "part": "trans", "mean": "= across" },
+        { "part": "late", "mean": "= carry" }
       ],
-      "origin": "가로질러 나르다 → 번역하다"
+      "origin": "(말·글 등을) 이쪽에서 저쪽으로 옮기다",
+      "derivatives": [
+        { "en": "translation", "pos": "명", "defs": ["1 번역, 통역", "2 해석"] },
+        { "en": "translator", "pos": "명", "defs": ["1 번역가", "2 통역사"] }
+      ],
+      "synonyms_extra": ["interpretation", "interpreter"],
+      "phrases": [
+        { "en": "translate A into B", "ko": "A를 B로 번역[통역]하다" }
+      ],
+      "examples": [
+        { "en": "One of her novels has been **translated into** more than twenty languages.", "ko": "그녀의 소설 중 하나는 20개 이상의 언어로 번역되었다.", "source": "모의" },
+        { "en": "Without a **translation**, I couldn't understand the Spanish article.", "ko": "번역이 없었다면 나는 그 스페인어 기사를 이해할 수 없었을 것이다." }
+      ]
     },
     {
       "en": "elevate",
-      "ipa": "/ˈelɪveɪt/",
+      "ipa": ["[éləvèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "올리다",
-            "승격시키다"
-          ]
+          "defs": ["1 (지위·수준·압력 등을) 높이다, 향상하다, 승진시키다", "2 (물리적 위치를) (들어)올리다"]
         }
       ],
+      "synonyms": ["raise, promote", "lift"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "lev",
-          "mean": "가벼운, 들어올리다 (light, lift)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+        { "part": "e", "mean": "= ex:up" },
+        { "part": "lev", "mean": "= raise" },
+        { "part": "ate", "mean": "동접" }
       ],
-      "origin": "위로 들어올리다 → 승격시키다"
+      "origin": "위로 들어올리다",
+      "derivatives": [
+        { "en": "elevator", "pos": "명", "defs": ["엘리베이터, 승강기"] }
+      ],
+      "examples": [
+        { "en": "Caffeine temporarily **elevates** blood pressure.", "ko": "카페인은 일시적으로 혈압을 높인다." }
+      ]
     },
     {
       "en": "relevant",
-      "ipa": "/ˈreləvənt/",
+      "ipa": ["[réləvənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "관련 있는",
-            "적절한"
-          ]
+          "defs": ["(+ to) (…와) 관계가 있는, 관련된"]
         }
       ],
+      "synonyms": ["connected with"],
+      "antonyms": ["irrelevant"],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "lev",
-          "mean": "들어올리다 (lift)"
-        },
-        {
-          "part": "-ant",
-          "mean": "형용사형 접미사"
-        }
+        { "part": "re", "mean": "= again" },
+        { "part": "lev", "mean": "= raise" },
+        { "part": "ant", "mean": "형접" }
       ],
-      "origin": "다시 들어올릴 만한 → 관련 있는"
+      "origin": "(문제와 연관되어) 다시 올라온\n→ 관련된",
+      "derivatives": [
+        { "en": "relevance", "pos": "명", "defs": ["관련성, 타당성"] }
+      ],
+      "examples": [
+        { "en": "We provided all the **relevant** information to the police.", "ko": "우리는 모든 관련 정보를 경찰에게 제공했다." },
+        { "en": "Abstract ideas are hard to explain without **relevant** images.", "ko": "추상적인 개념은 관련된 이미지 없이는 설명하기 힘들다.", "source": "모의" }
+      ]
     },
     {
       "en": "relieve",
-      "ipa": "/rɪˈliːv/",
+      "ipa": ["[rilíːv]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "완화하다",
-            "덜어주다"
-          ]
+          "defs": ["(고통·고민 등을) 경감[완화]하다"]
         }
       ],
+      "synonyms": ["ease, lessen"],
       "parts": [
-        {
-          "part": "re-",
-          "mean": "다시 (again)"
-        },
-        {
-          "part": "lieve(lev)",
-          "mean": "가볍게 하다 (lighten)"
-        }
+        { "part": "re", "mean": "「강조」" },
+        { "part": "lieve", "mean": "= raise" }
       ],
-      "origin": "다시 가볍게 하다 → 완화하다"
+      "origin": "완전히 들어 올리다 → 가볍게 하다 →\n(고통 등을) 완전히 또는 부분적으로 없애다",
+      "derivatives": [
+        { "en": "relief", "pos": "명", "defs": ["1 안도, 안심", "2 (고통·근심 등의) 경감, 완화", "3 구호[원조] 물자"] },
+        { "en": "relieved", "pos": "형", "defs": ["안도하는, 다행으로 여기는"] }
+      ],
+      "phrases": [
+        { "en": "relieve A of B", "ko": "1 A에게서 B를 없애다  2 A를 B의 직위에서 해임시키다" }
+      ],
+      "examples": [
+        { "en": "Take this painkiller. It will **relieve** your headache.", "ko": "이 진통제를 드세요. 두통을 완화시켜 줄 것입니다." },
+        { "en": "The commander was **relieved of** his duties.", "ko": "그 사령관은 직위 해제되었다." }
+      ]
     },
     {
       "en": "theology",
-      "ipa": "/θiˈɑːlədʒi/",
+      "ipa": ["[θiɑ́ːlədʒi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "신학"
-          ]
+          "defs": ["신학"]
         }
       ],
       "parts": [
-        {
-          "part": "theo",
-          "mean": "신 (god)"
-        },
-        {
-          "part": "logy",
-          "mean": "학문 (study)"
-        }
+        { "part": "theo", "mean": "= god" },
+        { "part": "logy", "mean": "명접:「학문」" }
       ],
-      "origin": "신에 대한 학문 → 신학"
+      "origin": "신에 대한 학문",
+      "derivatives": [
+        { "en": "theological", "pos": "형", "defs": ["신학의"] }
+      ],
+      "examples": [
+        { "en": "My uncle studied **theology** to become a priest.", "ko": "우리 삼촌은 성직자가 되기 위해 신학을 공부했다." }
+      ]
     },
     {
       "en": "enthusiasm",
-      "ipa": "/ɪnˈθuːziæzəm/",
+      "ipa": ["[inθúːziæ̀zəm]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "열정",
-            "열광"
-          ]
+          "defs": ["열정, 열광, 열중"]
         }
       ],
+      "synonyms": ["zeal, eagerness, passion"],
       "parts": [
-        {
-          "part": "en-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "thus(theo)",
-          "mean": "신 (god)"
-        },
-        {
-          "part": "-iasm",
-          "mean": "명사형 접미사"
-        }
+        { "part": "en", "mean": "= in" },
+        { "part": "thus", "mean": "= god" },
+        { "part": "iasm", "mean": "명접" }
       ],
-      "origin": "안에 신이 들어온 상태 → 열정"
+      "origin": "[원뜻] 신(神)으로부터 받은 영감 → (종교에 대한) 열정 → (종교 외 일반적인 대상에 대한) 열정, 열광",
+      "derivatives": [
+        { "en": "enthusiastic", "pos": "형", "defs": ["열광적인, 열정적인"] }
+      ],
+      "examples": [
+        { "en": "The **enthusiastic** crowd cheered loudly. Their **enthusiasm** helped the team win.", "ko": "열광적인 관중들이 큰 소리로 환호성을 질렀다. 그들의 열정이 그 팀이 승리하도록 도왔다." }
+      ]
     }
   ]
 }
