@@ -3,664 +3,1373 @@
   "words": [
     {
       "en": "reside",
-      "ipa": "/rɪˈzaɪd/",
+      "ipa": [
+        "[rizáid]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "거주하다",
-            "살다"
+            "거주하다, 살다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "side(sid)",
-          "mean": "앉다 (sit)"
+          "part": "side",
+          "mean": "= sit"
         }
       ],
-      "origin": "뒤로 앉다 → 머물다 → 거주하다"
+      "origin": "뒤에 남아 앉아 있다 → 떠나지 않고 머무르다",
+      "synonyms": [
+        "live",
+        "dwell"
+      ],
+      "derivatives": [
+        {
+          "en": "resident",
+          "pos": "명",
+          "defs": [
+            "1 거주자"
+          ]
+        },
+        {
+          "en": "resident",
+          "pos": "형",
+          "defs": [
+            "거주하는, 살고 있는"
+          ]
+        },
+        {
+          "en": "residential",
+          "pos": "형",
+          "defs": [
+            "주택가의, 거주지의"
+          ]
+        },
+        {
+          "en": "residence",
+          "pos": "명",
+          "defs": [
+            "1 주택, 거주지",
+            "2 거주"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "More than half of the world's population currently **resides** in urban areas.",
+          "ko": "전 세계 인구의 절반 이상이 현재 도시 지역에 거주하고 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "I took up **residence** in a quiet **residential** area.",
+          "ko": "나는 조용한 주택가에 거주지를 정했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "president",
-      "ipa": "/ˈprezɪdənt/",
+      "ipa": [
+        "[prézidənt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "대통령",
-            "회장"
+            "1 대통령 (고유명사로 쓰일 때 President)",
+            "2 *(기업 등의) 회장[-장]"
           ]
         }
       ],
       "parts": [
         {
-          "part": "pre-",
-          "mean": "앞에 (before)"
+          "part": "pre",
+          "mean": "= in front of"
         },
         {
           "part": "sid",
-          "mean": "앉다 (sit)"
+          "mean": "= sit"
         },
         {
-          "part": "-ent",
-          "mean": "사람 접미사"
+          "part": "ent",
+          "mean": "명접「사람」"
         }
       ],
-      "origin": "앞에 앉은 사람 → 대통령"
+      "origin": "앞에 앉아 있는 사람 → 맨 앞에서 지휘·통제하는 사람 → 대통령, 회장",
+      "derivatives": [
+        {
+          "en": "presidential",
+          "pos": "형",
+          "defs": [
+            "대통령의"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "vice president",
+          "ko": "부통령, 부회장[부사장]"
+        }
+      ],
+      "examples": [
+        {
+          "en": "After the debate, the **president** answered questions from the press.",
+          "ko": "토론 후에, 대통령은 언론의 질문에 답했다.",
+          "source": ""
+        },
+        {
+          "en": "She started at the bottom and worked her way up to become **president** of the company.",
+          "ko": "그녀는 말단에서 시작해 승진하여 그 기업의 회장이 되었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "session",
-      "ipa": "/ˈseʃn/",
+      "ipa": [
+        "[séʃən]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "회기",
-            "기간",
-            "회의"
+            "1 (회의·법정·의회 등이) 진행 중인 시기",
+            "2 *(특정 활동을 위한) 시간, 기간, 회기"
           ]
         }
       ],
       "parts": [
         {
-          "part": "sess(sid)",
-          "mean": "앉다 (sit)"
+          "part": "sess",
+          "mean": "= sit"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "앉아 있는 기간 → 회기"
+      "origin": "(…을 하기 위해) 앉아 있는 시간",
+      "examples": [
+        {
+          "en": "The lecture will be followed by a Q&A **session**.",
+          "ko": "강연 이후에 질의응답 시간이 이어질 것이다.",
+          "source": "모의"
+        },
+        {
+          "en": "There will be a short break in the middle of the **session**.",
+          "ko": "회의 중간에 잠깐의 휴식 시간이 있겠습니다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "assess",
-      "ipa": "/əˈses/",
+      "ipa": [
+        "[əsés]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "평가하다",
-            "산정하다"
+            "1 평가하다",
+            "2 (세금·요금 등을) 매기다, 사정하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "as-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "as",
+          "mean": "= ad:to"
         },
         {
-          "part": "sess(sid)",
-          "mean": "앉다 (sit)"
+          "part": "sess",
+          "mean": "= sit"
         }
       ],
-      "origin": "곁에 앉아 살피다 → 평가하다"
+      "origin": "[원뜻] 판사의 옆에 앉아 있다\n→ 판사를 보조하여 세금을 매기다\n※ 판사를 보조하는 사람의 역할 중 하나가 벌금·세금의 약수를 매기는 일이었다는 것에서 유래",
+      "synonyms": [
+        "judge",
+        "evaluate"
+      ],
+      "derivatives": [
+        {
+          "en": "assessment",
+          "pos": "명",
+          "defs": [
+            "1 평가, 판단",
+            "2 과세(액), 부과(액)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "It takes only a few seconds for anyone to **assess** another individual.",
+          "ko": "누군가 다른 사람을 평가하는 데는 단 몇 초밖에 걸리지 않는다.",
+          "source": "모의"
+        },
+        {
+          "en": "By the committee's **assessment**, Julia didn't seem to be very passionate about the job.",
+          "ko": "위원회의 평가에 의하면 Julia는 그 일에 대해 매우 열정적인 것 같지 않아 보였다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "obsess",
-      "ipa": "/əbˈses/",
+      "ipa": [
+        "[əbsés]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "사로잡히다",
-            "강박감을 갖다"
+            "1 (주로 수동태로) 사로잡다",
+            "2 (+ about/over) (…에) 강박감을 갖다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ob-",
-          "mean": "맞서 (against)"
+          "part": "ob",
+          "mean": "= opposite"
         },
         {
-          "part": "sess(sid)",
-          "mean": "앉다 (sit)"
+          "part": "sess",
+          "mean": "= sit"
         }
       ],
-      "origin": "맞서 앉아 떠나지 않다 → 사로잡히다"
+      "origin": "sit opposite to …의 반대편에 앉다\n→ 면밀히 지켜보다, 눈을 떼지 못하다\n→ 사로잡히다",
+      "derivatives": [
+        {
+          "en": "obsession",
+          "pos": "명",
+          "defs": [
+            "강박, 집착"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be obsessed with[by]",
+          "ko": "…에 사로잡히다, 집착하다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "My younger sister **is obsessed with** playing games on her smartphone.",
+          "ko": "내 여동생은 스마트폰으로 게임하는 것에 꼭 빠져있다.",
+          "source": ""
+        },
+        {
+          "en": "People of any size may **obsess over** their shape and weight.",
+          "ko": "어떤 체형의 사람이든, 자신의 몸매와 체중에 강박감을 가질 수 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "Jacob's **obsession** with archaeology turned into a lifelong career.",
+          "ko": "Jacob의 고고학에 대한 집착이 일생의 직업이 되었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "settle",
-      "ipa": "/ˈsetl/",
+      "ipa": [
+        "[sétl]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "정착하다",
-            "해결하다",
-            "결정하다"
+            "1 (분쟁 등을) 해결하다, 끝내다",
+            "2 *정착하다; 정착시키다",
+            "3 (마음·분위기 등을) 진정하다; 진정시키다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "settl(sid)",
-          "mean": "앉다 (sit)"
+          "part": "settl",
+          "mean": "= sit"
         }
       ],
-      "origin": "앉다 → 정착하다"
+      "origin": "[핵심 다의어]\n고대 영어 setlan(=to seat, place)에서 온 말\n→ 움직이지 않게 놓다[앉히다] →\n├ (문제 등을) 안정되게 앉히다 → 해결하다\n├ (거처를) 움직이지 않게 놓다 → 정착하다\n└ (마음을) 움직이지 않게 놓다 → 진정시키다",
+      "derivatives": [
+        {
+          "en": "settlement",
+          "pos": "명",
+          "defs": [
+            "1 합의, 해결",
+            "2 정착, 거주(지)"
+          ]
+        },
+        {
+          "en": "settler",
+          "pos": "명",
+          "defs": [
+            "정착민, 이주자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The lawyer **settled** the case quickly.",
+          "ko": "그 변호사는 사건을 빠르게 해결했다.",
+          "source": ""
+        },
+        {
+          "en": "My parents got tired of urban life and decided to **settle** in the countryside.",
+          "ko": "우리 부모님은 도시 생활에 지쳐 시골에 정착하기로 결정하셨다.",
+          "source": "모의"
+        },
+        {
+          "en": "Stop chatting and **settle** down.",
+          "ko": "그만 떠들고 진정해.",
+          "source": ""
+        },
+        {
+          "en": "The **settlers** created **settlements**.",
+          "ko": "그 정착민들은 정착지를 형성했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "proper",
-      "ipa": "/ˈprɑːpər/",
+      "ipa": [
+        "[prɑ́ːpər]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "적절한",
-            "올바른"
+            "적당한, 알맞은, 어울리는, 올바른"
           ]
         }
       ],
       "parts": [
         {
-          "part": "prop",
-          "mean": "자기 자신의 (one's own)"
-        },
-        {
-          "part": "-er",
-          "mean": "형용사형 접미사"
+          "part": "proper",
+          "mean": "= one's own"
         }
       ],
-      "origin": "자기 자신에 맞는 → 적절한"
+      "origin": "라틴어 proprius(=one's own)에서 온 말\n→ 자기 자신에게 속하는\n→ 자신에게 적합한",
+      "antonyms": [
+        "improper"
+      ],
+      "derivatives": [
+        {
+          "en": "properly",
+          "pos": "부",
+          "defs": [
+            "적당히, 알맞게"
+          ]
+        },
+        {
+          "en": "propriety",
+          "pos": "명",
+          "defs": [
+            "1 적절성",
+            "2 (the proprieties) 예의(범절)"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "It's **proper** to dress formally for a funeral.",
+          "ko": "장례식에는 정장을 차려입는 것이 적절하다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "property",
-      "ipa": "/ˈprɑːpərti/",
+      "ipa": [
+        "[prɑ́ːpərti]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "재산",
-            "소유물",
-            "특성"
+            "재산, 소유물"
           ]
         }
       ],
       "parts": [
         {
-          "part": "prop",
-          "mean": "자기 자신의 (one's own)"
+          "part": "proper",
+          "mean": "= one's own"
         },
         {
-          "part": "-erty",
-          "mean": "명사형 접미사"
+          "part": "ty",
+          "mean": "명접"
         }
       ],
-      "origin": "자기 자신의 것 → 재산"
+      "origin": "자기 자신이 소유한 것 → 재산",
+      "synonyms": [
+        "possessions",
+        "belongings"
+      ],
+      "phrases": [
+        {
+          "en": "intellectual property",
+          "ko": "지식 재산(권)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "You're trespassing on private **property**.",
+          "ko": "당신은 사유지에 무단 침입하고 있습니다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "appropriate",
-      "ipa": "/əˈproʊprieɪt/",
+      "ipa": [
+        "[əpróuprièit]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "적절한",
-            "알맞은"
+            "적절한, 타당한"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ap-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "ap",
+          "mean": "= ab:to"
         },
         {
-          "part": "propri(prop)",
-          "mean": "자기 자신의 (own)"
+          "part": "propri",
+          "mean": "= one's own"
         },
         {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
+          "part": "ate",
+          "mean": "형접"
         }
       ],
-      "origin": "자기 것에 맞는 → 적절한"
+      "origin": "(자신에게) 속하는 → 적당한, 적절한",
+      "synonyms": [
+        "suitable",
+        "proper"
+      ],
+      "antonyms": [
+        "inappropriate"
+      ],
+      "examples": [
+        {
+          "en": "There's **appropriate** dress for different occasions and settings.",
+          "ko": "다양한 상황과 환경에 맞는 적절한 복장이 있다.",
+          "source": "모의"
+        },
+        {
+          "en": "This seems like an **appropriate** time to announce my retirement.",
+          "ko": "지금이 내 은퇴를 알릴 적절한 시기인 것 같다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "temper",
-      "ipa": "/ˈtempər/",
+      "ipa": [
+        "[témpər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "성질",
-            "기분"
+            "1 (화를 잘 내는 등의) 성미, 기질",
+            "2 울화, 노여움",
+            "3 기분"
           ]
         }
       ],
       "parts": [
         {
           "part": "temper",
-          "mean": "적당한, 조절 (moderate, mix)"
+          "mean": "= mix"
         }
       ],
-      "origin": "조절된 상태 → 성질"
+      "origin": "라틴어 temperare(=mix)에서 온 말\n→ 마구 섞여서 나타난 것\n※ 중세시대 생리학에서 개인의 체질과 성격이 4가지 요소의 조합으로 결정된다고 생각한 데서 유래",
+      "synonyms": [
+        "mood"
+      ],
+      "phrases": [
+        {
+          "en": "lose[control] one's temper",
+          "ko": "화를 내다[참다]"
+        },
+        {
+          "en": "be in a bad temper",
+          "ko": "기분이 안 좋다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please calm down and **control** your **temper**.",
+          "ko": "진정하고 화를 참아보세요.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "temperament",
-      "ipa": "/ˈtemprəmənt/",
+      "ipa": [
+        "[témprəmənt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "기질",
-            "성품"
+            "기질, 성질"
           ]
         }
       ],
       "parts": [
         {
-          "part": "temper",
-          "mean": "적당한 (moderate)"
+          "part": "tempera",
+          "mean": "= mix"
         },
         {
-          "part": "-ament",
-          "mean": "명사형 접미사"
+          "part": "ment",
+          "mean": "명접"
         }
       ],
-      "origin": "조절된 성질 → 기질"
+      "origin": "섞여서 나타난 것 → 성질",
+      "synonyms": [
+        "disposition"
+      ],
+      "examples": [
+        {
+          "en": "The limit must be reasonable in terms of the child's age, **temperament**, and developmental level.",
+          "ko": "제한은 아이의 연령과 기질, 발달 단계의 측면에서 합리적이어야 한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "temperate",
-      "ipa": "/ˈtempərət/",
+      "ipa": [
+        "[témpərit]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "온화한",
-            "절제하는"
+            "1 *(기후·지역 등이) 온화한, 온난한",
+            "2 도를 넘지 않는, 절제하는; 온건한"
           ]
         }
       ],
       "parts": [
         {
           "part": "temper",
-          "mean": "적당한 (moderate)"
+          "mean": "= regulate"
         },
         {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
+          "part": "ate",
+          "mean": "형접"
         }
       ],
-      "origin": "적당히 조절된 → 온화한"
+      "origin": "├ (사람의 성격이) 조절된 → 도를 넘지 않는\n└ (날씨가) 조절된 → 온화한",
+      "synonyms": [
+        "moderate"
+      ],
+      "antonyms": [
+        "intemperate"
+      ],
+      "derivatives": [
+        {
+          "en": "temperance",
+          "pos": "명",
+          "defs": [
+            "절제, 자제; 금주"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "a temperate climate[region]",
+          "ko": "온화한 기후[지역]"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Being **temperate** in all things requires self-discipline.",
+          "ko": "모든 일에 절제하기 위해서는 자기 수양이 필요하다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "temperature",
-      "ipa": "/ˈtemprətʃər/",
+      "ipa": [
+        "[témprətʃər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "온도",
-            "기온",
-            "체온"
+            "1 온도, 기온",
+            "2 (몸의) 체온"
           ]
         }
       ],
       "parts": [
         {
-          "part": "temper",
-          "mean": "적당한 (moderate)"
+          "part": "temperat(e)",
+          "mean": "절제하는, 온화한"
         },
         {
-          "part": "-ature",
-          "mean": "명사형 접미사"
+          "part": "ure",
+          "mean": "명접"
         }
       ],
-      "origin": "조절된 정도 → 온도"
+      "origin": "(뜨거움과 차가움 사이) 온화한 정도 → 온도",
+      "examples": [
+        {
+          "en": "It started getting very windy, and the **temperature** was dropping quickly.",
+          "ko": "바람이 강하게 불기 시작했고, 기온이 급격히 떨어졌다.",
+          "source": "교과서"
+        },
+        {
+          "en": "My mom sent me to bed because I had a high **temperature**.",
+          "ko": "내가 체온이 높아서 어머니께서 나를 잠자리에 들게 하셨다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "lack",
-      "ipa": "/læk/",
+      "ipa": [
+        "[læk]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "부족",
-            "결핍"
+            "(+ of) 부족, 결핍"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "~이 부족하다"
+            "…이 부족하다, 없다"
           ]
         }
       ],
       "parts": [
         {
           "part": "lack",
-          "mean": "부족 (want, deficiency)"
+          "mean": "= deficiency"
         }
       ],
-      "origin": "부족"
+      "origin": "중세 네덜란드어 lak(=deficiency 부족)에서 온 말",
+      "synonyms": [
+        "deficiency",
+        "shortage"
+      ],
+      "antonyms": [
+        "surplus",
+        "abundance"
+      ],
+      "examples": [
+        {
+          "en": "Millions of people lost their homes because of an earthquake and were left in danger due to a **lack of** food and water.",
+          "ko": "수백만 명의 사람들이 지진으로 집을 잃었고, 식량과 물 부족으로 인해 위험에 처했다.",
+          "source": "교과서"
+        },
+        {
+          "en": "One distinguishing feature of Manx cats is they **lack** a tail.",
+          "ko": "맹크스 고양이의 한 가지 두드러진 특징은 꼬리가 없다는 것이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "leak",
-      "ipa": "/liːk/",
+      "ipa": [
+        "[liːk]"
+      ],
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "새다",
-            "누설하다"
-          ]
-        },
         {
           "pos": "명",
           "defs": [
-            "새는 곳",
-            "누설"
+            "1 새는 곳",
+            "2 누설"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 (액체·기체 등이) 새다; 새게 하다",
+            "2 (비밀을) 유출[누설]하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "leak",
-          "mean": "새다 (drip, let through)"
+          "mean": "= drip, let through"
         }
       ],
-      "origin": "새다"
+      "origin": "중세 네덜란드어 leken(물방울이 떨어지다, 새다)에서 온 말\n※ '물이 부족함' → '물이 샘'으로 의미가 변화함",
+      "derivatives": [
+        {
+          "en": "leakage",
+          "pos": "명",
+          "defs": [
+            "새어나감, 누출"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "leak out",
+          "ko": "유출[누설]되다, 새다"
+        },
+        {
+          "en": "leak A to B",
+          "ko": "A를 B에 유출하다"
+        },
+        {
+          "en": "혼동어휘 · lick",
+          "ko": "핥다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The **leak** in the basement pipes was making all of their storage boxes wet.",
+          "ko": "지하실 파이프의 누수로 그들의 모든 보관함들이 젖고 있었다.",
+          "source": ""
+        },
+        {
+          "en": "Our real feelings continually **leak out** in the form of gestures, tones of voice, facial expressions, and posture.",
+          "ko": "우리의 진짜 감정은 제스처와 목소리 톤, 표정, 자세의 형태로 계속해서 새어 나온다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "conflict",
-      "ipa": "/ˈkɑːnflɪkt/",
+      "ipa": [
+        "동 [kənflíkt]",
+        "명 [kɑ́ːnflikt]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "갈등",
-            "충돌"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "상충하다"
+            "(+ with) (의견 등이) 대립하다, 충돌하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "1 *(+ with/between/over) (의견 등의) 대립, 충돌, 갈등",
+            "2 싸움, 분쟁"
           ]
         }
       ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
           "part": "flict",
-          "mean": "치다 (strike)"
+          "mean": "= strike"
         }
       ],
-      "origin": "함께 부딪치다 → 충돌"
+      "origin": "(서로) 함께 치다 → 대립하다",
+      "derivatives": [
+        {
+          "en": "conflicting",
+          "pos": "형",
+          "defs": [
+            "모순되는, 상반되는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "international[social] conflict",
+          "ko": "국제적[사회적] 갈등"
+        }
+      ],
+      "examples": [
+        {
+          "en": "This evidence **conflicts with** the witness's statement.",
+          "ko": "이 증거는 목격자의 진술과 상반된다.",
+          "source": ""
+        },
+        {
+          "en": "How do you handle **conflict**?",
+          "ko": "분쟁을 어떻게 해결하십니까?",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "inflict",
-      "ipa": "/ɪnˈflɪkt/",
+      "ipa": [
+        "[inflíkt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "(고통 등을) 가하다",
-            "입히다"
+            "(주로 + on) (고통이나 타격을) 가하다, (벌 등을) 주다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "위에 (upon)"
+          "part": "in",
+          "mean": "= on, against"
         },
         {
           "part": "flict",
-          "mean": "치다 (strike)"
+          "mean": "= strike"
         }
       ],
-      "origin": "위에 치다 → 가하다"
+      "origin": "strike against …을 치다, 타격을 주다",
+      "phrases": [
+        {
+          "en": "cf. afflict",
+          "ko": "(질병·빛 따위가) 시달리게 하다, 괴롭히다"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The storm **inflicted** heavy damage **on** the coastal villages.",
+          "ko": "그 폭풍은 해안 마을들에 큰 피해를 입혔다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "oblige",
-      "ipa": "/əˈblaɪdʒ/",
+      "ipa": [
+        "[əbláidʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "의무를 지우다",
-            "강요하다"
+            "1 *(주로 수동태로) (…하도록) 의무를 지우다, 강요하다",
+            "2 (도움 등을) 베풀다, (요청받은 것을) 해주다, 돕다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ob-",
-          "mean": "~쪽으로 (toward)"
+          "part": "ob",
+          "mean": "= to"
         },
         {
-          "part": "lige(lig)",
-          "mean": "묶다 (bind)"
+          "part": "lige",
+          "mean": "= bind"
         }
       ],
-      "origin": "~쪽으로 묶다 → 의무를 지우다"
+      "origin": "bind to …에 묶어 두다\n→ (강제적인) 의무를 지우다",
+      "synonyms": [
+        "compel",
+        "force"
+      ],
+      "derivatives": [
+        {
+          "en": "obligate",
+          "pos": "동",
+          "defs": [
+            "강요하다"
+          ]
+        },
+        {
+          "en": "obligate",
+          "pos": "형",
+          "defs": [
+            "의무적인"
+          ]
+        },
+        {
+          "en": "obligation",
+          "pos": "명",
+          "defs": [
+            "의무, 책임"
+          ]
+        },
+        {
+          "en": "obligatory",
+          "pos": "형",
+          "defs": [
+            "의무적인, 강제적인, 필수의"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be obliged to-v",
+          "ko": "…할 의무가 있다, 어쩔 수 없이 …하다 (= be compelled[forced] to-v)"
+        },
+        {
+          "en": "be much obliged to A (for B)",
+          "ko": "A에게 (B에 대해) 고마워하다"
+        },
+        {
+          "en": "I'd be obliged if ….",
+          "ko": "(공손한 요청으로) …해주시면 감사하겠습니다."
+        }
+      ],
+      "examples": [
+        {
+          "en": "We **are obliged to** pay taxes.",
+          "ko": "우리는 세금을 낼 의무가 있다.",
+          "source": ""
+        },
+        {
+          "en": "Parents have an **obligation** to care for their children.",
+          "ko": "부모는 자녀를 돌봐야 할 의무가 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "religion",
-      "ipa": "/rɪˈlɪdʒən/",
+      "ipa": [
+        "[rilídʒən]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "종교"
+            "1 *종교",
+            "2 신조"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "「강조」"
         },
         {
           "part": "lig",
-          "mean": "묶다 (bind)"
+          "mean": "= bind"
         },
         {
-          "part": "-ion",
-          "mean": "명사형 접미사"
+          "part": "ion",
+          "mean": "명접"
         }
       ],
-      "origin": "다시 묶는 것 → 종교"
+      "origin": "완전히 하나로 묶여 있는 것\n→ 인간과 신(神)사이의 연결[유대] → 종교",
+      "derivatives": [
+        {
+          "en": "religious",
+          "pos": "형",
+          "defs": [
+            "1 종교(상)의",
+            "2 신앙심이 깊은, 독실한"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Which university offers lectures on **religion**?",
+          "ko": "종교에 대한 강의는 어느 대학에 개설되어 있습니까?",
+          "source": ""
+        },
+        {
+          "en": "What a person values relates to their social, **religious**, or civic beliefs.",
+          "ko": "개인이 중요하게 여기는 것은 그들의 사회적, 종교적, 또는 시민적 신념과 관련이 있다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "ally",
-      "ipa": "/ˈælaɪ/",
+      "ipa": [
+        "동 [əlái]",
+        "명 [ǽlai]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "동맹국",
-            "협력자"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "동맹시키다"
+            "동맹[결연]을 맺다, 지지하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "동맹[연합]국, 동맹[협력]자"
           ]
         }
       ],
       "parts": [
         {
-          "part": "al-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "al",
+          "mean": "= ad:to"
         },
         {
-          "part": "ly(lig)",
-          "mean": "묶다 (bind)"
+          "part": "ly",
+          "mean": "= bind"
         }
       ],
-      "origin": "~쪽으로 묶다 → 동맹"
+      "origin": "bind to …에 함께 묶다 → 동맹하다",
+      "derivatives": [
+        {
+          "en": "alliance",
+          "pos": "명",
+          "defs": [
+            "동맹, 연합; (집합적) 동맹국, 동맹자"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "ally (oneself) to[with]",
+          "ko": "…와 동맹하다, …을 지지하다"
+        },
+        {
+          "en": "military alliance",
+          "ko": "군사 동맹"
+        }
+      ],
+      "examples": [
+        {
+          "en": "During World War I, Turkey and Germany were **allies**.",
+          "ko": "1차 세계대전 동안, 터키와 독일은 동맹국이었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "rally",
-      "ipa": "/ˈræli/",
+      "ipa": [
+        "[rǽli]"
+      ],
       "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "1 *결집[규합]하다, 모으다",
+            "2 (기력·시장 상황 등이) 회복되다"
+          ]
+        },
         {
           "pos": "명",
           "defs": [
-            "집회",
-            "회복"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "모이다",
-            "회복하다"
+            "1 *집회, 대회",
+            "2 (주가 등의) 회복"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "r",
+          "mean": "= re:again"
         },
         {
-          "part": "ally(ly)",
-          "mean": "묶다 (bind)"
+          "part": "ally",
+          "mean": "동맹하다"
         }
       ],
-      "origin": "다시 모아 묶다 → 집회"
+      "origin": "다시 동맹하다 → 결집하다",
+      "synonyms": [
+        "assemble",
+        "gather"
+      ],
+      "phrases": [
+        {
+          "en": "a political rally",
+          "ko": "정치 집회"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The coach's speech **rallied** the team before the final match.",
+          "ko": "감독의 연설이 결승전 전에 팀을 하나로 모았다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "rely",
-      "ipa": "/rɪˈlaɪ/",
+      "ipa": [
+        "[rilái]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "의지하다",
-            "신뢰하다"
+            "(+ (up)on) 의지하다, 믿다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "「강조」"
         },
         {
-          "part": "ly(lig)",
-          "mean": "묶다 (bind)"
+          "part": "ly",
+          "mean": "= bind"
         }
       ],
-      "origin": "다시 묶이다 → 의지하다"
+      "origin": "강하게 묶다 → 서로 지탱하다",
+      "synonyms": [
+        "depend (up)on"
+      ],
+      "derivatives": [
+        {
+          "en": "reliable",
+          "pos": "형",
+          "defs": [
+            "의지할 수 있는, 믿을 만한"
+          ]
+        },
+        {
+          "en": "reliance",
+          "pos": "명",
+          "defs": [
+            "의지, 의존"
+          ]
+        },
+        {
+          "en": "reliability",
+          "pos": "명",
+          "defs": [
+            "신뢰도"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "It is important to have someone to **rely on**.",
+          "ko": "의지할 수 있는 사람이 있는 것은 중요하다.",
+          "source": "교과서"
+        },
+        {
+          "en": "Are the sources of information **reliable**?",
+          "ko": "정보의 출처는 믿을 만한가요?",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "liable",
-      "ipa": "/ˈlaɪəbl/",
+      "ipa": [
+        "[láiəbl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "책임이 있는",
-            "~하기 쉬운"
+            "1 (+ for) (…에 대해) 책임을 져야 할, 법적 책임이[의무가] 있는",
+            "2 (+ to-v) …할 것 같은, …하기 쉬운"
           ]
         }
       ],
       "parts": [
         {
-          "part": "li(lig)",
-          "mean": "묶다 (bind)"
+          "part": "li",
+          "mean": "= bind"
         },
         {
-          "part": "-able",
-          "mean": "~할 수 있는"
+          "part": "able",
+          "mean": "형접"
         }
       ],
-      "origin": "묶여 있는 → 책임이 있는"
+      "origin": "(의무로) 묶여 매어진 → …의 의무가 있는",
+      "synonyms": [
+        "likely to-v",
+        "apt to-v"
+      ],
+      "derivatives": [
+        {
+          "en": "liability",
+          "pos": "명",
+          "defs": [
+            "1 (법적) 책임",
+            "2 (주로 복수형) 빚, 부채"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He was not **liable for** the damage.",
+          "ko": "그는 그 피해에 대해 책임이 없었다.",
+          "source": ""
+        },
+        {
+          "en": "The baby is **liable to** swallow anything he picks up.",
+          "ko": "그 아기는 손에 잡히는 것은 무엇이든지 삼키는 경향이 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "trust",
-      "ipa": "/trʌst/",
+      "ipa": [
+        "[trʌst]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "신뢰",
-            "믿음"
+            "1 *신뢰, 믿음",
+            "2 위탁, 신탁",
+            "3 [경제] 기업 합동, 담합체, 트러스트 (동종업계 기업의 독점적 결합)"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "신뢰하다"
+            "*신뢰하다, 믿다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "trust",
+          "mean": "= faith"
+        }
+      ],
+      "origin": "고어 traust(=faith)에서 온 말",
+      "antonyms": [
+        "distrust"
+      ],
+      "derivatives": [
+        {
+          "en": "trustworthy",
+          "pos": "형",
+          "defs": [
+            "믿을 수 있는, 의지할 수 있는"
+          ]
+        }
+      ],
+      "phrases": [
+        {
+          "en": "anti-trust law",
+          "ko": "[경제] 독점 금지법, 반트러스트법"
+        },
+        {
+          "en": "mutual trust",
+          "ko": "상호 신뢰"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Many people say that they **trust** the information they receive from reviews from other users or customers.",
+          "ko": "많은 사람들이 다른 사용자나 고객의 리뷰에서 얻은 정보를 신뢰한다고 말한다.",
+          "source": "모의"
+        }
+      ]
+    },
+    {
+      "en": "entrust",
+      "ipa": [
+        "[intrʌ́st]"
+      ],
+      "meanings": [
+        {
+          "pos": "동",
+          "defs": [
+            "(중요한 일·물건·돈 등을) 맡기다, 위탁하다"
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "part": "en",
+          "mean": "= in"
+        },
+        {
+          "part": "trust",
+          "mean": "신뢰, 믿음"
+        }
+      ],
+      "origin": "give … in trust 믿고 주다 → 위탁하다",
+      "phrases": [
+        {
+          "en": "entrust A to B",
+          "ko": "A를 B에게 맡기다 (= entrust B with A)"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I **entrusted** my estate to him.\n(= I **entrusted** him **with** my estate.)",
+          "ko": "나는 내 재산을 그에게 위탁했다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "truthful",
+      "ipa": [
+        "[trúːθfəl]"
+      ],
+      "meanings": [
+        {
+          "pos": "형",
+          "defs": [
+            "1 정직한",
+            "2 (대답 등이) 진실한, 사실의"
           ]
         }
       ],
       "parts": [
         {
           "part": "tru",
-          "mean": "믿다 (believe, true)"
+          "mean": "= honest"
         },
         {
-          "part": "-st",
-          "mean": "명사형 접미사"
+          "part": "th",
+          "mean": "명접"
+        },
+        {
+          "part": "ful",
+          "mean": "형접"
         }
       ],
-      "origin": "믿는 것 → 신뢰"
-    },
-    {
-      "en": "entrust",
-      "ipa": "/ɪnˈtrʌst/",
-      "meanings": [
+      "origin": "정직으로 가득 찬 → 정직한, 참된",
+      "synonyms": [
+        "honest"
+      ],
+      "derivatives": [
         {
-          "pos": "동",
+          "en": "truth",
+          "pos": "명",
           "defs": [
-            "위임하다",
-            "맡기다"
+            "1 사실(성)",
+            "2 진실"
+          ]
+        },
+        {
+          "en": "truthfully",
+          "pos": "부",
+          "defs": [
+            "사실대로, 정직하게"
           ]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "en-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "trust(tru)",
-          "mean": "신뢰 (trust)"
+          "en": "Please give me a **truthful** account of what happened.",
+          "ko": "무슨 일이 일어났는지 제게 사실대로 설명해주세요.",
+          "source": ""
         }
-      ],
-      "origin": "신뢰 안에 넣다 → 맡기다"
-    },
-    {
-      "en": "truthful",
-      "ipa": "/ˈtruːθfl/",
-      "meanings": [
-        {
-          "pos": "형",
-          "defs": [
-            "정직한",
-            "진실한"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "truth(tru)",
-          "mean": "진실 (truth)"
-        },
-        {
-          "part": "-ful",
-          "mean": "~이 가득한"
-        }
-      ],
-      "origin": "진실이 가득한 → 정직한"
+      ]
     }
   ]
 }
