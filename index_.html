@@ -120,10 +120,6 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .syn-tag{background:rgba(46,170,127,.08);border:1px solid rgba(46,170,127,.2);color:var(--green)}
 .ant-tag{background:rgba(217,83,79,.08);border:1px solid rgba(217,83,79,.2);color:var(--red)}
 .syn-label,.ant-label{font-size:.58rem;font-weight:700;margin-right:2px}
-.syn-i,.ant-i{font-size:.72rem;padding:2px 7px;border-radius:6px;margin-left:5px;white-space:nowrap;vertical-align:middle}
-.syn-i{background:rgba(46,170,127,.08);border:1px solid rgba(46,170,127,.2);color:var(--green)}
-.ant-i{background:rgba(217,83,79,.08);border:1px solid rgba(217,83,79,.2);color:var(--red)}
-.syn-i .il,.ant-i .il{font-size:.48rem;font-weight:700;margin-right:1px}
 .phrase-item{font-size:.82rem;margin-bottom:4px;color:var(--text);display:flex;align-items:baseline}
 .phrase-en{font-weight:600;color:var(--accent);white-space:nowrap;margin-right:6px;flex-shrink:0}
 .phrase-ko-block{display:flex;flex-direction:column}
@@ -1141,6 +1137,8 @@ function getCardLayout() {
 function hasExtras(word) {
   return (word.examples && word.examples.length > 0) ||
          (word.derivatives && word.derivatives.length > 0) ||
+         (word.synonyms && word.synonyms.length > 0) ||
+         (word.antonyms && word.antonyms.length > 0) ||
          (word.phrases && word.phrases.length > 0);
 }
 
@@ -1170,25 +1168,18 @@ function buildDerivativesHtml(word) {
   if (!word.derivatives || word.derivatives.length === 0) return '';
   let h = '';
   word.derivatives.forEach(d => {
-    const sa = d.syn_ant || null;
-    let defsHtml = '';
-    if (sa) {
-      const hasNums = d.defs.some(dd => /^\d+\s/.test(dd));
-      if (hasNums) {
-        d.defs.forEach(dd => { defsHtml += formatDef(dd) + buildInlineSynAnt(sa, dd.match(/^(\d+)\s/) ? dd.match(/^(\d+)\s/)[1] : '0') + ' '; });
-      } else {
-        defsHtml = d.defs.map(dd => formatDef(dd)).join(' ') + buildInlineSynAnt(sa, 0);
-      }
-    } else {
-      defsHtml = d.defs.map(dd => formatDef(dd)).join(' ');
-    }
-    h += `<div class="deriv-item"><span class="deriv-word">${d.en}</span><span class="deriv-pos">${d.pos}</span><span class="deriv-def">${defsHtml}</span></div>`;
+    h += `<div class="deriv-item"><span class="deriv-word">${d.en}</span><span class="deriv-pos">${d.pos}</span><span class="deriv-def">${d.defs.map(dd => formatDef(dd)).join(' ')}</span></div>`;
   });
   return h;
 }
 
 function buildSynAntHtml(word) {
-  return '';
+  if ((!word.synonyms || word.synonyms.length === 0) && (!word.antonyms || word.antonyms.length === 0)) return '';
+  let h = '<div class="syn-ant-row">';
+  if (word.synonyms) word.synonyms.forEach(s => { h += `<span class="syn-tag"><span class="syn-label">≒</span> ${s}</span>`; });
+  if (word.antonyms) word.antonyms.forEach(a => { h += `<span class="ant-tag"><span class="ant-label">↔</span> ${a}</span>`; });
+  h += '</div>';
+  return h;
 }
 
 function buildPhrasesHtml(word) {
@@ -1309,34 +1300,27 @@ function showCard() {
   word.meanings.forEach(m => {
     const parsed = m.defs.map(d => formatDef(d));
     const hasPrefix = parsed.some(p => p.includes('def-prefixed'));
-    const sa = m.syn_ant || null;
     if (hasPrefix) {
       let gridHtml = '<div class="def-prefixed-grid">';
       m.defs.forEach(d => {
         const pm = d.match(/^(.+?\)\s*)(\d+)\s+(.*)/);
         if (pm) {
           let text = pm[3].replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
-          gridHtml += `<span>${pm[1]}</span><span class="pf-num">${pm[2]}</span><span>${text}${buildInlineSynAnt(sa, pm[2])}</span>`;
+          gridHtml += `<span>${pm[1]}</span><span class="pf-num">${pm[2]}</span><span>${text}</span>`;
         } else {
           const nm = d.match(/^(\d+)\s+(.*)/);
           if (nm) {
             let text = nm[2].replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
-            gridHtml += `<span></span><span class="pf-num">${nm[1]}</span><span>${text}${buildInlineSynAnt(sa, nm[1])}</span>`;
+            gridHtml += `<span></span><span class="pf-num">${nm[1]}</span><span>${text}</span>`;
           } else {
-            gridHtml += `<span></span><span></span><span>${d}${buildInlineSynAnt(sa, 0)}</span>`;
+            gridHtml += `<span></span><span></span><span>${d}</span>`;
           }
         }
       });
       gridHtml += '</div>';
       meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><div class="meaning-defs">${gridHtml}</div></div>`;
     } else {
-      let defsHtml = '';
-      const hasNums = m.defs.some(d => /^\d+\s/.test(d));
-      if (hasNums) {
-        m.defs.forEach(d => { defsHtml += formatDef(d) + buildInlineSynAnt(sa, d.match(/^(\d+)\s/) ? d.match(/^(\d+)\s/)[1] : '0') + ' '; });
-      } else {
-        defsHtml = parsed.join(' ') + buildInlineSynAnt(sa, 0);
-      }
+      const defsHtml = parsed.join(' ');
       meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><div class="meaning-defs"><span class="def-inline">${defsHtml}</span></div></div>`;
     }
   });
@@ -1557,18 +1541,6 @@ function stripDef(d) {
 }
 
 // def 문자열을 HTML로 변환 (번호 + 붉은볼드 처리)
-// syn_ant 인라인 태그 생성
-function buildInlineSynAnt(synAntObj, defNum) {
-  if (!synAntObj) return '';
-  const key = String(defNum);
-  const entry = synAntObj[key];
-  if (!entry) return '';
-  let h = '';
-  if (entry.syn) entry.syn.forEach(s => { h += ` <span class="syn-i"><span class="il">≒</span>${s}</span>`; });
-  if (entry.ant) entry.ant.forEach(a => { h += ` <span class="ant-i"><span class="il">↔</span>${a}</span>`; });
-  return h;
-}
-
 function formatDef(d) {
   const prefixMatch = d.match(/^(.+?\)\s*)(\d+)\s+(.*)/);
   if (prefixMatch) {

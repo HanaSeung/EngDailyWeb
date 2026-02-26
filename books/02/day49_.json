@@ -3,9 +3,7 @@
   "words": [
     {
       "en": "gesture",
-      "ipa": [
-        "[dʒéstʃər]"
-      ],
+      "ipa": ["[dʒéstʃər]"],
       "meanings": [
         {
           "pos": "명",
@@ -16,20 +14,12 @@
         },
         {
           "pos": "동",
-          "defs": [
-            "몸짓[손짓]을 하다"
-          ]
+          "defs": ["몸짓[손짓]을 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "gest",
-          "mean": "= carry"
-        },
-        {
-          "part": "ure",
-          "mean": "명접"
-        }
+        {"part": "gest", "mean": "= carry"},
+        {"part": "ure", "mean": "명접"}
       ],
       "origin": "(행동으로) 전달하는 것",
       "examples": [
@@ -42,10 +32,7 @@
     },
     {
       "en": "digest",
-      "ipa": [
-        "동 [daidʒést]",
-        "명 [dáidʒest]"
-      ],
+      "ipa": ["동 [daidʒést]", "명 [dáidʒest]"],
       "meanings": [
         {
           "pos": "동",
@@ -56,51 +43,18 @@
         },
         {
           "pos": "명",
-          "defs": [
-            "요약, 개요"
-          ],
-          "syn_ant": {
-            "0": {
-              "syn": [
-                "summary"
-              ]
-            }
-          }
+          "defs": ["요약, 개요"]
         }
       ],
+      "synonyms": ["summary"],
       "parts": [
-        {
-          "part": "di",
-          "mean": "= dis:apart"
-        },
-        {
-          "part": "gest",
-          "mean": "= carry"
-        }
+        {"part": "di", "mean": "= dis:apart"},
+        {"part": "gest", "mean": "= carry"}
       ],
       "origin": "잘게 나누어 나르다 →\n├ (음식물을) 분해하여 내려가게 하다 → 소화하다\n└ (정보 등을) 정리하여 받아들이다 → 이해하다",
       "derivatives": [
-        {
-          "en": "digestion",
-          "pos": "명",
-          "defs": [
-            "소화(작용), 소화력"
-          ],
-          "syn_ant": {
-            "0": {
-              "ant": [
-                "indigestion(소화불량)"
-              ]
-            }
-          }
-        },
-        {
-          "en": "digestive",
-          "pos": "형",
-          "defs": [
-            "소화의, 소화를 돕는"
-          ]
-        }
+        {"en": "digestion", "pos": "명", "defs": ["소화(작용), 소화력"]},
+        {"en": "digestive", "pos": "형", "defs": ["소화의, 소화를 돕는"]}
       ],
       "examples": [
         {
@@ -117,59 +71,29 @@
     },
     {
       "en": "register",
-      "ipa": [
-        "[rédʒəstər]"
-      ],
+      "ipa": ["[rédʒəstər]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
             "1 *등록하다, (장부에) 이름을 적다",
             "2 (기기가 수치·기록 등을) 나타내다, 기록하다"
-          ],
-          "syn_ant": {
-            "1": {
-              "syn": [
-                "sign up",
-                "enroll",
-                "enlist"
-              ]
-            }
-          }
+          ]
         },
         {
           "pos": "명",
-          "defs": [
-            "기록(부), 등록"
-          ]
+          "defs": ["기록(부), 등록"]
         }
       ],
+      "synonyms": ["sign up", "enroll", "enlist"],
       "parts": [
-        {
-          "part": "re",
-          "mean": "= back"
-        },
-        {
-          "part": "gister",
-          "mean": "= bring"
-        }
+        {"part": "re", "mean": "= back"},
+        {"part": "gister", "mean": "= bring"}
       ],
       "origin": "(기억 속으로) 다시 가져오다\n→ 생각나게 하기 위해 기록(하다)",
       "derivatives": [
-        {
-          "en": "registration",
-          "pos": "명",
-          "defs": [
-            "등록, 신고; 등록 서류[증명서]"
-          ]
-        },
-        {
-          "en": "registry",
-          "pos": "명",
-          "defs": [
-            "등기소, 등록소; 등기, 등록"
-          ]
-        }
+        {"en": "registration", "pos": "명", "defs": ["등록, 신고; 등록 서류[증명서]"]},
+        {"en": "registry", "pos": "명", "defs": ["등기소, 등록소; 등기, 등록"]}
       ],
       "examples": [
         {
@@ -186,61 +110,23 @@
     },
     {
       "en": "probable",
-      "ipa": [
-        "[prɑ́ːbəbəl]"
-      ],
+      "ipa": ["[prɑ́ːbəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "있을 법한, 그럴듯한"
-          ],
-          "syn_ant": {
-            "0": {
-              "syn": [
-                "likely"
-              ],
-              "ant": [
-                "improbable"
-              ]
-            }
-          }
+          "defs": ["있을 법한, 그럴듯한"]
         }
       ],
+      "synonyms": ["likely"],
+      "antonyms": ["improbable"],
       "parts": [
-        {
-          "part": "prob",
-          "mean": "= test"
-        },
-        {
-          "part": "able",
-          "mean": "…할 수 있는"
-        }
+        {"part": "prob", "mean": "= test"},
+        {"part": "able", "mean": "…할 수 있는"}
       ],
       "origin": "증명할 수 있는 → 있을 법한",
       "derivatives": [
-        {
-          "en": "probably",
-          "pos": "부",
-          "defs": [
-            "아마도, 대개는, 십중팔구"
-          ]
-        },
-        {
-          "en": "probability",
-          "pos": "명",
-          "defs": [
-            "가망성, 확률"
-          ],
-          "syn_ant": {
-            "0": {
-              "syn": [
-                "likelihood",
-                "chance"
-              ]
-            }
-          }
-        }
+        {"en": "probably", "pos": "부", "defs": ["아마도, 대개는, 십중팔구"]},
+        {"en": "probability", "pos": "명", "defs": ["가망성, 확률"]}
       ],
       "examples": [
         {
@@ -252,30 +138,18 @@
     },
     {
       "en": "probe",
-      "ipa": [
-        "[proub]"
-      ],
+      "ipa": ["[proub]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "*엄밀히 조사하다, (진상 등을) 규명하다"
-          ],
-          "syn_ant": {
-            "0": {
-              "syn": [
-                "investigate"
-              ]
-            }
-          }
+          "defs": ["*엄밀히 조사하다, (진상 등을) 규명하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "(철저한) 조사"
-          ]
+          "defs": ["(철저한) 조사"]
         }
       ],
+      "synonyms": ["investigate"],
       "origin": "라틴어 probare(=test)에서 온 말\n→ 시험할 수 있도록 조사하다",
       "examples": [
         {
@@ -287,63 +161,22 @@
     },
     {
       "en": "prove",
-      "ipa": [
-        "[pruːv]"
-      ],
+      "ipa": ["[pruːv]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
             "1 *증명하다, 입증하다",
             "2 …로 판명되다"
-          ],
-          "syn_ant": {
-            "1": {
-              "syn": [
-                "verify"
-              ],
-              "ant": [
-                "disprove(틀렸음을 증명하다)"
-              ]
-            },
-            "2": {
-              "syn": [
-                "turn out"
-              ]
-            }
-          }
+          ]
         }
       ],
+      "synonyms": ["verify"],
+      "antonyms": ["disprove(틀렸음을 증명하다)"],
       "origin": "라틴어 probare(=test)에서 온 말\n→ 시험하여 증명하다",
       "derivatives": [
-        {
-          "en": "proof",
-          "pos": "명",
-          "defs": [
-            "증거, 증명"
-          ],
-          "syn_ant": {
-            "0": {
-              "syn": [
-                "evidence"
-              ]
-            }
-          }
-        },
-        {
-          "en": "proven",
-          "pos": "형",
-          "defs": [
-            "입증[증명]된"
-          ],
-          "syn_ant": {
-            "0": {
-              "ant": [
-                "unproven"
-              ]
-            }
-          }
-        }
+        {"en": "proof", "pos": "명", "defs": ["증거, 증명"]},
+        {"en": "proven", "pos": "형", "defs": ["입증[증명]된"]}
       ],
       "examples": [
         {
@@ -355,79 +188,25 @@
     },
     {
       "en": "approve",
-      "ipa": [
-        "[əprúːv]"
-      ],
+      "ipa": ["[əprúːv]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
             "1 (+ of) 찬성하다, 승낙하다",
             "2 (공식적으로) 허가하다, 승인하다"
-          ],
-          "syn_ant": {
-            "1": {
-              "ant": [
-                "disapprove of"
-              ]
-            },
-            "2": {
-              "syn": [
-                "authorize"
-              ]
-            }
-          }
+          ]
         }
       ],
+      "antonyms": ["disapprove of", "authorize"],
       "parts": [
-        {
-          "part": "ap",
-          "mean": "= ad:to"
-        },
-        {
-          "part": "prove",
-          "mean": "= test"
-        }
+        {"part": "ap", "mean": "= ad:to"},
+        {"part": "prove", "mean": "= test"}
       ],
       "origin": "시험하는 쪽으로\n→ 시험해본 후 좋다고 인정하다",
       "derivatives": [
-        {
-          "en": "approving",
-          "pos": "형",
-          "defs": [
-            "찬성하는, 좋다고 여기는"
-          ],
-          "syn_ant": {
-            "0": {
-              "ant": [
-                "disapproving"
-              ]
-            }
-          }
-        },
-        {
-          "en": "approval",
-          "pos": "명",
-          "defs": [
-            "1 찬성, 승낙",
-            "2 허가, 승인"
-          ],
-          "syn_ant": {
-            "1": {
-              "syn": [
-                "consent"
-              ],
-              "ant": [
-                "disapproval"
-              ]
-            },
-            "2": {
-              "syn": [
-                "permission"
-              ]
-            }
-          }
-        }
+        {"en": "approving", "pos": "형", "defs": ["찬성하는, 좋다고 여기는"]},
+        {"en": "approval", "pos": "명", "defs": ["1 찬성, 승낙", "2 허가, 승인"]}
       ],
       "examples": [
         {
@@ -450,33 +229,17 @@
     },
     {
       "en": "urban",
-      "ipa": [
-        "[ə́ːrbən]"
-      ],
+      "ipa": ["[ə́ːrbən]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "도시의"
-          ],
-          "syn_ant": {
-            "0": {
-              "ant": [
-                "rural"
-              ]
-            }
-          }
+          "defs": ["도시의"]
         }
       ],
+      "antonyms": ["rural"],
       "parts": [
-        {
-          "part": "urb",
-          "mean": "= city"
-        },
-        {
-          "part": "an",
-          "mean": "형접"
-        }
+        {"part": "urb", "mean": "= city"},
+        {"part": "an", "mean": "형접"}
       ],
       "origin": "도시의",
       "examples": [
@@ -489,43 +252,21 @@
     },
     {
       "en": "suburb",
-      "ipa": [
-        "[sʌ́bəːrb]"
-      ],
+      "ipa": ["[sʌ́bəːrb]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "교외, 도시 주변의 주택지"
-          ],
-          "syn_ant": {
-            "0": {
-              "syn": [
-                "outskirts"
-              ]
-            }
-          }
+          "defs": ["교외, 도시 주변의 주택지"]
         }
       ],
+      "synonyms": ["outskirts"],
       "parts": [
-        {
-          "part": "sub",
-          "mean": "= below, near"
-        },
-        {
-          "part": "urb",
-          "mean": "= city"
-        }
+        {"part": "sub", "mean": "= below, near"},
+        {"part": "urb", "mean": "= city"}
       ],
       "origin": "도시 근처",
       "derivatives": [
-        {
-          "en": "suburban",
-          "pos": "형",
-          "defs": [
-            "교외의, 교외에 사는"
-          ]
-        }
+        {"en": "suburban", "pos": "형", "defs": ["교외의, 교외에 사는"]}
       ],
       "examples": [
         {
@@ -537,15 +278,11 @@
     },
     {
       "en": "thesis",
-      "ipa": [
-        "[θíːsis]"
-      ],
+      "ipa": ["[θíːsis]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "(복수형 theses [-siːz]) 논문; 주장, 논제"
-          ]
+          "defs": ["(복수형 theses [-siːz]) 논문; 주장, 논제"]
         }
       ],
       "origin": "그리스어 tithenai(= to place)에서 온 말\n→ (말을) 놓아두는 것 → 주장; 논문",
@@ -559,50 +296,24 @@
     },
     {
       "en": "hypothesis",
-      "ipa": [
-        "[haipɑ́ːθəsis]"
-      ],
+      "ipa": ["[haipɑ́ːθəsis]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
             "1 가설",
             "2 가정, 추측"
-          ],
-          "syn_ant": {
-            "1": {
-              "syn": [
-                "theory"
-              ]
-            },
-            "2": {
-              "syn": [
-                "speculation",
-                "assumption"
-              ]
-            }
-          }
+          ]
         }
       ],
+      "synonyms": ["theory", "speculation", "assumption"],
       "parts": [
-        {
-          "part": "hypo",
-          "mean": "= under"
-        },
-        {
-          "part": "thesis",
-          "mean": "논제"
-        }
+        {"part": "hypo", "mean": "= under"},
+        {"part": "thesis", "mean": "논제"}
       ],
       "origin": "논제 아래에 있는 것 → 가설",
       "derivatives": [
-        {
-          "en": "hypothetical",
-          "pos": "형",
-          "defs": [
-            "가설의, 가정의, 가상의"
-          ]
-        }
+        {"en": "hypothetical", "pos": "형", "defs": ["가설의, 가정의, 가상의"]}
       ],
       "examples": [
         {
@@ -614,26 +325,16 @@
     },
     {
       "en": "theme",
-      "ipa": [
-        "[θiːm]"
-      ],
+      "ipa": ["[θiːm]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "주제, 테마"
-          ]
+          "defs": ["주제, 테마"]
         }
       ],
       "origin": "그리스어 thema(=proposition 명제)에서 온 말",
       "derivatives": [
-        {
-          "en": "thematic",
-          "pos": "형",
-          "defs": [
-            "주제에 관한, 주제와 관련된"
-          ]
-        }
+        {"en": "thematic", "pos": "형", "defs": ["주제에 관한, 주제와 관련된"]}
       ],
       "examples": [
         {
@@ -645,9 +346,7 @@
     },
     {
       "en": "attach",
-      "ipa": [
-        "[ətǽtʃ]"
-      ],
+      "ipa": ["[ətǽtʃ]"],
       "meanings": [
         {
           "pos": "동",
@@ -655,49 +354,18 @@
             "(주로 + to) 1 *붙이다, 부착하다*",
             "2 첨부하다",
             "3 소속시키다"
-          ],
-          "syn_ant": {
-            "1": {
-              "ant": [
-                "detach"
-              ]
-            },
-            "2": {
-              "syn": [
-                "add"
-              ]
-            }
-          }
+          ]
         }
       ],
+      "antonyms": ["detach", "add"],
       "parts": [
-        {
-          "part": "at",
-          "mean": "= ad:to"
-        },
-        {
-          "part": "tach",
-          "mean": "= stick"
-        }
+        {"part": "at", "mean": "= ad:to"},
+        {"part": "tach", "mean": "= stick"}
       ],
       "origin": "붙이다",
       "derivatives": [
-        {
-          "en": "attachment",
-          "pos": "명",
-          "defs": [
-            "1 부착(물), 부속품",
-            "2 애착"
-          ]
-        },
-        {
-          "en": "attached",
-          "pos": "형",
-          "defs": [
-            "(+ to) 1 애착[애정]을 가진",
-            "2 부착된, 첨부된"
-          ]
-        }
+        {"en": "attachment", "pos": "명", "defs": ["1 부착(물), 부속품", "2 애착"]},
+        {"en": "attached", "pos": "형", "defs": ["(+ to) 1 애착[애정]을 가진", "2 부착된, 첨부된"]}
       ],
       "examples": [
         {
@@ -709,53 +377,28 @@
     },
     {
       "en": "attack",
-      "ipa": [
-        "[ətǽk]"
-      ],
+      "ipa": ["[ətǽk]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
             "1 *공격",
             "2 (갑작스런) 발병"
-          ],
-          "syn_ant": {
-            "1": {
-              "ant": [
-                "defense"
-              ]
-            }
-          }
+          ]
         },
         {
           "pos": "동",
           "defs": [
             "1 *공격하다",
             "2 (갑자기) 발병하다"
-          ],
-          "syn_ant": {
-            "1": {
-              "ant": [
-                "defend"
-              ]
-            },
-            "2": {
-              "syn": [
-                "break out"
-              ]
-            }
-          }
+          ]
         }
       ],
+      "antonyms": ["defense", "defend"],
+      "synonyms": ["break out"],
       "parts": [
-        {
-          "part": "at",
-          "mean": "= ad:to"
-        },
-        {
-          "part": "tack",
-          "mean": "= stick"
-        }
+        {"part": "at", "mean": "= ad:to"},
+        {"part": "tack", "mean": "= stick"}
       ],
       "origin": "(적)에게 달라붙다 → 공격(하다)",
       "examples": [
@@ -778,9 +421,7 @@
     },
     {
       "en": "stake",
-      "ipa": [
-        "[steik]"
-      ],
+      "ipa": ["[steik]"],
       "meanings": [
         {
           "pos": "명",
@@ -811,43 +452,24 @@
     },
     {
       "en": "estimate",
-      "ipa": [
-        "동 [éstəmèit]",
-        "명 [éstəmit]"
-      ],
+      "ipa": ["동 [éstəmèit]", "명 [éstəmit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "*(가치·비용 등을) 평가하다, 추정하다, 견적하다"
-          ]
+          "defs": ["*(가치·비용 등을) 평가하다, 추정하다, 견적하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "평가, 추정; 견적(서)"
-          ]
+          "defs": ["평가, 추정; 견적(서)"]
         }
       ],
       "parts": [
-        {
-          "part": "estim",
-          "mean": "= value"
-        },
-        {
-          "part": "ate",
-          "mean": "동접"
-        }
+        {"part": "estim", "mean": "= value"},
+        {"part": "ate", "mean": "동접"}
       ],
       "origin": "가치를 평가하다",
       "derivatives": [
-        {
-          "en": "estimation",
-          "pos": "명",
-          "defs": [
-            "판단, 평가(치)"
-          ]
-        }
+        {"en": "estimation", "pos": "명", "defs": ["판단, 평가(치)"]}
       ],
       "examples": [
         {
@@ -864,32 +486,20 @@
     },
     {
       "en": "overestimate",
-      "ipa": [
-        "[òuvəréstəmèit]"
-      ],
+      "ipa": ["[òuvəréstəmèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "과대평가 하다"
-          ]
+          "defs": ["과대평가 하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "과대평가"
-          ]
+          "defs": ["과대평가"]
         }
       ],
       "parts": [
-        {
-          "part": "over",
-          "mean": "= too much"
-        },
-        {
-          "part": "estimate",
-          "mean": "평가하다"
-        }
+        {"part": "over", "mean": "= too much"},
+        {"part": "estimate", "mean": "평가하다"}
       ],
       "origin": "(실제보다) 더 높게 평가하다",
       "examples": [
@@ -908,34 +518,19 @@
     },
     {
       "en": "esteem",
-      "ipa": [
-        "[istíːm]"
-      ],
+      "ipa": ["[istíːm]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "존경하다, 존중하다"
-          ]
+          "defs": ["존경하다, 존중하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "존경, 경의"
-          ],
-          "syn_ant": {
-            "0": {
-              "syn": [
-                "respect"
-              ],
-              "ant": [
-                "disrespect",
-                "disregard"
-              ]
-            }
-          }
+          "defs": ["존경, 경의"]
         }
       ],
+      "synonyms": ["respect"],
+      "antonyms": ["disrespect", "disregard"],
       "origin": "라틴어 aestimare(=value)에서 온 말\n→ 가치 있고 소중하게 생각하다",
       "examples": [
         {
@@ -957,9 +552,7 @@
     },
     {
       "en": "circulate",
-      "ipa": [
-        "[sə́ːrkjəlèit]"
-      ],
+      "ipa": ["[sə́ːrkjəlèit]"],
       "meanings": [
         {
           "pos": "동",
@@ -971,34 +564,13 @@
         }
       ],
       "parts": [
-        {
-          "part": "circul",
-          "mean": "= circle"
-        },
-        {
-          "part": "ate",
-          "mean": "동접"
-        }
+        {"part": "circul", "mean": "= circle"},
+        {"part": "ate", "mean": "동접"}
       ],
       "origin": "둘게 하다",
       "derivatives": [
-        {
-          "en": "circular",
-          "pos": "형",
-          "defs": [
-            "1 원형의, 둥근",
-            "2 순환하는, 순회의"
-          ]
-        },
-        {
-          "en": "circulation",
-          "pos": "명",
-          "defs": [
-            "1 (혈액의) 순환",
-            "2 유통, 유포",
-            "3 (신문·잡지 등의) 판매 부수"
-          ]
-        }
+        {"en": "circular", "pos": "형", "defs": ["1 원형의, 둥근", "2 순환하는, 순회의"]},
+        {"en": "circulation", "pos": "명", "defs": ["1 (혈액의) 순환", "2 유통, 유포", "3 (신문·잡지 등의) 판매 부수"]}
       ],
       "examples": [
         {
@@ -1021,9 +593,7 @@
     },
     {
       "en": "circumstance",
-      "ipa": [
-        "[sə́ːrkəmstæ̀ns]"
-      ],
+      "ipa": ["[sə́ːrkəmstæ̀ns]"],
       "meanings": [
         {
           "pos": "명",
@@ -1034,18 +604,9 @@
         }
       ],
       "parts": [
-        {
-          "part": "circum",
-          "mean": "= around"
-        },
-        {
-          "part": "st",
-          "mean": "= sta:stand"
-        },
-        {
-          "part": "ance",
-          "mean": "명접"
-        }
+        {"part": "circum", "mean": "= around"},
+        {"part": "st", "mean": "= sta:stand"},
+        {"part": "ance", "mean": "명접"}
       ],
       "origin": "주위에 서 있는 것",
       "examples": [
@@ -1064,9 +625,7 @@
     },
     {
       "en": "circuit",
-      "ipa": [
-        "[sə́ːrkit]"
-      ],
+      "ipa": ["[sə́ːrkit]"],
       "meanings": [
         {
           "pos": "명",
@@ -1078,14 +637,8 @@
         }
       ],
       "parts": [
-        {
-          "part": "circu",
-          "mean": "= around"
-        },
-        {
-          "part": "it",
-          "mean": "= go"
-        }
+        {"part": "circu", "mean": "= around"},
+        {"part": "it", "mean": "= go"}
       ],
       "origin": "둘레를 도는 것",
       "examples": [
@@ -1104,54 +657,25 @@
     },
     {
       "en": "disturb",
-      "ipa": [
-        "[distə́ːrb]"
-      ],
+      "ipa": ["[distə́ːrb]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
             "1 방해하다",
             "2 *(평화·질서·상태를) 깨뜨리다, 어지럽히다"
-          ],
-          "syn_ant": {
-            "1": {
-              "syn": [
-                "bother",
-                "interrupt"
-              ]
-            }
-          }
+          ]
         }
       ],
+      "synonyms": ["bother", "interrupt"],
       "parts": [
-        {
-          "part": "dis",
-          "mean": "「강조」"
-        },
-        {
-          "part": "turb",
-          "mean": "= disorder"
-        }
+        {"part": "dis", "mean": "「강조」"},
+        {"part": "turb", "mean": "= disorder"}
       ],
       "origin": "무질서 속에 빠뜨리다",
       "derivatives": [
-        {
-          "en": "disturbance",
-          "pos": "명",
-          "defs": [
-            "1 혼란, 소동",
-            "2 방해",
-            "3 (마음의) 불안, 동요"
-          ]
-        },
-        {
-          "en": "disturbing",
-          "pos": "형",
-          "defs": [
-            "불안하게 하는, 충격적인; 방해가 되는"
-          ]
-        }
+        {"en": "disturbance", "pos": "명", "defs": ["1 혼란, 소동", "2 방해", "3 (마음의) 불안, 동요"]},
+        {"en": "disturbing", "pos": "형", "defs": ["불안하게 하는, 충격적인; 방해가 되는"]}
       ],
       "examples": [
         {
@@ -1168,50 +692,28 @@
     },
     {
       "en": "trouble",
-      "ipa": [
-        "[trʌ́bəl]"
-      ],
+      "ipa": ["[trʌ́bəl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "*문제, 어려움, 곤란, 근심"
-          ]
+          "defs": ["*문제, 어려움, 곤란, 근심"]
         },
         {
           "pos": "동",
           "defs": [
             "1 괴롭히다, 걱정시키다",
             "2 성가시게 하다, 수고스럽게 …하도록 하다"
-          ],
-          "syn_ant": {
-            "2": {
-              "syn": [
-                "bother"
-              ]
-            }
-          }
+          ]
         }
       ],
+      "synonyms": ["bother"],
       "parts": [
-        {
-          "part": "troub",
-          "mean": "= disorder"
-        },
-        {
-          "part": "le",
-          "mean": "어미"
-        }
+        {"part": "troub", "mean": "= disorder"},
+        {"part": "le", "mean": "어미"}
       ],
       "origin": "(어떤 어려움으로) 머리나 마음을 어지럽게 하다\n→ 골치 아픈 문제",
       "derivatives": [
-        {
-          "en": "troublesome",
-          "pos": "형",
-          "defs": [
-            "골치 아픈, 성가신"
-          ]
-        }
+        {"en": "troublesome", "pos": "형", "defs": ["골치 아픈, 성가신"]}
       ],
       "examples": [
         {
