@@ -114,7 +114,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .deriv-item{display:flex;align-items:baseline;gap:8px;margin-bottom:5px;font-size:.82rem}
 .deriv-word{font-family:'DM Serif Display',serif;font-weight:600;color:var(--accent);min-width:85px}
 .deriv-pos{font-size:.62rem;font-weight:700;color:#fff;background:var(--accent);padding:2px 7px;border-radius:10px;flex-shrink:0}
-.deriv-def{color:var(--text)}.deriv-def .def-numbered{margin-left:0;display:inline-flex}.deriv-def .def-num{width:.8em}.deriv-def .def-numbered-first,.deriv-def .def-numbered{margin-right:8px}
+.deriv-def{color:var(--text);display:flex;flex-direction:column;align-items:flex-start}.deriv-def .def-row{display:block}.deriv-def .def-numbered{margin-left:0;display:inline}.deriv-def .def-num{width:auto;margin-right:2px}.deriv-def .def-numbered-first,.deriv-def .def-numbered{margin-right:0}
 .syn-ant-row{display:flex;gap:8px;flex-wrap:wrap}
 .syn-tag,.ant-tag{font-size:.78rem;padding:5px 11px;border-radius:8px}
 .syn-tag{background:rgba(46,170,127,.08);border:1px solid rgba(46,170,127,.2);color:var(--green)}
@@ -149,7 +149,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:50vw;height:5
 .meaning-group{display:flex;align-items:flex-start;gap:6px;width:100%;margin-bottom:10px}.meaning-group:last-child{margin-bottom:0}
 .pos-tag{flex-shrink:0;background:var(--accent);color:#fff;font-size:.7rem;font-weight:700;padding:3px 10px;border-radius:20px;margin-top:2px}
 .meaning-defs{flex:1;min-width:0}
-.def-inline{font-size:1rem;line-height:1.6;color:var(--text)}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;color:var(--text);flex-shrink:0;width:1.2em}.def-numbered-first{display:flex}.def-numbered{display:flex}
+.def-inline{font-size:1rem;line-height:1.6;color:var(--text);display:flex;flex-direction:column;align-items:flex-start}.def-inline .def-row{display:block}.def-highlight{color:#d32f2f;font-weight:700}.def-num{font-weight:700;color:var(--text);margin-right:4px}.def-numbered-first{display:block}.def-numbered{display:block}
 .def-prefixed-grid{display:grid;grid-template-columns:auto auto 1fr;column-gap:5px;line-height:1.6;font-size:1rem}.def-prefixed-grid .pf-num{font-weight:700}
 
 /* Navigation */
@@ -1172,15 +1172,16 @@ function buildDerivativesHtml(word) {
   word.derivatives.forEach(d => {
     const sa = d.syn_ant || null;
     let defsHtml = '';
-    if (sa) {
-      const hasNums = d.defs.some(dd => /^\d+\s/.test(dd));
-      if (hasNums) {
-        d.defs.forEach(dd => { defsHtml += formatDef(dd) + buildInlineSynAnt(sa, dd.match(/^(\d+)\s/) ? dd.match(/^(\d+)\s/)[1] : '0') + ' '; });
-      } else {
-        defsHtml = d.defs.map(dd => formatDef(dd)).join(' ') + buildInlineSynAnt(sa, 0);
-      }
+    const hasNums = d.defs.some(dd => /^\d+\s/.test(dd) || /^.+?\)\s*\d+\s/.test(dd));
+    if (hasNums) {
+      d.defs.forEach(dd => {
+        const pm = dd.match(/^.+?\)\s*(\d+)\s/) || dd.match(/^(\d+)\s/);
+        const saHtml = sa ? buildInlineSynAnt(sa, pm ? pm[1] : '0') : '';
+        defsHtml += '<span class="def-row">' + formatDef(dd) + saHtml + '</span>';
+      });
     } else {
-      defsHtml = d.defs.map(dd => formatDef(dd)).join(' ');
+      const saHtml = sa ? buildInlineSynAnt(sa, 0) : '';
+      defsHtml = '<span class="def-row">' + d.defs.map(dd => formatDef(dd)).join(' ') + saHtml + '</span>';
     }
     h += `<div class="deriv-item"><span class="deriv-word">${d.en}</span><span class="deriv-pos">${d.pos}</span><span class="deriv-def">${defsHtml}</span></div>`;
   });
@@ -1333,9 +1334,9 @@ function showCard() {
       let defsHtml = '';
       const hasNums = m.defs.some(d => /^\d+\s/.test(d));
       if (hasNums) {
-        m.defs.forEach(d => { defsHtml += formatDef(d) + buildInlineSynAnt(sa, d.match(/^(\d+)\s/) ? d.match(/^(\d+)\s/)[1] : '0') + ' '; });
+        m.defs.forEach(d => { defsHtml += '<span class="def-row">' + formatDef(d) + buildInlineSynAnt(sa, d.match(/^(\d+)\s/) ? d.match(/^(\d+)\s/)[1] : '0') + '</span>'; });
       } else {
-        defsHtml = parsed.join(' ') + buildInlineSynAnt(sa, 0);
+        defsHtml = '<span class="def-row">' + parsed.join(' ') + buildInlineSynAnt(sa, 0) + '</span>';
       }
       meaningsHtml += `<div class="meaning-group"><span class="pos-tag">${m.pos}</span><div class="meaning-defs"><span class="def-inline">${defsHtml}</span></div></div>`;
     }
@@ -1582,13 +1583,12 @@ function formatDef(d) {
   if (numMatch) {
     const num = numMatch[1];
     let text = numMatch[2];
-    const cls = num === '1' ? 'def-numbered-first' : 'def-numbered';
     if (text.startsWith('*') && text.indexOf('*', 1) === -1) {
       text = text.substring(1);
-      return `<span class="${cls}"><span class="def-num">${num}</span><span class="def-highlight">${text}</span></span>`;
+      return `<span class="def-num">${num}</span><span class="def-highlight">${text}</span>`;
     }
     text = text.replace(/\*([^*]+)\*/g, '<span class="def-highlight">$1</span>');
-    return `<span class="${cls}"><span class="def-num">${num}</span><span>${text}</span></span>`;
+    return `<span class="def-num">${num}</span>${text}`;
   }
   if (d.startsWith('*') && d.indexOf('*', 1) === -1) {
     return `<span class="def-highlight">${d.substring(1)}</span>`;

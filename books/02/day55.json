@@ -3,582 +3,643 @@
   "words": [
     {
       "en": "favorable",
-      "ipa": "/ˈfeɪvərəbl/",
+      "ipa": ["[féivərəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "호의적인",
-            "유리한"
-          ]
+          "defs": ["호의적인, 찬성하는"],
+          "syn_ant": {
+            "0": {"syn": ["approving"], "ant": ["unfavorable"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "favor",
-          "mean": "호의 (favor)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
-        }
+        {"part": "favor", "mean": "호의"},
+        {"part": "able", "mean": ""}
       ],
-      "origin": "호의를 줄 수 있는 → 호의적인"
+      "examples": [
+        {
+          "en": "The judge seems **favorable** toward the respondent's case.",
+          "ko": "판사는 그 피고인의 주장에 대해 찬성하는 것처럼 보인다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "reliable",
-      "ipa": "/rɪˈlaɪəbl/",
+      "ipa": ["[riláiəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "믿을 수 있는",
-            "신뢰할 만한"
-          ]
+          "defs": ["의지할 수 있는, 믿을 만한"],
+          "syn_ant": {
+            "0": {"syn": ["dependable", "trustworthy"], "ant": ["unreliable"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "rely",
-          "mean": "의지하다 (rely)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
-        }
+        {"part": "rely", "mean": "의지[신뢰]하다"},
+        {"part": "able", "mean": ""}
       ],
-      "origin": "의지할 수 있는 → 신뢰할 만한"
+      "examples": [
+        {
+          "en": "Are the sources of information **reliable**?",
+          "ko": "그 정보의 출처들은 믿을 만한가요?",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "visible",
-      "ipa": "/ˈvɪzəbl/",
+      "ipa": ["[vízəbəl]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "눈에 보이는"
-          ]
+            "1 눈에 보이는",
+            "2 분명한, 명백한",
+            "3 눈에 띄는, 두드러진"
+          ],
+          "syn_ant": {
+            "1": {"ant": ["invisible"]},
+            "2": {"syn": ["obvious"]},
+            "3": {"syn": ["noticeable"]}
+          }
         }
       ],
       "parts": [
+        {"part": "vision", "mean": "시력"},
+        {"part": "ible", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "visual", "pos": "형", "defs": ["시각[시력]의; 눈으로 보는"]}
+      ],
+      "examples": [
         {
-          "part": "vis",
-          "mean": "보다 (see)"
+          "en": "Although the driver had no **visible** injuries after the accident, he went to see a doctor.",
+          "ko": "그 운전사는 사고 이후 눈에 보이는 부상은 없었지만 병원에 갔다.",
+          "source": ""
         },
         {
-          "part": "-ible",
-          "mean": "~할 수 있는"
+          "en": "Children often learn better through **visual** information such as pictures and videos.",
+          "ko": "아이들은 종종 그림과 영상 같은 시각 정보를 통해 더 잘 배운다.",
+          "source": ""
         }
-      ],
-      "origin": "볼 수 있는"
+      ]
     },
     {
       "en": "hopeful",
-      "ipa": "/ˈhoʊpfl/",
+      "ipa": ["[hóupfəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "희망에 찬",
-            "유망한"
-          ]
+          "defs": ["희망에 찬, 기대하는"],
+          "syn_ant": {
+            "0": {"syn": ["optimistic"], "ant": ["pessimistic"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "hope",
-          "mean": "희망 (hope)"
-        },
-        {
-          "part": "-ful",
-          "mean": "~이 가득한"
-        }
+        {"part": "hope", "mean": "희망"},
+        {"part": "ful", "mean": ""}
       ],
-      "origin": "희망이 가득한"
+      "examples": [
+        {
+          "en": "He is **hopeful** that the project will succeed.",
+          "ko": "그는 프로젝트가 성공할 것이라는 희망에 차 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "doubtful",
-      "ipa": "/ˈdaʊtfl/",
+      "ipa": ["[dáutfəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "의심스러운"
-          ]
+          "defs": ["의심스러운, 확신이 없는"]
         }
       ],
       "parts": [
+        {"part": "doubt", "mean": "의심"},
+        {"part": "ful", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "doubtfully", "pos": "부", "defs": ["의심스럽게, 미심쩍게"]},
+        {"en": "doubtfulness", "pos": "명", "defs": ["의심스러움, 불확실함"]}
+      ],
+      "examples": [
         {
-          "part": "doubt",
-          "mean": "의심 (doubt)"
+          "en": "The doctor said it's **doubtful** that Anna will require surgery for her arm.",
+          "ko": "의사는 Anna에게 팔 수술이 필요할지 확신할 수 없다고 말했다.",
+          "source": ""
         },
         {
-          "part": "-ful",
-          "mean": "~이 가득한"
+          "en": "He raised an eyebrow **doubtfully**.",
+          "ko": "그는 의심스러운 듯이 한쪽 눈썹을 치켜올렸다.",
+          "source": ""
         }
-      ],
-      "origin": "의심이 가득한"
+      ]
     },
     {
       "en": "meaningful",
-      "ipa": "/ˈmiːnɪŋfl/",
+      "ipa": ["[míːniŋfəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "의미 있는",
-            "뜻깊은"
-          ]
+          "defs": ["의미 있는, 중요한"]
         }
       ],
       "parts": [
-        {
-          "part": "meaning",
-          "mean": "의미 (meaning)"
-        },
-        {
-          "part": "-ful",
-          "mean": "~이 가득한"
-        }
+        {"part": "meaning", "mean": "의미"},
+        {"part": "ful", "mean": ""}
       ],
-      "origin": "의미가 가득한"
+      "examples": [
+        {
+          "en": "Small acts of kindness are appropriate and **meaningful** on any day!",
+          "ko": "작은 친절한 행동들은 언제든지 적절하고 의미 있습니다!",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "regretful",
-      "ipa": "/rɪˈɡretfl/",
+      "ipa": ["[rigrétfəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "후회하는",
-            "유감스러운"
-          ]
+          "defs": ["후회하는, 유감스러워하는"]
         }
       ],
       "parts": [
-        {
-          "part": "regret",
-          "mean": "후회 (regret)"
-        },
-        {
-          "part": "-ful",
-          "mean": "~이 가득한"
-        }
+        {"part": "regret", "mean": "후회"},
+        {"part": "ful", "mean": ""}
       ],
-      "origin": "후회가 가득한"
+      "examples": [
+        {
+          "en": "I'm **regretful** that I didn't take the opportunity when I had the chance.",
+          "ko": "기회가 있었을 때 잡지 못한 것이 후회된다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "thoughtful",
-      "ipa": "/ˈθɔːtfl/",
+      "ipa": ["[θɔ́ːtfəl]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "사려 깊은",
-            "생각에 잠긴"
-          ]
+            "1 생각에 잠긴, 사색하는",
+            "2 배려심 있는, 사려 깊은"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["contemplative", "reflective"]},
+            "2": {"syn": ["considerate", "kind"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "thought",
-          "mean": "생각 (thought)"
-        },
-        {
-          "part": "-ful",
-          "mean": "~이 가득한"
-        }
+        {"part": "thought", "mean": "생각"},
+        {"part": "ful", "mean": ""}
       ],
-      "origin": "생각이 가득한 → 사려 깊은"
+      "examples": [
+        {
+          "en": "It was very **thoughtful** of you to bring me some soup when I was sick.",
+          "ko": "내가 아플 때 네가 수프를 가져다 준 것은 매우 사려 깊은 행동이었어.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "countless",
-      "ipa": "/ˈkaʊntləs/",
+      "ipa": ["[káuntlis]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "셀 수 없이 많은"
-          ]
+          "defs": ["셀 수 없는, 무수히 많은"],
+          "syn_ant": {
+            "0": {"syn": ["innumerable", "endless"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "count",
-          "mean": "세다 (count)"
-        },
-        {
-          "part": "-less",
-          "mean": "~이 없는"
-        }
+        {"part": "count", "mean": "세다"},
+        {"part": "less", "mean": ""}
       ],
-      "origin": "셀 수 없는"
+      "examples": [
+        {
+          "en": "**Countless** people climbed aboard the ship.",
+          "ko": "셀 수 없이 많은 사람이 배에 탑승했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "endless",
-      "ipa": "/ˈendləs/",
+      "ipa": ["[éndlis]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "끝없는"
-          ]
+          "defs": ["끝없는"],
+          "syn_ant": {
+            "0": {"syn": ["infinite", "limitless", "countless"], "ant": ["finite"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "end",
-          "mean": "끝 (end)"
-        },
-        {
-          "part": "-less",
-          "mean": "~이 없는"
-        }
+        {"part": "end", "mean": "끝"},
+        {"part": "less", "mean": ""}
       ],
-      "origin": "끝이 없는"
+      "examples": [
+        {
+          "en": "Hannah struggled with the many class hours, the **endless** assignments, and the exams.",
+          "ko": "Hannah는 많은 수업, 끝없는 과제, 그리고 시험 때문에 힘들어했다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "helpless",
-      "ipa": "/ˈhelpləs/",
+      "ipa": ["[hélplis]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "무력한",
-            "어찌할 수 없는"
+            "1 무력한, 속수무책인",
+            "2 감당하지 못하는"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "help",
-          "mean": "도움 (help)"
-        },
-        {
-          "part": "-less",
-          "mean": "~이 없는"
-        }
+        {"part": "help", "mean": "도움"},
+        {"part": "less", "mean": ""}
       ],
-      "origin": "도움이 없는 → 무력한"
+      "derivatives": [
+        {"en": "helplessness", "pos": "명", "defs": ["무력감, 난감함"]}
+      ],
+      "examples": [
+        {
+          "en": "In the face of natural disasters, people often feel **helpless**.",
+          "ko": "자연재해 앞에서 사람들은 종종 무력함을 느낀다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "ideal",
-      "ipa": "/aɪˈdiːəl/",
+      "ipa": ["[aidíːəl]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "이상적인"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "이상"
+            "1 이상적인, 완벽한",
+            "2 상상의"
           ]
         }
       ],
       "parts": [
+        {"part": "idea", "mean": "생각"},
+        {"part": "al", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "ideally", "pos": "부", "defs": ["이상적으로, 완벽하게"]},
+        {"en": "idealist", "pos": "명", "defs": ["이상주의자"]},
+        {"en": "idealistic", "pos": "형", "defs": ["이상주의적인"]},
+        {"en": "idealize", "pos": "동", "defs": ["이상화하다, 이상적으로 생각하다"]}
+      ],
+      "examples": [
         {
-          "part": "idea",
-          "mean": "생각 (idea)"
+          "en": "A bedroom temperature of around 18°C is **ideal** for the sleep of most people.",
+          "ko": "대부분의 사람들에게는 18도의 침실 온도가 수면에 적합하다.",
+          "source": "모의"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "en": "We often **idealize** the things we want the most.",
+          "ko": "우리는 종종 우리가 가장 원하는 것을 이상화한다.",
+          "source": ""
         }
-      ],
-      "origin": "생각(이상)의 → 이상적인"
+      ]
     },
     {
       "en": "verbal",
-      "ipa": "/ˈvɜːrbl/",
+      "ipa": ["[və́ːrbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "말의",
-            "구두의"
-          ]
+          "defs": ["언어[말]의, 구두[말]로 된"],
+          "syn_ant": {
+            "0": {"ant": ["nonverbal(말을 쓰지 않는, 비언어적인)"]}
+          }
         }
       ],
       "parts": [
+        {"part": "verb", "mean": "동사"},
+        {"part": "al", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "verbally", "pos": "부", "defs": ["말로, 구두로"]}
+      ],
+      "examples": [
         {
-          "part": "verb",
-          "mean": "말 (word)"
+          "en": "**Verbal** abuse can be as mentally harmful as physical abuse.",
+          "ko": "언어적 학대는 신체적 학대만큼이나 정신적으로 해로울 수 있다.",
+          "source": ""
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "en": "A good speaker pays attention to both **verbal** and nonverbal communication.",
+          "ko": "좋은 연설자는 언어적 표현과 비언어적 표현 모두에 신경을 쓴다.",
+          "source": ""
         }
-      ],
-      "origin": "말의 → 구두의"
+      ]
     },
     {
       "en": "internal",
-      "ipa": "/ɪnˈtɜːrnl/",
+      "ipa": ["[intə́ːrnl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "내부의",
-            "국내의"
-          ]
+          "defs": ["내부의, 내적인"],
+          "syn_ant": {
+            "0": {"ant": ["external"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "inter-",
-          "mean": "안의 (within)"
-        },
-        {
-          "part": "-nal",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "intern-", "mean": "안에"},
+        {"part": "al", "mean": ""}
       ],
-      "origin": "안의 → 내부의"
+      "derivatives": [
+        {"en": "internally", "pos": "부", "defs": ["내부로, 내적으로"]},
+        {"en": "internalize", "pos": "동", "defs": ["내면화하다, 습득하다"]}
+      ],
+      "examples": [
+        {
+          "en": "The architect explained the **internal** structure of the building in detail.",
+          "ko": "그 건축가는 건물 내부의 구조를 자세히 설명했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "racial",
-      "ipa": "/ˈreɪʃl/",
+      "ipa": ["[réiʃəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "인종의",
-            "인종적인"
-          ]
+          "defs": ["인종의, 민족의"]
         }
       ],
       "parts": [
+        {"part": "race", "mean": "인종"},
+        {"part": "ial", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "racism", "pos": "명", "defs": ["인종 차별 (주의)"]},
+        {"en": "racist", "pos": "명", "defs": ["인종 차별 주의자"]}
+      ],
+      "examples": [
         {
-          "part": "race",
-          "mean": "인종 (race)"
+          "en": "**Racial** discrimination is still a serious issue in many countries.",
+          "ko": "인종 차별은 여전히 많은 나라에서 심각한 문제이다.",
+          "source": ""
         },
         {
-          "part": "-ial",
-          "mean": "형용사형 접미사"
+          "en": "People of every **race** should be treated equally.",
+          "ko": "모든 인종의 사람들은 평등하게 대우받아야 한다.",
+          "source": ""
         }
-      ],
-      "origin": "인종의"
+      ]
     },
     {
       "en": "spiritual",
-      "ipa": "/ˈspɪrɪtʃuəl/",
+      "ipa": ["[spíritʃuəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "정신적인",
-            "영적인"
-          ]
+          "defs": ["정신의, 정신적인"],
+          "syn_ant": {
+            "0": {"ant": ["physical", "material"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "spirit",
-          "mean": "정신, 영혼 (spirit)"
-        },
-        {
-          "part": "-ual",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "spirit", "mean": "정신"},
+        {"part": "ual", "mean": ""}
       ],
-      "origin": "정신의 → 영적인"
+      "examples": [
+        {
+          "en": "She practices yoga as a way to achieve **spiritual** peace.",
+          "ko": "그녀는 정신적 평화를 이루는 수단으로서 요가를 수련한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "familiar",
-      "ipa": "/fəˈmɪliər/",
+      "ipa": ["[fəmíljər]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "익숙한",
-            "잘 아는"
-          ]
+          "defs": ["친근한, 익숙한"],
+          "syn_ant": {
+            "0": {"ant": ["unfamiliar"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "famili",
-          "mean": "가족 (family)"
-        },
-        {
-          "part": "-ar",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "family", "mean": "가족"},
+        {"part": "ar", "mean": ""}
       ],
-      "origin": "가족처럼 친한 → 익숙한"
+      "examples": [
+        {
+          "en": "You look **familiar**. Have we met before?",
+          "ko": "낯이 익은데요. 우리 예전에 만난 적 있나요?",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "solar",
-      "ipa": "/ˈsoʊlər/",
+      "ipa": ["[sóulər]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "태양의",
-            "태양열의"
-          ]
+          "defs": ["태양의, 태양열을 이용한"]
         }
       ],
       "parts": [
-        {
-          "part": "sol",
-          "mean": "태양 (sun)"
-        },
-        {
-          "part": "-ar",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "sol-", "mean": "태양"},
+        {"part": "ar", "mean": ""}
       ],
-      "origin": "태양의"
+      "examples": [
+        {
+          "en": "The earth and the other planets in our **solar** system revolve around the sun.",
+          "ko": "우리 태양계에 있는 지구와 다른 행성들은 태양을 중심으로 공전한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "peculiar",
-      "ipa": "/pɪˈkjuːliər/",
+      "ipa": ["[pikjúːljər]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "독특한",
-            "이상한"
-          ]
+          "defs": ["기이한, 독특한"],
+          "syn_ant": {
+            "0": {"syn": ["eccentric", "odd"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "peculi",
-          "mean": "개인의 (private, own)"
-        },
-        {
-          "part": "-ar",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "peculi-", "mean": "소(牛), 사유 재산"},
+        {"part": "ar", "mean": ""}
       ],
-      "origin": "개인만의 → 독특한"
+      "origin": "소유주에게만 있는",
+      "examples": [
+        {
+          "en": "*Alice in Wonderland* is a very **peculiar** story indeed.",
+          "ko": "〈이상한 나라의 앨리스〉는 정말 기이한 이야기이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "customary",
-      "ipa": "/ˈkʌstəmeri/",
+      "ipa": ["[kʌ́stəmèri]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "관습적인",
-            "통상적인"
-          ]
+            "1 관례적인",
+            "2 습관적인"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["usual", "conventional"]},
+            "2": {"syn": ["habitual"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "custom",
-          "mean": "관습 (custom)"
-        },
-        {
-          "part": "-ary",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "custom", "mean": "관습, 습관"},
+        {"part": "ary", "mean": ""}
       ],
-      "origin": "관습의 → 관습적인"
+      "examples": [
+        {
+          "en": "It is **customary** to shake hands when meeting someone.",
+          "ko": "누군가를 만났을 때 악수하는 것은 일반적인 관례이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "satisfactory",
-      "ipa": "/ˌsætɪsˈfæktəri/",
+      "ipa": ["[sæ̀tisfǽktəri]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "만족스러운"
-          ]
+          "defs": ["충분한, 만족스러운"],
+          "syn_ant": {
+            "0": {"syn": ["acceptable"], "ant": ["unsatisfactory"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "satis",
-          "mean": "충분한 (enough)"
-        },
-        {
-          "part": "fact",
-          "mean": "만들다 (make)"
-        },
-        {
-          "part": "-ory",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "satisfy", "mean": "만족시키다"},
+        {"part": "tory", "mean": ""}
       ],
-      "origin": "충분히 만든 → 만족스러운"
+      "derivatives": [
+        {"en": "satisfaction", "pos": "명", "defs": ["만족(감)"]}
+      ],
+      "examples": [
+        {
+          "en": "The dancers will continue to practice until their performance is **satisfactory**.",
+          "ko": "무용수들은 그들의 공연이 만족스러울 때까지 연습을 계속할 것이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "costly",
-      "ipa": "/ˈkɔːstli/",
+      "ipa": ["[kɔ́ːstli]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "비싼",
-            "값비싼"
-          ]
+            "1 값비싼",
+            "2 손실[희생]이 큰"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["expensive"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "cost",
-          "mean": "비용 (cost)"
-        },
-        {
-          "part": "-ly",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "cost", "mean": "비용"},
+        {"part": "ly", "mean": ""}
       ],
-      "origin": "비용이 드는 → 비싼"
+      "examples": [
+        {
+          "en": "Their dinner was **costly** but delicious.",
+          "ko": "그곳의 저녁 식사는 비쌌지만 맛있었어요.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "timely",
-      "ipa": "/ˈtaɪmli/",
+      "ipa": ["[táimli]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "시기적절한"
-          ]
+          "defs": ["시기적절한, 때를 맞춘"],
+          "syn_ant": {
+            "0": {"syn": ["opportune"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "time",
-          "mean": "시간 (time)"
-        },
-        {
-          "part": "-ly",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "time", "mean": "시간"},
+        {"part": "ly", "mean": ""}
       ],
-      "origin": "시간에 맞는 → 시기적절한"
+      "phrases": [
+        {"en": "in a timely manner", "ko": "제 시간에"}
+      ],
+      "examples": [
+        {
+          "en": "Thanks to his **timely** advice, I avoided making a big mistake.",
+          "ko": "그의 시기적절한 조언 덕분에 나는 큰 실수를 피할 수 있었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "orderly",
-      "ipa": "/ˈɔːrdərli/",
+      "ipa": ["[ɔ́ːrdərli]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "정돈된",
-            "질서 있는"
-          ]
+            "1 정돈된, 단정한",
+            "2 (행동이) 질서 있는"
+          ],
+          "syn_ant": {
+            "1": {"ant": ["disorderly"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "order",
-          "mean": "질서 (order)"
-        },
-        {
-          "part": "-ly",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "order", "mean": "순서"},
+        {"part": "ly", "mean": ""}
       ],
-      "origin": "질서의 → 정돈된"
+      "examples": [
+        {
+          "en": "The books were arranged in an **orderly** manner.",
+          "ko": "책들이 질서 정연하게 정리되어 있었다.",
+          "source": ""
+        }
+      ]
     }
   ]
 }

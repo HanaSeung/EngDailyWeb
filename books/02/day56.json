@@ -3,581 +3,661 @@
   "words": [
     {
       "en": "furious",
-      "ipa": "/ˈfjʊriəs/",
+      "ipa": ["[fjúəriəs]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "격분한",
-            "맹렬한"
-          ]
+            "1 몹시 화가 난",
+            "2 맹렬한"
+          ],
+          "syn_ant": {
+            "2": {"syn": ["fierce"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "fury",
-          "mean": "분노 (fury)"
-        },
-        {
-          "part": "-ous",
-          "mean": "~의 성질을 가진"
-        }
+        {"part": "fury", "mean": "분노"},
+        {"part": "ous", "mean": ""}
       ],
-      "origin": "분노의 → 격분한"
+      "derivatives": [
+        {"en": "furiously", "pos": "부", "defs": ["맹렬하게, 극단적으로"]}
+      ],
+      "examples": [
+        {
+          "en": "The local human population was cutting down the reed beds at a **furious** rate.",
+          "ko": "지역 주민들이 맹렬한 속도로 갈대밭을 베어내고 있었다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "ambitious",
-      "ipa": "/æmˈbɪʃəs/",
+      "ipa": ["[æmbíʃəs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "야심 있는",
-            "포부가 큰"
-          ]
+          "defs": ["야심 있는"],
+          "syn_ant": {
+            "0": {"ant": ["unambitious"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "ambit",
-          "mean": "야망 (ambition)"
-        },
-        {
-          "part": "-ious",
-          "mean": "~의 성질을 가진"
-        }
+        {"part": "ambition", "mean": "야망"},
+        {"part": "ous", "mean": ""}
       ],
-      "origin": "야망의 → 야심 있는"
+      "examples": [
+        {
+          "en": "She became more **ambitious** as she got older.",
+          "ko": "그녀는 나이가 들면서 더욱 야심 차게 되었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "cautious",
-      "ipa": "/ˈkɔːʃəs/",
+      "ipa": ["[kɔ́ːʃəs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "조심스러운",
-            "신중한"
-          ]
+          "defs": ["조심스러운, 신중한"]
         }
       ],
       "parts": [
-        {
-          "part": "caut",
-          "mean": "조심 (caution)"
-        },
-        {
-          "part": "-ious",
-          "mean": "~의 성질을 가진"
-        }
+        {"part": "caution", "mean": "주의"},
+        {"part": "ous", "mean": ""}
       ],
-      "origin": "조심하는 → 신중한"
+      "examples": [
+        {
+          "en": "You need to be **cautious** when sharing personal details with online friends.",
+          "ko": "온라인 친구들과 개인 정보를 공유할 때는 주의해야 한다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "continuous",
-      "ipa": "/kənˈtɪnjuəs/",
+      "ipa": ["[kəntínjuəs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "계속적인",
-            "끊임없는"
-          ]
+          "defs": ["끊임없는, 계속[연속]적인"],
+          "syn_ant": {
+            "0": {"syn": ["incessant", "ceaseless"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "continu",
-          "mean": "이어지다 (continue)"
-        },
-        {
-          "part": "-ous",
-          "mean": "~의 성질을 가진"
-        }
+        {"part": "continue", "mean": "계속하다"},
+        {"part": "ous", "mean": ""}
       ],
-      "origin": "이어지는 → 계속적인"
+      "derivatives": [
+        {"en": "continuously", "pos": "부", "defs": ["연달아"]}
+      ],
+      "examples": [
+        {
+          "en": "Growing evidence shows that a **continuous** lack of sleep increases the risk of illness.",
+          "ko": "지속적인 수면 부족이 질병에 걸릴 위험을 높인다는 증거가 점점 늘어나고 있다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "fortunate",
-      "ipa": "/ˈfɔːrtʃənət/",
+      "ipa": ["[fɔ́ːrtʃənit]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "운이 좋은"
-          ]
+          "defs": ["운이 좋은"],
+          "syn_ant": {
+            "0": {"syn": ["lucky"], "ant": ["unfortunate", "unlucky"]}
+          }
         }
       ],
       "parts": [
+        {"part": "fortune", "mean": "행운"},
+        {"part": "ate", "mean": ""}
+      ],
+      "derivatives": [
         {
-          "part": "fortun",
-          "mean": "운 (fortune)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
+          "en": "fortunately", "pos": "부", "defs": ["운 좋게도, 다행히도"],
+          "syn_ant": {
+            "0": {"syn": ["luckily"], "ant": ["unfortunately"]}
+          }
         }
       ],
-      "origin": "운이 있는 → 운이 좋은"
+      "examples": [
+        {
+          "en": "I was **fortunate** to find a job I love.",
+          "ko": "좋아하는 일을 찾다니 나는 운이 좋았다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "passionate",
-      "ipa": "/ˈpæʃənət/",
+      "ipa": ["[pǽʃənit]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "열정적인"
-          ]
+          "defs": ["열렬한, 정열적인"]
         }
       ],
       "parts": [
-        {
-          "part": "passion",
-          "mean": "열정 (passion)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "passion", "mean": "열정"},
+        {"part": "ate", "mean": ""}
       ],
-      "origin": "열정의 → 열정적인"
+      "derivatives": [
+        {"en": "passionately", "pos": "부", "defs": ["열정적으로"]}
+      ],
+      "examples": [
+        {
+          "en": "He is a **passionate** baseball fan who never misses a game.",
+          "ko": "그는 한 경기도 놓치지 않는 열정적인 야구 팬이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "intimate",
-      "ipa": "/ˈɪntɪmət/",
+      "ipa": ["[íntəmit]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "친밀한",
-            "사적인"
-          ]
+          "defs": ["친밀한"]
         }
       ],
       "parts": [
+        {"part": "intima-", "mean": "마음 깊은 곳의"},
+        {"part": "ate", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "intimacy", "pos": "명", "defs": ["친밀함"]}
+      ],
+      "examples": [
         {
-          "part": "intim",
-          "mean": "가장 안쪽의 (innermost)"
+          "en": "My birthday was celebrated with a small and **intimate** gathering of friends.",
+          "ko": "나의 생일은 친밀한 친구들과의 조촐한 모임으로 축하를 받았다.",
+          "source": ""
         },
         {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
+          "en": "Every child needs **intimacy** from his or her parents.",
+          "ko": "모든 어린이는 그들의 부모님으로부터 친밀함을 필요로 한다.",
+          "source": ""
         }
-      ],
-      "origin": "가장 안쪽의 → 친밀한"
+      ]
     },
     {
       "en": "pleasant",
-      "ipa": "/ˈpleznt/",
+      "ipa": ["[plézənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "기분 좋은",
-            "쾌적한"
-          ]
+          "defs": ["즐거운, 기분 좋은"],
+          "syn_ant": {
+            "0": {"ant": ["unpleasant"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "pleas",
-          "mean": "기쁘게 하다 (please)"
-        },
-        {
-          "part": "-ant",
-          "mean": "~하는 성질의"
-        }
+        {"part": "please", "mean": "기쁘게 하다"},
+        {"part": "ant", "mean": ""}
       ],
-      "origin": "기쁘게 하는 → 쾌적한"
+      "derivatives": [
+        {"en": "pleasure", "pos": "명", "defs": ["기쁨, 즐거움"]}
+      ],
+      "examples": [
+        {
+          "en": "She smelled the **pleasant** scent of the fresh wild flowers.",
+          "ko": "그녀는 신선한 야생화에서 나는 기분 좋은 향기를 맡았다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "reliant",
-      "ipa": "/rɪˈlaɪənt/",
+      "ipa": ["[riláiənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "의존하는"
-          ]
+          "defs": ["의지[의존]하는, 신뢰하는"],
+          "syn_ant": {
+            "0": {"syn": ["dependent"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "rely",
-          "mean": "의지하다 (rely)"
-        },
-        {
-          "part": "-ant",
-          "mean": "~하는 성질의"
-        }
+        {"part": "rely", "mean": "의지[신뢰]하다"},
+        {"part": "ant", "mean": ""}
       ],
-      "origin": "의지하는"
+      "derivatives": [
+        {"en": "reliance", "pos": "명", "defs": ["의존, 의지, 신뢰"]}
+      ],
+      "examples": [
+        {
+          "en": "Many people are too **reliant** on their smartphones these days.",
+          "ko": "요즘 많은 사람들이 스마트폰에 너무 의존하고 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "violent",
-      "ipa": "/ˈvaɪələnt/",
+      "ipa": ["[váiələnt]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "폭력적인",
-            "격렬한"
+            "1 폭력적인, 난폭한",
+            "2 격렬한"
           ]
         }
       ],
       "parts": [
+        {"part": "violence", "mean": "폭력"},
+        {"part": "ent", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "violence", "pos": "명", "defs": ["폭행, 폭력"]},
         {
-          "part": "viol",
-          "mean": "힘 (force)"
-        },
-        {
-          "part": "-ent",
-          "mean": "~하는 성질의"
+          "en": "violently", "pos": "부", "defs": [
+            "1 거세게, 격렬히",
+            "2 난폭하게"
+          ]
         }
       ],
-      "origin": "힘이 센 → 폭력적인"
+      "examples": [
+        {
+          "en": "Some storms are more **violent** than others.",
+          "ko": "어떤 폭풍은 다른 것들보다 더 거세다.",
+          "source": ""
+        },
+        {
+          "en": "We need to put a stop to domestic **violence**.",
+          "ko": "우리는 가정 폭력을 근절해야 한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "urgent",
-      "ipa": "/ˈɜːrdʒənt/",
+      "ipa": ["[ə́ːrdʒənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "긴급한",
-            "다급한"
-          ]
+          "defs": ["긴급한, 다급한"]
         }
       ],
       "parts": [
+        {"part": "urge", "mean": "촉구하다"},
+        {"part": "ent", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "urgently", "pos": "부", "defs": ["급히"]},
+        {"en": "urgency", "pos": "명", "defs": ["긴급(한 일)"]}
+      ],
+      "examples": [
         {
-          "part": "urg",
-          "mean": "밀다 (push, press)"
+          "en": "I want immediate action to solve this **urgent** problem.",
+          "ko": "나는 이 긴급한 문제를 해결하기 위한 즉각적인 조치를 원한다.",
+          "source": "수능"
         },
         {
-          "part": "-ent",
-          "mean": "~하는 성질의"
+          "en": "Medical equipment is **urgently** needed at the disaster site.",
+          "ko": "재난 현장에 의료 장비가 급히 요구된다.",
+          "source": ""
         }
-      ],
-      "origin": "밀어붙이는 → 긴급한"
+      ]
     },
     {
       "en": "foolish",
-      "ipa": "/ˈfuːlɪʃ/",
+      "ipa": ["[fúːliʃ]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "어리석은"
-          ]
+          "defs": ["어리석은"],
+          "syn_ant": {
+            "0": {"syn": ["silly", "stupid", "absurd", "ridiculous"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "fool",
-          "mean": "바보 (fool)"
-        },
-        {
-          "part": "-ish",
-          "mean": "~와 같은"
-        }
+        {"part": "fool", "mean": "바보"},
+        {"part": "ish", "mean": ""}
       ],
-      "origin": "바보 같은 → 어리석은"
+      "examples": [
+        {
+          "en": "It was **foolish** to go jogging on a rainy day.",
+          "ko": "비오는 날에 조깅을 한 것은 어리석었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "reddish",
-      "ipa": "/ˈredɪʃ/",
+      "ipa": ["[rédiʃ]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "불그스름한"
-          ]
+          "defs": ["발그레한, 불그스름한"]
         }
       ],
       "parts": [
-        {
-          "part": "red",
-          "mean": "빨간 (red)"
-        },
-        {
-          "part": "-ish",
-          "mean": "~에 가까운"
-        }
+        {"part": "red", "mean": "빨간색의"},
+        {"part": "ish", "mean": ""}
       ],
-      "origin": "빨간색에 가까운"
+      "examples": [
+        {
+          "en": "My heart beat quickly, and my face became **reddish**.",
+          "ko": "내 심장은 빨리 뛰었고, 얼굴은 발그레해졌다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "selfish",
-      "ipa": "/ˈselfɪʃ/",
+      "ipa": ["[sélfiʃ]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "이기적인"
-          ]
+          "defs": ["이기적인"],
+          "syn_ant": {
+            "0": {"ant": ["unselfish", "selfless"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "self",
-          "mean": "자기 (self)"
-        },
-        {
-          "part": "-ish",
-          "mean": "~와 같은"
-        }
+        {"part": "self", "mean": "자신"},
+        {"part": "ish", "mean": ""}
       ],
-      "origin": "자기만 생각하는 → 이기적인"
+      "derivatives": [
+        {"en": "selfishness", "pos": "명", "defs": ["이기적임, 이기주의"]}
+      ],
+      "examples": [
+        {
+          "en": "His **selfish** behavior made him unpopular at his school.",
+          "ko": "이기적인 행동 때문에 그는 학교에서 인기가 없었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "childish",
-      "ipa": "/ˈtʃaɪldɪʃ/",
+      "ipa": ["[tʃáildiʃ]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "유치한",
-            "어린애 같은"
-          ]
+          "defs": ["어린애 같은; 유치한"],
+          "syn_ant": {
+            "0": {"syn": ["immature"], "ant": ["mature"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "child",
-          "mean": "아이 (child)"
-        },
-        {
-          "part": "-ish",
-          "mean": "~와 같은"
-        }
+        {"part": "child", "mean": "아이"},
+        {"part": "ish", "mean": ""}
       ],
-      "origin": "아이 같은 → 유치한"
+      "examples": [
+        {
+          "en": "Although she is **childish**, she has a brilliant mind.",
+          "ko": "그녀는 유치하기는 해도 머리가 좋다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "basic",
-      "ipa": "/ˈbeɪsɪk/",
+      "ipa": ["[béisik]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "기본적인",
-            "기초의"
-          ]
+          "defs": ["기초적인, 기본적인"],
+          "syn_ant": {
+            "0": {"syn": ["fundamental"]}
+          }
         }
       ],
       "parts": [
+        {"part": "base", "mean": "기초"},
+        {"part": "ic", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "basically", "pos": "부", "defs": ["본질적으로, 본래"]}
+      ],
+      "examples": [
         {
-          "part": "bas",
-          "mean": "기초 (base)"
+          "en": "a guide to the **basic** rules of chess",
+          "ko": "체스의 기본 규칙 안내",
+          "source": ""
         },
         {
-          "part": "-ic",
-          "mean": "~의 성질을 가진"
+          "en": "Being a good listener is the most **basic** way to connect with others.",
+          "ko": "잘 들어주는 사람이 되는 것은 타인과 연결되는 가장 기본적인 방법이다.",
+          "source": "교과서"
         }
-      ],
-      "origin": "기초의 → 기본적인"
+      ]
     },
     {
       "en": "characteristic",
-      "ipa": "/ˌkærəktəˈrɪstɪk/",
+      "ipa": ["[kæ̀riktərístik]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "특유의",
-            "독특한"
-          ]
+          "defs": ["특징적인, 독특한"]
         },
         {
           "pos": "명",
-          "defs": [
-            "특징"
-          ]
+          "defs": ["특징"]
         }
       ],
       "parts": [
+        {"part": "character", "mean": "특징"},
+        {"part": "ist", "mean": "명점"},
+        {"part": "ic", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "character", "pos": "명", "defs": ["1 성격", "2 특성", "3 등장인물"]},
+        {"en": "characteristically", "pos": "부", "defs": ["특징적으로"]},
+        {"en": "characterize", "pos": "동", "defs": ["특징 짓다"]}
+      ],
+      "examples": [
         {
-          "part": "character",
-          "mean": "성격, 특성 (character)"
+          "en": "The researcher identified a **characteristic** pattern in the data.",
+          "ko": "그 연구자는 데이터에서 특징적인 패턴을 발견했다.",
+          "source": ""
         },
         {
-          "part": "-istic",
-          "mean": "형용사형 접미사"
+          "en": "When we praise someone's **character**, we use words for various virtues: generous, kind, courageous, etc.",
+          "ko": "우리가 누군가의 성격을 칭찬할 때, 관대한, 친절한, 용감한 등의 다양한 미덕을 나타내는 단어들을 사용한다.",
+          "source": "모의"
         }
-      ],
-      "origin": "특성의 → 특유의"
+      ]
     },
     {
       "en": "typical",
-      "ipa": "/ˈtɪpɪkl/",
+      "ipa": ["[típikəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "전형적인",
-            "대표적인"
-          ]
+          "defs": ["전형적인"],
+          "syn_ant": {
+            "0": {"syn": ["normal"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "type",
-          "mean": "유형 (type)"
-        },
-        {
-          "part": "-ical",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "type", "mean": "유형"},
+        {"part": "ical", "mean": ""}
       ],
-      "origin": "유형의 → 전형적인"
+      "examples": [
+        {
+          "en": "It's a **typical** summer day—hot and humid.",
+          "ko": "오늘은 덥고 습한 전형적인 여름날이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "active",
-      "ipa": "/ˈæktɪv/",
+      "ipa": ["[ǽktiv]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "활동적인",
-            "적극적인"
-          ]
+            "1 활동적인",
+            "2 적극적인"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["energetic", "lively"], "ant": ["inactive"]},
+            "2": {"ant": ["passive"]}
+          }
         }
       ],
       "parts": [
+        {"part": "act", "mean": "행동하다"},
+        {"part": "ive", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "activity", "pos": "명", "defs": ["활동, 행동"]},
+        {"en": "activate", "pos": "동", "defs": ["작동시키다, 활성화하다"]}
+      ],
+      "examples": [
         {
-          "part": "act",
-          "mean": "행하다 (act)"
+          "en": "Most bats sleep during the day and are **active** at night.",
+          "ko": "대부분의 박쥐는 낮에 자고 밤에 활동한다.",
+          "source": ""
         },
         {
-          "part": "-ive",
-          "mean": "~하는 성질의"
+          "en": "The library offers a variety of **activities** for young children.",
+          "ko": "그 도서관은 어린아이들을 위한 다양한 활동을 제공한다.",
+          "source": ""
         }
-      ],
-      "origin": "행하는 → 활동적인"
+      ]
     },
     {
       "en": "intuitive",
-      "ipa": "/ɪnˈtuːɪtɪv/",
+      "ipa": ["[intúːətiv]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "직관적인"
-          ]
+          "defs": ["직감에 의한; 직관적인"]
         }
       ],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "tuit",
-          "mean": "보다 (look)"
-        },
-        {
-          "part": "-ive",
-          "mean": "~하는 성질의"
-        }
+        {"part": "intuit", "mean": "직감하다"},
+        {"part": "ive", "mean": ""}
       ],
-      "origin": "안에서 보는 → 직관적인"
+      "derivatives": [
+        {"en": "intuition", "pos": "명", "defs": ["직관력; 직감, 직관"]}
+      ],
+      "examples": [
+        {
+          "en": "The new app has an **intuitive** design that is easy to use.",
+          "ko": "그 새로운 앱은 사용하기 쉬운 직관적인 디자인을 가지고 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "informative",
-      "ipa": "/ɪnˈfɔːrmətɪv/",
+      "ipa": ["[infɔ́ːrmətiv]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "유익한",
-            "정보를 주는"
-          ]
+          "defs": ["유익한, 정보를 제공하는"]
         }
       ],
       "parts": [
-        {
-          "part": "inform",
-          "mean": "알리다 (inform)"
-        },
-        {
-          "part": "-ative",
-          "mean": "~하는 성질의"
-        }
+        {"part": "inform", "mean": "알리다"},
+        {"part": "ative", "mean": ""}
       ],
-      "origin": "알려주는 → 유익한"
+      "derivatives": [
+        {"en": "information", "pos": "명", "defs": ["정보, 지식"]}
+      ],
+      "examples": [
+        {
+          "en": "We hope you found the lecture **informative**.",
+          "ko": "당신에게 유익한 강의였기를 바랍니다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "hasty",
-      "ipa": "/ˈheɪsti/",
+      "ipa": ["[héisti]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "서두르는",
-            "급한"
-          ]
+          "defs": ["성급한, 서두르는"],
+          "syn_ant": {
+            "0": {"syn": ["hurried"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "hast",
-          "mean": "서두름 (haste)"
-        },
-        {
-          "part": "-y",
-          "mean": "~의 성질을 가진"
-        }
+        {"part": "haste", "mean": "서두름"},
+        {"part": "y", "mean": ""}
       ],
-      "origin": "서두르는"
+      "derivatives": [
+        {"en": "hasten", "pos": "동", "defs": ["1 서둘러 하다", "2 재촉하다"], "ipa": "[héisən]"}
+      ],
+      "examples": [
+        {
+          "en": "I won't make any **hasty** decisions again.",
+          "ko": "나는 다시는 어떤 성급한 결정도 내리지 않을 것이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "sticky",
-      "ipa": "/ˈstɪki/",
+      "ipa": ["[stíki]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "끈적끈적한"
-          ]
+          "defs": ["끈적거리는, 달라붙는"]
         }
       ],
       "parts": [
-        {
-          "part": "stick",
-          "mean": "붙다 (stick)"
-        },
-        {
-          "part": "-y",
-          "mean": "~의 성질을 가진"
-        }
+        {"part": "stick", "mean": "달라붙다"},
+        {"part": "y", "mean": ""}
       ],
-      "origin": "붙는 → 끈적끈적한"
+      "examples": [
+        {
+          "en": "The stamps were not **sticky** enough, so they didn't **stick** to the envelope.",
+          "ko": "우표가 충분히 끈적이지 않아서, 봉투에 붙지 않았다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "gloomy",
-      "ipa": "/ˈɡluːmi/",
+      "ipa": ["[glúːmi]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "우울한",
-            "어두운"
-          ]
+            "1 어두운, 우울한",
+            "2 우울하게 하는"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["depressed"]},
+            "2": {"syn": ["depressing"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "gloom",
-          "mean": "어둠, 우울 (darkness, gloom)"
-        },
-        {
-          "part": "-y",
-          "mean": "~의 성질을 가진"
-        }
+        {"part": "gloom", "mean": "우울"},
+        {"part": "y", "mean": ""}
       ],
-      "origin": "어두운 → 우울한"
+      "examples": [
+        {
+          "en": "The weather was so **gloomy** that we kept the lights on all day yesterday.",
+          "ko": "날씨가 너무 어두워서 우리는 어제 하루 종일 불을 켜두고 있었다.",
+          "source": ""
+        }
+      ]
     }
   ]
 }

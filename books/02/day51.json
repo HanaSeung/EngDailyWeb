@@ -3,225 +3,227 @@
   "words": [
     {
       "en": "intrude",
-      "ipa": "/ɪnˈtruːd/",
+      "ipa": ["[intrúːd]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "침입하다",
-            "방해하다"
-          ]
+            "1 (+ into/(up)on) 방해하다, 참견하다",
+            "2 (+ into/on) 침입하다, 침범하다"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["interrupt"]},
+            "2": {"syn": ["invade", "break into"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로 (into)"
-        },
-        {
-          "part": "trude(trud)",
-          "mean": "밀다 (push, thrust)"
-        }
+      "parts": [{"part": "in", "mean": "= in"}, {"part": "trude", "mean": "= push"}],
+      "origin": "안으로 밀고 들어오다",
+      "derivatives": [
+        {"en": "intrusion", "pos": "명", "defs": ["1 방해", "2 침입, 침범"]}
       ],
-      "origin": "안으로 밀고 들어가다 → 침입하다"
+      "examples": [
+        {"en": "I don't want to **intrude on** you if you're busy.", "ko": "만약 당신이 바쁘다면 방해하고 싶지 않아요.", "source": ""}
+      ]
     },
     {
       "en": "thrust",
-      "ipa": "/θrʌst/",
+      "ipa": ["[θrʌst]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "밀다",
-            "찌르다"
+            "1 세게 밀다",
+            "2 (칼 등으로) 찌르다"
           ]
         },
         {
           "pos": "명",
           "defs": [
-            "추진력"
+            "1 (세게) 밀침, 찌르기",
+            "2 요점, 취지"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "thrust(trud)",
-          "mean": "밀다 (push)"
-        }
-      ],
-      "origin": "밀다"
+      "origin": "중세 영어 thrusten(=push)에서 온 말",
+      "examples": [
+        {"en": "He **thrust** his hand into the hole to find out what was in it.", "ko": "그는 구멍 안에 무엇이 있는지 알아내려고 손을 찔러 넣었다.", "source": ""},
+        {"en": "the main **thrust** of the government's economic policy", "ko": "정부 경제 정책의 주요 요점", "source": ""}
+      ]
     },
     {
       "en": "threat",
-      "ipa": "/θret/",
+      "ipa": ["[θret]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "위협",
-            "협박"
-          ]
+            "위협, 협박"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["menace"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "threat(trud)",
-          "mean": "밀다, 압박하다 (push, press)"
-        }
+      "origin": "고대 영어 threat(=painful pressure 고통스러운 압력)에서 온 말",
+      "derivatives": [
+        {"en": "threaten", "pos": "동", "defs": ["1 협박하다, 위협하다", "2 위협하여 …하게 하다"]},
+        {"en": "threatening", "pos": "형", "defs": ["협박하는, 위협적인; 험악한"]}
       ],
-      "origin": "압박하는 것 → 위협"
+      "examples": [
+        {"en": "The loss of green space is a major **threat** to urban environments because it raises temperatures.", "ko": "녹지의 상실은 온도를 상승시키기 때문에 도시 환경에 큰 위협이다.", "source": "교과서"},
+        {"en": "People who lie get into trouble when someone **threatens** to uncover their lie.", "ko": "거짓말을 하는 사람들은 누군가가 그들의 거짓말을 폭로하겠다고 위협할 때 곤경에 처하게 된다.", "source": "모의"}
+      ]
     },
     {
       "en": "graphic",
-      "ipa": "/ˈɡræfɪk/",
+      "ipa": ["[grǽfik]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "그래픽의",
-            "생생한"
-          ]
+            "1 생생한, 사실적인",
+            "2 그림의, 도표의, 그래픽의"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["vivid"], "ant": ["vague"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "graph",
-          "mean": "그리다, 쓰다 (draw, write)"
-        },
-        {
-          "part": "-ic",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "graph", "mean": "= draw"}, {"part": "ic", "mean": "형접"}],
+      "origin": "그림 같은 → 생생한",
+      "derivatives": [
+        {"en": "graphics", "pos": "명", "defs": ["(단수 취급) (컴퓨터로 만든) 이미지, 그림"]}
       ],
-      "origin": "그려진 → 생생한"
+      "examples": [
+        {"en": "The newspaper article gave a **graphic** description of the earthquake.", "ko": "그 신문 기사는 지진에 대해 생생하게 묘사했다.", "source": ""}
+      ]
     },
     {
       "en": "photograph",
-      "ipa": "/ˈfoʊtəɡræf/",
+      "ipa": ["[fóutəgræ̀f]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "사진"
+            "*사진"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["photo", "picture"]}
+          }
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "사진을 찍다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "photo",
-          "mean": "빛 (light)"
-        },
-        {
-          "part": "graph",
-          "mean": "그리다 (draw, write)"
-        }
+      "parts": [{"part": "photo", "mean": "= light"}, {"part": "graph", "mean": "= draw"}],
+      "origin": "빛으로 그린 것 → 사진\n※ 사진은 빛을 이용하여 물체의 상을 필름 등에 기록하는 것임",
+      "derivatives": [
+        {"en": "photographer", "pos": "명", "defs": ["사진사"]},
+        {"en": "photography", "pos": "명", "defs": ["사진 촬영, 사진술"]},
+        {"en": "photographic", "pos": "형", "defs": ["사진(용)의, 사진에 의한"]}
       ],
-      "origin": "빛으로 그린 것 → 사진"
+      "examples": [
+        {"en": "Visitors are welcome to take **photographs**, without flash, inside the museum.", "ko": "관람객은 박물관 내에서 플래시 없이 사진을 촬영할 수 있다.", "source": "모의"}
+      ]
     },
     {
       "en": "section",
-      "ipa": "/ˈsekʃn/",
+      "ipa": ["[sékʃən]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "부분",
-            "구역",
-            "단면"
+            "1 *부분, 부문, 구획",
+            "2 (도시 등의) 구역, 지역",
+            "3 [의학] 절개"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "구분[구획/분할]하다, 나누다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "sect",
-          "mean": "자르다 (cut)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "sect", "mean": "= cut"}, {"part": "ion", "mean": "명접"}],
+      "origin": "(전체에서) 잘려진 것 → 부분",
+      "phrases": [
+        {"en": "cross section", "ko": "단면"}
       ],
-      "origin": "잘린 부분 → 구역"
+      "examples": [
+        {"en": "The key **sections** are highlighted in blue.", "ko": "중요한 부분은 파란색으로 표시되어 있다.", "source": ""}
+      ]
     },
     {
       "en": "intersection",
-      "ipa": "/ˌɪntərˈsekʃn/",
+      "ipa": ["[ìntərsékʃən]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "교차로",
-            "교차점"
+            "1 교차로, 교차 지점",
+            "2 교차, 가로지름"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "inter-",
-          "mean": "사이에 (between)"
-        },
-        {
-          "part": "sect",
-          "mean": "자르다 (cut)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "사이를 가로지르는 곳 → 교차로"
+      "parts": [{"part": "inter", "mean": "= between"}, {"part": "section", "mean": "부분"}],
+      "origin": "서로 가로질러 잘린 부분 → 교차점",
+      "examples": [
+        {"en": "My school is located at the **intersection** of First Street and Pine Street.", "ko": "우리 학교는 First가와 Pine가가 만나는 교차로에 위치해 있다.", "source": "모의"}
+      ]
     },
     {
       "en": "sector",
-      "ipa": "/ˈsektər/",
+      "ipa": ["[séktər]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "부문",
-            "분야"
+            "1 *(사회·경제·사업 등의) 부문, 분야",
+            "2 (군대의) 지구",
+            "3 부채꼴"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "sect",
-          "mean": "자르다 (cut)"
-        },
-        {
-          "part": "-or",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "sect", "mean": "= cut"}, {"part": "or", "mean": "명접"}],
+      "origin": "(원에서) 잘려진 것 → (부채꼴 모양의) 부분",
+      "derivatives": [
+        {"en": "sectoral", "pos": "형", "defs": ["1 각 분야의", "2 부채꼴의"]}
       ],
-      "origin": "잘라 나눈 부분 → 부문"
+      "examples": [
+        {"en": "As the clean energy **sector** gains popularity, oil companies will start shrinking.", "ko": "청정 에너지 분야가 인기를 얻음에 따라, 석유 회사는 위축되기 시작할 것이다.", "source": ""}
+      ]
     },
     {
       "en": "segment",
-      "ipa": "/ˈseɡmənt/",
+      "ipa": ["[ségmənt]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "부분",
-            "구간"
+            "1 *(나누어진) 부분, 구획",
+            "2 (과일의) 한 조각"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "seg(sect)",
-          "mean": "자르다 (cut)"
-        },
-        {
-          "part": "-ment",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "seg", "mean": "= cut"}, {"part": "ment", "mean": "명접"}],
+      "origin": "잘려진 것",
+      "phrases": [
+        {"en": "section", "ko": "일반적인 '부분' 또는 전문용어로서 '부분'"},
+        {"en": "sector", "ko": "전문용어로서의 '부문'"},
+        {"en": "segment", "ko": "잘려 나간 '부분'"}
       ],
-      "origin": "잘라낸 조각 → 부분"
+      "examples": [
+        {"en": "Only a small **segment** of the population supported the new policies.", "ko": "인구의 소수만이 그 새로운 정책을 지지했다.", "source": ""}
+      ]
     },
     {
       "en": "heredity",
-      "ipa": "/hɪˈredəti/",
+      "ipa": ["[hərédəti]"],
       "meanings": [
         {
           "pos": "명",
@@ -230,355 +232,348 @@
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "hered",
-          "mean": "상속인 (heir)"
-        },
-        {
-          "part": "-ity",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "hered", "mean": "= heir"}, {"part": "ity", "mean": "명접"}],
+      "origin": "(부모로부터 자손에게) 상속되는 것 → 유전",
+      "derivatives": [
+        {"en": "hereditary", "pos": "형", "defs": ["유전(상)의"]}
       ],
-      "origin": "상속되는 것 → 유전"
+      "examples": [
+        {"en": "My main reason for studying genetics is to understand the principles of **heredity**.", "ko": "내가 유전학을 공부하는 주된 이유는 유전의 원리를 이해하기 위해서이다.", "source": ""}
+      ]
     },
     {
       "en": "heritage",
-      "ipa": "/ˈherɪtɪdʒ/",
+      "ipa": ["[hérətidʒ]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "유산",
-            "전통"
+            "(가치·언어·유적 등의) 전통문화, 유산"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "herit(hered)",
-          "mean": "상속인 (heir)"
-        },
-        {
-          "part": "-age",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "상속받은 것 → 유산"
+      "parts": [{"part": "herit", "mean": "= heir"}, {"part": "age", "mean": "명접"}],
+      "origin": "(물질적·문화적으로) 상속되는 것",
+      "examples": [
+        {"en": "Traditional food is an essential part of Singapore's cultural **heritage**.", "ko": "전통 음식은 싱가포르 문화 유산의 핵심적인 부분이다.", "source": "교과서"}
+      ]
     },
     {
       "en": "inherit",
-      "ipa": "/ɪnˈherɪt/",
+      "ipa": ["[inhérit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "물려받다",
-            "상속하다"
+            "1 (재산 등을) 물려받다, 상속하다",
+            "2 *(신체적·정신적 성질 등을) 물려받다, 유전되다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로 (into)"
-        },
-        {
-          "part": "herit(hered)",
-          "mean": "상속인 (heir)"
-        }
+      "parts": [{"part": "in", "mean": "= en:make"}, {"part": "herit", "mean": "= heir"}],
+      "origin": "make an heir 상속인으로 만들다",
+      "derivatives": [
+        {"en": "inheritance", "pos": "명", "defs": ["1 상속 (재산)", "2 유전적 성질[체질], 유전"]}
       ],
-      "origin": "상속인이 되다 → 물려받다"
+      "examples": [
+        {"en": "Some people **inherit** certain diseases through heredity.", "ko": "어떤 사람들은 유전을 통해 특정 질병을 물려받는다.", "source": ""},
+        {"en": "an **inheritance** tax", "ko": "상속세", "source": ""}
+      ]
     },
     {
       "en": "heir",
-      "ipa": "/er/",
+      "ipa": ["[eər]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "상속인",
-            "후계자"
+            "(재산·지위 등의) 상속인, 후계자"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "heir(hered)",
-          "mean": "상속인 (heir)"
-        }
-      ],
-      "origin": "상속인"
+      "origin": "라틴어 heres(=heir)에서 온 말",
+      "examples": [
+        {"en": "Kelly is the sole **heir** to her mother's estate.", "ko": "Kelly는 그녀의 어머니 재산의 유일한 상속인이다.", "source": ""}
+      ]
     },
     {
       "en": "humanity",
-      "ipa": "/hjuːˈmænəti/",
+      "ipa": ["[hjuːmǽnəti]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "인류",
-            "인간성",
-            "인문학"
+            "인류(애), 인간"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "human(hum)",
-          "mean": "사람, 땅 (human, earth)"
-        },
-        {
-          "part": "-ity",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "human", "mean": "= earth"}, {"part": "ity", "mean": "명접"}],
+      "origin": "땅에 발을 딛고 있음 → 인간적임",
+      "derivatives": [
+        {"en": "human", "pos": "형", "defs": ["인간의, 사람의"]},
+        {"en": "human", "pos": "명", "defs": ["인간, 사람 (주로 human being으로 많이 쓰임)"]},
+        {"en": "humane", "pos": "형", "defs": ["인도적인, 자비로운"], "syn_ant": {"0": {"ant": ["inhumane"]}}}
       ],
-      "origin": "사람다움 → 인간성"
+      "examples": [
+        {"en": "Astronauts Neil Armstrong and Buzz Aldrin took **humanity's** first steps on the Moon.", "ko": "우주비행사 닐 암스트롱과 버즈 올드린은 인류 최초로 달에 발을 내딛었다.", "source": "교과서"}
+      ]
     },
     {
       "en": "humble",
-      "ipa": "/ˈhʌmbl/",
+      "ipa": ["[hʌ́mbəl]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "겸손한",
-            "보잘것없는"
+            "1 겸손한; 소박한",
+            "2 (신분 등이) 낮은, 비천한; (자기를 낮추어) 하찮은"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["modest"], "ant": ["arrogant"]}
+          }
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "겸손하게 만들다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "hum",
-          "mean": "땅 (earth, ground)"
-        },
-        {
-          "part": "-ble",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "땅에 가까운 → 겸손한"
+      "parts": [{"part": "hum", "mean": "= earth"}, {"part": "ble", "mean": "형접"}],
+      "origin": "땅에 가까운 → 낮은 → 천한, 자기를 낮추는",
+      "examples": [
+        {"en": "Despite his success, he remained **humble**.", "ko": "그의 성공에도 불구하고, 그는 여전히 겸손했다.", "source": ""},
+        {"en": "It is my **humble** request that we be allowed to use old newspapers that have been stored in the school library.", "ko": "학교 도서관에 보관되어 있는 옛 신문을 사용하도록 허락해 주시기를 간곡히 부탁드립니다.", "source": "모의"}
+      ]
     },
     {
       "en": "humility",
-      "ipa": "/hjuːˈmɪləti/",
+      "ipa": ["[hjuːmíləti]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "겸손",
-            "겸허"
-          ]
+            "겸손"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["modesty"], "ant": ["arrogance"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "humil(hum)",
-          "mean": "땅, 낮은 (earth, low)"
-        },
-        {
-          "part": "-ity",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "낮은 상태 → 겸손"
+      "parts": [{"part": "humili", "mean": "= humble"}, {"part": "ty", "mean": "명접"}],
+      "origin": "자신을 낮추는 것 → 겸손",
+      "examples": [
+        {"en": "She accepted the award with grace and **humility**.", "ko": "그녀는 우아하고 겸손하게 그 상을 수상했다.", "source": ""}
+      ]
     },
     {
       "en": "humiliate",
-      "ipa": "/hjuːˈmɪlieɪt/",
+      "ipa": ["[hjuːmílièit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "굴욕감을 주다"
-          ]
+            "굴욕감을 주다, 자존심을 상하게 하다"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["embarrass"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "humil(hum)",
-          "mean": "땅, 낮은 (low)"
-        },
-        {
-          "part": "-iate",
-          "mean": "동사형 접미사"
-        }
+      "parts": [{"part": "humili", "mean": "= humble"}, {"part": "ate", "mean": "동접"}],
+      "origin": "(다른 사람을) 낮추다 → 굴욕감을 주다",
+      "derivatives": [
+        {"en": "humiliation", "pos": "명", "defs": ["굴욕(감); 참피 주기"]}
       ],
-      "origin": "낮추다 → 굴욕감을 주다"
+      "examples": [
+        {"en": "I felt **humiliated** when my idea was ignored.", "ko": "나는 내 의견이 무시되었을 때 굴욕감을 느꼈다.", "source": ""}
+      ]
     },
     {
       "en": "nutrition",
-      "ipa": "/nuːˈtrɪʃn/",
+      "ipa": ["[nuːtríʃən]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "영양(공급)"
+            "영양분 (섭취)"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "nutri",
-          "mean": "영양분을 주다 (nourish)"
-        },
-        {
-          "part": "-tion",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "nutri", "mean": "= nourish"}, {"part": "tion", "mean": "명접"}],
+      "origin": "영양을 주는 것",
+      "derivatives": [
+        {"en": "nutritious", "pos": "형", "defs": ["영양가 있는, 영양분이 많은"], "syn_ant": {"0": {"syn": ["nourishing"]}}},
+        {"en": "nutritional", "pos": "형", "defs": ["영양상의"]},
+        {"en": "nutrient", "pos": "명", "defs": ["영양소, 영양분"]},
+        {"en": "malnutrition", "pos": "명", "defs": ["영양실조"]}
       ],
-      "origin": "영양을 주는 것 → 영양"
+      "examples": [
+        {"en": "Better living standards achieved through improvements in housing, **nutrition**, and sanitation have substantially reduced **malnutrition** and infections.", "ko": "주거, 영양, 위생의 개선을 통해 달성된 더 나은 생활 수준은 영양실조와 감염을 크게 감소시켰다.", "source": "모의"},
+        {"en": "mandatory **nutritional** information placed on food products", "ko": "식료품에 표기된 의무적인 영양 정보", "source": ""},
+        {"en": "Our bodies need various **nutrients** to stay healthy.", "ko": "우리의 몸은 건강을 유지하기 위해 다양한 영양소를 필요로 한다.", "source": ""}
+      ]
     },
     {
       "en": "nourish",
-      "ipa": "/ˈnɜːrɪʃ/",
+      "ipa": ["[nə́ːriʃ]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "영양분을 공급하다",
-            "기르다"
+            "1 영양분을 주다",
+            "2 (감정·생각·능력 등을) 육성하다, 조성하다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "nour(nutri)",
-          "mean": "영양분을 주다 (nourish)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
+      "parts": [{"part": "nour", "mean": "= feed"}, {"part": "ish", "mean": "동접"}],
+      "origin": "먹여 기르다",
+      "derivatives": [
+        {"en": "nourishment", "pos": "명", "defs": ["1 영양(물), 음식(물)", "2 육성"]}
       ],
-      "origin": "영양분을 주다"
+      "examples": [
+        {"en": "a well-**nourished** baby", "ko": "영양이 잘 공급된[건강하게 자란] 아기", "source": ""},
+        {"en": "She **nourishes** the students' artistic talent.", "ko": "그녀는 학생들의 예술적 재능을 육성한다.", "source": ""}
+      ]
     },
     {
       "en": "nurse",
-      "ipa": "/nɜːrs/",
+      "ipa": ["[nəːrs]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "간호사"
-          ]
+            "1 *간호사",
+            "2 유모"
+          ],
+          "syn_ant": {
+            "2": {"syn": ["nanny"]}
+          }
         },
         {
           "pos": "동",
           "defs": [
-            "간호하다",
-            "돌보다"
+            "*간호하다, 돌보다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "nurs(nutri)",
-          "mean": "기르다 (nourish)"
-        }
+      "origin": "라틴어 nutrire(=nourish)에서 온 말",
+      "derivatives": [
+        {"en": "nursery", "pos": "명", "defs": ["유치원, 탁아소, (집 안의) 아이 방"]},
+        {"en": "nursery", "pos": "형", "defs": ["유치원의"]}
       ],
-      "origin": "기르는 사람 → 간호사"
+      "phrases": [
+        {"en": "a nursing home", "ko": "요양원"},
+        {"en": "a nursery school", "ko": "(BrE) 유치원, 보육원"}
+      ],
+      "examples": [
+        {"en": "Who **nursed** Evan through the worst of the illness?", "ko": "Evan이 가장 아플 때 누가 간호했나요?", "source": ""}
+      ]
     },
     {
       "en": "nurture",
-      "ipa": "/ˈnɜːrtʃər/",
+      "ipa": ["[nə́ːrtʃər]"],
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "양육하다"
-          ]
-        },
         {
           "pos": "명",
           "defs": [
-            "양육"
+            "1 *양육, 양성",
+            "2 영양분, (영양분이 든) 음식"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 *키우다, 양육하다; 육성[양성]하다",
+            "2 (계획·아이디어 등을) 품다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "nurt(nutri)",
-          "mean": "기르다 (nourish)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "기르다 → 양육"
+      "origin": "라틴어 nutrire(=nourish)에서 온 말",
+      "examples": [
+        {"en": "Some people believe that personality is shaped more by **nurture** than by nature.", "ko": "어떤 사람들은 성격은 타고남보다 양육에 의해 더 많이 형성된다고 믿는다.", "source": ""}
+      ]
     },
     {
       "en": "grab",
-      "ipa": "/ɡræb/",
+      "ipa": ["[græb]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "움켜잡다",
-            "급히 먹다"
+            "붙잡다, 움켜쥐다, 잡아채려고 하다"
+          ]
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "움켜쥐기, 잡아채기"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "grab(gra)",
-          "mean": "붙잡다 (grasp, seize)"
-        }
+      "origin": "중세 네덜란드어 grabben(=seize)에서 온 말",
+      "phrases": [
+        {"en": "grab a bite to eat", "ko": "간단하게 먹다"}
       ],
-      "origin": "붙잡다"
+      "examples": [
+        {"en": "Just **grab** a pen and write down the answers to a few simple questions.", "ko": "펜을 잡고 몇 가지 간단한 질문에 대한 답을 적어 보세요.", "source": "교과서"},
+        {"en": "Let's **grab a bite to eat**!", "ko": "간단하게 뭐 먹자!", "source": ""}
+      ]
     },
     {
       "en": "grasp",
-      "ipa": "/ɡræsp/",
+      "ipa": ["[græsp]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "움켜쥐다",
-            "이해하다"
-          ]
+            "1 꽉 잡다, 움켜쥐다",
+            "2 *완전히 이해하다, 파악하다"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["grip"]}
+          }
         },
         {
           "pos": "명",
           "defs": [
-            "이해"
+            "1 꽉 쥐기[움켜잡기]",
+            "2 이해, 파악"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "grasp(gra)",
-          "mean": "붙잡다 (grip, seize)"
-        }
-      ],
-      "origin": "붙잡다 → 이해하다"
+      "origin": "중세 영어 grapsen(=touch)에서 온 말",
+      "examples": [
+        {"en": "It was difficult to **grasp** the artists' intentions behind the art.", "ko": "그 작품 뒤에 숨겨진 작가의 의도를 이해하는 것은 어려웠다.", "source": "교과서"},
+        {"en": "He kept a firm **grasp** on the ladder so that he wouldn't fall.", "ko": "그는 넘어지지 않기 위해 사다리를 단단히 붙잡고 있었다.", "source": ""}
+      ]
     },
     {
       "en": "grip",
-      "ipa": "/ɡrɪp/",
+      "ipa": ["[grip]"],
       "meanings": [
-        {
-          "pos": "동",
-          "defs": [
-            "꽉 쥐다"
-          ]
-        },
         {
           "pos": "명",
           "defs": [
-            "손잡이",
-            "지배력"
+            "1 *꽉 잡음, 움켜잡는 방식",
+            "2 통제권"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["grasp"]}
+          }
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 꽉 잡다, 움켜잡다",
+            "2 사로잡다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "grip(gra)",
-          "mean": "붙잡다 (grasp)"
-        }
-      ],
-      "origin": "붙잡다"
+      "origin": "고대 영어 gripa(=handful)에서 온 말",
+      "examples": [
+        {"en": "The seams of a baseball help pitchers **grip** the ball better.", "ko": "야구공의 솔기(이음매)는 투수가 공을 더 잘 움켜쥘 수 있도록 도와준다.", "source": "교과서"}
+      ]
     }
   ]
 }

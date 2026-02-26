@@ -3,24 +3,44 @@
   "words": [
     {
       "en": "civil",
-      "ipa": ["[sívəl]"],
+      "ipa": [
+        "[sívəl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
             "1 *시민의, 민간인의",
             "2 [법률] 민사의"
-          ]
+          ],
+          "syn_ant": {
+            "2": {
+              "ant": [
+                "criminal(형사상의)"
+              ]
+            }
+          }
         }
       ],
-      "antonyms": ["criminal(형사상의)"],
       "parts": [
-        {"part": "civi", "mean": "= citizen"},
-        {"part": "il", "mean": "형접"}
+        {
+          "part": "civi",
+          "mean": "= citizen"
+        },
+        {
+          "part": "il",
+          "mean": "형접"
+        }
       ],
       "origin": "belong to citizens 시민의",
       "derivatives": [
-        {"en": "civilian", "pos": "명/형", "defs": ["(군인·경찰에 소속되지 않은) 민간인(의)"]}
+        {
+          "en": "civilian",
+          "pos": "명/형",
+          "defs": [
+            "(군인·경찰에 소속되지 않은) 민간인(의)"
+          ]
+        }
       ],
       "examples": [
         {
@@ -38,21 +58,50 @@
     },
     {
       "en": "civilize",
-      "ipa": ["[sívəlàiz]"],
+      "ipa": [
+        "[sívəlàiz]"
+      ],
       "meanings": [
         {
           "pos": "동",
-          "defs": ["문명화하다"]
+          "defs": [
+            "문명화하다"
+          ]
         }
       ],
       "parts": [
-        {"part": "civil", "mean": "= citizen"},
-        {"part": "ize", "mean": "동접"}
+        {
+          "part": "civil",
+          "mean": "= citizen"
+        },
+        {
+          "part": "ize",
+          "mean": "동접"
+        }
       ],
       "origin": "시민답게 하다",
       "derivatives": [
-        {"en": "civilized", "pos": "형", "defs": ["문명화된, 교양 있는"]},
-        {"en": "civilization", "pos": "명", "defs": ["문명 (사회)"]}
+        {
+          "en": "civilized",
+          "pos": "형",
+          "defs": [
+            "문명화된, 교양 있는"
+          ],
+          "syn_ant": {
+            "0": {
+              "ant": [
+                "uncivilized(미개한)"
+              ]
+            }
+          }
+        },
+        {
+          "en": "civilization",
+          "pos": "명",
+          "defs": [
+            "문명 (사회)"
+          ]
+        }
       ],
       "examples": [
         {
@@ -69,7 +118,9 @@
     },
     {
       "en": "citizen",
-      "ipa": ["[sítəzən]"],
+      "ipa": [
+        "[sítəzən]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -80,12 +131,31 @@
         }
       ],
       "parts": [
-        {"part": "citiz", "mean": "= city"},
-        {"part": "en", "mean": "명접:「사람」"}
+        {
+          "part": "citiz",
+          "mean": "= city"
+        },
+        {
+          "part": "en",
+          "mean": "명접:「사람」"
+        }
       ],
       "origin": "도시를 구성하는 사람",
       "derivatives": [
-        {"en": "citizenship", "pos": "명", "defs": ["시민권, 시민으로서의 신분"]}
+        {
+          "en": "citizenship",
+          "pos": "명",
+          "defs": [
+            "시민권, 시민으로서의 신분"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "civil rights"
+              ]
+            }
+          }
+        }
       ],
       "examples": [
         {
@@ -97,22 +167,58 @@
     },
     {
       "en": "donate",
-      "ipa": ["[dóuneit]"],
+      "ipa": [
+        "[dóuneit]"
+      ],
       "meanings": [
         {
           "pos": "동",
-          "defs": ["(학교·자선 단체·병원 등에) 기부하다, 기증하다"]
+          "defs": [
+            "(학교·자선 단체·병원 등에) 기부하다, 기증하다"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "contribute"
+              ]
+            }
+          }
         }
       ],
-      "synonyms": ["contribute"],
       "parts": [
-        {"part": "don", "mean": "= give"},
-        {"part": "ate", "mean": "동접"}
+        {
+          "part": "don",
+          "mean": "= give"
+        },
+        {
+          "part": "ate",
+          "mean": "동접"
+        }
       ],
       "origin": "주다",
       "derivatives": [
-        {"en": "donation", "pos": "명", "defs": ["기부(금), 기증(품)"]},
-        {"en": "donor", "pos": "명", "defs": ["1 기부자, 제공자", "2 [의학] (혈액·조직·장기 등의) 기증자"]}
+        {
+          "en": "donation",
+          "pos": "명",
+          "defs": [
+            "기부(금), 기증(품)"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "contribution"
+              ]
+            }
+          }
+        },
+        {
+          "en": "donor",
+          "pos": "명",
+          "defs": [
+            "1 기부자, 제공자",
+            "2 [의학] (혈액·조직·장기 등의) 기증자"
+          ]
+        }
       ],
       "examples": [
         {
@@ -135,17 +241,30 @@
     },
     {
       "en": "anecdote",
-      "ipa": ["[ǽnikdòut]"],
+      "ipa": [
+        "[ǽnikdòut]"
+      ],
       "meanings": [
         {
           "pos": "명",
-          "defs": ["일화"]
+          "defs": [
+            "일화"
+          ]
         }
       ],
       "parts": [
-        {"part": "an", "mean": "= not"},
-        {"part": "ec", "mean": "= ex:out"},
-        {"part": "dote", "mean": "= given"}
+        {
+          "part": "an",
+          "mean": "= not"
+        },
+        {
+          "part": "ec",
+          "mean": "= ex:out"
+        },
+        {
+          "part": "dote",
+          "mean": "= given"
+        }
       ],
       "origin": "not given out 알려지지 않은 이들",
       "examples": [
@@ -158,20 +277,35 @@
     },
     {
       "en": "dose",
-      "ipa": ["[dous]"],
+      "ipa": [
+        "[dous]"
+      ],
       "meanings": [
         {
           "pos": "명",
-          "defs": ["(약의 1회분) 복용량, 투여량"]
+          "defs": [
+            "(약의 1회분) 복용량, 투여량"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "dosage"
+              ]
+            }
+          }
         },
         {
           "pos": "동",
-          "defs": ["(+ with) …에게 (약물 등을) 투여하다"]
+          "defs": [
+            "(+ with) …에게 (약물 등을) 투여하다"
+          ]
         }
       ],
-      "synonyms": ["dosage"],
       "parts": [
-        {"part": "dose", "mean": "= giving"}
+        {
+          "part": "dose",
+          "mean": "= giving"
+        }
       ],
       "origin": "1회 복용분으로 주어진 약의 양",
       "examples": [
@@ -189,7 +323,9 @@
     },
     {
       "en": "liberal",
-      "ipa": ["[líbərəl]"],
+      "ipa": [
+        "[líbərəl]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -197,18 +333,56 @@
             "1 (의견·생각 등이) 관대한, 개방적인",
             "2 자유[진보]주의의",
             "3 인색하지 않은, 후한"
-          ]
+          ],
+          "syn_ant": {
+            "2": {
+              "ant": [
+                "conservative"
+              ]
+            },
+            "3": {
+              "syn": [
+                "generous"
+              ]
+            }
+          }
         }
       ],
-      "antonyms": ["conservative", "generous"],
       "parts": [
-        {"part": "liber", "mean": "= free"},
-        {"part": "al", "mean": "형접:「…같은, …에 알맞은」"}
+        {
+          "part": "liber",
+          "mean": "= free"
+        },
+        {
+          "part": "al",
+          "mean": "형접:「…같은, …에 알맞은」"
+        }
       ],
       "origin": "자유인에게 알맞은 → 자유로운 →\n├ 마음속에 구속이 없는 → 개방적인\n├ 정치적으로 자유로운 → 자유주의의\n└ 자유로이 주는 → 인심이 후한",
       "derivatives": [
-        {"en": "liberalize", "pos": "동", "defs": ["(법률·제재 등을) 완화하다"]},
-        {"en": "liberty", "pos": "명", "defs": ["1 자유", "2 해방, 석방"]}
+        {
+          "en": "liberalize",
+          "pos": "동",
+          "defs": [
+            "(법률·제재 등을) 완화하다"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "relax",
+                "ease"
+              ]
+            }
+          }
+        },
+        {
+          "en": "liberty",
+          "pos": "명",
+          "defs": [
+            "1 자유",
+            "2 해방, 석방"
+          ]
+        }
       ],
       "examples": [
         {
@@ -220,21 +394,44 @@
     },
     {
       "en": "liberate",
-      "ipa": ["[líbərèit]"],
+      "ipa": [
+        "[líbərèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
-          "defs": ["자유롭게 하다, 해방[석방]하다"]
+          "defs": [
+            "자유롭게 하다, 해방[석방]하다"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "set free",
+                "release"
+              ]
+            }
+          }
         }
       ],
-      "synonyms": ["set free", "release"],
       "parts": [
-        {"part": "liber", "mean": "= free"},
-        {"part": "ate", "mean": "동접"}
+        {
+          "part": "liber",
+          "mean": "= free"
+        },
+        {
+          "part": "ate",
+          "mean": "동접"
+        }
       ],
       "origin": "자유롭게 하다",
       "derivatives": [
-        {"en": "liberation", "pos": "명", "defs": ["해방, 석방"]}
+        {
+          "en": "liberation",
+          "pos": "명",
+          "defs": [
+            "해방, 석방"
+          ]
+        }
       ],
       "examples": [
         {
@@ -246,7 +443,9 @@
     },
     {
       "en": "deliver",
-      "ipa": ["[dilívər]"],
+      "ipa": [
+        "[dilívər]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -259,12 +458,26 @@
         }
       ],
       "parts": [
-        {"part": "de", "mean": "「강조」"},
-        {"part": "liver", "mean": "= free"}
+        {
+          "part": "de",
+          "mean": "「강조」"
+        },
+        {
+          "part": "liver",
+          "mean": "= free"
+        }
       ],
       "origin": "자유롭게 하다 →\n├ (가지고 있다가) 넘겨주다 → 배달하다\n├ (마음속의 말하고 싶은 바를) 말하다 → 강연하다\n└ (뱃속의 아이를) 분만하다",
       "derivatives": [
-        {"en": "delivery", "pos": "명", "defs": ["1 배달(품)", "2 분만", "3 연설"]}
+        {
+          "en": "delivery",
+          "pos": "명",
+          "defs": [
+            "1 배달(품)",
+            "2 분만",
+            "3 연설"
+          ]
+        }
       ],
       "examples": [
         {
@@ -286,17 +499,30 @@
     },
     {
       "en": "anniversary",
-      "ipa": ["[æ̀nəvə́ːrsəri]"],
+      "ipa": [
+        "[æ̀nəvə́ːrsəri]"
+      ],
       "meanings": [
         {
           "pos": "명",
-          "defs": ["(해마다 있는) 기념일"]
+          "defs": [
+            "(해마다 있는) 기념일"
+          ]
         }
       ],
       "parts": [
-        {"part": "anni", "mean": "= yearly"},
-        {"part": "vers", "mean": "= vert:turn 돌다"},
-        {"part": "ary", "mean": "명접"}
+        {
+          "part": "anni",
+          "mean": "= yearly"
+        },
+        {
+          "part": "vers",
+          "mean": "= vert:turn 돌다"
+        },
+        {
+          "part": "ary",
+          "mean": "명접"
+        }
       ],
       "origin": "매년 돌아오는 것",
       "examples": [
@@ -315,7 +541,9 @@
     },
     {
       "en": "annual",
-      "ipa": ["[ǽnjuəl]"],
+      "ipa": [
+        "[ǽnjuəl]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -326,12 +554,24 @@
         }
       ],
       "parts": [
-        {"part": "ann", "mean": "= year"},
-        {"part": "ual", "mean": "형접"}
+        {
+          "part": "ann",
+          "mean": "= year"
+        },
+        {
+          "part": "ual",
+          "mean": "형접"
+        }
       ],
       "origin": "일 년의",
       "derivatives": [
-        {"en": "annually", "pos": "부", "defs": ["매년, 일 년에 한 번씩"]}
+        {
+          "en": "annually",
+          "pos": "부",
+          "defs": [
+            "매년, 일 년에 한 번씩"
+          ]
+        }
       ],
       "examples": [
         {
@@ -353,21 +593,43 @@
     },
     {
       "en": "electric",
-      "ipa": ["[iléktrik]"],
+      "ipa": [
+        "[iléktrik]"
+      ],
       "meanings": [
         {
           "pos": "형",
-          "defs": ["전기의, 전기로 작동하는, 전기를 띤[일으키는]"]
+          "defs": [
+            "전기의, 전기로 작동하는, 전기를 띤[일으키는]"
+          ]
         }
       ],
       "parts": [
-        {"part": "electr", "mean": "= amber"},
-        {"part": "ic", "mean": "형접"}
+        {
+          "part": "electr",
+          "mean": "= amber"
+        },
+        {
+          "part": "ic",
+          "mean": "형접"
+        }
       ],
       "origin": "[원뜻] 화석인 호박(琥珀)을 문지르면 정전기가 발생하는 특성에서 유래\n→ 전기의",
       "derivatives": [
-        {"en": "electricity", "pos": "명", "defs": ["전기, 전류"]},
-        {"en": "electrical", "pos": "형", "defs": ["전기(상)의"]}
+        {
+          "en": "electricity",
+          "pos": "명",
+          "defs": [
+            "전기, 전류"
+          ]
+        },
+        {
+          "en": "electrical",
+          "pos": "형",
+          "defs": [
+            "전기(상)의"
+          ]
+        }
       ],
       "examples": [
         {
@@ -379,22 +641,48 @@
     },
     {
       "en": "electronic",
-      "ipa": ["[ilèktrɑ́ːnik]"],
+      "ipa": [
+        "[ilèktrɑ́ːnik]"
+      ],
       "meanings": [
         {
           "pos": "형",
-          "defs": ["전자의; 전자 공학의"]
+          "defs": [
+            "전자의; 전자 공학의"
+          ]
         }
       ],
       "parts": [
-        {"part": "electr", "mean": "= electric"},
-        {"part": "on", "mean": "어미:「원자 구성 요소의 이름」"},
-        {"part": "ic", "mean": "형접"}
+        {
+          "part": "electr",
+          "mean": "= electric"
+        },
+        {
+          "part": "on",
+          "mean": "어미:「원자 구성 요소의 이름」"
+        },
+        {
+          "part": "ic",
+          "mean": "형접"
+        }
       ],
       "origin": "전자의",
       "derivatives": [
-        {"en": "electronics", "pos": "명", "defs": ["1 (단수 취급) 전자 공학", "2 (복수 취급) 전자 제품"]},
-        {"en": "electron", "pos": "명", "defs": ["[물리·화학] 전자"]}
+        {
+          "en": "electronics",
+          "pos": "명",
+          "defs": [
+            "1 (단수 취급) 전자 공학",
+            "2 (복수 취급) 전자 제품"
+          ]
+        },
+        {
+          "en": "electron",
+          "pos": "명",
+          "defs": [
+            "[물리·화학] 전자"
+          ]
+        }
       ],
       "examples": [
         {
@@ -411,7 +699,9 @@
     },
     {
       "en": "origin",
-      "ipa": ["[ɔ́ːrədʒin]"],
+      "ipa": [
+        "[ɔ́ːrədʒin]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -422,15 +712,61 @@
         }
       ],
       "parts": [
-        {"part": "orig", "mean": "= rise"},
-        {"part": "in", "mean": "어미"}
+        {
+          "part": "orig",
+          "mean": "= rise"
+        },
+        {
+          "part": "in",
+          "mean": "어미"
+        }
       ],
       "origin": "rising 솟음, 시작",
       "derivatives": [
-        {"en": "original", "pos": "형", "defs": ["1 원래의, 최초의", "2 독창적인"]},
-        {"en": "original", "pos": "명", "defs": ["원형, 원작, 원본"]},
-        {"en": "originality", "pos": "명", "defs": ["독창성, 기발함"]},
-        {"en": "originate", "pos": "동", "defs": ["1 비롯되다, (…에서) 일어나다", "2 발명[고안]하다"]}
+        {
+          "en": "original",
+          "pos": "형",
+          "defs": [
+            "1 원래의, 최초의",
+            "2 독창적인"
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "initial"
+              ]
+            }
+          }
+        },
+        {
+          "en": "original",
+          "pos": "명",
+          "defs": [
+            "원형, 원작, 원본"
+          ]
+        },
+        {
+          "en": "originality",
+          "pos": "명",
+          "defs": [
+            "독창성, 기발함"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "creativity"
+              ]
+            }
+          }
+        },
+        {
+          "en": "originate",
+          "pos": "동",
+          "defs": [
+            "1 비롯되다, (…에서) 일어나다",
+            "2 발명[고안]하다"
+          ]
+        }
       ],
       "examples": [
         {
@@ -453,7 +789,9 @@
     },
     {
       "en": "orient",
-      "ipa": ["[ɔ́ːrient]"],
+      "ipa": [
+        "[ɔ́ːrient]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -464,12 +802,25 @@
         }
       ],
       "parts": [
-        {"part": "ori", "mean": "= rise"},
-        {"part": "ent", "mean": "명접"}
+        {
+          "part": "ori",
+          "mean": "= rise"
+        },
+        {
+          "part": "ent",
+          "mean": "명접"
+        }
       ],
       "origin": "rising sun → 태양이 떠오르는 위치 → 동쪽 방향\n※ '동쪽 방향'의 뜻에서 '동쪽으로 향하다', 특정한 방향으로 향하게 하다'의 뜻으로 발전",
       "derivatives": [
-        {"en": "orientation", "pos": "명", "defs": ["1 관심, 지향", "2 (신입 대상) 예비 교육"]}
+        {
+          "en": "orientation",
+          "pos": "명",
+          "defs": [
+            "1 관심, 지향",
+            "2 (신입 대상) 예비 교육"
+          ]
+        }
       ],
       "examples": [
         {
@@ -486,7 +837,9 @@
     },
     {
       "en": "conscious",
-      "ipa": ["[kɑ́ːnʃəs]"],
+      "ipa": [
+        "[kɑ́ːnʃəs]"
+      ],
       "meanings": [
         {
           "pos": "형",
@@ -494,19 +847,45 @@
             "1 (+ of) …을 의식[자각]하고 있는, 알고 있는",
             "2 의식이 있는, 깨어있는",
             "3 (주로 명사 앞에서) *(생각·노력 등이) 의식[의도]적인*"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "aware"
+              ]
+            },
+            "2": {
+              "ant": [
+                "unconscious"
+              ]
+            }
+          }
         }
       ],
-      "synonyms": ["aware"],
-      "antonyms": ["unconscious"],
       "parts": [
-        {"part": "con", "mean": "= com:together"},
-        {"part": "sci", "mean": "= know"},
-        {"part": "ous", "mean": "형접"}
+        {
+          "part": "con",
+          "mean": "= com:together"
+        },
+        {
+          "part": "sci",
+          "mean": "= know"
+        },
+        {
+          "part": "ous",
+          "mean": "형접"
+        }
       ],
       "origin": "함께 알고 있는 → 의식하는",
       "derivatives": [
-        {"en": "consciousness", "pos": "명", "defs": ["1 [의학] 의식, 지각", "2 알고 있음, (정치·사회적) 인식"]}
+        {
+          "en": "consciousness",
+          "pos": "명",
+          "defs": [
+            "1 [의학] 의식, 지각",
+            "2 알고 있음, (정치·사회적) 인식"
+          ]
+        }
       ],
       "examples": [
         {
@@ -534,20 +913,36 @@
     },
     {
       "en": "subconscious",
-      "ipa": ["[sʌbkɑ́ːnʃəs]"],
+      "ipa": [
+        "[sʌbkɑ́ːnʃəs]"
+      ],
       "meanings": [
         {
           "pos": "명/형",
-          "defs": ["잠재의식(의)"]
+          "defs": [
+            "잠재의식(의)"
+          ]
         }
       ],
       "parts": [
-        {"part": "sub", "mean": "= under"},
-        {"part": "conscious", "mean": "의식하는"}
+        {
+          "part": "sub",
+          "mean": "= under"
+        },
+        {
+          "part": "conscious",
+          "mean": "의식하는"
+        }
       ],
       "origin": "의식 아래에 있는",
       "derivatives": [
-        {"en": "subconsciously", "pos": "부", "defs": ["잠재의식 속에서"]}
+        {
+          "en": "subconsciously",
+          "pos": "부",
+          "defs": [
+            "잠재의식 속에서"
+          ]
+        }
       ],
       "examples": [
         {
@@ -559,21 +954,40 @@
     },
     {
       "en": "conscience",
-      "ipa": ["[kɑ́ːnʃəns]"],
+      "ipa": [
+        "[kɑ́ːnʃəns]"
+      ],
       "meanings": [
         {
           "pos": "명",
-          "defs": ["양심, 도덕심"]
+          "defs": [
+            "양심, 도덕심"
+          ]
         }
       ],
       "parts": [
-        {"part": "con", "mean": "= com:together"},
-        {"part": "sci", "mean": "= know"},
-        {"part": "ence", "mean": "명접"}
+        {
+          "part": "con",
+          "mean": "= com:together"
+        },
+        {
+          "part": "sci",
+          "mean": "= know"
+        },
+        {
+          "part": "ence",
+          "mean": "명접"
+        }
       ],
       "origin": "(선악을) 함께 잘 알고 있음\n→ 양심, 도덕적 인식",
       "derivatives": [
-        {"en": "conscientious", "pos": "형", "defs": ["양심적인, 성실한"]}
+        {
+          "en": "conscientious",
+          "pos": "형",
+          "defs": [
+            "양심적인, 성실한"
+          ]
+        }
       ],
       "examples": [
         {
@@ -585,19 +999,32 @@
     },
     {
       "en": "merge",
-      "ipa": ["[məːrdʒ]"],
+      "ipa": [
+        "[məːrdʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
-          "defs": ["(+ with/into) 결합하다, 합병하다, 융합하다"]
+          "defs": [
+            "(+ with/into) 결합하다, 합병하다, 융합하다"
+          ]
         }
       ],
       "parts": [
-        {"part": "merge", "mean": "= sink"}
+        {
+          "part": "merge",
+          "mean": "= sink"
+        }
       ],
       "origin": "한 쪽이 다른 쪽으로 빠져 흡수되다\n→ 결합하여 하나가 되다",
       "derivatives": [
-        {"en": "merger", "pos": "명", "defs": ["(조직·기업의) 합병"]}
+        {
+          "en": "merger",
+          "pos": "명",
+          "defs": [
+            "(조직·기업의) 합병"
+          ]
+        }
       ],
       "examples": [
         {
@@ -614,7 +1041,9 @@
     },
     {
       "en": "emerge",
-      "ipa": ["[imə́ːrdʒ]"],
+      "ipa": [
+        "[imə́ːrdʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -625,14 +1054,45 @@
         }
       ],
       "parts": [
-        {"part": "e", "mean": "= ex:out"},
-        {"part": "merge", "mean": "= sink"}
+        {
+          "part": "e",
+          "mean": "= ex:out"
+        },
+        {
+          "part": "merge",
+          "mean": "= sink"
+        }
       ],
       "origin": "잠겨 있던 것이 밖으로 나오다",
       "derivatives": [
-        {"en": "emergence", "pos": "명", "defs": ["(+ from) 출현, 등장"]},
-        {"en": "emergency", "pos": "명", "defs": ["비상 상황"]},
-        {"en": "emergent", "pos": "형", "defs": ["신생의, 신흥의"]}
+        {
+          "en": "emergence",
+          "pos": "명",
+          "defs": [
+            "(+ from) 출현, 등장"
+          ]
+        },
+        {
+          "en": "emergency",
+          "pos": "명",
+          "defs": [
+            "비상 상황"
+          ]
+        },
+        {
+          "en": "emergent",
+          "pos": "형",
+          "defs": [
+            "신생의, 신흥의"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "emerging"
+              ]
+            }
+          }
+        }
       ],
       "examples": [
         {
@@ -654,7 +1114,9 @@
     },
     {
       "en": "submerge",
-      "ipa": ["[səbmə́ːrdʒ]"],
+      "ipa": [
+        "[səbmə́ːrdʒ]"
+      ],
       "meanings": [
         {
           "pos": "동",
@@ -665,8 +1127,14 @@
         }
       ],
       "parts": [
-        {"part": "sub", "mean": "= under"},
-        {"part": "merge", "mean": "= sink"}
+        {
+          "part": "sub",
+          "mean": "= under"
+        },
+        {
+          "part": "merge",
+          "mean": "= sink"
+        }
       ],
       "origin": "물 아래로 완전히 잠기다",
       "examples": [
@@ -684,24 +1152,50 @@
     },
     {
       "en": "assure",
-      "ipa": ["[əʃúər]"],
+      "ipa": [
+        "[əʃúər]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
             "1 보장하다, 장담하다",
             "2 …을 확실하게 하다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "guarantee"
+              ]
+            },
+            "2": {
+              "syn": [
+                "ensure"
+              ]
+            }
+          }
         }
       ],
-      "synonyms": ["guarantee", "ensure"],
       "parts": [
-        {"part": "as", "mean": "= ad:to"},
-        {"part": "sure", "mean": "= free from care"}
+        {
+          "part": "as",
+          "mean": "= ad:to"
+        },
+        {
+          "part": "sure",
+          "mean": "= free from care"
+        }
       ],
       "origin": "…에 근심이 없게 하다 → 확신시키다",
       "derivatives": [
-        {"en": "assurance", "pos": "명", "defs": ["1 보장, 장담", "2 확신, 자신감"]}
+        {
+          "en": "assurance",
+          "pos": "명",
+          "defs": [
+            "1 보장, 장담",
+            "2 확신, 자신감"
+          ]
+        }
       ],
       "examples": [
         {
@@ -713,20 +1207,36 @@
     },
     {
       "en": "reassure",
-      "ipa": ["[rìːəʃúər]"],
+      "ipa": [
+        "[rìːəʃúər]"
+      ],
       "meanings": [
         {
           "pos": "동",
-          "defs": ["안심시키다"]
+          "defs": [
+            "안심시키다"
+          ]
         }
       ],
       "parts": [
-        {"part": "re", "mean": "= again"},
-        {"part": "assure", "mean": "보장하다"}
+        {
+          "part": "re",
+          "mean": "= again"
+        },
+        {
+          "part": "assure",
+          "mean": "보장하다"
+        }
       ],
       "origin": "다시 장담하다 → 안심시키다",
       "derivatives": [
-        {"en": "reassurance", "pos": "명", "defs": ["안심시키기, 안심시키는 것"]}
+        {
+          "en": "reassurance",
+          "pos": "명",
+          "defs": [
+            "안심시키기, 안심시키는 것"
+          ]
+        }
       ],
       "examples": [
         {
@@ -738,20 +1248,36 @@
     },
     {
       "en": "insure",
-      "ipa": ["[inʃúər]"],
+      "ipa": [
+        "[inʃúər]"
+      ],
       "meanings": [
         {
           "pos": "동",
-          "defs": ["보험에 들다[가입하다]"]
+          "defs": [
+            "보험에 들다[가입하다]"
+          ]
         }
       ],
       "parts": [
-        {"part": "in", "mean": "= en:make"},
-        {"part": "sure", "mean": "= free from care"}
+        {
+          "part": "in",
+          "mean": "= en:make"
+        },
+        {
+          "part": "sure",
+          "mean": "= free from care"
+        }
       ],
       "origin": "근심이 없게 하다 → 안전하게 하다",
       "derivatives": [
-        {"en": "insurance", "pos": "명", "defs": ["보험(료)"]}
+        {
+          "en": "insurance",
+          "pos": "명",
+          "defs": [
+            "보험(료)"
+          ]
+        }
       ],
       "examples": [
         {

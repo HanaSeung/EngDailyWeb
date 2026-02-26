@@ -3,599 +3,569 @@
   "words": [
     {
       "en": "lecture",
-      "ipa": "/ˈlektʃər/",
+      "ipa": ["[léktʃər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "강의"
-          ]
+          "defs": ["*강의, 강연"]
         },
         {
           "pos": "동",
-          "defs": [
-            "강의하다"
-          ]
+          "defs": ["1 *강의[강연] 하다", "2 훈계(하다)"]
         }
       ],
-      "parts": [
-        {
-          "part": "lect",
-          "mean": "읽다 (read)"
-        },
-        {
-          "part": "-ure",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "lect", "mean": "= read"}, {"part": "ure", "mean": "명접"}],
+      "origin": "읽기, 낭독 → 강연",
+      "derivatives": [
+        {"en": "lecturer", "pos": "명", "defs": ["강연자, (대학 등의) 강사"]}
       ],
-      "origin": "읽어주는 것 → 강의"
+      "examples": [
+        {"en": "I attended your **lecture** about recent issues in business, and it was really impressive.", "ko": "귀하의 비즈니스 관련 최신 이슈에 대한 강연에 참여했는데, 정말 인상 깊었습니다.", "source": "모의"}
+      ]
     },
     {
       "en": "legend",
-      "ipa": "/ˈledʒənd/",
+      "ipa": ["[lédʒənd]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "전설",
-            "범례"
-          ]
+          "defs": ["1 전설", "2 전설적인 인물", "3 범례, 기호 일람표"]
         }
       ],
-      "parts": [
-        {
-          "part": "leg(lect)",
-          "mean": "읽다 (read)"
-        },
-        {
-          "part": "-end",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "leg", "mean": "= read"}, {"part": "end", "mean": "어미"}],
+      "origin": "things to read 읽을 거리\n※ 원래는 성인(聖人)의 일대기와 같은 종교적인 글을 의미했고, 신기하고 믿기 어려운 내용이 많아서 '전설적인 이야기'로 의미가 확장됨",
+      "derivatives": [
+        {"en": "legendary", "pos": "형", "defs": ["전설의; 전설적인, 유명한"]}
       ],
-      "origin": "읽히는 이야기 → 전설"
+      "examples": [
+        {"en": "Dragons appear in Greek myths, **legends** about England's King Arthur, and many tales throughout human history.", "ko": "용은 그리스 신화, 잉글랜드의 아서 왕에 관한 전설, 그리고 인류 역사의 전반에 걸친 많은 이야기에 등장한다.", "source": "모의"},
+        {"en": "He is a **legendary** figure in the film industry.", "ko": "그는 영화계에서 전설적인 인물이다.", "source": ""}
+      ]
     },
     {
       "en": "descend",
-      "ipa": "/dɪˈsend/",
+      "ipa": ["[disénd]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "내려가다",
-            "하강하다"
-          ]
+            "1 내려가다; 내리막이다",
+            "2 (어둠·침묵 등이) 내려앉다",
+            "3 (+ from) 유래하다",
+            "4 (+ to) (…로) 전락하다"
+          ],
+          "syn_ant": {
+            "1": {"ant": ["ascend"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "아래로 (down)"
-        },
-        {
-          "part": "scend",
-          "mean": "오르다 (climb)"
-        }
+      "parts": [{"part": "de", "mean": "「반대」"}, {"part": "scend", "mean": "= climb"}],
+      "origin": "'올라가다'의 반대 행위 → 내려가다",
+      "derivatives": [
+        {"en": "descent", "pos": "명", "defs": ["1 하강; 저하, 전락", "2 내리막(길)", "3 혈통, 가계"], "syn_ant": {"1": {"ant": ["ascent"]}}},
+        {"en": "descendant", "pos": "명", "defs": ["자손, 후예"], "syn_ant": {"0": {"syn": ["offspring"], "ant": ["ancestor", "forefather"]}}}
       ],
-      "origin": "아래로 가다 → 내려가다"
+      "examples": [
+        {"en": "The plane will begin to **descend** soon.", "ko": "비행기가 곧 하강하기 시작할 것이다.", "source": ""},
+        {"en": "Seven generations of his direct **descendants** have lived in this village.", "ko": "그의 직계 후손들이 7대째 이 마을에서 살고 있다.", "source": ""}
+      ],
+      "phrases": [
+        {"en": "be descended from", "ko": "…의 자손이다 (= be a descendant of)"},
+        {"en": "in descending order", "ko": "내림차순으로"}
+      ]
     },
     {
       "en": "scale",
-      "ipa": "/skeɪl/",
+      "ipa": ["[skeil]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "규모",
-            "저울",
-            "비늘"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "오르다"
+            "1 *규모, 정도",
+            "2 계급, 등급",
+            "3 (지도 등의) 축척, 비율",
+            "4 저울, 천칭"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "scal(scend)",
-          "mean": "사다리, 오르다 (ladder, climb)"
-        }
-      ],
-      "origin": "사다리 → 규모, 오르다"
+      "origin": "[핵심 다의어] \n 라틴어 scala(=ladder)에서 온 말 → \n  단계적으로 오르는 것 → \n ├ 단계적 크기 → 규모 → 비율 \n└ 눈금 → 저울 → 등급",
+      "examples": [
+        {"en": "The project was successful on a large **scale**.", "ko": "그 프로젝트는 대규모의 성공을 거두었다.", "source": ""},
+        {"en": "She moved steadily up the social **scale**.", "ko": "그녀는 착실하게 사회적 지위를 쌓아올렸다.", "source": ""},
+        {"en": "I weighed myself on the **scale**.", "ko": "나는 체중계에 올라 몸무게를 쟀다.", "source": ""}
+      ]
     },
     {
       "en": "escalate",
-      "ipa": "/ˈeskəleɪt/",
+      "ipa": ["[éskalèit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "확대되다",
-            "고조되다"
+            "1 (분쟁·상황 등이[을]) 악화되다[악화시키다]",
+            "2 (가격·비용 등이[을]) 상승하다[상승시키다]"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "scal(scend)",
-          "mean": "사다리 (ladder)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
-        }
+      "parts": [{"part": "escal", "mean": "= ladder"}, {"part": "ate", "mean": "동접"}],
+      "origin": "escalator(에스컬레이터)에서 역으로 만들어진 말\n※ escalator: escalade(사다리로 오르다)와 elevator(엘리베이터)의 합성어",
+      "derivatives": [
+        {"en": "escalator", "pos": "명", "defs": ["에스컬레이터"]}
       ],
-      "origin": "사다리를 오르다 → 확대되다"
+      "examples": [
+        {"en": "Violence has **escalated** to a worrying level.", "ko": "폭력 사태가 우려할 수준으로 악화됐다.", "source": ""},
+        {"en": "Healthcare expenses continue to **escalate** every year.", "ko": "의료비는 매년 계속 오르고 있다.", "source": ""}
+      ]
     },
     {
       "en": "literal",
-      "ipa": "/ˈlɪtərəl/",
+      "ipa": ["[lítərəl]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "문자 그대로의"
+            "1 (의미 등이) 글자 그대로의",
+            "2 (번역 등이) 원문에 충실한"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "liter",
-          "mean": "글자 (letter)"
-        },
-        {
-          "part": "-al",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "liter", "mean": "= letter"}, {"part": "al", "mean": "형접:「…의」"}],
+      "origin": "글자의",
+      "derivatives": [
+        {"en": "literally", "pos": "부", "defs": ["글자 그대로"], "syn_ant": {"0": {"syn": ["to the letter"]}}}
       ],
-      "origin": "글자의 → 문자 그대로의"
+      "examples": [
+        {"en": "I was joking, but he took it **literally**.", "ko": "난 농담으로 얘기했지만, 그는 그것을 글자 그대로 받아들였다.", "source": ""}
+      ]
     },
     {
       "en": "literate",
-      "ipa": "/ˈlɪtərət/",
+      "ipa": ["[lítərit]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "글을 읽고 쓸 줄 아는"
-          ]
+            "읽고 쓸 줄 아는"
+          ],
+          "syn_ant": {
+            "0": {"ant": ["illiterate"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "liter",
-          "mean": "글자 (letter)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "liter", "mean": "= letter"}, {"part": "ate", "mean": "형접"}],
+      "origin": "글자를 읽고 쓸 줄 아는",
+      "derivatives": [
+        {"en": "literacy", "pos": "명", "defs": ["읽고 쓰는 능력"], "syn_ant": {"0": {"ant": ["illiteracy(문맹(률))"]}}}
       ],
-      "origin": "글자를 아는 → 문해력 있는"
+      "phrases": [
+        {"en": "digital literacy", "ko": "디지털 정보 활용 능력"}
+      ],
+      "examples": [
+        {"en": "In the past, only a small portion of the population was **literate**.", "ko": "과거에는 인구의 소수만이 글을 읽고 쓸 수 있었다.", "source": ""}
+      ]
     },
     {
       "en": "literature",
-      "ipa": "/ˈlɪtrətʃər/",
+      "ipa": ["[lítərətʃər]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "문학",
-            "문헌"
+            "1 *문학",
+            "2 문헌"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "liter",
-          "mean": "글자 (letter)"
-        },
-        {
-          "part": "-ature",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "liter", "mean": "= letter"}, {"part": "at", "mean": "= ate:형접"}, {"part": "ure", "mean": "명접"}],
+      "origin": "문자로 쓰인 것",
+      "derivatives": [
+        {"en": "literary", "pos": "형", "defs": ["문학의, 문예의"]}
       ],
-      "origin": "글자로 된 것 → 문학"
+      "phrases": [
+        {"en": "modern[contemporary] literature", "ko": "현대 문학"},
+        {"en": "literary works[writings]", "ko": "문학 작품"}
+      ],
+      "examples": [
+        {"en": "An IQ score is not limited to ability in physics, math, or **literature**.", "ko": "IQ 점수는 물리학, 수학, 문학 분야의 능력에만 국한되지 않는다.", "source": "모의"}
+      ]
     },
     {
       "en": "vow",
-      "ipa": "/vaʊ/",
+      "ipa": ["[vau]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "맹세",
-            "서약"
-          ]
+          "defs": ["맹세"]
         },
         {
           "pos": "동",
-          "defs": [
-            "맹세하다"
-          ]
+          "defs": ["맹세하다"]
         }
       ],
-      "parts": [
-        {
-          "part": "vow(vot)",
-          "mean": "맹세하다 (pledge)"
-        }
+      "origin": "라틴어 votum(=vow, promise)에서 온 말",
+      "phrases": [
+        {"en": "take[make] a vow", "ko": "맹세하다, 서약하다"}
       ],
-      "origin": "맹세"
+      "examples": [
+        {"en": "They exchanged wedding **vows** under the sunset.", "ko": "그들은 석양 아래에서 결혼 서약을 나누었다.", "source": ""},
+        {"en": "I **vowed** never to give up on my dream.", "ko": "나는 내 꿈을 절대 포기하지 않겠다고 맹세했다.", "source": ""}
+      ]
     },
     {
       "en": "vote",
-      "ipa": "/voʊt/",
+      "ipa": ["[vout]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "투표"
-          ]
+          "defs": ["투표; 표; (the +) 투표권; 투표수, 득표수"]
         },
         {
           "pos": "동",
-          "defs": [
-            "투표하다"
-          ]
+          "defs": ["투표하다; 의결하다"]
         }
       ],
-      "parts": [
-        {
-          "part": "vot",
-          "mean": "맹세하다 (pledge, vow)"
-        }
+      "origin": "라틴어 votum(=vow, promise)에서 온 말 → 맹세, 의지, 뜻 → 공동체에서 개인의 뜻을 표현하는 행위 → 투표",
+      "derivatives": [
+        {"en": "voter", "pos": "명", "defs": ["유권자, 투표자"]}
       ],
-      "origin": "맹세하다 → 투표하다"
+      "phrases": [
+        {"en": "vote for[against]", "ko": "…에 찬성[반대] 투표하다"}
+      ],
+      "examples": [
+        {"en": "Students and teachers will **vote** for their favorite video to select a winner.", "ko": "학생들과 교사들은 우승자를 정하기 위해 가장 마음에 드는 영상에 투표할 것이다.", "source": "모의"},
+        {"en": "**Voter** turnout was unusually high in 2018.", "ko": "2018년에 유권자 투표율이 이례적으로 높았다.", "source": ""}
+      ]
     },
     {
       "en": "devote",
-      "ipa": "/dɪˈvoʊt/",
+      "ipa": ["[divóut]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "바치다",
-            "헌신하다"
-          ]
+            "헌신하다, (돈·시간·노력 등을) 바치다; 전념하다"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["dedicate"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "vote(vot)",
-          "mean": "맹세하다 (vow)"
-        }
+      "parts": [{"part": "de", "mean": "「강조」"}, {"part": "vote", "mean": "= vow"}],
+      "origin": "열과 성을 다하여 맹세하다 → 헌신하다",
+      "derivatives": [
+        {"en": "devoted", "pos": "형", "defs": ["헌신적인; 전념하는"]},
+        {"en": "devotion", "pos": "명", "defs": ["(+ to) 1 헌신; 전념", "2 기도; 신앙"], "syn_ant": {"1": {"syn": ["dedication to"]}}},
+        {"en": "devotional", "pos": "형", "defs": ["종교적인, 종교 의식에 관련된"]}
       ],
-      "origin": "완전히 맹세하다 → 헌신하다"
+      "phrases": [
+        {"en": "devote A to B", "ko": "A를 B에 바치다[헌신하다]"},
+        {"en": "devote oneself to", "ko": "…에 헌신[전념/몰두]하다"}
+      ],
+      "examples": [
+        {"en": "Emily **devotes** her spare time **to** helping the elderly.", "ko": "Emily는 여가 시간을 노인들을 돕는 데 바친다.", "source": ""},
+        {"en": "I'm a **devoted** follower of this diet plan.", "ko": "나는 이 식이요법을 충실히 따르고 있다.", "source": ""}
+      ]
     },
     {
       "en": "bandage",
-      "ipa": "/ˈbændɪdʒ/",
+      "ipa": ["[bǽndidʒ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "붕대"
-          ]
+          "defs": ["붕대"]
         },
         {
           "pos": "동",
-          "defs": [
-            "붕대를 감다"
-          ]
+          "defs": ["붕대를 감다"]
         }
       ],
-      "parts": [
-        {
-          "part": "band",
-          "mean": "묶다 (bind)"
-        },
-        {
-          "part": "-age",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "묶는 것 → 붕대"
+      "parts": [{"part": "band", "mean": "= bind"}, {"part": "age", "mean": "명접"}],
+      "origin": "묶는 도구, 감싸는 물건 → 붕대",
+      "examples": [
+        {"en": "She walked in like a wounded soldier with **bandages** on her face and arms.", "ko": "그녀는 얼굴과 팔에 붕대를 감은 채, 부상당한 군인처럼 걸어 들어왔다.", "source": "수능"}
+      ]
     },
     {
       "en": "bond",
-      "ipa": "/bɑːnd/",
+      "ipa": ["[bɑːnd]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "유대",
-            "결속",
-            "채권"
+            "1 *결속, 유대",
+            "2 채권",
+            "3 접착제, 본드",
+            "4 굴레, 속박"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 유대를 맺다",
+            "2 접착시키다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "bond(band)",
-          "mean": "묶다 (bind)"
-        }
+      "parts": [{"part": "bond", "mean": "= bind"}],
+      "origin": "묶는 것: 묶다, 결속시키다",
+      "phrases": [
+        {"en": "bond market", "ko": "채권 시장"}
       ],
-      "origin": "묶인 것 → 유대"
+      "examples": [
+        {"en": "Nowadays, people stay at home with their families and do not build **bonds** with their neighbors.", "ko": "오늘날, 사람들은 가족과 집에 머물며 이웃들과 유대를 형성하지 않는다.", "source": "수능"}
+      ]
     },
     {
       "en": "bundle",
-      "ipa": "/ˈbʌndl/",
+      "ipa": ["[bʌ́ndl]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "묶음",
-            "꾸러미"
-          ]
-        },
-        {
-          "pos": "동",
-          "defs": [
-            "묶다"
-          ]
+            "다발, 꾸러미"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["bunch"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "bund(band)",
-          "mean": "묶다 (bind)"
-        },
-        {
-          "part": "-le",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "bund", "mean": "= bind"}, {"part": "le", "mean": "명접"}],
+      "origin": "묶인 것, 다발",
+      "phrases": [
+        {"en": "a bundle of", "ko": "한 다발[뭉치]의 …; 다양한 …"}
       ],
-      "origin": "묶인 것 → 꾸러미"
+      "examples": [
+        {"en": "Can I get **a bundle of** papers?", "ko": "신문지 한 묶음을 얻을 수 있을까요?", "source": ""}
+      ]
     },
     {
       "en": "bind",
-      "ipa": "/baɪnd/",
+      "ipa": ["[baind]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "묶다",
-            "구속하다"
-          ]
+            "1 묶다",
+            "2 *(사람·국가 등을) 결속시키다",
+            "3 (약속·의무 등으로) 속박[제한]하다, …하게 하다",
+            "4 (책·원고 등을) 제본하다"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["tie", "fasten"]},
+            "2": {"syn": ["unite"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "bind(band)",
-          "mean": "묶다 (bind)"
-        }
+      "origin": "중세 영어 binden(=bind)에서 온 말",
+      "derivatives": [
+        {"en": "bound", "pos": "형", "defs": ["1 …할 것 같은", "2 …할 의무가 있는", "3 …로 향하는"]}
       ],
-      "origin": "묶다"
+      "phrases": [
+        {"en": "bind A to-v", "ko": "A가 …하게 하다"},
+        {"en": "be bound to-v", "ko": "반드시 …하다 (= be sure[certain] to-v)"}
+      ],
+      "examples": [
+        {"en": "The victim's hands were **bound** with rope.", "ko": "그 희생자의 손은 밧줄로 묶여 있었다.", "source": ""},
+        {"en": "Mental healthcare professionals **are** legally **bound to protect** the personal information of their patients.", "ko": "정신 건강 전문가는 법적으로 환자의 개인 정보를 보호할 의무가 있다.", "source": "모의"}
+      ]
     },
     {
       "en": "sacred",
-      "ipa": "/ˈseɪkrɪd/",
+      "ipa": ["[séikrid]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "신성한",
-            "종교적인"
-          ]
+            "1 *신성한",
+            "2 종교적인"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["holy"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "sacr",
-          "mean": "신성한 (holy)"
-        },
-        {
-          "part": "-ed",
-          "mean": "형용사형 접미사"
-        }
-      ],
-      "origin": "신성한"
+      "parts": [{"part": "sacr", "mean": "= holy"}, {"part": "ed", "mean": "형접"}],
+      "origin": "신성한",
+      "examples": [
+        {"en": "White tigers are considered **sacred** guardians in Korean culture.", "ko": "백호는 한국 문화에서 신성한 수호자로 여겨진다.", "source": "교과서"}
+      ]
     },
     {
       "en": "sacrifice",
-      "ipa": "/ˈsækrɪfaɪs/",
+      "ipa": ["[sǽkrəfàis]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "희생",
-            "제물"
-          ]
+          "defs": ["1 *희생", "2 제물"]
         },
         {
           "pos": "동",
-          "defs": [
-            "희생하다"
-          ]
+          "defs": ["1 *희생하다", "2 제물로 바치다"]
         }
       ],
-      "parts": [
-        {
-          "part": "sacr",
-          "mean": "신성한 (holy)"
-        },
-        {
-          "part": "fice(fac)",
-          "mean": "만들다 (make)"
-        }
-      ],
-      "origin": "신성하게 만들다 → 제물을 바치다"
+      "parts": [{"part": "sacri", "mean": "= holy"}, {"part": "fice", "mean": "= make"}],
+      "origin": "(바치기 위해) 신성하게 만든 것",
+      "examples": [
+        {"en": "Animal **sacrifice** was often considered a sacred act.", "ko": "짐승을 제물로 바치는 것은 흔히 신성한 행위로 간주되었다.", "source": ""},
+        {"en": "The woman had **sacrificed** her entire life for her only daughter.", "ko": "그 여자는 외동딸을 위해 자신의 온 삶을 희생해 왔다.", "source": "모의"}
+      ]
     },
     {
       "en": "saint",
-      "ipa": "/seɪnt/",
+      "ipa": ["[seint]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "성인",
-            "성자"
+            "성인(聖人), 성자"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "saint(sacr)",
-          "mean": "신성한 (holy)"
-        }
-      ],
-      "origin": "신성한 사람 → 성인"
+      "origin": "라틴어 sanctus(=sacred)에서 온 말",
+      "examples": [
+        {"en": "He is peace-loving and as patient as a **saint**.", "ko": "그는 온화하며 성자만큼 인내심이 강하다.", "source": ""}
+      ]
     },
     {
       "en": "private",
-      "ipa": "/ˈpraɪvət/",
+      "ipa": ["[práivit]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "사적인",
-            "개인적인"
-          ]
+            "1 *개인적인, 사적인, 사유의",
+            "2 비밀의"
+          ],
+          "syn_ant": {
+            "1": {"ant": ["public"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "priv",
-          "mean": "떼어놓다 (separate)"
-        },
-        {
-          "part": "-ate",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "priv", "mean": "= separate"}, {"part": "ate", "mean": "형접"}],
+      "origin": "(타인과) 분리된 → 사적인",
+      "derivatives": [
+        {"en": "privately", "pos": "부", "defs": ["1 남몰래, 은밀히", "2 개인으로서"], "syn_ant": {"1": {"syn": ["in private"]}}},
+        {"en": "privacy", "pos": "명", "defs": ["사생활, (남의 간섭·눈길 없이) 혼자 있는 상태"]}
       ],
-      "origin": "떼어놓은 → 사적인"
+      "phrases": [
+        {"en": "in private", "ko": "다른 사람이 없는 데서, 비밀리에"}
+      ],
+      "examples": [
+        {"en": "He has a clear boundary between his public and **private** life.", "ko": "그는 공적인 삶과 사적인 삶 사이에 분명한 경계를 두고 있다.", "source": ""},
+        {"en": "an invasion of **privacy**", "ko": "사생활 침해", "source": ""}
+      ]
     },
     {
       "en": "deprive",
-      "ipa": "/dɪˈpraɪv/",
+      "ipa": ["[dipráiv]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "빼앗다",
-            "박탈하다"
+            "빼앗다, 박탈하다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "prive(priv)",
-          "mean": "떼어놓다 (separate)"
-        }
+      "parts": [{"part": "de", "mean": "「강조」"}, {"part": "prive", "mean": "= separate"}],
+      "origin": "완전히 떼어놓다 → 빼앗다",
+      "derivatives": [
+        {"en": "deprivation", "pos": "명", "defs": ["박탈; 결핍"]}
       ],
-      "origin": "완전히 떼어놓다 → 박탈하다"
+      "phrases": [
+        {"en": "deprive A of B", "ko": "A에게서 B를 빼앗다"}
+      ],
+      "examples": [
+        {"en": "They put Nick into a prison and **deprived** him **of** his liberty.", "ko": "그들은 Nick을 감옥에 가두고 그의 자유를 빼앗았다.", "source": "모의"}
+      ]
     },
     {
       "en": "charity",
-      "ipa": "/ˈtʃærəti/",
+      "ipa": ["[tʃǽrəti]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "자선",
-            "자선단체"
+            "1 *자선",
+            "2 자선 단체",
+            "3 관대함"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "char",
-          "mean": "사랑하는 (dear, love)"
-        },
-        {
-          "part": "-ity",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "char", "mean": "= dear"}, {"part": "ity", "mean": "명접"}],
+      "origin": "사랑하는 마음으로 베푸는 것",
+      "derivatives": [
+        {"en": "charitable", "pos": "형", "defs": ["자선의, 자선을 베푸는"]}
       ],
-      "origin": "사랑 → 자선"
+      "examples": [
+        {"en": "All exhibits are for sale, and all money raised will be donated to **charity**.", "ko": "모든 전시품은 판매용이며, 판매로 모인 모든 금액은 자선 단체에 기부될 예정이다.", "source": "수능"}
+      ]
     },
     {
       "en": "cherish",
-      "ipa": "/ˈtʃerɪʃ/",
+      "ipa": ["[tʃériʃ]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "소중히 여기다"
+            "소중히 여기다(기르다), 아끼다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "cher(char)",
-          "mean": "소중한, 사랑하는 (dear)"
-        },
-        {
-          "part": "-ish",
-          "mean": "동사형 접미사"
-        }
-      ],
-      "origin": "소중히 하다"
+      "parts": [{"part": "cher", "mean": "= dear"}, {"part": "ish", "mean": "동접"}],
+      "origin": "소중하게 여기다",
+      "examples": [
+        {"en": "I truly **cherish** our friendship.", "ko": "나는 우리의 우정을 정말 소중히 여긴다.", "source": ""}
+      ]
     },
     {
       "en": "abundant",
-      "ipa": "/əˈbʌndənt/",
+      "ipa": ["[əbʌ́ndənt]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "풍부한"
-          ]
+            "풍부한, 많은"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["plentiful", "rich"], "ant": ["scarce"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "ab-",
-          "mean": "떨어져 (away)"
-        },
-        {
-          "part": "und",
-          "mean": "물결 (wave)"
-        },
-        {
-          "part": "-ant",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "ab", "mean": "= away from"}, {"part": "und", "mean": "= wave"}, {"part": "ant", "mean": "형접"}],
+      "origin": "흘러 넘칠 만큼 많은",
+      "derivatives": [
+        {"en": "abound", "pos": "동", "defs": ["(주로 + in/with) 풍부하다, 많이 있다"]},
+        {"en": "abundance", "pos": "명", "defs": ["풍부, 다량, 다수"], "syn_ant": {"0": {"syn": ["plenty", "richness"], "ant": ["scarcity"]}}}
       ],
-      "origin": "물결이 넘치는 → 풍부한"
+      "examples": [
+        {"en": "Some countries have **abundant** natural resources, like coal or oil.", "ko": "몇몇 나라들은 석탄이나 석유 같은 천연자원이 풍부하다.", "source": "모의"},
+        {"en": "Wild animals **abound** in Kenya's national parks.", "ko": "케냐의 국립 공원에는 야생 동물들이 많이 있다.", "source": ""}
+      ]
     },
     {
       "en": "surround",
-      "ipa": "/səˈraʊnd/",
+      "ipa": ["[səráund]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "둘러싸다"
-          ]
+            "둘러싸다, 에워싸다, 포위하다"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["enclose"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "sur-(super-)",
-          "mean": "위에 (over)"
-        },
-        {
-          "part": "round(und)",
-          "mean": "물결 (wave, overflow)"
-        }
+      "parts": [{"part": "surr", "mean": "= super:over"}, {"part": "ound", "mean": "= wave"}],
+      "origin": "[원뜻] 범람하다\n※ 나중에 round(동근: 둘러싸다)의 영향을 받아 의미가 확장됨",
+      "derivatives": [
+        {"en": "surrounding", "pos": "형", "defs": ["주변의, 주위의, 부근의"], "syn_ant": {"0": {"syn": ["nearby"]}}},
+        {"en": "surroundings", "pos": "명", "defs": ["(사람·사물을 둘러싸는) 환경"], "syn_ant": {"0": {"syn": ["environment"]}}}
       ],
-      "origin": "사방에서 물결이 밀려오다 → 둘러싸다"
+      "examples": [
+        {"en": "He was **surrounded** by his fans.", "ko": "그는 그의 팬들에 둘러싸여 있었다.", "source": ""},
+        {"en": "The forest and the **surrounding** area were protected.", "ko": "그 숲과 주변 지역은 보호되었다.", "source": ""}
+      ]
     }
   ]
 }

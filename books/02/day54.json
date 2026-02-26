@@ -3,7 +3,9 @@
   "words": [
     {
       "en": "philosophy",
-      "ipa": "/fɪˈlɑːsəfi/",
+      "ipa": [
+        "[filάːsəfi]"
+      ],
       "meanings": [
         {
           "pos": "명",
@@ -15,345 +17,761 @@
       "parts": [
         {
           "part": "philo",
-          "mean": "사랑하다 (love)"
+          "mean": "= loving"
         },
         {
-          "part": "sophy(soph)",
-          "mean": "지혜 (wisdom)"
+          "part": "soph",
+          "mean": "= wise"
+        },
+        {
+          "part": "y",
+          "mean": "명접"
         }
       ],
-      "origin": "지혜를 사랑함 → 철학"
+      "origin": "지혜를 사랑함 → 철학",
+      "derivatives": [
+        {
+          "en": "philosopher",
+          "pos": "명",
+          "defs": [
+            "철학자"
+          ]
+        },
+        {
+          "en": "philosophical",
+          "pos": "형",
+          "defs": [
+            "철학의, 철학에 관련된"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She studied the **philosophy** of the ancient Greeks.",
+          "ko": "그녀는 고대 그리스인들의 철학을 공부했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "sophomore",
-      "ipa": "/ˈsɑːfəmɔːr/",
+      "ipa": [
+        "[sάːfmɔ̀ːr]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "2학년생"
+            "(AmE) (대학·고교의) 2학년생"
           ]
         }
       ],
       "parts": [
         {
-          "part": "soph",
-          "mean": "현명한 (wise)"
+          "part": "sopho",
+          "mean": "= wise"
         },
         {
-          "part": "more(moro)",
-          "mean": "어리석은 (foolish)"
+          "part": "more",
+          "mean": "= foolish"
         }
       ],
-      "origin": "현명한 듯 어리석은 → 2학년생"
+      "origin": "현명한 듯하면서도 어리석은 (사람)",
+      "examples": [
+        {
+          "en": "Freshmen, **sophomores**, juniors, and seniors are all considered undergraduates.",
+          "ko": "1학년, 2학년, 3학년, 4학년은 모두 학부생으로 간주된다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "sophisticated",
-      "ipa": "/səˈfɪstɪkeɪtɪd/",
+      "ipa": [
+        "[səfístəkèitid]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "정교한",
-            "세련된"
-          ]
+            "1 세련된, 교양 있는, 경험 많은, 숙련된",
+            "2 *(기계·기술 등이) 정교한, 복잡한"
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "advanced"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "soph",
-          "mean": "현명한 (wise)"
+          "part": "sophist",
+          "mean": "지혜로운 사람"
         },
         {
-          "part": "-isticated",
-          "mean": "형용사형 접미사"
+          "part": "icated",
+          "mean": "형접:「…화된」,"
         }
       ],
-      "origin": "지혜로운 → 세련된"
+      "origin": "숙련된 (사람이 만든) → 세련된, 정교한",
+      "derivatives": [
+        {
+          "en": "sophistication",
+          "pos": "명",
+          "defs": [
+            "1 세련됨, (지적) 교양",
+            "2 (기계 등의) 정교화"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Airport security is getting more **sophisticated**.",
+          "ko": "공항 보안이 점점 더 정교해지고 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "altitude",
-      "ipa": "/ˈæltɪtuːd/",
+      "ipa": [
+        "[ǽltətùːd]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "고도",
-            "높이"
-          ]
+            "고도, 높이, 해발"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "height"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "alt",
-          "mean": "높은 (high)"
+          "part": "alti",
+          "mean": "= high"
         },
         {
-          "part": "-itude",
-          "mean": "상태 접미사"
+          "part": "tude",
+          "mean": "명접"
         }
       ],
-      "origin": "높은 정도 → 고도"
+      "origin": "높음",
+      "examples": [
+        {
+          "en": "The plane flew at an **altitude** of 30,000 feet.",
+          "ko": "그 비행기는 고도 3만 피트로 비행했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "abolish",
-      "ipa": "/əˈbɑːlɪʃ/",
+      "ipa": [
+        "[əbάːliʃ]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "폐지하다"
-          ]
+            "(법률·제도·관습 등을) 폐지하다, 없애다"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "do away with"
+              ],
+              "ant": [
+                "establish"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "ab-",
-          "mean": "떨어져 (away)"
+          "part": "ab",
+          "mean": "= away"
         },
         {
-          "part": "ol(alt)",
-          "mean": "자라다 (grow)"
+          "part": "ol",
+          "mean": "= grow"
         },
         {
-          "part": "-ish",
-          "mean": "동사형 접미사"
+          "part": "ish",
+          "mean": "동접"
         }
       ],
-      "origin": "자란 것을 없애다 → 폐지하다"
+      "origin": "더 이상 자라지 못하게 하다",
+      "derivatives": [
+        {
+          "en": "abolition",
+          "pos": "명",
+          "defs": [
+            "(법률·제도 등의) 폐지"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Slavery was **abolished** in the United States in the 19th century.",
+          "ko": "노예제도는 미국에서 19세기에 폐지되었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "adolescent",
-      "ipa": "/ˌædəˈlesnt/",
+      "ipa": [
+        "[æ̀dlésənt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "청소년"
+            "청소년, 청년"
           ]
         },
         {
           "pos": "형",
           "defs": [
-            "청소년기의"
+            "청소년의, 청년의"
           ]
         }
       ],
       "parts": [
         {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
+          "part": "ad",
+          "mean": "= to"
         },
         {
-          "part": "ol(alt)",
-          "mean": "자라다 (grow)"
+          "part": "ol",
+          "mean": "= grow"
         },
         {
-          "part": "-escent",
-          "mean": "~하기 시작하는"
+          "part": "escent",
+          "mean": "형접"
         }
       ],
-      "origin": "자라기 시작하는 → 청소년"
+      "origin": "…로 성장하고 있는",
+      "derivatives": [
+        {
+          "en": "adolescence",
+          "pos": "명",
+          "defs": [
+            "청소년기, 사춘기"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Many **adolescents** experience emotional ups and downs.",
+          "ko": "많은 청소년들이 감정의 기복을 겪는다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "anguish",
-      "ipa": "/ˈæŋɡwɪʃ/",
+      "ipa": [
+        "[ǽŋɡwiʃ]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "극심한 고통",
-            "괴로움"
-          ]
+            "극심한 고통, 고뇌, 비통"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "agony",
+                "torment",
+                "distress"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "ang",
-          "mean": "질식, 좁히다 (choke, narrow)"
+          "part": "angu",
+          "mean": "= choke"
         },
         {
-          "part": "-uish",
-          "mean": "명사형 접미사"
+          "part": "ish",
+          "mean": "ia:명접"
         }
       ],
-      "origin": "질식할 듯한 → 극심한 고통"
+      "origin": "질식할 정도로 누르기 → 고통",
+      "examples": [
+        {
+          "en": "His heart was torn with **anguish** when his best friend died.",
+          "ko": "가장 친한 친구가 죽었을 때 그는 고통으로 가슴이 찢어졌다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "anxious",
-      "ipa": "/ˈæŋkʃəs/",
+      "ipa": [
+        "[ǽŋkʃəs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "불안한",
-            "걱정되는"
-          ]
+            "1 *걱정하는, 불안해하는",
+            "2 갈망(열망)하는"
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "concerned"
+              ]
+            },
+            "2": {
+              "syn": [
+                "eager",
+                "keen"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "anx(ang)",
-          "mean": "질식, 좁히다 (choke)"
+          "part": "anx",
+          "mean": "= choke"
         },
         {
-          "part": "-ious",
-          "mean": "형용사형 접미사"
+          "part": "ious",
+          "mean": "형접"
         }
       ],
-      "origin": "질식할 듯한 → 불안한"
+      "origin": "질식할 정도로 (마음을) 짓누르는",
+      "derivatives": [
+        {
+          "en": "anxiety",
+          "pos": "명",
+          "defs": [
+            "1 걱정, 불안",
+            "2 갈망, 열망"
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "concern"
+              ]
+            },
+            "2": {
+              "syn": [
+                "eagerness"
+              ]
+            }
+          }
+        }
+      ],
+      "phrases": [
+        {
+          "en": "be anxious about",
+          "ko": "…에 대해 걱정[염려]하다"
+        },
+        {
+          "en": "be anxious to-v[for N]",
+          "ko": "…(하기)를 갈망하다 (= be eager to-v[for N])"
+        }
+      ],
+      "examples": [
+        {
+          "en": "If you were **anxious**, did your hands get sweaty?",
+          "ko": "불안할 때 손이 땀으로 젖나요?",
+          "source": "교과서"
+        },
+        {
+          "en": "Everyone **is anxious to learn** more about your story.",
+          "ko": "모두가 네 이야기에 대해 좀 더 알고 싶어 한다.",
+          "source": ""
+        },
+        {
+          "en": "My hands were trembling due to the **anxiety**.",
+          "ko": "불안감 때문에 나의 손이 떨렸다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "fare",
-      "ipa": "/fer/",
+      "ipa": [
+        "[feər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "요금",
-            "음식"
+            "(교통 기관의) 요금, 운임"
           ]
         }
       ],
       "parts": [
         {
           "part": "fare",
-          "mean": "가다 (go, travel)"
+          "mean": "= go; travel"
         }
       ],
-      "origin": "가는 대가 → 요금"
+      "origin": "이동, 여행\n→ (이동을 위해 지불하는) 요금",
+      "examples": [
+        {
+          "en": "The one-way **fare** for the shuttle bus is $1.",
+          "ko": "셔틀 버스의 편도 요금은 1달러이다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "farewell",
-      "ipa": "/ˌferˈwel/",
+      "ipa": [
+        "[fèərwél]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "작별"
+            "작별 (인사)"
+          ]
+        },
+        {
+          "pos": "형",
+          "defs": [
+            "작별의, 이별의, 송별의"
           ]
         },
         {
           "pos": "감",
           "defs": [
-            "안녕히"
+            "(작별하는 인사말) 잘 가요."
           ]
         }
       ],
       "parts": [
         {
           "part": "fare",
-          "mean": "가다 (go)"
+          "mean": "= go"
         },
         {
           "part": "well",
-          "mean": "잘 (well)"
+          "mean": "잘, 좋게"
         }
       ],
-      "origin": "잘 가라 → 작별"
+      "origin": "'잘 가라'라는 인사",
+      "phrases": [
+        {
+          "en": "a farewell speech[party]",
+          "ko": "고별사[송별회]"
+        }
+      ],
+      "examples": [
+        {
+          "en": "**Farewell**, my friend. I hope we meet again someday.",
+          "ko": "잘 가, 내 친구야. 언젠가 다시 만나기를 바랄게.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "welfare",
-      "ipa": "/ˈwelfer/",
+      "ipa": [
+        "[wélfeər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "복지",
-            "행복"
+            "1 (건강·안전 등을 포함한) 행복, 번영",
+            "2 복지, 복리후생"
           ]
         }
       ],
       "parts": [
         {
           "part": "wel",
-          "mean": "잘 (well)"
+          "mean": "= well"
         },
         {
           "part": "fare",
-          "mean": "가다 (go)"
+          "mean": "= go"
         }
       ],
-      "origin": "잘 지내는 것 → 복지"
+      "origin": "go well 잘 되어 가는 것, 잘 지냄",
+      "examples": [
+        {
+          "en": "The government increased spending on social **welfare** programs.",
+          "ko": "정부는 사회복지 프로그램에 대한 지출을 늘렸다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "defend",
-      "ipa": "/dɪˈfend/",
+      "ipa": [
+        "[difénd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "방어하다",
-            "지키다"
-          ]
+            "1 *방어하다",
+            "2 옹호하다, 변호[변론]하다"
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "guard",
+                "protect"
+              ],
+              "ant": [
+                "attack"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "떨어져 (away)"
+          "part": "de",
+          "mean": "= away"
         },
         {
           "part": "fend",
-          "mean": "치다 (strike)"
+          "mean": "= strike"
         }
       ],
-      "origin": "쳐서 떨어뜨리다 → 방어하다"
+      "origin": "(공격 등을) 쳐서 멀리 보내다\n→ 방어하다",
+      "derivatives": [
+        {
+          "en": "defendant",
+          "pos": "명",
+          "defs": [
+            "피고인"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "the accused"
+              ]
+            }
+          }
+        },
+        {
+          "en": "defense (또는 defence)",
+          "pos": "명",
+          "defs": [
+            "1 방어",
+            "2 옹호, 변호, 변론"
+          ],
+          "syn_ant": {
+            "1": {
+              "ant": [
+                "offense(공격)",
+                "attack"
+              ]
+            }
+          }
+        },
+        {
+          "en": "defenseless",
+          "pos": "형",
+          "defs": [
+            "무방비의, 방어할 수 없는"
+          ]
+        },
+        {
+          "en": "defensive",
+          "pos": "형",
+          "defs": [
+            "방어(용)의, 방어적인"
+          ],
+          "syn_ant": {
+            "0": {
+              "ant": [
+                "offensive",
+                "aggressive"
+              ]
+            }
+          }
+        }
+      ],
+      "phrases": [
+        {
+          "en": "national defense",
+          "ko": "국방"
+        },
+        {
+          "en": "defensive weapons",
+          "ko": "방어용 무기"
+        }
+      ],
+      "examples": [
+        {
+          "en": "How can the **defendant defend** himself against such charges?",
+          "ko": "어떻게 피고인이 그러한 혐의에 대해 스스로를 변호할 수 있습니까?",
+          "source": ""
+        },
+        {
+          "en": "The best **defence** for most octopus species is staying hidden and hunting at night.",
+          "ko": "대부분의 문어 종이 가진 최고의 방어 수단은 몸을 숨기고 밤에 사냥하는 것이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "fence",
-      "ipa": "/fens/",
+      "ipa": [
+        "[fens]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "울타리",
-            "담"
+            "1 *울타리",
+            "2 (경마 등에서의) 장애물"
+          ],
+          "syn_ant": {
+            "2": {
+              "syn": [
+                "hurdle"
+              ]
+            }
+          }
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "1 …에 울타리를 치다",
+            "2 펜싱을 하다"
           ]
         }
       ],
-      "parts": [
+      "origin": "defense(defence)의 축약형 → 방어(하기) → (막기 위한) 울타리, 장애물",
+      "examples": [
         {
-          "part": "fenc(fend)",
-          "mean": "치다, 막다 (strike, protect)"
+          "en": "They built a wooden **fence** around the garden.",
+          "ko": "그들은 정원 주위에 나무 울타리를 세웠다.",
+          "source": ""
         }
-      ],
-      "origin": "막는 것 → 울타리"
+      ]
     },
     {
       "en": "offend",
-      "ipa": "/əˈfend/",
+      "ipa": [
+        "[əfénd]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "기분을 상하게 하다",
-            "범하다"
+            "1 *화나게 하다, 불쾌감을 주다",
+            "2 위반하다, 죄를 범하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "of-(ob-)",
-          "mean": "맞서 (against)"
+          "part": "of",
+          "mean": "= against"
         },
         {
           "part": "fend",
-          "mean": "치다 (strike)"
+          "mean": "= strike"
         }
       ],
-      "origin": "맞서 치다 → 기분을 상하게 하다"
+      "origin": "(사람·법 등에) 반(反)하여 치다\n→ 화나게 하다, 위반하다",
+      "derivatives": [
+        {
+          "en": "offense",
+          "pos": "명",
+          "defs": [
+            "1 위반, 범죄",
+            "2 무례",
+            "3 공격"
+          ],
+          "syn_ant": {
+            "3": {
+              "ant": [
+                "defense"
+              ]
+            }
+          }
+        },
+        {
+          "en": "offensive",
+          "pos": "형",
+          "defs": [
+            "1 화나게 하는, 불쾌한",
+            "2 공격(용)의, 공격적인"
+          ]
+        },
+        {
+          "en": "offender",
+          "pos": "명",
+          "defs": [
+            "범죄자"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "criminal"
+              ]
+            }
+          }
+        }
+      ],
+      "examples": [
+        {
+          "en": "I am sorry if I have **offended** you.",
+          "ko": "제가 기분을 상하게 했다면 죄송합니다.",
+          "source": ""
+        },
+        {
+          "en": "An **offense** is considered a crime only when it violates the law.",
+          "ko": "위반 행위는 법률을 위반했을 경우에만 범죄로 간주된다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "mortal",
-      "ipa": "/ˈmɔːrtl/",
+      "ipa": [
+        "[mɔ́ːrtl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "죽을 운명의",
-            "치명적인"
-          ]
+            "1 죽을 운명의",
+            "2 (병·상처가) 치명적인"
+          ],
+          "syn_ant": {
+            "1": {
+              "ant": [
+                "immortal"
+              ]
+            },
+            "2": {
+              "syn": [
+                "fatal"
+              ]
+            }
+          }
         },
         {
           "pos": "명",
@@ -365,251 +783,481 @@
       "parts": [
         {
           "part": "mort",
-          "mean": "죽음 (death)"
+          "mean": "= death"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "죽음의 → 죽을 운명의"
+      "origin": "죽음의",
+      "derivatives": [
+        {
+          "en": "mortality",
+          "pos": "명",
+          "defs": [
+            "1 사망(률)",
+            "2 죽을 운명"
+          ],
+          "syn_ant": {
+            "2": {
+              "ant": [
+                "immortality"
+              ]
+            }
+          }
+        }
+      ],
+      "phrases": [
+        {
+          "en": "moral",
+          "ko": "혼동어휘: 도덕상의, 도덕에 관한"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Man is **mortal**, but art is immortal.",
+          "ko": "인간은 죽어도, 예술은 영원하다.",
+          "source": ""
+        },
+        {
+          "en": "Infant **mortality** has significantly decreased over the past few decades.",
+          "ko": "영아 사망률은 지난 수십 년 동안 크게 감소했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "mortgage",
-      "ipa": "/ˈmɔːrɡɪdʒ/",
+      "ipa": [
+        "[mɔ́ːrɡidʒ]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "담보 대출",
-            "주택 융자"
+            "1 저당(권), 저당 잡히기",
+            "2 (주택·토지 매입을 위한) 융자(금)"
+          ]
+        },
+        {
+          "pos": "동",
+          "defs": [
+            "(토지·재산 등을) 저당 잡히다"
           ]
         }
       ],
       "parts": [
         {
           "part": "mort",
-          "mean": "죽음 (death)"
+          "mean": "= death"
         },
         {
           "part": "gage",
-          "mean": "서약 (pledge)"
+          "mean": "= pledge 서약"
         }
       ],
-      "origin": "빚을 갚으면 죽는(사라지는) 서약 → 담보 대출"
+      "origin": "(돈을 갚겠다는) '죽음의 서약'에서 유래",
+      "examples": [
+        {
+          "en": "We took out a **mortgage** to purchase our home.",
+          "ko": "우리는 집을 구매하기 위해 담보 대출을 받았다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "murder",
-      "ipa": "/ˈmɜːrdər/",
+      "ipa": [
+        "[mə́ːrdər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "살인"
+            "살인(죄), 살해"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "살인하다"
+            "죽이다, 살인하다"
           ]
         }
       ],
-      "parts": [
+      "origin": "고대 영어 morthor(살해)에서 온 말",
+      "derivatives": [
         {
-          "part": "murd(mort)",
-          "mean": "죽음 (death)"
-        },
-        {
-          "part": "-er",
-          "mean": "명사형 접미사"
+          "en": "murderer",
+          "pos": "명",
+          "defs": [
+            "살인자"
+          ]
         }
       ],
-      "origin": "죽음 → 살인"
+      "examples": [
+        {
+          "en": "It turned out that the actor was **murdered**.",
+          "ko": "그 배우는 살해당한 것으로 밝혀졌다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "tremble",
-      "ipa": "/ˈtrembl/",
+      "ipa": [
+        "[trémbəl]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "떨다",
-            "전율하다"
-          ]
+            "1 *(공포·분노 등으로) 떨다, 떨리다",
+            "2 (나뭇잎·건물 등이) 흔들리다, 진동하다"
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "shiver"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
           "part": "trem",
-          "mean": "떨다 (shake, tremble)"
+          "mean": "= shake"
         },
         {
-          "part": "-ble",
-          "mean": "동사형 접미사"
+          "part": "ble",
+          "mean": "어미"
         }
       ],
-      "origin": "떨다"
+      "origin": "떨다",
+      "examples": [
+        {
+          "en": "The girl's voice lost its confident tone and began to **tremble**.",
+          "ko": "소녀의 목소리는 자신감 있는 어조를 잃고 떨리기 시작했다.",
+          "source": "교과서"
+        },
+        {
+          "en": "The leaves **trembled** slightly in the breeze.",
+          "ko": "산들바람에 나뭇잎이 약간 흔들렸다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "tremendous",
-      "ipa": "/trɪˈmendəs/",
+      "ipa": [
+        "[triméndəs]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "엄청난",
-            "굉장한"
-          ]
+            "1 *엄청난, 막대한",
+            "2 멋진, 대단한"
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "immense",
+                "enormous",
+                "huge"
+              ]
+            },
+            "2": {
+              "syn": [
+                "excellent"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
           "part": "trem",
-          "mean": "떨다 (tremble)"
+          "mean": "= shake"
         },
         {
-          "part": "-endous",
-          "mean": "형용사형 접미사"
+          "part": "endous",
+          "mean": "형접"
         }
       ],
-      "origin": "떨릴 만큼의 → 엄청난"
+      "origin": "떨고 있는 → (떨 정도로) 엄청난",
+      "derivatives": [
+        {
+          "en": "tremendously",
+          "pos": "부",
+          "defs": [
+            "엄청나게"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Korean singers are enjoying **tremendous** popularity all over Asia.",
+          "ko": "한국 가수들은 아시아 전역에서 엄청난 인기를 누리고 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "migrate",
-      "ipa": "/ˈmaɪɡreɪt/",
+      "ipa": [
+        "[máiɡreit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "이주하다",
-            "이동하다"
+            "(사람이) 이주하다, (동물·새 등이 계절에 따라) 이동하다"
           ]
         }
       ],
       "parts": [
         {
           "part": "migr",
-          "mean": "이동하다 (move)"
+          "mean": "= move"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "이동하다"
+      "origin": "이동하다",
+      "derivatives": [
+        {
+          "en": "migration",
+          "pos": "명",
+          "defs": [
+            "(사람·동물 등의) 이주, 이동"
+          ]
+        },
+        {
+          "en": "migratory",
+          "pos": "형",
+          "defs": [
+            "이주[이동]하는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Some **migratory** birds, which rely entirely on instincts they are born with, sometimes follow inefficient **migration** routes.",
+          "ko": "일부 철새들은 선천적인 본능에만 의존하기 때문에, 때때로 비효율적인 이동 경로를 따르기도 한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "immigrate",
-      "ipa": "/ˈɪmɪɡreɪt/",
+      "ipa": [
+        "[ímәɡrèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "(다른 나라로) 이민 오다"
+            "(다른 나라에서) 이민 오다, 이주해 오다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "im-(in-)",
-          "mean": "안으로 (into)"
+          "part": "im",
+          "mean": "= in:into"
         },
         {
-          "part": "migr",
-          "mean": "이동하다 (move)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "migrate",
+          "mean": "이동하다"
         }
       ],
-      "origin": "안으로 이동하다 → 이민 오다"
+      "origin": "이동하여 들어오다",
+      "derivatives": [
+        {
+          "en": "immigration",
+          "pos": "명",
+          "defs": [
+            "(다른 나라로부터의) 이민, 이주"
+          ]
+        },
+        {
+          "en": "immigrant",
+          "pos": "명",
+          "defs": [
+            "(다른 나라로부터의) 이민자, 이주자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "As a child, he **immigrated** to this country from Ireland.",
+          "ko": "어릴 때, 그는 아일랜드에서 이 나라로 이민 왔다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "emigrate",
-      "ipa": "/ˈemɪɡreɪt/",
+      "ipa": [
+        "[émәɡrèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "(다른 나라로) 이민 가다"
+            "(다른 나라로) 이민 가다, 이주하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
+          "part": "e",
+          "mean": "= ex:out"
         },
         {
-          "part": "migr",
-          "mean": "이동하다 (move)"
-        },
-        {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "migrate",
+          "mean": "이동하다"
         }
       ],
-      "origin": "밖으로 이동하다 → 이민 가다"
+      "origin": "이동하여 나가다",
+      "derivatives": [
+        {
+          "en": "emigration",
+          "pos": "명",
+          "defs": [
+            "(다른 나라로의) 이민, 이주"
+          ]
+        },
+        {
+          "en": "emigrant",
+          "pos": "명",
+          "defs": [
+            "(다른 나라로의) 이민자, 이주자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "His family **emigrated** to Canada in the 1990s.",
+          "ko": "그의 가족은 1990년대에 캐나다로 이민 갔다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "dispute",
-      "ipa": "/dɪˈspjuːt/",
+      "ipa": [
+        "[dispjúːt]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "분쟁",
-            "논란"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
-            "반박하다"
-          ]
+            "논쟁하다, 반박하다, 반론을 제기하다"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "argue",
+                "debate"
+              ]
+            }
+          }
+        },
+        {
+          "pos": "명",
+          "defs": [
+            "논쟁, 분쟁, 언쟁"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "disagreement",
+                "conflict"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "dis-",
-          "mean": "떨어져 (apart)"
+          "part": "dis",
+          "mean": "= apart"
         },
         {
-          "part": "pute(put)",
-          "mean": "생각하다 (think)"
+          "part": "pute",
+          "mean": "= think"
         }
       ],
-      "origin": "다르게 생각하다 → 분쟁"
+      "origin": "(반대편에 떨어져서) 생각하다\n→ 논쟁하다",
+      "phrases": [
+        {
+          "en": "in[under] dispute",
+          "ko": "논쟁 중인, 분쟁 중인"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two people **disputed** each other's claims in court.",
+          "ko": "두 사람은 법정에서 서로의 주장에 반론을 제기했다.",
+          "source": ""
+        },
+        {
+          "en": "The voting has ended, but the results are **in dispute**.",
+          "ko": "투표는 끝났지만, 그 결과는 논쟁 중이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "reputation",
-      "ipa": "/ˌrepjuˈteɪʃn/",
+      "ipa": [
+        "[rèpjətéiʃən]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "명성",
-            "평판"
-          ]
+            "평판, 명성, 명망"
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "repute"
+              ],
+              "ant": [
+                "disrepute(오명, 불명예)"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
           "part": "put",
-          "mean": "생각하다 (think)"
+          "mean": "= think"
         },
         {
-          "part": "-ation",
-          "mean": "명사형 접미사"
+          "part": "ation",
+          "mean": "명접"
         }
       ],
-      "origin": "다시 생각되는 것 → 평판"
+      "origin": "반복적으로 생각날 만함 → 명성",
+      "examples": [
+        {
+          "en": "Impulsive actions, rather than habitual ones, are more likely to damage one's **reputation**.",
+          "ko": "습관적인 행동보다 충동적인 행동이 한 사람의 명판에 해를 끼칠 가능성이 더 크다.",
+          "source": "모의"
+        }
+      ]
     }
   ]
 }

@@ -3,685 +3,615 @@
   "words": [
     {
       "en": "victory",
-      "ipa": "/ˈvɪktəri/",
+      "ipa": ["[víktəri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "승리"
-          ]
+          "defs": ["승리"],
+          "syn_ant": {"0": {"ant": ["defeat"]}}
         }
       ],
-      "parts": [
-        {
-          "part": "vict",
-          "mean": "이기다 (conquer)"
-        },
-        {
-          "part": "-ory",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "vict", "mean": "= conquer"}, {"part": "ory", "mean": "명접"}],
+      "origin": "적을 이김",
+      "derivatives": [
+        {"en": "victor", "pos": "명", "defs": ["승리자"], "syn_ant": {"0": {"syn": ["winner"], "ant": ["loser"]}}},
+        {"en": "victorious", "pos": "형", "defs": ["승리의, (이겨서) 의기양양한"]}
       ],
-      "origin": "이긴 것 → 승리"
+      "examples": [
+        {"en": "Surrounded by cheering friends, she enjoyed her **victory** with great joy.", "ko": "환호하는 친구들에게 둘러싸여, 그녀는 큰 기쁨 속에 자신의 승리를 만끽했다.", "source": "모의"}
+      ]
     },
     {
       "en": "convict",
-      "ipa": "/kənˈvɪkt/",
+      "ipa": ["[동 kənvíkt]", "[명 kɑ́ːnvikt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "유죄를 선고하다"
-          ]
+          "defs": ["(…에게) 유죄를 선고[입증]하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "죄수"
-          ]
+          "defs": ["죄수, 수형자"]
         }
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "vict",
-          "mean": "이기다 (conquer)"
-        }
+      "parts": [{"part": "con", "mean": "= com:「강조」"}, {"part": "vict", "mean": "= conquer"}],
+      "origin": "(잘못을 확신시킴에 있어서) 완전히 이기다",
+      "derivatives": [
+        {"en": "conviction", "pos": "명", "defs": ["유죄 판결"]}
       ],
-      "origin": "완전히 이기다(증명하다) → 유죄 선고하다"
+      "examples": [
+        {"en": "If **convicted**, they face up to one year in prison or a fine of ten million won.", "ko": "유죄 판결을 받을 경우, 그들은 1년 이하의 징역 또는 천만 원의 벌금에 처해진다.", "source": ""}
+      ]
     },
     {
       "en": "convince",
-      "ipa": "/kənˈvɪns/",
+      "ipa": ["[kənvíns]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "확신시키다",
-            "납득시키다"
-          ]
+            "1 확신[납득]시키다",
+            "2 설득하다"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["assure"]},
+            "2": {"syn": ["persuade"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "vince(vict)",
-          "mean": "이기다 (conquer)"
-        }
+      "parts": [{"part": "con", "mean": "= com:「강조」"}, {"part": "vince", "mean": "= conquer"}],
+      "origin": "(상대를) 완전히 이기다 → (상대를) 납득시키다",
+      "derivatives": [
+        {"en": "conviction", "pos": "명", "defs": ["확신, 신념"]},
+        {"en": "convincing", "pos": "형", "defs": ["설득력 있는, 확실한"]}
       ],
-      "origin": "완전히 이기다 → 확신시키다"
+      "phrases": [
+        {"en": "convince A of B", "ko": "A에게 B를 확신[납득]시키다"},
+        {"en": "convince[persuade] A to-v", "ko": "A가 …하도록 설득하다"}
+      ],
+      "examples": [
+        {"en": "I tried to **convince** them **of** the value of animal life.", "ko": "나는 그들에게 동물의 생명의 가치를 납득시키려고 애썼다.", "source": ""},
+        {"en": "When trying to **convince** someone **to change** their mind, most people try to lay out a logical argument.", "ko": "누군가의 마음을 바꾸도록 설득하려 할 때, 대부분의 사람들은 논리적인 주장을 펼치려 한다.", "source": "모의"}
+      ]
     },
     {
       "en": "province",
-      "ipa": "/ˈprɑːvɪns/",
+      "ipa": ["[prɑ́ːvins]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "지방",
-            "주",
-            "분야"
+            "1 (행정 단위인) 주(州), 도(道)",
+            "2 (the provinces) (수도 외의) 지방",
+            "3 (특정 관심·지식) 분야"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞에 (before)"
-        },
-        {
-          "part": "vince(vict)",
-          "mean": "이기다 (conquer)"
-        }
+      "origin": "로마의 정복지를 의미하던 라틴어 provincia에서 온 말 → 행정 구역 → 지역, 영역",
+      "derivatives": [
+        {"en": "provincial", "pos": "형", "defs": ["1 주(州)[도(道)]의", "2 지방의", "3 편협한"]}
       ],
-      "origin": "정복한 땅 → 지방"
+      "examples": [
+        {"en": "The law is slightly different in each Canadian **province**.", "ko": "캐나다의 각 주마다 법이 약간씩 다르다.", "source": ""}
+      ]
     },
     {
       "en": "temporary",
-      "ipa": "/ˈtempəreri/",
+      "ipa": ["[témpərèri]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "일시적인",
-            "임시의"
-          ]
+            "1 일시적인",
+            "2 임시의"
+          ],
+          "syn_ant": {
+            "1": {"ant": ["perpetual", "everlasting"]},
+            "2": {"ant": ["permanent"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "tempor",
-          "mean": "시간 (time)"
-        },
-        {
-          "part": "-ary",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "tempor", "mean": "= time"}, {"part": "ary", "mean": "형접"}],
+      "origin": "한때의 → 일시적인",
+      "derivatives": [
+        {"en": "temporarily", "pos": "부", "defs": ["1 일시적으로", "2 임시로"]}
       ],
-      "origin": "시간의 → 일시적인"
+      "examples": [
+        {"en": "The effect of this medicine is **temporary**.", "ko": "이 약의 효과는 일시적이다.", "source": ""},
+        {"en": "I want a permanent job rather than a **temporary** one.", "ko": "나는 임시직보다는 정규직을 원한다.", "source": ""}
+      ]
     },
     {
       "en": "contemporary",
-      "ipa": "/kənˈtempəreri/",
+      "ipa": ["[kəntémpərèri]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "동시대의",
-            "현대의"
-          ]
+            "1 *현대의, 당대의",
+            "2 (+ with) (…와) 동시대의, 같은 시기의"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["modern"]}
+          }
         },
         {
           "pos": "명",
-          "defs": [
-            "동시대 사람"
-          ]
+          "defs": ["같은 시대의 사람"]
         }
       ],
-      "parts": [
-        {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "tempor",
-          "mean": "시간 (time)"
-        },
-        {
-          "part": "-ary",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "con", "mean": "= com: together"}, {"part": "tempor", "mean": "= time"}, {"part": "ary", "mean": "형접"}],
+      "origin": "시간대(시대)에 함께 있는",
+      "phrases": [
+        {"en": "contemporary music[art/dance/literature]", "ko": "현대 음악[미술/무용/문학]"}
       ],
-      "origin": "같은 시간의 → 동시대의"
+      "examples": [
+        {"en": "Bach was **contemporary with** Handel.", "ko": "바흐는 헨델과 동시대의 사람이었다.", "source": ""}
+      ]
     },
     {
       "en": "miracle",
-      "ipa": "/ˈmɪrəkl/",
+      "ipa": ["[mírakəl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기적"
-          ]
+          "defs": ["기적, 놀라운 일"]
         }
       ],
-      "parts": [
-        {
-          "part": "mir",
-          "mean": "놀라다 (wonder)"
-        },
-        {
-          "part": "-acle",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "mira", "mean": "= wonder"}, {"part": "cle", "mean": "명접"}],
+      "origin": "놀라게 하는 것",
+      "derivatives": [
+        {"en": "miraculous", "pos": "형", "defs": ["기적의, 기적 같은"], "syn_ant": {"0": {"syn": ["amazing"]}}}
       ],
-      "origin": "놀라운 것 → 기적"
+      "examples": [
+        {"en": "It was a **miracle** that the girl survived the accident and made such a **miraculous** recovery.", "ko": "그 소녀가 그 사고에서 살아남아 기적적으로 회복한 것은 놀라운 일이었다.", "source": ""}
+      ]
     },
     {
       "en": "admire",
-      "ipa": "/ədˈmaɪər/",
+      "ipa": ["[ədmáiər]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "감탄하다",
-            "존경하다"
-          ]
+            "1 존경하다, 찬양하다",
+            "2 (감탄하며) 바라보다"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["respect"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "ad-",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "mire(mir)",
-          "mean": "놀라다 (wonder)"
-        }
+      "parts": [{"part": "ad", "mean": "= to"}, {"part": "mire", "mean": "= wonder"}],
+      "origin": "…에 놀라다",
+      "derivatives": [
+        {"en": "admirable", "pos": "형", "defs": ["존경[칭찬]받을 만한, 훌륭한"]},
+        {"en": "admiration", "pos": "명", "defs": ["존경, 찬양, 감탄"]}
       ],
-      "origin": "~을 향해 놀라다 → 감탄하다"
+      "examples": [
+        {"en": "We asked teenagers about their role models and the qualities they **admire** most in them.", "ko": "우리는 10대들에게 그들의 롤모델과 그들로부터 가장 존경하는 특성에 대해 물었다.", "source": "교과서"},
+        {"en": "\"Wow, that was quite wonderful,\" he said with **admiration**.", "ko": "\"와, 그건 꽤 멋졌어요.\" 그는 감탄하며 말했다.", "source": "모의"}
+      ]
     },
     {
       "en": "marvelous",
-      "ipa": "/ˈmɑːrvələs/",
+      "ipa": ["[mɑ́ːrvələs]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "놀라운",
-            "경이로운"
-          ]
+            "(매우) 훌륭한, 재미있는, 흥미로운"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["wonderful"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "marvel(mir)",
-          "mean": "놀라다 (wonder)"
-        },
-        {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "marvel", "mean": "= wonder"}, {"part": "ous", "mean": "형접"}],
+      "origin": "놀라운 것의\n※ marvel: mir가 명사화된 말",
+      "derivatives": [
+        {"en": "marvel", "pos": "명", "defs": ["경이, 놀라운 일, 불가사의"], "syn_ant": {"0": {"syn": ["wonder"]}}},
+        {"en": "marvel", "pos": "동", "defs": ["(- marvel(l)ed - marvel(l)ed) …에 놀라다, 경탄하다"]},
+        {"en": "marvelously", "pos": "부", "defs": ["놀라울 만큼, 불가사의하게"]}
       ],
-      "origin": "놀라운"
+      "examples": [
+        {"en": "A: What a **marvelous** marble building!\nB: It's a **marvel** that it survived the war.", "ko": "A: 정말 훌륭한 대리석 건물인데!\nB: 이게 그 전쟁을 견뎌냈다는 것이 놀라워.", "source": ""}
+      ]
     },
     {
       "en": "announce",
-      "ipa": "/əˈnaʊns/",
+      "ipa": ["[ənáuns]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "발표하다",
-            "알리다"
-          ]
+            "(공식적으로) 발표하다, 알리다"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["state", "declare"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "an-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "nounce",
-          "mean": "보고하다 (report)"
-        }
+      "parts": [{"part": "an", "mean": "= ad:to"}, {"part": "nounce", "mean": "= report"}],
+      "origin": "…에게 보고하다 → 알리다",
+      "derivatives": [
+        {"en": "announcement", "pos": "명", "defs": ["1 발표, 공표", "2 알림, 공고, 고지"]},
+        {"en": "announcer", "pos": "명", "defs": ["방송 진행자, 아나운서"]}
       ],
-      "origin": "~쪽으로 알리다 → 발표하다"
+      "examples": [
+        {"en": "Have the winners been **announced**?", "ko": "수상자가 발표되었습니까?", "source": ""},
+        {"en": "She heard an **announcement** saying that her flight had been delayed.", "ko": "그녀는 자신의 비행편이 지연되었다는 안내 방송을 들었다.", "source": "모의"}
+      ]
     },
     {
       "en": "pronounce",
-      "ipa": "/prəˈnaʊns/",
+      "ipa": ["[prənáuns]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "발음하다",
-            "선언하다"
-          ]
+            "1 발음하다",
+            "2 선언하다, 선고하다"
+          ],
+          "syn_ant": {
+            "2": {"syn": ["declare", "announce"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "pro-",
-          "mean": "앞으로 (forward)"
-        },
-        {
-          "part": "nounce",
-          "mean": "보고하다 (report)"
-        }
+      "parts": [{"part": "pro", "mean": "= before"}, {"part": "nounce", "mean": "= announce"}],
+      "origin": "사람들 앞에서 말하다",
+      "derivatives": [
+        {"en": "pronunciation", "pos": "명", "defs": ["발음(법)"]},
+        {"en": "pronouncement", "pos": "명", "defs": ["(공식적인) 선언, 공고"], "syn_ant": {"0": {"syn": ["announcement"]}}}
       ],
-      "origin": "앞으로 알리다 → 발음하다"
+      "examples": [
+        {"en": "The \"b\" in \"debt\" is not **pronounced**.", "ko": "'debt'에서 'b'는 발음되지 않는다.", "source": ""},
+        {"en": "The judges **pronounced** him the winner of the contest.", "ko": "심사위원들은 그가 대회의 우승자라고 선언했다.", "source": ""}
+      ]
     },
     {
       "en": "numeral",
-      "ipa": "/ˈnuːmərəl/",
+      "ipa": ["[núːmərəl]"],
       "meanings": [
         {
-          "pos": "명",
-          "defs": [
-            "숫자"
-          ]
-        },
-        {
           "pos": "형",
-          "defs": [
-            "수의"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "numer",
-          "mean": "수 (number)"
+          "defs": ["숫자를 나타내는"]
         },
         {
-          "part": "-al",
-          "mean": "명사/형용사형 접미사"
+          "pos": "명",
+          "defs": ["숫자"]
         }
       ],
-      "origin": "수 → 숫자"
+      "parts": [{"part": "numer", "mean": "= number"}, {"part": "al", "mean": "형접"}],
+      "origin": "수를 나타내는",
+      "derivatives": [
+        {"en": "numerical", "pos": "형", "defs": ["수와 관련된, 숫자로 나타낸"]}
+      ],
+      "phrases": [
+        {"en": "Roman[Arabic] numerals", "ko": "로마[아라비아] 숫자"},
+        {"en": "in numerical order", "ko": "번호 순으로"}
+      ],
+      "examples": [
+        {"en": "You should use a letter, a **numeral**, and a special character in your password.", "ko": "비밀번호에는 문자, 숫자, 특수 문자를 사용해야 합니다.", "source": ""},
+        {"en": "The files were not saved **in numerical order**, so we had trouble finding them.", "ko": "파일들이 번호 순서대로 저장되어 있지 않아서, 우리가 그것들을 찾는 데 어려움이 있었다.", "source": ""}
+      ]
     },
     {
       "en": "numerous",
-      "ipa": "/ˈnuːmərəs/",
+      "ipa": ["[núːmərəs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "수많은"
-          ]
+          "defs": ["많은, 다수의"]
         }
       ],
-      "parts": [
-        {
-          "part": "numer",
-          "mean": "수 (number)"
-        },
-        {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "numer", "mean": "= number"}, {"part": "ous", "mean": "형접"}],
+      "origin": "수가 많은",
+      "derivatives": [
+        {"en": "numerously", "pos": "부", "defs": ["많이, 수없이"]}
       ],
-      "origin": "수가 많은"
+      "examples": [
+        {"en": "They found **numerous** security problems in bank computer systems.", "ko": "그들은 은행 컴퓨터 시스템에서 수많은 보안 문제를 발견했다.", "source": "모의"},
+        {"en": "It was the same excuse that he had **numerously** repeated.", "ko": "그것은 그가 수없이 되풀이한 똑같은 변명이었다.", "source": ""}
+      ]
     },
     {
       "en": "innumerable",
-      "ipa": "/ɪˈnuːmərəbl/",
+      "ipa": ["[inúːmərəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "셀 수 없이 많은"
-          ]
+          "defs": ["셀 수 없이 많은"],
+          "syn_ant": {"0": {"syn": ["countless"]}}
         }
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "numer",
-          "mean": "수 (number)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
-        }
-      ],
-      "origin": "셀 수 없는"
+      "parts": [{"part": "in", "mean": "= not"}, {"part": "numer", "mean": "= number"}, {"part": "able", "mean": "…할 수 있는"}],
+      "origin": "수를 셀 수 없을 정도인 → 셀 수 없이 많은",
+      "examples": [
+        {"en": "There are **innumerable** species of fish in the ocean.", "ko": "바다에는 셀 수 없이 많은 종의 물고기가 있다.", "source": ""}
+      ]
     },
     {
       "en": "illusion",
-      "ipa": "/ɪˈluːʒn/",
+      "ipa": ["[ilúːʒən]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "환상",
-            "착각"
+            "1 (사람·상황에 대한) 착각, 오해",
+            "2 환영, 환각"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "il-(in-)",
-          "mean": "안에 (in)"
-        },
-        {
-          "part": "lus",
-          "mean": "놀다 (play)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "il", "mean": "= in"}, {"part": "lus", "mean": "= play"}, {"part": "ion", "mean": "명접"}],
+      "origin": "(사람의 생각·마음) 안에서 놀기 → 생각 속에서 제멋대로 일으키는 착각, 환영",
+      "derivatives": [
+        {"en": "illusionary", "pos": "형", "defs": ["환영의; 착각의"]},
+        {"en": "illusionist", "pos": "명", "defs": ["마술사"], "syn_ant": {"0": {"syn": ["magician"]}}},
+        {"en": "illusive", "pos": "형", "defs": ["(실제처럼 보이지만) 환영인"], "syn_ant": {"0": {"syn": ["illusory"]}}}
       ],
-      "origin": "안에서 놀리다 → 환상"
+      "examples": [
+        {"en": "Wearing all black gives the **illusion** that we're taller and thinner than we really are.", "ko": "검은색으로만 옷을 입으면 우리가 실제보다 더 키가 크고 날씬해 보이는 착각을 일으킨다.", "source": ""}
+      ]
     },
     {
       "en": "delusion",
-      "ipa": "/dɪˈluːʒn/",
+      "ipa": ["[dilúːʒən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "망상",
-            "착각"
-          ]
+          "defs": ["(스스로의) 망상, 착각"]
         }
       ],
-      "parts": [
-        {
-          "part": "de-",
-          "mean": "완전히 (completely)"
-        },
-        {
-          "part": "lus",
-          "mean": "놀다 (play)"
-        },
-        {
-          "part": "-ion",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "de", "mean": "= down"}, {"part": "lus", "mean": "= play"}, {"part": "ion", "mean": "명접"}],
+      "origin": "(사람을 자기 생각) 아래에서 가지고 놀기 → 속이기 → 속아서 하는 생각",
+      "derivatives": [
+        {"en": "delusional", "pos": "형", "defs": ["망상의"]},
+        {"en": "delusive", "pos": "형", "defs": ["기만적인, 현혹하는"]},
+        {"en": "delude", "pos": "동", "defs": ["속이다, 착각하게 만들다"], "syn_ant": {"0": {"syn": ["deceive"]}}}
       ],
-      "origin": "완전히 놀림당한 → 망상"
+      "phrases": [
+        {"en": "delude A[oneself] into v-ing", "ko": "A를[자신을] …하도록 속이다"}
+      ],
+      "examples": [
+        {"en": "She was under the **delusion** that there were ghosts in her house.", "ko": "그녀는 집안에 귀신이 있다는 망상에 빠져 있었다.", "source": ""},
+        {"en": "The actor had **deluded himself into thinking** he really was the detective he was playing.", "ko": "그 배우는 자기가 연기하고 있는 형사가 진짜 자신이라고 스스로 생각하게 만들었다.", "source": ""}
+      ]
     },
     {
       "en": "mutual",
-      "ipa": "/ˈmjuːtʃuəl/",
+      "ipa": ["[mjúːtʃuəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "상호 간의",
-            "공동의"
-          ]
+          "defs": ["상호간의, 서로의, 공통의"]
         }
       ],
-      "parts": [
-        {
-          "part": "mut",
-          "mean": "바꾸다 (change)"
-        },
-        {
-          "part": "-ual",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "mut", "mean": "= change"}, {"part": "ual", "mean": "형접"}],
+      "origin": "교환되는 → 서로의",
+      "derivatives": [
+        {"en": "mutually", "pos": "부", "defs": ["서로, 상호간에, 공통으로"]}
       ],
-      "origin": "서로 바꾸는 → 상호 간의"
+      "examples": [
+        {"en": "Without **mutual** trust, teamwork fails.", "ko": "상호 간의 신뢰가 없으면, 팀워크는 실패한다.", "source": ""}
+      ]
     },
     {
       "en": "commute",
-      "ipa": "/kəˈmjuːt/",
+      "ipa": ["[kəmjúːt]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "통근하다",
-            "감형하다"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
+          "defs": ["(정기적으로) 통근하다"]
         },
         {
-          "part": "mute(mut)",
-          "mean": "바꾸다 (change)"
+          "pos": "명",
+          "defs": ["통근[통학] (시간)"]
         }
       ],
-      "origin": "함께 바꾸다 → 통근하다"
+      "parts": [{"part": "com", "mean": "「강조」"}, {"part": "mute", "mean": "= change"}],
+      "origin": "집에서 직장으로 (위치를) 바꾸다 → 통근하다",
+      "examples": [
+        {"en": "Students take the 145 bus to **commute** to school.", "ko": "학생들은 통학하기 위해 145번 버스를 탄다.", "source": "모의"}
+      ]
     },
     {
       "en": "mutation",
-      "ipa": "/mjuːˈteɪʃn/",
+      "ipa": ["[mjuːtéiʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "돌연변이",
-            "변화"
-          ]
+          "defs": ["변화, 변형; [생물] 돌연변이"]
         }
       ],
-      "parts": [
-        {
-          "part": "mut",
-          "mean": "바꾸다 (change)"
-        },
-        {
-          "part": "-ation",
-          "mean": "명사형 접미사"
-        }
-      ],
-      "origin": "바뀐 것 → 돌연변이"
+      "parts": [{"part": "mut", "mean": "= change"}, {"part": "ation", "mean": "명접"}],
+      "origin": "변하는 행위, 변화된 상태",
+      "examples": [
+        {"en": "Genetic **mutations** can lead to diseases or new traits.", "ko": "유전적 돌연변이는 질병이나 새로운 특성을 유발할 수 있다.", "source": ""}
+      ]
     },
     {
       "en": "corporate",
-      "ipa": "/ˈkɔːrpərət/",
+      "ipa": ["[kɔ́ːrpərit]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "기업의",
-            "법인의"
+            "1 회사의, 법인의",
+            "2 단체의, 공동의"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "corp",
-          "mean": "몸, 단체 (body)"
-        },
-        {
-          "part": "-orate",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "corpor", "mean": "= body 조직체"}, {"part": "ate", "mean": "형접"}],
+      "origin": "한 조직체로 된",
+      "derivatives": [
+        {"en": "corporation", "pos": "명", "defs": ["1 (사단) 법인, 기업, (AmE) 유한[주식] 회사 (줄여서 Corp.)", "2 단체, (BrE) 지방 자치 단체"], "syn_ant": {"1": {"syn": ["company"]}}}
       ],
-      "origin": "하나의 몸으로 된 → 기업의"
+      "examples": [
+        {"en": "A **corporate** logo is an important part of a **corporation's** identity.", "ko": "회사 로고는 회사의 정체성에 중요한 부분이다.", "source": ""},
+        {"en": "Multinational **corporations** have business operations in many countries.", "ko": "다국적 기업들은 많은 나라에서 사업을 한다.", "source": ""}
+      ]
     },
     {
       "en": "incorporate",
-      "ipa": "/ɪnˈkɔːrpəreɪt/",
+      "ipa": ["[inkɔ́ːrpərèit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "포함하다",
-            "통합하다",
-            "법인을 설립하다"
-          ]
+            "1 법인으로 만들다",
+            "2 포함하다, 합병하다"
+          ],
+          "syn_ant": {
+            "2": {"syn": ["include"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "in-",
-          "mean": "안으로 (into)"
-        },
-        {
-          "part": "corp",
-          "mean": "몸 (body)"
-        },
-        {
-          "part": "-orate",
-          "mean": "동사형 접미사"
-        }
+      "parts": [{"part": "in", "mean": "= in"}, {"part": "corpor", "mean": "= body 조직체"}, {"part": "ate", "mean": "동접"}],
+      "origin": "조직체 안에 들어가게 하다",
+      "derivatives": [
+        {"en": "incorporation", "pos": "명", "defs": ["1 (AmE) 법인, 회사", "2 (회사) 설립; 합병; 결합"]}
       ],
-      "origin": "몸 안으로 넣다 → 통합하다"
+      "examples": [
+        {"en": "Agriculture has lost its local character and has become **incorporated** into the global economy.", "ko": "농업은 지역적 특성을 잃고 세계 경제로 통합되었다.", "source": "모의"}
+      ]
     },
     {
       "en": "corps",
-      "ipa": "/kɔːr/",
+      "ipa": ["[kɔːr]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "군단",
-            "단체"
+            "(복수형 corps[-z]) 1 [군대] 군단, 단(團)",
+            "2 (특정 일·활동을 하는) 단체"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "corps(corp)",
-          "mean": "몸, 단체 (body)"
-        }
-      ],
-      "origin": "한 몸 → 군단"
+      "parts": [{"part": "corps", "mean": "= body"}],
+      "origin": "(구성원들의) 몸체[덩어리] → 군단; 단체",
+      "examples": [
+        {"en": "He served in the U.S. Marine **Corps** for five years.", "ko": "그는 5년 동안 미국 해병대에서 복무했다.", "source": ""},
+        {"en": "The press **corps** was criticized by the mayor for disclosing a secret.", "ko": "시장은 비밀을 폭로한 것에 대해 기자단을 비난했다.", "source": ""}
+      ]
     },
     {
       "en": "commerce",
-      "ipa": "/ˈkɑːmɜːrs/",
+      "ipa": ["[kɑ́ːməːrs]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "상업",
-            "무역"
-          ]
+          "defs": ["상업, 무역"],
+          "syn_ant": {"0": {"syn": ["trade"]}}
         }
       ],
-      "parts": [
-        {
-          "part": "com-",
-          "mean": "함께 (together)"
-        },
-        {
-          "part": "merce(merc)",
-          "mean": "장사하다 (trade)"
-        }
+      "parts": [{"part": "com", "mean": "= together"}, {"part": "merce", "mean": "= trade"}],
+      "origin": "상품을 서로 함께 사고 팔기",
+      "derivatives": [
+        {"en": "commercial", "pos": "형", "defs": ["1 상업(상)의, 무역의", "2 (음반·영화 등이) 영리적인, 상업적인"]},
+        {"en": "commercial", "pos": "명", "defs": ["상업 광고"]},
+        {"en": "commercialize", "pos": "동", "defs": ["상업화하다"]}
       ],
-      "origin": "함께 거래하다 → 상업"
+      "phrases": [
+        {"en": "international commerce", "ko": "국제 무역"},
+        {"en": "e-commerce", "ko": "(= electronic commerce) 전자 상거래"}
+      ],
+      "examples": [
+        {"en": "That actor is in a lot of **commercials** these days.", "ko": "저 배우는 요즘 광고에 많이 나온다.", "source": ""}
+      ]
     },
     {
       "en": "merchant",
-      "ipa": "/ˈmɜːrtʃənt/",
+      "ipa": ["[mə́ːrtʃənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "상인"
-          ]
+          "defs": ["상인, 무역상"]
         }
       ],
-      "parts": [
-        {
-          "part": "merch(merc)",
-          "mean": "장사하다 (trade)"
-        },
-        {
-          "part": "-ant",
-          "mean": "사람 접미사"
-        }
+      "parts": [{"part": "merch", "mean": "= trade"}, {"part": "ant", "mean": "명접:「사람」"}],
+      "origin": "장사하는 사람",
+      "derivatives": [
+        {"en": "merchandise", "pos": "명", "defs": ["제품, 상품"], "syn_ant": {"0": {"syn": ["commodity", "goods"]}}},
+        {"en": "merchandise", "pos": "동", "defs": ["(광고하여) 판매하다"]}
       ],
-      "origin": "장사하는 사람 → 상인"
+      "examples": [
+        {"en": "Some **merchants** wanted to charge different prices to their cash and credit card customers.", "ko": "일부 상인들은 현금 결제 고객과 신용카드 결제 고객에게 다른 가격을 부과하고 싶어 했다.", "source": "모의"},
+        {"en": "This website sells exclusive **merchandise** that can't be found anywhere else.", "ko": "이 웹사이트는 다른 어떤 곳에서도 찾을 수 없는 독점적인 제품들을 판매한다.", "source": ""}
+      ]
     },
     {
       "en": "mercy",
-      "ipa": "/ˈmɜːrsi/",
+      "ipa": ["[mə́ːrsi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "자비",
-            "관용"
-          ]
+          "defs": ["자비, 관용"]
         }
       ],
-      "parts": [
-        {
-          "part": "merc",
-          "mean": "보상, 대가 (reward, pay)"
-        },
-        {
-          "part": "-y",
-          "mean": "명사형 접미사"
-        }
+      "parts": [{"part": "merc", "mean": "= reward"}, {"part": "y", "mean": "명접"}],
+      "origin": "보상을 베풀어 줌",
+      "derivatives": [
+        {"en": "merciful", "pos": "형", "defs": ["(남에게) 자비로운, 인정 많은"], "syn_ant": {"0": {"syn": ["compassionate"]}}},
+        {"en": "merciless", "pos": "형", "defs": ["무자비한, 잔인한"], "syn_ant": {"0": {"syn": ["cruel", "pitiless", "ruthless"]}}}
       ],
-      "origin": "대가 없이 주는 것 → 자비"
+      "phrases": [
+        {"en": "at the mercy of", "ko": "…에 좌우되어, …의 마음대로 되어"}
+      ],
+      "examples": [
+        {"en": "The judge often showed **mercy** to young defendants.", "ko": "그 판사는 종종 어린 피고인들에게 자비를 보였다.", "source": ""},
+        {"en": "They were lost at sea, **at the mercy of** the harsh weather.", "ko": "그들은 바다에서 항로를 잃어, 거친 날씨에 내맡겨졌다.", "source": ""}
+      ]
     },
     {
       "en": "voluntary",
-      "ipa": "/ˈvɑːlənteri/",
+      "ipa": ["[vɑ́ːləntèri]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "자발적인",
-            "자원의"
-          ]
+            "1 *자발적인",
+            "2 자원봉사의, 무상으로 일하는"
+          ],
+          "syn_ant": {
+            "1": {"ant": ["mandatory", "compulsory", "obligatory"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "vol",
-          "mean": "의지 (will)"
-        },
-        {
-          "part": "-untary",
-          "mean": "형용사형 접미사"
-        }
+      "parts": [{"part": "volunt", "mean": "= will"}, {"part": "ary", "mean": "형접"}],
+      "origin": "(자유) 의지에 의한\n※ 라틴어 voluntas(=free will)에서 온 말",
+      "derivatives": [
+        {"en": "voluntarily", "pos": "부", "defs": ["자발적으로"]},
+        {"en": "involuntary", "pos": "형", "defs": ["1 자기도 모르게 하는", "2 원치 않는"]}
       ],
-      "origin": "의지에 의한 → 자발적인"
+      "examples": [
+        {"en": "Participation in this program is **voluntary**.", "ko": "이 프로그램의 참여는 자발적이다.", "source": ""}
+      ]
     },
     {
       "en": "volunteer",
-      "ipa": "/ˌvɑːlənˈtɪr/",
+      "ipa": ["[vɑ̀ləntiər]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "자원봉사자"
+            "1 지원자, 지원병",
+            "2 *자원봉사자"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "자원하다"
+            "1 *자진하여 하다; 자원봉사로 하다",
+            "2 지원병이 되다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "vol",
-          "mean": "의지 (will)"
-        },
-        {
-          "part": "-unteer",
-          "mean": "사람 접미사"
-        }
-      ],
-      "origin": "자기 의지로 하는 사람 → 자원봉사자"
+      "parts": [{"part": "volunt", "mean": "= will"}, {"part": "eer", "mean": "명접:「사람」"}],
+      "origin": "(자유) 의지로 참여하는 사람",
+      "examples": [
+        {"en": "A: Hey, Mario. I heard you **volunteered** at the community center yesterday.\nB: Yes, I served meals to the elderly people there with other **volunteers**.", "ko": "A: 안녕, Mario. 어제 주민 센터에서 자원봉사 했다고 들었어.\nB: 응, 그곳에서 다른 자원봉사자들과 함께 어르신들께 식사를 나눠드렸어.", "source": "교과서"}
+      ]
     }
   ]
 }
