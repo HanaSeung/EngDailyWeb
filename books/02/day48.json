@@ -1,644 +1,827 @@
 {
-  "title": "cred 믿다/ fals 속이다,잘못된/ host 손님,낯선사람/ fid 믿다/ trad 넘겨주다/ dam 손실,비난/ punct 점/ norm 기준/ vag 떠돌아다니다",
+  "title": "cred 믿다/ fals 속이다,잘못된/ host 손님,낯선 사람/ fid 믿다/ trad 넘겨주다/ dam 손실,비난/ punct 점/ norm 기준/ vag 떠돌아다니다",
   "words": [
     {
       "en": "credit",
-      "ipa": "/ˈkredɪt/",
+      "ipa": ["[krédit]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "신용",
-            "업적",
-            "학점"
+            "1 신용[외상] (거래)",
+            "2 *칭찬, 공로",
+            "3 (대학) 이수 학점"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "믿다"
+            "1 …의 공으로 돌리다",
+            "2 *믿다, 신용하다"
           ]
         }
       ],
       "parts": [
+        {"part": "cred", "mean": "= believe"},
+        {"part": "it", "mean": "어미"}
+      ],
+      "origin": "믿음 → 신뢰, 신용\n├ 신용을 통한 거래\n└ (결과물을) 믿고 인정하는 것 → 칭찬",
+      "derivatives": [
+        {"en": "creditor", "pos": "명", "defs": ["채권자"]}
+      ],
+      "examples": [
         {
-          "part": "cred",
-          "mean": "믿다 (believe)"
+          "en": "What's the **credit** limit on your **credit** card?",
+          "ko": "당신의 신용 카드의 신용[외상] 거래 한도는 얼마입니까?",
+          "source": ""
         },
         {
-          "part": "-it",
-          "mean": "명사형 접미사"
+          "en": "I give him a lot of **credit** for his persistence and his attitude toward the challenges in his life.",
+          "ko": "나는 그의 끈기와 삶의 역경에 대한 태도에 많은 칭찬을 보낸다.",
+          "source": "교과서"
+        },
+        {
+          "en": "It was hard to **credit** her statement.",
+          "ko": "그녀의 진술은 믿기 어려웠다.",
+          "source": ""
         }
-      ],
-      "origin": "믿음 → 신용"
+      ]
     },
     {
       "en": "incredible",
-      "ipa": "/ɪnˈkredəbl/",
+      "ipa": ["[inkrédəbəl]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "믿기 힘든",
-            "굉장한"
+            "1 믿어지지 않는",
+            "2 놀라운, 뛰어난, 엄청난"
           ]
         }
       ],
+      "synonyms": ["unbelievable"],
       "parts": [
-        {
-          "part": "in-",
-          "mean": "~이 아닌 (not)"
-        },
-        {
-          "part": "cred",
-          "mean": "믿다 (believe)"
-        },
-        {
-          "part": "-ible",
-          "mean": "~할 수 있는"
-        }
+        {"part": "in", "mean": "= not"},
+        {"part": "cred", "mean": "= believe"},
+        {"part": "ible", "mean": "형접"}
       ],
-      "origin": "믿을 수 없는 → 굉장한"
+      "origin": "믿을 수 없는, 믿어지지 않는",
+      "derivatives": [
+        {"en": "incredibly", "pos": "부", "defs": ["대단히, 놀랍게도"]},
+        {"en": "credible", "pos": "형", "defs": ["믿을[신뢰할] 수 있는"]},
+        {"en": "credibility", "pos": "명", "defs": ["믿을 수 있음; 신뢰성"]}
+      ],
+      "examples": [
+        {
+          "en": "The president has an **incredible** influence on the public.",
+          "ko": "대통령은 대중에 대단한 영향력을 미친다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "grant",
-      "ipa": "/ɡrænt/",
+      "ipa": ["[grӕnt]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "승인하다",
-            "주다"
+            "1 (요청을) 승인하다, (권리·상·학위 등을) 부여[수여]하다",
+            "2 인정하다"
           ]
         },
         {
           "pos": "명",
-          "defs": [
-            "보조금"
-          ]
+          "defs": ["*(특히 정부에서 주는) 보조금"]
         }
       ],
+      "synonyms": ["subsidy"],
       "parts": [
+        {"part": "grant", "mean": "= believe"}
+      ],
+      "origin": "믿다 → 승인하다, 믿고 주다",
+      "examples": [
         {
-          "part": "grant(cred)",
-          "mean": "믿다, 동의하다 (believe, agree)"
+          "en": "A patent was **granted** for a machine designed for making fake coffee beans out of plants.",
+          "ko": "식물을 이용해 가짜 커피콩을 만들도록 설계된 기계에 특허가 부여되었다.",
+          "source": "모의"
+        },
+        {
+          "en": "They offered Meredith a **grant** that would cover half of her tuition.",
+          "ko": "그들은 Meredith에게 등록금의 절반을 충당할 수 있는 보조금[장학금]을 주었다.",
+          "source": ""
         }
       ],
-      "origin": "동의하여 주다 → 승인하다"
+      "phrases": [
+        {
+          "en": "take A for granted",
+          "ko": "A를 당연하다고 생각하다 \n (= take it for granted (that) …)"
+        }
+      ]
     },
     {
       "en": "false",
-      "ipa": "/fɔːls/",
+      "ipa": ["[fɔːls]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "잘못된",
-            "가짜의"
+            "1 거짓의, 가짜의",
+            "2 그릇된, 틀린"
           ]
         }
       ],
-      "parts": [
+      "synonyms": ["fake", "wrong"],
+      "antonyms": ["true", "correct"],
+      "origin": "라틴어 falsus(=deceive)에서 온 말",
+      "derivatives": [
+        {"en": "falsehood", "pos": "명", "defs": ["거짓말, 허위"]},
+        {"en": "falsify", "pos": "동", "defs": ["위조하다, 왜곡하다"]}
+      ],
+      "examples": [
         {
-          "part": "fals(fal)",
-          "mean": "속이다 (deceive)"
+          "en": "The witness gave a **false** statement about the incident.",
+          "ko": "목격자가 그 사건에 대해 허위 진술을 했다.",
+          "source": ""
         }
       ],
-      "origin": "속이는 → 잘못된"
+      "phrases": [
+        {
+          "en": "a false rumor[assumption]",
+          "ko": "잘못된 소문[가정]"
+        }
+      ]
     },
     {
       "en": "fail",
-      "ipa": "/feɪl/",
+      "ipa": ["[feil]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "실패하다",
-            "~하지 못하다"
+            "1 *실패하다",
+            "2 (주로 + to-v) *…하지 않다[못하다]*",
+            "3 (시험 등에) 낙제하다; 낙제시키다"
           ]
-        }
-      ],
-      "parts": [
+        },
         {
-          "part": "fail(fal)",
-          "mean": "속이다, 실망시키다 (deceive, disappoint)"
+          "pos": "명",
+          "defs": ["실패, 낙제"]
         }
       ],
-      "origin": "속이다 → 실패하다"
+      "antonyms": ["succeed"],
+      "parts": [
+        {"part": "fail", "mean": "= wrong"}
+      ],
+      "origin": "틀리다, 잘못하다 → 실패[낙제]하다",
+      "derivatives": [
+        {"en": "failure", "pos": "명", "defs": ["실패(자), 낙제(자)"]}
+      ],
+      "examples": [
+        {
+          "en": "The attempt **failed** in the end.",
+          "ko": "그 시도는 결국 실패했다.",
+          "source": ""
+        },
+        {
+          "en": "Many people **fail to form** new habits because it takes time and effort.",
+          "ko": "많은 사람들이 새로운 습관을 만들지 못하는데, 이는 시간과 노력이 필요하기 때문이다.",
+          "source": "교과서"
+        },
+        {
+          "en": "This **failure** taught me a good lesson.",
+          "ko": "이번 실패는 나에게 좋은 교훈을 주었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "fault",
-      "ipa": "/fɔːlt/",
+      "ipa": ["[fɔːlt]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "잘못",
-            "결점",
-            "단층"
+            "1 잘못, 과실",
+            "2 결점, 흠"
           ]
         }
       ],
+      "synonyms": ["defect", "flaw"],
       "parts": [
-        {
-          "part": "fault(fal)",
-          "mean": "속이다 (deceive)"
-        }
+        {"part": "fault", "mean": "= wrong"}
       ],
-      "origin": "속임 → 잘못"
+      "origin": "틀린 점, 잘못된 점 → 과실, 결점",
+      "derivatives": [
+        {"en": "faulty", "pos": "형", "defs": ["1 결점[흠]이 있는", "2 잘못된, 그릇된"]},
+        {"en": "faultless", "pos": "형", "defs": ["결점이 없는, 흠잡을 데 없는, 완벽한"]}
+      ],
+      "examples": [
+        {
+          "en": "He always finds **fault** with my cooking.",
+          "ko": "그는 항상 나의 요리에 대해 흠을 잡는다.",
+          "source": ""
+        },
+        {
+          "en": "We will replace your **faulty** toaster with a new toaster.",
+          "ko": "고장 난 토스터를 새 토스터로 교환해 드리겠습니다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "host",
-      "ipa": "/hoʊst/",
+      "ipa": ["[houst]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "주인",
-            "주최자"
+            "1 *(손님을 초대한) 주인",
+            "2 (행사 등의) 주최자[국]",
+            "3 (TV·라디오 프로그램) 진행자"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "주최하다"
+            "1 *(모임·행사를) 주최하다",
+            "2 (TV·라디오 프로를) 진행하다"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "host",
-          "mean": "손님, 주인 (guest, host)"
-        }
+      "antonyms": ["guest"],
+      "origin": "고대 프랑스어 hoste(=guest를 맞이하는 사람)에서 온 말",
+      "derivatives": [
+        {"en": "hostess", "pos": "명", "defs": ["(연회 등의) 여주인"]}
       ],
-      "origin": "손님을 맞는 사람 → 주인"
+      "examples": [
+        {
+          "en": "After the party, we thanked our **host** and went home.",
+          "ko": "파티가 끝난 후에, 우리는 주최자에게 감사 인사를 하고 집에 갔다.",
+          "source": ""
+        },
+        {
+          "en": "The country is going to **host** the Olympics next year.",
+          "ko": "그 나라는 내년에 올림픽을 주최할 예정이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "hostile",
-      "ipa": "/ˈhɑːstl/",
+      "ipa": ["[hɑ́ːstl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "적대적인"
-          ]
+          "defs": ["적대적인, 비우호적인"]
         }
       ],
+      "antonyms": ["favorable", "friendly"],
       "parts": [
-        {
-          "part": "host",
-          "mean": "낯선 사람, 적 (stranger, enemy)"
-        },
-        {
-          "part": "-ile",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "host", "mean": "= stranger, enemy"},
+        {"part": "ile", "mean": "형접"}
       ],
-      "origin": "적의 → 적대적인"
+      "origin": "낯선 사람의 → 적의 → 적대적인",
+      "derivatives": [
+        {"en": "hostility", "pos": "명", "defs": ["적의, 적개심"]}
+      ],
+      "examples": [
+        {
+          "en": "The thieves concealed their **hostile** intentions behind a friendly smile.",
+          "ko": "그 도둑들은 친절한 미소 뒤에 적대적인 의도를 숨기고 있었다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "hospitality",
-      "ipa": "/ˌhɑːspɪˈtæləti/",
+      "ipa": ["[hὰːspətǽləti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "환대",
-            "후한 대접"
-          ]
+          "defs": ["환대, 후한 대접"]
         }
       ],
       "parts": [
+        {"part": "hospit", "mean": "= guest"},
+        {"part": "ality", "mean": "명접"}
+      ],
+      "origin": "손님을 맞이함 → 환대",
+      "derivatives": [
+        {"en": "hospitable", "pos": "형", "defs": ["환대하는, 친절한, (대접이) 후한"]}
+      ],
+      "examples": [
         {
-          "part": "hospit(host)",
-          "mean": "손님 (guest)"
+          "en": "Thank you very much for your **hospitality**.",
+          "ko": "당신의 환대에 매우 감사드립니다.",
+          "source": ""
         },
         {
-          "part": "-ality",
-          "mean": "명사형 접미사"
+          "en": "We stayed with a very **hospitable** family in Athens.",
+          "ko": "우리는 아테네에서 매우 친절한 가족의 집에 머물렀다.",
+          "source": ""
         }
-      ],
-      "origin": "손님 대접 → 환대"
+      ]
     },
     {
       "en": "confident",
-      "ipa": "/ˈkɑːnfɪdənt/",
+      "ipa": ["[kɑ́ːnfədənt]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "자신감 있는",
-            "확신하는"
+            "1 *확신하고 있는",
+            "2 자신만만한, 자신이 있는"
           ]
         }
       ],
       "parts": [
+        {"part": "con", "mean": "= com:「강조」"},
+        {"part": "fid", "mean": "= trust"},
+        {"part": "ent", "mean": "형접"}
+      ],
+      "origin": "강하게 믿고 있는",
+      "derivatives": [
+        {"en": "confidence", "pos": "명", "defs": ["1 신뢰, 신용", "2 확신, 자신감"]},
+        {"en": "confidential", "pos": "형", "defs": ["비밀의, 기밀의"]}
+      ],
+      "examples": [
         {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
+          "en": "She is **confident** that she will be the winner.",
+          "ko": "그녀는 자신이 승자가 될 거라고 확신한다.",
+          "source": ""
         },
         {
-          "part": "fid",
-          "mean": "믿다 (trust)"
-        },
-        {
-          "part": "-ent",
-          "mean": "형용사형 접미사"
+          "en": "How about saying encouraging things to yourself to boost your self-**confidence**?",
+          "ko": "네 자신감을 높이기 위해 스스로에게 격려의 말을 해 보는 건 어때?",
+          "source": "교과서"
         }
       ],
-      "origin": "완전히 믿는 → 자신감 있는"
+      "phrases": [
+        {
+          "en": "self-confidence",
+          "ko": "자신감"
+        }
+      ]
     },
     {
       "en": "fidelity",
-      "ipa": "/fɪˈdeləti/",
+      "ipa": ["[fidéləti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "충실",
-            "신의"
-          ]
+          "defs": ["충성, 충실; (번역 등의) 정확도, 충실도"]
         }
       ],
+      "synonyms": ["accuracy"],
+      "antonyms": ["inaccuracy"],
       "parts": [
-        {
-          "part": "fid",
-          "mean": "믿다 (trust)"
-        },
-        {
-          "part": "-elity",
-          "mean": "명사형 접미사"
-        }
+        {"part": "fidel", "mean": "= trust"},
+        {"part": "ity", "mean": "명접"}
       ],
-      "origin": "믿음 → 충실"
+      "origin": "믿을 수 있음 → 충실함",
+      "examples": [
+        {
+          "en": "This 3D model shows a high level of **fidelity** to the real building.",
+          "ko": "이 3D 모델은 실제 건물에 대한 높은 수준의 정확도를 보여준다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "federal",
-      "ipa": "/ˈfedərəl/",
+      "ipa": ["[fédərəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "연방의",
-            "연방 정부의"
-          ]
+          "defs": ["연방제의, 연방 정부의"]
         }
       ],
       "parts": [
-        {
-          "part": "fed(fid)",
-          "mean": "믿다, 맹약 (trust, league)"
-        },
-        {
-          "part": "-eral",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "feder", "mean": "= trust"},
+        {"part": "al", "mean": "형접"}
       ],
-      "origin": "맹약에 의한 → 연방의"
+      "origin": "믿음으로 약속한 → 조약에 관한\n→ 독립적인 주들 사이의 합의로 형성된",
+      "examples": [
+        {
+          "en": "The US has both state and **federal** laws.",
+          "ko": "미국에는 주법과 연방법이 모두 존재한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "faith",
-      "ipa": "/feɪθ/",
+      "ipa": ["[feiθ]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "믿음",
-            "신념"
+            "1 *신뢰, 믿음",
+            "2 신념, 신앙(심)"
           ]
         }
       ],
-      "parts": [
+      "synonyms": ["trust", "confidence"],
+      "origin": "라틴어 fidere(=trust)에서 온 말",
+      "derivatives": [
+        {"en": "faithful", "pos": "형", "defs": ["1 충실한, 신의가 두터운", "2 믿을 수 있는"]}
+      ],
+      "examples": [
         {
-          "part": "fai(fid)",
-          "mean": "믿다 (trust)"
+          "en": "I have **faith** in you. You can do it.",
+          "ko": "나는 너를 믿어. 넌 할 수 있어.",
+          "source": ""
         },
         {
-          "part": "-th",
-          "mean": "명사형 접미사"
+          "en": "This book is a **faithful** translation of the original text.",
+          "ko": "이 책은 원문을 충실하게 번역한 것이다.",
+          "source": ""
         }
-      ],
-      "origin": "믿음"
+      ]
     },
     {
       "en": "defy",
-      "ipa": "/dɪˈfaɪ/",
+      "ipa": ["[difái]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "반항하다",
-            "무시하다"
-          ]
+          "defs": ["(권위·규칙 등에) 반항[도전]하다, 무시하다"]
         }
       ],
+      "synonyms": ["disobey", "rebel"],
       "parts": [
-        {
-          "part": "de-",
-          "mean": "떨어져, 반대 (away)"
-        },
-        {
-          "part": "fy(fid)",
-          "mean": "믿다 (trust)"
-        }
+        {"part": "de", "mean": "= dis:「반대」"},
+        {"part": "fy", "mean": "= trust"}
       ],
-      "origin": "믿음에서 떨어지다 → 반항하다"
+      "origin": "'신뢰하다'의 반대 의미 → (기존의 것을 의심하여) 반항[도전]하다",
+      "examples": [
+        {
+          "en": "The soldier **defied** the order of his commander.",
+          "ko": "그 군인은 지휘관의 명령에 불복종했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "tradition",
-      "ipa": "/trəˈdɪʃn/",
+      "ipa": ["[trədíʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "전통",
-            "관습"
-          ]
+          "defs": ["전통, 관습, 전해진 것"]
         }
       ],
       "parts": [
+        {"part": "tradi", "mean": "= hand over"},
+        {"part": "tion", "mean": "명접"}
+      ],
+      "origin": "(후대로) 넘겨지는 것 → 전통",
+      "derivatives": [
+        {"en": "traditional", "pos": "형", "defs": ["1 전통의, 전통적인", "2 관습적인, 인습적인"]}
+      ],
+      "examples": [
         {
-          "part": "trad",
-          "mean": "넘겨주다 (hand over)"
+          "en": "Buddhism has a long **tradition** in Korea.",
+          "ko": "불교는 한국에서 오랜 전통을 지니고 있다.",
+          "source": ""
         },
         {
-          "part": "-ition",
-          "mean": "명사형 접미사"
+          "en": "Unlike **traditional** letters, no paper or stamps are needed for digital messages.",
+          "ko": "전통적인 편지와 달리, 디지털 메시지에는 종이도 우표도 필요 없다.",
+          "source": "모의"
         }
-      ],
-      "origin": "넘겨준 것 → 전통"
+      ]
     },
     {
       "en": "betray",
-      "ipa": "/bɪˈtreɪ/",
+      "ipa": ["[bitréi]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "배신하다",
-            "누설하다"
+            "1 배반[배신]하다, 저버리다",
+            "2 누설하다, 폭로하다",
+            "3 (무심코) 드러내다"
           ]
         }
       ],
+      "synonyms": ["disclose", "reveal"],
       "parts": [
-        {
-          "part": "be-",
-          "mean": "완전히 (thoroughly)"
-        },
-        {
-          "part": "tray(trad)",
-          "mean": "넘겨주다 (hand over)"
-        }
+        {"part": "be", "mean": "「강조」"},
+        {"part": "tray", "mean": "= hand over"}
       ],
-      "origin": "완전히 넘겨주다 → 배신하다"
+      "origin": "(비밀·기밀 등을) 완전히 넘겨주다\n→ 배신하다",
+      "derivatives": [
+        {"en": "betrayal", "pos": "명", "defs": ["배반, 배신"]}
+      ],
+      "examples": [
+        {
+          "en": "He **betrayed** his country to save his own life.",
+          "ko": "그는 자신의 목숨을 부지하기 위해 조국을 배반했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "damage",
-      "ipa": "/ˈdæmɪdʒ/",
+      "ipa": ["[dǽmidʒ]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "손해",
-            "피해"
-          ]
+          "defs": ["손해, 손상, 훼손"]
         },
         {
           "pos": "동",
-          "defs": [
-            "손상을 입히다"
-          ]
+          "defs": ["손상시키다, 손해[피해]를 입히다"]
         }
       ],
+      "synonyms": ["harm", "injury", "injure"],
       "parts": [
+        {"part": "dam", "mean": "= loss"},
+        {"part": "age", "mean": "명접"}
+      ],
+      "origin": "손해, 피해",
+      "examples": [
         {
-          "part": "dam(damn)",
-          "mean": "해, 손실 (harm, loss)"
+          "en": "He was responsible for all the **damages**.",
+          "ko": "그는 (발생한) 모든 손해에 대해 책임이 있었다.",
+          "source": ""
         },
         {
-          "part": "-age",
-          "mean": "명사형 접미사"
+          "en": "They rebuilt a barn **damaged** by fire.",
+          "ko": "그들은 화재로 손상된 창고를 재건했다.",
+          "source": "모의"
         }
-      ],
-      "origin": "해 → 손해"
+      ]
     },
     {
       "en": "condemn",
-      "ipa": "/kənˈdem/",
+      "ipa": ["[kəndém]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "비난하다",
-            "선고하다"
+            "1 비난하다, 책망하다",
+            "2 (+ to) …의 형을 선고하다"
           ]
         }
       ],
       "parts": [
+        {"part": "con", "mean": "= com:「강조」"},
+        {"part": "demn", "mean": "= blame"}
+      ],
+      "origin": "강력히 비난하다",
+      "derivatives": [
+        {"en": "condemnation", "pos": "명", "defs": ["비난, 규탄"]}
+      ],
+      "examples": [
         {
-          "part": "con-(com-)",
-          "mean": "완전히 (completely)"
+          "en": "I did not **condemn** her for what she had done.",
+          "ko": "나는 그녀가 한 일에 대해 그녀를 비난하지 않았다.",
+          "source": ""
         },
         {
-          "part": "demn(damn)",
-          "mean": "해, 벌 (harm, penalty)"
+          "en": "He was found guilty and **condemned to** a year in prison.",
+          "ko": "그는 유죄가 인정되었고 징역 1년을 선고받았다.",
+          "source": ""
         }
-      ],
-      "origin": "완전히 벌을 주다 → 비난하다"
+      ]
     },
     {
       "en": "punctual",
-      "ipa": "/ˈpʌŋktʃuəl/",
+      "ipa": ["[pʌ́ŋktʃuəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "시간을 엄수하는"
-          ]
+          "defs": ["시간을 엄수하는, 기한을 지키는"]
         }
       ],
+      "synonyms": ["on time(제시간에)"],
       "parts": [
-        {
-          "part": "punct",
-          "mean": "찌르다, 점 (point, prick)"
-        },
-        {
-          "part": "-ual",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "punct", "mean": "= point"},
+        {"part": "ual", "mean": "형접"}
       ],
-      "origin": "정확한 점에 맞추는 → 시간을 엄수하는"
+      "origin": "점 하나까지 맞추는 → 딱 맞추는",
+      "derivatives": [
+        {"en": "punctuality", "pos": "명", "defs": ["시간 엄수; 꼼꼼함"]}
+      ],
+      "examples": [
+        {
+          "en": "He is always **punctual** for appointments.",
+          "ko": "그는 항상 약속 시간을 지킨다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "punctuate",
-      "ipa": "/ˈpʌŋktʃueɪt/",
+      "ipa": ["[pʌ́ŋktʃuèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "구두점을 찍다",
-            "중단시키다"
-          ]
+          "defs": ["(마침표, 쉼표 등의) 구두점을 찍다"]
         }
       ],
       "parts": [
-        {
-          "part": "punct",
-          "mean": "찌르다, 점 (point)"
-        },
-        {
-          "part": "-uate",
-          "mean": "동사형 접미사"
-        }
+        {"part": "punctu", "mean": "= point"},
+        {"part": "ate", "mean": "동접"}
       ],
-      "origin": "점을 찍다 → 구두점을 찍다"
+      "origin": "점을 찍다",
+      "derivatives": [
+        {"en": "punctuation", "pos": "명", "defs": ["구두점, 구두법(문장 부호를 쓰는 방법)"]}
+      ],
+      "examples": [
+        {
+          "en": "All sentences need a **punctuation** mark at the end.",
+          "ko": "모든 문장 끝에는 구두점을 찍어야 한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "disappoint",
-      "ipa": "/ˌdɪsəˈpɔɪnt/",
+      "ipa": ["[dìsəpɔ́int]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "실망시키다"
-          ]
+          "defs": ["실망시키다, (기대 등을) 저버리다"]
         }
       ],
       "parts": [
+        {"part": "dis", "mean": "「반대」"},
+        {"part": "ap", "mean": "= ad:to"},
+        {"part": "point", "mean": "점"}
+      ],
+      "origin": "(기대했던 것과) 반대로 점을 찍다\n→ 실망시키다",
+      "derivatives": [
+        {"en": "disappointed", "pos": "형", "defs": ["실망한"]},
+        {"en": "disappointing", "pos": "형", "defs": ["실망스러운, 실망시키는"]},
+        {"en": "disappointment", "pos": "명", "defs": ["실망, 낙담"]}
+      ],
+      "examples": [
         {
-          "part": "dis-",
-          "mean": "반대 (opposite)"
+          "en": "I didn't mean to **disappoint** her.",
+          "ko": "나는 그녀를 실망시킬 의도는 아니었다.",
+          "source": ""
         },
         {
-          "part": "ap-(ad-)",
-          "mean": "~쪽으로 (toward)"
-        },
-        {
-          "part": "point(punct)",
-          "mean": "점, 목표 (point)"
+          "en": "She could see that her teammates were **disappointed** to lose the game.",
+          "ko": "그녀는 팀 동료들이 경기에서 져서 실망했다는 것을 알 수 있었다.",
+          "source": "모의"
         }
       ],
-      "origin": "목표에서 벗어나게 하다 → 실망시키다"
+      "phrases": [
+        {
+          "en": "to one's disappointment",
+          "ko": "실망스럽게도"
+        }
+      ]
     },
     {
       "en": "norm",
-      "ipa": "/nɔːrm/",
+      "ipa": ["[nɔːrm]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "규범",
-            "표준"
+            "1 *표준, 기준",
+            "2 규범, 규준"
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "norm",
-          "mean": "규범, 기준 (rule, standard)"
-        }
+      "synonyms": ["standard"],
+      "origin": "라틴어 norma(=rule)에서 온 말\n※ norma는 직역하면 carpenter's rule(목수의 자)라는 의미로, 규칙적인 모양을 만들기 위한 도구라는 의미에서 표준, 규칙이라는 의미로 발전함",
+      "derivatives": [
+        {"en": "normal", "pos": "형", "defs": ["1 표준의, 보통의", "2 정상적인"]}
       ],
-      "origin": "기준 → 규범"
+      "examples": [
+        {
+          "en": "**Norms** are everywhere, defining what is \"**normal**\" and guiding our interpretations of social life at every turn.",
+          "ko": "규범은 어디에나 존재하며, 무엇이 '정상적'인지 정의하고 모든 측면에서 사회 생활에 대한 해석의 기준을 제시한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "enormous",
-      "ipa": "/ɪˈnɔːrməs/",
+      "ipa": ["[inɔ́ːrməs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "거대한",
-            "엄청난"
-          ]
+          "defs": ["거대한, 엄청나게 큰, 막대한"]
         }
       ],
+      "synonyms": ["huge", "vast", "tremendous"],
+      "antonyms": ["tiny"],
       "parts": [
-        {
-          "part": "e-(ex-)",
-          "mean": "밖으로 (out)"
-        },
-        {
-          "part": "norm",
-          "mean": "규범 (norm)"
-        },
-        {
-          "part": "-ous",
-          "mean": "형용사형 접미사"
-        }
+        {"part": "e", "mean": "= ex:out"},
+        {"part": "norm", "mean": "표준, 기준"},
+        {"part": "ous", "mean": "형접"}
       ],
-      "origin": "규범을 벗어난 → 거대한"
+      "origin": "정상 기준을 벗어난 → 매우 큰",
+      "examples": [
+        {
+          "en": "**Enormous** mistakes are often caused by missing a tiny point.",
+          "ko": "막대한 실수들은 흔히 작은 것을 놓치는 것에 기인한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "vague",
-      "ipa": "/veɪɡ/",
+      "ipa": ["[veig]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "모호한",
-            "희미한"
+            "1 *명확지 않은, 모호한, 막연한",
+            "2 (모양·윤곽 등이) 분명치 않은, 흐릿한"
           ]
         }
       ],
+      "synonyms": ["obscure", "ambiguous", "blurred"],
+      "antonyms": ["clear", "distinct"],
       "parts": [
-        {
-          "part": "vag",
-          "mean": "떠돌다 (wander)"
-        }
+        {"part": "vag", "mean": "= wander"},
+        {"part": "ue", "mean": "어미"}
       ],
-      "origin": "떠도는 → 모호한"
+      "origin": "떠돌아다니는 → 왔다 갔다 하는\n→ (내용이) 분명하지 않은",
+      "examples": [
+        {
+          "en": "I don't have any clear plans. I have only **vague** ideas.",
+          "ko": "나는 구체적인 계획은 없어. 단지 막연한 아이디어만 있어.",
+          "source": ""
+        },
+        {
+          "en": "A **vague** shape appeared through the fog.",
+          "ko": "어렴풋한 형체가 안개 속에서 나타났다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "extravagant",
-      "ipa": "/ɪkˈstrævəɡənt/",
+      "ipa": ["[ikstrǽvəgənt]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "낭비하는",
-            "사치스러운"
+            "1 낭비하는, 사치스러운",
+            "2 지나친, 엄청난"
           ]
         }
       ],
+      "synonyms": ["wasteful", "excessive"],
+      "antonyms": ["thrifty"],
       "parts": [
+        {"part": "extra", "mean": "= beyond"},
+        {"part": "vag", "mean": "= wander"},
+        {"part": "ant", "mean": "형접"}
+      ],
+      "origin": "(한계를) 벗어나 헤매는 → 한도를 넘는",
+      "examples": [
         {
-          "part": "extra-",
-          "mean": "밖으로 (beyond)"
-        },
-        {
-          "part": "vag",
-          "mean": "떠돌다 (wander)"
-        },
-        {
-          "part": "-ant",
-          "mean": "형용사형 접미사"
+          "en": "The woman has very **extravagant** taste in furniture.",
+          "ko": "그 여자는 가구에 매우 사치스러운 취향이 있다.",
+          "source": ""
         }
       ],
-      "origin": "경계 밖으로 떠도는 → 낭비하는"
+      "phrases": [
+        {
+          "en": "extravagant demand",
+          "ko": "지나친 요구"
+        }
+      ]
     },
     {
       "en": "vagrant",
-      "ipa": "/ˈveɪɡrənt/",
+      "ipa": ["[véigrənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "부랑자",
-            "방랑자"
-          ]
+          "defs": ["부랑자"]
+        },
+        {
+          "pos": "형",
+          "defs": ["방랑하는, 부랑 생활을 하는"]
         }
       ],
       "parts": [
-        {
-          "part": "vag",
-          "mean": "떠돌다 (wander)"
-        },
-        {
-          "part": "-rant",
-          "mean": "사람 접미사"
-        }
+        {"part": "vagr", "mean": "= wander"},
+        {"part": "ant", "mean": "명접:「…하는 사람」"}
       ],
-      "origin": "떠도는 사람 → 부랑자"
+      "origin": "떠돌아다니는 사람",
+      "derivatives": [
+        {"en": "vagrancy", "pos": "명", "defs": ["방랑, 부랑"]}
+      ],
+      "examples": [
+        {
+          "en": "During the war, many people lived a **vagrant** life.",
+          "ko": "전쟁 동안 많은 사람들이 이곳저곳을 떠도는 방랑 생활을 했다.",
+          "source": ""
+        }
+      ]
     }
   ]
 }

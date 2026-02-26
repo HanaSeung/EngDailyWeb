@@ -3,642 +3,1246 @@
   "words": [
     {
       "en": "bar",
-      "ipa": "/bɑːr/",
+      "ipa": [
+        "[bɑːr]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "막대기",
-            "장애물"
+            "1 술집, 바",
+            "2 *막대, 빗장",
+            "3 *(막대 모양의 초콜릿·비누 등) 긴 토막",
+            "4 장애(물)"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "막다",
-            "금하다"
+            "*막다, 금하다"
           ]
         }
       ],
-      "parts": [
+      "synonyms": [
+        "ban",
+        "prohibit"
+      ],
+      "origin": "중세 라틴어 barra(=bar)에서 온 말\n→ 막대기 →\n├ (막대 모양의) 토막\n├ (문을 잠아 거는 막대) 빗장\n├ (막대기로) 막다 → 장애물\n└ (막대 같은 장벽 너머로 음료·음식을 제공하는) 주점",
+      "examples": [
         {
-          "part": "bar",
-          "mean": "막대 (bar, barrier)"
+          "en": "I could reach out and touch the dog through the **bars** of its cage.",
+          "ko": "나는 철창의 막대 사이로 손을 뻗어 개를 만질 수 있었다.",
+          "source": "모의"
+        },
+        {
+          "en": "Poor health may be a **bar** to success in life.",
+          "ko": "건강하지 못한 것은 인생에서의 성공에 장애가 될 수 있다.",
+          "source": ""
+        },
+        {
+          "en": "Anyone under 19 is **barred from entering** the **bar**.",
+          "ko": "19세 미만(미성년자)은 술집에 들어가는 것이 금지된다.",
+          "source": ""
         }
       ],
-      "origin": "막대 → 장애물, 막다"
+      "phrases": [
+        {
+          "en": "bar A from v-ing",
+          "ko": "A가 …하지 못하게 하다"
+        }
+      ]
     },
     {
       "en": "embarrass",
-      "ipa": "/ɪmˈbærəs/",
+      "ipa": [
+        "[imbǽrəs]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "당황하게 하다"
+            "당황하게 하다, 난처하게 하다"
           ]
         }
       ],
+      "synonyms": [
+        "shame",
+        "perplex"
+      ],
       "parts": [
         {
-          "part": "em-(en-)",
-          "mean": "안에 (in)"
+          "part": "em",
+          "mean": "= in"
         },
         {
-          "part": "bar",
-          "mean": "막대, 장애 (bar)"
+          "part": "barra",
+          "mean": "= bar 막대"
         },
         {
-          "part": "-ass",
-          "mean": "동사형 접미사"
+          "part": "ss",
+          "mean": "어미"
         }
       ],
-      "origin": "장애 안에 넣다 → 당황하게 하다"
+      "origin": "가는 길에 막대를 놓아 방해하다\n→ 당황하게 하다",
+      "derivatives": [
+        {
+          "en": "embarrassing",
+          "pos": "형",
+          "defs": [
+            "당황[난처]하게 하는"
+          ]
+        },
+        {
+          "en": "embarrassed",
+          "pos": "형",
+          "defs": [
+            "당황[난처]한, 어색한"
+          ]
+        },
+        {
+          "en": "embarrassment",
+          "pos": "명",
+          "defs": [
+            "1 당황, 난처",
+            "2 골칫거리"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "She **embarrassed** me by asking **embarrassing** questions.",
+          "ko": "그녀는 난처한 질문을 해서 나를 당황하게 했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "barrier",
-      "ipa": "/ˈbæriər/",
+      "ipa": [
+        "[bǽriər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "장벽",
-            "장애물"
+            "울타리, 장벽; 장애물"
           ]
         }
       ],
+      "synonyms": [
+        "fence",
+        "obstacle",
+        "block"
+      ],
       "parts": [
         {
-          "part": "bar",
-          "mean": "막대 (bar)"
+          "part": "barr",
+          "mean": "= bar 장애"
         },
         {
-          "part": "-ier",
-          "mean": "명사형 접미사"
+          "part": "ier",
+          "mean": "명접"
         }
       ],
-      "origin": "막대로 막은 것 → 장벽"
+      "origin": "장애가 되는 것",
+      "examples": [
+        {
+          "en": "Language can be a **barrier** between people from different countries.",
+          "ko": "언어는 서로 다른 나라 사람들 사이의 장애물이 될 수 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "novel",
-      "ipa": "/ˈnɑːvl/",
+      "ipa": [
+        "[nɑ́ːvəl]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "소설"
+            "(장편) 소설"
           ]
         },
         {
           "pos": "형",
           "defs": [
-            "새로운",
-            "신기한"
+            "새로운, 기발한"
           ]
         }
+      ],
+      "antonyms": [
+        "ordinary"
       ],
       "parts": [
         {
           "part": "nov",
-          "mean": "새로운 (new)"
+          "mean": "= new"
         },
         {
-          "part": "-el",
-          "mean": "명사형 접미사"
+          "part": "el",
+          "mean": "어미"
         }
       ],
-      "origin": "새로운 이야기 → 소설"
+      "origin": "├ 새로운, 참신한\n└ 참신한 이야기 → 소설",
+      "derivatives": [
+        {
+          "en": "novelist",
+          "pos": "명",
+          "defs": [
+            "소설가"
+          ]
+        },
+        {
+          "en": "novelty",
+          "pos": "명",
+          "defs": [
+            "1 새로움, 신기함, 진기함",
+            "2 새로운 것[경험]"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "When writing a **novel**, research for information needs to be done.",
+          "ko": "소설을 쓸 때, 정보 조사를 해야 한다.",
+          "source": "모의"
+        },
+        {
+          "en": "To tackle this problem, several companies have come up with **novel** solutions.",
+          "ko": "이 문제를 해결하기 위해 몇몇 회사에서 새로운 해결책을 내놓았다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "innovate",
-      "ipa": "/ˈɪnəveɪt/",
+      "ipa": [
+        "[ínəvèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "혁신하다"
+            "혁신하다, 쇄신하다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안으로 (into)"
+          "part": "in",
+          "mean": "= into"
         },
         {
           "part": "nov",
-          "mean": "새로운 (new)"
+          "mean": "= new"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "안으로 새것을 들이다 → 혁신하다"
+      "origin": "새롭게 (…에) 도입하다\n→ 혁신하다",
+      "derivatives": [
+        {
+          "en": "innovation",
+          "pos": "명",
+          "defs": [
+            "1 혁신, 개혁",
+            "2 새로운 고안(물)"
+          ]
+        },
+        {
+          "en": "innovative",
+          "pos": "형",
+          "defs": [
+            "혁신적인"
+          ]
+        },
+        {
+          "en": "innovator",
+          "pos": "명",
+          "defs": [
+            "혁신자, 개혁자"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "You have to challenge the conventional ways of doing things and search for opportunities to **innovate**.",
+          "ko": "당신은 기존의 관습적인 일하는 방식에 이의를 제기하고 혁신할 기회를 찾아야 한다.",
+          "source": "수능"
+        }
+      ],
+      "phrases": [
+        {
+          "en": "technological innovation",
+          "ko": "기술 혁신"
+        }
+      ]
     },
     {
       "en": "renovate",
-      "ipa": "/ˈrenəveɪt/",
+      "ipa": [
+        "[rénəvèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "개조하다",
-            "보수하다"
+            "개조하다, 수선[수리]하다, 새롭게 하다"
           ]
         }
       ],
+      "synonyms": [
+        "restore",
+        "repair"
+      ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
           "part": "nov",
-          "mean": "새로운 (new)"
+          "mean": "= new"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "다시 새롭게 하다 → 개조하다"
+      "origin": "다시 새것처럼 고치다[수리하다]",
+      "derivatives": [
+        {
+          "en": "renovation",
+          "pos": "명",
+          "defs": [
+            "개혁, 수선, 수리"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Thanks to a donation, we will be able to start **renovating** our campus library.",
+          "ko": "기부 덕분에 우리는 캠퍼스 도서관의 보수를 시작할 수 있게 될 것이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "renew",
-      "ipa": "/rɪˈnuː/",
+      "ipa": [
+        "[rinúː]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "갱신하다",
-            "재개하다"
+            "1 갱신하다, …의 기한을 연장하다",
+            "2 재개하다"
           ]
         }
       ],
+      "synonyms": [
+        "resume"
+      ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "다시 (again)"
+          "part": "re",
+          "mean": "= again"
         },
         {
-          "part": "new(nov)",
-          "mean": "새로운 (new)"
+          "part": "new",
+          "mean": ""
         }
       ],
-      "origin": "다시 새롭게 하다 → 갱신하다"
+      "origin": "다시 새것으로 만들다",
+      "derivatives": [
+        {
+          "en": "renewable",
+          "pos": "형",
+          "defs": [
+            "(에너지·자원 등이) 재생 가능한"
+          ]
+        },
+        {
+          "en": "renewable",
+          "pos": "명",
+          "defs": [
+            "(복수형) 재생 가능 에너지"
+          ]
+        },
+        {
+          "en": "renewal",
+          "pos": "명",
+          "defs": [
+            "1 재개, 소생",
+            "2 갱신, 기한 연장"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't neglect to **renew** your license.",
+          "ko": "면허증을 갱신하는 것을 잊지 마세요.",
+          "source": ""
+        },
+        {
+          "en": "There are a variety of sources for **renewable** energy, such as hydropower and ocean-based technologies.",
+          "ko": "수력 발전과 해양 기반 기술과 같은 다양한 재생 가능 에너지 자원이 있다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "desert",
-      "ipa": "/ˈdezərt/",
+      "ipa": [
+        "[dézərt]",
+        "[dizə́ːrt]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "사막"
+            "*사막*"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "버리다"
+            "(사람·장소·의무 등을) 버리다, 떠나다"
           ]
         }
       ],
+      "synonyms": [
+        "abandon"
+      ],
       "parts": [
         {
-          "part": "de-",
-          "mean": "떨어져 (away)"
+          "part": "de",
+          "mean": "「반대」"
         },
         {
           "part": "sert",
-          "mean": "잇다, 연결하다 (join)"
+          "mean": "= join"
         }
       ],
-      "origin": "연결에서 떨어지다 → 버리다"
+      "origin": "'결합하다'의 반대 행위 → 떨어뜨리다\n├ 남겨 두고 떠나다 → 버리다\n└ 버려진 장소 → 사막",
+      "derivatives": [
+        {
+          "en": "deserted",
+          "pos": "형",
+          "defs": [
+            "버림받은, 사람이 살지 않는"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "After our tour to the **desert**, it was nice to sit in a cafe and enjoy a refreshing dessert.",
+          "ko": "사막 여행 후에 카페에 앉아 상쾌한 디저트를 즐기는 것은 참 좋았다.",
+          "source": ""
+        },
+        {
+          "en": "I found a **deserted** house and walked into it.",
+          "ko": "나는 버려진 집을 발견하고 그 안으로 들어갔다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "insert",
-      "ipa": "/ɪnˈsɜːrt/",
+      "ipa": [
+        "[insə́ːrt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "삽입하다",
-            "끼워 넣다"
+            "1 *삽입하다, 넣다",
+            "2 (문서 등에) 말을 써 넣다, 덧붙이다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "in-",
-          "mean": "안으로 (into)"
+          "part": "in",
+          "mean": "= in"
         },
         {
           "part": "sert",
-          "mean": "잇다 (join)"
+          "mean": "= join"
         }
       ],
-      "origin": "안으로 이어 넣다 → 삽입하다"
+      "origin": "안에 함께 넣다 → 끼워 넣다",
+      "derivatives": [
+        {
+          "en": "insertion",
+          "pos": "명",
+          "defs": [
+            "삽입, 끼워넣기"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "I **inserted** my key in the door.",
+          "ko": "나는 문에 열쇠를 꽂았다.",
+          "source": ""
+        },
+        {
+          "en": "The editor **inserted** a few words into the sentence.",
+          "ko": "편집자는 그 문장에 몇 단어를 덧붙였다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "assert",
-      "ipa": "/əˈsɜːrt/",
+      "ipa": [
+        "[əsə́ːrt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "주장하다",
-            "단언하다"
+            "1 단언하다",
+            "2 주장하다"
           ]
         }
       ],
+      "synonyms": [
+        "declare",
+        "claim"
+      ],
       "parts": [
         {
-          "part": "as-(ad-)",
-          "mean": "~쪽으로 (toward)"
+          "part": "as",
+          "mean": "= ad:to"
         },
         {
           "part": "sert",
-          "mean": "잇다, 놓다 (join, put)"
+          "mean": "= join"
         }
       ],
-      "origin": "~쪽으로 내놓다 → 주장하다"
+      "origin": "(어떤 논리에) 결합하여 그것을 주장하다",
+      "derivatives": [
+        {
+          "en": "assertive",
+          "pos": "형",
+          "defs": [
+            "단정적인; 자기 주장이 강한"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "He **asserted** that he was not responsible for the mistake.",
+          "ko": "그는 그 실수에 대해 자신은 책임이 없다고 주장했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "exert",
-      "ipa": "/ɪɡˈzɜːrt/",
+      "ipa": [
+        "[igzə́ːrt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "(권력·영향력을) 행사하다",
-            "노력하다"
+            "1 *(힘·영향력 등을) 발휘하다, 행사하다*",
+            "2 (+ oneself) 노력하다"
           ]
         }
       ],
+      "synonyms": [
+        "make an effort"
+      ],
       "parts": [
         {
-          "part": "ex-",
-          "mean": "밖으로 (out)"
+          "part": "ex",
+          "mean": "= out"
         },
         {
-          "part": "ert(sert)",
-          "mean": "잇다, 놓다 (join, put)"
+          "part": "(s)ert",
+          "mean": "= join"
         }
       ],
-      "origin": "밖으로 내놓다 → 행사하다"
+      "origin": "(내부의 힘을) 모아서 밖으로 내다",
+      "derivatives": [
+        {
+          "en": "exertion",
+          "pos": "명",
+          "defs": [
+            "1 노력",
+            "2 (영향 등의) 발휘, 행사"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Advertising **exerts** a great influence on us.",
+          "ko": "광고는 우리에게 큰 영향력을 발휘한다.",
+          "source": ""
+        },
+        {
+          "en": "He never **exerts himself** to help anyone.",
+          "ko": "그는 결코 누군가를 도우려고 노력하지 않는다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "series",
-      "ipa": "/ˈsɪriːz/",
+      "ipa": [
+        "[síəriːz]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "연속",
-            "시리즈"
+            "1 *(사건·일 등의) 연속*",
+            "2 (TV·책 등의) 연속물, 시리즈"
           ]
         }
       ],
+      "synonyms": [
+        "succession"
+      ],
       "parts": [
         {
-          "part": "seri(sert)",
-          "mean": "잇다 (join, connect)"
+          "part": "ser",
+          "mean": "= join"
         },
         {
-          "part": "-es",
-          "mean": "명사형 접미사"
+          "part": "ies",
+          "mean": "어미"
         }
       ],
-      "origin": "이어진 것 → 연속"
+      "origin": "(한 줄로) 연결된 것",
+      "derivatives": [
+        {
+          "en": "serial",
+          "pos": "형",
+          "defs": [
+            "연속하는, 순차적인"
+          ]
+        },
+        {
+          "en": "serial",
+          "pos": "명",
+          "defs": [
+            "연재물, 연속극"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Climate change is more than **a series of** extraordinary events.",
+          "ko": "기후 변화는 일련의 기이한 사건 그 이상이다.",
+          "source": "모의"
+        },
+        {
+          "en": "The actor appeared on a popular TV **series**.",
+          "ko": "그 배우는 인기 있는 TV 시리즈에 출연했다.",
+          "source": ""
+        }
+      ],
+      "phrases": [
+        {
+          "en": "a series of",
+          "ko": "일련의, 연쇄의"
+        }
+      ]
     },
     {
       "en": "tempt",
-      "ipa": "/tempt/",
+      "ipa": [
+        "[tempt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "유혹하다",
-            "부추기다"
+            "1 유혹하다",
+            "2 *…할 생각이 들게 하다"
           ]
         }
       ],
-      "parts": [
+      "synonyms": [
+        "lure"
+      ],
+      "origin": "라틴어 temptare(영향을 주려고 시도하다)에서 온 말",
+      "derivatives": [
         {
-          "part": "tempt",
-          "mean": "시도하다, 시험하다 (try, test)"
+          "en": "temptation",
+          "pos": "명",
+          "defs": [
+            "유혹(하는 것)"
+          ]
         }
       ],
-      "origin": "시험하다 → 유혹하다"
+      "examples": [
+        {
+          "en": "A: On sunny days, I am **tempted** to skip class and go to the beach.\nB: Yeah, it's hard to resist the **temptation** to stay outside on beautiful days.",
+          "ko": "A: 화창한 날에는 수업을 빼먹고 해변으로 가고 싶어.\nB: 맞아, 날씨가 좋은 날에 밖에 있고 싶은 유혹을 참기는 어렵지.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "attempt",
-      "ipa": "/əˈtempt/",
+      "ipa": [
+        "[ətémpt]"
+      ],
       "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "시도"
-          ]
-        },
         {
           "pos": "동",
           "defs": [
             "시도하다"
           ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "at-(ad-)",
-          "mean": "~쪽으로 (toward)"
         },
-        {
-          "part": "tempt",
-          "mean": "시도하다 (try)"
-        }
-      ],
-      "origin": "~쪽으로 시도하다"
-    },
-    {
-      "en": "sphere",
-      "ipa": "/sfɪr/",
-      "meanings": [
         {
           "pos": "명",
           "defs": [
-            "구(체)",
-            "영역",
-            "범위"
+            "시도, 노력"
           ]
         }
       ],
+      "synonyms": [
+        "try",
+        "effort",
+        "trial"
+      ],
       "parts": [
         {
-          "part": "spher",
-          "mean": "구 (ball, globe)"
+          "part": "at",
+          "mean": "= ad:to"
+        },
+        {
+          "part": "tempt",
+          "mean": "= try"
         }
       ],
-      "origin": "구 → 영역"
+      "origin": "…에 대해 시도해보다",
+      "examples": [
+        {
+          "en": "The prisoner **attempted** to escape, but failed.",
+          "ko": "그 죄수는 탈출을 시도했으나, 실패했다.",
+          "source": ""
+        },
+        {
+          "en": "After a long series of failed **attempts**, he finally succeeded in developing a portable breathing device.",
+          "ko": "오랜 실패 끝에, 그는 마침내 휴대용 호흡기를 개발하는 데 성공했다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
-      "en": "atmosphere",
-      "ipa": "/ˈætməsfɪr/",
+      "en": "sphere",
+      "ipa": [
+        "[sfíər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "대기",
-            "분위기"
+            "1 구(球), 구체, 구형",
+            "2 (활동·지식 등의) 영역, 분야"
+          ]
+        }
+      ],
+      "origin": "라틴어 sphaera(=globe)에서 온 말",
+      "derivatives": [
+        {
+          "en": "spherical",
+          "pos": "형",
+          "defs": [
+            "구 모양의"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The Earth is not a perfect **sphere**.",
+          "ko": "지구는 완전한 구형이 아니다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "atmosphere",
+      "ipa": [
+        "[ǽtməsfìər]"
+      ],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": [
+            "1 공기, 대기",
+            "2 분위기"
           ]
         }
       ],
       "parts": [
         {
           "part": "atmo",
-          "mean": "증기 (vapor)"
+          "mean": "= air"
         },
         {
-          "part": "sphere(spher)",
-          "mean": "구 (globe)"
+          "part": "sphere",
+          "mean": "= globe"
         }
       ],
-      "origin": "증기의 구 → 대기"
+      "origin": "지구를 둘러싼 공기",
+      "examples": [
+        {
+          "en": "The Hubble Space Telescope has been orbiting just above Earth's **atmosphere** for more than thirty years.",
+          "ko": "허블 우주 망원경은 지구의 대기권 바로 위를 30년 넘게 공전하고 있다.",
+          "source": "교과서"
+        },
+        {
+          "en": "The office party had a friendly **atmosphere**.",
+          "ko": "사내 파티는 화기애애한 분위기였다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "hemisphere",
-      "ipa": "/ˈhemɪsfɪr/",
+      "ipa": [
+        "[héməsfìər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "(지구·천체의) 반구"
+            "(지구·천체의) 반구(半球); (뇌의) 반구"
           ]
         }
       ],
       "parts": [
         {
-          "part": "hemi-",
-          "mean": "반 (half)"
+          "part": "hemi",
+          "mean": "= half"
         },
         {
-          "part": "sphere(spher)",
-          "mean": "구 (globe)"
+          "part": "sphere",
+          "mean": "= globe"
         }
       ],
-      "origin": "구의 반 → 반구"
+      "origin": "반구",
+      "examples": [
+        {
+          "en": "Most of the world's population lives in the Northern **Hemisphere**.",
+          "ko": "전 세계 인구의 대부분은 북반구에 살고 있다.",
+          "source": ""
+        },
+        {
+          "en": "Left-eye vision and left-side body movement are controlled by the right **hemisphere** of the brain.",
+          "ko": "왼쪽 눈의 시야와 왼쪽 몸의 움직임은 우뇌에 의해 제어된다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "confuse",
-      "ipa": "/kənˈfjuːz/",
+      "ipa": [
+        "[kənfjúːz]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "혼란시키다",
-            "혼동하다"
+            "1 *혼동시키다, 혼란스럽게 하다",
+            "2 혼동하다"
           ]
         }
       ],
+      "synonyms": [
+        "puzzle"
+      ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
-          "part": "fuse(fus)",
-          "mean": "붓다 (pour)"
+          "part": "fuse",
+          "mean": "= pour"
         }
       ],
-      "origin": "함께 부어 섞다 → 혼란시키다"
+      "origin": "함께 붓다 → 마구 뒤섞다 → 혼동시키다",
+      "derivatives": [
+        {
+          "en": "confusing",
+          "pos": "형",
+          "defs": [
+            "혼동시키는, 혼란스럽게 하는"
+          ]
+        },
+        {
+          "en": "confused",
+          "pos": "형",
+          "defs": [
+            "혼란스러운"
+          ]
+        },
+        {
+          "en": "confusion",
+          "pos": "명",
+          "defs": [
+            "혼란, 혼동"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "His answer really **confused** me.",
+          "ko": "그의 대답은 나를 몹시 혼란스럽게 했다.",
+          "source": ""
+        },
+        {
+          "en": "Mr. Smith always **confuses** me **with** my brother.",
+          "ko": "Smith 씨는 항상 나를 우리 형과 혼동한다.",
+          "source": ""
+        },
+        {
+          "en": "Immigrants who try to adapt to a new culture may experience some **confusion**.",
+          "ko": "새로운 문화에 적응하려는 이민자들은 약간의 혼란을 겪을 수 있다.",
+          "source": "교과서"
+        }
+      ],
+      "phrases": [
+        {
+          "en": "confuse A with B",
+          "ko": "A를 B와 혼동하다"
+        }
+      ]
     },
     {
       "en": "refuse",
-      "ipa": "/rɪˈfjuːz/",
+      "ipa": [
+        "[rifjúːz]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "거절하다"
+            "(제의·초대·요청 등을) 거절하다"
           ]
         }
       ],
+      "synonyms": [
+        "decline",
+        "turn down",
+        "reject"
+      ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "fuse(fus)",
-          "mean": "붓다 (pour)"
+          "part": "fuse",
+          "mean": "= pour"
         }
       ],
-      "origin": "뒤로 부어버리다 → 거절하다"
+      "origin": "(받은 것을) 도로 붓다 → 되돌려주다\n→ 거절하다",
+      "derivatives": [
+        {
+          "en": "refusal",
+          "pos": "명",
+          "defs": [
+            "거절, 거부"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "You can **refuse** their invitation. However, your **refusal** may still hurt their feelings.",
+          "ko": "너는 그들의 초대를 거절할 수 있어. 하지만 네 거절이 그들의 기분을 상하게 할 수도 있어.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "refund",
-      "ipa": "/ˈriːfʌnd/",
+      "ipa": [
+        "[ríːfʌnd]",
+        "[rifʌ́nd]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "환불"
+            "*환불, 반환(금)"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "환불하다"
+            "환불하다, 반환하다"
           ]
         }
       ],
+      "synonyms": [
+        "return"
+      ],
       "parts": [
         {
-          "part": "re-",
-          "mean": "뒤로 (back)"
+          "part": "re",
+          "mean": "= back"
         },
         {
-          "part": "fund(fus)",
-          "mean": "붓다 (pour)"
+          "part": "fund",
+          "mean": "= pour"
         }
       ],
-      "origin": "뒤로 부어주다 → 환불하다"
+      "origin": "(샀던 것을) 다시 쏟아내다\n※ refuse와 어원이 같으며 fund(자금)에서 파생된 어휘가 아님",
+      "examples": [
+        {
+          "en": "I returned the clothes and got a **refund**.",
+          "ko": "나는 그 옷을 돌려주고 환불받았다.",
+          "source": ""
+        }
+      ],
+      "phrases": [
+        {
+          "en": "a full refund",
+          "ko": "전액 환불"
+        },
+        {
+          "en": "non-refundable",
+          "ko": "환불이 불가능한"
+        }
+      ]
     },
     {
       "en": "central",
-      "ipa": "/ˈsentrəl/",
+      "ipa": [
+        "[séntrəl]"
+      ],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "중심의",
-            "중앙의"
+            "(명사 앞에서) 1 중심의, 중앙의",
+            "2 중요한"
           ]
         }
       ],
       "parts": [
         {
           "part": "centr",
-          "mean": "중심 (center)"
+          "mean": "= center"
         },
         {
-          "part": "-al",
-          "mean": "형용사형 접미사"
+          "part": "al",
+          "mean": "형접"
         }
       ],
-      "origin": "중심의"
+      "origin": "중심의",
+      "examples": [
+        {
+          "en": "Teamwork plays a **central** role in the success of the project.",
+          "ko": "팀워크는 프로젝트의 성공에서 중심 역할을 한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "concentrate",
-      "ipa": "/ˈkɑːnsntreɪt/",
+      "ipa": [
+        "[kɑ́ːnsəntrèit]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "집중하다"
+            "1 (+ on) *집중하다, 전념하다*",
+            "2 *(한 곳에) 모으다, 집중시키다[모이다, 집중하다]",
+            "3 농축시키다"
           ]
         }
       ],
+      "synonyms": [
+        "focus on"
+      ],
+      "antonyms": [
+        "distract(산만하게 하다)"
+      ],
       "parts": [
         {
-          "part": "con-(com-)",
-          "mean": "함께 (together)"
+          "part": "con",
+          "mean": "= com:together"
         },
         {
           "part": "centr",
-          "mean": "중심 (center)"
+          "mean": "= center"
         },
         {
-          "part": "-ate",
-          "mean": "동사형 접미사"
+          "part": "ate",
+          "mean": "동접"
         }
       ],
-      "origin": "함께 중심으로 모으다 → 집중하다"
+      "origin": "중심부에 함께 모으다",
+      "derivatives": [
+        {
+          "en": "concentration",
+          "pos": "명",
+          "defs": [
+            "1 집중(력)",
+            "2 (인구 등의) 집중",
+            "3 농도, 농축"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "Don't distract me. I have to **concentrate on** studying.",
+          "ko": "나를 방해하지 마. 나는 공부에 집중해야 돼.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "torture",
-      "ipa": "/ˈtɔːrtʃər/",
+      "ipa": [
+        "[tɔ́ːrtʃər]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "고문",
-            "고통"
+            "1 고문",
+            "2 심한 고통"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "고문하다"
+            "1 고문하다",
+            "2 (육체적·정신적으로) 괴롭히다"
           ]
         }
       ],
       "parts": [
         {
           "part": "tort",
-          "mean": "비틀다 (twist)"
+          "mean": "= twist"
         },
         {
-          "part": "-ure",
-          "mean": "명사형 접미사"
+          "part": "ure",
+          "mean": "명접"
         }
       ],
-      "origin": "비트는 것 → 고문"
+      "origin": "비틀어 고통을 주는 것 → 고문",
+      "examples": [
+        {
+          "en": "**Torture** cannot be justified under any circumstances.",
+          "ko": "고문은 어떤 상황에서도 정당화될 수 없다.",
+          "source": ""
+        },
+        {
+          "en": "She was **tortured** by the thought that she might have made a mistake.",
+          "ko": "실수를 했을지도 모른다는 생각이 그녀를 괴롭혔다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "distort",
-      "ipa": "/dɪˈstɔːrt/",
+      "ipa": [
+        "[distɔ́ːrt]"
+      ],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "왜곡하다",
-            "비틀다"
+            "1 *(정보·사실 등을) 왜곡하다, 곡해하다",
+            "2 (형태를) 비틀다, 일그러뜨리다"
           ]
         }
       ],
       "parts": [
         {
-          "part": "dis-",
-          "mean": "떨어져 (apart)"
+          "part": "dis",
+          "mean": "= away"
         },
         {
           "part": "tort",
-          "mean": "비틀다 (twist)"
+          "mean": "= twist"
         }
       ],
-      "origin": "떨어뜨려 비틀다 → 왜곡하다"
+      "origin": "비틀어서 (진실과) 멀리 떼어놓다\n→ 왜곡하다",
+      "derivatives": [
+        {
+          "en": "distortion",
+          "pos": "명",
+          "defs": [
+            "왜곡(된 사실), 일그러짐"
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "en": "The reporter **distorted** the truth.",
+          "ko": "그 기자는 사실을 왜곡했다.",
+          "source": ""
+        },
+        {
+          "en": "He suffered from physical weaknesses such as **distorted** shoulders and legs.",
+          "ko": "그는 어깨와 다리가 비틀어지는 것과 같은 신체적인 약점에 시달렸다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "torment",
-      "ipa": "/ˈtɔːrment/",
+      "ipa": [
+        "[tɔ́ːrment]",
+        "[tɔːrmént]"
+      ],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "고통"
+            "고통, 고뇌"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "괴롭히다"
+            "괴롭히다, (특히 정신적으로) 고통을 주다"
           ]
         }
       ],
+      "synonyms": [
+        "anguish"
+      ],
       "parts": [
         {
-          "part": "tor(tort)",
-          "mean": "비틀다 (twist)"
+          "part": "tor",
+          "mean": "= twist"
         },
         {
-          "part": "-ment",
-          "mean": "명사형 접미사"
+          "part": "ment",
+          "mean": "명접"
         }
       ],
-      "origin": "비트는 것 → 고통"
+      "origin": "비트는 것 → 고통(을 주다)",
+      "examples": [
+        {
+          "en": "He was **tormented** by feelings of guilt.",
+          "ko": "그는 죄책감으로 괴로워했다.",
+          "source": ""
+        }
+      ]
     }
   ]
 }

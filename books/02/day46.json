@@ -98,7 +98,7 @@
         },
         {
           "part": "ent",
-          "mean": "명접「사람」"
+          "mean": "명접:「사람」"
         }
       ],
       "origin": "앞에 앉아 있는 사람 → 맨 앞에서 지휘·통제하는 사람 → 대통령, 회장",
@@ -356,7 +356,7 @@
       "parts": [
         {
           "part": "proper",
-          "mean": "= one's own"
+          "mean": ""
         }
       ],
       "origin": "라틴어 proprius(=one's own)에서 온 말\n→ 자기 자신에게 속하는\n→ 자신에게 적합한",
@@ -433,7 +433,7 @@
     {
       "en": "appropriate",
       "ipa": [
-        "[əpróuprièit]"
+        "[əpróupriət]"
       ],
       "meanings": [
         {
@@ -496,7 +496,7 @@
       "parts": [
         {
           "part": "temper",
-          "mean": "= mix"
+          "mean": ""
         }
       ],
       "origin": "라틴어 temperare(=mix)에서 온 말\n→ 마구 섞여서 나타난 것\n※ 중세시대 생리학에서 개인의 체질과 성격이 4가지 요소의 조합으로 결정된다고 생각한 데서 유래",
@@ -515,7 +515,7 @@
       ],
       "examples": [
         {
-          "en": "Please calm down and **control** your **temper**.",
+          "en": "Please calm down and **control your temper**.",
           "ko": "진정하고 화를 참아보세요.",
           "source": ""
         }
@@ -670,7 +670,7 @@
       "parts": [
         {
           "part": "lack",
-          "mean": "= deficiency"
+          "mean": ""
         }
       ],
       "origin": "중세 네덜란드어 lak(=deficiency 부족)에서 온 말",
@@ -719,7 +719,7 @@
       "parts": [
         {
           "part": "leak",
-          "mean": "= drip, let through"
+          "mean": ""
         }
       ],
       "origin": "중세 네덜란드어 leken(물방울이 떨어지다, 새다)에서 온 말\n※ '물이 부족함' → '물이 샘'으로 의미가 변화함",
@@ -763,7 +763,7 @@
       "en": "conflict",
       "ipa": [
         "동 [kənflíkt]",
-        "명 [kɑ́ːnflikt]"
+        "명 [kɑ́ːnflìkt]"
       ],
       "meanings": [
         {
@@ -775,7 +775,7 @@
         {
           "pos": "명",
           "defs": [
-            "1 *(+ with/between/over) (의견 등의) 대립, 충돌, 갈등",
+            "1 (+ with/between/over) *(의견 등의) 대립, 충돌, 갈등*",
             "2 싸움, 분쟁"
           ]
         }
@@ -866,7 +866,7 @@
         {
           "pos": "동",
           "defs": [
-            "1 *(주로 수동태로) (…하도록) 의무를 지우다, 강요하다",
+            "1 (주로 수동태로) *(…하도록) 의무를 지우다, 강요하다*",
             "2 (도움 등을) 베풀다, (요청받은 것을) 해주다, 돕다"
           ]
         }
@@ -932,7 +932,7 @@
       ],
       "examples": [
         {
-          "en": "We **are obliged to** pay taxes.",
+          "en": "We **are obliged to pay** taxes.",
           "ko": "우리는 세금을 낼 의무가 있다.",
           "source": ""
         },
@@ -1169,7 +1169,7 @@
     {
       "en": "liable",
       "ipa": [
-        "[láiəbl]"
+        "[láiəbəl]"
       ],
       "meanings": [
         {
@@ -1212,7 +1212,7 @@
           "source": ""
         },
         {
-          "en": "The baby is **liable to** swallow anything he picks up.",
+          "en": "The baby is **liable to swallow** anything he picks up.",
           "ko": "그 아기는 손에 잡히는 것은 무엇이든지 삼키는 경향이 있다.",
           "source": ""
         }
@@ -1308,7 +1308,7 @@
       ],
       "examples": [
         {
-          "en": "I **entrusted** my estate to him.\n(= I **entrusted** him **with** my estate.)",
+          "en": "I **entrusted** my estate **to** him.\n(= I **entrusted** him **with** my estate.)",
           "ko": "나는 내 재산을 그에게 위탁했다.",
           "source": ""
         }
