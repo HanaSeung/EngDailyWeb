@@ -3,625 +3,665 @@
   "words": [
     {
       "en": "realize",
-      "ipa": "/ˈriːəlaɪz/",
+      "ipa": ["[ríːəlàiz]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "깨닫다",
-            "실현하다"
+            "1 깨닫다",
+            "2 실현하다"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "real",
-          "mean": "현실의 (real)"
-        },
-        {
-          "part": "-ize",
-          "mean": "~화하다"
-        }
+        {"part": "real", "mean": "현실의"},
+        {"part": "ize", "mean": ""}
       ],
-      "origin": "현실화하다 → 깨닫다"
+      "derivatives": [
+        {"en": "realization", "pos": "명", "defs": ["1 깨달음", "2 실현, 현실화"]}
+      ],
+      "examples": [
+        {
+          "en": "Nobody **realized** how upset she was until she started to cry.",
+          "ko": "그녀가 울기 시작하기 전까지 그 누구도 그녀가 얼마나 화가 났는지 알지 못했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "stabilize",
-      "ipa": "/ˈsteɪbəlaɪz/",
+      "ipa": ["[stéibəlàiz]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "안정시키다"
-          ]
+          "defs": ["안정되다, 안정시키다"],
+          "syn_ant": {
+            "0": {"ant": ["destabilize"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "stable",
-          "mean": "안정된 (stable)"
-        },
-        {
-          "part": "-ize",
-          "mean": "~화하다"
-        }
+        {"part": "stable", "mean": "안정된"},
+        {"part": "ize", "mean": ""}
       ],
-      "origin": "안정화하다"
+      "derivatives": [
+        {"en": "stability", "pos": "명", "defs": ["안정(성)"]}
+      ],
+      "examples": [
+        {
+          "en": "Personality traits **stabilize** around age thirty in both men and women, regardless of ethnicity.",
+          "ko": "개인의 성격적 특성은 인종에 관계없이 남녀 모두에게서 약 30세 무렵에 안정된다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "categorize",
-      "ipa": "/ˈkætəɡəraɪz/",
+      "ipa": ["[kǽtəgəràiz]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "분류하다"
-          ]
+          "defs": ["분류하다"],
+          "syn_ant": {
+            "0": {"syn": ["classify"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "category",
-          "mean": "범주 (category)"
-        },
-        {
-          "part": "-ize",
-          "mean": "~화하다"
-        }
+        {"part": "category", "mean": "범주, 분류"},
+        {"part": "ize", "mean": ""}
       ],
-      "origin": "범주화하다 → 분류하다"
+      "examples": [
+        {
+          "en": "The books in the library are **categorized** by subject.",
+          "ko": "도서관의 책들은 주제별로 분류되어 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "simplify",
-      "ipa": "/ˈsɪmplɪfaɪ/",
+      "ipa": ["[símpləfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "단순화하다",
-            "간소화하다"
-          ]
+          "defs": ["단순화하다, 간단하게 하다"]
         }
       ],
       "parts": [
+        {"part": "simple", "mean": "단순한"},
+        {"part": "ify", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "simplification", "pos": "명", "defs": ["단순화, 간소화"]},
+        {"en": "simplicity", "pos": "명", "defs": ["단순, 간단"]}
+      ],
+      "examples": [
         {
-          "part": "simple",
-          "mean": "간단한 (simple)"
+          "en": "He tried to **simplify** the instructions so that everyone could understand them.",
+          "ko": "그는 누구나 이해할 수 있도록 지침을 단순화하려고 노력했다.",
+          "source": ""
         },
         {
-          "part": "-ify",
-          "mean": "~화하다"
+          "en": "I liked the **simplicity** of the furniture design.",
+          "ko": "나는 그 가구 디자인의 단순함이 맘에 들었다.",
+          "source": ""
         }
-      ],
-      "origin": "간단하게 만들다"
+      ]
     },
     {
       "en": "classify",
-      "ipa": "/ˈklæsɪfaɪ/",
+      "ipa": ["[klǽsəfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "분류하다"
-          ]
+          "defs": ["분류하다, 구분하다"],
+          "syn_ant": {
+            "0": {"syn": ["categorize", "sort"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "class",
-          "mean": "등급, 분류 (class)"
-        },
-        {
-          "part": "-ify",
-          "mean": "~화하다"
-        }
+        {"part": "class", "mean": "그룹, 등급, 계급"},
+        {"part": "ify", "mean": ""}
       ],
-      "origin": "등급화하다 → 분류하다"
+      "derivatives": [
+        {"en": "classification", "pos": "명", "defs": ["분류, 구분"]},
+        {"en": "classified", "pos": "형", "defs": ["1 (정보가) 기밀의", "2 주제별로 분류된"]}
+      ],
+      "examples": [
+        {
+          "en": "Scientists **classify** animals based on shared characteristics.",
+          "ko": "과학자들은 공통된 특성을 기준으로 동물을 분류한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "clarify",
-      "ipa": "/ˈklærəfaɪ/",
+      "ipa": ["[klǽrəfài]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "명확히 하다"
-          ]
+          "defs": ["명확하게 하다, 분명히 말하다"]
         }
       ],
       "parts": [
-        {
-          "part": "clar",
-          "mean": "맑은, 분명한 (clear)"
-        },
-        {
-          "part": "-ify",
-          "mean": "~화하다"
-        }
+        {"part": "clear", "mean": "맑은, 분명한"},
+        {"part": "ify", "mean": ""}
       ],
-      "origin": "분명하게 만들다"
+      "derivatives": [
+        {"en": "clarification", "pos": "명", "defs": ["명료화"]}
+      ],
+      "examples": [
+        {
+          "en": "The spokesperson **clarified** the company's position on the issue.",
+          "ko": "대변인은 그 문제에 대한 회사의 입장을 분명히 밝혔다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "fascinate",
-      "ipa": "/ˈfæsɪneɪt/",
+      "ipa": ["[fǽsənèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "매혹하다",
-            "매료시키다"
-          ]
+          "defs": ["매혹하다, 마음을 사로잡다"]
         }
       ],
       "parts": [
-        {
-          "part": "fascin",
-          "mean": "마법 (enchantment)"
-        },
-        {
-          "part": "-ate",
-          "mean": "~하게 만들다"
-        }
+        {"part": "fascina-", "mean": "주문을 걸다"},
+        {"part": "ate", "mean": ""}
       ],
-      "origin": "마법에 걸리게 하다 → 매혹하다"
+      "derivatives": [
+        {"en": "fascination", "pos": "명", "defs": ["매력, 매혹됨"]}
+      ],
+      "examples": [
+        {
+          "en": "Her powerful voice **fascinated** me.",
+          "ko": "그녀의 힘 있는 목소리가 나를 매료시켰다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "frustrate",
-      "ipa": "/ˈfrʌstreɪt/",
+      "ipa": ["[frʌ́streit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "좌절시키다",
-            "실망시키다"
+            "1 좌절감을 주다, 불만스럽게 만들다",
+            "2 (계획을) 좌절시키다"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "frustr",
-          "mean": "헛되이 (in vain)"
-        },
-        {
-          "part": "-ate",
-          "mean": "~하게 만들다"
-        }
+        {"part": "frustra-", "mean": "헛된"},
+        {"part": "ate", "mean": ""}
       ],
-      "origin": "헛되게 만들다 → 좌절시키다"
+      "origin": "헛되게 만들어 좌절시키다",
+      "derivatives": [
+        {"en": "frustration", "pos": "명", "defs": ["좌절감, 불만"]}
+      ],
+      "examples": [
+        {
+          "en": "Don't **frustrate** yourself by focusing on one problem for too long.",
+          "ko": "한 가지 문제에 너무 오래 집중해서 너 자신에게 좌절감을 주지 마.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "imitate",
-      "ipa": "/ˈɪmɪteɪt/",
+      "ipa": ["[ímətèit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "모방하다",
-            "흉내 내다"
-          ]
+            "1 모방하다",
+            "2 (재미로) 따라하며 흉내내다"
+          ],
+          "syn_ant": {
+            "0": {"syn": ["mimic"]}
+          }
         }
       ],
       "parts": [
+        {"part": "imit-", "mean": "따라하다"},
+        {"part": "ate", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "imitation", "pos": "명", "defs": ["1 모방, 흉내", "2 모조품"]},
+        {"en": "imitative", "pos": "형", "defs": ["모방적인"]}
+      ],
+      "examples": [
         {
-          "part": "imit",
-          "mean": "닮다, 본뜨다 (copy, resemble)"
+          "en": "Babies start to **imitate** the sounds their parents produce.",
+          "ko": "아기들은 부모가 내는 소리를 흉내 내기 시작한다.",
+          "source": "모의"
         },
         {
-          "part": "-ate",
-          "mean": "~하게 만들다"
+          "en": "His **imitation** of a chicken was very hilarious.",
+          "ko": "그가 닭을 흉내낸 것은 매우 웃겼다.",
+          "source": ""
         }
-      ],
-      "origin": "닮게 만들다 → 모방하다"
+      ]
     },
     {
       "en": "irritate",
-      "ipa": "/ˈɪrɪteɪt/",
+      "ipa": ["[írətèit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "짜증나게 하다",
-            "자극하다"
+            "1 짜증 나게 하다",
+            "2 (피부를) 자극하다"
           ]
         }
       ],
       "parts": [
+        {"part": "irrit-", "mean": "흔들다"},
+        {"part": "ate", "mean": ""}
+      ],
+      "origin": "흔들어서 짜증 나게 하다",
+      "derivatives": [
+        {"en": "irritation", "pos": "명", "defs": ["짜증 (나게 하는 것); 자극"]}
+      ],
+      "examples": [
         {
-          "part": "irrit",
-          "mean": "자극하다 (excite, provoke)"
+          "en": "It **irritates** me when Travis sings loudly like that.",
+          "ko": "Travis가 저렇게 크게 노래를 부를 때 나는 짜증이 난다.",
+          "source": ""
         },
         {
-          "part": "-ate",
-          "mean": "~하게 만들다"
+          "en": "This cream may **irritate** sensitive skin.",
+          "ko": "이 크림은 민감한 피부를 자극할 수 있다.",
+          "source": ""
         }
-      ],
-      "origin": "자극하다 → 짜증나게 하다"
+      ]
     },
     {
       "en": "motivate",
-      "ipa": "/ˈmoʊtɪveɪt/",
+      "ipa": ["[móutəvèit]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "동기를 부여하다"
-          ]
+          "defs": ["동기를 부여하다, 자극하다"]
         }
       ],
       "parts": [
+        {"part": "motive", "mean": "동기"},
+        {"part": "ate", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "motivation", "pos": "명", "defs": ["동기 부여, 자극; 열의"]}
+      ],
+      "examples": [
         {
-          "part": "motive",
-          "mean": "동기 (motive)"
+          "en": "Watching a ballet performance **motivated** him to become a dancer.",
+          "ko": "발레 공연을 본 것은 그에게 무용수가 되도록 동기를 부여했다.",
+          "source": ""
         },
         {
-          "part": "-ate",
-          "mean": "~하게 만들다"
+          "en": "The coach's speech gave the team the **motivation** they needed to win.",
+          "ko": "코치의 연설은 팀에 승리를 위한 동기를 부여했다.",
+          "source": ""
         }
-      ],
-      "origin": "동기를 갖게 하다"
+      ]
     },
     {
       "en": "originate",
-      "ipa": "/əˈrɪdʒɪneɪt/",
+      "ipa": ["[ərídʒənèit]"],
       "meanings": [
         {
           "pos": "동",
           "defs": [
-            "비롯되다",
-            "유래하다"
+            "1 비롯되다, (…에서) 일어나다",
+            "2 발명[고안]하다"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "origin",
-          "mean": "기원 (origin)"
-        },
-        {
-          "part": "-ate",
-          "mean": "~하게 만들다"
-        }
+        {"part": "origin", "mean": "기원, 유래"},
+        {"part": "ate", "mean": ""}
       ],
-      "origin": "기원에서 시작하다 → 유래하다"
+      "examples": [
+        {
+          "en": "It is well known that curry **originated** in India.",
+          "ko": "카레가 인도에서 유래했다는 사실은 잘 알려져 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "strengthen",
-      "ipa": "/ˈstreŋθn/",
+      "ipa": ["[stréŋθən]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "강화하다"
-          ]
+          "defs": ["강화하다; 강화되다"],
+          "syn_ant": {
+            "0": {"ant": ["weaken"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "strength",
-          "mean": "힘 (strength)"
-        },
-        {
-          "part": "-en",
-          "mean": "~되게 하다"
-        }
+        {"part": "strength", "mean": "힘"},
+        {"part": "en", "mean": ""}
       ],
-      "origin": "힘있게 하다 → 강화하다"
+      "examples": [
+        {
+          "en": "Using emoticons **strengthens** the intensity of a verbal message.",
+          "ko": "이모티콘을 사용하는 것은 언어적 메시지의 강도를 강화한다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "frighten",
-      "ipa": "/ˈfraɪtn/",
+      "ipa": ["[fráitn]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "겁먹게 하다",
-            "놀라게 하다"
-          ]
+          "defs": ["무섭게 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "fright",
-          "mean": "공포 (fright)"
-        },
-        {
-          "part": "-en",
-          "mean": "~되게 하다"
-        }
+        {"part": "fright", "mean": "공포"},
+        {"part": "en", "mean": ""}
       ],
-      "origin": "공포를 느끼게 하다"
+      "examples": [
+        {
+          "en": "Don't **frighten** her with scary stories.",
+          "ko": "무서운 이야기로 그녀를 겁주지 마.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "fasten",
-      "ipa": "/ˈfæsn/",
+      "ipa": ["[fǽsən]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "잠그다",
-            "고정시키다"
-          ]
+          "defs": ["묶다, 단단히 고정시키다"]
         }
       ],
       "parts": [
-        {
-          "part": "fast",
-          "mean": "단단한 (firm)"
-        },
-        {
-          "part": "-en",
-          "mean": "~되게 하다"
-        }
+        {"part": "fast", "mean": "단단한, 고정된"},
+        {"part": "en", "mean": ""}
       ],
-      "origin": "단단하게 하다 → 고정시키다"
+      "examples": [
+        {
+          "en": "Please **fasten** your seatbelt.",
+          "ko": "안전벨트를 매세요.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "struggle",
-      "ipa": "/ˈstrʌɡl/",
+      "ipa": ["[strʌ́gəl]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "분투하다",
-            "애쓰다"
-          ]
+          "defs": ["투쟁하다, 고군분투하다"]
         },
         {
           "pos": "명",
-          "defs": [
-            "투쟁"
-          ]
+          "defs": ["투쟁, 분투"]
         }
       ],
       "parts": [
+        {"part": "strugg-", "mean": "발이 걸리다"},
+        {"part": "le", "mean": ""}
+      ],
+      "origin": "계속 발이 걸리게 하다",
+      "examples": [
         {
-          "part": "strugg",
-          "mean": "힘겹게 하다 (strive)"
+          "en": "I **struggle** with getting up early in the morning.",
+          "ko": "나는 아침 일찍 일어나는 것이 힘들다.",
+          "source": "모의"
         },
         {
-          "part": "-le",
-          "mean": "반복 동사형 접미사"
+          "en": "Strength comes from **struggle**, not from taking the path of least resistance.",
+          "ko": "강함은 가장 쉬운 길을 택하는 데서 오는 것이 아니라, 고난에서 비롯된다.",
+          "source": "모의"
         }
-      ],
-      "origin": "반복적으로 힘쓰다 → 분투하다"
+      ]
     },
     {
       "en": "wrestle",
-      "ipa": "/ˈresl/",
+      "ipa": ["[résəl]"],
       "meanings": [
         {
           "pos": "동",
-          "defs": [
-            "씨름하다",
-            "격투하다"
-          ]
+          "defs": ["몸싸움하다, 레슬링을 하다"]
         }
       ],
       "parts": [
-        {
-          "part": "wrest",
-          "mean": "비틀다 (twist, wrench)"
-        },
-        {
-          "part": "-le",
-          "mean": "반복 동사형 접미사"
-        }
+        {"part": "wrest", "mean": "비틀다"},
+        {"part": "le", "mean": ""}
       ],
-      "origin": "반복적으로 비틀다 → 씨름하다"
+      "origin": "반복적으로 몸을 비틀다",
+      "derivatives": [
+        {"en": "wrestling", "pos": "명", "defs": ["레슬링"]},
+        {"en": "wrestler", "pos": "명", "defs": ["레슬링 선수"]}
+      ],
+      "examples": [
+        {
+          "en": "The two boys began to **wrestle** on the playground.",
+          "ko": "두 소년이 놀이터에서 몸싸움을 벌이기 시작했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "extremely",
-      "ipa": "/ɪkˈstriːmli/",
+      "ipa": ["[ikstríːmli]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "극도로",
-            "매우"
-          ]
+          "defs": ["극도로, 극히"]
         }
       ],
       "parts": [
-        {
-          "part": "extreme",
-          "mean": "극도의 (extreme)"
-        },
-        {
-          "part": "-ly",
-          "mean": "방식 접미사"
-        }
+        {"part": "extreme", "mean": "극도의"},
+        {"part": "ly", "mean": ""}
       ],
-      "origin": "극도의 방식으로"
+      "examples": [
+        {
+          "en": "Music is an **extremely** important aspect of culture.",
+          "ko": "음악은 문화에서 극히 중요한 측면이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "rarely",
-      "ipa": "/ˈrerli/",
+      "ipa": ["[réərli]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "드물게",
-            "좀처럼 ~않다"
-          ]
+          "defs": ["드물게, 거의 …하지 않는"]
         }
       ],
       "parts": [
-        {
-          "part": "rare",
-          "mean": "드문 (rare)"
-        },
-        {
-          "part": "-ly",
-          "mean": "방식 접미사"
-        }
+        {"part": "rare", "mean": "드문"},
+        {"part": "ly", "mean": ""}
       ],
-      "origin": "드문 방식으로"
+      "examples": [
+        {
+          "en": "There is **rarely** enough quiet time during regular business hours to sit and concentrate.",
+          "ko": "정규 업무 시간에는 앉아서 집중할 수 있는 조용한 시간이 충분하지 않다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "nearly",
-      "ipa": "/ˈnɪrli/",
+      "ipa": ["[níərli]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "거의"
-          ]
+          "defs": ["거의, 가까스로, 하마터면"]
         }
       ],
       "parts": [
+        {"part": "near", "mean": "가까운"},
+        {"part": "ly", "mean": ""}
+      ],
+      "examples": [
         {
-          "part": "near",
-          "mean": "가까운 (near)"
+          "en": "I am **nearly** 100 years old, and I have bad knees.",
+          "ko": "나는 거의 100살이고, 무릎이 좋지 않다.",
+          "source": "교과서"
         },
         {
-          "part": "-ly",
-          "mean": "방식 접미사"
+          "en": "I **nearly** missed the train.",
+          "ko": "나는 하마터면 기차를 놓칠 뻔했다.",
+          "source": ""
         }
-      ],
-      "origin": "가까운 정도로 → 거의"
+      ]
     },
     {
       "en": "homeward",
-      "ipa": "/ˈhoʊmwərd/",
+      "ipa": ["[hóumwərd]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "집으로 향하는"
-          ]
+          "defs": ["집 쪽으로, 집으로 향하여"]
         }
       ],
       "parts": [
-        {
-          "part": "home",
-          "mean": "집 (home)"
-        },
-        {
-          "part": "-ward",
-          "mean": "방향 접미사"
-        }
+        {"part": "home", "mean": "집"},
+        {"part": "ward", "mean": ""}
       ],
-      "origin": "집 방향으로"
+      "examples": [
+        {
+          "en": "It was getting dark, so we turned **homeward**.",
+          "ko": "어두워지고 있어서 우리는 집 쪽으로 방향을 돌렸다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "upward",
-      "ipa": "/ˈʌpwərd/",
+      "ipa": ["[ʌ́pwərd]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "위쪽으로",
-            "상승하는"
-          ]
+          "defs": ["위쪽으로"]
         }
       ],
       "parts": [
-        {
-          "part": "up",
-          "mean": "위 (up)"
-        },
-        {
-          "part": "-ward",
-          "mean": "방향 접미사"
-        }
+        {"part": "up", "mean": "위로"},
+        {"part": "ward", "mean": ""}
       ],
-      "origin": "위 방향으로"
+      "examples": [
+        {
+          "en": "Stretch your arms **upward** to release tension.",
+          "ko": "긴장을 이완시키기 위해 팔을 위쪽으로 뻗으세요.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "forward",
-      "ipa": "/ˈfɔːrwərd/",
+      "ipa": ["[fɔ́ːrwərd]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "앞으로",
-            "전진하는"
-          ]
+          "defs": ["앞으로"]
         }
       ],
       "parts": [
+        {"part": "for(e)-", "mean": "… 앞에"},
+        {"part": "ward", "mean": ""}
+      ],
+      "phrases": [
+        {"en": "look forward to N/v-ing", "ko": "…을 기대하다"}
+      ],
+      "examples": [
         {
-          "part": "fore",
-          "mean": "앞 (front)"
+          "en": "She took a step **forward** and opened the door.",
+          "ko": "그녀는 한 걸음 앞으로 나아가 문을 열었다.",
+          "source": ""
         },
         {
-          "part": "-ward",
-          "mean": "방향 접미사"
+          "en": "I **look forward to hearing** from you soon.",
+          "ko": "곧 연락이 오기를 기다리겠습니다.",
+          "source": "모의"
         }
-      ],
-      "origin": "앞 방향으로"
+      ]
     },
     {
       "en": "halfway",
-      "ipa": "/ˌhæfˈweɪ/",
+      "ipa": ["[hæ̀fwéi]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "중간에",
-            "중간의"
-          ]
+          "defs": ["가운데쯤에, 중간에"],
+          "syn_ant": {
+            "0": {"syn": ["midway"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "half",
-          "mean": "반 (half)"
-        },
-        {
-          "part": "-way",
-          "mean": "길, 방법 접미사"
-        }
+        {"part": "half", "mean": "반"},
+        {"part": "way", "mean": ""}
       ],
-      "origin": "반쯤의 길 → 중간에"
+      "examples": [
+        {
+          "en": "The restaurant is located **halfway** between the station and the hotel.",
+          "ko": "그 식당은 역과 호텔 중간쯤에 위치해 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "likewise",
-      "ipa": "/ˈlaɪkwaɪz/",
+      "ipa": ["[láikwàiz]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "마찬가지로",
-            "또한"
-          ]
+          "defs": ["똑같이, 비슷하게"]
         }
       ],
       "parts": [
-        {
-          "part": "like",
-          "mean": "같은 (like, similar)"
-        },
-        {
-          "part": "-wise",
-          "mean": "방법 접미사"
-        }
+        {"part": "like", "mean": "같은"},
+        {"part": "wise", "mean": ""}
       ],
-      "origin": "같은 방법으로 → 마찬가지로"
+      "examples": [
+        {
+          "en": "I don't agree with this decision, and the rest of my coworkers feel **likewise**.",
+          "ko": "나는 이 결정에 동의하지 않고, 나머지 동료들도 똑같이 느낀다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "otherwise",
-      "ipa": "/ˈʌðərwaɪz/",
+      "ipa": ["[ʌ́ðərwàiz]"],
       "meanings": [
         {
           "pos": "부",
-          "defs": [
-            "그렇지 않으면",
-            "달리"
-          ]
+          "defs": ["달리, 다르게"]
         }
       ],
       "parts": [
-        {
-          "part": "other",
-          "mean": "다른 (other)"
-        },
-        {
-          "part": "-wise",
-          "mean": "방법 접미사"
-        }
+        {"part": "other", "mean": "다른"},
+        {"part": "wise", "mean": ""}
       ],
-      "origin": "다른 방법으로 → 그렇지 않으면"
+      "examples": [
+        {
+          "en": "I thought he was nice, but my friends thought **otherwise**.",
+          "ko": "나는 그가 괜찮은 사람이라고 생각했는데, 내 친구들은 다르게 생각했다.",
+          "source": ""
+        }
+      ]
     }
   ]
 }

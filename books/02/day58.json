@@ -3,688 +3,760 @@
   "words": [
     {
       "en": "interviewer",
-      "ipa": "/ˈɪntərvjuːər/",
+      "ipa": ["[íntərvjùːər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "면접관",
-            "인터뷰하는 사람"
-          ]
+          "defs": ["면접관, 인터뷰 진행자"]
         }
       ],
       "parts": [
-        {
-          "part": "interview",
-          "mean": "면접 (interview)"
-        },
-        {
-          "part": "-er",
-          "mean": "~하는 사람"
-        }
+        {"part": "interview", "mean": "면접보다"},
+        {"part": "er", "mean": ""}
       ],
-      "origin": "면접하는 사람"
+      "examples": [
+        {
+          "en": "A good **interviewer** prepares his or her questions in advance.",
+          "ko": "좋은 면접관은 질문을 미리 준비한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "interviewee",
-      "ipa": "/ˌɪntərvjuːˈiː/",
+      "ipa": ["[ìntərvjuíː]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "면접을 받는 사람"
-          ]
+          "defs": ["면접[인터뷰] 대상자"]
         }
       ],
       "parts": [
-        {
-          "part": "interview",
-          "mean": "면접 (interview)"
-        },
-        {
-          "part": "-ee",
-          "mean": "~을 받는 사람"
-        }
+        {"part": "interview", "mean": "면접보다"},
+        {"part": "ee", "mean": ""}
       ],
-      "origin": "면접을 받는 사람"
+      "examples": [
+        {
+          "en": "Interviewers often subconsciously make up their minds about **interviewees** based on their first few moments of interaction.",
+          "ko": "면접관들은 종종 무의식적으로 처음 몇 순간의 상호작용을 바탕으로 면접 대상자에 대한 판단을 내린다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "inventor",
-      "ipa": "/ɪnˈventər/",
+      "ipa": ["[invéntər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "발명가"
-          ]
+          "defs": ["발명가"]
         }
       ],
       "parts": [
+        {"part": "invent", "mean": "발명하다"},
+        {"part": "or", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "invention", "pos": "명", "defs": ["발명(품)"]},
+        {"en": "inventive", "pos": "형", "defs": ["창의력이 있는, 독창적인"]}
+      ],
+      "examples": [
         {
-          "part": "invent",
-          "mean": "발명하다 (invent)"
+          "en": "He is the **inventor** of a new cooking appliance.",
+          "ko": "그는 새로운 조리용 가전의 발명가이다.",
+          "source": ""
         },
         {
-          "part": "-or",
-          "mean": "~하는 사람"
+          "en": "Necessity is the mother of **invention**.",
+          "ko": "[속담] 필요는 발명의 어머니이다.",
+          "source": ""
         }
-      ],
-      "origin": "발명하는 사람"
+      ]
     },
     {
       "en": "supervisor",
-      "ipa": "/ˈsuːpərvaɪzər/",
+      "ipa": ["[súːpərvàizər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "감독자",
-            "관리자"
-          ]
+          "defs": ["감독관, 관리자"]
         }
       ],
       "parts": [
-        {
-          "part": "supervise",
-          "mean": "감독하다 (supervise)"
-        },
-        {
-          "part": "-or",
-          "mean": "~하는 사람"
-        }
+        {"part": "supervise", "mean": "감독하다"},
+        {"part": "or", "mean": ""}
       ],
-      "origin": "감독하는 사람"
+      "derivatives": [
+        {"en": "supervision", "pos": "명", "defs": ["감독, 관리"]}
+      ],
+      "examples": [
+        {
+          "en": "There will be two **supervisors** per exam room.",
+          "ko": "각 시험장에는 2명의 감독관이 있을 것이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "secretary",
-      "ipa": "/ˈsekrəteri/",
+      "ipa": ["[sékrətèri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "비서",
-            "장관"
-          ]
+          "defs": ["비서"]
         }
       ],
       "parts": [
-        {
-          "part": "secret",
-          "mean": "비밀 (secret)"
-        },
-        {
-          "part": "-ary",
-          "mean": "~하는 사람"
-        }
+        {"part": "secret", "mean": "비밀"},
+        {"part": "ary", "mean": ""}
       ],
-      "origin": "비밀을 다루는 사람 → 비서"
+      "examples": [
+        {
+          "en": "The manager hired a new **secretary**.",
+          "ko": "그 관리자는 새로운 비서를 채용했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "boundary",
-      "ipa": "/ˈbaʊndəri/",
+      "ipa": ["[báundəri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "경계(선)"
-          ]
+          "defs": ["경계선"]
         }
       ],
       "parts": [
-        {
-          "part": "bound",
-          "mean": "경계 (bound, limit)"
-        },
-        {
-          "part": "-ary",
-          "mean": "~에 관한 것"
-        }
+        {"part": "bound", "mean": "경계"},
+        {"part": "ary", "mean": ""}
       ],
-      "origin": "경계에 관한 것"
+      "examples": [
+        {
+          "en": "The oceans are all interconnected, so their geographical **boundaries** are less clear than those of the continents.",
+          "ko": "바다는 모두 서로 연결되어 있기 때문에, 대륙에 비해 지리적 경계선이 덜 명확하다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "variety",
-      "ipa": "/vəˈraɪəti/",
+      "ipa": ["[vəráiəti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "다양성",
-            "종류"
-          ]
+          "defs": ["다양성, 다양함"],
+          "syn_ant": {
+            "0": {"syn": ["diversity"]}
+          }
         }
       ],
       "parts": [
+        {"part": "vary", "mean": "다르다"},
+        {"part": "ety", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "various", "pos": "형", "defs": ["다양한, 가지각색의"]}
+      ],
+      "phrases": [
+        {"en": "a variety of", "ko": "다양한 …"}
+      ],
+      "examples": [
         {
-          "part": "vary",
-          "mean": "다양하다 (vary)"
+          "en": "Many animals have **a variety of** food sources and don't just rely on one plant.",
+          "ko": "많은 동물들은 다양한 먹이를 먹으며 한 가지 식물에만 의존하지 않는다.",
+          "source": "모의"
         },
         {
-          "part": "-ety",
-          "mean": "상태 접미사"
+          "en": "Nowadays, people can communicate in **various** ways.",
+          "ko": "오늘날 사람들은 다양한 방법으로 소통할 수 있다.",
+          "source": ""
         }
-      ],
-      "origin": "다양한 상태 → 다양성"
+      ]
     },
     {
       "en": "ability",
-      "ipa": "/əˈbɪləti/",
+      "ipa": ["[əbíləti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "능력",
-            "재능"
-          ]
+          "defs": ["할 수 있음, 능력"],
+          "syn_ant": {
+            "0": {"ant": ["inability(무능, 불능)", "disability(장애)"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "able",
-          "mean": "할 수 있는 (able)"
-        },
-        {
-          "part": "-ity",
-          "mean": "상태 접미사"
-        }
+        {"part": "able", "mean": "할 수 있는"},
+        {"part": "ity", "mean": ""}
       ],
-      "origin": "할 수 있는 상태 → 능력"
+      "derivatives": [
+        {"en": "able", "pos": "형", "defs": ["…할 수 있는; 유능한"]}
+      ],
+      "examples": [
+        {
+          "en": "Not every species of bird has the **ability** to fly.",
+          "ko": "모든 조류에게 날 수 있는 능력이 있는 것은 아니다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "authority",
-      "ipa": "/əˈθɔːrəti/",
+      "ipa": ["[əθɔ́ːrəti]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "권위",
-            "당국"
-          ]
+          "defs": ["권한, 권위"]
         }
       ],
       "parts": [
+        {"part": "author", "mean": "저자, 창시자"},
+        {"part": "ity", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "authoritative", "pos": "형", "defs": ["권위적인"]},
+        {"en": "authorize", "pos": "동", "defs": ["권한을 주다"]},
+        {"en": "authorized", "pos": "형", "defs": ["권한을 받은, 허가된"]}
+      ],
+      "examples": [
         {
-          "part": "author",
-          "mean": "만든 사람 (originator)"
+          "en": "The doctor spoke with **authority** on the disease.",
+          "ko": "그 의사는 그 질환에 대해 권위를 갖고 말했다.",
+          "source": ""
         },
         {
-          "part": "-ity",
-          "mean": "상태 접미사"
+          "en": "Only **authorized** members can have access to the room.",
+          "ko": "권한을 부여받은 회원만 그 방에 들어갈 수 있다.",
+          "source": ""
         }
-      ],
-      "origin": "만든 사람의 지위 → 권위"
+      ]
     },
     {
       "en": "appearance",
-      "ipa": "/əˈpɪrəns/",
+      "ipa": ["[əpíərəns]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "외모",
-            "출현"
-          ]
+            "1 외모, 외관",
+            "2 출현, 출연, 등장"
+          ],
+          "syn_ant": {
+            "2": {"syn": ["advent"], "ant": ["disappearance"]}
+          }
         }
       ],
       "parts": [
+        {"part": "appear", "mean": "나타나다"},
+        {"part": "ance", "mean": ""}
+      ],
+      "examples": [
         {
-          "part": "appear",
-          "mean": "나타나다 (appear)"
+          "en": "The man changed his **appearance** by dyeing his hair.",
+          "ko": "그 남자는 머리를 염색해서 외모에 변화를 주었다.",
+          "source": ""
         },
         {
-          "part": "-ance",
-          "mean": "상태 접미사"
+          "en": "The **appearance** of new problems delayed the project.",
+          "ko": "새로운 문제의 출현이 프로젝트를 지연시켰다.",
+          "source": ""
         }
-      ],
-      "origin": "나타나는 것 → 외모"
+      ]
     },
     {
       "en": "conference",
-      "ipa": "/ˈkɑːnfərəns/",
+      "ipa": ["[kɑ́ːnfrəns]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "회의",
-            "학술 대회"
+            "1 회담, 회견",
+            "2 회의, 협의회"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "confer",
-          "mean": "상의하다 (confer)"
-        },
-        {
-          "part": "-ence",
-          "mean": "상태 접미사"
-        }
+        {"part": "confer", "mean": "의논하다"},
+        {"part": "ence", "mean": ""}
       ],
-      "origin": "함께 상의하는 것 → 회의"
+      "examples": [
+        {
+          "en": "That matter will be discussed at the **conference** tomorrow.",
+          "ko": "그 문제는 내일 회의에서 논의될 것이다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "creature",
-      "ipa": "/ˈkriːtʃər/",
+      "ipa": ["[kríːtʃər]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "생물",
-            "피조물"
+            "1 (생명이 있는) 생물, 동물",
+            "2 창조물",
+            "3 (상상의) 괴물"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "create",
-          "mean": "만들다 (create)"
-        },
-        {
-          "part": "-ure",
-          "mean": "결과물 접미사"
-        }
+        {"part": "create", "mean": "창조하다"},
+        {"part": "ure", "mean": ""}
       ],
-      "origin": "만들어진 것 → 생물"
+      "examples": [
+        {
+          "en": "Some tiny **creatures** live deep in the ocean where there is no sunlight.",
+          "ko": "어떤 작은 생물들은 햇빛이 닿지 않는 심해에 산다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "failure",
-      "ipa": "/ˈfeɪljər/",
+      "ipa": ["[féiljər]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "실패",
-            "고장"
-          ]
+          "defs": ["실패(자), 낙제(자)"],
+          "syn_ant": {
+            "0": {"ant": ["success"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "fail",
-          "mean": "실패하다 (fail)"
-        },
-        {
-          "part": "-ure",
-          "mean": "상태 접미사"
-        }
+        {"part": "fail", "mean": "실패하다"},
+        {"part": "ure", "mean": ""}
       ],
-      "origin": "실패한 상태"
+      "examples": [
+        {
+          "en": "They are afraid to experience **failure**.",
+          "ko": "그들은 실패를 경험하는 것을 두려워한다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "accuracy",
-      "ipa": "/ˈækjərəsi/",
+      "ipa": ["[ǽkjərəsi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "정확성"
-          ]
+          "defs": ["정확(성), 정밀(도)"],
+          "syn_ant": {
+            "0": {"ant": ["inaccuracy"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "accurate",
-          "mean": "정확한 (accurate)"
-        },
-        {
-          "part": "-cy",
-          "mean": "상태 접미사"
-        }
+        {"part": "accurate", "mean": "정확한"},
+        {"part": "cy", "mean": ""}
       ],
-      "origin": "정확한 상태"
+      "examples": [
+        {
+          "en": "The **accuracy** of that information is doubtful.",
+          "ko": "그 정보의 정확성이 의심스럽다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "privacy",
-      "ipa": "/ˈpraɪvəsi/",
+      "ipa": ["[práivəsi]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "사생활",
-            "프라이버시"
-          ]
+          "defs": ["사생활, 혼자 있는 상태"]
         }
       ],
       "parts": [
-        {
-          "part": "private",
-          "mean": "사적인 (private)"
-        },
-        {
-          "part": "-cy",
-          "mean": "상태 접미사"
-        }
+        {"part": "private", "mean": "사적인"},
+        {"part": "cy", "mean": ""}
       ],
-      "origin": "사적인 상태"
+      "examples": [
+        {
+          "en": "The hotel guarantees complete **privacy** for all its guests.",
+          "ko": "그 호텔은 모든 투숙객에게 완전한 사생활 보호를 보장한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "witness",
-      "ipa": "/ˈwɪtnəs/",
+      "ipa": ["[wítnis]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "증인",
-            "목격자"
+            "1 목격자, 입회인",
+            "2 (법정에서) 증인"
           ]
         },
         {
           "pos": "동",
           "defs": [
-            "목격하다"
+            "1 목격하다",
+            "2 증언하다"
           ]
         }
       ],
       "parts": [
+        {"part": "wit-", "mean": "보다"},
+        {"part": "ness", "mean": ""}
+      ],
+      "examples": [
         {
-          "part": "wit",
-          "mean": "알다 (know)"
+          "en": "When there are multiple **witnesses** to an event, they are not allowed to discuss it before giving their testimony.",
+          "ko": "한 사건에 다수의 목격자가 있을 때, 그들은 증언하기 전에 그것을 논의할 수 없다.",
+          "source": "모의"
         },
         {
-          "part": "-ness",
-          "mean": "상태 접미사"
+          "en": "We are now **witnessing** a fundamental shift in our resource demands.",
+          "ko": "이제 우리는 자원에 대한 수요에서의 근본적인 변화를 목격하고 있다.",
+          "source": "수능"
         }
-      ],
-      "origin": "아는 상태 → 증인"
+      ]
     },
     {
       "en": "fitness",
-      "ipa": "/ˈfɪtnəs/",
+      "ipa": ["[fítnis]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "건강",
-            "적합성"
+            "1 건강(함)",
+            "2 적절함"
           ]
         }
       ],
       "parts": [
+        {"part": "fit", "mean": "건강한; 적절한"},
+        {"part": "ness", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "fit", "pos": "형", "defs": ["1 건강한", "2 적절한"]},
+        {"en": "fit", "pos": "동", "defs": ["1 …에 알맞다[어울리다]", "2 맞게 하다"]}
+      ],
+      "examples": [
         {
-          "part": "fit",
-          "mean": "적합한 (fit)"
+          "en": "There are lots of gym programs to improve your **fitness**.",
+          "ko": "당신의 건강을 증진시킬 많은 체육 프로그램이 있다.",
+          "source": ""
         },
         {
-          "part": "-ness",
-          "mean": "상태 접미사"
+          "en": "Walking in nature is a great way to stay **fit** and healthy.",
+          "ko": "자연 속을 걷는 것은 건강과 체력을 유지하는 좋은 방법이다.",
+          "source": "모의"
         }
-      ],
-      "origin": "적합한 상태 → 건강"
+      ]
     },
     {
       "en": "agreement",
-      "ipa": "/əˈɡriːmənt/",
+      "ipa": ["[əgríːmənt]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "동의",
-            "합의",
-            "계약"
-          ]
+            "1 협정, 계약",
+            "2 동의, 합의"
+          ],
+          "syn_ant": {
+            "2": {"ant": ["disagreement"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "agree",
-          "mean": "동의하다 (agree)"
-        },
-        {
-          "part": "-ment",
-          "mean": "결과물 접미사"
-        }
+        {"part": "agree", "mean": "동의하다"},
+        {"part": "ment", "mean": ""}
       ],
-      "origin": "동의한 것 → 합의"
+      "examples": [
+        {
+          "en": "Everyone nodded in **agreement** with the plan.",
+          "ko": "모두가 그 계획에 동의하며 고개를 끄덕였다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "assessment",
-      "ipa": "/əˈsesmənt/",
+      "ipa": ["[əsésmənt]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "평가"
-          ]
+            "1 평가, 판단",
+            "2 과세(액), 부과(액)"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["evaluation"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "assess",
-          "mean": "평가하다 (assess)"
-        },
-        {
-          "part": "-ment",
-          "mean": "결과물 접미사"
-        }
+        {"part": "assess", "mean": "평가하다"},
+        {"part": "ment", "mean": ""}
       ],
-      "origin": "평가한 것"
+      "examples": [
+        {
+          "en": "The teacher gave an **assessment** of each student's progress.",
+          "ko": "선생님은 각 학생의 발전 정도를 평가했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "document",
-      "ipa": "/ˈdɑːkjəmənt/",
+      "ipa": ["[dɑ́ːkjəmənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "문서",
-            "서류"
-          ]
+          "defs": ["서류, 문서"]
+        },
+        {
+          "pos": "동",
+          "defs": ["기록하다"]
         }
       ],
       "parts": [
-        {
-          "part": "doc",
-          "mean": "가르치다 (teach)"
-        },
-        {
-          "part": "-ument",
-          "mean": "결과물 접미사"
-        }
+        {"part": "docu-", "mean": "가르치다"},
+        {"part": "ment", "mean": ""}
       ],
-      "origin": "가르침을 담은 것 → 문서"
+      "origin": "가르친 결과물",
+      "derivatives": [
+        {"en": "documentary", "pos": "명", "defs": ["다큐멘터리, 기록물"]},
+        {"en": "documentation", "pos": "명", "defs": ["기록, 문서화"]}
+      ],
+      "examples": [
+        {
+          "en": "Can you print off two copies of this **document** for me?",
+          "ko": "저에게 이 서류 2부를 출력해 줄 수 있나요?",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "supplement",
-      "ipa": "/ˈsʌplɪmənt/",
+      "ipa": ["[sʌ́pləmənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "보충(물)"
-          ]
+          "defs": ["추가(물), 보충(물)"]
         },
         {
           "pos": "동",
-          "defs": [
-            "보충하다"
-          ]
+          "defs": ["보충[추가]하다"]
         }
       ],
       "parts": [
-        {
-          "part": "sup-(sub-)",
-          "mean": "아래에서 (under)"
-        },
-        {
-          "part": "ple",
-          "mean": "채우다 (fill)"
-        },
-        {
-          "part": "-ment",
-          "mean": "결과물 접미사"
-        }
+        {"part": "supply", "mean": "공급하다"},
+        {"part": "ment", "mean": ""}
       ],
-      "origin": "아래에서 채우는 것 → 보충물"
+      "derivatives": [
+        {"en": "supplementary", "pos": "형", "defs": ["보충의"]}
+      ],
+      "examples": [
+        {
+          "en": "She takes vitamin **supplements** every day to stay healthy.",
+          "ko": "그녀는 건강을 유지하기 위해 매일 비타민 보충제를 복용한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "economics",
-      "ipa": "/ˌiːkəˈnɑːmɪks/",
+      "ipa": ["[ìːkənɑ́ːmiks]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "경제학"
-          ]
+          "defs": ["경제학"]
         }
       ],
       "parts": [
-        {
-          "part": "economy",
-          "mean": "경제 (economy)"
-        },
-        {
-          "part": "-ics",
-          "mean": "학문 접미사"
-        }
+        {"part": "economy", "mean": "경제"},
+        {"part": "ics", "mean": ""}
       ],
-      "origin": "경제에 관한 학문"
+      "derivatives": [
+        {"en": "economist", "pos": "명", "defs": ["경제학자"]}
+      ],
+      "examples": [
+        {
+          "en": "The field of **economics** focuses on how goods are bought and sold.",
+          "ko": "경제학 분야는 재화가 구입되고 판매되는 방식에 집중한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "politics",
-      "ipa": "/ˈpɑːlətɪks/",
+      "ipa": ["[pɑ́ːlətìks]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "정치(학)"
-          ]
+          "defs": ["정치(학)"]
         }
       ],
       "parts": [
-        {
-          "part": "poli",
-          "mean": "도시, 국가 (city, state)"
-        },
-        {
-          "part": "-tics",
-          "mean": "학문 접미사"
-        }
+        {"part": "political", "mean": "정치의"},
+        {"part": "ics", "mean": ""}
       ],
-      "origin": "국가에 관한 학문 → 정치"
+      "derivatives": [
+        {"en": "politician", "pos": "명", "defs": ["정치인"]}
+      ],
+      "examples": [
+        {
+          "en": "**Politics** affects many parts of our daily lives.",
+          "ko": "정치는 우리 일상의 많은 부분에 영향을 미친다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "physics",
-      "ipa": "/ˈfɪzɪks/",
+      "ipa": ["[fíziks]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "물리학"
-          ]
+          "defs": ["물리학"]
         }
       ],
       "parts": [
+        {"part": "physical", "mean": "물리적인"},
+        {"part": "ics", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "physicist", "pos": "명", "defs": ["물리학자 (cf. physician (내과) 의사)"]}
+      ],
+      "examples": [
         {
-          "part": "phys",
-          "mean": "자연 (nature)"
+          "en": "The laws of **physics** explain how the universe works.",
+          "ko": "물리학 법칙은 우주가 어떻게 작동하는지를 설명해준다.",
+          "source": ""
         },
         {
-          "part": "-ics",
-          "mean": "학문 접미사"
+          "en": "The **physicist** assumes that the physical world is lawful.",
+          "ko": "물리학자들은 물리적 세계가 법칙적이라고 가정한다.",
+          "source": "모의"
         }
-      ],
-      "origin": "자연에 관한 학문 → 물리학"
+      ]
     },
     {
       "en": "childhood",
-      "ipa": "/ˈtʃaɪldhʊd/",
+      "ipa": ["[tʃáildhùd]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "어린 시절"
-          ]
+          "defs": ["유년기"]
         }
       ],
       "parts": [
-        {
-          "part": "child",
-          "mean": "아이 (child)"
-        },
-        {
-          "part": "-hood",
-          "mean": "시기, 상태 접미사"
-        }
+        {"part": "child", "mean": "아이"},
+        {"part": "hood", "mean": ""}
       ],
-      "origin": "아이의 시기 → 어린 시절"
+      "examples": [
+        {
+          "en": "Jane has many memories of her **childhood**.",
+          "ko": "Jane에겐 유년기 시절에 대한 기억이 많다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "neighborhood",
-      "ipa": "/ˈneɪbərhʊd/",
+      "ipa": ["[néibərhùd]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "이웃",
-            "근처"
+            "1 근처, 동네",
+            "2 이웃 사람들"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "neighbor",
-          "mean": "이웃 (neighbor)"
-        },
-        {
-          "part": "-hood",
-          "mean": "관계, 상태 접미사"
-        }
+        {"part": "neighbor", "mean": "이웃"},
+        {"part": "hood", "mean": ""}
       ],
-      "origin": "이웃 관계 → 근처"
+      "examples": [
+        {
+          "en": "I am very happy to let my dogs safely play with other dogs from the **neighborhood**.",
+          "ko": "나는 우리 반려견들을 이웃의 다른 개들과 안전하게 놀 수 있게 할 수 있어서 정말 기쁘다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "angle",
-      "ipa": "/ˈæŋɡl/",
+      "ipa": ["[ǽŋgəl]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "각도",
-            "관점"
-          ]
-        }
-      ],
-      "parts": [
-        {
-          "part": "ang",
-          "mean": "굽히다 (bend)"
-        },
-        {
-          "part": "-le",
-          "mean": "작은 것 접미사"
-        }
-      ],
-      "origin": "굽은 것 → 각도"
-    },
-    {
-      "en": "label",
-      "ipa": "/ˈleɪbl/",
-      "meanings": [
-        {
-          "pos": "명",
-          "defs": [
-            "표지",
-            "라벨"
+            "1 각도, 각",
+            "2 관점"
           ]
         },
         {
           "pos": "동",
-          "defs": [
-            "표를 붙이다"
-          ]
+          "defs": ["(+ for) 노리다"]
         }
       ],
       "parts": [
+        {"part": "ang-", "mean": "구부리다"},
+        {"part": "le", "mean": ""}
+      ],
+      "origin": "구부러져 있는 것",
+      "derivatives": [
+        {"en": "angular", "pos": "형", "defs": ["각이 진, 모난"]}
+      ],
+      "examples": [
         {
-          "part": "lab",
-          "mean": "조각 (strip)"
+          "en": "The **angle** of the hill determines how fast your bicycle will go.",
+          "ko": "언덕의 각도[가파르기]가 자전거의 속도를 결정한다.",
+          "source": ""
         },
         {
-          "part": "-el",
-          "mean": "작은 것 접미사"
+          "en": "The medieval castle was very tall and **angular**.",
+          "ko": "그 중세 시대 성은 매우 높고 각진 형태였다.",
+          "source": ""
+        }
+      ]
+    },
+    {
+      "en": "label",
+      "ipa": ["[léibəl]"],
+      "meanings": [
+        {
+          "pos": "명",
+          "defs": ["라벨, 표"],
+          "syn_ant": {
+            "0": {"syn": ["tag"]}
+          }
+        },
+        {
+          "pos": "동",
+          "defs": ["라벨[표]을 붙이다"]
         }
       ],
-      "origin": "작은 조각 → 라벨"
+      "parts": [
+        {"part": "lab-", "mean": "= lap 덮개"},
+        {"part": "el", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "labeled", "pos": "형", "defs": ["(또는 labelled) 표를 붙인, 분류한"]}
+      ],
+      "examples": [
+        {
+          "en": "The **label** says \"Dry clean only.\"",
+          "ko": "라벨에는 '드라이클리닝만 가능'이라고 적혀 있다.",
+          "source": ""
+        },
+        {
+          "en": "She **labeled** each of the files in her cabinet drawer.",
+          "ko": "그녀는 캐비닛 서랍 안에 있는 각 파일에 라벨을 붙였다.",
+          "source": ""
+        }
+      ]
     }
   ]
 }

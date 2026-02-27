@@ -3,707 +3,761 @@
   "words": [
     {
       "en": "assistant",
-      "ipa": "/əˈsɪstənt/",
+      "ipa": ["[əsístənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "조수",
-            "보조원"
-          ]
+          "defs": ["보조자, 조수"]
+        },
+        {
+          "pos": "형",
+          "defs": ["보조의, 하위 직급의"]
         }
       ],
       "parts": [
-        {
-          "part": "assist",
-          "mean": "돕다 (assist)"
-        },
-        {
-          "part": "-ant",
-          "mean": "~하는 사람"
-        }
+        {"part": "assist", "mean": "돕다"},
+        {"part": "ant", "mean": ""}
       ],
-      "origin": "돕는 사람 → 조수"
+      "derivatives": [
+        {"en": "assistance", "pos": "명", "defs": ["보조, 도움"]}
+      ],
+      "examples": [
+        {
+          "en": "In the near future, smart virtual **assistants** will know more about you than your closest friends and family members do.",
+          "ko": "가까운 미래에는 스마트 가상 비서가 당신의 가장 가까운 친구와 가족보다도 당신에 대해 더 많이 알게 될 것이다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "attendant",
-      "ipa": "/əˈtendənt/",
+      "ipa": ["[əténdənt]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "수행원",
-            "안내원"
+            "1 시중드는 사람",
+            "2 수행원"
           ]
         }
       ],
       "parts": [
+        {"part": "attend", "mean": "수행하다"},
+        {"part": "ant", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "attention", "pos": "명", "defs": ["주목, 주의; 관심; 시중, 돌봄"]},
+        {"en": "attentive", "pos": "형", "defs": ["주의 깊은, 세심한"]}
+      ],
+      "examples": [
         {
-          "part": "attend",
-          "mean": "시중들다 (attend)"
+          "en": "The flight **attendant** started to serve lunch to the passengers.",
+          "ko": "승무원이 승객들에게 점심 식사를 나누어주기 시작했다.",
+          "source": ""
         },
         {
-          "part": "-ant",
-          "mean": "~하는 사람"
+          "en": "I was satisfied with the hotel service and the **attentive** staff.",
+          "ko": "나는 그 호텔의 서비스와 세심한 직원들에 만족했다.",
+          "source": ""
         }
-      ],
-      "origin": "시중드는 사람"
+      ]
     },
     {
       "en": "consultant",
-      "ipa": "/kənˈsʌltənt/",
+      "ipa": ["[kənsʌ́ltənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "상담사",
-            "컨설턴트"
-          ]
+          "defs": ["상담가, 자문 위원"]
         }
       ],
       "parts": [
-        {
-          "part": "consult",
-          "mean": "상담하다 (consult)"
-        },
-        {
-          "part": "-ant",
-          "mean": "~하는 사람"
-        }
+        {"part": "consult", "mean": "상담하다"},
+        {"part": "ant", "mean": ""}
       ],
-      "origin": "상담하는 사람"
+      "examples": [
+        {
+          "en": "As a financial **consultant**, he gives advice on investments.",
+          "ko": "그는 재무 상담가로서 투자에 대한 조언을 한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "servant",
-      "ipa": "/ˈsɜːrvənt/",
+      "ipa": ["[sə́ːrvənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "하인",
-            "공무원"
-          ]
+          "defs": ["하인, 고용인"]
         }
       ],
       "parts": [
-        {
-          "part": "serve",
-          "mean": "섬기다 (serve)"
-        },
-        {
-          "part": "-ant",
-          "mean": "~하는 사람"
-        }
+        {"part": "serve", "mean": "봉사하다"},
+        {"part": "ant", "mean": ""}
       ],
-      "origin": "섬기는 사람"
+      "derivatives": [
+        {"en": "service", "pos": "명", "defs": ["서비스, 봉사"]}
+      ],
+      "examples": [
+        {
+          "en": "He was seen as an upright public **servant**.",
+          "ko": "그는 청렴한 공무원으로 여겨졌다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "resident",
-      "ipa": "/ˈrezɪdənt/",
+      "ipa": ["[rézədənt]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "거주자",
-            "주민"
-          ]
+          "defs": ["거주자"],
+          "syn_ant": {
+            "0": {"syn": ["inhabitant", "dweller"]}
+          }
+        },
+        {
+          "pos": "형",
+          "defs": ["거주하는, 살고 있는"]
         }
       ],
       "parts": [
-        {
-          "part": "reside",
-          "mean": "거주하다 (reside)"
-        },
-        {
-          "part": "-ent",
-          "mean": "~하는 사람"
-        }
+        {"part": "reside", "mean": "거주하다"},
+        {"part": "ent", "mean": ""}
       ],
-      "origin": "거주하는 사람"
+      "derivatives": [
+        {"en": "residential", "pos": "형", "defs": ["주택가의, 거주지의"]},
+        {"en": "residence", "pos": "명", "defs": ["주택, 거주지; 거주"]}
+      ],
+      "examples": [
+        {
+          "en": "This event is free but open only to local **residents**.",
+          "ko": "이 행사는 무료이지만, 지역 주민들만 참여할 수 있다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "journalist",
-      "ipa": "/ˈdʒɜːrnəlɪst/",
+      "ipa": ["[dʒə́ːrnəlist]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "기자",
-            "언론인"
-          ]
+          "defs": ["언론인, 기자"]
         }
       ],
       "parts": [
-        {
-          "part": "journal",
-          "mean": "일간의, 일지 (daily, journal)"
-        },
-        {
-          "part": "-ist",
-          "mean": "~하는 사람"
-        }
+        {"part": "journal", "mean": "저널, 신문"},
+        {"part": "ist", "mean": ""}
       ],
-      "origin": "일지를 쓰는 사람 → 기자"
+      "derivatives": [
+        {"en": "journalism", "pos": "명", "defs": ["저널리즘, 기사 보도; 언론계"]}
+      ],
+      "examples": [
+        {
+          "en": "Many **journalists** work hard to report the truth to the public.",
+          "ko": "많은 기자들이 대중에게 진실을 보도하기 위해 열심히 일한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "psychologist",
-      "ipa": "/saɪˈkɑːlədʒɪst/",
+      "ipa": ["[saikɑ́ːlədʒist]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "심리학자"
-          ]
+          "defs": ["심리학자"]
         }
       ],
       "parts": [
-        {
-          "part": "psychology",
-          "mean": "심리학 (psychology)"
-        },
-        {
-          "part": "-ist",
-          "mean": "~하는 사람"
-        }
+        {"part": "psychology", "mean": "심리학"},
+        {"part": "ist", "mean": ""}
       ],
-      "origin": "심리학을 하는 사람"
+      "derivatives": [
+        {"en": "psychological", "pos": "형", "defs": ["심리적인; 심리학의"]}
+      ],
+      "examples": [
+        {
+          "en": "**Psychologists** help people with mental or emotional issues.",
+          "ko": "심리학자들은 정신적이거나 감정적인 문제를 가진 사람들을 돕는다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "relative",
-      "ipa": "/ˈrelətɪv/",
+      "ipa": ["[rélətiv]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "친척"
-          ]
+          "defs": ["친척, 인척"]
         },
         {
           "pos": "형",
-          "defs": [
-            "상대적인"
-          ]
+          "defs": ["상대적인"],
+          "syn_ant": {
+            "0": {"syn": ["comparative"], "ant": ["absolute"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "relate",
-          "mean": "관련시키다 (relate)"
-        },
-        {
-          "part": "-ive",
-          "mean": "~하는 사람/것"
-        }
+        {"part": "relate", "mean": "관계가 있다"},
+        {"part": "ive", "mean": ""}
       ],
-      "origin": "관련된 사람 → 친척"
+      "examples": [
+        {
+          "en": "The wedding was attended by close **relatives** and friends.",
+          "ko": "결혼식에는 가까운 친척들과 친구들이 참석했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "representative",
-      "ipa": "/ˌreprɪˈzentətɪv/",
+      "ipa": ["[rèprizéntətiv]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "대표(자)"
-          ]
+          "defs": ["대표자"],
+          "syn_ant": {
+            "0": {"syn": ["delegate"]}
+          }
         },
         {
           "pos": "형",
-          "defs": [
-            "대표하는"
-          ]
+          "defs": ["대표하는"]
         }
       ],
       "parts": [
-        {
-          "part": "represent",
-          "mean": "대표하다 (represent)"
-        },
-        {
-          "part": "-ative",
-          "mean": "~하는 사람"
-        }
+        {"part": "represent", "mean": "대표하다"},
+        {"part": "ive", "mean": ""}
       ],
-      "origin": "대표하는 사람"
+      "derivatives": [
+        {"en": "representation", "pos": "명", "defs": ["표시, 표현; 대리, 대변, 대표"]}
+      ],
+      "examples": [
+        {
+          "en": "a **representative** of the UN",
+          "ko": "UN 대표",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "discovery",
-      "ipa": "/dɪˈskʌvəri/",
+      "ipa": ["[diskʌ́vəri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "발견"
-          ]
+          "defs": ["발견"]
         }
       ],
       "parts": [
-        {
-          "part": "discover",
-          "mean": "발견하다 (discover)"
-        },
-        {
-          "part": "-y",
-          "mean": "행위/상태 접미사"
-        }
+        {"part": "discover", "mean": "발견하다"},
+        {"part": "y", "mean": ""}
       ],
-      "origin": "발견한 것"
+      "examples": [
+        {
+          "en": "He announced the **discovery** of the bones of a giant dinosaur.",
+          "ko": "그는 거대한 공룡의 뼈를 발견했다고 발표했다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "theory",
-      "ipa": "/ˈθɪəri/",
+      "ipa": ["[θíːəri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "이론",
-            "학설"
-          ]
+          "defs": ["이론, 학설"]
         }
       ],
       "parts": [
+        {"part": "theor-", "mean": "보다"},
+        {"part": "y", "mean": ""}
+      ],
+      "origin": "…에 대해 본 것을 정리한 것",
+      "derivatives": [
+        {"en": "theorize", "pos": "동", "defs": ["이론으로 만들다"]},
+        {"en": "theoretical", "pos": "형", "defs": ["이론상의"]},
+        {"en": "theorist", "pos": "명", "defs": ["이론가"]}
+      ],
+      "examples": [
         {
-          "part": "theor",
-          "mean": "관찰하다 (observe)"
+          "en": "Many **theories** in physics are still being debated.",
+          "ko": "물리학의 많은 이론은 여전히 논쟁이 이루어지고 있다.",
+          "source": ""
         },
         {
-          "part": "-y",
-          "mean": "상태 접미사"
+          "en": "Architecture requires both practical and **theoretical** knowledge.",
+          "ko": "건축에는 실무적인 지식과 이론적인 지식이 모두 요구된다.",
+          "source": "수능"
         }
-      ],
-      "origin": "관찰한 것 → 이론"
+      ]
     },
     {
       "en": "surgery",
-      "ipa": "/ˈsɜːrdʒəri/",
+      "ipa": ["[sə́ːrdʒəri]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "수술",
-            "외과"
-          ]
+          "defs": ["수술"]
         }
       ],
       "parts": [
-        {
-          "part": "surg",
-          "mean": "솟아나다, 일하다 (rise, work)"
-        },
-        {
-          "part": "-ery",
-          "mean": "행위/장소 접미사"
-        }
+        {"part": "surgeon", "mean": "외과 의사"},
+        {"part": "ry", "mean": ""}
       ],
-      "origin": "손으로 하는 일 → 수술"
+      "examples": [
+        {
+          "en": "I grew anxious because the time for my **surgery** was drawing closer.",
+          "ko": "수술 시간이 점점 다가오면서 나는 불안해졌다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "pollution",
-      "ipa": "/pəˈluːʃn/",
+      "ipa": ["[pəlúːʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "오염"
-          ]
+          "defs": ["오염, 공해"]
         }
       ],
       "parts": [
-        {
-          "part": "pollut",
-          "mean": "더럽히다 (make dirty)"
-        },
-        {
-          "part": "-ion",
-          "mean": "상태 접미사"
-        }
+        {"part": "pollute", "mean": "오염시키다"},
+        {"part": "ion", "mean": ""}
       ],
-      "origin": "더러워진 상태 → 오염"
+      "derivatives": [
+        {"en": "pollutant", "pos": "명", "defs": ["오염 물질"]}
+      ],
+      "examples": [
+        {
+          "en": "Plastic, in particular, is causing problems with soil and water **pollution**.",
+          "ko": "특히 플라스틱이 토양 문제와 수질 오염을 일으키고 있다.",
+          "source": "교과서"
+        }
+      ]
     },
     {
       "en": "translation",
-      "ipa": "/trænzˈleɪʃn/",
+      "ipa": ["[trænsléiʃən]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "번역",
-            "해석"
-          ]
+            "1 번역, 통역",
+            "2 해석"
+          ],
+          "syn_ant": {
+            "2": {"syn": ["interpretation"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "translate",
-          "mean": "번역하다 (translate)"
-        },
-        {
-          "part": "-ion",
-          "mean": "행위 접미사"
-        }
+        {"part": "translate", "mean": "번역하다"},
+        {"part": "ion", "mean": ""}
       ],
-      "origin": "번역하는 행위"
+      "derivatives": [
+        {"en": "translator", "pos": "명", "defs": ["번역가; 통역사"]}
+      ],
+      "examples": [
+        {
+          "en": "Some of the **translations** do not correspond to the original passage.",
+          "ko": "일부 번역이 원문과 일치하지 않는다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "introduction",
-      "ipa": "/ˌɪntrəˈdʌkʃn/",
+      "ipa": ["[ìntrədʌ́kʃən]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "소개",
-            "도입"
+            "1 소개",
+            "2 도입"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "introduce",
-          "mean": "소개하다 (introduce)"
-        },
-        {
-          "part": "-tion",
-          "mean": "행위 접미사"
-        }
+        {"part": "introduce", "mean": "소개하다"},
+        {"part": "tion", "mean": ""}
       ],
-      "origin": "소개하는 행위"
+      "examples": [
+        {
+          "en": "The speaker's **introduction** was met with enthusiastic applause.",
+          "ko": "연사가 소개하자 열렬한 박수가 터져 나왔다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "invitation",
-      "ipa": "/ˌɪnvɪˈteɪʃn/",
+      "ipa": ["[ìnvətéiʃən]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "초대(장)"
-          ]
+          "defs": ["초대"]
         }
       ],
       "parts": [
-        {
-          "part": "invite",
-          "mean": "초대하다 (invite)"
-        },
-        {
-          "part": "-ation",
-          "mean": "행위 접미사"
-        }
+        {"part": "invite", "mean": "초대하다"},
+        {"part": "ation", "mean": ""}
       ],
-      "origin": "초대하는 행위"
+      "examples": [
+        {
+          "en": "She accepted the **invitation** and decided to attend.",
+          "ko": "그녀는 초대를 수락했고 참석하기로 결정했다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "wealth",
-      "ipa": "/welθ/",
+      "ipa": ["[welθ]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "부",
-            "재산"
+            "1 부, 재산",
+            "2 풍부함"
           ]
         }
       ],
       "parts": [
+        {"part": "weal-", "mean": "바라다"},
+        {"part": "th", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "wealthy", "pos": "형", "defs": ["부유한"]}
+      ],
+      "examples": [
         {
-          "part": "weal",
-          "mean": "잘 지냄 (well-being)"
+          "en": "The easiest way to build up **wealth** is to invest wisely.",
+          "ko": "부를 쌓는 가장 쉬운 방법은 현명하게 투자하는 것이다.",
+          "source": ""
         },
         {
-          "part": "-th",
-          "mean": "상태 접미사"
+          "en": "She grew up in a **wealthy** family and never had to worry about money.",
+          "ko": "그녀는 부유한 가정에서 자라서 돈 걱정을 할 필요가 전혀 없었다.",
+          "source": ""
         }
-      ],
-      "origin": "잘 지내는 상태 → 부"
+      ]
     },
     {
       "en": "weight",
-      "ipa": "/weɪt/",
+      "ipa": ["[weit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "무게",
-            "체중"
-          ]
+          "defs": ["무게, 체중"]
         }
       ],
       "parts": [
+        {"part": "weigh", "mean": "무게를 재다"},
+        {"part": "t", "mean": ""}
+      ],
+      "derivatives": [
+        {"en": "overweight", "pos": "형", "defs": ["과체중인"]},
+        {"en": "lightweight", "pos": "형", "defs": ["가벼운"]},
+        {"en": "outweigh", "pos": "동", "defs": ["…보다 뛰어나다, 중요하다"]}
+      ],
+      "examples": [
         {
-          "part": "weigh",
-          "mean": "무게를 달다 (weigh)"
+          "en": "A: Oh, what do you think made you gain **weight**?\nB: I think I eat snacks too often, especially at night.",
+          "ko": "A: 오, 너는 뭐 때문에 살이 쪘다고 생각해?\nB: 나는 특히 밤에 간식을 너무 자주 먹는 것 같아.",
+          "source": "교과서"
         },
         {
-          "part": "-t",
-          "mean": "상태 접미사"
+          "en": "Cats that aren't active are often **overweight**.",
+          "ko": "활동적이지 않은 고양이들은 주로 과체중이다.",
+          "source": ""
         }
-      ],
-      "origin": "무게를 단 것 → 무게"
+      ]
     },
     {
       "en": "arrival",
-      "ipa": "/əˈraɪvl/",
+      "ipa": ["[əráivəl]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "도착"
-          ]
+          "defs": ["도착"],
+          "syn_ant": {
+            "0": {"ant": ["departure"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "arrive",
-          "mean": "도착하다 (arrive)"
-        },
-        {
-          "part": "-al",
-          "mean": "행위 접미사"
-        }
+        {"part": "arrive", "mean": "도착하다"},
+        {"part": "al", "mean": ""}
       ],
-      "origin": "도착하는 행위"
+      "phrases": [
+        {"en": "(up)on arrival", "ko": "도착하자마자"}
+      ],
+      "examples": [
+        {
+          "en": "We waited at the airport for her **arrival**, holding a welcome sign.",
+          "ko": "우리는 환영 팻말을 들고 공항에서 그녀의 도착을 기다렸다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "proposal",
-      "ipa": "/prəˈpoʊzl/",
+      "ipa": ["[prəpóuzəl]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "제안",
-            "청혼"
+            "1 제안; 신청",
+            "2 청혼"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "propose",
-          "mean": "제안하다 (propose)"
-        },
-        {
-          "part": "-al",
-          "mean": "행위 접미사"
-        }
+        {"part": "propose", "mean": "제안하다"},
+        {"part": "al", "mean": ""}
       ],
-      "origin": "제안하는 행위"
+      "examples": [
+        {
+          "en": "She submitted a **proposal** for a new marketing strategy.",
+          "ko": "그녀는 새로운 마케팅 전략에 대한 제안서를 제출했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "citizenship",
-      "ipa": "/ˈsɪtɪzənʃɪp/",
+      "ipa": ["[sítəzənʃìp]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "시민권"
-          ]
+          "defs": ["시민권, 시민으로서의 신분"],
+          "syn_ant": {
+            "0": {"syn": ["civil right"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "citizen",
-          "mean": "시민 (citizen)"
-        },
-        {
-          "part": "-ship",
-          "mean": "자격, 신분 접미사"
-        }
+        {"part": "citizen", "mean": "시민"},
+        {"part": "ship", "mean": ""}
       ],
-      "origin": "시민의 자격 → 시민권"
+      "examples": [
+        {
+          "en": "She spent over fifty years in Mexico, and she gained Mexican **citizenship** in 1962.",
+          "ko": "그녀는 멕시코에서 50년 넘게 살았고, 1962년에 멕시코 시민권을 취득했다.",
+          "source": "모의"
+        }
+      ]
     },
     {
       "en": "leadership",
-      "ipa": "/ˈliːdərʃɪp/",
+      "ipa": ["[líːdərʃìp]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "지도력",
-            "리더십"
-          ]
+          "defs": ["통솔력, 지도력"]
         }
       ],
       "parts": [
-        {
-          "part": "leader",
-          "mean": "지도자 (leader)"
-        },
-        {
-          "part": "-ship",
-          "mean": "자격, 특성 접미사"
-        }
+        {"part": "leader", "mean": "지도자"},
+        {"part": "ship", "mean": ""}
       ],
-      "origin": "지도자의 특성 → 리더십"
+      "examples": [
+        {
+          "en": "He developed his **leadership** skills through group projects.",
+          "ko": "그는 조별 과제를 통해 리더십 능력을 키웠다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "realism",
-      "ipa": "/ˈriːəlɪzəm/",
+      "ipa": ["[ríːəlìzəm]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "현실주의",
-            "사실주의"
+            "1 현실주의",
+            "2 사실성"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "real",
-          "mean": "현실의 (real)"
-        },
-        {
-          "part": "-ism",
-          "mean": "주의 접미사"
-        }
+        {"part": "real", "mean": "현실의"},
+        {"part": "ism", "mean": ""}
       ],
-      "origin": "현실의 주의 → 현실주의"
+      "derivatives": [
+        {"en": "realistic", "pos": "형", "defs": ["현실적인; 진짜 같은"]},
+        {"en": "reality", "pos": "명", "defs": ["현실"]},
+        {"en": "realize", "pos": "동", "defs": ["1 깨닫다", "2 실현하다"]}
+      ],
+      "examples": [
+        {
+          "en": "The **realism** of this painting makes it resemble a photograph.",
+          "ko": "그 그림의 사실성은 마치 그것이 사진인 것처럼 보이게 한다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "optimism",
-      "ipa": "/ˈɑːptɪmɪzəm/",
+      "ipa": ["[ɑ́ːptəmìzəm]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "낙관주의"
-          ]
+          "defs": ["낙관론, 낙천주의"],
+          "syn_ant": {
+            "0": {"ant": ["pessimism"]}
+          }
         }
       ],
       "parts": [
-        {
-          "part": "optim",
-          "mean": "최선의 (best)"
-        },
-        {
-          "part": "-ism",
-          "mean": "주의 접미사"
-        }
+        {"part": "optimistic", "mean": "낙관적인"},
+        {"part": "ism", "mean": ""}
       ],
-      "origin": "최선을 기대하는 주의 → 낙관주의"
+      "derivatives": [
+        {"en": "optimist", "pos": "명", "defs": ["낙관론자, 낙천주의자"]}
+      ],
+      "examples": [
+        {
+          "en": "Her **optimism** helped the team stay hopeful during the difficult project.",
+          "ko": "그녀의 낙관적인 태도는 어려운 프로젝트 동안 팀이 희망을 잃지 않도록 도왔다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "criticism",
-      "ipa": "/ˈkrɪtɪsɪzəm/",
+      "ipa": ["[krítəsìzəm]"],
       "meanings": [
         {
           "pos": "명",
           "defs": [
-            "비판",
-            "비평"
+            "1 비판, 비난",
+            "2 (문예) 비평, 평론"
           ]
         }
       ],
       "parts": [
-        {
-          "part": "critic",
-          "mean": "비평가 (critic)"
-        },
-        {
-          "part": "-ism",
-          "mean": "행위 접미사"
-        }
+        {"part": "criticize", "mean": "비판하다"},
+        {"part": "ism", "mean": ""}
       ],
-      "origin": "비평하는 행위"
+      "derivatives": [
+        {"en": "critic", "pos": "명", "defs": ["비평가, 평론가"]},
+        {"en": "critical", "pos": "형", "defs": ["비판적인; 중대한; 위기의; 비평의"]}
+      ],
+      "examples": [
+        {
+          "en": "The government is facing increasing **criticism** for raising taxes.",
+          "ko": "정부는 세금 인상에 대해 늘어가는 비판에 직면하고 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "target",
-      "ipa": "/ˈtɑːrɡɪt/",
+      "ipa": ["[tɑ́ːrgit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "목표",
-            "대상"
-          ]
+          "defs": ["목표, 대상"],
+          "syn_ant": {
+            "0": {"syn": ["objective", "goal"]}
+          }
         },
         {
           "pos": "동",
-          "defs": [
-            "겨냥하다"
-          ]
+          "defs": ["목표로 삼다, 대상으로 하다"]
         }
       ],
       "parts": [
+        {"part": "targ-", "mean": "방패"},
+        {"part": "et", "mean": ""}
+      ],
+      "examples": [
         {
-          "part": "targ",
-          "mean": "작은 방패 (small shield)"
+          "en": "The company's **target** is to reach $300 million in sales by 2030.",
+          "ko": "그 회사의 목표는 2030년까지 3억 달러 매출에 도달하는 것이다.",
+          "source": ""
         },
         {
-          "part": "-et",
-          "mean": "작은 것 접미사"
+          "en": "The advertisement **targets** teenagers who are interested in fashion.",
+          "ko": "그 광고는 패션에 관심 있는 10대들을 대상으로 한다.",
+          "source": ""
         }
-      ],
-      "origin": "작은 방패(과녁) → 목표"
+      ]
     },
     {
       "en": "booklet",
-      "ipa": "/ˈbʊklət/",
+      "ipa": ["[búklit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "소책자"
-          ]
+          "defs": ["소책자"]
         }
       ],
       "parts": [
-        {
-          "part": "book",
-          "mean": "책 (book)"
-        },
-        {
-          "part": "-let",
-          "mean": "작은 것 접미사"
-        }
+        {"part": "book", "mean": "책"},
+        {"part": "let", "mean": ""}
       ],
-      "origin": "작은 책 → 소책자"
+      "examples": [
+        {
+          "en": "There is an instruction **booklet** in the cabinet.",
+          "ko": "수납장에 설명서가 있다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "leaflet",
-      "ipa": "/ˈliːflət/",
+      "ipa": ["[líːflit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "전단",
-            "소책자"
-          ]
+          "defs": ["(광고용) 전단"]
         }
       ],
       "parts": [
-        {
-          "part": "leaf",
-          "mean": "잎, 페이지 (leaf, page)"
-        },
-        {
-          "part": "-let",
-          "mean": "작은 것 접미사"
-        }
+        {"part": "leaf", "mean": "잎사귀"},
+        {"part": "let", "mean": ""}
       ],
-      "origin": "작은 잎(종이) → 전단"
+      "examples": [
+        {
+          "en": "They handed out **leaflets** about the newly opened gym.",
+          "ko": "그들은 새로 개업한 헬스장에 대한 전단지를 나눠주었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "etiquette",
-      "ipa": "/ˈetɪket/",
+      "ipa": ["[étikit]"],
       "meanings": [
         {
           "pos": "명",
-          "defs": [
-            "예절",
-            "에티켓"
-          ]
+          "defs": ["예의, 에티켓"]
         }
       ],
       "parts": [
-        {
-          "part": "etiqu",
-          "mean": "꼬리표 (ticket, label)"
-        },
-        {
-          "part": "-ette",
-          "mean": "작은 것 접미사"
-        }
+        {"part": "etiqu-", "mean": "표, 티켓"},
+        {"part": "ette", "mean": ""}
       ],
-      "origin": "작은 꼬리표(규칙표) → 예절"
+      "origin": "지침이 쓰인 작은 종이",
+      "examples": [
+        {
+          "en": "It's important to follow **etiquette** in public places.",
+          "ko": "공공 장소에서 에티켓을 지키는 것은 중요하다.",
+          "source": "교과서"
+        }
+      ]
     }
   ]
 }

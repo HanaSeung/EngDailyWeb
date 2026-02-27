@@ -3,625 +3,535 @@
   "words": [
     {
       "en": "imaginable",
-      "ipa": "/ɪˈmædʒɪnəbl/",
+      "ipa": ["[imǽdʒənəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "상상할 수 있는"
-          ]
+          "defs": ["상상할 수 있는"],
+          "syn_ant": {
+            "0": {"ant": ["unimaginable"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "imagine",
-          "mean": "상상하다 (imagine)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
+          "en": "The farmer's market sells every type of vegetable **imaginable**.",
+          "ko": "그 농산물 시장에서는 상상할 수 있는 모든 종류의 채소를 판매한다.",
+          "source": ""
         }
-      ],
-      "origin": "상상할 수 있는"
+      ]
     },
     {
       "en": "imaginative",
-      "ipa": "/ɪˈmædʒɪnətɪv/",
+      "ipa": ["[imǽdʒənətiv]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "상상력이 풍부한"
-          ]
+          "defs": ["상상력이 풍부한, 창의적인"],
+          "syn_ant": {
+            "0": {"syn": ["inventive", "creative"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "imagine",
-          "mean": "상상하다 (imagine)"
-        },
-        {
-          "part": "-ative",
-          "mean": "~하는 성질의"
+          "en": "The musical is based on an **imaginative** story of two witches, Elphaba and Glinda.",
+          "ko": "그 뮤지컬은 Elphaba와 Glinda라는 두 마녀에 대한 상상력 넘치는 이야기를 바탕으로 한다.",
+          "source": "교과서"
         }
-      ],
-      "origin": "상상하는 성질의 → 상상력이 풍부한"
+      ]
     },
     {
       "en": "imaginary",
-      "ipa": "/ɪˈmædʒɪneri/",
+      "ipa": ["[imǽdʒənèri]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "가상의",
-            "상상 속의"
-          ]
+          "defs": ["상상 속에 존재하는, 가상의"],
+          "syn_ant": {
+            "0": {"ant": ["actual", "real"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "imagine",
-          "mean": "상상하다 (imagine)"
-        },
-        {
-          "part": "-ary",
-          "mean": "~에 관한"
+          "en": "Dragons are **imaginary** creatures.",
+          "ko": "용은 가상의 존재이다.",
+          "source": ""
         }
-      ],
-      "origin": "상상에 관한 → 가상의"
+      ]
     },
     {
       "en": "successful",
-      "ipa": "/səkˈsesfl/",
+      "ipa": ["[səksésfəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "성공적인"
-          ]
+          "defs": ["성공적인, 출세한"],
+          "syn_ant": {
+            "0": {"ant": ["unsuccessful"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "success",
-          "mean": "성공 (success)"
-        },
-        {
-          "part": "-ful",
-          "mean": "~이 가득한"
-        }
+      "derivatives": [
+        {"en": "successfully", "pos": "부", "defs": ["성공적으로"]}
       ],
-      "origin": "성공이 가득한"
+      "examples": [
+        {
+          "en": "The book was so **successful** that it was turned into a movie.",
+          "ko": "그 책은 매우 성공적이어서 영화로 만들어졌다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "successive",
-      "ipa": "/səkˈsesɪv/",
+      "ipa": ["[səksésiv]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "연속적인",
-            "잇따른"
-          ]
+          "defs": ["연속[계속]적인"],
+          "syn_ant": {
+            "0": {"syn": ["consecutive"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "success",
-          "mean": "뒤따르다 (follow after)"
-        },
-        {
-          "part": "-ive",
-          "mean": "~하는 성질의"
+          "en": "It snowed for three **successive** days.",
+          "ko": "3일 연속 눈이 내렸다.",
+          "source": ""
         }
-      ],
-      "origin": "뒤따르는 → 연속적인"
+      ]
     },
     {
       "en": "industrial",
-      "ipa": "/ɪnˈdʌstriəl/",
+      "ipa": ["[indʌ́striəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "산업의",
-            "공업의"
-          ]
+          "defs": ["산업의, 산업이 발달한"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "industry",
-          "mean": "산업 (industry)"
-        },
-        {
-          "part": "-al",
-          "mean": "~에 관한"
+          "en": "The rise of large, **industrial** cities has had social consequences that are often known as urbanism.",
+          "ko": "대규모 산업 도시의 성장은 흔히 도시화라고 알려진 사회적 결과를 가져왔다.",
+          "source": "모의"
         }
-      ],
-      "origin": "산업에 관한"
+      ]
     },
     {
       "en": "industrious",
-      "ipa": "/ɪnˈdʌstriəs/",
+      "ipa": ["[indʌ́striəs]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "근면한",
-            "부지런한"
-          ]
+          "defs": ["근면한"],
+          "syn_ant": {
+            "0": {"syn": ["hard-working", "diligent"], "ant": ["lazy"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "industry",
-          "mean": "근면 (diligence)"
-        },
-        {
-          "part": "-ous",
-          "mean": "~의 성질을 가진"
+          "en": "Ants are considered **industrious**, since they never stop working.",
+          "ko": "개미는 쉬지 않고 일하기 때문에 근면하다고 여겨진다.",
+          "source": ""
         }
-      ],
-      "origin": "근면한 성질의"
+      ]
     },
     {
       "en": "economic",
-      "ipa": "/ˌiːkəˈnɑːmɪk/",
+      "ipa": ["[ìːkənɑ́ːmik]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "경제의",
-            "경제학의"
-          ]
+          "defs": ["경제(학)의"]
         }
       ],
-      "parts": [
-        {
-          "part": "economy",
-          "mean": "경제 (economy)"
-        },
-        {
-          "part": "-ic",
-          "mean": "~에 관한"
-        }
+      "derivatives": [
+        {"en": "economics", "pos": "명", "defs": ["(단수 취급) 경제학"]}
       ],
-      "origin": "경제에 관한"
+      "examples": [
+        {
+          "en": "The **economic** crisis caused many problems.",
+          "ko": "경제 위기는 많은 문제를 초래했다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "economical",
-      "ipa": "/ˌiːkəˈnɑːmɪkl/",
+      "ipa": ["[ìːkənɑ́ːmikəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "경제적인",
-            "절약하는"
-          ]
+          "defs": ["절약이 되는, 경제적인"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "economy",
-          "mean": "경제 (economy)"
-        },
-        {
-          "part": "-ical",
-          "mean": "~의 성질을 가진"
+          "en": "Small cars are generally very **economical**.",
+          "ko": "소형차는 대개 매우 경제적이다.",
+          "source": ""
         }
-      ],
-      "origin": "절약하는 성질의"
+      ]
     },
     {
       "en": "historic",
-      "ipa": "/hɪˈstɔːrɪk/",
+      "ipa": ["[histɔ́ːrik]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "역사적으로 중요한"
-          ]
+          "defs": ["역사적으로 중요한"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "history",
-          "mean": "역사 (history)"
-        },
-        {
-          "part": "-ic",
-          "mean": "~의 성질을 가진"
+          "en": "The army's victory was a **historic** moment.",
+          "ko": "육군의 승리는 역사적으로 중요한 순간이었다.",
+          "source": ""
         }
-      ],
-      "origin": "역사적으로 중요한"
+      ]
     },
     {
       "en": "historical",
-      "ipa": "/hɪˈstɔːrɪkl/",
+      "ipa": ["[histɔ́ːrikəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "역사에 관한",
-            "역사의"
-          ]
+          "defs": ["역사(학)의, 역사에 관련된, 역사적인"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "history",
-          "mean": "역사 (history)"
-        },
-        {
-          "part": "-ical",
-          "mean": "~에 관한"
+          "en": "The museum has many **historical** documents.",
+          "ko": "그 박물관은 많은 역사적 문건을 소장하고 있다.",
+          "source": ""
         }
-      ],
-      "origin": "역사에 관한"
+      ]
     },
     {
       "en": "considerable",
-      "ipa": "/kənˈsɪdərəbl/",
+      "ipa": ["[kənsídərəbəl]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "상당한",
-            "적지 않은"
-          ]
+            "1 (양·정도 등이) 상당한, 많은",
+            "2 고려해야 할, 중요한"
+          ],
+          "syn_ant": {
+            "1": {"syn": ["significant"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "consider",
-          "mean": "고려하다 (consider)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
-        }
+      "derivatives": [
+        {"en": "considerably", "pos": "부", "defs": ["많이, 상당히"]}
       ],
-      "origin": "고려할 만한 → 상당한"
+      "examples": [
+        {
+          "en": "Developing expertise requires **considerable** training and effort.",
+          "ko": "전문성을 개발하는데는 상당한 훈련과 노력이 필요하다.",
+          "source": "수능"
+        }
+      ]
     },
     {
       "en": "considerate",
-      "ipa": "/kənˈsɪdərət/",
+      "ipa": ["[kənsídərit]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "사려 깊은",
-            "배려하는"
-          ]
+          "defs": ["사려 깊은, 배려하는"],
+          "syn_ant": {
+            "0": {"syn": ["thoughtful"], "ant": ["inconsiderate"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "consider",
-          "mean": "고려하다 (consider)"
-        },
-        {
-          "part": "-ate",
-          "mean": "~의 성질을 가진"
-        }
+      "derivatives": [
+        {"en": "consideration", "pos": "명", "defs": ["1 숙고, 고려 (사항)", "2 참작, 배려"]}
       ],
-      "origin": "남을 고려하는 → 사려 깊은"
+      "phrases": [
+        {"en": "take into consideration", "ko": "…을 고려하다"}
+      ],
+      "examples": [
+        {
+          "en": "He was an honest and **considerate** person.",
+          "ko": "그는 정직하고 사려 깊은 사람이었다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "sensible",
-      "ipa": "/ˈsensəbl/",
+      "ipa": ["[sénsəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "분별 있는",
-            "실용적인"
-          ]
+          "defs": ["분별[지각] 있는, 현명한"],
+          "syn_ant": {
+            "0": {"syn": ["rational"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "sense",
-          "mean": "감각, 분별력 (sense)"
-        },
-        {
-          "part": "-ible",
-          "mean": "~할 수 있는"
+          "en": "\"If everyone's doing it, it must be a **sensible** thing to do,\" explains famous psychologist Robert Cialdini.",
+          "ko": "\"만약 모두가 그렇게 하고 있다면, 합리적인 일임에 틀림없습니다.\"라고 유명한 심리학자인 Robert Cialdini는 설명한다.",
+          "source": "모의"
         }
-      ],
-      "origin": "분별할 수 있는"
+      ]
     },
     {
       "en": "sensitive",
-      "ipa": "/ˈsensətɪv/",
+      "ipa": ["[sénsətiv]"],
       "meanings": [
         {
           "pos": "형",
           "defs": [
-            "민감한",
-            "예민한"
-          ]
+            "1 섬세한",
+            "2 민감한, 예민한"
+          ],
+          "syn_ant": {
+            "2": {"ant": ["insensitive"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "sense",
-          "mean": "감각 (sense)"
-        },
-        {
-          "part": "-itive",
-          "mean": "~하는 성질의"
-        }
+      "derivatives": [
+        {"en": "sensitivity", "pos": "명", "defs": ["세심함; 민감, 예민함"]}
       ],
-      "origin": "감각이 예민한"
+      "examples": [
+        {
+          "en": "Are your eyes **sensitive** to bright lights?",
+          "ko": "네 눈은 밝은 빛에 민감하니?",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "respectable",
-      "ipa": "/rɪˈspektəbl/",
+      "ipa": ["[rispéktəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "존경할 만한",
-            "상당한"
-          ]
+          "defs": ["존경할 만한, 훌륭한"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "respect",
-          "mean": "존경 (respect)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 만한"
+          "en": "He is a **respectable** man admired by many.",
+          "ko": "그는 많은 사람에게 인정받는 존경할 만한 사람이다.",
+          "source": ""
         }
-      ],
-      "origin": "존경할 만한"
+      ]
     },
     {
       "en": "respectful",
-      "ipa": "/rɪˈspektfl/",
+      "ipa": ["[rispéktfəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "공손한",
-            "예의 바른"
-          ]
+          "defs": ["존경[존중]하는, 공손한"],
+          "syn_ant": {
+            "0": {"ant": ["disrespectful"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "respect",
-          "mean": "존경 (respect)"
-        },
-        {
-          "part": "-ful",
-          "mean": "~이 가득한"
-        }
+      "derivatives": [
+        {"en": "respectfully", "pos": "부", "defs": ["공손히, 정중하게"]}
       ],
-      "origin": "존경이 가득한 → 공손한"
+      "examples": [
+        {
+          "en": "There was a **respectful** silence when the king entered the room.",
+          "ko": "왕이 방에 들어서자 경의를 표하는 침묵이 흘렀다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "intellectual",
-      "ipa": "/ˌɪntəˈlektʃuəl/",
+      "ipa": ["[ìntəléktʃuəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "지적인"
-          ]
-        },
-        {
-          "pos": "명",
-          "defs": [
-            "지식인"
-          ]
+          "defs": ["지적인, 지성의"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "intellect",
-          "mean": "지성 (intellect)"
-        },
-        {
-          "part": "-ual",
-          "mean": "~의 성질을 가진"
+          "en": "They will provide us with **intellectual** stimulation and inspire new insights and creativity.",
+          "ko": "그것은 우리에게 지적인 자극을 제공하고, 새로운 통찰력과 창의성을 불러일으킬 것이다.",
+          "source": "모의"
         }
-      ],
-      "origin": "지성의 → 지적인"
+      ]
     },
     {
       "en": "intelligent",
-      "ipa": "/ɪnˈtelɪdʒənt/",
+      "ipa": ["[intélidʒənt]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "총명한",
-            "지능이 높은"
-          ]
+          "defs": ["(사람·동물의 머리가) 영리한, 총명한"],
+          "syn_ant": {
+            "0": {"syn": ["clever"], "ant": ["unintelligent"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "intellig",
-          "mean": "이해하다 (understand)"
-        },
-        {
-          "part": "-ent",
-          "mean": "~하는 성질의"
-        }
+      "derivatives": [
+        {"en": "intelligence", "pos": "명", "defs": ["지능, 이해력"]}
       ],
-      "origin": "이해하는 → 총명한"
+      "phrases": [
+        {"en": "artificial intelligence (AI)", "ko": "인공지능"}
+      ],
+      "examples": [
+        {
+          "en": "You must be **intelligent** to understand the professor's lectures.",
+          "ko": "그 교수님의 강의를 이해하다니 머리가 좋구나.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "literal",
-      "ipa": "/ˈlɪtərəl/",
+      "ipa": ["[lítərəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "문자 그대로의"
-          ]
+          "defs": ["글자 그대로의"]
         }
       ],
-      "parts": [
-        {
-          "part": "liter",
-          "mean": "글자 (letter)"
-        },
-        {
-          "part": "-al",
-          "mean": "~에 관한"
-        }
+      "derivatives": [
+        {"en": "literally", "pos": "부", "defs": ["글자 그대로"]}
       ],
-      "origin": "글자에 관한 → 문자 그대로의"
+      "examples": [
+        {
+          "en": "The **literal** meaning of \"break a leg\" is very different from its actual use.",
+          "ko": "'Break a leg'의 문자 그대로의 의미는 실제 사용되는 의미와 매우 다르다. (break a leg는 행운을 빈다는 뜻)",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "literary",
-      "ipa": "/ˈlɪtəreri/",
+      "ipa": ["[lítərèri]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "문학의"
-          ]
+          "defs": ["문학의, 문예의"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "liter",
-          "mean": "글자 (letter)"
-        },
-        {
-          "part": "-ary",
-          "mean": "~에 관한"
+          "en": "**Literary** works include novels and plays.",
+          "ko": "문학 작품은 소설과 극을 포함한다.",
+          "source": ""
         }
-      ],
-      "origin": "글에 관한 → 문학의"
+      ]
     },
     {
       "en": "literate",
-      "ipa": "/ˈlɪtərət/",
+      "ipa": ["[lítərit]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "글을 읽고 쓸 줄 아는"
-          ]
+          "defs": ["읽고 쓸 줄 아는"],
+          "syn_ant": {
+            "0": {"ant": ["illiterate"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "liter",
-          "mean": "글자 (letter)"
-        },
-        {
-          "part": "-ate",
-          "mean": "~의 성질을 가진"
-        }
+      "derivatives": [
+        {"en": "literacy", "pos": "명", "defs": ["읽고 쓰는 능력"]}
       ],
-      "origin": "글자를 아는"
+      "examples": [
+        {
+          "en": "Thanks to the education system, most of the nation's population is **literate**.",
+          "ko": "교육 제도 덕분에 그 나라의 인구 대부분은 읽고 쓸 줄 안다.",
+          "source": ""
+        }
+      ]
     },
     {
       "en": "social",
-      "ipa": "/ˈsoʊʃl/",
+      "ipa": ["[sóuʃəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "사회의",
-            "사회적인"
-          ]
+          "defs": ["사회의, 사회적인"]
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "soci",
-          "mean": "친구, 동반자 (companion)"
-        },
-        {
-          "part": "-al",
-          "mean": "~에 관한"
+          "en": "The country suffers from many **social** problems.",
+          "ko": "그 나라는 많은 사회적 문제로 고통받고 있다.",
+          "source": ""
         }
-      ],
-      "origin": "동반자에 관한 → 사회의"
+      ]
     },
     {
       "en": "sociable",
-      "ipa": "/ˈsoʊʃəbl/",
+      "ipa": ["[sóuʃəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "사교적인",
-            "붙임성 있는"
-          ]
+          "defs": ["사교적인, 붙임성 있는"],
+          "syn_ant": {
+            "0": {"ant": ["unsociable"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "soci",
-          "mean": "친구 (companion)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
+          "en": "If Donna were more **sociable**, she would have more friends.",
+          "ko": "Donna가 좀 더 사교적이라면 친구가 더 많을 텐데.",
+          "source": ""
         }
-      ],
-      "origin": "친구가 될 수 있는 → 사교적인"
+      ]
     },
     {
       "en": "comparable",
-      "ipa": "/ˈkɑːmpərəbl/",
+      "ipa": ["[kɑ́ːmpərəbəl]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "비교할 만한",
-            "비슷한"
-          ]
+          "defs": ["비교될 만한, 비슷한"],
+          "syn_ant": {
+            "0": {"syn": ["equivalent"], "ant": ["incomparable"]}
+          }
         }
       ],
-      "parts": [
+      "examples": [
         {
-          "part": "compare",
-          "mean": "비교하다 (compare)"
-        },
-        {
-          "part": "-able",
-          "mean": "~할 수 있는"
+          "en": "This is an excellent restaurant, **comparable** to some of the best in France.",
+          "ko": "이곳은 프랑스 최고의 레스토랑과 견줄 만한 훌륭한 레스토랑이다.",
+          "source": "수능"
         }
-      ],
-      "origin": "비교할 수 있는"
+      ]
     },
     {
       "en": "comparative",
-      "ipa": "/kəmˈpærətɪv/",
+      "ipa": ["[kəmpǽrətiv]"],
       "meanings": [
         {
           "pos": "형",
-          "defs": [
-            "비교의",
-            "상대적인"
-          ]
+          "defs": ["비교의, 비교적인, 상대적인"],
+          "syn_ant": {
+            "0": {"syn": ["relative"], "ant": ["absolute"]}
+          }
         }
       ],
-      "parts": [
-        {
-          "part": "compare",
-          "mean": "비교하다 (compare)"
-        },
-        {
-          "part": "-ative",
-          "mean": "~하는 성질의"
-        }
+      "derivatives": [
+        {"en": "comparatively", "pos": "부", "defs": ["비교적, 어느 정도"]}
       ],
-      "origin": "비교하는 → 비교의"
+      "examples": [
+        {
+          "en": "The **comparative** comfort of a new car model attracts many buyers.",
+          "ko": "새로운 자동차 모델의 상대적인 편안함은 많은 구매자를 끌어들인다.",
+          "source": ""
+        }
+      ]
     }
   ]
 }
