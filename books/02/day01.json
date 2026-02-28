@@ -13,7 +13,17 @@
           "defs": [
             "1 *진보, 발전*",
             "2 진전, 진행; 전진"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "advance"
+              ],
+              "ant": [
+                "regression"
+              ]
+            }
+          }
         },
         {
           "pos": "동",
@@ -34,12 +44,6 @@
         }
       ],
       "origin": "앞으로 나아감 → 진보, 발전",
-      "synonyms": [
-        "advance"
-      ],
-      "antonyms": [
-        "regression"
-      ],
       "derivatives": [
         {
           "en": "progressive",
@@ -47,7 +51,14 @@
           "defs": [
             "1 진보[혁신]적인",
             "2 점진적인"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "ant": [
+                "conservative"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -70,7 +81,14 @@
             "1 제안하다",
             "2 *(이론 등을) 제시하다*",
             "3 청혼하다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "suggest"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -84,9 +102,6 @@
         }
       ],
       "origin": "앞으로 내놓다 → 제안하다",
-      "synonyms": [
-        "suggest"
-      ],
       "derivatives": [
         {
           "en": "proposal",
@@ -131,7 +146,17 @@
           "pos": "동",
           "defs": [
             "*생산[제조]하다*"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "manufacture"
+              ],
+              "ant": [
+                "consume"
+              ]
+            }
+          }
         },
         {
           "pos": "명",
@@ -151,33 +176,51 @@
         }
       ],
       "origin": "앞으로 이끌어내다 → 앞에 내놓다\n→ 생산하다",
-      "synonyms": [
-        "manufacture"
-      ],
-      "antonyms": [
-        "consume"
-      ],
       "derivatives": [
         {
           "en": "producer",
           "pos": "명",
           "defs": [
             "생산자, 제작자"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "manufacturer"
+              ],
+              "ant": [
+                "consumer"
+              ]
+            }
+          }
         },
         {
           "en": "product",
           "pos": "명",
           "defs": [
             "생산품, 제품"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "goods"
+              ]
+            }
+          }
         },
         {
           "en": "production",
           "pos": "명",
           "defs": [
             "생산, 제조"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "ant": [
+                "consumption"
+              ]
+            }
+          }
         },
         {
           "en": "productive",
@@ -185,7 +228,19 @@
           "defs": [
             "1 생산적인, 결실이 많은",
             "2 비옥한"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "fruitful"
+              ]
+            },
+            "2": {
+              "syn": [
+                "fertile"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -211,7 +266,18 @@
           "pos": "동",
           "defs": [
             "보호하다, 막다, 지키다"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "guard",
+                "defend"
+              ],
+              "ant": [
+                "attack"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -225,13 +291,6 @@
         }
       ],
       "origin": "앞으로 나와 막아주다 → 보호하다",
-      "synonyms": [
-        "guard",
-        "defend"
-      ],
-      "antonyms": [
-        "attack"
-      ],
       "derivatives": [
         {
           "en": "protection",
@@ -345,7 +404,16 @@
           "pos": "동",
           "defs": [
             "예언하다, 예측[예상]하다"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "anticipate",
+                "foresee",
+                "forecast"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -359,11 +427,6 @@
         }
       ],
       "origin": "미리 말하다 → 예언하다",
-      "synonyms": [
-        "anticipate",
-        "foresee",
-        "forecast"
-      ],
       "derivatives": [
         {
           "en": "prediction",
@@ -377,7 +440,14 @@
           "pos": "형",
           "defs": [
             "예측 가능한, 뻔한"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "ant": [
+                "unpredictable"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -527,7 +597,14 @@
           "pos": "명",
           "defs": [
             "소득, 수입"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "earnings"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -541,9 +618,6 @@
         }
       ],
       "origin": "안으로 들어오는 것 → 소득",
-      "synonyms": [
-        "earnings"
-      ],
       "examples": [
         {
           "en": "Her monthly income is less than $1,000.",
@@ -703,7 +777,14 @@
           "pos": "형",
           "defs": [
             "내재된, 고유의"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "intrinsic"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -717,9 +798,6 @@
         }
       ],
       "origin": "안에 붙어 있는 → 내재된",
-      "synonyms": [
-        "intrinsic"
-      ],
       "derivatives": [
         {
           "en": "inherently",
@@ -798,7 +876,16 @@
           "defs": [
             "1 수사[조사]하다",
             "2 *조사[연구]하다*"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "research",
+                "examine",
+                "inspect"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -812,11 +899,6 @@
         }
       ],
       "origin": "안으로 추적하다 → 깊이 추적하여 조사하다",
-      "synonyms": [
-        "research",
-        "examine",
-        "inspect"
-      ],
       "derivatives": [
         {
           "en": "investigation",
@@ -904,7 +986,15 @@
           "pos": "명",
           "defs": [
             "결과, 성과"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "result",
+                "consequence"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -918,10 +1008,6 @@
         }
       ],
       "origin": "밖으로 나온 것 → 결과, 성과",
-      "synonyms": [
-        "result",
-        "consequence"
-      ],
       "examples": [
         {
           "en": "What was the outcome of the presidential election?",
@@ -980,7 +1066,19 @@
           "pos": "형",
           "defs": [
             "뛰어난, 아주 훌륭한, 두드러진"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "excellent",
+                "prominent",
+                "notable"
+              ],
+              "ant": [
+                "ordinary(보통의)"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -994,14 +1092,6 @@
         }
       ],
       "origin": "밖으로 뛰어나온 → 뛰어난, 두드러진",
-      "synonyms": [
-        "excellent",
-        "prominent",
-        "notable"
-      ],
-      "antonyms": [
-        "ordinary(보통의)"
-      ],
       "examples": [
         {
           "en": "The student had an outstanding talent for mathematics.",
@@ -1057,16 +1147,6 @@
           ]
         }
       ],
-      "parts": [
-        {
-          "part": "out",
-          "mean": "밖으로"
-        },
-        {
-          "part": "let",
-          "mean": "내보내다"
-        }
-      ],
       "origin": "let out(밖으로 내보내다)에서 온 말",
       "examples": [
         {
@@ -1086,19 +1166,35 @@
           "pos": "형",
           "defs": [
             "(명사 앞에서) 완전한, 전적인"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "complete",
+                "total"
+              ]
+            }
+          }
         },
         {
           "pos": "동",
           "defs": [
             "1 말하다",
             "2 (소리 등을) 내다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "say",
+                "speak"
+              ]
+            }
+          }
         }
       ],
       "parts": [
         {
-          "part": "ut",
+          "part": "utt",
           "mean": "= outside"
         },
         {
@@ -1107,19 +1203,21 @@
         }
       ],
       "origin": "더욱 밖으로 뛰어나온\n→ 다른 것보다 더 완전한",
-      "synonyms": [
-        "complete",
-        "total",
-        "say",
-        "speak"
-      ],
       "derivatives": [
         {
           "en": "utterly",
           "pos": "부",
           "defs": [
             "완전히, 철저히"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "completely",
+                "totally"
+              ]
+            }
+          }
         },
         {
           "en": "utterance",
@@ -1127,7 +1225,14 @@
           "defs": [
             "1 (입 밖으로 낸) 말, 언급된 것",
             "2 말하는 행동, 발화, 발성"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "statement"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -1153,7 +1258,14 @@
           "pos": "형",
           "defs": [
             "최대의, 극도의"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "extreme"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -1167,9 +1279,6 @@
         }
       ],
       "origin": "가장 많은 것보다 더 많은 → 극도의",
-      "synonyms": [
-        "extreme"
-      ],
       "examples": [
         {
           "en": "All drugs should be treated with the utmost care.",

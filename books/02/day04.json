@@ -11,7 +11,14 @@
           "pos": "형",
           "defs": [
             "국제적인, 국가 간의"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "ant": [
+                "domestic(국내의)"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -25,9 +32,6 @@
         }
       ],
       "origin": "국가와 국가 사이의",
-      "antonyms": [
-        "domestic(국내의)"
-      ],
       "examples": [
         {
           "en": "I majored in international trade.",
@@ -53,7 +57,19 @@
             "1 통역하다",
             "2 *(…의 의미로) 이해[해석]하다, 파악하다*",
             "3 (자기 해석에 따라) 연주[연기]하다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "translate"
+              ]
+            },
+            "2": {
+              "syn": [
+                "understand"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -67,10 +83,6 @@
         }
       ],
       "origin": "[원뜻] 중간에서 양쪽의 가격을 설명하다\n→ 통역하다",
-      "synonyms": [
-        "translate",
-        "understand"
-      ],
       "derivatives": [
         {
           "en": "interpretation",
@@ -84,7 +96,14 @@
           "pos": "명",
           "defs": [
             "통역관"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "translator"
+              ]
+            }
+          }
         }
       ],
       "phrases": [
@@ -159,7 +178,21 @@
           "defs": [
             "1 (+ in) 간섭하다",
             "2 (+ with) *방해하다*"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "meddle in",
+                "intrude"
+              ]
+            },
+            "2": {
+              "syn": [
+                "get in the way of",
+                "obstruct"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -173,12 +206,6 @@
         }
       ],
       "origin": "서로 치다 → 간섭하다",
-      "synonyms": [
-        "meddle in",
-        "intrude",
-        "get in the way of",
-        "obstruct"
-      ],
       "derivatives": [
         {
           "en": "interference",
@@ -267,7 +294,18 @@
             "1 *이동시키다, 옮기다, 전달하다; 전근[전학]하다*",
             "2 갈아타다",
             "3 (파일·데이터 등을) 전송하다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "move",
+                "transport"
+              ],
+              "ant": [
+                "retain"
+              ]
+            }
+          }
         },
         {
           "pos": "명",
@@ -289,13 +327,6 @@
         }
       ],
       "origin": "이쪽에서 저쪽으로 나르다\n→ 이동시키다, 옮기다",
-      "synonyms": [
-        "move",
-        "transport"
-      ],
-      "antonyms": [
-        "retain"
-      ],
       "examples": [
         {
           "en": "How long does it take to transfer money internationally?",
@@ -324,7 +355,16 @@
           "pos": "동",
           "defs": [
             "변형[변화]시키다"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "change",
+                "convert",
+                "alter"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -338,11 +378,6 @@
         }
       ],
       "origin": "형태를 이쪽에서 저쪽으로 바꾸다",
-      "synonyms": [
-        "change",
-        "convert",
-        "alter"
-      ],
       "derivatives": [
         {
           "en": "transformation",
@@ -443,7 +478,18 @@
           "defs": [
             "1 *커지다, 팽창하다; 넓히다, 확대[팽창]시키다*",
             "2 (사업·조직 등을) 확장[확대]하다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "widen"
+              ],
+              "ant": [
+                "contract(수축하다)",
+                "shrink"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -457,13 +503,6 @@
         }
       ],
       "origin": "밖으로 펼쳐지다",
-      "synonyms": [
-        "widen"
-      ],
-      "antonyms": [
-        "contract(수축하다)",
-        "shrink"
-      ],
       "derivatives": [
         {
           "en": "expansion",
@@ -552,7 +591,15 @@
           "pos": "동",
           "defs": [
             "설명하다, 해명하다"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "account for",
+                "describe"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -566,10 +613,6 @@
         }
       ],
       "origin": "밖으로 드러내어 분명하게 하다",
-      "synonyms": [
-        "account for",
-        "describe"
-      ],
       "derivatives": [
         {
           "en": "explanation",
@@ -603,7 +646,20 @@
           "defs": [
             "1 분명한, 명백한, 뚜렷한",
             "2 노골적인, 숨김없는"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "ant": [
+                "implicit(암시된)",
+                "vague"
+              ]
+            },
+            "2": {
+              "syn": [
+                "frank"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -621,20 +677,20 @@
         }
       ],
       "origin": "접은 것을 밖으로 펼쳐 보이는",
-      "antonyms": [
-        "implicit(암시된)",
-        "vague"
-      ],
-      "synonyms": [
-        "frank"
-      ],
       "derivatives": [
         {
           "en": "explicitly",
           "pos": "부",
           "defs": [
             "명백하게"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "ant": [
+                "implicitly"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -656,7 +712,19 @@
           "defs": [
             "1 *지치게 하다*",
             "2 다 써 버리다, 고갈시키다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "tire out"
+              ]
+            },
+            "2": {
+              "syn": [
+                "use up"
+              ]
+            }
+          }
         },
         {
           "pos": "명",
@@ -676,10 +744,6 @@
         }
       ],
       "origin": "밖으로 (에너지를) 완전히 퍼내다",
-      "synonyms": [
-        "tire out",
-        "use up"
-      ],
       "derivatives": [
         {
           "en": "exhausted",
@@ -687,7 +751,14 @@
           "defs": [
             "1 기진맥진한",
             "2 다 써 버린, 소모된, 고갈된"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "worn out"
+              ]
+            }
+          }
         },
         {
           "en": "exhaustion",
@@ -723,7 +794,15 @@
           "defs": [
             "1 *(햇빛·위험·특정 환경 등에) 노출시키다*",
             "2 (가려진 것을) 드러내다; 폭로하다"
-          ]
+          ],
+          "syn_ant": {
+            "2": {
+              "syn": [
+                "reveal",
+                "disclose"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -737,10 +816,6 @@
         }
       ],
       "origin": "밖으로 내놓다",
-      "synonyms": [
-        "reveal",
-        "disclose"
-      ],
       "derivatives": [
         {
           "en": "exposure",
@@ -756,7 +831,14 @@
           "defs": [
             "1 설명, 해설",
             "2 전시[박람]회 (줄여서 expo)"
-          ]
+          ],
+          "syn_ant": {
+            "2": {
+              "syn": [
+                "exhibition"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -789,7 +871,14 @@
             "1 *조사[검사]하다*",
             "2 시험하다",
             "3 진찰하다"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "inspect"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -803,9 +892,6 @@
         }
       ],
       "origin": "밖으로 움직이게 하다 → 밖으로 나오게\n하여 조사하다",
-      "synonyms": [
-        "inspect"
-      ],
       "derivatives": [
         {
           "en": "examination",
@@ -813,7 +899,14 @@
           "defs": [
             "1 조사, 검사",
             "2 시험 (줄여서 exam)"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "inspection"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -839,7 +932,15 @@
           "pos": "동",
           "defs": [
             "과장하다, 과장해서 말하다"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "overstate",
+                "magnify"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -857,10 +958,6 @@
         }
       ],
       "origin": "(보다) 크게 쌓아올리다 → 과장하다",
-      "synonyms": [
-        "overstate",
-        "magnify"
-      ],
       "derivatives": [
         {
           "en": "exaggeration",
@@ -889,7 +986,15 @@
           "defs": [
             "1 *교환, 주고받기*",
             "2 환전"
-          ]
+          ],
+          "syn_ant": {
+            "1": {
+              "syn": [
+                "trade",
+                "barter"
+              ]
+            }
+          }
         },
         {
           "pos": "동",
@@ -909,10 +1014,6 @@
         }
       ],
       "origin": "서로 완전히 바꾸기",
-      "synonyms": [
-        "trade",
-        "barter"
-      ],
       "phrases": [
         {
           "en": "in exchange for",
@@ -942,7 +1043,15 @@
           "pos": "동",
           "defs": [
             "도망치다, 탈출하다; 벗어나다"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "get away",
+                "run away"
+              ]
+            }
+          }
         },
         {
           "pos": "명",
@@ -962,10 +1071,6 @@
         }
       ],
       "origin": "망토에서 벗어나다 → 망토만 남기고\n(추적자를) 피하다 → 도망치다",
-      "synonyms": [
-        "get away",
-        "run away"
-      ],
       "examples": [
         {
           "en": "In contrast to mice, bats can fly, which is why they can escape from danger much faster.",
@@ -1035,7 +1140,14 @@
           "pos": "명",
           "defs": [
             "대화, 문답, 회화"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "conversation"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -1049,9 +1161,6 @@
         }
       ],
       "origin": "서로 간에 이야기하는 것",
-      "synonyms": [
-        "conversation"
-      ],
       "examples": [
         {
           "en": "The dialogue between the two characters was full of emotion.",
@@ -1212,7 +1321,14 @@
           "pos": "형",
           "defs": [
             "오도하는, 오해의 소지가 있는"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "deceptive"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -1230,9 +1346,6 @@
         }
       ],
       "origin": "(남을) 잘못 이끄는",
-      "synonyms": [
-        "deceptive"
-      ],
       "derivatives": [
         {
           "en": "mislead",
@@ -1240,7 +1353,14 @@
           "defs": [
             "1 잘못 인도하다",
             "2 속이다, 오해하게 하다"
-          ]
+          ],
+          "syn_ant": {
+            "2": {
+              "syn": [
+                "deceive"
+              ]
+            }
+          }
         }
       ],
       "examples": [
@@ -1266,7 +1386,17 @@
           "pos": "명",
           "defs": [
             "불운, 불행, 역경"
-          ]
+          ],
+          "syn_ant": {
+            "0": {
+              "syn": [
+                "adversity"
+              ],
+              "ant": [
+                "fortune"
+              ]
+            }
+          }
         }
       ],
       "parts": [
@@ -1280,12 +1410,6 @@
         }
       ],
       "origin": "나쁜 운 → 불운, 불행",
-      "synonyms": [
-        "adversity"
-      ],
-      "antonyms": [
-        "fortune"
-      ],
       "examples": [
         {
           "en": "The farmer bore his misfortunes with patience.",
